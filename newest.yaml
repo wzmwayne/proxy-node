@@ -24,95 +24,33 @@ dns:
     - https://1.1.1.1/dns-query#🚀 节点选择
     - https://8.8.8.8/dns-query#🚀 节点选择
 proxies:
-- name: 🇹🇭TH泰国丨yoyapai.com
+- name: 🇺🇸美國丨yoyapai.com
   type: vless
-  server: 18.239.134.69
-  port: 80
-  uuid: de27291c-15a9-4256-9ba7-ad517569877e
+  server: 162.159.156.214
+  port: 8880
+  uuid: 12cebf33-2f96-48a3-af37-c2231e5cef75
   network: ws
   tls: false
-  client-fingerprint: qq
   ws-opts:
-    path: /
+    path: /pyip=ProxyIP.US.CMLiussss.net
     headers:
-      Host: d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com
+      Host: throbbing-moon-a07c.90-ec4.workers.dev
   skip-cert-verify: true
   udp: true
-- name: 🇺🇸US美國丨yoyapai.com
+- name: 🇺🇸美國丨yoyapai.com_1
   type: vless
-  server: www.true.th
-  port: 443
-  uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
+  server: 45.40.150.4
+  port: 80
+  uuid: 72c2b7cc-fcd9-494f-8a2e-21dcd062ff11
   network: ws
-  servername: d1yxsk0zprgivr.cloudfront.net
-  tls: true
-  client-fingerprint: chrome
+  tls: false
   ws-opts:
-    path: /
+    path: /pyip=Telegram🇨🇳++
     headers:
-      Host: d1yxsk0zprgivr.cloudfront.net
-  skip-cert-verify: true
-  udp: true
-- name: 🇺🇸US美國丨yoyapai.com_1
-  type: vless
-  server: www.true.th
-  port: 443
-  uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
-  network: ws
-  servername: d1yxsk0zprgivr.cloudfront.net
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: d1yxsk0zprgivr.cloudfront.net
+      Host: holy-breeze-0bac.47-dec.workers.dev
   skip-cert-verify: true
   udp: true
 - name: ❓未知丨yoyapai.com
-  type: vless
-  server: www.true.th
-  port: 443
-  uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
-  network: ws
-  servername: d1yxsk0zprgivr.cloudfront.net
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: d1yxsk0zprgivr.cloudfront.net
-  skip-cert-verify: true
-  udp: true
-- name: ❓未知丨yoyapai.com_1
-  type: vless
-  server: www.true.th
-  port: 443
-  uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
-  network: ws
-  servername: d1yxsk0zprgivr.cloudfront.net
-  tls: true
-  ws-opts:
-    path: /
-    headers:
-      Host: d1yxsk0zprgivr.cloudfront.net
-  skip-cert-verify: true
-  udp: true
-- name: 🇹🇭TH泰國丨yoyapai.com
-  type: vless
-  server: www.true.th
-  port: 443
-  uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
-  network: ws
-  servername: d1yxsk0zprgivr.cloudfront.net
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: d1yxsk0zprgivr.cloudfront.net
-  skip-cert-verify: true
-  udp: true
-- name: ❓未知丨yoyapai.com_2
   type: vless
   server: 50.62.194.30
   port: 8880
@@ -125,102 +63,126 @@ proxies:
       Host: vms.lifetime37.workers.dev
   skip-cert-verify: true
   udp: true
-- name: 🇺🇸美國丨yoyapai.com
+- name: ❓免費節點丨yoyapai.com
   type: vless
-  server: www.true.th
-  port: 443
-  uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
+  server: 45.40.150.4
+  port: 80
+  uuid: 72c2b7cc-fcd9-494f-8a2e-21dcd062ff11
   network: ws
-  servername: d1yxsk0zprgivr.cloudfront.net
-  tls: true
-  client-fingerprint: chrome
+  tls: false
+  ws-opts:
+    path: /pyip=Telegram🇨🇳++
+    headers:
+      Host: holy-breeze-0bac.47-dec.workers.dev
+  skip-cert-verify: true
+  udp: true
+- name: ❓未知丨yoyapai.com_1
+  type: vless
+  server: 91.206.71.8
+  port: 80
+  uuid: c20a0bcf-aa6f-4c35-9e62-a39b47b04e73
+  network: ws
+  tls: false
+  ws-opts:
+    path: /pyip=Telegram🇨🇳+@WangCai2
+    headers:
+      Host: round-haze-8783.294.workers.dev
+  skip-cert-verify: true
+  udp: true
+- name: 🇸🇬SG新加坡丨yoyapai.com
+  type: vless
+  server: 45.40.149.50
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  tls: false
   ws-opts:
     path: /
+    headers:
+      Host: vms.lifetime39.workers.dev
   skip-cert-verify: true
   udp: true
-- name: 🇺🇸US美國丨yoyapai.com_2
+- name: 🇫🇷法國丨yoyapai.com
   type: vless
-  server: dey.lnmarketplace.net
-  port: 443
-  uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
-  network: http
-  servername: dey.lnmarketplace.net
-  tls: true
-  client-fingerprint: firefox
-  http-opts:
-    path:
-    - /kavir
+  server: 94.140.0.100
+  port: 8880
+  uuid: 78e6619e-e82a-cd8d-b482-0973d8498305
+  network: ws
+  tls: false
+  ws-opts:
+    path: /sync
     headers:
-      Host:
-      - dey.lnmarketplace.net
+      Host: silent-pine-a674.jfadwkglaugul.workers.dev
   skip-cert-verify: true
   udp: true
-- name: ❓未知丨yoyapai.com_3
+- name: 🇨🇦CA加拿大丨yoyapai.com
   type: vless
-  server: dey.lnmarketplace.net
-  port: 443
-  uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
-  network: http
-  servername: dey.lnmarketplace.net
-  tls: true
-  client-fingerprint: firefox
-  http-opts:
-    path:
-    - /kavir
+  server: 155.46.167.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  tls: false
+  ws-opts:
     headers:
-      Host:
-      - dey.lnmarketplace.net
+      Host: vms.lifetime50.workers.dev
   skip-cert-verify: true
   udp: true
-- name: ❓未知丨yoyapai.com_4
+- name: 🇩🇪德國丨yoyapai.com
   type: vless
-  server: dey.lnmarketplace.net
-  port: 443
-  uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
-  network: http
-  servername: dey.lnmarketplace.net
-  tls: true
-  client-fingerprint: chrome
-  http-opts:
-    path:
-    - /kavir
+  server: 91.206.71.8
+  port: 80
+  uuid: c20a0bcf-aa6f-4c35-9e62-a39b47b04e73
+  network: ws
+  tls: false
+  ws-opts:
+    path: /pyip=Telegram🇨🇳 @WangCai2
     headers:
-      Host:
-      - dey.lnmarketplace.net
+      Host: round-haze-8783.294.workers.dev
   skip-cert-verify: true
   udp: true
-- name: 🇺🇸美国丨yoyapai.com
+- name: 🗽🇺🇸美國CloudFlare节点丨yoyapai.com
   type: vless
-  server: dey.lnmarketplace.net
-  port: 443
-  uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
-  network: http
-  servername: dey.lnmarketplace.net
-  tls: true
-  http-opts:
-    path:
-    - /kavir
+  server: 162.159.81.104
+  port: 80
+  uuid: 4b00d726-e072-429b-997e-f07affea3b7f
+  network: ws
+  tls: false
+  ws-opts:
+    path: /eyJqdW5rIjoiUEVTdDRlR2hhc0JuYyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzI2MDI6ZmM1OTpiMDo2NDo6XSJdfQ
     headers:
-      Host:
-      - dey.lnmarketplace.net
+      Host: icy-darkness-8ff1.farzambia12mo.workers.dev
   skip-cert-verify: true
   udp: true
-- name: ❓未知丨yoyapai.com_5
-  type: vless
-  server: dey.lnmarketplace.net
+- name: 🇫🇫🇮芬兰
+  type: vmess
+  server: 185.246.152.159
   port: 443
-  uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
-  network: http
-  servername: dey.lnmarketplace.net
+  uuid: 5f72f180-b21b-4b7a-8484-240759012604
+  alterId: 0
+  cipher: auto
   tls: true
-  client-fingerprint: chrome
-  http-opts:
-    path:
-    - /kavir
-    headers:
-      Host:
-      - dey.lnmarketplace.net
   skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /5f72f180-b21b-4b7a-8484-240759096785
+    headers:
+      Host: apjhdggyx.com
+  udp: true
+- name: 🇳🇱_荷兰
+  type: vmess
+  server: 185.246.152.159
+  port: 443
+  uuid: 5f72f180-b21b-4b7a-8484-240759012604
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: apjhdggyx.com
+  network: ws
+  ws-opts:
+    path: /5f72f180-b21b-4b7a-8484-240759096785
+    headers:
+      Host: apjhdggyx.com
   udp: true
 - name: 未知
   type: vmess
@@ -250,7 +212,7 @@ proxies:
       Host: rubifen.adaspoloandco.com
   skip-cert-verify: true
   udp: true
-- name: ❓未知丨yoyapai.com_6
+- name: 🇺🇸美国丨yoyapai.com
   type: vless
   server: dey.lnmarketplace.net
   port: 443
@@ -258,7 +220,6 @@ proxies:
   network: http
   servername: dey.lnmarketplace.net
   tls: true
-  client-fingerprint: chrome
   http-opts:
     path:
     - /kavir
@@ -267,25 +228,60 @@ proxies:
       - dey.lnmarketplace.net
   skip-cert-verify: true
   udp: true
-- name: ❓未知丨yoyapai.com_7
-  type: vless
-  server: dey.lnmarketplace.net
+- name: ❓未知丨yoyapai.com_2
+  type: trojan
+  server: 104.26.14.137
   port: 443
-  uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
-  network: http
-  servername: dey.lnmarketplace.net
-  tls: true
-  client-fingerprint: chrome
-  http-opts:
-    path:
-    - /kavir
-    headers:
-      Host:
-      - dey.lnmarketplace.net
+  password: humanity
+  sni: www.ignitelimit.com
   skip-cert-verify: true
+  tls: true
+  ws-opts:
+    path: /assignment
+  udp: true
+- name: ❓未知丨yoyapai.com_3
+  type: trojan
+  server: 104.26.14.137
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: true
+  tls: true
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.ignitelimit.com
   udp: true
 - name: 🇫🇷FR法國丨yoyapai.com
   type: trojan
+  server: www.speedtest.org
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: true
+  tls: true
+  ws-opts:
+    path: /assignment
+  udp: true
+- name: 🇺🇸US美國丨yoyapai.com
+  type: vless
+  server: dey.lnmarketplace.net
+  port: 443
+  uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
+  network: http
+  servername: dey.lnmarketplace.net
+  tls: true
+  client-fingerprint: firefox
+  http-opts:
+    path:
+    - /kavir
+    headers:
+      Host:
+      - dey.lnmarketplace.net
+  skip-cert-verify: true
+  udp: true
+- name: 🇺🇸US美國丨yoyapai.com_1
+  type: trojan
   server: 104.26.15.137
   port: 443
   password: humanity
@@ -295,31 +291,7 @@ proxies:
   ws-opts:
     path: /assignment
   udp: true
-- name: ❓未知丨yoyapai.com_8
-  type: trojan
-  server: 104.26.14.137
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  tls: true
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.ignitelimit.com
-  udp: true
-- name: ❓未知丨yoyapai.com_9
-  type: trojan
-  server: 104.26.14.137
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  tls: true
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: 🇺🇸US美國丨yoyapai.com_3
+- name: 🇫🇷FR法國丨yoyapai.com_1
   type: trojan
   server: 104.26.15.137
   port: 443
@@ -330,55 +302,26 @@ proxies:
   ws-opts:
     path: /assignment
   udp: true
-- name: 🇨🇦CA加拿大丨yoyapai.com
-  type: trojan
-  server: 104.18.152.204
+- name: ❓未知丨yoyapai.com_4
+  type: vless
+  server: dey.lnmarketplace.net
   port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
+  uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
+  network: http
+  servername: dey.lnmarketplace.net
   tls: true
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: 🇺🇸US美国丨yoyapai.com
-  type: trojan
-  server: 104.16.174.6
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  tls: true
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: 🇨🇦CA加拿大丨yoyapai.com_1
-  type: trojan
-  server: 104.18.152.208
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  tls: true
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: 🇨🇦CA加拿大丨yoyapai.com_2
-  type: trojan
-  server: 104.16.174.44
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  tls: true
-  ws-opts:
-    path: /assignment
+  client-fingerprint: chrome
+  http-opts:
+    path:
+    - /kavir
     headers:
-      Host: www.ignitelimit.com
+      Host:
+      - dey.lnmarketplace.net
+  skip-cert-verify: true
   udp: true
-- name: 🇨🇦CA加拿大丨yoyapai.com_3
+- name: 🇫🇷FR法国丨yoyapai.com
   type: trojan
-  server: 104.18.152.229
+  server: 104.18.152.207
   port: 443
   password: humanity
   sni: www.ignitelimit.com
@@ -389,29 +332,7 @@ proxies:
   udp: true
 - name: 🇫🇷法国丨yoyapai.com
   type: trojan
-  server: 104.18.152.133
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  tls: true
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: 🇹🇷TR土耳其丨yoyapai.com
-  type: trojan
-  server: 86.38.214.205
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  tls: true
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: 🇨🇦CA加拿大丨yoyapai.com_4
-  type: trojan
-  server: 104.18.152.225
+  server: 104.18.152.73
   port: 443
   password: humanity
   sni: www.ignitelimit.com
@@ -422,9 +343,9 @@ proxies:
     headers:
       Host: www.ignitelimit.com
   udp: true
-- name: 🇨🇦CA加拿大丨yoyapai.com_5
+- name: 🇫🇷FR法国丨yoyapai.com_1
   type: trojan
-  server: 104.18.152.77
+  server: 104.18.152.152
   port: 443
   password: humanity
   sni: www.ignitelimit.com
@@ -432,44 +353,6 @@ proxies:
   tls: true
   ws-opts:
     path: /assignment
-    headers:
-      Host: www.ignitelimit.com
-  udp: true
-- name: 🇺🇸US美国丨yoyapai.com_1
-  type: trojan
-  server: 216.24.57.7
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  alpn:
-  - http/1.1
-  skip-cert-verify: true
-  tls: true
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: 美國丨yoyapai.com
-  type: trojan
-  server: www.ignitelimit.com
-  port: 443
-  password: humanity
-  skip-cert-verify: true
-  tls: true
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: 🇨🇦CA加拿大丨yoyapai.com_6
-  type: trojan
-  server: 104.18.152.140
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  tls: true
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.ignitelimit.com
   udp: true
 - name: FR法国丨yoyapai.com
   type: trojan
@@ -484,17 +367,66 @@ proxies:
     headers:
       Host: www.ignitelimit.com
   udp: true
-- name: 美國丨yoyapai.com_1
+- name: 🇺🇸US美国丨yoyapai.com
   type: trojan
-  server: www.ignitelimit.com
+  server: 216.24.57.7
   port: 443
   password: humanity
+  sni: www.ignitelimit.com
+  alpn:
+  - http/1.1
   skip-cert-verify: true
   tls: true
   ws-opts:
     path: /assignment
   udp: true
 - name: 🇫🇷法国丨yoyapai.com_1
+  type: trojan
+  server: 104.18.152.133
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: true
+  tls: true
+  ws-opts:
+    path: /assignment
+  udp: true
+- name: 🇨🇦CA加拿大丨yoyapai.com_1
+  type: trojan
+  server: 104.16.73.213
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: true
+  tls: true
+  ws-opts:
+    path: /assignment
+  udp: true
+- name: 🇫🇷法国丨yoyapai.com_2
+  type: trojan
+  server: www.speedtest.org
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: true
+  tls: true
+  ws-opts:
+    path: /assignment
+  udp: true
+- name: 🇨🇦CA加拿大丨yoyapai.com_2
+  type: trojan
+  server: 104.18.152.140
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: true
+  tls: true
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.ignitelimit.com
+  udp: true
+- name: 🇫🇷法国丨yoyapai.com_3
   type: trojan
   server: 104.18.152.152
   port: 443
@@ -505,18 +437,7 @@ proxies:
   ws-opts:
     path: /assignment
   udp: true
-- name: 🇺🇸US美國丨yoyapai.com_4
-  type: trojan
-  server: 104.16.174.22
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  tls: true
-  ws-opts:
-    path: //assignment
-  udp: true
-- name: ❓未知丨yoyapai.com_10
+- name: ❓未知丨yoyapai.com_5
   type: trojan
   server: 104.18.152.143
   port: 443
@@ -528,104 +449,6 @@ proxies:
     path: /assignment
     headers:
       Host: www.ignitelimit.com
-  udp: true
-- name: 🇫🇷FR法国丨yoyapai.com
-  type: trojan
-  server: 104.18.152.152
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  tls: true
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: 🇫🇷FR法国丨yoyapai.com_1
-  type: trojan
-  server: 104.18.152.207
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  tls: true
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: 🇫🇷法国丨yoyapai.com_2
-  type: trojan
-  server: 104.18.152.73
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  tls: true
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.ignitelimit.com
-  udp: true
-- name: ❓未知丨yoyapai.com_11
-  type: trojan
-  server: 104.18.152.108
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  tls: true
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: 🇨🇦CA加拿大丨yoyapai.com_7
-  type: trojan
-  server: 104.16.73.213
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  tls: true
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: 🇫🇷法国丨yoyapai.com_3
-  type: trojan
-  server: 104.18.22.63
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  tls: true
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: 🇳🇱_荷兰
-  type: vmess
-  server: 185.246.152.159
-  port: 443
-  uuid: 5f72f180-b21b-4b7a-8484-240759012604
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: apjhdggyx.com
-  network: ws
-  ws-opts:
-    path: /5f72f180-b21b-4b7a-8484-240759096785
-    headers:
-      Host: apjhdggyx.com
-  udp: true
-- name: 🇹🇭 Thailand泰国丨yoyapai.com
-  type: vless
-  server: 18.239.134.69
-  port: 80
-  uuid: de27291c-15a9-4256-9ba7-ad517569877e
-  network: ws
-  tls: false
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com
-  skip-cert-verify: true
   udp: true
 - name: 🇷🇺俄罗斯丨yoyapai.com
   type: vless
@@ -640,32 +463,6 @@ proxies:
     path:
     - /
   skip-cert-verify: true
-  udp: true
-- name: 🇫🇷法国丨yoyapai.com_4
-  type: trojan
-  server: www.speedtest.org
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  tls: true
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: 🇫🇫🇮芬兰
-  type: vmess
-  server: 185.246.152.159
-  port: 443
-  uuid: 5f72f180-b21b-4b7a-8484-240759012604
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /5f72f180-b21b-4b7a-8484-240759096785
-    headers:
-      Host: apjhdggyx.com
   udp: true
 - name: 🇩🇪DE德国丨yoyapai.com
   type: vless
@@ -682,18 +479,35 @@ proxies:
       - xvh.andishehparenting.com
   skip-cert-verify: true
   udp: true
-- name: 🇫🇷FR法國丨yoyapai.com_1
-  type: trojan
-  server: www.speedtest.org
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  tls: true
+- name: 🇹🇭 Thailand泰国丨yoyapai.com
+  type: vless
+  server: 18.239.134.69
+  port: 80
+  uuid: de27291c-15a9-4256-9ba7-ad517569877e
+  network: ws
+  tls: false
+  client-fingerprint: chrome
   ws-opts:
-    path: /assignment
+    path: /
+    headers:
+      Host: d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com
+  skip-cert-verify: true
   udp: true
-- name: ❓未知丨yoyapai.com_12
+- name: 🇹🇭TH泰国丨yoyapai.com
+  type: vless
+  server: 18.239.134.69
+  port: 80
+  uuid: de27291c-15a9-4256-9ba7-ad517569877e
+  network: ws
+  tls: false
+  client-fingerprint: qq
+  ws-opts:
+    path: /
+    headers:
+      Host: d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com
+  skip-cert-verify: true
+  udp: true
+- name: ❓未知丨yoyapai.com_6
   type: trojan
   server: 104.26.14.137
   port: 443
@@ -704,7 +518,7 @@ proxies:
   ws-opts:
     path: /assignment
   udp: true
-- name: 🇺🇸US美國丨yoyapai.com_5
+- name: 🇺🇸US美國丨yoyapai.com_2
   type: vless
   server: 108.162.194.135
   port: 443
@@ -820,7 +634,7 @@ proxies:
   password: hbGrpfvNrJsUmKmPbR3iY2
   skip-cert-verify: true
   udp: true
-- name: 🇺🇸US美國丨yoyapai.com_6
+- name: 🇺🇸US美國丨yoyapai.com_3
   type: vless
   server: support.zoom.us
   port: 443
@@ -835,7 +649,7 @@ proxies:
       Host: support.zoom.us.yxls.eu.cc
   skip-cert-verify: true
   udp: true
-- name: 🇺🇸US美國丨yoyapai.com_7
+- name: 🇺🇸US美國丨yoyapai.com_4
   type: ss
   server: tinkered-pennies-puppies.freesocks.work
   port: 443
@@ -843,7 +657,7 @@ proxies:
   password: hbGrpfvNrJsUmKmPbR3iY2
   skip-cert-verify: true
   udp: true
-- name: 🇺🇸US美國丨yoyapai.com_8
+- name: 🇺🇸US美國丨yoyapai.com_5
   type: ss
   server: tinkered-pennies-puppies.freesocks.work
   port: 443
@@ -851,7 +665,7 @@ proxies:
   password: hbGrpfvNrJsUmKmPbR3iY2
   skip-cert-verify: true
   udp: true
-- name: 🇺🇸US美國丨yoyapai.com_9
+- name: 🇺🇸US美國丨yoyapai.com_6
   type: vless
   server: www.cnae.top
   port: 443
@@ -935,7 +749,7 @@ proxies:
     short-id: e3d38cee79d4f94c
   skip-cert-verify: true
   udp: true
-- name: 美國丨yoyapai.com_2
+- name: 美國丨yoyapai.com
   type: ss
   server: tinkered-pennies-puppies.freesocks.work
   port: 443
@@ -943,7 +757,7 @@ proxies:
   password: hbGrpfvNrJsUmKmPbR3iY2
   skip-cert-verify: true
   udp: true
-- name: 美國丨yoyapai.com_3
+- name: 美國丨yoyapai.com_1
   type: vless
   server: 162.159.32.239
   port: 443
@@ -958,7 +772,7 @@ proxies:
       Host: t1s1.rittbo.kdns.fr
   skip-cert-verify: true
   udp: true
-- name: 美國丨yoyapai.com_4
+- name: 美國丨yoyapai.com_2
   type: vless
   server: 198.41.223.238
   port: 443
@@ -1001,7 +815,7 @@ proxies:
     short-id: 2cfb5a0ae8ab0cb0
   skip-cert-verify: true
   udp: true
-- name: 美國丨yoyapai.com_5
+- name: 美國丨yoyapai.com_3
   type: ss
   server: tinkered-pennies-puppies.freesocks.work
   port: 443
@@ -1009,7 +823,7 @@ proxies:
   password: hbGrpfvNrJsUmKmPbR3iY2
   skip-cert-verify: true
   udp: true
-- name: 🇺🇸US美國丨yoyapai.com_10
+- name: 🇺🇸US美國丨yoyapai.com_7
   type: ss
   server: chengbai02.ascwt179.com
   port: 13223
@@ -1017,7 +831,7 @@ proxies:
   password: JVrsLLN1tkN8oXZO
   skip-cert-verify: true
   udp: true
-- name: 🇺🇸US美國丨yoyapai.com_11
+- name: 🇺🇸US美國丨yoyapai.com_8
   type: vless
   server: cf.090227.xyz
   port: 443
@@ -1032,7 +846,7 @@ proxies:
       Host: t1s1.rittbo.kdns.fr
   skip-cert-verify: true
   udp: true
-- name: 🇺🇸US美國丨yoyapai.com_12
+- name: 🇺🇸US美國丨yoyapai.com_9
   type: vless
   server: 162.159.10.87
   port: 443
@@ -1047,7 +861,7 @@ proxies:
       Host: t1s1.rittbo.kdns.fr
   skip-cert-verify: true
   udp: true
-- name: 🇺🇸US美國丨yoyapai.com_13
+- name: 🇺🇸US美國丨yoyapai.com_10
   type: vless
   server: 162.159.60.167
   port: 443
@@ -1062,7 +876,7 @@ proxies:
       Host: t1s1.rittbo.kdns.fr
   skip-cert-verify: true
   udp: true
-- name: 🇺🇸US美國丨yoyapai.com_14
+- name: 🇺🇸US美國丨yoyapai.com_11
   type: ss
   server: tinkered-pennies-puppies.freesocks.work
   port: 443
@@ -1183,7 +997,7 @@ proxies:
       Host: sertraline.adaspoloandco.com
   skip-cert-verify: true
   udp: true
-- name: 美國丨yoyapai.com_6
+- name: 美國丨yoyapai.com_4
   type: ss
   server: tinkered-pennies-puppies.freesocks.work
   port: 443
@@ -1305,7 +1119,7 @@ proxies:
   ws-opts:
     path: /0zNW56sF
   udp: true
-- name: 🇺🇸US美國丨yoyapai.com_15
+- name: 🇺🇸US美國丨yoyapai.com_12
   type: vless
   server: 185.193.29.123
   port: 443
@@ -1319,7 +1133,7 @@ proxies:
       Host: notls.lukongtou.eu.org
   skip-cert-verify: true
   udp: true
-- name: 🇺🇸US美國丨yoyapai.com_16
+- name: 🇺🇸US美國丨yoyapai.com_13
   type: vless
   server: 18.239.134.69
   port: 80
@@ -1679,7 +1493,7 @@ proxies:
     headers:
       Host: ajax.microsoft.com
   udp: true
-- name: 美國丨yoyapai.com_7
+- name: 美國丨yoyapai.com_5
   type: trojan
   server: blackshadow.dpdns.org
   port: 443
@@ -1746,7 +1560,7 @@ proxies:
     short-id: dbbe8dca27a92c35
   skip-cert-verify: true
   udp: true
-- name: 美國丨yoyapai.com_8
+- name: 美國丨yoyapai.com_6
   type: vless
   server: www.true.th
   port: 80
@@ -1760,7 +1574,7 @@ proxies:
       Host: d7iwyzy9wpvuu.cloudfront.net
   skip-cert-verify: true
   udp: true
-- name: 美國丨yoyapai.com_9
+- name: 美國丨yoyapai.com_7
   type: vless
   server: www.true.th
   port: 80
@@ -1858,7 +1672,7 @@ proxies:
     headers:
       Host: ajax.microsoft.com
   udp: true
-- name: 🇺🇸US美國丨yoyapai.com_17
+- name: 🇺🇸US美國丨yoyapai.com_14
   type: vless
   server: 45.155.52.231
   port: 443
@@ -1900,7 +1714,7 @@ proxies:
     short-id: 0b
   skip-cert-verify: true
   udp: true
-- name: 🇩🇪德國丨yoyapai.com
+- name: 🇩🇪德國丨yoyapai.com_1
   type: vless
   server: 170.168.97.3
   port: 443
@@ -1916,7 +1730,7 @@ proxies:
     public-key: D2SXHZRRYM0WcFChGWd57XB-U73aIsGfMpe2-Gq5XSs
   skip-cert-verify: true
   udp: true
-- name: 🇩🇪德國丨yoyapai.com_1
+- name: 🇩🇪德國丨yoyapai.com_2
   type: vless
   server: 170.168.97.3
   port: 443
@@ -2060,7 +1874,7 @@ proxies:
     public-key: EG3y7UktGRlzSZZ2oXT_YaO2gVP4ca3Xe6AQ0u9A5DQ
   skip-cert-verify: true
   udp: true
-- name: 美國丨yoyapai.com_10
+- name: 美國丨yoyapai.com_8
   type: vmess
   server: cindy50.ceoiii.com
   port: 36801
@@ -2315,7 +2129,7 @@ proxies:
     public-key: SHDdd617KLHHb0qlQFOHepeHFl_Ch2i-K7o891uyo2M
   skip-cert-verify: true
   udp: true
-- name: 美國丨yoyapai.com_11
+- name: 美國丨yoyapai.com_9
   type: vless
   server: 88.218.44.4
   port: 993
@@ -2326,22 +2140,6 @@ proxies:
   client-fingerprint: chrome
   reality-opts:
     public-key: EG3y7UktGRlzSZZ2oXT_YaO2gVP4ca3Xe6AQ0u9A5DQ
-  skip-cert-verify: true
-  udp: true
-- name: 🇩🇪德國丨yoyapai.com_2
-  type: vless
-  server: 170.168.97.3
-  port: 443
-  uuid: 5e243126-4a2a-84b6-782a-73b14797fb5f
-  network: http
-  servername: download.nvidia.com
-  tls: true
-  client-fingerprint: chrome
-  http-opts:
-    path:
-    - /
-  reality-opts:
-    public-key: D2SXHZRRYM0WcFChGWd57XB-U73aIsGfMpe2-Gq5XSs
   skip-cert-verify: true
   udp: true
 - name: 🇩🇪德國丨yoyapai.com_3
@@ -2362,6 +2160,22 @@ proxies:
   udp: true
 - name: 🇩🇪德國丨yoyapai.com_4
   type: vless
+  server: 170.168.97.3
+  port: 443
+  uuid: 5e243126-4a2a-84b6-782a-73b14797fb5f
+  network: http
+  servername: download.nvidia.com
+  tls: true
+  client-fingerprint: chrome
+  http-opts:
+    path:
+    - /
+  reality-opts:
+    public-key: D2SXHZRRYM0WcFChGWd57XB-U73aIsGfMpe2-Gq5XSs
+  skip-cert-verify: true
+  udp: true
+- name: 🇩🇪德國丨yoyapai.com_5
+  type: vless
   server: 88.218.44.4
   port: 443
   uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
@@ -2376,7 +2190,7 @@ proxies:
     public-key: Rt2wltCWOxIroFggNWMudZDBJXls8DsF4icaWqxKDk8
   skip-cert-verify: true
   udp: true
-- name: 🇩🇪德國丨yoyapai.com_5
+- name: 🇩🇪德國丨yoyapai.com_6
   type: vless
   server: 88.218.44.4
   port: 443
@@ -2392,7 +2206,7 @@ proxies:
     public-key: EG3y7UktGRlzSZZ2oXT_YaO2gVP4ca3Xe6AQ0u9A5DQ
   skip-cert-verify: true
   udp: true
-- name: 🇨🇦CA加拿大丨yoyapai.com_8
+- name: 🇨🇦CA加拿大丨yoyapai.com_3
   type: vless
   server: 104.26.2.173
   port: 443
@@ -2518,7 +2332,7 @@ proxies:
     public-key: Rt2wltCWOxIroFggNWMudZDBJXls8DsF4icaWqxKDk8
   skip-cert-verify: true
   udp: true
-- name: 🇹🇭TH泰國丨yoyapai.com_1
+- name: 🇹🇭TH泰國丨yoyapai.com
   type: vless
   server: www.true.th
   port: 80
@@ -2531,17 +2345,17 @@ proxies:
       Host: d16l6nb4do0zu4.cloudfront.net
   skip-cert-verify: true
   udp: true
-- name: 🇺🇸美國丨yoyapai.com_1
+- name: 🇺🇸美國丨yoyapai.com_2
   type: vless
-  server: 162.159.156.214
-  port: 8880
-  uuid: 12cebf33-2f96-48a3-af37-c2231e5cef75
+  server: www.true.th
+  port: 443
+  uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
   network: ws
-  tls: false
+  servername: d1yxsk0zprgivr.cloudfront.net
+  tls: true
+  client-fingerprint: chrome
   ws-opts:
-    path: /pyip=ProxyIP.US.CMLiussss.net
-    headers:
-      Host: throbbing-moon-a07c.90-ec4.workers.dev
+    path: /
   skip-cert-verify: true
   udp: true
 - name: 🇷🇺RU俄羅斯丨yoyapai.com
@@ -2561,7 +2375,7 @@ proxies:
       - ru6.ethicsdinnerpave.online
   skip-cert-verify: true
   udp: true
-- name: 🇺🇸美國丨yoyapai.com_2
+- name: 🇺🇸美國丨yoyapai.com_3
   type: vless
   server: 94.124.119.187
   port: 16565
@@ -2922,19 +2736,7 @@ proxies:
     short-id: e852dc
   skip-cert-verify: true
   udp: true
-- name: 🇨🇦CA加拿大丨yoyapai.com_9
-  type: vless
-  server: 155.46.167.30
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  tls: false
-  ws-opts:
-    headers:
-      Host: vms.lifetime50.workers.dev
-  skip-cert-verify: true
-  udp: true
-- name: 🇨🇦CA加拿大丨yoyapai.com_10
+- name: 🇨🇦CA加拿大丨yoyapai.com_4
   type: vless
   server: 104.21.23.72
   port: 8880
@@ -2947,7 +2749,7 @@ proxies:
       Host: calm-haze-d105.21-7cd.workers.dev
   skip-cert-verify: true
   udp: true
-- name: 🇨🇦CA加拿大丨yoyapai.com_11
+- name: 🇨🇦CA加拿大丨yoyapai.com_5
   type: vless
   server: 104.21.23.72
   port: 8880
@@ -3080,6 +2882,21 @@ proxies:
     short-id: 459193ba
   skip-cert-verify: true
   udp: true
+- name: 🇹🇭TH泰國丨yoyapai.com_1
+  type: vless
+  server: www.true.th
+  port: 443
+  uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
+  network: ws
+  servername: d1yxsk0zprgivr.cloudfront.net
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: d1yxsk0zprgivr.cloudfront.net
+  skip-cert-verify: true
+  udp: true
 - name: 🇮🇪IE爱尔兰丨yoyapai.com
   type: vless
   server: 78.17.112.103
@@ -3094,85 +2911,7 @@ proxies:
     short-id: e852dc
   skip-cert-verify: true
   udp: true
-- name: ❓免費節點丨yoyapai.com
-  type: vless
-  server: 45.40.150.4
-  port: 80
-  uuid: 72c2b7cc-fcd9-494f-8a2e-21dcd062ff11
-  network: ws
-  tls: false
-  ws-opts:
-    path: /pyip=Telegram🇨🇳++
-    headers:
-      Host: holy-breeze-0bac.47-dec.workers.dev
-  skip-cert-verify: true
-  udp: true
-- name: ❓未知丨yoyapai.com_13
-  type: vless
-  server: 91.206.71.8
-  port: 80
-  uuid: c20a0bcf-aa6f-4c35-9e62-a39b47b04e73
-  network: ws
-  tls: false
-  ws-opts:
-    path: /pyip=Telegram🇨🇳+@WangCai2
-    headers:
-      Host: round-haze-8783.294.workers.dev
-  skip-cert-verify: true
-  udp: true
-- name: 🇩🇪德國丨yoyapai.com_6
-  type: vless
-  server: 91.206.71.8
-  port: 80
-  uuid: c20a0bcf-aa6f-4c35-9e62-a39b47b04e73
-  network: ws
-  tls: false
-  ws-opts:
-    path: /pyip=Telegram🇨🇳 @WangCai2
-    headers:
-      Host: round-haze-8783.294.workers.dev
-  skip-cert-verify: true
-  udp: true
-- name: 🗽🇺🇸美國CloudFlare节点丨yoyapai.com
-  type: vless
-  server: 162.159.81.104
-  port: 80
-  uuid: 4b00d726-e072-429b-997e-f07affea3b7f
-  network: ws
-  tls: false
-  ws-opts:
-    path: /eyJqdW5rIjoiUEVTdDRlR2hhc0JuYyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzI2MDI6ZmM1OTpiMDo2NDo6XSJdfQ
-    headers:
-      Host: icy-darkness-8ff1.farzambia12mo.workers.dev
-  skip-cert-verify: true
-  udp: true
-- name: 🇫🇷法國丨yoyapai.com
-  type: vless
-  server: 94.140.0.100
-  port: 8880
-  uuid: 78e6619e-e82a-cd8d-b482-0973d8498305
-  network: ws
-  tls: false
-  ws-opts:
-    path: /sync
-    headers:
-      Host: silent-pine-a674.jfadwkglaugul.workers.dev
-  skip-cert-verify: true
-  udp: true
-- name: 🇺🇸美國丨yoyapai.com_3
-  type: vless
-  server: 45.40.150.4
-  port: 80
-  uuid: 72c2b7cc-fcd9-494f-8a2e-21dcd062ff11
-  network: ws
-  tls: false
-  ws-opts:
-    path: /pyip=Telegram🇨🇳++
-    headers:
-      Host: holy-breeze-0bac.47-dec.workers.dev
-  skip-cert-verify: true
-  udp: true
-- name: ❓未知丨yoyapai.com_14
+- name: ❓未知丨yoyapai.com_7
   type: vless
   server: 104.26.13.40
   port: 8880
@@ -3183,19 +2922,6 @@ proxies:
     path: /pyip=ProxyIP.JP.CMLiussss.net
     headers:
       Host: square-sea-01d1.339-be3.workers.dev
-  skip-cert-verify: true
-  udp: true
-- name: 🇸🇬SG新加坡丨yoyapai.com
-  type: vless
-  server: 45.40.149.50
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: vms.lifetime39.workers.dev
   skip-cert-verify: true
   udp: true
 - name: 🇺🇸美國丨yoyapai.com_4
@@ -3211,7 +2937,66 @@ proxies:
       Host: square-sea-01d1.339-be3.workers.dev
   skip-cert-verify: true
   udp: true
-- name: ❓未知丨yoyapai.com_15
+- name: 🇺🇸US美國丨yoyapai.com_15
+  type: vless
+  server: www.true.th
+  port: 443
+  uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
+  network: ws
+  servername: d1yxsk0zprgivr.cloudfront.net
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: d1yxsk0zprgivr.cloudfront.net
+  skip-cert-verify: true
+  udp: true
+- name: 🇺🇸US美國丨yoyapai.com_16
+  type: vless
+  server: www.true.th
+  port: 443
+  uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
+  network: ws
+  servername: d1yxsk0zprgivr.cloudfront.net
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: d1yxsk0zprgivr.cloudfront.net
+  skip-cert-verify: true
+  udp: true
+- name: ❓未知丨yoyapai.com_8
+  type: vless
+  server: www.true.th
+  port: 443
+  uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
+  network: ws
+  servername: d1yxsk0zprgivr.cloudfront.net
+  tls: true
+  ws-opts:
+    path: /
+    headers:
+      Host: d1yxsk0zprgivr.cloudfront.net
+  skip-cert-verify: true
+  udp: true
+- name: ❓未知丨yoyapai.com_9
+  type: vless
+  server: www.true.th
+  port: 443
+  uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
+  network: ws
+  servername: d1yxsk0zprgivr.cloudfront.net
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: d1yxsk0zprgivr.cloudfront.net
+  skip-cert-verify: true
+  udp: true
+- name: ❓未知丨yoyapai.com_10
   type: vless
   server: 185.148.107.40
   port: 8880
@@ -3235,6 +3020,241 @@ proxies:
   ws-opts:
     path: /assignment
   udp: true
+- name: 🇭🇰HK香港丨yoyapai.com_6
+  type: vless
+  server: 114.29.238.251
+  port: 13443
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+  servername: auto.cendora.ru
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: qq
+  reality-opts:
+    public-key: gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM
+    short-id: a7f3c91b2e6d84c0
+  skip-cert-verify: true
+  udp: true
+- name: 🇭🇰HK香港丨yoyapai.com_7
+  type: vless
+  server: 114.29.238.251
+  port: 13443
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+  servername: auto.cendora.ru
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM
+    short-id: a7f3c91b2e6d84c0
+  skip-cert-verify: true
+  udp: true
+- name: 🇭🇰HK香港丨yoyapai.com_8
+  type: vless
+  server: 114.29.238.251
+  port: 13443
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+  servername: auto.cendora.ru
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: qq
+  reality-opts:
+    public-key: gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM
+    short-id: a7f3c91b2e6d84c0
+  skip-cert-verify: true
+  udp: true
+- name: 🇸🇬SG新加坡丨yoyapai.com_1
+  type: vless
+  server: 154.196.139.50
+  port: 443
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+  servername: asia.cendora.ru
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: eaRNeC8fccrx0nBNvBpAXZgK4m4FxfnQ-t0W7NOM7mU
+    short-id: e53048e82bb20077
+  skip-cert-verify: true
+  udp: true
+- name: 🇸🇬SG新加坡丨yoyapai.com_2
+  type: vless
+  server: 154.196.139.50
+  port: 443
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+  servername: asia.cendora.ru
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: eaRNeC8fccrx0nBNvBpAXZgK4m4FxfnQ-t0W7NOM7mU
+    short-id: e53048e82bb20077
+  skip-cert-verify: true
+  udp: true
+- name: 🇩🇪DE德国丨yoyapai.com_1
+  type: vless
+  server: 217.60.68.196
+  port: 443
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+  servername: eu-central.cendora.ru
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI
+    short-id: 00bca5982f82d083
+  skip-cert-verify: true
+  udp: true
+- name: 🇪🇪爱沙尼亚丨yoyapai.com
+  type: trojan
+  server: 109.206.241.10
+  port: 449
+  password: oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1
+  sni: russiapower.accesscam.org
+  skip-cert-verify: true
+  tls: true
+  udp: true
+- name: 🇵🇱PL波兰丨yoyapai.com
+  type: vless
+  server: 144.31.171.143
+  port: 443
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+  servername: eu-central.cendora.ru
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI
+    short-id: 00bca5982f82d083
+  skip-cert-verify: true
+  udp: true
+- name: 🇺🇸US美国丨yoyapai.com_1
+  type: vless
+  server: 200.165.228.51
+  port: 2200
+  uuid: e3a625d4-5adb-463d-bbff-bbe06b8e2c5c
+  network: ws
+  servername: rzd.ru
+  tls: false
+  ws-opts:
+    path: /v1
+  skip-cert-verify: true
+  udp: true
+- name: 🇫🇮FI芬兰丨yoyapai.com
+  type: vless
+  server: 65.109.12.58
+  port: 2053
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  network: ws
+  servername: forfreeuse.rtqa.ru
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: forfreeuse.rtqa.ru
+  skip-cert-verify: true
+  udp: true
+- name: 🇷🇴RO罗马尼亚丨yoyapai.com
+  type: vless
+  server: 188.241.241.28
+  port: 2053
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  network: ws
+  servername: forfreeuse.rtqa.ru
+  tls: true
+  ws-opts:
+    path: /
+    headers:
+      Host: forfreeuse.rtqa.ru
+  skip-cert-verify: true
+  udp: true
+- name: 🇳🇱NL荷兰丨yoyapai.com
+  type: vless
+  server: 185.18.52.77
+  port: 2053
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  network: ws
+  servername: forfreeuse.rtqa.ru
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: forfreeuse.rtqa.ru
+  skip-cert-verify: true
+  udp: true
+- name: 🇵🇱PL波兰丨yoyapai.com_1
+  type: vless
+  server: 31.133.0.133
+  port: 2053
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  network: ws
+  servername: forfreeuse.rtqa.ru
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: forfreeuse.rtqa.ru
+  skip-cert-verify: true
+  udp: true
+- name: 🇵🇱PL波兰丨yoyapai.com_2
+  type: vless
+  server: 31.133.0.103
+  port: 2053
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  network: ws
+  servername: forfreeuse.rtqa.ru
+  tls: true
+  ws-opts:
+    path: /
+    headers:
+      Host: forfreeuse.rtqa.ru
+  skip-cert-verify: true
+  udp: true
+- name: 🇵🇱PL波兰丨yoyapai.com_3
+  type: vless
+  server: 31.133.0.70
+  port: 2053
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  network: ws
+  servername: forfreeuse.rtqa.ru
+  tls: true
+  ws-opts:
+    path: /
+    headers:
+      Host: forfreeuse.rtqa.ru
+  skip-cert-verify: true
+  udp: true
+- name: 🇳🇱NL荷兰丨yoyapai.com_1
+  type: vless
+  server: 31.15.17.129
+  port: 2053
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  network: ws
+  servername: forfreeuse.rtqa.ru
+  tls: true
+  ws-opts:
+    path: /
+    headers:
+      Host: forfreeuse.rtqa.ru
+  skip-cert-verify: true
+  udp: true
+- name: 🇷🇴RO罗马尼亚丨yoyapai.com_1
+  type: vless
+  server: 188.241.241.28
+  port: 2053
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  network: ws
+  servername: forfreeuse.rtqa.ru
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: forfreeuse.rtqa.ru
+  skip-cert-verify: true
+  udp: true
 - name: 说明-节点抓取自yoyapai.com免费分享
   type: trojan
   server: 127.0.0.1
@@ -3248,59 +3268,45 @@ proxy-groups:
   proxies:
   - ♻️ 自动选择
   - DIRECT
-  - 🇹🇭TH泰国丨yoyapai.com
-  - 🇺🇸US美國丨yoyapai.com
-  - 🇺🇸US美國丨yoyapai.com_1
-  - ❓未知丨yoyapai.com
-  - ❓未知丨yoyapai.com_1
-  - 🇹🇭TH泰國丨yoyapai.com
-  - ❓未知丨yoyapai.com_2
   - 🇺🇸美國丨yoyapai.com
-  - 🇺🇸US美國丨yoyapai.com_2
-  - ❓未知丨yoyapai.com_3
-  - ❓未知丨yoyapai.com_4
-  - 🇺🇸美国丨yoyapai.com
-  - ❓未知丨yoyapai.com_5
+  - 🇺🇸美國丨yoyapai.com_1
+  - ❓未知丨yoyapai.com
+  - ❓免費節點丨yoyapai.com
+  - ❓未知丨yoyapai.com_1
+  - 🇸🇬SG新加坡丨yoyapai.com
+  - 🇫🇷法國丨yoyapai.com
+  - 🇨🇦CA加拿大丨yoyapai.com
+  - 🇩🇪德國丨yoyapai.com
+  - 🗽🇺🇸美國CloudFlare节点丨yoyapai.com
+  - 🇫🇫🇮芬兰
+  - 🇳🇱_荷兰
   - 未知
   - GB英国丨yoyapai.com
-  - ❓未知丨yoyapai.com_6
-  - ❓未知丨yoyapai.com_7
+  - 🇺🇸美国丨yoyapai.com
+  - ❓未知丨yoyapai.com_2
+  - ❓未知丨yoyapai.com_3
   - 🇫🇷FR法國丨yoyapai.com
-  - ❓未知丨yoyapai.com_8
-  - ❓未知丨yoyapai.com_9
-  - 🇺🇸US美國丨yoyapai.com_3
-  - 🇨🇦CA加拿大丨yoyapai.com
-  - 🇺🇸US美国丨yoyapai.com
-  - 🇨🇦CA加拿大丨yoyapai.com_1
-  - 🇨🇦CA加拿大丨yoyapai.com_2
-  - 🇨🇦CA加拿大丨yoyapai.com_3
-  - 🇫🇷法国丨yoyapai.com
-  - 🇹🇷TR土耳其丨yoyapai.com
-  - 🇨🇦CA加拿大丨yoyapai.com_4
-  - 🇨🇦CA加拿大丨yoyapai.com_5
-  - 🇺🇸US美国丨yoyapai.com_1
-  - 美國丨yoyapai.com
-  - 🇨🇦CA加拿大丨yoyapai.com_6
-  - FR法国丨yoyapai.com
-  - 美國丨yoyapai.com_1
-  - 🇫🇷法国丨yoyapai.com_1
-  - 🇺🇸US美國丨yoyapai.com_4
-  - ❓未知丨yoyapai.com_10
-  - 🇫🇷FR法国丨yoyapai.com
-  - 🇫🇷FR法国丨yoyapai.com_1
-  - 🇫🇷法国丨yoyapai.com_2
-  - ❓未知丨yoyapai.com_11
-  - 🇨🇦CA加拿大丨yoyapai.com_7
-  - 🇫🇷法国丨yoyapai.com_3
-  - 🇳🇱_荷兰
-  - 🇹🇭 Thailand泰国丨yoyapai.com
-  - 🇷🇺俄罗斯丨yoyapai.com
-  - 🇫🇷法国丨yoyapai.com_4
-  - 🇫🇫🇮芬兰
-  - 🇩🇪DE德国丨yoyapai.com
+  - 🇺🇸US美國丨yoyapai.com
+  - 🇺🇸US美國丨yoyapai.com_1
   - 🇫🇷FR法國丨yoyapai.com_1
-  - ❓未知丨yoyapai.com_12
-  - 🇺🇸US美國丨yoyapai.com_5
+  - ❓未知丨yoyapai.com_4
+  - 🇫🇷FR法国丨yoyapai.com
+  - 🇫🇷法国丨yoyapai.com
+  - 🇫🇷FR法国丨yoyapai.com_1
+  - FR法国丨yoyapai.com
+  - 🇺🇸US美国丨yoyapai.com
+  - 🇫🇷法国丨yoyapai.com_1
+  - 🇨🇦CA加拿大丨yoyapai.com_1
+  - 🇫🇷法国丨yoyapai.com_2
+  - 🇨🇦CA加拿大丨yoyapai.com_2
+  - 🇫🇷法国丨yoyapai.com_3
+  - ❓未知丨yoyapai.com_5
+  - 🇷🇺俄罗斯丨yoyapai.com
+  - 🇩🇪DE德国丨yoyapai.com
+  - 🇹🇭 Thailand泰国丨yoyapai.com
+  - 🇹🇭TH泰国丨yoyapai.com
+  - ❓未知丨yoyapai.com_6
+  - 🇺🇸US美國丨yoyapai.com_2
   - 🇭🇺HU匈牙利丨yoyapai.com
   - 🇱🇹LT立陶宛丨yoyapai.com
   - 🇺🇸 US美國丨yoyapai.com
@@ -3310,26 +3316,26 @@ proxy-groups:
   - 🇨🇭CH瑞士丨yoyapai.com
   - 🇷🇺 RU俄羅斯丨yoyapai.com
   - 🇺🇸 US美國丨yoyapai.com_3
+  - 🇺🇸US美國丨yoyapai.com_3
+  - 🇺🇸US美國丨yoyapai.com_4
+  - 🇺🇸US美國丨yoyapai.com_5
   - 🇺🇸US美國丨yoyapai.com_6
-  - 🇺🇸US美國丨yoyapai.com_7
-  - 🇺🇸US美國丨yoyapai.com_8
-  - 🇺🇸US美國丨yoyapai.com_9
   - 🇺🇸美國CloudFlare节点丨yoyapai.com
   - 🇱🇹LT立陶宛丨yoyapai.com_1
   - 🇱🇹LT立陶宛丨yoyapai.com_2
   - 🇨🇭CH瑞士丨yoyapai.com_1
   - 🇨🇭CH瑞士丨yoyapai.com_2
+  - 美國丨yoyapai.com
+  - 美國丨yoyapai.com_1
   - 美國丨yoyapai.com_2
-  - 美國丨yoyapai.com_3
-  - 美國丨yoyapai.com_4
   - 南非丨yoyapai.com
   - 🇱🇹LT立陶宛丨yoyapai.com_3
-  - 美國丨yoyapai.com_5
+  - 美國丨yoyapai.com_3
+  - 🇺🇸US美國丨yoyapai.com_7
+  - 🇺🇸US美國丨yoyapai.com_8
+  - 🇺🇸US美國丨yoyapai.com_9
   - 🇺🇸US美國丨yoyapai.com_10
   - 🇺🇸US美國丨yoyapai.com_11
-  - 🇺🇸US美國丨yoyapai.com_12
-  - 🇺🇸US美國丨yoyapai.com_13
-  - 🇺🇸US美國丨yoyapai.com_14
   - FR法國丨yoyapai.com
   - FR法國丨yoyapai.com_1
   - FR法國丨yoyapai.com_2
@@ -3338,7 +3344,7 @@ proxy-groups:
   - CA加拿大丨yoyapai.com
   - 🇳🇱_NL荷蘭丨yoyapai.com
   - 🇷🇺俄羅斯丨yoyapai.com
-  - 美國丨yoyapai.com_6
+  - 美國丨yoyapai.com_4
   - FR法國丨yoyapai.com_5
   - FR法國丨yoyapai.com_6
   - FR法國丨yoyapai.com_7
@@ -3347,8 +3353,8 @@ proxy-groups:
   - 🇸🇬 SG新加坡
   - 🇺🇸 US美國
   - 🇫🇷 FR法國
-  - 🇺🇸US美國丨yoyapai.com_15
-  - 🇺🇸US美國丨yoyapai.com_16
+  - 🇺🇸US美國丨yoyapai.com_12
+  - 🇺🇸US美國丨yoyapai.com_13
   - 🇯🇵JP日本丨yoyapai.com
   - 🇯🇵JP日本丨yoyapai.com_1
   - 🇭🇰HK香港丨yoyapai.com
@@ -3375,24 +3381,24 @@ proxy-groups:
   - 🇺🇸 US美國_3
   - 🇲🇽 墨西哥
   - 🇺🇸 US美國_4
-  - 美國丨yoyapai.com_7
+  - 美國丨yoyapai.com_5
   - 美國節點丨yoyapai.com
   - 🇺🇸 美國節點丨yoyapai.com
   - 🇺🇸 美國丨yoyapai.com
   - 🇿🇦 南非丨yoyapai.com
-  - 美國丨yoyapai.com_8
-  - 美國丨yoyapai.com_9
+  - 美國丨yoyapai.com_6
+  - 美國丨yoyapai.com_7
   - 🇭🇰HK香港節點丨yoyapai.com_4
   - 🇭🇰HK香港節點丨yoyapai.com_5
   - 🇲🇽MX墨西哥
   - 塞舌爾丨yoyapai.com
   - 🇧🇷巴西丨yoyapai.com
   - 🇺🇸 美國
-  - 🇺🇸US美國丨yoyapai.com_17
+  - 🇺🇸US美國丨yoyapai.com_14
   - 🇺🇦烏克蘭丨yoyapai.com
   - 🇺🇸US美國節點丨yoyapai.com
-  - 🇩🇪德國丨yoyapai.com
   - 🇩🇪德國丨yoyapai.com_1
+  - 🇩🇪德國丨yoyapai.com_2
   - 🇹🇷土耳其丨yoyapai.com
   - 🇮🇷_IR_伊朗
   - 🇷🇺_RU俄羅斯丨yoyapai.com
@@ -3403,7 +3409,7 @@ proxy-groups:
   - 🇬🇷 希腊丨yoyapai.com
   - 免費節點丨yoyapai.com
   - 免費節點丨yoyapai.com_1
-  - 美國丨yoyapai.com_10
+  - 美國丨yoyapai.com_8
   - 🇺🇸 US美國_5
   - 🇺🇸 US美國_6
   - 🇺🇸 美國_1
@@ -3422,12 +3428,12 @@ proxy-groups:
   - 🇮🇷 伊朗丨yoyapai.com
   - 🇳🇱 荷蘭丨yoyapai.com
   - 🇳🇱 荷蘭丨yoyapai.com_1
-  - 美國丨yoyapai.com_11
-  - 🇩🇪德國丨yoyapai.com_2
+  - 美國丨yoyapai.com_9
   - 🇩🇪德國丨yoyapai.com_3
   - 🇩🇪德國丨yoyapai.com_4
   - 🇩🇪德國丨yoyapai.com_5
-  - 🇨🇦CA加拿大丨yoyapai.com_8
+  - 🇩🇪德國丨yoyapai.com_6
+  - 🇨🇦CA加拿大丨yoyapai.com_3
   - MY 🇲🇾 馬來西亞
   - 🇨🇦加拿大丨yoyapai.com
   - 🇨🇦加拿大丨yoyapai.com_1
@@ -3436,10 +3442,10 @@ proxy-groups:
   - 土耳其丨yoyapai.com
   - 🇨🇴CO哥倫比亞丨yoyapai.com
   - 🇺🇸 美國丨yoyapai.com_1
-  - 🇹🇭TH泰國丨yoyapai.com_1
-  - 🇺🇸美國丨yoyapai.com_1
-  - 🇷🇺RU俄羅斯丨yoyapai.com
+  - 🇹🇭TH泰國丨yoyapai.com
   - 🇺🇸美國丨yoyapai.com_2
+  - 🇷🇺RU俄羅斯丨yoyapai.com
+  - 🇺🇸美國丨yoyapai.com_3
   - 🇹🇭泰國丨yoyapai.com
   - 🇭🇰香港丨yoyapai.com
   - 🇸🇪瑞典丨yoyapai.com
@@ -3466,9 +3472,8 @@ proxy-groups:
   - 🇷🇺俄罗斯丨yoyapai.com_3
   - 🇹🇭泰国丨yoyapai.com
   - ' 🇪🇸 ES西班牙丨yoyapai.com'
-  - 🇨🇦CA加拿大丨yoyapai.com_9
-  - 🇨🇦CA加拿大丨yoyapai.com_10
-  - 🇨🇦CA加拿大丨yoyapai.com_11
+  - 🇨🇦CA加拿大丨yoyapai.com_4
+  - 🇨🇦CA加拿大丨yoyapai.com_5
   - 🇸🇮斯洛文尼亚丨yoyapai.com
   - 🇸🇮斯洛文尼亚丨yoyapai.com_1
   - 🇰🇷韩国丨yoyapai.com
@@ -3477,74 +3482,75 @@ proxy-groups:
   - 🇮🇷 IR伊朗丨yoyapai.com
   - 🇪🇪 EE丨yoyapai.com爱沙尼亚丨yoyapai.com
   - 🇨🇿 捷克丨yoyapai.com
+  - 🇹🇭TH泰國丨yoyapai.com_1
   - 🇮🇪IE爱尔兰丨yoyapai.com
-  - ❓免費節點丨yoyapai.com
-  - ❓未知丨yoyapai.com_13
-  - 🇩🇪德國丨yoyapai.com_6
-  - 🗽🇺🇸美國CloudFlare节点丨yoyapai.com
-  - 🇫🇷法國丨yoyapai.com
-  - 🇺🇸美國丨yoyapai.com_3
-  - ❓未知丨yoyapai.com_14
-  - 🇸🇬SG新加坡丨yoyapai.com
+  - ❓未知丨yoyapai.com_7
   - 🇺🇸美國丨yoyapai.com_4
-  - ❓未知丨yoyapai.com_15
+  - 🇺🇸US美國丨yoyapai.com_15
+  - 🇺🇸US美國丨yoyapai.com_16
+  - ❓未知丨yoyapai.com_8
+  - ❓未知丨yoyapai.com_9
+  - ❓未知丨yoyapai.com_10
   - 🇮🇷IR伊朗丨yoyapai.com
+  - 🇭🇰HK香港丨yoyapai.com_6
+  - 🇭🇰HK香港丨yoyapai.com_7
+  - 🇭🇰HK香港丨yoyapai.com_8
+  - 🇸🇬SG新加坡丨yoyapai.com_1
+  - 🇸🇬SG新加坡丨yoyapai.com_2
+  - 🇩🇪DE德国丨yoyapai.com_1
+  - 🇪🇪爱沙尼亚丨yoyapai.com
+  - 🇵🇱PL波兰丨yoyapai.com
+  - 🇺🇸US美国丨yoyapai.com_1
+  - 🇫🇮FI芬兰丨yoyapai.com
+  - 🇷🇴RO罗马尼亚丨yoyapai.com
+  - 🇳🇱NL荷兰丨yoyapai.com
+  - 🇵🇱PL波兰丨yoyapai.com_1
+  - 🇵🇱PL波兰丨yoyapai.com_2
+  - 🇵🇱PL波兰丨yoyapai.com_3
+  - 🇳🇱NL荷兰丨yoyapai.com_1
+  - 🇷🇴RO罗马尼亚丨yoyapai.com_1
 - name: ♻️ 自动选择
   type: url-test
   proxies:
-  - 🇹🇭TH泰国丨yoyapai.com
-  - 🇺🇸US美國丨yoyapai.com
-  - 🇺🇸US美國丨yoyapai.com_1
-  - ❓未知丨yoyapai.com
-  - ❓未知丨yoyapai.com_1
-  - 🇹🇭TH泰國丨yoyapai.com
-  - ❓未知丨yoyapai.com_2
   - 🇺🇸美國丨yoyapai.com
-  - 🇺🇸US美國丨yoyapai.com_2
-  - ❓未知丨yoyapai.com_3
-  - ❓未知丨yoyapai.com_4
-  - 🇺🇸美国丨yoyapai.com
-  - ❓未知丨yoyapai.com_5
+  - 🇺🇸美國丨yoyapai.com_1
+  - ❓未知丨yoyapai.com
+  - ❓免費節點丨yoyapai.com
+  - ❓未知丨yoyapai.com_1
+  - 🇸🇬SG新加坡丨yoyapai.com
+  - 🇫🇷法國丨yoyapai.com
+  - 🇨🇦CA加拿大丨yoyapai.com
+  - 🇩🇪德國丨yoyapai.com
+  - 🗽🇺🇸美國CloudFlare节点丨yoyapai.com
+  - 🇫🇫🇮芬兰
+  - 🇳🇱_荷兰
   - 未知
   - GB英国丨yoyapai.com
-  - ❓未知丨yoyapai.com_6
-  - ❓未知丨yoyapai.com_7
+  - 🇺🇸美国丨yoyapai.com
+  - ❓未知丨yoyapai.com_2
+  - ❓未知丨yoyapai.com_3
   - 🇫🇷FR法國丨yoyapai.com
-  - ❓未知丨yoyapai.com_8
-  - ❓未知丨yoyapai.com_9
-  - 🇺🇸US美國丨yoyapai.com_3
-  - 🇨🇦CA加拿大丨yoyapai.com
-  - 🇺🇸US美国丨yoyapai.com
-  - 🇨🇦CA加拿大丨yoyapai.com_1
-  - 🇨🇦CA加拿大丨yoyapai.com_2
-  - 🇨🇦CA加拿大丨yoyapai.com_3
-  - 🇫🇷法国丨yoyapai.com
-  - 🇹🇷TR土耳其丨yoyapai.com
-  - 🇨🇦CA加拿大丨yoyapai.com_4
-  - 🇨🇦CA加拿大丨yoyapai.com_5
-  - 🇺🇸US美国丨yoyapai.com_1
-  - 美國丨yoyapai.com
-  - 🇨🇦CA加拿大丨yoyapai.com_6
-  - FR法国丨yoyapai.com
-  - 美國丨yoyapai.com_1
-  - 🇫🇷法国丨yoyapai.com_1
-  - 🇺🇸US美國丨yoyapai.com_4
-  - ❓未知丨yoyapai.com_10
-  - 🇫🇷FR法国丨yoyapai.com
-  - 🇫🇷FR法国丨yoyapai.com_1
-  - 🇫🇷法国丨yoyapai.com_2
-  - ❓未知丨yoyapai.com_11
-  - 🇨🇦CA加拿大丨yoyapai.com_7
-  - 🇫🇷法国丨yoyapai.com_3
-  - 🇳🇱_荷兰
-  - 🇹🇭 Thailand泰国丨yoyapai.com
-  - 🇷🇺俄罗斯丨yoyapai.com
-  - 🇫🇷法国丨yoyapai.com_4
-  - 🇫🇫🇮芬兰
-  - 🇩🇪DE德国丨yoyapai.com
+  - 🇺🇸US美國丨yoyapai.com
+  - 🇺🇸US美國丨yoyapai.com_1
   - 🇫🇷FR法國丨yoyapai.com_1
-  - ❓未知丨yoyapai.com_12
-  - 🇺🇸US美國丨yoyapai.com_5
+  - ❓未知丨yoyapai.com_4
+  - 🇫🇷FR法国丨yoyapai.com
+  - 🇫🇷法国丨yoyapai.com
+  - 🇫🇷FR法国丨yoyapai.com_1
+  - FR法国丨yoyapai.com
+  - 🇺🇸US美国丨yoyapai.com
+  - 🇫🇷法国丨yoyapai.com_1
+  - 🇨🇦CA加拿大丨yoyapai.com_1
+  - 🇫🇷法国丨yoyapai.com_2
+  - 🇨🇦CA加拿大丨yoyapai.com_2
+  - 🇫🇷法国丨yoyapai.com_3
+  - ❓未知丨yoyapai.com_5
+  - 🇷🇺俄罗斯丨yoyapai.com
+  - 🇩🇪DE德国丨yoyapai.com
+  - 🇹🇭 Thailand泰国丨yoyapai.com
+  - 🇹🇭TH泰国丨yoyapai.com
+  - ❓未知丨yoyapai.com_6
+  - 🇺🇸US美國丨yoyapai.com_2
   - 🇭🇺HU匈牙利丨yoyapai.com
   - 🇱🇹LT立陶宛丨yoyapai.com
   - 🇺🇸 US美國丨yoyapai.com
@@ -3554,26 +3560,26 @@ proxy-groups:
   - 🇨🇭CH瑞士丨yoyapai.com
   - 🇷🇺 RU俄羅斯丨yoyapai.com
   - 🇺🇸 US美國丨yoyapai.com_3
+  - 🇺🇸US美國丨yoyapai.com_3
+  - 🇺🇸US美國丨yoyapai.com_4
+  - 🇺🇸US美國丨yoyapai.com_5
   - 🇺🇸US美國丨yoyapai.com_6
-  - 🇺🇸US美國丨yoyapai.com_7
-  - 🇺🇸US美國丨yoyapai.com_8
-  - 🇺🇸US美國丨yoyapai.com_9
   - 🇺🇸美國CloudFlare节点丨yoyapai.com
   - 🇱🇹LT立陶宛丨yoyapai.com_1
   - 🇱🇹LT立陶宛丨yoyapai.com_2
   - 🇨🇭CH瑞士丨yoyapai.com_1
   - 🇨🇭CH瑞士丨yoyapai.com_2
+  - 美國丨yoyapai.com
+  - 美國丨yoyapai.com_1
   - 美國丨yoyapai.com_2
-  - 美國丨yoyapai.com_3
-  - 美國丨yoyapai.com_4
   - 南非丨yoyapai.com
   - 🇱🇹LT立陶宛丨yoyapai.com_3
-  - 美國丨yoyapai.com_5
+  - 美國丨yoyapai.com_3
+  - 🇺🇸US美國丨yoyapai.com_7
+  - 🇺🇸US美國丨yoyapai.com_8
+  - 🇺🇸US美國丨yoyapai.com_9
   - 🇺🇸US美國丨yoyapai.com_10
   - 🇺🇸US美國丨yoyapai.com_11
-  - 🇺🇸US美國丨yoyapai.com_12
-  - 🇺🇸US美國丨yoyapai.com_13
-  - 🇺🇸US美國丨yoyapai.com_14
   - FR法國丨yoyapai.com
   - FR法國丨yoyapai.com_1
   - FR法國丨yoyapai.com_2
@@ -3582,7 +3588,7 @@ proxy-groups:
   - CA加拿大丨yoyapai.com
   - 🇳🇱_NL荷蘭丨yoyapai.com
   - 🇷🇺俄羅斯丨yoyapai.com
-  - 美國丨yoyapai.com_6
+  - 美國丨yoyapai.com_4
   - FR法國丨yoyapai.com_5
   - FR法國丨yoyapai.com_6
   - FR法國丨yoyapai.com_7
@@ -3591,8 +3597,8 @@ proxy-groups:
   - 🇸🇬 SG新加坡
   - 🇺🇸 US美國
   - 🇫🇷 FR法國
-  - 🇺🇸US美國丨yoyapai.com_15
-  - 🇺🇸US美國丨yoyapai.com_16
+  - 🇺🇸US美國丨yoyapai.com_12
+  - 🇺🇸US美國丨yoyapai.com_13
   - 🇯🇵JP日本丨yoyapai.com
   - 🇯🇵JP日本丨yoyapai.com_1
   - 🇭🇰HK香港丨yoyapai.com
@@ -3619,24 +3625,24 @@ proxy-groups:
   - 🇺🇸 US美國_3
   - 🇲🇽 墨西哥
   - 🇺🇸 US美國_4
-  - 美國丨yoyapai.com_7
+  - 美國丨yoyapai.com_5
   - 美國節點丨yoyapai.com
   - 🇺🇸 美國節點丨yoyapai.com
   - 🇺🇸 美國丨yoyapai.com
   - 🇿🇦 南非丨yoyapai.com
-  - 美國丨yoyapai.com_8
-  - 美國丨yoyapai.com_9
+  - 美國丨yoyapai.com_6
+  - 美國丨yoyapai.com_7
   - 🇭🇰HK香港節點丨yoyapai.com_4
   - 🇭🇰HK香港節點丨yoyapai.com_5
   - 🇲🇽MX墨西哥
   - 塞舌爾丨yoyapai.com
   - 🇧🇷巴西丨yoyapai.com
   - 🇺🇸 美國
-  - 🇺🇸US美國丨yoyapai.com_17
+  - 🇺🇸US美國丨yoyapai.com_14
   - 🇺🇦烏克蘭丨yoyapai.com
   - 🇺🇸US美國節點丨yoyapai.com
-  - 🇩🇪德國丨yoyapai.com
   - 🇩🇪德國丨yoyapai.com_1
+  - 🇩🇪德國丨yoyapai.com_2
   - 🇹🇷土耳其丨yoyapai.com
   - 🇮🇷_IR_伊朗
   - 🇷🇺_RU俄羅斯丨yoyapai.com
@@ -3647,7 +3653,7 @@ proxy-groups:
   - 🇬🇷 希腊丨yoyapai.com
   - 免費節點丨yoyapai.com
   - 免費節點丨yoyapai.com_1
-  - 美國丨yoyapai.com_10
+  - 美國丨yoyapai.com_8
   - 🇺🇸 US美國_5
   - 🇺🇸 US美國_6
   - 🇺🇸 美國_1
@@ -3666,12 +3672,12 @@ proxy-groups:
   - 🇮🇷 伊朗丨yoyapai.com
   - 🇳🇱 荷蘭丨yoyapai.com
   - 🇳🇱 荷蘭丨yoyapai.com_1
-  - 美國丨yoyapai.com_11
-  - 🇩🇪德國丨yoyapai.com_2
+  - 美國丨yoyapai.com_9
   - 🇩🇪德國丨yoyapai.com_3
   - 🇩🇪德國丨yoyapai.com_4
   - 🇩🇪德國丨yoyapai.com_5
-  - 🇨🇦CA加拿大丨yoyapai.com_8
+  - 🇩🇪德國丨yoyapai.com_6
+  - 🇨🇦CA加拿大丨yoyapai.com_3
   - MY 🇲🇾 馬來西亞
   - 🇨🇦加拿大丨yoyapai.com
   - 🇨🇦加拿大丨yoyapai.com_1
@@ -3680,10 +3686,10 @@ proxy-groups:
   - 土耳其丨yoyapai.com
   - 🇨🇴CO哥倫比亞丨yoyapai.com
   - 🇺🇸 美國丨yoyapai.com_1
-  - 🇹🇭TH泰國丨yoyapai.com_1
-  - 🇺🇸美國丨yoyapai.com_1
-  - 🇷🇺RU俄羅斯丨yoyapai.com
+  - 🇹🇭TH泰國丨yoyapai.com
   - 🇺🇸美國丨yoyapai.com_2
+  - 🇷🇺RU俄羅斯丨yoyapai.com
+  - 🇺🇸美國丨yoyapai.com_3
   - 🇹🇭泰國丨yoyapai.com
   - 🇭🇰香港丨yoyapai.com
   - 🇸🇪瑞典丨yoyapai.com
@@ -3710,9 +3716,8 @@ proxy-groups:
   - 🇷🇺俄罗斯丨yoyapai.com_3
   - 🇹🇭泰国丨yoyapai.com
   - ' 🇪🇸 ES西班牙丨yoyapai.com'
-  - 🇨🇦CA加拿大丨yoyapai.com_9
-  - 🇨🇦CA加拿大丨yoyapai.com_10
-  - 🇨🇦CA加拿大丨yoyapai.com_11
+  - 🇨🇦CA加拿大丨yoyapai.com_4
+  - 🇨🇦CA加拿大丨yoyapai.com_5
   - 🇸🇮斯洛文尼亚丨yoyapai.com
   - 🇸🇮斯洛文尼亚丨yoyapai.com_1
   - 🇰🇷韩国丨yoyapai.com
@@ -3721,18 +3726,33 @@ proxy-groups:
   - 🇮🇷 IR伊朗丨yoyapai.com
   - 🇪🇪 EE丨yoyapai.com爱沙尼亚丨yoyapai.com
   - 🇨🇿 捷克丨yoyapai.com
+  - 🇹🇭TH泰國丨yoyapai.com_1
   - 🇮🇪IE爱尔兰丨yoyapai.com
-  - ❓免費節點丨yoyapai.com
-  - ❓未知丨yoyapai.com_13
-  - 🇩🇪德國丨yoyapai.com_6
-  - 🗽🇺🇸美國CloudFlare节点丨yoyapai.com
-  - 🇫🇷法國丨yoyapai.com
-  - 🇺🇸美國丨yoyapai.com_3
-  - ❓未知丨yoyapai.com_14
-  - 🇸🇬SG新加坡丨yoyapai.com
+  - ❓未知丨yoyapai.com_7
   - 🇺🇸美國丨yoyapai.com_4
-  - ❓未知丨yoyapai.com_15
+  - 🇺🇸US美國丨yoyapai.com_15
+  - 🇺🇸US美國丨yoyapai.com_16
+  - ❓未知丨yoyapai.com_8
+  - ❓未知丨yoyapai.com_9
+  - ❓未知丨yoyapai.com_10
   - 🇮🇷IR伊朗丨yoyapai.com
+  - 🇭🇰HK香港丨yoyapai.com_6
+  - 🇭🇰HK香港丨yoyapai.com_7
+  - 🇭🇰HK香港丨yoyapai.com_8
+  - 🇸🇬SG新加坡丨yoyapai.com_1
+  - 🇸🇬SG新加坡丨yoyapai.com_2
+  - 🇩🇪DE德国丨yoyapai.com_1
+  - 🇪🇪爱沙尼亚丨yoyapai.com
+  - 🇵🇱PL波兰丨yoyapai.com
+  - 🇺🇸US美国丨yoyapai.com_1
+  - 🇫🇮FI芬兰丨yoyapai.com
+  - 🇷🇴RO罗马尼亚丨yoyapai.com
+  - 🇳🇱NL荷兰丨yoyapai.com
+  - 🇵🇱PL波兰丨yoyapai.com_1
+  - 🇵🇱PL波兰丨yoyapai.com_2
+  - 🇵🇱PL波兰丨yoyapai.com_3
+  - 🇳🇱NL荷兰丨yoyapai.com_1
+  - 🇷🇴RO罗马尼亚丨yoyapai.com_1
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
@@ -3742,59 +3762,45 @@ proxy-groups:
   - 🚀 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 🇹🇭TH泰国丨yoyapai.com
-  - 🇺🇸US美國丨yoyapai.com
-  - 🇺🇸US美國丨yoyapai.com_1
-  - ❓未知丨yoyapai.com
-  - ❓未知丨yoyapai.com_1
-  - 🇹🇭TH泰國丨yoyapai.com
-  - ❓未知丨yoyapai.com_2
   - 🇺🇸美國丨yoyapai.com
-  - 🇺🇸US美國丨yoyapai.com_2
-  - ❓未知丨yoyapai.com_3
-  - ❓未知丨yoyapai.com_4
-  - 🇺🇸美国丨yoyapai.com
-  - ❓未知丨yoyapai.com_5
+  - 🇺🇸美國丨yoyapai.com_1
+  - ❓未知丨yoyapai.com
+  - ❓免費節點丨yoyapai.com
+  - ❓未知丨yoyapai.com_1
+  - 🇸🇬SG新加坡丨yoyapai.com
+  - 🇫🇷法國丨yoyapai.com
+  - 🇨🇦CA加拿大丨yoyapai.com
+  - 🇩🇪德國丨yoyapai.com
+  - 🗽🇺🇸美國CloudFlare节点丨yoyapai.com
+  - 🇫🇫🇮芬兰
+  - 🇳🇱_荷兰
   - 未知
   - GB英国丨yoyapai.com
-  - ❓未知丨yoyapai.com_6
-  - ❓未知丨yoyapai.com_7
+  - 🇺🇸美国丨yoyapai.com
+  - ❓未知丨yoyapai.com_2
+  - ❓未知丨yoyapai.com_3
   - 🇫🇷FR法國丨yoyapai.com
-  - ❓未知丨yoyapai.com_8
-  - ❓未知丨yoyapai.com_9
-  - 🇺🇸US美國丨yoyapai.com_3
-  - 🇨🇦CA加拿大丨yoyapai.com
-  - 🇺🇸US美国丨yoyapai.com
-  - 🇨🇦CA加拿大丨yoyapai.com_1
-  - 🇨🇦CA加拿大丨yoyapai.com_2
-  - 🇨🇦CA加拿大丨yoyapai.com_3
-  - 🇫🇷法国丨yoyapai.com
-  - 🇹🇷TR土耳其丨yoyapai.com
-  - 🇨🇦CA加拿大丨yoyapai.com_4
-  - 🇨🇦CA加拿大丨yoyapai.com_5
-  - 🇺🇸US美国丨yoyapai.com_1
-  - 美國丨yoyapai.com
-  - 🇨🇦CA加拿大丨yoyapai.com_6
-  - FR法国丨yoyapai.com
-  - 美國丨yoyapai.com_1
-  - 🇫🇷法国丨yoyapai.com_1
-  - 🇺🇸US美國丨yoyapai.com_4
-  - ❓未知丨yoyapai.com_10
-  - 🇫🇷FR法国丨yoyapai.com
-  - 🇫🇷FR法国丨yoyapai.com_1
-  - 🇫🇷法国丨yoyapai.com_2
-  - ❓未知丨yoyapai.com_11
-  - 🇨🇦CA加拿大丨yoyapai.com_7
-  - 🇫🇷法国丨yoyapai.com_3
-  - 🇳🇱_荷兰
-  - 🇹🇭 Thailand泰国丨yoyapai.com
-  - 🇷🇺俄罗斯丨yoyapai.com
-  - 🇫🇷法国丨yoyapai.com_4
-  - 🇫🇫🇮芬兰
-  - 🇩🇪DE德国丨yoyapai.com
+  - 🇺🇸US美國丨yoyapai.com
+  - 🇺🇸US美國丨yoyapai.com_1
   - 🇫🇷FR法國丨yoyapai.com_1
-  - ❓未知丨yoyapai.com_12
-  - 🇺🇸US美國丨yoyapai.com_5
+  - ❓未知丨yoyapai.com_4
+  - 🇫🇷FR法国丨yoyapai.com
+  - 🇫🇷法国丨yoyapai.com
+  - 🇫🇷FR法国丨yoyapai.com_1
+  - FR法国丨yoyapai.com
+  - 🇺🇸US美国丨yoyapai.com
+  - 🇫🇷法国丨yoyapai.com_1
+  - 🇨🇦CA加拿大丨yoyapai.com_1
+  - 🇫🇷法国丨yoyapai.com_2
+  - 🇨🇦CA加拿大丨yoyapai.com_2
+  - 🇫🇷法国丨yoyapai.com_3
+  - ❓未知丨yoyapai.com_5
+  - 🇷🇺俄罗斯丨yoyapai.com
+  - 🇩🇪DE德国丨yoyapai.com
+  - 🇹🇭 Thailand泰国丨yoyapai.com
+  - 🇹🇭TH泰国丨yoyapai.com
+  - ❓未知丨yoyapai.com_6
+  - 🇺🇸US美國丨yoyapai.com_2
   - 🇭🇺HU匈牙利丨yoyapai.com
   - 🇱🇹LT立陶宛丨yoyapai.com
   - 🇺🇸 US美國丨yoyapai.com
@@ -3804,26 +3810,26 @@ proxy-groups:
   - 🇨🇭CH瑞士丨yoyapai.com
   - 🇷🇺 RU俄羅斯丨yoyapai.com
   - 🇺🇸 US美國丨yoyapai.com_3
+  - 🇺🇸US美國丨yoyapai.com_3
+  - 🇺🇸US美國丨yoyapai.com_4
+  - 🇺🇸US美國丨yoyapai.com_5
   - 🇺🇸US美國丨yoyapai.com_6
-  - 🇺🇸US美國丨yoyapai.com_7
-  - 🇺🇸US美國丨yoyapai.com_8
-  - 🇺🇸US美國丨yoyapai.com_9
   - 🇺🇸美國CloudFlare节点丨yoyapai.com
   - 🇱🇹LT立陶宛丨yoyapai.com_1
   - 🇱🇹LT立陶宛丨yoyapai.com_2
   - 🇨🇭CH瑞士丨yoyapai.com_1
   - 🇨🇭CH瑞士丨yoyapai.com_2
+  - 美國丨yoyapai.com
+  - 美國丨yoyapai.com_1
   - 美國丨yoyapai.com_2
-  - 美國丨yoyapai.com_3
-  - 美國丨yoyapai.com_4
   - 南非丨yoyapai.com
   - 🇱🇹LT立陶宛丨yoyapai.com_3
-  - 美國丨yoyapai.com_5
+  - 美國丨yoyapai.com_3
+  - 🇺🇸US美國丨yoyapai.com_7
+  - 🇺🇸US美國丨yoyapai.com_8
+  - 🇺🇸US美國丨yoyapai.com_9
   - 🇺🇸US美國丨yoyapai.com_10
   - 🇺🇸US美國丨yoyapai.com_11
-  - 🇺🇸US美國丨yoyapai.com_12
-  - 🇺🇸US美國丨yoyapai.com_13
-  - 🇺🇸US美國丨yoyapai.com_14
   - FR法國丨yoyapai.com
   - FR法國丨yoyapai.com_1
   - FR法國丨yoyapai.com_2
@@ -3832,7 +3838,7 @@ proxy-groups:
   - CA加拿大丨yoyapai.com
   - 🇳🇱_NL荷蘭丨yoyapai.com
   - 🇷🇺俄羅斯丨yoyapai.com
-  - 美國丨yoyapai.com_6
+  - 美國丨yoyapai.com_4
   - FR法國丨yoyapai.com_5
   - FR法國丨yoyapai.com_6
   - FR法國丨yoyapai.com_7
@@ -3841,8 +3847,8 @@ proxy-groups:
   - 🇸🇬 SG新加坡
   - 🇺🇸 US美國
   - 🇫🇷 FR法國
-  - 🇺🇸US美國丨yoyapai.com_15
-  - 🇺🇸US美國丨yoyapai.com_16
+  - 🇺🇸US美國丨yoyapai.com_12
+  - 🇺🇸US美國丨yoyapai.com_13
   - 🇯🇵JP日本丨yoyapai.com
   - 🇯🇵JP日本丨yoyapai.com_1
   - 🇭🇰HK香港丨yoyapai.com
@@ -3869,24 +3875,24 @@ proxy-groups:
   - 🇺🇸 US美國_3
   - 🇲🇽 墨西哥
   - 🇺🇸 US美國_4
-  - 美國丨yoyapai.com_7
+  - 美國丨yoyapai.com_5
   - 美國節點丨yoyapai.com
   - 🇺🇸 美國節點丨yoyapai.com
   - 🇺🇸 美國丨yoyapai.com
   - 🇿🇦 南非丨yoyapai.com
-  - 美國丨yoyapai.com_8
-  - 美國丨yoyapai.com_9
+  - 美國丨yoyapai.com_6
+  - 美國丨yoyapai.com_7
   - 🇭🇰HK香港節點丨yoyapai.com_4
   - 🇭🇰HK香港節點丨yoyapai.com_5
   - 🇲🇽MX墨西哥
   - 塞舌爾丨yoyapai.com
   - 🇧🇷巴西丨yoyapai.com
   - 🇺🇸 美國
-  - 🇺🇸US美國丨yoyapai.com_17
+  - 🇺🇸US美國丨yoyapai.com_14
   - 🇺🇦烏克蘭丨yoyapai.com
   - 🇺🇸US美國節點丨yoyapai.com
-  - 🇩🇪德國丨yoyapai.com
   - 🇩🇪德國丨yoyapai.com_1
+  - 🇩🇪德國丨yoyapai.com_2
   - 🇹🇷土耳其丨yoyapai.com
   - 🇮🇷_IR_伊朗
   - 🇷🇺_RU俄羅斯丨yoyapai.com
@@ -3897,7 +3903,7 @@ proxy-groups:
   - 🇬🇷 希腊丨yoyapai.com
   - 免費節點丨yoyapai.com
   - 免費節點丨yoyapai.com_1
-  - 美國丨yoyapai.com_10
+  - 美國丨yoyapai.com_8
   - 🇺🇸 US美國_5
   - 🇺🇸 US美國_6
   - 🇺🇸 美國_1
@@ -3916,12 +3922,12 @@ proxy-groups:
   - 🇮🇷 伊朗丨yoyapai.com
   - 🇳🇱 荷蘭丨yoyapai.com
   - 🇳🇱 荷蘭丨yoyapai.com_1
-  - 美國丨yoyapai.com_11
-  - 🇩🇪德國丨yoyapai.com_2
+  - 美國丨yoyapai.com_9
   - 🇩🇪德國丨yoyapai.com_3
   - 🇩🇪德國丨yoyapai.com_4
   - 🇩🇪德國丨yoyapai.com_5
-  - 🇨🇦CA加拿大丨yoyapai.com_8
+  - 🇩🇪德國丨yoyapai.com_6
+  - 🇨🇦CA加拿大丨yoyapai.com_3
   - MY 🇲🇾 馬來西亞
   - 🇨🇦加拿大丨yoyapai.com
   - 🇨🇦加拿大丨yoyapai.com_1
@@ -3930,10 +3936,10 @@ proxy-groups:
   - 土耳其丨yoyapai.com
   - 🇨🇴CO哥倫比亞丨yoyapai.com
   - 🇺🇸 美國丨yoyapai.com_1
-  - 🇹🇭TH泰國丨yoyapai.com_1
-  - 🇺🇸美國丨yoyapai.com_1
-  - 🇷🇺RU俄羅斯丨yoyapai.com
+  - 🇹🇭TH泰國丨yoyapai.com
   - 🇺🇸美國丨yoyapai.com_2
+  - 🇷🇺RU俄羅斯丨yoyapai.com
+  - 🇺🇸美國丨yoyapai.com_3
   - 🇹🇭泰國丨yoyapai.com
   - 🇭🇰香港丨yoyapai.com
   - 🇸🇪瑞典丨yoyapai.com
@@ -3960,9 +3966,8 @@ proxy-groups:
   - 🇷🇺俄罗斯丨yoyapai.com_3
   - 🇹🇭泰国丨yoyapai.com
   - ' 🇪🇸 ES西班牙丨yoyapai.com'
-  - 🇨🇦CA加拿大丨yoyapai.com_9
-  - 🇨🇦CA加拿大丨yoyapai.com_10
-  - 🇨🇦CA加拿大丨yoyapai.com_11
+  - 🇨🇦CA加拿大丨yoyapai.com_4
+  - 🇨🇦CA加拿大丨yoyapai.com_5
   - 🇸🇮斯洛文尼亚丨yoyapai.com
   - 🇸🇮斯洛文尼亚丨yoyapai.com_1
   - 🇰🇷韩国丨yoyapai.com
@@ -3971,76 +3976,77 @@ proxy-groups:
   - 🇮🇷 IR伊朗丨yoyapai.com
   - 🇪🇪 EE丨yoyapai.com爱沙尼亚丨yoyapai.com
   - 🇨🇿 捷克丨yoyapai.com
+  - 🇹🇭TH泰國丨yoyapai.com_1
   - 🇮🇪IE爱尔兰丨yoyapai.com
-  - ❓免費節點丨yoyapai.com
-  - ❓未知丨yoyapai.com_13
-  - 🇩🇪德國丨yoyapai.com_6
-  - 🗽🇺🇸美國CloudFlare节点丨yoyapai.com
-  - 🇫🇷法國丨yoyapai.com
-  - 🇺🇸美國丨yoyapai.com_3
-  - ❓未知丨yoyapai.com_14
-  - 🇸🇬SG新加坡丨yoyapai.com
+  - ❓未知丨yoyapai.com_7
   - 🇺🇸美國丨yoyapai.com_4
-  - ❓未知丨yoyapai.com_15
+  - 🇺🇸US美國丨yoyapai.com_15
+  - 🇺🇸US美國丨yoyapai.com_16
+  - ❓未知丨yoyapai.com_8
+  - ❓未知丨yoyapai.com_9
+  - ❓未知丨yoyapai.com_10
   - 🇮🇷IR伊朗丨yoyapai.com
+  - 🇭🇰HK香港丨yoyapai.com_6
+  - 🇭🇰HK香港丨yoyapai.com_7
+  - 🇭🇰HK香港丨yoyapai.com_8
+  - 🇸🇬SG新加坡丨yoyapai.com_1
+  - 🇸🇬SG新加坡丨yoyapai.com_2
+  - 🇩🇪DE德国丨yoyapai.com_1
+  - 🇪🇪爱沙尼亚丨yoyapai.com
+  - 🇵🇱PL波兰丨yoyapai.com
+  - 🇺🇸US美国丨yoyapai.com_1
+  - 🇫🇮FI芬兰丨yoyapai.com
+  - 🇷🇴RO罗马尼亚丨yoyapai.com
+  - 🇳🇱NL荷兰丨yoyapai.com
+  - 🇵🇱PL波兰丨yoyapai.com_1
+  - 🇵🇱PL波兰丨yoyapai.com_2
+  - 🇵🇱PL波兰丨yoyapai.com_3
+  - 🇳🇱NL荷兰丨yoyapai.com_1
+  - 🇷🇴RO罗马尼亚丨yoyapai.com_1
 - name: 📲 电报信息
   type: select
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇹🇭TH泰国丨yoyapai.com
-  - 🇺🇸US美國丨yoyapai.com
-  - 🇺🇸US美國丨yoyapai.com_1
-  - ❓未知丨yoyapai.com
-  - ❓未知丨yoyapai.com_1
-  - 🇹🇭TH泰國丨yoyapai.com
-  - ❓未知丨yoyapai.com_2
   - 🇺🇸美國丨yoyapai.com
-  - 🇺🇸US美國丨yoyapai.com_2
-  - ❓未知丨yoyapai.com_3
-  - ❓未知丨yoyapai.com_4
-  - 🇺🇸美国丨yoyapai.com
-  - ❓未知丨yoyapai.com_5
+  - 🇺🇸美國丨yoyapai.com_1
+  - ❓未知丨yoyapai.com
+  - ❓免費節點丨yoyapai.com
+  - ❓未知丨yoyapai.com_1
+  - 🇸🇬SG新加坡丨yoyapai.com
+  - 🇫🇷法國丨yoyapai.com
+  - 🇨🇦CA加拿大丨yoyapai.com
+  - 🇩🇪德國丨yoyapai.com
+  - 🗽🇺🇸美國CloudFlare节点丨yoyapai.com
+  - 🇫🇫🇮芬兰
+  - 🇳🇱_荷兰
   - 未知
   - GB英国丨yoyapai.com
-  - ❓未知丨yoyapai.com_6
-  - ❓未知丨yoyapai.com_7
+  - 🇺🇸美国丨yoyapai.com
+  - ❓未知丨yoyapai.com_2
+  - ❓未知丨yoyapai.com_3
   - 🇫🇷FR法國丨yoyapai.com
-  - ❓未知丨yoyapai.com_8
-  - ❓未知丨yoyapai.com_9
-  - 🇺🇸US美國丨yoyapai.com_3
-  - 🇨🇦CA加拿大丨yoyapai.com
-  - 🇺🇸US美国丨yoyapai.com
-  - 🇨🇦CA加拿大丨yoyapai.com_1
-  - 🇨🇦CA加拿大丨yoyapai.com_2
-  - 🇨🇦CA加拿大丨yoyapai.com_3
-  - 🇫🇷法国丨yoyapai.com
-  - 🇹🇷TR土耳其丨yoyapai.com
-  - 🇨🇦CA加拿大丨yoyapai.com_4
-  - 🇨🇦CA加拿大丨yoyapai.com_5
-  - 🇺🇸US美国丨yoyapai.com_1
-  - 美國丨yoyapai.com
-  - 🇨🇦CA加拿大丨yoyapai.com_6
-  - FR法国丨yoyapai.com
-  - 美國丨yoyapai.com_1
-  - 🇫🇷法国丨yoyapai.com_1
-  - 🇺🇸US美國丨yoyapai.com_4
-  - ❓未知丨yoyapai.com_10
-  - 🇫🇷FR法国丨yoyapai.com
-  - 🇫🇷FR法国丨yoyapai.com_1
-  - 🇫🇷法国丨yoyapai.com_2
-  - ❓未知丨yoyapai.com_11
-  - 🇨🇦CA加拿大丨yoyapai.com_7
-  - 🇫🇷法国丨yoyapai.com_3
-  - 🇳🇱_荷兰
-  - 🇹🇭 Thailand泰国丨yoyapai.com
-  - 🇷🇺俄罗斯丨yoyapai.com
-  - 🇫🇷法国丨yoyapai.com_4
-  - 🇫🇫🇮芬兰
-  - 🇩🇪DE德国丨yoyapai.com
+  - 🇺🇸US美國丨yoyapai.com
+  - 🇺🇸US美國丨yoyapai.com_1
   - 🇫🇷FR法國丨yoyapai.com_1
-  - ❓未知丨yoyapai.com_12
-  - 🇺🇸US美國丨yoyapai.com_5
+  - ❓未知丨yoyapai.com_4
+  - 🇫🇷FR法国丨yoyapai.com
+  - 🇫🇷法国丨yoyapai.com
+  - 🇫🇷FR法国丨yoyapai.com_1
+  - FR法国丨yoyapai.com
+  - 🇺🇸US美国丨yoyapai.com
+  - 🇫🇷法国丨yoyapai.com_1
+  - 🇨🇦CA加拿大丨yoyapai.com_1
+  - 🇫🇷法国丨yoyapai.com_2
+  - 🇨🇦CA加拿大丨yoyapai.com_2
+  - 🇫🇷法国丨yoyapai.com_3
+  - ❓未知丨yoyapai.com_5
+  - 🇷🇺俄罗斯丨yoyapai.com
+  - 🇩🇪DE德国丨yoyapai.com
+  - 🇹🇭 Thailand泰国丨yoyapai.com
+  - 🇹🇭TH泰国丨yoyapai.com
+  - ❓未知丨yoyapai.com_6
+  - 🇺🇸US美國丨yoyapai.com_2
   - 🇭🇺HU匈牙利丨yoyapai.com
   - 🇱🇹LT立陶宛丨yoyapai.com
   - 🇺🇸 US美國丨yoyapai.com
@@ -4050,26 +4056,26 @@ proxy-groups:
   - 🇨🇭CH瑞士丨yoyapai.com
   - 🇷🇺 RU俄羅斯丨yoyapai.com
   - 🇺🇸 US美國丨yoyapai.com_3
+  - 🇺🇸US美國丨yoyapai.com_3
+  - 🇺🇸US美國丨yoyapai.com_4
+  - 🇺🇸US美國丨yoyapai.com_5
   - 🇺🇸US美國丨yoyapai.com_6
-  - 🇺🇸US美國丨yoyapai.com_7
-  - 🇺🇸US美國丨yoyapai.com_8
-  - 🇺🇸US美國丨yoyapai.com_9
   - 🇺🇸美國CloudFlare节点丨yoyapai.com
   - 🇱🇹LT立陶宛丨yoyapai.com_1
   - 🇱🇹LT立陶宛丨yoyapai.com_2
   - 🇨🇭CH瑞士丨yoyapai.com_1
   - 🇨🇭CH瑞士丨yoyapai.com_2
+  - 美國丨yoyapai.com
+  - 美國丨yoyapai.com_1
   - 美國丨yoyapai.com_2
-  - 美國丨yoyapai.com_3
-  - 美國丨yoyapai.com_4
   - 南非丨yoyapai.com
   - 🇱🇹LT立陶宛丨yoyapai.com_3
-  - 美國丨yoyapai.com_5
+  - 美國丨yoyapai.com_3
+  - 🇺🇸US美國丨yoyapai.com_7
+  - 🇺🇸US美國丨yoyapai.com_8
+  - 🇺🇸US美國丨yoyapai.com_9
   - 🇺🇸US美國丨yoyapai.com_10
   - 🇺🇸US美國丨yoyapai.com_11
-  - 🇺🇸US美國丨yoyapai.com_12
-  - 🇺🇸US美國丨yoyapai.com_13
-  - 🇺🇸US美國丨yoyapai.com_14
   - FR法國丨yoyapai.com
   - FR法國丨yoyapai.com_1
   - FR法國丨yoyapai.com_2
@@ -4078,7 +4084,7 @@ proxy-groups:
   - CA加拿大丨yoyapai.com
   - 🇳🇱_NL荷蘭丨yoyapai.com
   - 🇷🇺俄羅斯丨yoyapai.com
-  - 美國丨yoyapai.com_6
+  - 美國丨yoyapai.com_4
   - FR法國丨yoyapai.com_5
   - FR法國丨yoyapai.com_6
   - FR法國丨yoyapai.com_7
@@ -4087,8 +4093,8 @@ proxy-groups:
   - 🇸🇬 SG新加坡
   - 🇺🇸 US美國
   - 🇫🇷 FR法國
-  - 🇺🇸US美國丨yoyapai.com_15
-  - 🇺🇸US美國丨yoyapai.com_16
+  - 🇺🇸US美國丨yoyapai.com_12
+  - 🇺🇸US美國丨yoyapai.com_13
   - 🇯🇵JP日本丨yoyapai.com
   - 🇯🇵JP日本丨yoyapai.com_1
   - 🇭🇰HK香港丨yoyapai.com
@@ -4115,24 +4121,24 @@ proxy-groups:
   - 🇺🇸 US美國_3
   - 🇲🇽 墨西哥
   - 🇺🇸 US美國_4
-  - 美國丨yoyapai.com_7
+  - 美國丨yoyapai.com_5
   - 美國節點丨yoyapai.com
   - 🇺🇸 美國節點丨yoyapai.com
   - 🇺🇸 美國丨yoyapai.com
   - 🇿🇦 南非丨yoyapai.com
-  - 美國丨yoyapai.com_8
-  - 美國丨yoyapai.com_9
+  - 美國丨yoyapai.com_6
+  - 美國丨yoyapai.com_7
   - 🇭🇰HK香港節點丨yoyapai.com_4
   - 🇭🇰HK香港節點丨yoyapai.com_5
   - 🇲🇽MX墨西哥
   - 塞舌爾丨yoyapai.com
   - 🇧🇷巴西丨yoyapai.com
   - 🇺🇸 美國
-  - 🇺🇸US美國丨yoyapai.com_17
+  - 🇺🇸US美國丨yoyapai.com_14
   - 🇺🇦烏克蘭丨yoyapai.com
   - 🇺🇸US美國節點丨yoyapai.com
-  - 🇩🇪德國丨yoyapai.com
   - 🇩🇪德國丨yoyapai.com_1
+  - 🇩🇪德國丨yoyapai.com_2
   - 🇹🇷土耳其丨yoyapai.com
   - 🇮🇷_IR_伊朗
   - 🇷🇺_RU俄羅斯丨yoyapai.com
@@ -4143,7 +4149,7 @@ proxy-groups:
   - 🇬🇷 希腊丨yoyapai.com
   - 免費節點丨yoyapai.com
   - 免費節點丨yoyapai.com_1
-  - 美國丨yoyapai.com_10
+  - 美國丨yoyapai.com_8
   - 🇺🇸 US美國_5
   - 🇺🇸 US美國_6
   - 🇺🇸 美國_1
@@ -4162,12 +4168,12 @@ proxy-groups:
   - 🇮🇷 伊朗丨yoyapai.com
   - 🇳🇱 荷蘭丨yoyapai.com
   - 🇳🇱 荷蘭丨yoyapai.com_1
-  - 美國丨yoyapai.com_11
-  - 🇩🇪德國丨yoyapai.com_2
+  - 美國丨yoyapai.com_9
   - 🇩🇪德國丨yoyapai.com_3
   - 🇩🇪德國丨yoyapai.com_4
   - 🇩🇪德國丨yoyapai.com_5
-  - 🇨🇦CA加拿大丨yoyapai.com_8
+  - 🇩🇪德國丨yoyapai.com_6
+  - 🇨🇦CA加拿大丨yoyapai.com_3
   - MY 🇲🇾 馬來西亞
   - 🇨🇦加拿大丨yoyapai.com
   - 🇨🇦加拿大丨yoyapai.com_1
@@ -4176,10 +4182,10 @@ proxy-groups:
   - 土耳其丨yoyapai.com
   - 🇨🇴CO哥倫比亞丨yoyapai.com
   - 🇺🇸 美國丨yoyapai.com_1
-  - 🇹🇭TH泰國丨yoyapai.com_1
-  - 🇺🇸美國丨yoyapai.com_1
-  - 🇷🇺RU俄羅斯丨yoyapai.com
+  - 🇹🇭TH泰國丨yoyapai.com
   - 🇺🇸美國丨yoyapai.com_2
+  - 🇷🇺RU俄羅斯丨yoyapai.com
+  - 🇺🇸美國丨yoyapai.com_3
   - 🇹🇭泰國丨yoyapai.com
   - 🇭🇰香港丨yoyapai.com
   - 🇸🇪瑞典丨yoyapai.com
@@ -4206,9 +4212,8 @@ proxy-groups:
   - 🇷🇺俄罗斯丨yoyapai.com_3
   - 🇹🇭泰国丨yoyapai.com
   - ' 🇪🇸 ES西班牙丨yoyapai.com'
-  - 🇨🇦CA加拿大丨yoyapai.com_9
-  - 🇨🇦CA加拿大丨yoyapai.com_10
-  - 🇨🇦CA加拿大丨yoyapai.com_11
+  - 🇨🇦CA加拿大丨yoyapai.com_4
+  - 🇨🇦CA加拿大丨yoyapai.com_5
   - 🇸🇮斯洛文尼亚丨yoyapai.com
   - 🇸🇮斯洛文尼亚丨yoyapai.com_1
   - 🇰🇷韩国丨yoyapai.com
@@ -4217,76 +4222,77 @@ proxy-groups:
   - 🇮🇷 IR伊朗丨yoyapai.com
   - 🇪🇪 EE丨yoyapai.com爱沙尼亚丨yoyapai.com
   - 🇨🇿 捷克丨yoyapai.com
+  - 🇹🇭TH泰國丨yoyapai.com_1
   - 🇮🇪IE爱尔兰丨yoyapai.com
-  - ❓免費節點丨yoyapai.com
-  - ❓未知丨yoyapai.com_13
-  - 🇩🇪德國丨yoyapai.com_6
-  - 🗽🇺🇸美國CloudFlare节点丨yoyapai.com
-  - 🇫🇷法國丨yoyapai.com
-  - 🇺🇸美國丨yoyapai.com_3
-  - ❓未知丨yoyapai.com_14
-  - 🇸🇬SG新加坡丨yoyapai.com
+  - ❓未知丨yoyapai.com_7
   - 🇺🇸美國丨yoyapai.com_4
-  - ❓未知丨yoyapai.com_15
+  - 🇺🇸US美國丨yoyapai.com_15
+  - 🇺🇸US美國丨yoyapai.com_16
+  - ❓未知丨yoyapai.com_8
+  - ❓未知丨yoyapai.com_9
+  - ❓未知丨yoyapai.com_10
   - 🇮🇷IR伊朗丨yoyapai.com
+  - 🇭🇰HK香港丨yoyapai.com_6
+  - 🇭🇰HK香港丨yoyapai.com_7
+  - 🇭🇰HK香港丨yoyapai.com_8
+  - 🇸🇬SG新加坡丨yoyapai.com_1
+  - 🇸🇬SG新加坡丨yoyapai.com_2
+  - 🇩🇪DE德国丨yoyapai.com_1
+  - 🇪🇪爱沙尼亚丨yoyapai.com
+  - 🇵🇱PL波兰丨yoyapai.com
+  - 🇺🇸US美国丨yoyapai.com_1
+  - 🇫🇮FI芬兰丨yoyapai.com
+  - 🇷🇴RO罗马尼亚丨yoyapai.com
+  - 🇳🇱NL荷兰丨yoyapai.com
+  - 🇵🇱PL波兰丨yoyapai.com_1
+  - 🇵🇱PL波兰丨yoyapai.com_2
+  - 🇵🇱PL波兰丨yoyapai.com_3
+  - 🇳🇱NL荷兰丨yoyapai.com_1
+  - 🇷🇴RO罗马尼亚丨yoyapai.com_1
 - name: Ⓜ️ 微软服务
   type: select
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
-  - 🇹🇭TH泰国丨yoyapai.com
-  - 🇺🇸US美國丨yoyapai.com
-  - 🇺🇸US美國丨yoyapai.com_1
-  - ❓未知丨yoyapai.com
-  - ❓未知丨yoyapai.com_1
-  - 🇹🇭TH泰國丨yoyapai.com
-  - ❓未知丨yoyapai.com_2
   - 🇺🇸美國丨yoyapai.com
-  - 🇺🇸US美國丨yoyapai.com_2
-  - ❓未知丨yoyapai.com_3
-  - ❓未知丨yoyapai.com_4
-  - 🇺🇸美国丨yoyapai.com
-  - ❓未知丨yoyapai.com_5
+  - 🇺🇸美國丨yoyapai.com_1
+  - ❓未知丨yoyapai.com
+  - ❓免費節點丨yoyapai.com
+  - ❓未知丨yoyapai.com_1
+  - 🇸🇬SG新加坡丨yoyapai.com
+  - 🇫🇷法國丨yoyapai.com
+  - 🇨🇦CA加拿大丨yoyapai.com
+  - 🇩🇪德國丨yoyapai.com
+  - 🗽🇺🇸美國CloudFlare节点丨yoyapai.com
+  - 🇫🇫🇮芬兰
+  - 🇳🇱_荷兰
   - 未知
   - GB英国丨yoyapai.com
-  - ❓未知丨yoyapai.com_6
-  - ❓未知丨yoyapai.com_7
+  - 🇺🇸美国丨yoyapai.com
+  - ❓未知丨yoyapai.com_2
+  - ❓未知丨yoyapai.com_3
   - 🇫🇷FR法國丨yoyapai.com
-  - ❓未知丨yoyapai.com_8
-  - ❓未知丨yoyapai.com_9
-  - 🇺🇸US美國丨yoyapai.com_3
-  - 🇨🇦CA加拿大丨yoyapai.com
-  - 🇺🇸US美国丨yoyapai.com
-  - 🇨🇦CA加拿大丨yoyapai.com_1
-  - 🇨🇦CA加拿大丨yoyapai.com_2
-  - 🇨🇦CA加拿大丨yoyapai.com_3
-  - 🇫🇷法国丨yoyapai.com
-  - 🇹🇷TR土耳其丨yoyapai.com
-  - 🇨🇦CA加拿大丨yoyapai.com_4
-  - 🇨🇦CA加拿大丨yoyapai.com_5
-  - 🇺🇸US美国丨yoyapai.com_1
-  - 美國丨yoyapai.com
-  - 🇨🇦CA加拿大丨yoyapai.com_6
-  - FR法国丨yoyapai.com
-  - 美國丨yoyapai.com_1
-  - 🇫🇷法国丨yoyapai.com_1
-  - 🇺🇸US美國丨yoyapai.com_4
-  - ❓未知丨yoyapai.com_10
-  - 🇫🇷FR法国丨yoyapai.com
-  - 🇫🇷FR法国丨yoyapai.com_1
-  - 🇫🇷法国丨yoyapai.com_2
-  - ❓未知丨yoyapai.com_11
-  - 🇨🇦CA加拿大丨yoyapai.com_7
-  - 🇫🇷法国丨yoyapai.com_3
-  - 🇳🇱_荷兰
-  - 🇹🇭 Thailand泰国丨yoyapai.com
-  - 🇷🇺俄罗斯丨yoyapai.com
-  - 🇫🇷法国丨yoyapai.com_4
-  - 🇫🇫🇮芬兰
-  - 🇩🇪DE德国丨yoyapai.com
+  - 🇺🇸US美國丨yoyapai.com
+  - 🇺🇸US美國丨yoyapai.com_1
   - 🇫🇷FR法國丨yoyapai.com_1
-  - ❓未知丨yoyapai.com_12
-  - 🇺🇸US美國丨yoyapai.com_5
+  - ❓未知丨yoyapai.com_4
+  - 🇫🇷FR法国丨yoyapai.com
+  - 🇫🇷法国丨yoyapai.com
+  - 🇫🇷FR法国丨yoyapai.com_1
+  - FR法国丨yoyapai.com
+  - 🇺🇸US美国丨yoyapai.com
+  - 🇫🇷法国丨yoyapai.com_1
+  - 🇨🇦CA加拿大丨yoyapai.com_1
+  - 🇫🇷法国丨yoyapai.com_2
+  - 🇨🇦CA加拿大丨yoyapai.com_2
+  - 🇫🇷法国丨yoyapai.com_3
+  - ❓未知丨yoyapai.com_5
+  - 🇷🇺俄罗斯丨yoyapai.com
+  - 🇩🇪DE德国丨yoyapai.com
+  - 🇹🇭 Thailand泰国丨yoyapai.com
+  - 🇹🇭TH泰国丨yoyapai.com
+  - ❓未知丨yoyapai.com_6
+  - 🇺🇸US美國丨yoyapai.com_2
   - 🇭🇺HU匈牙利丨yoyapai.com
   - 🇱🇹LT立陶宛丨yoyapai.com
   - 🇺🇸 US美國丨yoyapai.com
@@ -4296,26 +4302,26 @@ proxy-groups:
   - 🇨🇭CH瑞士丨yoyapai.com
   - 🇷🇺 RU俄羅斯丨yoyapai.com
   - 🇺🇸 US美國丨yoyapai.com_3
+  - 🇺🇸US美國丨yoyapai.com_3
+  - 🇺🇸US美國丨yoyapai.com_4
+  - 🇺🇸US美國丨yoyapai.com_5
   - 🇺🇸US美國丨yoyapai.com_6
-  - 🇺🇸US美國丨yoyapai.com_7
-  - 🇺🇸US美國丨yoyapai.com_8
-  - 🇺🇸US美國丨yoyapai.com_9
   - 🇺🇸美國CloudFlare节点丨yoyapai.com
   - 🇱🇹LT立陶宛丨yoyapai.com_1
   - 🇱🇹LT立陶宛丨yoyapai.com_2
   - 🇨🇭CH瑞士丨yoyapai.com_1
   - 🇨🇭CH瑞士丨yoyapai.com_2
+  - 美國丨yoyapai.com
+  - 美國丨yoyapai.com_1
   - 美國丨yoyapai.com_2
-  - 美國丨yoyapai.com_3
-  - 美國丨yoyapai.com_4
   - 南非丨yoyapai.com
   - 🇱🇹LT立陶宛丨yoyapai.com_3
-  - 美國丨yoyapai.com_5
+  - 美國丨yoyapai.com_3
+  - 🇺🇸US美國丨yoyapai.com_7
+  - 🇺🇸US美國丨yoyapai.com_8
+  - 🇺🇸US美國丨yoyapai.com_9
   - 🇺🇸US美國丨yoyapai.com_10
   - 🇺🇸US美國丨yoyapai.com_11
-  - 🇺🇸US美國丨yoyapai.com_12
-  - 🇺🇸US美國丨yoyapai.com_13
-  - 🇺🇸US美國丨yoyapai.com_14
   - FR法國丨yoyapai.com
   - FR法國丨yoyapai.com_1
   - FR法國丨yoyapai.com_2
@@ -4324,7 +4330,7 @@ proxy-groups:
   - CA加拿大丨yoyapai.com
   - 🇳🇱_NL荷蘭丨yoyapai.com
   - 🇷🇺俄羅斯丨yoyapai.com
-  - 美國丨yoyapai.com_6
+  - 美國丨yoyapai.com_4
   - FR法國丨yoyapai.com_5
   - FR法國丨yoyapai.com_6
   - FR法國丨yoyapai.com_7
@@ -4333,8 +4339,8 @@ proxy-groups:
   - 🇸🇬 SG新加坡
   - 🇺🇸 US美國
   - 🇫🇷 FR法國
-  - 🇺🇸US美國丨yoyapai.com_15
-  - 🇺🇸US美國丨yoyapai.com_16
+  - 🇺🇸US美國丨yoyapai.com_12
+  - 🇺🇸US美國丨yoyapai.com_13
   - 🇯🇵JP日本丨yoyapai.com
   - 🇯🇵JP日本丨yoyapai.com_1
   - 🇭🇰HK香港丨yoyapai.com
@@ -4361,24 +4367,24 @@ proxy-groups:
   - 🇺🇸 US美國_3
   - 🇲🇽 墨西哥
   - 🇺🇸 US美國_4
-  - 美國丨yoyapai.com_7
+  - 美國丨yoyapai.com_5
   - 美國節點丨yoyapai.com
   - 🇺🇸 美國節點丨yoyapai.com
   - 🇺🇸 美國丨yoyapai.com
   - 🇿🇦 南非丨yoyapai.com
-  - 美國丨yoyapai.com_8
-  - 美國丨yoyapai.com_9
+  - 美國丨yoyapai.com_6
+  - 美國丨yoyapai.com_7
   - 🇭🇰HK香港節點丨yoyapai.com_4
   - 🇭🇰HK香港節點丨yoyapai.com_5
   - 🇲🇽MX墨西哥
   - 塞舌爾丨yoyapai.com
   - 🇧🇷巴西丨yoyapai.com
   - 🇺🇸 美國
-  - 🇺🇸US美國丨yoyapai.com_17
+  - 🇺🇸US美國丨yoyapai.com_14
   - 🇺🇦烏克蘭丨yoyapai.com
   - 🇺🇸US美國節點丨yoyapai.com
-  - 🇩🇪德國丨yoyapai.com
   - 🇩🇪德國丨yoyapai.com_1
+  - 🇩🇪德國丨yoyapai.com_2
   - 🇹🇷土耳其丨yoyapai.com
   - 🇮🇷_IR_伊朗
   - 🇷🇺_RU俄羅斯丨yoyapai.com
@@ -4389,7 +4395,7 @@ proxy-groups:
   - 🇬🇷 希腊丨yoyapai.com
   - 免費節點丨yoyapai.com
   - 免費節點丨yoyapai.com_1
-  - 美國丨yoyapai.com_10
+  - 美國丨yoyapai.com_8
   - 🇺🇸 US美國_5
   - 🇺🇸 US美國_6
   - 🇺🇸 美國_1
@@ -4408,12 +4414,12 @@ proxy-groups:
   - 🇮🇷 伊朗丨yoyapai.com
   - 🇳🇱 荷蘭丨yoyapai.com
   - 🇳🇱 荷蘭丨yoyapai.com_1
-  - 美國丨yoyapai.com_11
-  - 🇩🇪德國丨yoyapai.com_2
+  - 美國丨yoyapai.com_9
   - 🇩🇪德國丨yoyapai.com_3
   - 🇩🇪德國丨yoyapai.com_4
   - 🇩🇪德國丨yoyapai.com_5
-  - 🇨🇦CA加拿大丨yoyapai.com_8
+  - 🇩🇪德國丨yoyapai.com_6
+  - 🇨🇦CA加拿大丨yoyapai.com_3
   - MY 🇲🇾 馬來西亞
   - 🇨🇦加拿大丨yoyapai.com
   - 🇨🇦加拿大丨yoyapai.com_1
@@ -4422,10 +4428,10 @@ proxy-groups:
   - 土耳其丨yoyapai.com
   - 🇨🇴CO哥倫比亞丨yoyapai.com
   - 🇺🇸 美國丨yoyapai.com_1
-  - 🇹🇭TH泰國丨yoyapai.com_1
-  - 🇺🇸美國丨yoyapai.com_1
-  - 🇷🇺RU俄羅斯丨yoyapai.com
+  - 🇹🇭TH泰國丨yoyapai.com
   - 🇺🇸美國丨yoyapai.com_2
+  - 🇷🇺RU俄羅斯丨yoyapai.com
+  - 🇺🇸美國丨yoyapai.com_3
   - 🇹🇭泰國丨yoyapai.com
   - 🇭🇰香港丨yoyapai.com
   - 🇸🇪瑞典丨yoyapai.com
@@ -4452,9 +4458,8 @@ proxy-groups:
   - 🇷🇺俄罗斯丨yoyapai.com_3
   - 🇹🇭泰国丨yoyapai.com
   - ' 🇪🇸 ES西班牙丨yoyapai.com'
-  - 🇨🇦CA加拿大丨yoyapai.com_9
-  - 🇨🇦CA加拿大丨yoyapai.com_10
-  - 🇨🇦CA加拿大丨yoyapai.com_11
+  - 🇨🇦CA加拿大丨yoyapai.com_4
+  - 🇨🇦CA加拿大丨yoyapai.com_5
   - 🇸🇮斯洛文尼亚丨yoyapai.com
   - 🇸🇮斯洛文尼亚丨yoyapai.com_1
   - 🇰🇷韩国丨yoyapai.com
@@ -4463,76 +4468,77 @@ proxy-groups:
   - 🇮🇷 IR伊朗丨yoyapai.com
   - 🇪🇪 EE丨yoyapai.com爱沙尼亚丨yoyapai.com
   - 🇨🇿 捷克丨yoyapai.com
+  - 🇹🇭TH泰國丨yoyapai.com_1
   - 🇮🇪IE爱尔兰丨yoyapai.com
-  - ❓免費節點丨yoyapai.com
-  - ❓未知丨yoyapai.com_13
-  - 🇩🇪德國丨yoyapai.com_6
-  - 🗽🇺🇸美國CloudFlare节点丨yoyapai.com
-  - 🇫🇷法國丨yoyapai.com
-  - 🇺🇸美國丨yoyapai.com_3
-  - ❓未知丨yoyapai.com_14
-  - 🇸🇬SG新加坡丨yoyapai.com
+  - ❓未知丨yoyapai.com_7
   - 🇺🇸美國丨yoyapai.com_4
-  - ❓未知丨yoyapai.com_15
+  - 🇺🇸US美國丨yoyapai.com_15
+  - 🇺🇸US美國丨yoyapai.com_16
+  - ❓未知丨yoyapai.com_8
+  - ❓未知丨yoyapai.com_9
+  - ❓未知丨yoyapai.com_10
   - 🇮🇷IR伊朗丨yoyapai.com
+  - 🇭🇰HK香港丨yoyapai.com_6
+  - 🇭🇰HK香港丨yoyapai.com_7
+  - 🇭🇰HK香港丨yoyapai.com_8
+  - 🇸🇬SG新加坡丨yoyapai.com_1
+  - 🇸🇬SG新加坡丨yoyapai.com_2
+  - 🇩🇪DE德国丨yoyapai.com_1
+  - 🇪🇪爱沙尼亚丨yoyapai.com
+  - 🇵🇱PL波兰丨yoyapai.com
+  - 🇺🇸US美国丨yoyapai.com_1
+  - 🇫🇮FI芬兰丨yoyapai.com
+  - 🇷🇴RO罗马尼亚丨yoyapai.com
+  - 🇳🇱NL荷兰丨yoyapai.com
+  - 🇵🇱PL波兰丨yoyapai.com_1
+  - 🇵🇱PL波兰丨yoyapai.com_2
+  - 🇵🇱PL波兰丨yoyapai.com_3
+  - 🇳🇱NL荷兰丨yoyapai.com_1
+  - 🇷🇴RO罗马尼亚丨yoyapai.com_1
 - name: 🍎 苹果服务
   type: select
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇹🇭TH泰国丨yoyapai.com
-  - 🇺🇸US美國丨yoyapai.com
-  - 🇺🇸US美國丨yoyapai.com_1
-  - ❓未知丨yoyapai.com
-  - ❓未知丨yoyapai.com_1
-  - 🇹🇭TH泰國丨yoyapai.com
-  - ❓未知丨yoyapai.com_2
   - 🇺🇸美國丨yoyapai.com
-  - 🇺🇸US美國丨yoyapai.com_2
-  - ❓未知丨yoyapai.com_3
-  - ❓未知丨yoyapai.com_4
-  - 🇺🇸美国丨yoyapai.com
-  - ❓未知丨yoyapai.com_5
+  - 🇺🇸美國丨yoyapai.com_1
+  - ❓未知丨yoyapai.com
+  - ❓免費節點丨yoyapai.com
+  - ❓未知丨yoyapai.com_1
+  - 🇸🇬SG新加坡丨yoyapai.com
+  - 🇫🇷法國丨yoyapai.com
+  - 🇨🇦CA加拿大丨yoyapai.com
+  - 🇩🇪德國丨yoyapai.com
+  - 🗽🇺🇸美國CloudFlare节点丨yoyapai.com
+  - 🇫🇫🇮芬兰
+  - 🇳🇱_荷兰
   - 未知
   - GB英国丨yoyapai.com
-  - ❓未知丨yoyapai.com_6
-  - ❓未知丨yoyapai.com_7
+  - 🇺🇸美国丨yoyapai.com
+  - ❓未知丨yoyapai.com_2
+  - ❓未知丨yoyapai.com_3
   - 🇫🇷FR法國丨yoyapai.com
-  - ❓未知丨yoyapai.com_8
-  - ❓未知丨yoyapai.com_9
-  - 🇺🇸US美國丨yoyapai.com_3
-  - 🇨🇦CA加拿大丨yoyapai.com
-  - 🇺🇸US美国丨yoyapai.com
-  - 🇨🇦CA加拿大丨yoyapai.com_1
-  - 🇨🇦CA加拿大丨yoyapai.com_2
-  - 🇨🇦CA加拿大丨yoyapai.com_3
-  - 🇫🇷法国丨yoyapai.com
-  - 🇹🇷TR土耳其丨yoyapai.com
-  - 🇨🇦CA加拿大丨yoyapai.com_4
-  - 🇨🇦CA加拿大丨yoyapai.com_5
-  - 🇺🇸US美国丨yoyapai.com_1
-  - 美國丨yoyapai.com
-  - 🇨🇦CA加拿大丨yoyapai.com_6
-  - FR法国丨yoyapai.com
-  - 美國丨yoyapai.com_1
-  - 🇫🇷法国丨yoyapai.com_1
-  - 🇺🇸US美國丨yoyapai.com_4
-  - ❓未知丨yoyapai.com_10
-  - 🇫🇷FR法国丨yoyapai.com
-  - 🇫🇷FR法国丨yoyapai.com_1
-  - 🇫🇷法国丨yoyapai.com_2
-  - ❓未知丨yoyapai.com_11
-  - 🇨🇦CA加拿大丨yoyapai.com_7
-  - 🇫🇷法国丨yoyapai.com_3
-  - 🇳🇱_荷兰
-  - 🇹🇭 Thailand泰国丨yoyapai.com
-  - 🇷🇺俄罗斯丨yoyapai.com
-  - 🇫🇷法国丨yoyapai.com_4
-  - 🇫🇫🇮芬兰
-  - 🇩🇪DE德国丨yoyapai.com
+  - 🇺🇸US美國丨yoyapai.com
+  - 🇺🇸US美國丨yoyapai.com_1
   - 🇫🇷FR法國丨yoyapai.com_1
-  - ❓未知丨yoyapai.com_12
-  - 🇺🇸US美國丨yoyapai.com_5
+  - ❓未知丨yoyapai.com_4
+  - 🇫🇷FR法国丨yoyapai.com
+  - 🇫🇷法国丨yoyapai.com
+  - 🇫🇷FR法国丨yoyapai.com_1
+  - FR法国丨yoyapai.com
+  - 🇺🇸US美国丨yoyapai.com
+  - 🇫🇷法国丨yoyapai.com_1
+  - 🇨🇦CA加拿大丨yoyapai.com_1
+  - 🇫🇷法国丨yoyapai.com_2
+  - 🇨🇦CA加拿大丨yoyapai.com_2
+  - 🇫🇷法国丨yoyapai.com_3
+  - ❓未知丨yoyapai.com_5
+  - 🇷🇺俄罗斯丨yoyapai.com
+  - 🇩🇪DE德国丨yoyapai.com
+  - 🇹🇭 Thailand泰国丨yoyapai.com
+  - 🇹🇭TH泰国丨yoyapai.com
+  - ❓未知丨yoyapai.com_6
+  - 🇺🇸US美國丨yoyapai.com_2
   - 🇭🇺HU匈牙利丨yoyapai.com
   - 🇱🇹LT立陶宛丨yoyapai.com
   - 🇺🇸 US美國丨yoyapai.com
@@ -4542,26 +4548,26 @@ proxy-groups:
   - 🇨🇭CH瑞士丨yoyapai.com
   - 🇷🇺 RU俄羅斯丨yoyapai.com
   - 🇺🇸 US美國丨yoyapai.com_3
+  - 🇺🇸US美國丨yoyapai.com_3
+  - 🇺🇸US美國丨yoyapai.com_4
+  - 🇺🇸US美國丨yoyapai.com_5
   - 🇺🇸US美國丨yoyapai.com_6
-  - 🇺🇸US美國丨yoyapai.com_7
-  - 🇺🇸US美國丨yoyapai.com_8
-  - 🇺🇸US美國丨yoyapai.com_9
   - 🇺🇸美國CloudFlare节点丨yoyapai.com
   - 🇱🇹LT立陶宛丨yoyapai.com_1
   - 🇱🇹LT立陶宛丨yoyapai.com_2
   - 🇨🇭CH瑞士丨yoyapai.com_1
   - 🇨🇭CH瑞士丨yoyapai.com_2
+  - 美國丨yoyapai.com
+  - 美國丨yoyapai.com_1
   - 美國丨yoyapai.com_2
-  - 美國丨yoyapai.com_3
-  - 美國丨yoyapai.com_4
   - 南非丨yoyapai.com
   - 🇱🇹LT立陶宛丨yoyapai.com_3
-  - 美國丨yoyapai.com_5
+  - 美國丨yoyapai.com_3
+  - 🇺🇸US美國丨yoyapai.com_7
+  - 🇺🇸US美國丨yoyapai.com_8
+  - 🇺🇸US美國丨yoyapai.com_9
   - 🇺🇸US美國丨yoyapai.com_10
   - 🇺🇸US美國丨yoyapai.com_11
-  - 🇺🇸US美國丨yoyapai.com_12
-  - 🇺🇸US美國丨yoyapai.com_13
-  - 🇺🇸US美國丨yoyapai.com_14
   - FR法國丨yoyapai.com
   - FR法國丨yoyapai.com_1
   - FR法國丨yoyapai.com_2
@@ -4570,7 +4576,7 @@ proxy-groups:
   - CA加拿大丨yoyapai.com
   - 🇳🇱_NL荷蘭丨yoyapai.com
   - 🇷🇺俄羅斯丨yoyapai.com
-  - 美國丨yoyapai.com_6
+  - 美國丨yoyapai.com_4
   - FR法國丨yoyapai.com_5
   - FR法國丨yoyapai.com_6
   - FR法國丨yoyapai.com_7
@@ -4579,8 +4585,8 @@ proxy-groups:
   - 🇸🇬 SG新加坡
   - 🇺🇸 US美國
   - 🇫🇷 FR法國
-  - 🇺🇸US美國丨yoyapai.com_15
-  - 🇺🇸US美國丨yoyapai.com_16
+  - 🇺🇸US美國丨yoyapai.com_12
+  - 🇺🇸US美國丨yoyapai.com_13
   - 🇯🇵JP日本丨yoyapai.com
   - 🇯🇵JP日本丨yoyapai.com_1
   - 🇭🇰HK香港丨yoyapai.com
@@ -4607,24 +4613,24 @@ proxy-groups:
   - 🇺🇸 US美國_3
   - 🇲🇽 墨西哥
   - 🇺🇸 US美國_4
-  - 美國丨yoyapai.com_7
+  - 美國丨yoyapai.com_5
   - 美國節點丨yoyapai.com
   - 🇺🇸 美國節點丨yoyapai.com
   - 🇺🇸 美國丨yoyapai.com
   - 🇿🇦 南非丨yoyapai.com
-  - 美國丨yoyapai.com_8
-  - 美國丨yoyapai.com_9
+  - 美國丨yoyapai.com_6
+  - 美國丨yoyapai.com_7
   - 🇭🇰HK香港節點丨yoyapai.com_4
   - 🇭🇰HK香港節點丨yoyapai.com_5
   - 🇲🇽MX墨西哥
   - 塞舌爾丨yoyapai.com
   - 🇧🇷巴西丨yoyapai.com
   - 🇺🇸 美國
-  - 🇺🇸US美國丨yoyapai.com_17
+  - 🇺🇸US美國丨yoyapai.com_14
   - 🇺🇦烏克蘭丨yoyapai.com
   - 🇺🇸US美國節點丨yoyapai.com
-  - 🇩🇪德國丨yoyapai.com
   - 🇩🇪德國丨yoyapai.com_1
+  - 🇩🇪德國丨yoyapai.com_2
   - 🇹🇷土耳其丨yoyapai.com
   - 🇮🇷_IR_伊朗
   - 🇷🇺_RU俄羅斯丨yoyapai.com
@@ -4635,7 +4641,7 @@ proxy-groups:
   - 🇬🇷 希腊丨yoyapai.com
   - 免費節點丨yoyapai.com
   - 免費節點丨yoyapai.com_1
-  - 美國丨yoyapai.com_10
+  - 美國丨yoyapai.com_8
   - 🇺🇸 US美國_5
   - 🇺🇸 US美國_6
   - 🇺🇸 美國_1
@@ -4654,12 +4660,12 @@ proxy-groups:
   - 🇮🇷 伊朗丨yoyapai.com
   - 🇳🇱 荷蘭丨yoyapai.com
   - 🇳🇱 荷蘭丨yoyapai.com_1
-  - 美國丨yoyapai.com_11
-  - 🇩🇪德國丨yoyapai.com_2
+  - 美國丨yoyapai.com_9
   - 🇩🇪德國丨yoyapai.com_3
   - 🇩🇪德國丨yoyapai.com_4
   - 🇩🇪德國丨yoyapai.com_5
-  - 🇨🇦CA加拿大丨yoyapai.com_8
+  - 🇩🇪德國丨yoyapai.com_6
+  - 🇨🇦CA加拿大丨yoyapai.com_3
   - MY 🇲🇾 馬來西亞
   - 🇨🇦加拿大丨yoyapai.com
   - 🇨🇦加拿大丨yoyapai.com_1
@@ -4668,10 +4674,10 @@ proxy-groups:
   - 土耳其丨yoyapai.com
   - 🇨🇴CO哥倫比亞丨yoyapai.com
   - 🇺🇸 美國丨yoyapai.com_1
-  - 🇹🇭TH泰國丨yoyapai.com_1
-  - 🇺🇸美國丨yoyapai.com_1
-  - 🇷🇺RU俄羅斯丨yoyapai.com
+  - 🇹🇭TH泰國丨yoyapai.com
   - 🇺🇸美國丨yoyapai.com_2
+  - 🇷🇺RU俄羅斯丨yoyapai.com
+  - 🇺🇸美國丨yoyapai.com_3
   - 🇹🇭泰國丨yoyapai.com
   - 🇭🇰香港丨yoyapai.com
   - 🇸🇪瑞典丨yoyapai.com
@@ -4698,9 +4704,8 @@ proxy-groups:
   - 🇷🇺俄罗斯丨yoyapai.com_3
   - 🇹🇭泰国丨yoyapai.com
   - ' 🇪🇸 ES西班牙丨yoyapai.com'
-  - 🇨🇦CA加拿大丨yoyapai.com_9
-  - 🇨🇦CA加拿大丨yoyapai.com_10
-  - 🇨🇦CA加拿大丨yoyapai.com_11
+  - 🇨🇦CA加拿大丨yoyapai.com_4
+  - 🇨🇦CA加拿大丨yoyapai.com_5
   - 🇸🇮斯洛文尼亚丨yoyapai.com
   - 🇸🇮斯洛文尼亚丨yoyapai.com_1
   - 🇰🇷韩国丨yoyapai.com
@@ -4709,18 +4714,33 @@ proxy-groups:
   - 🇮🇷 IR伊朗丨yoyapai.com
   - 🇪🇪 EE丨yoyapai.com爱沙尼亚丨yoyapai.com
   - 🇨🇿 捷克丨yoyapai.com
+  - 🇹🇭TH泰國丨yoyapai.com_1
   - 🇮🇪IE爱尔兰丨yoyapai.com
-  - ❓免費節點丨yoyapai.com
-  - ❓未知丨yoyapai.com_13
-  - 🇩🇪德國丨yoyapai.com_6
-  - 🗽🇺🇸美國CloudFlare节点丨yoyapai.com
-  - 🇫🇷法國丨yoyapai.com
-  - 🇺🇸美國丨yoyapai.com_3
-  - ❓未知丨yoyapai.com_14
-  - 🇸🇬SG新加坡丨yoyapai.com
+  - ❓未知丨yoyapai.com_7
   - 🇺🇸美國丨yoyapai.com_4
-  - ❓未知丨yoyapai.com_15
+  - 🇺🇸US美國丨yoyapai.com_15
+  - 🇺🇸US美國丨yoyapai.com_16
+  - ❓未知丨yoyapai.com_8
+  - ❓未知丨yoyapai.com_9
+  - ❓未知丨yoyapai.com_10
   - 🇮🇷IR伊朗丨yoyapai.com
+  - 🇭🇰HK香港丨yoyapai.com_6
+  - 🇭🇰HK香港丨yoyapai.com_7
+  - 🇭🇰HK香港丨yoyapai.com_8
+  - 🇸🇬SG新加坡丨yoyapai.com_1
+  - 🇸🇬SG新加坡丨yoyapai.com_2
+  - 🇩🇪DE德国丨yoyapai.com_1
+  - 🇪🇪爱沙尼亚丨yoyapai.com
+  - 🇵🇱PL波兰丨yoyapai.com
+  - 🇺🇸US美国丨yoyapai.com_1
+  - 🇫🇮FI芬兰丨yoyapai.com
+  - 🇷🇴RO罗马尼亚丨yoyapai.com
+  - 🇳🇱NL荷兰丨yoyapai.com
+  - 🇵🇱PL波兰丨yoyapai.com_1
+  - 🇵🇱PL波兰丨yoyapai.com_2
+  - 🇵🇱PL波兰丨yoyapai.com_3
+  - 🇳🇱NL荷兰丨yoyapai.com_1
+  - 🇷🇴RO罗马尼亚丨yoyapai.com_1
 - name: 🎯 全球直连
   type: select
   proxies:
@@ -4743,59 +4763,45 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - 🇹🇭TH泰国丨yoyapai.com
-  - 🇺🇸US美國丨yoyapai.com
-  - 🇺🇸US美國丨yoyapai.com_1
-  - ❓未知丨yoyapai.com
-  - ❓未知丨yoyapai.com_1
-  - 🇹🇭TH泰國丨yoyapai.com
-  - ❓未知丨yoyapai.com_2
   - 🇺🇸美國丨yoyapai.com
-  - 🇺🇸US美國丨yoyapai.com_2
-  - ❓未知丨yoyapai.com_3
-  - ❓未知丨yoyapai.com_4
-  - 🇺🇸美国丨yoyapai.com
-  - ❓未知丨yoyapai.com_5
+  - 🇺🇸美國丨yoyapai.com_1
+  - ❓未知丨yoyapai.com
+  - ❓免費節點丨yoyapai.com
+  - ❓未知丨yoyapai.com_1
+  - 🇸🇬SG新加坡丨yoyapai.com
+  - 🇫🇷法國丨yoyapai.com
+  - 🇨🇦CA加拿大丨yoyapai.com
+  - 🇩🇪德國丨yoyapai.com
+  - 🗽🇺🇸美國CloudFlare节点丨yoyapai.com
+  - 🇫🇫🇮芬兰
+  - 🇳🇱_荷兰
   - 未知
   - GB英国丨yoyapai.com
-  - ❓未知丨yoyapai.com_6
-  - ❓未知丨yoyapai.com_7
+  - 🇺🇸美国丨yoyapai.com
+  - ❓未知丨yoyapai.com_2
+  - ❓未知丨yoyapai.com_3
   - 🇫🇷FR法國丨yoyapai.com
-  - ❓未知丨yoyapai.com_8
-  - ❓未知丨yoyapai.com_9
-  - 🇺🇸US美國丨yoyapai.com_3
-  - 🇨🇦CA加拿大丨yoyapai.com
-  - 🇺🇸US美国丨yoyapai.com
-  - 🇨🇦CA加拿大丨yoyapai.com_1
-  - 🇨🇦CA加拿大丨yoyapai.com_2
-  - 🇨🇦CA加拿大丨yoyapai.com_3
-  - 🇫🇷法国丨yoyapai.com
-  - 🇹🇷TR土耳其丨yoyapai.com
-  - 🇨🇦CA加拿大丨yoyapai.com_4
-  - 🇨🇦CA加拿大丨yoyapai.com_5
-  - 🇺🇸US美国丨yoyapai.com_1
-  - 美國丨yoyapai.com
-  - 🇨🇦CA加拿大丨yoyapai.com_6
-  - FR法国丨yoyapai.com
-  - 美國丨yoyapai.com_1
-  - 🇫🇷法国丨yoyapai.com_1
-  - 🇺🇸US美國丨yoyapai.com_4
-  - ❓未知丨yoyapai.com_10
-  - 🇫🇷FR法国丨yoyapai.com
-  - 🇫🇷FR法国丨yoyapai.com_1
-  - 🇫🇷法国丨yoyapai.com_2
-  - ❓未知丨yoyapai.com_11
-  - 🇨🇦CA加拿大丨yoyapai.com_7
-  - 🇫🇷法国丨yoyapai.com_3
-  - 🇳🇱_荷兰
-  - 🇹🇭 Thailand泰国丨yoyapai.com
-  - 🇷🇺俄罗斯丨yoyapai.com
-  - 🇫🇷法国丨yoyapai.com_4
-  - 🇫🇫🇮芬兰
-  - 🇩🇪DE德国丨yoyapai.com
+  - 🇺🇸US美國丨yoyapai.com
+  - 🇺🇸US美國丨yoyapai.com_1
   - 🇫🇷FR法國丨yoyapai.com_1
-  - ❓未知丨yoyapai.com_12
-  - 🇺🇸US美國丨yoyapai.com_5
+  - ❓未知丨yoyapai.com_4
+  - 🇫🇷FR法国丨yoyapai.com
+  - 🇫🇷法国丨yoyapai.com
+  - 🇫🇷FR法国丨yoyapai.com_1
+  - FR法国丨yoyapai.com
+  - 🇺🇸US美国丨yoyapai.com
+  - 🇫🇷法国丨yoyapai.com_1
+  - 🇨🇦CA加拿大丨yoyapai.com_1
+  - 🇫🇷法国丨yoyapai.com_2
+  - 🇨🇦CA加拿大丨yoyapai.com_2
+  - 🇫🇷法国丨yoyapai.com_3
+  - ❓未知丨yoyapai.com_5
+  - 🇷🇺俄罗斯丨yoyapai.com
+  - 🇩🇪DE德国丨yoyapai.com
+  - 🇹🇭 Thailand泰国丨yoyapai.com
+  - 🇹🇭TH泰国丨yoyapai.com
+  - ❓未知丨yoyapai.com_6
+  - 🇺🇸US美國丨yoyapai.com_2
   - 🇭🇺HU匈牙利丨yoyapai.com
   - 🇱🇹LT立陶宛丨yoyapai.com
   - 🇺🇸 US美國丨yoyapai.com
@@ -4805,26 +4811,26 @@ proxy-groups:
   - 🇨🇭CH瑞士丨yoyapai.com
   - 🇷🇺 RU俄羅斯丨yoyapai.com
   - 🇺🇸 US美國丨yoyapai.com_3
+  - 🇺🇸US美國丨yoyapai.com_3
+  - 🇺🇸US美國丨yoyapai.com_4
+  - 🇺🇸US美國丨yoyapai.com_5
   - 🇺🇸US美國丨yoyapai.com_6
-  - 🇺🇸US美國丨yoyapai.com_7
-  - 🇺🇸US美國丨yoyapai.com_8
-  - 🇺🇸US美國丨yoyapai.com_9
   - 🇺🇸美國CloudFlare节点丨yoyapai.com
   - 🇱🇹LT立陶宛丨yoyapai.com_1
   - 🇱🇹LT立陶宛丨yoyapai.com_2
   - 🇨🇭CH瑞士丨yoyapai.com_1
   - 🇨🇭CH瑞士丨yoyapai.com_2
+  - 美國丨yoyapai.com
+  - 美國丨yoyapai.com_1
   - 美國丨yoyapai.com_2
-  - 美國丨yoyapai.com_3
-  - 美國丨yoyapai.com_4
   - 南非丨yoyapai.com
   - 🇱🇹LT立陶宛丨yoyapai.com_3
-  - 美國丨yoyapai.com_5
+  - 美國丨yoyapai.com_3
+  - 🇺🇸US美國丨yoyapai.com_7
+  - 🇺🇸US美國丨yoyapai.com_8
+  - 🇺🇸US美國丨yoyapai.com_9
   - 🇺🇸US美國丨yoyapai.com_10
   - 🇺🇸US美國丨yoyapai.com_11
-  - 🇺🇸US美國丨yoyapai.com_12
-  - 🇺🇸US美國丨yoyapai.com_13
-  - 🇺🇸US美國丨yoyapai.com_14
   - FR法國丨yoyapai.com
   - FR法國丨yoyapai.com_1
   - FR法國丨yoyapai.com_2
@@ -4833,7 +4839,7 @@ proxy-groups:
   - CA加拿大丨yoyapai.com
   - 🇳🇱_NL荷蘭丨yoyapai.com
   - 🇷🇺俄羅斯丨yoyapai.com
-  - 美國丨yoyapai.com_6
+  - 美國丨yoyapai.com_4
   - FR法國丨yoyapai.com_5
   - FR法國丨yoyapai.com_6
   - FR法國丨yoyapai.com_7
@@ -4842,8 +4848,8 @@ proxy-groups:
   - 🇸🇬 SG新加坡
   - 🇺🇸 US美國
   - 🇫🇷 FR法國
-  - 🇺🇸US美國丨yoyapai.com_15
-  - 🇺🇸US美國丨yoyapai.com_16
+  - 🇺🇸US美國丨yoyapai.com_12
+  - 🇺🇸US美國丨yoyapai.com_13
   - 🇯🇵JP日本丨yoyapai.com
   - 🇯🇵JP日本丨yoyapai.com_1
   - 🇭🇰HK香港丨yoyapai.com
@@ -4870,24 +4876,24 @@ proxy-groups:
   - 🇺🇸 US美國_3
   - 🇲🇽 墨西哥
   - 🇺🇸 US美國_4
-  - 美國丨yoyapai.com_7
+  - 美國丨yoyapai.com_5
   - 美國節點丨yoyapai.com
   - 🇺🇸 美國節點丨yoyapai.com
   - 🇺🇸 美國丨yoyapai.com
   - 🇿🇦 南非丨yoyapai.com
-  - 美國丨yoyapai.com_8
-  - 美國丨yoyapai.com_9
+  - 美國丨yoyapai.com_6
+  - 美國丨yoyapai.com_7
   - 🇭🇰HK香港節點丨yoyapai.com_4
   - 🇭🇰HK香港節點丨yoyapai.com_5
   - 🇲🇽MX墨西哥
   - 塞舌爾丨yoyapai.com
   - 🇧🇷巴西丨yoyapai.com
   - 🇺🇸 美國
-  - 🇺🇸US美國丨yoyapai.com_17
+  - 🇺🇸US美國丨yoyapai.com_14
   - 🇺🇦烏克蘭丨yoyapai.com
   - 🇺🇸US美國節點丨yoyapai.com
-  - 🇩🇪德國丨yoyapai.com
   - 🇩🇪德國丨yoyapai.com_1
+  - 🇩🇪德國丨yoyapai.com_2
   - 🇹🇷土耳其丨yoyapai.com
   - 🇮🇷_IR_伊朗
   - 🇷🇺_RU俄羅斯丨yoyapai.com
@@ -4898,7 +4904,7 @@ proxy-groups:
   - 🇬🇷 希腊丨yoyapai.com
   - 免費節點丨yoyapai.com
   - 免費節點丨yoyapai.com_1
-  - 美國丨yoyapai.com_10
+  - 美國丨yoyapai.com_8
   - 🇺🇸 US美國_5
   - 🇺🇸 US美國_6
   - 🇺🇸 美國_1
@@ -4917,12 +4923,12 @@ proxy-groups:
   - 🇮🇷 伊朗丨yoyapai.com
   - 🇳🇱 荷蘭丨yoyapai.com
   - 🇳🇱 荷蘭丨yoyapai.com_1
-  - 美國丨yoyapai.com_11
-  - 🇩🇪德國丨yoyapai.com_2
+  - 美國丨yoyapai.com_9
   - 🇩🇪德國丨yoyapai.com_3
   - 🇩🇪德國丨yoyapai.com_4
   - 🇩🇪德國丨yoyapai.com_5
-  - 🇨🇦CA加拿大丨yoyapai.com_8
+  - 🇩🇪德國丨yoyapai.com_6
+  - 🇨🇦CA加拿大丨yoyapai.com_3
   - MY 🇲🇾 馬來西亞
   - 🇨🇦加拿大丨yoyapai.com
   - 🇨🇦加拿大丨yoyapai.com_1
@@ -4931,10 +4937,10 @@ proxy-groups:
   - 土耳其丨yoyapai.com
   - 🇨🇴CO哥倫比亞丨yoyapai.com
   - 🇺🇸 美國丨yoyapai.com_1
-  - 🇹🇭TH泰國丨yoyapai.com_1
-  - 🇺🇸美國丨yoyapai.com_1
-  - 🇷🇺RU俄羅斯丨yoyapai.com
+  - 🇹🇭TH泰國丨yoyapai.com
   - 🇺🇸美國丨yoyapai.com_2
+  - 🇷🇺RU俄羅斯丨yoyapai.com
+  - 🇺🇸美國丨yoyapai.com_3
   - 🇹🇭泰國丨yoyapai.com
   - 🇭🇰香港丨yoyapai.com
   - 🇸🇪瑞典丨yoyapai.com
@@ -4961,9 +4967,8 @@ proxy-groups:
   - 🇷🇺俄罗斯丨yoyapai.com_3
   - 🇹🇭泰国丨yoyapai.com
   - ' 🇪🇸 ES西班牙丨yoyapai.com'
-  - 🇨🇦CA加拿大丨yoyapai.com_9
-  - 🇨🇦CA加拿大丨yoyapai.com_10
-  - 🇨🇦CA加拿大丨yoyapai.com_11
+  - 🇨🇦CA加拿大丨yoyapai.com_4
+  - 🇨🇦CA加拿大丨yoyapai.com_5
   - 🇸🇮斯洛文尼亚丨yoyapai.com
   - 🇸🇮斯洛文尼亚丨yoyapai.com_1
   - 🇰🇷韩国丨yoyapai.com
@@ -4972,18 +4977,33 @@ proxy-groups:
   - 🇮🇷 IR伊朗丨yoyapai.com
   - 🇪🇪 EE丨yoyapai.com爱沙尼亚丨yoyapai.com
   - 🇨🇿 捷克丨yoyapai.com
+  - 🇹🇭TH泰國丨yoyapai.com_1
   - 🇮🇪IE爱尔兰丨yoyapai.com
-  - ❓免費節點丨yoyapai.com
-  - ❓未知丨yoyapai.com_13
-  - 🇩🇪德國丨yoyapai.com_6
-  - 🗽🇺🇸美國CloudFlare节点丨yoyapai.com
-  - 🇫🇷法國丨yoyapai.com
-  - 🇺🇸美國丨yoyapai.com_3
-  - ❓未知丨yoyapai.com_14
-  - 🇸🇬SG新加坡丨yoyapai.com
+  - ❓未知丨yoyapai.com_7
   - 🇺🇸美國丨yoyapai.com_4
-  - ❓未知丨yoyapai.com_15
+  - 🇺🇸US美國丨yoyapai.com_15
+  - 🇺🇸US美國丨yoyapai.com_16
+  - ❓未知丨yoyapai.com_8
+  - ❓未知丨yoyapai.com_9
+  - ❓未知丨yoyapai.com_10
   - 🇮🇷IR伊朗丨yoyapai.com
+  - 🇭🇰HK香港丨yoyapai.com_6
+  - 🇭🇰HK香港丨yoyapai.com_7
+  - 🇭🇰HK香港丨yoyapai.com_8
+  - 🇸🇬SG新加坡丨yoyapai.com_1
+  - 🇸🇬SG新加坡丨yoyapai.com_2
+  - 🇩🇪DE德国丨yoyapai.com_1
+  - 🇪🇪爱沙尼亚丨yoyapai.com
+  - 🇵🇱PL波兰丨yoyapai.com
+  - 🇺🇸US美国丨yoyapai.com_1
+  - 🇫🇮FI芬兰丨yoyapai.com
+  - 🇷🇴RO罗马尼亚丨yoyapai.com
+  - 🇳🇱NL荷兰丨yoyapai.com
+  - 🇵🇱PL波兰丨yoyapai.com_1
+  - 🇵🇱PL波兰丨yoyapai.com_2
+  - 🇵🇱PL波兰丨yoyapai.com_3
+  - 🇳🇱NL荷兰丨yoyapai.com_1
+  - 🇷🇴RO罗马尼亚丨yoyapai.com_1
 - name: 说明
   type: select
   proxies:
