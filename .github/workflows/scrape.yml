@@ -22,6 +22,14 @@ jobs:
       - name: Install dependencies
         run: pip install requests beautifulsoup4 pyyaml
 
+      - name: Install mihomo core
+        run: |
+          ARCH=$([ "$(uname -m)" = "aarch64" ] && echo arm64 || echo amd64)
+          curl -fsSL "https://github.com/MetaCubeX/mihomo/releases/download/v1.19.9/mihomo-linux-${ARCH}-v1.19.9.gz" -o mihomo.gz
+          gunzip -f mihomo.gz
+          chmod +x mihomo
+          echo "MIHOMO_BIN=$PWD/mihomo" >> "$GITHUB_ENV"
+
       - name: Scrape yoyapai
         run: |
           python scripts/scraper.py || echo "::warning::yoyapai 抓取失败，跳过该来源"
@@ -45,6 +53,22 @@ jobs:
               echo "  [SKIP] $f 不存在"
             fi
           done
+
+      - name: Test nodes and build AIO
+        run: |
+          INPUTS=""
+          for src in yoyapai au1rxx; do
+            [ -f "output/$src/clash.yaml" ] && INPUTS="$INPUTS output/$src/clash.yaml"
+          done
+          if [ -n "$INPUTS" ]; then
+            if python scripts/test_nodes.py $INPUTS -o output/aio/clash.yaml; then
+              echo "  [OK] AIO 生成完成"
+            else
+              echo "::warning::AIO 生成失败(节点测试异常),跳过本次 AIO"
+            fi
+          else
+            echo "::warning::无可用输入文件,跳过 AIO"
+          fi
 
       - name: Commit and push
         run: |

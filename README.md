@@ -10,6 +10,12 @@
 
 ## 订阅链接
 
+> **AIO 精选(推荐)**:全部来源的节点经 Clash.Meta (mihomo) 内核逐个测试 `https://www.gstatic.com/generate_204` 后,仅保留可用节点、按延迟排序合并而成,每 4 小时重新测试更新:
+
+| 类型 | 直连 | ghproxy.net 镜像(国内网络) |
+|------|------|------------------------------|
+| **AIO 精选(合并全部来源)** | https://raw.githubusercontent.com/wzmwayne/proxy-node/main/output/aio/clash.yaml | https://ghproxy.net/github.com/wzmwayne/proxy-node/raw/main/output/aio/clash.yaml |
+
 > **国内网络镜像(ghproxy.net)**:无法直接访问 `raw.githubusercontent.com` 时使用:
 
 | 来源 | ghproxy.net 镜像订阅链接 |
@@ -17,7 +23,7 @@
 | yoyapai.com | https://ghproxy.net/github.com/wzmwayne/proxy-node/raw/main/output/yoyapai/clash.yaml |
 | Au1rxx/free-vpn-subscriptions | https://ghproxy.net/github.com/wzmwayne/proxy-node/raw/main/output/au1rxx/clash.yaml |
 
-**直连链接**:
+**直连链接(单来源)**:
 
 | 来源 | 文件 | 订阅链接 |
 |------|------|----------|
@@ -41,10 +47,12 @@
 output/
   yoyapai/  clash.yaml     # yoyapai.com 来源(清洗后)
   au1rxx/   clash.yaml     # Au1rxx/free-vpn-subscriptions 来源(清洗后)
+  aio/      clash.yaml     # AIO 精选(合并全部来源,经 mihomo 内核测试可用节点)
 scripts/
   scraper.py               # 抓取 yoyapai.com 文章并提取订阅链接
   fetch_au1rxx.py          # 下载 Au1rxx 来源的 clash.yaml
   sanitize.py              # 通用清洗脚本(控制字符 + 引用清理 + 双重校验)
+  test_nodes.py            # mihomo 内核逐节点测试 generate_204 + 合并生成 AIO
 latest_urls.json           # yoyapai 最新文章信息
 .github/workflows/scrape.yml
 ```
@@ -55,8 +63,10 @@ latest_urls.json           # yoyapai 最新文章信息
 pip install requests beautifulsoup4 pyyaml
 python scripts/scraper.py          # 抓取 yoyapai 并下载到 output/yoyapai/
 python scripts/fetch_au1rxx.py     # 下载 au1rxx 到 output/au1rxx/
-python scripts/sanitize.py output/yoyapai/clash.yaml output/yoyapai/clash.yaml.tmp
-python scripts/sanitize.py output/au1rxx/clash.yaml output/au1rxx/clash.yaml.tmp
+python scripts/sanitize.py output/yoyapai/clash.yaml output/yoyapai/clash.yaml.tmp --source yoyapai
+python scripts/sanitize.py output/au1rxx/clash.yaml output/au1rxx/clash.yaml.tmp --source au1rxx
+# 需要 mihomo 内核(MIHOMO_BIN 或 /usr/local/bin/mihomo):
+python scripts/test_nodes.py output/yoyapai/clash.yaml output/au1rxx/clash.yaml -o output/aio/clash.yaml
 ```
 
 ## License
