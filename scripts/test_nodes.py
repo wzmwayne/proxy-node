@@ -89,7 +89,7 @@ def main():
     ap = argparse.ArgumentParser(description="mihomo 内核节点测试 + AIO 合并")
     ap.add_argument("inputs", nargs="+", help="清洗后的各来源 clash.yaml")
     ap.add_argument("-o", "--output", required=True, help="输出 AIO clash.yaml")
-    ap.add_argument("--concurrency", type=int, default=16)
+    ap.add_argument("--concurrency", type=int, default=32)
     args = ap.parse_args()
 
     import yaml
@@ -151,23 +151,34 @@ def main():
                 raise SystemExit("[FAIL] mihomo API 未就绪")
 
             # 3) 逐节点测试 generate_204
-            proxies_map = api_get(port, secret, "/proxies")["proxies"]
+            proxies_map = {}
+            for _ in range(10):  # 避免 mihomo 刚就绪时 /proxies 偶发空响应
+                try:
+                    proxies_map = api_get(port, secret, "/proxies")["proxies"]
+                except Exception:
+                    proxies_map = {}
+                if proxies_map:
+                    break
+                time.sleep(0.5)
             names = [
                 n for n, info in proxies_map.items()
                 if n not in SKIP_NAMES and info.get("type") not in GROUP_TYPES
             ]
-            print(f"[3/4] 开始测试 {len(names)} 个节点 -> {TEST_URL}")
+            print(f"[3/4] 开始测试 {len(names)} 个节点 -> {TEST_URL} (并发 {args.concurrency})")
             ok = {}
+            done = 0
+            total = len(names)
+            interval = max(1, total // 50)  # 最多约 50 次进度输出
             with ThreadPoolExecutor(max_workers=args.concurrency) as ex:
                 futs = {ex.submit(test_node, port, secret, n): n for n in names}
-                done = 0
                 for fut in as_completed(futs):
                     name, delay = fut.result()
                     done += 1
                     if delay is not None:
                         ok[name] = delay
-                    if done % 200 == 0 or done == len(names):
-                        print(f"      进度 {done}/{len(names)}, 可用 {len(ok)}")
+                    if done % interval == 0 or done == total:
+                        pct = done * 100 // total
+                        print(f"      进度 {done}/{total} ({pct}%) 可用 {len(ok)}", flush=True)
             print(f"      可用节点: {len(ok)}")
             if not ok:
                 raise SystemExit("[FAIL] 全部节点测试失败(检查网络/节点质量),不生成 AIO")
