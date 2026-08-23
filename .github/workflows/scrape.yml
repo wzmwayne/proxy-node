@@ -34,32 +34,26 @@ jobs:
         run: |
           python scripts/scraper.py || echo "::warning::yoyapai 抓取失败，跳过该来源"
 
-      - name: Fetch au1rxx
+      - name: Fetch all sources
         run: |
-          python scripts/fetch_au1rxx.py || echo "::warning::au1rxx 下载失败，跳过该来源"
+          python scripts/fetch_sources.py || echo "::warning::部分来源下载失败，继续处理已下载的来源"
 
       - name: Sanitize clash.yaml files
         run: |
-          for src in yoyapai au1rxx; do
-            f="output/$src/clash.yaml"
-            if [ -f "$f" ]; then
-              if python scripts/sanitize.py "$f" "$f.tmp" --source "$src" && mv "$f.tmp" "$f"; then
-                echo "  [OK] $f 清洗完成"
-              else
-                echo "::warning::$f 清洗失败，保留原文件"
-                rm -f "$f.tmp"
-              fi
+          for f in output/*/clash.yaml; do
+            case "$f" in output/aio/*) continue;; esac
+            src=$(basename "$(dirname "$f")")
+            if python scripts/sanitize.py "$f" "$f.tmp" --source "$src" && mv "$f.tmp" "$f"; then
+              echo "  [OK] $f 清洗完成"
             else
-              echo "  [SKIP] $f 不存在"
+              echo "::warning::$f 清洗失败，保留原文件"
+              rm -f "$f.tmp"
             fi
           done
 
       - name: Test nodes and build AIO
         run: |
-          INPUTS=""
-          for src in yoyapai au1rxx; do
-            [ -f "output/$src/clash.yaml" ] && INPUTS="$INPUTS output/$src/clash.yaml"
-          done
+          INPUTS=$(find output -mindepth 2 -maxdepth 2 -name clash.yaml ! -path 'output/aio/*' | sort | tr '\n' ' ')
           if [ -n "$INPUTS" ]; then
             if python scripts/test_nodes.py $INPUTS -o output/aio/clash.yaml; then
               echo "  [OK] AIO 生成完成"

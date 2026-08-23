@@ -15,13 +15,8 @@
 import argparse
 import sys
 
-SOURCES = {
-    "yoyapai": ("yoyapai.com", "https://yoyapai.com/category/mianfeijiedian"),
-    "au1rxx": (
-        "Au1rxx/free-vpn-subscriptions",
-        "https://github.com/Au1rxx/free-vpn-subscriptions",
-    ),
-}
+from sources import SOURCES
+
 AUTHOR = "wzmwayne"
 REPO = "https://github.com/wzmwayne/proxy-node"
 

@@ -16,19 +16,19 @@
 |------|------|------------------------------|
 | **AIO 精选(合并全部来源)** | https://raw.githubusercontent.com/wzmwayne/proxy-node/main/output/aio/clash.yaml | https://ghproxy.net/github.com/wzmwayne/proxy-node/raw/main/output/aio/clash.yaml |
 
-> **国内网络镜像(ghproxy.net)**:无法直接访问 `raw.githubusercontent.com` 时使用:
+**单来源订阅(直连 + ghproxy 镜像)**:
 
-| 来源 | ghproxy.net 镜像订阅链接 |
-|------|--------------------------|
-| yoyapai.com | https://ghproxy.net/github.com/wzmwayne/proxy-node/raw/main/output/yoyapai/clash.yaml |
-| Au1rxx/free-vpn-subscriptions | https://ghproxy.net/github.com/wzmwayne/proxy-node/raw/main/output/au1rxx/clash.yaml |
-
-**直连链接(单来源)**:
-
-| 来源 | 文件 | 订阅链接 |
-|------|------|----------|
-| yoyapai.com(免费节点分享) | `output/yoyapai/clash.yaml` | https://raw.githubusercontent.com/wzmwayne/proxy-node/main/output/yoyapai/clash.yaml |
-| Au1rxx/free-vpn-subscriptions | `output/au1rxx/clash.yaml` | https://raw.githubusercontent.com/wzmwayne/proxy-node/main/output/au1rxx/clash.yaml |
+| 来源 | 直连 | ghproxy.net 镜像 |
+|------|------|-------------------|
+| yoyapai.com | https://raw.githubusercontent.com/wzmwayne/proxy-node/main/output/yoyapai/clash.yaml | https://ghproxy.net/github.com/wzmwayne/proxy-node/raw/main/output/yoyapai/clash.yaml |
+| Au1rxx/free-vpn-subscriptions | https://raw.githubusercontent.com/wzmwayne/proxy-node/main/output/au1rxx/clash.yaml | https://ghproxy.net/github.com/wzmwayne/proxy-node/raw/main/output/au1rxx/clash.yaml |
+| Ruk1ng001/freeSub | https://raw.githubusercontent.com/wzmwayne/proxy-node/main/output/freesub/clash.yaml | https://ghproxy.net/github.com/wzmwayne/proxy-node/raw/main/output/freesub/clash.yaml |
+| 0xRadikal/Free-v2ray-Configs | https://raw.githubusercontent.com/wzmwayne/proxy-node/main/output/radikal/clash.yaml | https://ghproxy.net/github.com/wzmwayne/proxy-node/raw/main/output/radikal/clash.yaml |
+| free18/v2ray | https://raw.githubusercontent.com/wzmwayne/proxy-node/main/output/free18/clash.yaml | https://ghproxy.net/github.com/wzmwayne/proxy-node/raw/main/output/free18/clash.yaml |
+| ripaojiedian/freenode | https://raw.githubusercontent.com/wzmwayne/proxy-node/main/output/ripaojiedian/clash.yaml | https://ghproxy.net/github.com/wzmwayne/proxy-node/raw/main/output/ripaojiedian/clash.yaml |
+| zhangkaiitugithub/passcro | https://raw.githubusercontent.com/wzmwayne/proxy-node/main/output/passcro/clash.yaml | https://ghproxy.net/github.com/wzmwayne/proxy-node/raw/main/output/passcro/clash.yaml |
+| anaer.github.io/Sub | https://raw.githubusercontent.com/wzmwayne/proxy-node/main/output/anaer/clash.yaml | https://ghproxy.net/github.com/wzmwayne/proxy-node/raw/main/output/anaer/clash.yaml |
+| xiaoji235/airport-free | https://raw.githubusercontent.com/wzmwayne/proxy-node/main/output/xiaoji235/clash.yaml | https://ghproxy.net/github.com/wzmwayne/proxy-node/raw/main/output/xiaoji235/clash.yaml |
 
 > 仅提供 Clash (Mihomo) 格式。直接复制链接到 FlClash / Clash Verge Rev / Mihomo 的订阅导入框即可。
 
@@ -47,10 +47,18 @@
 output/
   yoyapai/  clash.yaml     # yoyapai.com 来源(清洗后)
   au1rxx/   clash.yaml     # Au1rxx/free-vpn-subscriptions 来源(清洗后)
+  freesub/  clash.yaml     # Ruk1ng001/freeSub 来源(清洗后)
+  radikal/  clash.yaml     # 0xRadikal/Free-v2ray-Configs 来源(清洗后)
+  free18/   clash.yaml     # free18/v2ray 来源(清洗后)
+  ripaojiedian/ clash.yaml # ripaojiedian/freenode 来源(清洗后)
+  passcro/  clash.yaml     # zhangkaiitugithub/passcro 来源(清洗后)
+  anaer/    clash.yaml     # anaer.github.io/Sub 来源(清洗后)
+  xiaoji235/ clash.yaml    # xiaoji235/airport-free 来源(清洗后)
   aio/      clash.yaml     # AIO 精选(合并全部来源,经 mihomo 内核测试可用节点)
 scripts/
+  sources.py               # 来源清单(名称/主页/下载 URL,集中维护)
   scraper.py               # 抓取 yoyapai.com 文章并提取订阅链接
-  fetch_au1rxx.py          # 下载 Au1rxx 来源的 clash.yaml
+  fetch_sources.py         # 下载各来源的 clash.yaml
   sanitize.py              # 通用清洗脚本(控制字符 + 引用清理 + 双重校验)
   test_nodes.py            # mihomo 内核逐节点测试 generate_204 + 合并生成 AIO
 latest_urls.json           # yoyapai 最新文章信息
