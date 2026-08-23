@@ -10,6 +10,15 @@
 
 ## 订阅链接
 
+> **国内网络镜像(ghproxy.net)**:无法直接访问 `raw.githubusercontent.com` 时使用:
+
+| 来源 | ghproxy.net 镜像订阅链接 |
+|------|--------------------------|
+| yoyapai.com | https://ghproxy.net/github.com/wzmwayne/proxy-node/raw/main/output/yoyapai/clash.yaml |
+| Au1rxx/free-vpn-subscriptions | https://ghproxy.net/github.com/wzmwayne/proxy-node/raw/main/output/au1rxx/clash.yaml |
+
+**直连链接**:
+
 | 来源 | 文件 | 订阅链接 |
 |------|------|----------|
 | yoyapai.com(免费节点分享) | `output/yoyapai/clash.yaml` | https://raw.githubusercontent.com/wzmwayne/proxy-node/main/output/yoyapai/clash.yaml |
