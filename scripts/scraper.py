@@ -162,37 +162,20 @@ def main():
             json.dump(data, f, ensure_ascii=False, indent=2)
         print(f"  [OK] latest_urls.json 已生成")
 
-    # Write all articles' node links to all_urls.json for full.yaml
-    all_articles_data = []
-    for article in all_results:
-        yaml_link = ""
-        txt_link = ""
-        for nl in article.get("node_links", []):
-            if nl.endswith(".yaml"):
-                yaml_link = nl
-            elif nl.endswith(".txt"):
-                txt_link = nl
+        # Download the latest YAML to output/yoyapai/ (raw, sanitized later)
+        import os
+        out_dir = os.path.join("output", "yoyapai")
+        os.makedirs(out_dir, exist_ok=True)
 
-        title = article["title"]
-        date_match = re.search(r'(\d+)月(\d+)日', title)
-        date_str = ""
-        if date_match:
-            month = int(date_match.group(1))
-            day = int(date_match.group(2))
-            date_str = f"2026-{month:02d}-{day:02d}"
-
-        if yaml_link or txt_link:
-            all_articles_data.append({
-                "title": title,
-                "link": article["link"],
-                "date": date_str,
-                "yaml": yaml_link,
-                "txt": txt_link,
-            })
-
-    with open("all_urls.json", "w", encoding="utf-8") as f:
-        json.dump({"articles": all_articles_data}, f, ensure_ascii=False, indent=2)
-    print(f"  [OK] all_urls.json 已生成（{len(all_articles_data)} 篇文章）")
+        if yaml_link:
+            print(f"  [GET] {yaml_link}")
+            resp = requests.get(yaml_link, headers=HEADERS, timeout=60)
+            resp.raise_for_status()
+            with open(os.path.join(out_dir, "clash.yaml"), "wb") as f:
+                f.write(resp.content)
+            print(f"  [OK] clash.yaml ({len(resp.content)} bytes)")
+        else:
+            print("  [SKIP] 无 YAML 链接")
 
 
 if __name__ == "__main__":

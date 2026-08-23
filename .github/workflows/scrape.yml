@@ -1,8 +1,8 @@
-name: 每日抓取免费节点
+name: 定时抓取清洗节点
 
 on:
   schedule:
-    - cron: '00 23 * * *'    
+    - cron: '0 */4 * * *'        # 每 4 小时(UTC 00/04/08/12/16/20)
   workflow_dispatch:             # 手动触发
 
 jobs:
@@ -22,19 +22,37 @@ jobs:
       - name: Install dependencies
         run: pip install requests beautifulsoup4 pyyaml
 
-      - name: Run scraper
-        run: python scraper.py
+      - name: Scrape yoyapai
+        run: |
+          python scripts/scraper.py || echo "::warning::yoyapai 抓取失败，跳过该来源"
 
-      - name: Download and process node files
-        run: python process_nodes.py
+      - name: Fetch au1rxx
+        run: |
+          python scripts/fetch_au1rxx.py || echo "::warning::au1rxx 下载失败，跳过该来源"
+
+      - name: Sanitize clash.yaml files
+        run: |
+          for src in yoyapai au1rxx; do
+            f="output/$src/clash.yaml"
+            if [ -f "$f" ]; then
+              if python scripts/sanitize.py "$f" "$f.tmp" --source "$src" && mv "$f.tmp" "$f"; then
+                echo "  [OK] $f 清洗完成"
+              else
+                echo "::warning::$f 清洗失败，保留原文件"
+                rm -f "$f.tmp"
+              fi
+            else
+              echo "  [SKIP] $f 不存在"
+            fi
+          done
 
       - name: Commit and push
         run: |
-          git config user.name "yoyapai-bot"
-          git config user.email "bot@yoyapai.com"
+          git config user.name "proxy-node-bot"
+          git config user.email "bot@proxy-node.dev"
           git stash
           git pull --rebase
           git stash pop
-          git add newest.yaml newest.txt
+          git add output/ latest_urls.json
           git diff --cached --quiet || git commit -m "update: $(TZ=Asia/Shanghai date +%Y-%m-%d) 节点订阅"
           git push
