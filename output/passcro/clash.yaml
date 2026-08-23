@@ -18,155 +18,1171 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
-  - {name: CN_speednode_0001, server: 120.232.251.128, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, udp: true}
-  - {name: CN_speednode_0002, server: 121.46.230.234, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, udp: true}
-  - {name: CN_speednode_0003, server: 120.232.250.161, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, udp: true}
-  - {name: NL_speednode_0004, server: 84.17.47.125, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: NL_speednode_0005, server: 84.17.47.125, port: 9002, type: http, password: None, tls: true, skip-cert-verify: true, udp: true}
-  - {name: NL_speednode_0006, server: 84.17.47.150, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: NL_speednode_0007, server: 84.17.47.148, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: NL_speednode_0008, server: 84.17.47.148, port: 9002, type: http, password: None, tls: true, skip-cert-verify: true, udp: true}
-  - {name: NL_speednode_0009, server: 84.17.47.146, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: NL_speednode_0010, server: 84.17.47.149, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0011, server: 84.239.49.218, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0012, server: 84.239.49.202, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0013, server: 84.239.49.59, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0014, server: 84.239.14.153, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0015, server: 84.239.49.181, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0016, server: 84.239.49.38, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0017, server: 84.239.49.181, port: 9002, type: http, password: None, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0018, server: 84.239.49.162, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0019, server: 84.239.14.148, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0020, server: 84.239.49.201, port: 9002, type: http, password: None, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0021, server: 84.239.49.244, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0022, server: 84.239.49.189, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0023, server: 84.239.49.155, port: 9002, type: http, password: None, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0024, server: 84.239.49.168, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0025, server: 84.239.49.235, port: 9002, type: http, password: None, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0026, server: 84.239.49.176, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0027, server: 84.239.49.43, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0028, server: 84.239.49.57, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0029, server: 84.239.14.157, port: 9002, type: http, password: None, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0030, server: 84.239.49.229, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0031, server: 84.239.49.203, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0032, server: 84.239.49.241, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0033, server: 84.239.49.209, port: 9002, type: http, password: None, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0034, server: 84.239.49.40, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0035, server: 84.239.49.155, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0036, server: 84.239.49.201, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0037, server: 84.239.14.147, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0038, server: 84.239.14.159, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0039, server: 84.239.14.156, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0040, server: 84.239.49.185, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0041, server: 193.176.84.33, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0042, server: 193.176.84.30, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0043, server: 84.239.49.199, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0044, server: 193.176.84.35, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0045, server: 193.176.84.17, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0046, server: 84.239.49.192, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0047, server: 84.239.49.225, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0048, server: 84.239.49.223, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0049, server: 84.239.49.233, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0050, server: 84.239.49.231, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0051, server: 84.239.49.58, port: 9002, type: http, username: 'null', password: 'null', tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0052, server: 84.239.49.179, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0053, server: 84.239.49.245, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0054, server: 84.239.49.50, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0055, server: 84.239.49.161, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0056, server: 84.239.49.254, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0057, server: 84.239.49.200, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0058, server: 84.239.49.240, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0059, server: 84.239.49.217, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0060, server: 84.239.49.182, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0061, server: 84.239.49.197, port: 9002, type: http, password: None, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0062, server: 84.239.49.41, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0063, server: 84.239.49.62, port: 9002, type: http, password: None, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0064, server: 84.239.14.155, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0065, server: 84.239.49.252, port: 9002, type: http, password: None, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0066, server: 84.239.49.191, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0067, server: 84.239.49.170, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0068, server: 84.239.49.230, port: 9002, type: http, password: None, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0069, server: 84.239.49.208, port: 9002, type: http, password: None, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0070, server: 84.239.14.154, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0071, server: 84.239.49.194, port: 9002, type: http, password: None, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0072, server: 84.239.49.171, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0073, server: 84.239.49.214, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0074, server: 84.239.49.39, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0075, server: 84.239.49.204, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0076, server: 84.239.49.160, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0077, server: 84.239.49.165, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0078, server: 84.239.49.207, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0079, server: 84.239.14.153, port: 9002, type: http, password: None, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0080, server: 84.239.49.164, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0081, server: 84.239.49.238, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0082, server: 193.176.84.24, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0083, server: 193.176.84.25, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0084, server: 84.239.49.37, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0085, server: 84.239.49.234, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0086, server: 84.239.49.211, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0087, server: 193.176.84.20, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0088, server: 84.239.49.239, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0089, server: 84.239.49.187, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0090, server: 84.239.14.148, port: 9002, type: http, password: None, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0091, server: 84.239.49.215, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0092, server: 84.239.49.156, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0093, server: 84.239.49.242, port: 9002, type: http, password: None, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0094, server: 193.176.84.31, port: 9002, type: http, password: None, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0095, server: 84.239.49.186, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0096, server: 84.239.14.146, port: 9002, type: http, password: None, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0097, server: 193.176.84.23, port: 9002, type: http, password: None, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0098, server: 84.239.49.173, port: 9002, type: http, password: None, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0099, server: 84.239.14.147, port: 9002, type: http, password: None, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0100, server: 84.239.49.248, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0101, server: 84.239.49.213, port: 9002, type: http, password: None, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0102, server: 84.239.49.251, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0103, server: 84.239.49.235, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0104, server: 84.239.49.41, port: 9002, type: http, password: None, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0105, server: 84.239.49.198, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0106, server: 84.239.49.162, port: 9002, type: http, password: None, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0107, server: 84.239.14.158, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0108, server: 84.239.14.151, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0109, server: 84.239.49.39, port: 9002, type: http, password: None, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0110, server: 193.176.84.27, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0111, server: 84.239.14.155, port: 9002, type: http, password: None, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0112, server: 84.239.14.160, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0113, server: 84.239.49.175, port: 9002, type: http, password: None, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0114, server: 84.239.49.206, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0115, server: 84.239.49.49, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0116, server: 84.239.49.54, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0117, server: 84.239.49.230, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0118, server: 84.239.49.229, port: 9002, type: http, password: None, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0119, server: 84.239.49.249, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0120, server: 84.239.49.201, port: 9002, type: http, username: 'null', password: 'null', tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0121, server: 84.239.14.157, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0122, server: 84.239.49.184, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0123, server: 84.239.49.182, port: 9002, type: http, password: None, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0124, server: 193.176.84.32, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0125, server: 84.239.49.227, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0126, server: 193.176.84.39, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0127, server: 84.239.49.180, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RO_speednode_0128, server: 84.239.49.218, port: 9002, type: http, password: None, tls: true, skip-cert-verify: true, udp: true}
-  - {name: SI_speednode_0129, server: 45.144.54.40, port: 1080, type: socks5, tls: false, udp: true}
-  - {name: US_speednode_0130, server: 38.244.4.1, port: 443, type: vless, uuid: 5905d91f-c3bc-4e80-bd66-4b17beb166cb, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: www.apple.com, reality-opts: {public-key: 8BglmwULIVotYAbGXx3Vd1fXiGJbKSsWnZCGvm4Exl0, short-id: aebdb601b1371778}, network: tcp, udp: true}
-  - {name: US_speednode_0131, server: 138.199.35.216, port: 9002, type: http, username: 'null', password: 'null', tls: true, skip-cert-verify: true, udp: true}
-  - {name: US_speednode_0132, server: 51.81.223.225, port: 11094, type: vless, uuid: f1fa0ad9-b122-4b7c-da82-4bea9edc48dd, flow: xtls-rprx-vision, tls: true, skip-cert-verify: true, client-fingerprint: chrome, servername: www.yahoo.com, reality-opts: {public-key: 9dnXiXxP4xgvtTVRj9SBFdyO6mjGvVhWD8qVZZLCCCk, short-id: a356addf}, network: tcp, udp: true}
-  - {name: US_speednode_0133, server: fan.365747.xyz, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: US_speednode_0134, server: voteshirleysew.club, port: 443, type: http, tls: true, udp: true}
-  - {name: US_speednode_0135, server: 89.117.123.243, port: 443, type: vless, uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: firefox, servername: us.savesafe.cc, reality-opts: {public-key: zDeF_twyyT7a7zKiURF-Q8f6kkj95rx7zQ_jar09Hi4, short-id: e4f6a3446ac34a23}, network: tcp, udp: true}
-  - {name: US_speednode_0136, server: 155.117.199.13, port: 29893, type: vless, uuid: f06c6039-a489-3d78-a676-ed43be6deca3, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: cdnjs.cloudflare.com, reality-opts: {public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA, short-id: bc8e3658db7d1323}, network: tcp, udp: true}
-  - {name: US_speednode_0137, server: 155.117.199.13, port: 39399, type: vless, uuid: f06c6039-a489-3d78-a676-ed43be6deca3, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: cdnjs.cloudflare.com, reality-opts: {public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA, short-id: bc8e3658db7d1323}, network: tcp, udp: true}
-  - {name: US_speednode_0138, server: 107.151.250.68, port: 443, type: vless, uuid: 055dce30-0ee3-44c3-b680-be1c95b8d6e7, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: firefox, servername: www.bing.com, reality-opts: {public-key: g5UW6bf2soPSDNx7j0wanW_uLAtvTgQ8_lfztTJaP0k, short-id: 7025c954ff913b4c}, network: tcp, udp: true}
-  - {name: US_speednode_0139, server: wr28-6njjgu.linenheath.site, port: 443, type: vless, uuid: 9638a83e-f1f7-4cc8-a602-924965d9534f, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: www.cloudflare.com, reality-opts: {public-key: E6Y9lNizCXo8tJ6EXwLYQIjyIwmxIs4foyRlY2MgkjA, short-id: 59ccabb0a1483c4b}, network: tcp, udp: true}
-  - {name: US_speednode_0140, server: purposebydesig.club, port: 443, type: http, password: None, tls: true, udp: true}
-  - {name: US_speednode_0141, server: 38.28.193.188, port: 443, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: US_speednode_0142, server: 155.117.199.13, port: 39211, type: vless, uuid: f06c6039-a489-3d78-a676-ed43be6deca3, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: cdnjs.cloudflare.com, reality-opts: {public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA, short-id: bc8e3658db7d1323}, network: tcp, udp: true}
-  - {name: US_speednode_0143, server: 138.199.35.198, port: 9002, type: http, tls: true, skip-cert-verify: true, udp: true}
-  - {name: US_speednode_0144, server: nsuc-znkbig.avonex.top, port: 443, type: vless, uuid: ec31f6d7-c71a-413d-93aa-24296805a594, flow: xtls-rprx-vision, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: www.bing.com, reality-opts: {public-key: FL9zvOg48NhHk_YWJMcDXNOseisuzeBW7d8KitUaAQM, short-id: dc941fb0778384e2}, network: tcp, udp: true}
+- name: CN_speednode_0001
+  server: 120.232.251.128
+  port: 65443
+  type: ss
+  cipher: aes-256-cfb
+  password: 7eadc6dbe2ae
+  udp: true
+- name: CN_speednode_0002
+  server: 121.46.230.234
+  port: 65443
+  type: ss
+  cipher: aes-256-cfb
+  password: 7eadc6dbe2ae
+  udp: true
+- name: CN_speednode_0003
+  server: 120.232.250.161
+  port: 65443
+  type: ss
+  cipher: aes-256-cfb
+  password: 7eadc6dbe2ae
+  udp: true
+- name: NL_speednode_0004
+  server: 84.17.47.125
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: NL_speednode_0005
+  server: 84.17.47.125
+  port: 9002
+  type: http
+  password: None
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: NL_speednode_0006
+  server: 84.17.47.150
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: NL_speednode_0007
+  server: 84.17.47.148
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: NL_speednode_0008
+  server: 84.17.47.148
+  port: 9002
+  type: http
+  password: None
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: NL_speednode_0009
+  server: 84.17.47.146
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: NL_speednode_0010
+  server: 84.17.47.149
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0011
+  server: 84.239.49.218
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0012
+  server: 84.239.49.202
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0013
+  server: 84.239.49.59
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0014
+  server: 84.239.14.153
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0015
+  server: 84.239.49.181
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0016
+  server: 84.239.49.38
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0017
+  server: 84.239.49.181
+  port: 9002
+  type: http
+  password: None
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0018
+  server: 84.239.49.162
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0019
+  server: 84.239.14.148
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0020
+  server: 84.239.49.201
+  port: 9002
+  type: http
+  password: None
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0021
+  server: 84.239.49.244
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0022
+  server: 84.239.49.189
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0023
+  server: 84.239.49.155
+  port: 9002
+  type: http
+  password: None
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0024
+  server: 84.239.49.168
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0025
+  server: 84.239.49.235
+  port: 9002
+  type: http
+  password: None
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0026
+  server: 84.239.49.176
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0027
+  server: 84.239.49.43
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0028
+  server: 84.239.49.57
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0029
+  server: 84.239.14.157
+  port: 9002
+  type: http
+  password: None
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0030
+  server: 84.239.49.229
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0031
+  server: 84.239.49.203
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0032
+  server: 84.239.49.241
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0033
+  server: 84.239.49.209
+  port: 9002
+  type: http
+  password: None
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0034
+  server: 84.239.49.40
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0035
+  server: 84.239.49.155
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0036
+  server: 84.239.49.201
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0037
+  server: 84.239.14.147
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0038
+  server: 84.239.14.159
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0039
+  server: 84.239.14.156
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0040
+  server: 84.239.49.185
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0041
+  server: 193.176.84.33
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0042
+  server: 193.176.84.30
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0043
+  server: 84.239.49.199
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0044
+  server: 193.176.84.35
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0045
+  server: 193.176.84.17
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0046
+  server: 84.239.49.192
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0047
+  server: 84.239.49.225
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0048
+  server: 84.239.49.223
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0049
+  server: 84.239.49.233
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0050
+  server: 84.239.49.231
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0051
+  server: 84.239.49.58
+  port: 9002
+  type: http
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0052
+  server: 84.239.49.179
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0053
+  server: 84.239.49.245
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0054
+  server: 84.239.49.50
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0055
+  server: 84.239.49.161
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0056
+  server: 84.239.49.254
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0057
+  server: 84.239.49.200
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0058
+  server: 84.239.49.240
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0059
+  server: 84.239.49.217
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0060
+  server: 84.239.49.182
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0061
+  server: 84.239.49.197
+  port: 9002
+  type: http
+  password: None
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0062
+  server: 84.239.49.41
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0063
+  server: 84.239.49.62
+  port: 9002
+  type: http
+  password: None
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0064
+  server: 84.239.14.155
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0065
+  server: 84.239.49.252
+  port: 9002
+  type: http
+  password: None
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0066
+  server: 84.239.49.191
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0067
+  server: 84.239.49.170
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0068
+  server: 84.239.49.230
+  port: 9002
+  type: http
+  password: None
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0069
+  server: 84.239.49.208
+  port: 9002
+  type: http
+  password: None
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0070
+  server: 84.239.14.154
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0071
+  server: 84.239.49.194
+  port: 9002
+  type: http
+  password: None
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0072
+  server: 84.239.49.171
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0073
+  server: 84.239.49.214
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0074
+  server: 84.239.49.39
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0075
+  server: 84.239.49.204
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0076
+  server: 84.239.49.160
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0077
+  server: 84.239.49.165
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0078
+  server: 84.239.49.207
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0079
+  server: 84.239.14.153
+  port: 9002
+  type: http
+  password: None
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0080
+  server: 84.239.49.164
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0081
+  server: 84.239.49.238
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0082
+  server: 193.176.84.24
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0083
+  server: 193.176.84.25
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0084
+  server: 84.239.49.37
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0085
+  server: 84.239.49.234
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0086
+  server: 84.239.49.211
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0087
+  server: 193.176.84.20
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0088
+  server: 84.239.49.239
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0089
+  server: 84.239.49.187
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0090
+  server: 84.239.14.148
+  port: 9002
+  type: http
+  password: None
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0091
+  server: 84.239.49.215
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0092
+  server: 84.239.49.156
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0093
+  server: 84.239.49.242
+  port: 9002
+  type: http
+  password: None
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0094
+  server: 193.176.84.31
+  port: 9002
+  type: http
+  password: None
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0095
+  server: 84.239.49.186
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0096
+  server: 84.239.14.146
+  port: 9002
+  type: http
+  password: None
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0097
+  server: 193.176.84.23
+  port: 9002
+  type: http
+  password: None
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0098
+  server: 84.239.49.173
+  port: 9002
+  type: http
+  password: None
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0099
+  server: 84.239.14.147
+  port: 9002
+  type: http
+  password: None
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0100
+  server: 84.239.49.248
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0101
+  server: 84.239.49.213
+  port: 9002
+  type: http
+  password: None
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0102
+  server: 84.239.49.251
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0103
+  server: 84.239.49.235
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0104
+  server: 84.239.49.41
+  port: 9002
+  type: http
+  password: None
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0105
+  server: 84.239.49.198
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0106
+  server: 84.239.49.162
+  port: 9002
+  type: http
+  password: None
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0107
+  server: 84.239.14.158
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0108
+  server: 84.239.14.151
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0109
+  server: 84.239.49.39
+  port: 9002
+  type: http
+  password: None
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0110
+  server: 193.176.84.27
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0111
+  server: 84.239.14.155
+  port: 9002
+  type: http
+  password: None
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0112
+  server: 84.239.14.160
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0113
+  server: 84.239.49.175
+  port: 9002
+  type: http
+  password: None
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0114
+  server: 84.239.49.206
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0115
+  server: 84.239.49.49
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0116
+  server: 84.239.49.54
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0117
+  server: 84.239.49.230
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0118
+  server: 84.239.49.229
+  port: 9002
+  type: http
+  password: None
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0119
+  server: 84.239.49.249
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0120
+  server: 84.239.49.201
+  port: 9002
+  type: http
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0121
+  server: 84.239.14.157
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0122
+  server: 84.239.49.184
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0123
+  server: 84.239.49.182
+  port: 9002
+  type: http
+  password: None
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0124
+  server: 193.176.84.32
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0125
+  server: 84.239.49.227
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0126
+  server: 193.176.84.39
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0127
+  server: 84.239.49.180
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: RO_speednode_0128
+  server: 84.239.49.218
+  port: 9002
+  type: http
+  password: None
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: SI_speednode_0129
+  server: 45.144.54.40
+  port: 1080
+  type: socks5
+  tls: false
+  udp: true
+- name: US_speednode_0130
+  server: 38.244.4.1
+  port: 443
+  type: vless
+  uuid: 5905d91f-c3bc-4e80-bd66-4b17beb166cb
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  servername: www.apple.com
+  reality-opts:
+    public-key: 8BglmwULIVotYAbGXx3Vd1fXiGJbKSsWnZCGvm4Exl0
+    short-id: aebdb601b1371778
+  network: tcp
+  udp: true
+- name: US_speednode_0131
+  server: 138.199.35.216
+  port: 9002
+  type: http
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: US_speednode_0132
+  server: 51.81.223.225
+  port: 11094
+  type: vless
+  uuid: f1fa0ad9-b122-4b7c-da82-4bea9edc48dd
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: true
+  client-fingerprint: chrome
+  servername: www.yahoo.com
+  reality-opts:
+    public-key: 9dnXiXxP4xgvtTVRj9SBFdyO6mjGvVhWD8qVZZLCCCk
+    short-id: a356addf
+  network: tcp
+  udp: true
+- name: US_speednode_0133
+  server: fan.365747.xyz
+  port: 443
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: US_speednode_0134
+  server: voteshirleysew.club
+  port: 443
+  type: http
+  tls: true
+  udp: true
+- name: US_speednode_0135
+  server: 89.117.123.243
+  port: 443
+  type: vless
+  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  servername: us.savesafe.cc
+  reality-opts:
+    public-key: zDeF_twyyT7a7zKiURF-Q8f6kkj95rx7zQ_jar09Hi4
+    short-id: e4f6a3446ac34a23
+  network: tcp
+  udp: true
+- name: US_speednode_0136
+  server: 155.117.199.13
+  port: 29893
+  type: vless
+  uuid: f06c6039-a489-3d78-a676-ed43be6deca3
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  servername: cdnjs.cloudflare.com
+  reality-opts:
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: bc8e3658db7d1323
+  network: tcp
+  udp: true
+- name: US_speednode_0137
+  server: 155.117.199.13
+  port: 39399
+  type: vless
+  uuid: f06c6039-a489-3d78-a676-ed43be6deca3
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  servername: cdnjs.cloudflare.com
+  reality-opts:
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: bc8e3658db7d1323
+  network: tcp
+  udp: true
+- name: US_speednode_0138
+  server: 107.151.250.68
+  port: 443
+  type: vless
+  uuid: 055dce30-0ee3-44c3-b680-be1c95b8d6e7
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  servername: www.bing.com
+  reality-opts:
+    public-key: g5UW6bf2soPSDNx7j0wanW_uLAtvTgQ8_lfztTJaP0k
+    short-id: 7025c954ff913b4c
+  network: tcp
+  udp: true
+- name: US_speednode_0139
+  server: wr28-6njjgu.linenheath.site
+  port: 443
+  type: vless
+  uuid: 9638a83e-f1f7-4cc8-a602-924965d9534f
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  servername: www.cloudflare.com
+  reality-opts:
+    public-key: E6Y9lNizCXo8tJ6EXwLYQIjyIwmxIs4foyRlY2MgkjA
+    short-id: 59ccabb0a1483c4b
+  network: tcp
+  udp: true
+- name: US_speednode_0140
+  server: purposebydesig.club
+  port: 443
+  type: http
+  password: None
+  tls: true
+  udp: true
+- name: US_speednode_0141
+  server: 38.28.193.188
+  port: 443
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: US_speednode_0142
+  server: 155.117.199.13
+  port: 39211
+  type: vless
+  uuid: f06c6039-a489-3d78-a676-ed43be6deca3
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  servername: cdnjs.cloudflare.com
+  reality-opts:
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: bc8e3658db7d1323
+  network: tcp
+  udp: true
+- name: US_speednode_0143
+  server: 138.199.35.198
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: US_speednode_0144
+  server: nsuc-znkbig.avonex.top
+  port: 443
+  type: vless
+  uuid: ec31f6d7-c71a-413d-93aa-24296805a594
+  flow: xtls-rprx-vision
+  tls: true
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  servername: www.bing.com
+  reality-opts:
+    public-key: FL9zvOg48NhHk_YWJMcDXNOseisuzeBW7d8KitUaAQM
+    short-id: dc941fb0778384e2
+  network: tcp
+  udp: true
+- name: "\u8BF4\u660E-\u6765\u6E90: zhangkaiitugithub/passcro"
+  type: trojan
+  server: 127.0.0.1
+  port: 443
+  password: dummy
+  udp: true
+  skip-cert-verify: true
+- name: "\u8BF4\u660E-\u6E05\u6D17\u7ED3\u679C: \u6E05\u7406 0 \u4E2A\u8282\u70B9\u3001\
+    \u8F6C\u8BD1 315 \u4E2A\u5B57\u7B26"
+  type: trojan
+  server: 127.0.0.1
+  port: 443
+  password: dummy
+  udp: true
+  skip-cert-verify: true
+- name: "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-08-23 20:42 (CST)"
+  type: trojan
+  server: 127.0.0.1
+  port: 443
+  password: dummy
+  udp: true
+  skip-cert-verify: true
+- name: "\u8BF4\u660E-\u4F5C\u8005: wzmwayne"
+  type: trojan
+  server: 127.0.0.1
+  port: 443
+  password: dummy
+  udp: true
+  skip-cert-verify: true
+- name: "\u8BF4\u660E-\u4ED3\u5E93: https://github.com/wzmwayne/proxy-node"
+  type: trojan
+  server: 127.0.0.1
+  port: 443
+  password: dummy
+  udp: true
+  skip-cert-verify: true
 proxy-groups:
-- name: ⭕ proxinode
+- name: "\u8BF4\u660E"
   type: select
   proxies:
-  - ♻️ automatic
+  - "\u8BF4\u660E-\u6765\u6E90: zhangkaiitugithub/passcro"
+  - "\u8BF4\u660E-\u6E05\u6D17\u7ED3\u679C: \u6E05\u7406 0 \u4E2A\u8282\u70B9\u3001\
+    \u8F6C\u8BD1 315 \u4E2A\u5B57\u7B26"
+  - "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-08-23 20:42 (CST)"
+  - "\u8BF4\u660E-\u4F5C\u8005: wzmwayne"
+  - "\u8BF4\u660E-\u4ED3\u5E93: https://github.com/wzmwayne/proxy-node"
+- name: "\u2B55 proxinode"
+  type: select
+  proxies:
+  - "\u267B\uFE0F automatic"
   - CN_speednode_0001
   - CN_speednode_0002
   - CN_speednode_0003
@@ -311,7 +1327,7 @@ proxy-groups:
   - US_speednode_0142
   - US_speednode_0143
   - US_speednode_0144
-- name: ♻️ automatic
+- name: "\u267B\uFE0F automatic"
   type: url-test
   proxies:
   - CN_speednode_0001
@@ -463,20 +1479,20 @@ proxy-groups:
 rules:
 - DOMAIN,safebrowsing.urlsec.qq.com,DIRECT
 - DOMAIN,safebrowsing.googleapis.com,DIRECT
-- DOMAIN,developer.apple.com,⭕ proxinode
-- DOMAIN-SUFFIX,digicert.com,⭕ proxinode
-- DOMAIN,ocsp.apple.com,⭕ proxinode
-- DOMAIN,ocsp.comodoca.com,⭕ proxinode
-- DOMAIN,ocsp.usertrust.com,⭕ proxinode
-- DOMAIN,ocsp.sectigo.com,⭕ proxinode
-- DOMAIN,ocsp.verisign.net,⭕ proxinode
-- DOMAIN-SUFFIX,apple-dns.net,⭕ proxinode
-- DOMAIN,testflight.apple.com,⭕ proxinode
-- DOMAIN,sandbox.itunes.apple.com,⭕ proxinode
-- DOMAIN,itunes.apple.com,⭕ proxinode
-- DOMAIN-SUFFIX,apps.apple.com,⭕ proxinode
-- DOMAIN-SUFFIX,blobstore.apple.com,⭕ proxinode
-- DOMAIN,cvws.icloud-content.com,⭕ proxinode
+- "DOMAIN,developer.apple.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,digicert.com,\u2B55 proxinode"
+- "DOMAIN,ocsp.apple.com,\u2B55 proxinode"
+- "DOMAIN,ocsp.comodoca.com,\u2B55 proxinode"
+- "DOMAIN,ocsp.usertrust.com,\u2B55 proxinode"
+- "DOMAIN,ocsp.sectigo.com,\u2B55 proxinode"
+- "DOMAIN,ocsp.verisign.net,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,apple-dns.net,\u2B55 proxinode"
+- "DOMAIN,testflight.apple.com,\u2B55 proxinode"
+- "DOMAIN,sandbox.itunes.apple.com,\u2B55 proxinode"
+- "DOMAIN,itunes.apple.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,apps.apple.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,blobstore.apple.com,\u2B55 proxinode"
+- "DOMAIN,cvws.icloud-content.com,\u2B55 proxinode"
 - DOMAIN-SUFFIX,mzstatic.com,DIRECT
 - DOMAIN-SUFFIX,itunes.apple.com,DIRECT
 - DOMAIN-SUFFIX,icloud.com,DIRECT
@@ -588,7 +1604,7 @@ rules:
 - DOMAIN-SUFFIX,sogoucdn.com,DIRECT
 - DOMAIN-SUFFIX,sohu.com,DIRECT
 - DOMAIN-SUFFIX,soku.com,DIRECT
-- DOMAIN-SUFFIX,speedtest.net,⭕ proxinode
+- "DOMAIN-SUFFIX,speedtest.net,\u2B55 proxinode"
 - DOMAIN-SUFFIX,sspai.com,DIRECT
 - DOMAIN-SUFFIX,suning.com,DIRECT
 - DOMAIN-SUFFIX,taobao.com,DIRECT
@@ -620,20 +1636,20 @@ rules:
 - DOMAIN-SUFFIX,zhimg.com,DIRECT
 - DOMAIN-SUFFIX,zimuzu.tv,DIRECT
 - DOMAIN-SUFFIX,zoho.com,DIRECT
-- DOMAIN-KEYWORD,amazon,⭕ proxinode
-- DOMAIN-KEYWORD,google,⭕ proxinode
-- DOMAIN-KEYWORD,gmail,⭕ proxinode
-- DOMAIN-KEYWORD,youtube,⭕ proxinode
-- DOMAIN-KEYWORD,facebook,⭕ proxinode
-- DOMAIN-SUFFIX,fb.me,⭕ proxinode
-- DOMAIN-SUFFIX,fbcdn.net,⭕ proxinode
-- DOMAIN-KEYWORD,twitter,⭕ proxinode
-- DOMAIN-KEYWORD,instagram,⭕ proxinode
-- DOMAIN-KEYWORD,dropbox,⭕ proxinode
-- DOMAIN-SUFFIX,twimg.com,⭕ proxinode
-- DOMAIN-KEYWORD,blogspot,⭕ proxinode
-- DOMAIN-SUFFIX,youtu.be,⭕ proxinode
-- DOMAIN-KEYWORD,whatsapp,⭕ proxinode
+- "DOMAIN-KEYWORD,amazon,\u2B55 proxinode"
+- "DOMAIN-KEYWORD,google,\u2B55 proxinode"
+- "DOMAIN-KEYWORD,gmail,\u2B55 proxinode"
+- "DOMAIN-KEYWORD,youtube,\u2B55 proxinode"
+- "DOMAIN-KEYWORD,facebook,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,fb.me,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,fbcdn.net,\u2B55 proxinode"
+- "DOMAIN-KEYWORD,twitter,\u2B55 proxinode"
+- "DOMAIN-KEYWORD,instagram,\u2B55 proxinode"
+- "DOMAIN-KEYWORD,dropbox,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,twimg.com,\u2B55 proxinode"
+- "DOMAIN-KEYWORD,blogspot,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,youtu.be,\u2B55 proxinode"
+- "DOMAIN-KEYWORD,whatsapp,\u2B55 proxinode"
 - DOMAIN-KEYWORD,admarvel,REJECT
 - DOMAIN-KEYWORD,admaster,REJECT
 - DOMAIN-KEYWORD,adsage,REJECT
@@ -661,285 +1677,285 @@ rules:
 - DOMAIN-SUFFIX,vungle.com,REJECT
 - DOMAIN-KEYWORD,wlmonitor,REJECT
 - DOMAIN-KEYWORD,zjtoolbar,REJECT
-- DOMAIN-SUFFIX,9to5mac.com,⭕ proxinode
-- DOMAIN-SUFFIX,abpchina.org,⭕ proxinode
-- DOMAIN-SUFFIX,adblockplus.org,⭕ proxinode
-- DOMAIN-SUFFIX,adobe.com,⭕ proxinode
-- DOMAIN-SUFFIX,akamaized.net,⭕ proxinode
-- DOMAIN-SUFFIX,alfredapp.com,⭕ proxinode
-- DOMAIN-SUFFIX,amplitude.com,⭕ proxinode
-- DOMAIN-SUFFIX,ampproject.org,⭕ proxinode
-- DOMAIN-SUFFIX,android.com,⭕ proxinode
-- DOMAIN-SUFFIX,angularjs.org,⭕ proxinode
-- DOMAIN-SUFFIX,aolcdn.com,⭕ proxinode
-- DOMAIN-SUFFIX,apkpure.com,⭕ proxinode
-- DOMAIN-SUFFIX,appledaily.com,⭕ proxinode
-- DOMAIN-SUFFIX,appshopper.com,⭕ proxinode
-- DOMAIN-SUFFIX,appspot.com,⭕ proxinode
-- DOMAIN-SUFFIX,arcgis.com,⭕ proxinode
-- DOMAIN-SUFFIX,archive.org,⭕ proxinode
-- DOMAIN-SUFFIX,armorgames.com,⭕ proxinode
-- DOMAIN-SUFFIX,aspnetcdn.com,⭕ proxinode
-- DOMAIN-SUFFIX,att.com,⭕ proxinode
-- DOMAIN-SUFFIX,awsstatic.com,⭕ proxinode
-- DOMAIN-SUFFIX,azureedge.net,⭕ proxinode
-- DOMAIN-SUFFIX,azurewebsites.net,⭕ proxinode
-- DOMAIN-SUFFIX,bing.com,⭕ proxinode
-- DOMAIN-SUFFIX,bintray.com,⭕ proxinode
-- DOMAIN-SUFFIX,bit.com,⭕ proxinode
-- DOMAIN-SUFFIX,bit.ly,⭕ proxinode
-- DOMAIN-SUFFIX,bitbucket.org,⭕ proxinode
-- DOMAIN-SUFFIX,bjango.com,⭕ proxinode
-- DOMAIN-SUFFIX,bkrtx.com,⭕ proxinode
-- DOMAIN-SUFFIX,blog.com,⭕ proxinode
-- DOMAIN-SUFFIX,blogcdn.com,⭕ proxinode
-- DOMAIN-SUFFIX,blogger.com,⭕ proxinode
-- DOMAIN-SUFFIX,blogsmithmedia.com,⭕ proxinode
-- DOMAIN-SUFFIX,blogspot.com,⭕ proxinode
-- DOMAIN-SUFFIX,blogspot.hk,⭕ proxinode
-- DOMAIN-SUFFIX,bloomberg.com,⭕ proxinode
-- DOMAIN-SUFFIX,box.com,⭕ proxinode
-- DOMAIN-SUFFIX,box.net,⭕ proxinode
-- DOMAIN-SUFFIX,cachefly.net,⭕ proxinode
-- DOMAIN-SUFFIX,chromium.org,⭕ proxinode
-- DOMAIN-SUFFIX,cl.ly,⭕ proxinode
-- DOMAIN-SUFFIX,cloudflare.com,⭕ proxinode
-- DOMAIN-SUFFIX,cloudfront.net,⭕ proxinode
-- DOMAIN-SUFFIX,cloudmagic.com,⭕ proxinode
-- DOMAIN-SUFFIX,cmail19.com,⭕ proxinode
-- DOMAIN-SUFFIX,cnet.com,⭕ proxinode
-- DOMAIN-SUFFIX,cocoapods.org,⭕ proxinode
-- DOMAIN-SUFFIX,comodoca.com,⭕ proxinode
-- DOMAIN-SUFFIX,crashlytics.com,⭕ proxinode
-- DOMAIN-SUFFIX,culturedcode.com,⭕ proxinode
-- DOMAIN-SUFFIX,d.pr,⭕ proxinode
-- DOMAIN-SUFFIX,danilo.to,⭕ proxinode
-- DOMAIN-SUFFIX,dayone.me,⭕ proxinode
-- DOMAIN-SUFFIX,db.tt,⭕ proxinode
-- DOMAIN-SUFFIX,deskconnect.com,⭕ proxinode
-- DOMAIN-SUFFIX,disq.us,⭕ proxinode
-- DOMAIN-SUFFIX,disqus.com,⭕ proxinode
-- DOMAIN-SUFFIX,disquscdn.com,⭕ proxinode
-- DOMAIN-SUFFIX,dnsimple.com,⭕ proxinode
-- DOMAIN-SUFFIX,docker.com,⭕ proxinode
-- DOMAIN-SUFFIX,dribbble.com,⭕ proxinode
-- DOMAIN-SUFFIX,droplr.com,⭕ proxinode
-- DOMAIN-SUFFIX,duckduckgo.com,⭕ proxinode
-- DOMAIN-SUFFIX,dueapp.com,⭕ proxinode
-- DOMAIN-SUFFIX,dytt8.net,⭕ proxinode
-- DOMAIN-SUFFIX,edgecastcdn.net,⭕ proxinode
-- DOMAIN-SUFFIX,edgekey.net,⭕ proxinode
-- DOMAIN-SUFFIX,edgesuite.net,⭕ proxinode
-- DOMAIN-SUFFIX,engadget.com,⭕ proxinode
-- DOMAIN-SUFFIX,entrust.net,⭕ proxinode
-- DOMAIN-SUFFIX,eurekavpt.com,⭕ proxinode
-- DOMAIN-SUFFIX,evernote.com,⭕ proxinode
-- DOMAIN-SUFFIX,fabric.io,⭕ proxinode
-- DOMAIN-SUFFIX,fast.com,⭕ proxinode
-- DOMAIN-SUFFIX,fastly.net,⭕ proxinode
-- DOMAIN-SUFFIX,fc2.com,⭕ proxinode
-- DOMAIN-SUFFIX,feedburner.com,⭕ proxinode
-- DOMAIN-SUFFIX,feedly.com,⭕ proxinode
-- DOMAIN-SUFFIX,feedsportal.com,⭕ proxinode
-- DOMAIN-SUFFIX,fiftythree.com,⭕ proxinode
-- DOMAIN-SUFFIX,firebaseio.com,⭕ proxinode
-- DOMAIN-SUFFIX,flexibits.com,⭕ proxinode
-- DOMAIN-SUFFIX,flickr.com,⭕ proxinode
-- DOMAIN-SUFFIX,flipboard.com,⭕ proxinode
-- DOMAIN-SUFFIX,g.co,⭕ proxinode
-- DOMAIN-SUFFIX,gabia.net,⭕ proxinode
-- DOMAIN-SUFFIX,geni.us,⭕ proxinode
-- DOMAIN-SUFFIX,gfx.ms,⭕ proxinode
-- DOMAIN-SUFFIX,ggpht.com,⭕ proxinode
-- DOMAIN-SUFFIX,ghostnoteapp.com,⭕ proxinode
-- DOMAIN-SUFFIX,git.io,⭕ proxinode
-- DOMAIN-KEYWORD,github,⭕ proxinode
-- DOMAIN-SUFFIX,globalsign.com,⭕ proxinode
-- DOMAIN-SUFFIX,gmodules.com,⭕ proxinode
-- DOMAIN-SUFFIX,godaddy.com,⭕ proxinode
-- DOMAIN-SUFFIX,golang.org,⭕ proxinode
-- DOMAIN-SUFFIX,gongm.in,⭕ proxinode
-- DOMAIN-SUFFIX,goo.gl,⭕ proxinode
-- DOMAIN-SUFFIX,goodreaders.com,⭕ proxinode
-- DOMAIN-SUFFIX,goodreads.com,⭕ proxinode
-- DOMAIN-SUFFIX,gravatar.com,⭕ proxinode
-- DOMAIN-SUFFIX,gstatic.com,⭕ proxinode
-- DOMAIN-SUFFIX,gvt0.com,⭕ proxinode
-- DOMAIN-SUFFIX,hockeyapp.net,⭕ proxinode
-- DOMAIN-SUFFIX,hotmail.com,⭕ proxinode
-- DOMAIN-SUFFIX,icons8.com,⭕ proxinode
-- DOMAIN-SUFFIX,ifixit.com,⭕ proxinode
-- DOMAIN-SUFFIX,ift.tt,⭕ proxinode
-- DOMAIN-SUFFIX,ifttt.com,⭕ proxinode
-- DOMAIN-SUFFIX,iherb.com,⭕ proxinode
-- DOMAIN-SUFFIX,imageshack.us,⭕ proxinode
-- DOMAIN-SUFFIX,img.ly,⭕ proxinode
-- DOMAIN-SUFFIX,imgur.com,⭕ proxinode
-- DOMAIN-SUFFIX,imore.com,⭕ proxinode
-- DOMAIN-SUFFIX,instapaper.com,⭕ proxinode
-- DOMAIN-SUFFIX,ipn.li,⭕ proxinode
-- DOMAIN-SUFFIX,is.gd,⭕ proxinode
-- DOMAIN-SUFFIX,issuu.com,⭕ proxinode
-- DOMAIN-SUFFIX,itgonglun.com,⭕ proxinode
-- DOMAIN-SUFFIX,itun.es,⭕ proxinode
-- DOMAIN-SUFFIX,ixquick.com,⭕ proxinode
-- DOMAIN-SUFFIX,j.mp,⭕ proxinode
-- DOMAIN-SUFFIX,js.revsci.net,⭕ proxinode
-- DOMAIN-SUFFIX,jshint.com,⭕ proxinode
-- DOMAIN-SUFFIX,jtvnw.net,⭕ proxinode
-- DOMAIN-SUFFIX,justgetflux.com,⭕ proxinode
-- DOMAIN-SUFFIX,kat.cr,⭕ proxinode
-- DOMAIN-SUFFIX,klip.me,⭕ proxinode
-- DOMAIN-SUFFIX,libsyn.com,⭕ proxinode
-- DOMAIN-SUFFIX,linkedin.com,⭕ proxinode
-- DOMAIN-SUFFIX,linode.com,⭕ proxinode
-- DOMAIN-SUFFIX,lithium.com,⭕ proxinode
-- DOMAIN-SUFFIX,littlehj.com,⭕ proxinode
-- DOMAIN-SUFFIX,live.com,⭕ proxinode
-- DOMAIN-SUFFIX,live.net,⭕ proxinode
-- DOMAIN-SUFFIX,livefilestore.com,⭕ proxinode
-- DOMAIN-SUFFIX,llnwd.net,⭕ proxinode
-- DOMAIN-SUFFIX,macid.co,⭕ proxinode
-- DOMAIN-SUFFIX,macromedia.com,⭕ proxinode
-- DOMAIN-SUFFIX,macrumors.com,⭕ proxinode
-- DOMAIN-SUFFIX,mashable.com,⭕ proxinode
-- DOMAIN-SUFFIX,mathjax.org,⭕ proxinode
-- DOMAIN-SUFFIX,medium.com,⭕ proxinode
-- DOMAIN-SUFFIX,mega.co.nz,⭕ proxinode
-- DOMAIN-SUFFIX,mega.nz,⭕ proxinode
-- DOMAIN-SUFFIX,megaupload.com,⭕ proxinode
-- DOMAIN-SUFFIX,microsofttranslator.com,⭕ proxinode
-- DOMAIN-SUFFIX,mindnode.com,⭕ proxinode
-- DOMAIN-SUFFIX,mobile01.com,⭕ proxinode
-- DOMAIN-SUFFIX,modmyi.com,⭕ proxinode
-- DOMAIN-SUFFIX,msedge.net,⭕ proxinode
-- DOMAIN-SUFFIX,myfontastic.com,⭕ proxinode
-- DOMAIN-SUFFIX,name.com,⭕ proxinode
-- DOMAIN-SUFFIX,nextmedia.com,⭕ proxinode
-- DOMAIN-SUFFIX,nsstatic.net,⭕ proxinode
-- DOMAIN-SUFFIX,nssurge.com,⭕ proxinode
-- DOMAIN-SUFFIX,nyt.com,⭕ proxinode
-- DOMAIN-SUFFIX,nytimes.com,⭕ proxinode
-- DOMAIN-SUFFIX,omnigroup.com,⭕ proxinode
-- DOMAIN-SUFFIX,onedrive.com,⭕ proxinode
-- DOMAIN-SUFFIX,onenote.com,⭕ proxinode
-- DOMAIN-SUFFIX,ooyala.com,⭕ proxinode
-- DOMAIN-SUFFIX,openvpn.net,⭕ proxinode
-- DOMAIN-SUFFIX,openwrt.org,⭕ proxinode
-- DOMAIN-SUFFIX,orkut.com,⭕ proxinode
-- DOMAIN-SUFFIX,osxdaily.com,⭕ proxinode
-- DOMAIN-SUFFIX,outlook.com,⭕ proxinode
-- DOMAIN-SUFFIX,ow.ly,⭕ proxinode
-- DOMAIN-SUFFIX,paddleapi.com,⭕ proxinode
-- DOMAIN-SUFFIX,parallels.com,⭕ proxinode
-- DOMAIN-SUFFIX,parse.com,⭕ proxinode
-- DOMAIN-SUFFIX,pdfexpert.com,⭕ proxinode
-- DOMAIN-SUFFIX,periscope.tv,⭕ proxinode
-- DOMAIN-SUFFIX,pinboard.in,⭕ proxinode
-- DOMAIN-SUFFIX,pinterest.com,⭕ proxinode
-- DOMAIN-SUFFIX,pixelmator.com,⭕ proxinode
-- DOMAIN-SUFFIX,pixiv.net,⭕ proxinode
-- DOMAIN-SUFFIX,playpcesor.com,⭕ proxinode
-- DOMAIN-SUFFIX,playstation.com,⭕ proxinode
-- DOMAIN-SUFFIX,playstation.com.hk,⭕ proxinode
-- DOMAIN-SUFFIX,playstation.net,⭕ proxinode
-- DOMAIN-SUFFIX,playstationnetwork.com,⭕ proxinode
-- DOMAIN-SUFFIX,pushwoosh.com,⭕ proxinode
-- DOMAIN-SUFFIX,rime.im,⭕ proxinode
-- DOMAIN-SUFFIX,servebom.com,⭕ proxinode
-- DOMAIN-SUFFIX,sfx.ms,⭕ proxinode
-- DOMAIN-SUFFIX,shadowsocks.org,⭕ proxinode
-- DOMAIN-SUFFIX,sharethis.com,⭕ proxinode
-- DOMAIN-SUFFIX,shazam.com,⭕ proxinode
-- DOMAIN-SUFFIX,skype.com,⭕ proxinode
-- DOMAIN-SUFFIX,smartdns⭕ proxinode.com,⭕ proxinode
-- DOMAIN-SUFFIX,smartmailcloud.com,⭕ proxinode
-- DOMAIN-SUFFIX,sndcdn.com,⭕ proxinode
-- DOMAIN-SUFFIX,sony.com,⭕ proxinode
-- DOMAIN-SUFFIX,soundcloud.com,⭕ proxinode
-- DOMAIN-SUFFIX,sourceforge.net,⭕ proxinode
-- DOMAIN-SUFFIX,spotify.com,⭕ proxinode
-- DOMAIN-SUFFIX,squarespace.com,⭕ proxinode
-- DOMAIN-SUFFIX,sstatic.net,⭕ proxinode
-- DOMAIN-SUFFIX,st.luluku.pw,⭕ proxinode
-- DOMAIN-SUFFIX,stackoverflow.com,⭕ proxinode
-- DOMAIN-SUFFIX,startpage.com,⭕ proxinode
-- DOMAIN-SUFFIX,staticflickr.com,⭕ proxinode
-- DOMAIN-SUFFIX,steamcommunity.com,⭕ proxinode
-- DOMAIN-SUFFIX,symauth.com,⭕ proxinode
-- DOMAIN-SUFFIX,symcb.com,⭕ proxinode
-- DOMAIN-SUFFIX,symcd.com,⭕ proxinode
-- DOMAIN-SUFFIX,tapbots.com,⭕ proxinode
-- DOMAIN-SUFFIX,tapbots.net,⭕ proxinode
-- DOMAIN-SUFFIX,tdesktop.com,⭕ proxinode
-- DOMAIN-SUFFIX,techcrunch.com,⭕ proxinode
-- DOMAIN-SUFFIX,techsmith.com,⭕ proxinode
-- DOMAIN-SUFFIX,thepiratebay.org,⭕ proxinode
-- DOMAIN-SUFFIX,theverge.com,⭕ proxinode
-- DOMAIN-SUFFIX,time.com,⭕ proxinode
-- DOMAIN-SUFFIX,timeinc.net,⭕ proxinode
-- DOMAIN-SUFFIX,tiny.cc,⭕ proxinode
-- DOMAIN-SUFFIX,tinypic.com,⭕ proxinode
-- DOMAIN-SUFFIX,tmblr.co,⭕ proxinode
-- DOMAIN-SUFFIX,todoist.com,⭕ proxinode
-- DOMAIN-SUFFIX,trello.com,⭕ proxinode
-- DOMAIN-SUFFIX,trustasiassl.com,⭕ proxinode
-- DOMAIN-SUFFIX,tumblr.co,⭕ proxinode
-- DOMAIN-SUFFIX,tumblr.com,⭕ proxinode
-- DOMAIN-SUFFIX,tweetdeck.com,⭕ proxinode
-- DOMAIN-SUFFIX,tweetmarker.net,⭕ proxinode
-- DOMAIN-SUFFIX,twitch.tv,⭕ proxinode
-- DOMAIN-SUFFIX,txmblr.com,⭕ proxinode
-- DOMAIN-SUFFIX,typekit.net,⭕ proxinode
-- DOMAIN-SUFFIX,ubertags.com,⭕ proxinode
-- DOMAIN-SUFFIX,ublock.org,⭕ proxinode
-- DOMAIN-SUFFIX,ubnt.com,⭕ proxinode
-- DOMAIN-SUFFIX,ulyssesapp.com,⭕ proxinode
-- DOMAIN-SUFFIX,urchin.com,⭕ proxinode
-- DOMAIN-SUFFIX,usertrust.com,⭕ proxinode
-- DOMAIN-SUFFIX,v.gd,⭕ proxinode
-- DOMAIN-SUFFIX,v2ex.com,⭕ proxinode
-- DOMAIN-SUFFIX,vimeo.com,⭕ proxinode
-- DOMAIN-SUFFIX,vimeocdn.com,⭕ proxinode
-- DOMAIN-SUFFIX,vine.co,⭕ proxinode
-- DOMAIN-SUFFIX,vivaldi.com,⭕ proxinode
-- DOMAIN-SUFFIX,vox-cdn.com,⭕ proxinode
-- DOMAIN-SUFFIX,vsco.co,⭕ proxinode
-- DOMAIN-SUFFIX,vultr.com,⭕ proxinode
-- DOMAIN-SUFFIX,w.org,⭕ proxinode
-- DOMAIN-SUFFIX,w3schools.com,⭕ proxinode
-- DOMAIN-SUFFIX,webtype.com,⭕ proxinode
-- DOMAIN-SUFFIX,wikiwand.com,⭕ proxinode
-- DOMAIN-SUFFIX,wikileaks.org,⭕ proxinode
-- DOMAIN-SUFFIX,wikimedia.org,⭕ proxinode
-- DOMAIN-SUFFIX,wikipedia.com,⭕ proxinode
-- DOMAIN-SUFFIX,wikipedia.org,⭕ proxinode
-- DOMAIN-SUFFIX,windows.com,⭕ proxinode
-- DOMAIN-SUFFIX,windows.net,⭕ proxinode
-- DOMAIN-SUFFIX,wire.com,⭕ proxinode
-- DOMAIN-SUFFIX,wordpress.com,⭕ proxinode
-- DOMAIN-SUFFIX,workflowy.com,⭕ proxinode
-- DOMAIN-SUFFIX,wp.com,⭕ proxinode
-- DOMAIN-SUFFIX,wsj.com,⭕ proxinode
-- DOMAIN-SUFFIX,wsj.net,⭕ proxinode
-- DOMAIN-SUFFIX,xda-developers.com,⭕ proxinode
-- DOMAIN-SUFFIX,xeeno.com,⭕ proxinode
-- DOMAIN-SUFFIX,xiti.com,⭕ proxinode
-- DOMAIN-SUFFIX,yahoo.com,⭕ proxinode
-- DOMAIN-SUFFIX,yimg.com,⭕ proxinode
-- DOMAIN-SUFFIX,ying.com,⭕ proxinode
-- DOMAIN-SUFFIX,yoyo.org,⭕ proxinode
-- DOMAIN-SUFFIX,ytimg.com,⭕ proxinode
-- DOMAIN-SUFFIX,telegra.ph,⭕ proxinode
-- DOMAIN-SUFFIX,telegram.org,⭕ proxinode
-- IP-CIDR,91.108.4.0/22,⭕ proxinode
-- IP-CIDR,91.108.8.0/21,⭕ proxinode
-- IP-CIDR,91.108.16.0/22,⭕ proxinode
-- IP-CIDR,91.108.56.0/22,⭕ proxinode
-- IP-CIDR,149.154.160.0/20,⭕ proxinode
-- IP-CIDR6,2001:67c:4e8::/48,⭕ proxinode
-- IP-CIDR6,2001:b28:f23d::/48,⭕ proxinode
-- IP-CIDR6,2001:b28:f23f::/48,⭕ proxinode
+- "DOMAIN-SUFFIX,9to5mac.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,abpchina.org,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,adblockplus.org,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,adobe.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,akamaized.net,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,alfredapp.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,amplitude.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,ampproject.org,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,android.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,angularjs.org,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,aolcdn.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,apkpure.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,appledaily.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,appshopper.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,appspot.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,arcgis.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,archive.org,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,armorgames.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,aspnetcdn.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,att.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,awsstatic.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,azureedge.net,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,azurewebsites.net,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,bing.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,bintray.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,bit.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,bit.ly,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,bitbucket.org,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,bjango.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,bkrtx.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,blog.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,blogcdn.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,blogger.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,blogsmithmedia.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,blogspot.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,blogspot.hk,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,bloomberg.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,box.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,box.net,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,cachefly.net,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,chromium.org,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,cl.ly,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,cloudflare.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,cloudfront.net,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,cloudmagic.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,cmail19.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,cnet.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,cocoapods.org,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,comodoca.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,crashlytics.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,culturedcode.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,d.pr,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,danilo.to,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,dayone.me,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,db.tt,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,deskconnect.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,disq.us,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,disqus.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,disquscdn.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,dnsimple.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,docker.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,dribbble.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,droplr.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,duckduckgo.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,dueapp.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,dytt8.net,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,edgecastcdn.net,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,edgekey.net,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,edgesuite.net,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,engadget.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,entrust.net,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,eurekavpt.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,evernote.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,fabric.io,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,fast.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,fastly.net,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,fc2.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,feedburner.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,feedly.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,feedsportal.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,fiftythree.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,firebaseio.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,flexibits.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,flickr.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,flipboard.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,g.co,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,gabia.net,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,geni.us,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,gfx.ms,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,ggpht.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,ghostnoteapp.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,git.io,\u2B55 proxinode"
+- "DOMAIN-KEYWORD,github,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,globalsign.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,gmodules.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,godaddy.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,golang.org,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,gongm.in,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,goo.gl,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,goodreaders.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,goodreads.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,gravatar.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,gstatic.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,gvt0.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,hockeyapp.net,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,hotmail.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,icons8.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,ifixit.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,ift.tt,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,ifttt.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,iherb.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,imageshack.us,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,img.ly,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,imgur.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,imore.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,instapaper.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,ipn.li,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,is.gd,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,issuu.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,itgonglun.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,itun.es,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,ixquick.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,j.mp,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,js.revsci.net,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,jshint.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,jtvnw.net,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,justgetflux.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,kat.cr,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,klip.me,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,libsyn.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,linkedin.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,linode.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,lithium.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,littlehj.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,live.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,live.net,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,livefilestore.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,llnwd.net,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,macid.co,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,macromedia.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,macrumors.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,mashable.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,mathjax.org,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,medium.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,mega.co.nz,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,mega.nz,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,megaupload.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,microsofttranslator.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,mindnode.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,mobile01.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,modmyi.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,msedge.net,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,myfontastic.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,name.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,nextmedia.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,nsstatic.net,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,nssurge.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,nyt.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,nytimes.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,omnigroup.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,onedrive.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,onenote.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,ooyala.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,openvpn.net,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,openwrt.org,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,orkut.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,osxdaily.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,outlook.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,ow.ly,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,paddleapi.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,parallels.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,parse.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,pdfexpert.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,periscope.tv,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,pinboard.in,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,pinterest.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,pixelmator.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,pixiv.net,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,playpcesor.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,playstation.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,playstation.com.hk,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,playstation.net,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,playstationnetwork.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,pushwoosh.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,rime.im,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,servebom.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,sfx.ms,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,shadowsocks.org,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,sharethis.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,shazam.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,skype.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,smartdns\u2B55 proxinode.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,smartmailcloud.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,sndcdn.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,sony.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,soundcloud.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,sourceforge.net,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,spotify.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,squarespace.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,sstatic.net,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,st.luluku.pw,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,stackoverflow.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,startpage.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,staticflickr.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,steamcommunity.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,symauth.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,symcb.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,symcd.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,tapbots.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,tapbots.net,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,tdesktop.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,techcrunch.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,techsmith.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,thepiratebay.org,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,theverge.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,time.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,timeinc.net,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,tiny.cc,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,tinypic.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,tmblr.co,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,todoist.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,trello.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,trustasiassl.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,tumblr.co,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,tumblr.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,tweetdeck.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,tweetmarker.net,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,twitch.tv,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,txmblr.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,typekit.net,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,ubertags.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,ublock.org,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,ubnt.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,ulyssesapp.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,urchin.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,usertrust.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,v.gd,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,v2ex.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,vimeo.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,vimeocdn.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,vine.co,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,vivaldi.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,vox-cdn.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,vsco.co,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,vultr.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,w.org,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,w3schools.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,webtype.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,wikiwand.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,wikileaks.org,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,wikimedia.org,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,wikipedia.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,wikipedia.org,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,windows.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,windows.net,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,wire.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,wordpress.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,workflowy.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,wp.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,wsj.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,wsj.net,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,xda-developers.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,xeeno.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,xiti.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,yahoo.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,yimg.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,ying.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,yoyo.org,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,ytimg.com,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,telegra.ph,\u2B55 proxinode"
+- "DOMAIN-SUFFIX,telegram.org,\u2B55 proxinode"
+- "IP-CIDR,91.108.4.0/22,\u2B55 proxinode"
+- "IP-CIDR,91.108.8.0/21,\u2B55 proxinode"
+- "IP-CIDR,91.108.16.0/22,\u2B55 proxinode"
+- "IP-CIDR,91.108.56.0/22,\u2B55 proxinode"
+- "IP-CIDR,149.154.160.0/20,\u2B55 proxinode"
+- "IP-CIDR6,2001:67c:4e8::/48,\u2B55 proxinode"
+- "IP-CIDR6,2001:b28:f23d::/48,\u2B55 proxinode"
+- "IP-CIDR6,2001:b28:f23f::/48,\u2B55 proxinode"
 - DOMAIN,injections.adguard.org,DIRECT
 - DOMAIN,local.adguard.org,DIRECT
 - DOMAIN-SUFFIX,local,DIRECT
@@ -956,4 +1972,4 @@ rules:
 - IP-CIDR,2001::/32,DIRECT
 - IP-CIDR,2001:20::/28,DIRECT
 - GEOIP,CN,DIRECT
-- MATCH,⭕ proxinode
+- "MATCH,\u2B55 proxinode"
