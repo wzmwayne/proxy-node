@@ -98,11 +98,7 @@ proxies:
   client-fingerprint: chrome
   reality-opts:
     public-key: UDLhjunZjP-5A6KBMeuWe3qp_FusLAshcQIcCF7EZh8
-<<<<<<< HEAD
-    short-id: ce9f790791426d83
-=======
     short-id: "ce9f790791426d83"
->>>>>>> a907c8f (移除 free18/radikal 源(REALITY short-id 无法被 mihomo 读取), 保留 7 个已验证源)
   udp: true
 - name: "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C->\U0001F1F9\U0001F1FC_TW_\u4E2D\u56FD\
     \u53F0\u6E7E"
@@ -116,11 +112,7 @@ proxies:
   client-fingerprint: qq
   reality-opts:
     public-key: 7BS-JUFgYVaWrwwyDSiVq_YDoG36w8cRd4U8HvEg-F0
-<<<<<<< HEAD
-    short-id: 4bcbc85d
-=======
     short-id: "4bcbc85d"
->>>>>>> a907c8f (移除 free18/radikal 源(REALITY short-id 无法被 mihomo 读取), 保留 7 个已验证源)
   udp: true
 - name: "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C"
   type: vless
@@ -133,11 +125,7 @@ proxies:
   client-fingerprint: chrome
   reality-opts:
     public-key: 7BS-JUFgYVaWrwwyDSiVq_YDoG36w8cRd4U8HvEg-F0
-<<<<<<< HEAD
-    short-id: 4bcbc85d
-=======
     short-id: "4bcbc85d"
->>>>>>> a907c8f (移除 free18/radikal 源(REALITY short-id 无法被 mihomo 读取), 保留 7 个已验证源)
   udp: true
 - name: "\U0001F1EC\U0001F1E7_GB_\u82F1\u56FD"
   type: vless
@@ -181,11 +169,7 @@ proxies:
   client-fingerprint: safari
   reality-opts:
     public-key: 7BS-JUFgYVaWrwwyDSiVq_YDoG36w8cRd4U8HvEg-F0
-<<<<<<< HEAD
-    short-id: 4bcbc85d
-=======
     short-id: "4bcbc85d"
->>>>>>> a907c8f (移除 free18/radikal 源(REALITY short-id 无法被 mihomo 读取), 保留 7 个已验证源)
   udp: true
 - name: "\U0001F1FB\U0001F1F3_VN_\u8D8A\u5357_3"
   type: ss
@@ -372,11 +356,7 @@ proxies:
   password: dummy
   udp: true
   skip-cert-verify: true
-<<<<<<< HEAD
-- name: "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-08-23 20:43 (CST)"
-=======
-- name: "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-08-23 20:54 (CST)"
->>>>>>> a907c8f (移除 free18/radikal 源(REALITY short-id 无法被 mihomo 读取), 保留 7 个已验证源)
+- name: "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-08-23 21:02 (CST)"
   type: trojan
   server: 127.0.0.1
   port: 443
@@ -404,11 +384,7 @@ proxy-groups:
   - "\u8BF4\u660E-\u6765\u6E90: xiaoji235/airport-free"
   - "\u8BF4\u660E-\u6E05\u6D17\u7ED3\u679C: \u6E05\u7406 0 \u4E2A\u8282\u70B9\u3001\
     \u8F6C\u8BD1 18905 \u4E2A\u5B57\u7B26"
-<<<<<<< HEAD
-  - "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-08-23 20:43 (CST)"
-=======
-  - "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-08-23 20:54 (CST)"
->>>>>>> a907c8f (移除 free18/radikal 源(REALITY short-id 无法被 mihomo 读取), 保留 7 个已验证源)
+  - "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-08-23 21:02 (CST)"
   - "\u8BF4\u660E-\u4F5C\u8005: wzmwayne"
   - "\u8BF4\u660E-\u4ED3\u5E93: https://github.com/wzmwayne/proxy-node"
 - name: "\U0001F680 \u8282\u70B9\u9009\u62E9"

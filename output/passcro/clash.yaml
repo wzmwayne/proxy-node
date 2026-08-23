@@ -23,21 +23,21 @@ proxies:
   port: 65443
   type: ss
   cipher: aes-256-cfb
-  password: 7eadc6dbe2ae
+  password: "7eadc6dbe2ae"
   udp: true
 - name: CN_speednode_0002
   server: 121.46.230.234
   port: 65443
   type: ss
   cipher: aes-256-cfb
-  password: 7eadc6dbe2ae
+  password: "7eadc6dbe2ae"
   udp: true
 - name: CN_speednode_0003
   server: 120.232.250.161
   port: 65443
   type: ss
   cipher: aes-256-cfb
-  password: 7eadc6dbe2ae
+  password: "7eadc6dbe2ae"
   udp: true
 - name: NL_speednode_0004
   server: 84.17.47.125
@@ -380,8 +380,8 @@ proxies:
   server: 84.239.49.58
   port: 9002
   type: http
-  username: 'null'
-  password: 'null'
+  username: "null"
+  password: "null"
   tls: true
   skip-cert-verify: true
   udp: true
@@ -886,8 +886,8 @@ proxies:
   server: 84.239.49.201
   port: 9002
   type: http
-  username: 'null'
-  password: 'null'
+  username: "null"
+  password: "null"
   tls: true
   skip-cert-verify: true
   udp: true
@@ -967,15 +967,15 @@ proxies:
   servername: www.apple.com
   reality-opts:
     public-key: 8BglmwULIVotYAbGXx3Vd1fXiGJbKSsWnZCGvm4Exl0
-    short-id: aebdb601b1371778
+    short-id: "aebdb601b1371778"
   network: tcp
   udp: true
 - name: US_speednode_0131
   server: 138.199.35.216
   port: 9002
   type: http
-  username: 'null'
-  password: 'null'
+  username: "null"
+  password: "null"
   tls: true
   skip-cert-verify: true
   udp: true
@@ -991,7 +991,7 @@ proxies:
   servername: www.yahoo.com
   reality-opts:
     public-key: 9dnXiXxP4xgvtTVRj9SBFdyO6mjGvVhWD8qVZZLCCCk
-    short-id: a356addf
+    short-id: "a356addf"
   network: tcp
   udp: true
 - name: US_speednode_0133
@@ -1019,7 +1019,7 @@ proxies:
   servername: us.savesafe.cc
   reality-opts:
     public-key: zDeF_twyyT7a7zKiURF-Q8f6kkj95rx7zQ_jar09Hi4
-    short-id: e4f6a3446ac34a23
+    short-id: "e4f6a3446ac34a23"
   network: tcp
   udp: true
 - name: US_speednode_0136
@@ -1034,7 +1034,7 @@ proxies:
   servername: cdnjs.cloudflare.com
   reality-opts:
     public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
-    short-id: bc8e3658db7d1323
+    short-id: "bc8e3658db7d1323"
   network: tcp
   udp: true
 - name: US_speednode_0137
@@ -1049,7 +1049,7 @@ proxies:
   servername: cdnjs.cloudflare.com
   reality-opts:
     public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
-    short-id: bc8e3658db7d1323
+    short-id: "bc8e3658db7d1323"
   network: tcp
   udp: true
 - name: US_speednode_0138
@@ -1064,7 +1064,7 @@ proxies:
   servername: www.bing.com
   reality-opts:
     public-key: g5UW6bf2soPSDNx7j0wanW_uLAtvTgQ8_lfztTJaP0k
-    short-id: 7025c954ff913b4c
+    short-id: "7025c954ff913b4c"
   network: tcp
   udp: true
 - name: US_speednode_0139
@@ -1079,7 +1079,7 @@ proxies:
   servername: www.cloudflare.com
   reality-opts:
     public-key: E6Y9lNizCXo8tJ6EXwLYQIjyIwmxIs4foyRlY2MgkjA
-    short-id: 59ccabb0a1483c4b
+    short-id: "59ccabb0a1483c4b"
   network: tcp
   udp: true
 - name: US_speednode_0140
@@ -1108,7 +1108,7 @@ proxies:
   servername: cdnjs.cloudflare.com
   reality-opts:
     public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
-    short-id: bc8e3658db7d1323
+    short-id: "bc8e3658db7d1323"
   network: tcp
   udp: true
 - name: US_speednode_0143
@@ -1130,7 +1130,7 @@ proxies:
   servername: www.bing.com
   reality-opts:
     public-key: FL9zvOg48NhHk_YWJMcDXNOseisuzeBW7d8KitUaAQM
-    short-id: dc941fb0778384e2
+    short-id: "dc941fb0778384e2"
   network: tcp
   udp: true
 - name: "\u8BF4\u660E-\u6765\u6E90: zhangkaiitugithub/passcro"
@@ -1148,7 +1148,7 @@ proxies:
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-08-23 20:43 (CST)"
+- name: "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-08-23 21:02 (CST)"
   type: trojan
   server: 127.0.0.1
   port: 443
@@ -1176,7 +1176,7 @@ proxy-groups:
   - "\u8BF4\u660E-\u6765\u6E90: zhangkaiitugithub/passcro"
   - "\u8BF4\u660E-\u6E05\u6D17\u7ED3\u679C: \u6E05\u7406 0 \u4E2A\u8282\u70B9\u3001\
     \u8F6C\u8BD1 315 \u4E2A\u5B57\u7B26"
-  - "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-08-23 20:43 (CST)"
+  - "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-08-23 21:02 (CST)"
   - "\u8BF4\u660E-\u4F5C\u8005: wzmwayne"
   - "\u8BF4\u660E-\u4ED3\u5E93: https://github.com/wzmwayne/proxy-node"
 - name: "\u2B55 proxinode"

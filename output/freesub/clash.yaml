@@ -84,11 +84,11 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   xudp: true
 - name: "\U0001F7E0\U0001F1ED\U0001F1F0[\U0001F3AC\U0001F9E0\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_4c6d8eb9"
-  password: '123'
+  password: "123"
   port: 3060
   server: 43.100.43.112
   type: socks5
-  username: '123'
+  username: "123"
 - name: "\U0001F7E0\U0001F1ED\U0001F1F0[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_da7c41d8"
   password: admin
   port: 1080
@@ -159,7 +159,7 @@ proxies:
   port: 443
   reality-opts:
     public-key: gThuDXevnythoIRLiCGP2go9z3WvSjV5HAtzVw4vwmg
-    short-id: 9e391f50
+    short-id: "9e391f50"
   server: jp-cloudgp-a.outleft-hy.xyz
   servername: www.apple.com
   tls: true
@@ -183,7 +183,7 @@ proxies:
   type: http
 - cipher: aes-256-cfb
   name: "\U0001F7E0\U0001F1F2\U0001F1FE[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_d6bba6b3"
-  password: 7eadc6dbe2ae
+  password: "7eadc6dbe2ae"
   port: 65443
   server: 118.107.222.231
   type: ss
@@ -207,11 +207,11 @@ proxies:
   type: http
   username: null
 - name: "\U0001F7E0\U0001F1EF\U0001F1F5[\U0001F916\U0001F4FA\U0001F3AA\U0001F50D]_github.com/Ruk1ng001_16f5ab4e"
-  password: '123456'
+  password: "123456"
   port: 1080
   server: 8.209.236.192
   type: socks5
-  username: '123456'
+  username: "123456"
 - name: "\U0001F534\U0001F1F9\U0001F1ED[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_02932c7e"
   network: tcp
   password: a126f35c-e832-4115-8593-b723ade3f7be
@@ -260,12 +260,12 @@ proxies:
   type: ss
   udp: true
 - name: "\U0001F7E0\U0001F1ED\U0001F1F0[\U0001F4FA\U0001F3AD\U0001F3AA\u2728]_github.com/Ruk1ng001_099454ad"
-  password: '111'
+  password: "111"
   port: 11211
   server: 47.243.173.50
   skip-cert-verify: true
   type: socks5
-  username: '111'
+  username: "111"
 - name: "\U0001F534\U0001F1ED\U0001F1F0[\U0001F3AC\U0001F4FA\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_d85a93d5"
   password: null
   port: 443
@@ -322,9 +322,9 @@ proxies:
   udp: true
 - alpn:
   - h3
-  auth: d4f8d5e26b
+  auth: "d4f8d5e26b"
   name: "\U0001F7E2\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F3AD\U0001F3AA]_github.com/Ruk1ng001_f64924a6"
-  password: d4f8d5e26b
+  password: "d4f8d5e26b"
   port: 11592
   server: srv-a04472.21freedom.net
   skip-cert-verify: true
@@ -377,7 +377,7 @@ proxies:
   port: 13779
   reality-opts:
     public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
-    short-id: af1bdd293097b664
+    short-id: "af1bdd293097b664"
   server: 166.108.235.162
   servername: tesla.com
   tls: true
@@ -390,7 +390,7 @@ proxies:
   port: 13779
   reality-opts:
     public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
-    short-id: af1bdd293097b664
+    short-id: "af1bdd293097b664"
   server: 69.63.193.78
   servername: tesla.com
   tls: true
@@ -494,7 +494,7 @@ proxies:
   uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
 - cipher: aes-256-cfb
   name: "\U0001F7E1\U0001F1EF\U0001F1F5[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_1bfe3e85"
-  password: 7eadc6dbe2ae
+  password: "7eadc6dbe2ae"
   port: 65443
   server: 121.46.230.136
   type: ss
@@ -520,7 +520,7 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   name: "\U0001F7E1\U0001F1F9\U0001F1ED[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_aa18a91a"
-  password: 7eadc6dbe2ae
+  password: "7eadc6dbe2ae"
   port: 65443
   server: 103.169.67.34
   type: ss
@@ -561,7 +561,7 @@ proxies:
   port: 13779
   reality-opts:
     public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
-    short-id: af1bdd293097b664
+    short-id: "af1bdd293097b664"
   server: 216.36.104.12
   servername: tesla.com
   tls: true
@@ -602,7 +602,7 @@ proxies:
   port: 13779
   reality-opts:
     public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
-    short-id: af1bdd293097b664
+    short-id: "af1bdd293097b664"
   server: 47.239.6.251
   servername: tesla.com
   tls: true
@@ -621,7 +621,7 @@ proxies:
   port: 443
   reality-opts:
     public-key: 0AVsyS7udTbxKRdSyQ2rtFC63icDQOVWq8FvAhhU-WY
-    short-id: cbb0a5c1dc905505
+    short-id: "cbb0a5c1dc905505"
   server: 31.56.188.105
   servername: s3.storage.anti-zapret.com
   skip-cert-verify: true
@@ -629,9 +629,9 @@ proxies:
   tls: true
   type: vless
   uuid: 1b627e4d-4ea4-4dce-8bd8-fc2d3ffbeaba
-- auth: c85bd762dc136495ddc02b30b0b7c5c5
+- auth: "c85bd762dc136495ddc02b30b0b7c5c5"
   name: "\U0001F7E0\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_2c3b4152"
-  password: c85bd762dc136495ddc02b30b0b7c5c5
+  password: "c85bd762dc136495ddc02b30b0b7c5c5"
   port: 50160
   server: 107-172-212-12.liao.kdns.fr
   sni: 107-172-212-12.liao.kdns.fr
@@ -645,7 +645,7 @@ proxies:
   port: 443
   reality-opts:
     public-key: kxuW6rJkcKU88l_sgqezrcMFEy4yofrgouBoKufWASs
-    short-id: 2fadfe9a357ec21e
+    short-id: "2fadfe9a357ec21e"
   server: 66.42.62.84
   servername: www.apple.com
   tls: true
@@ -667,7 +667,7 @@ proxies:
   port: 443
   reality-opts:
     public-key: Y-csa54knKKd97yx50oLRBXCs0At7Ch699jUo2D7BAo
-    short-id: 44209ff2b9206201
+    short-id: "44209ff2b9206201"
   server: 38.175.193.16
   servername: www.apple.com
   tls: true
@@ -690,9 +690,9 @@ proxies:
   username: fQ67Dpe5dU
 - alpn:
   - h3
-  auth: 41edb44c8e
+  auth: "41edb44c8e"
   name: "\U0001F7E0\U0001F1F7\U0001F1FA[\U0001F9E0\U0001F4FA\U0001F3AA\u2728]_github.com/Ruk1ng001_9221992d"
-  password: 41edb44c8e
+  password: "41edb44c8e"
   port: 11592
   server: srv-17e124.21freedom.net
   skip-cert-verify: true
@@ -712,9 +712,9 @@ proxies:
   tls: true
   type: http
   username: freeuser1
-- auth: 099830134df5ac3a04a4b21d39b8c395
+- auth: "099830134df5ac3a04a4b21d39b8c395"
   name: "\U0001F534\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_ebf1b1db"
-  password: 099830134df5ac3a04a4b21d39b8c395
+  password: "099830134df5ac3a04a4b21d39b8c395"
   port: 50160
   server: 163.192.14.135
   skip-cert-verify: true
@@ -769,11 +769,11 @@ proxies:
   tls: true
   type: http
 - name: "\U0001F7E0\U0001F1ED\U0001F1F0[\U0001F3AC\U0001F4FA\U0001F4E6]_github.com/Ruk1ng001_4ce7fb3b"
-  password: '8888'
+  password: "8888"
   port: 1080
   server: 8.210.31.250
   type: socks5
-  username: '8888'
+  username: "8888"
 - name: "\U0001F7E0\U0001F1EE\U0001F1E9[\U0001F3AC\U0001F916\U0001F4FA\U0001F39E\uFE0F\
     ]_github.com/Ruk1ng001_ba099db6"
   network: tcp
@@ -818,7 +818,7 @@ proxies:
   port: 443
   reality-opts:
     public-key: 0AVsyS7udTbxKRdSyQ2rtFC63icDQOVWq8FvAhhU-WY
-    short-id: cbb0a5c1dc905505
+    short-id: "cbb0a5c1dc905505"
   server: 31.56.188.43
   servername: s3.storage.anti-zapret.com
   skip-cert-verify: true
@@ -839,7 +839,7 @@ proxies:
   port: 443
   reality-opts:
     public-key: 0AVsyS7udTbxKRdSyQ2rtFC63icDQOVWq8FvAhhU-WY
-    short-id: cbb0a5c1dc905505
+    short-id: "cbb0a5c1dc905505"
   server: 31.56.188.103
   servername: s3.storage.anti-zapret.com
   skip-cert-verify: true
@@ -962,7 +962,7 @@ proxies:
   port: 443
   reality-opts:
     public-key: C7nhExS9e3_WQIDfYrGaG6ycw2jlrfSh3b-nf8eikSI
-    short-id: a1b2
+    short-id: "a1b2"
   server: 23.172.40.60
   servername: learn.microsoft.com
   tls: true
@@ -995,13 +995,13 @@ proxies:
   type: http
   username: null
 - name: "\U0001F534\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_be3627b8"
-  password: 'null'
+  password: "null"
   port: 9002
   server: 138.199.35.200
   skip-cert-verify: true
   tls: true
   type: http
-  username: 'null'
+  username: "null"
 - client-fingerprint: qq
   encryption: none
   flow: xtls-rprx-vision
@@ -1010,7 +1010,7 @@ proxies:
   port: 443
   reality-opts:
     public-key: DS9mX6cMb5wvwFzga8yN2NLbs7soXM7038_P23yPKwk
-    short-id: 8ffa160e608bf539
+    short-id: "8ffa160e608bf539"
   server: 31.76.21.178
   servername: fin.pinkmoon.pro
   tls: true
@@ -1136,7 +1136,7 @@ proxies:
   type: http
 - alpn:
   - ''
-  alterId: '0'
+  alterId: "0"
   cipher: auto
   name: "\U0001F534\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F4E6]_github.com/Ruk1ng001_93fc7669"
   network: ws
@@ -1175,7 +1175,7 @@ proxies:
   port: 443
   reality-opts:
     public-key: bZpzmeWiEJyJQy0W2hHc34Nr6BuFXj1UDd80Cbwh1Fk
-    short-id: ff776ff77be48b88
+    short-id: "ff776ff77be48b88"
   server: ukri.freeinternat.com
   servername: ukri.freeinternat.com
   skip-cert-verify: true
@@ -1190,7 +1190,7 @@ proxies:
   port: 443
   reality-opts:
     public-key: 0AVsyS7udTbxKRdSyQ2rtFC63icDQOVWq8FvAhhU-WY
-    short-id: 58fbcddfaae3ade9
+    short-id: "58fbcddfaae3ade9"
   server: 84.75.220.220
   servername: us.srv.anti-zapret.com
   skip-cert-verify: true
@@ -1261,7 +1261,7 @@ proxies:
   port: 443
   reality-opts:
     public-key: bZpzmeWiEJyJQy0W2hHc34Nr6BuFXj1UDd80Cbwh1Fk
-    short-id: ff776ff77be48b88
+    short-id: "ff776ff77be48b88"
   server: pol4.freeinternat.com
   servername: pol4.freeinternat.com
   skip-cert-verify: true
@@ -1315,7 +1315,7 @@ proxies:
   port: 443
   reality-opts:
     public-key: bZpzmeWiEJyJQy0W2hHc34Nr6BuFXj1UDd80Cbwh1Fk
-    short-id: ff776ff77be48b88
+    short-id: "ff776ff77be48b88"
   server: rf3.freeinternat.com
   servername: rf3.freeinternat.com
   skip-cert-verify: true
@@ -1331,7 +1331,7 @@ proxies:
   port: 10006
   reality-opts:
     public-key: 1m-qfyZ9lFirPdUqnhzu0iSlfafQMGcA_50YgmUkhQc
-    short-id: d13e16c5
+    short-id: "d13e16c5"
   server: family.bucket.5.kfc-520.com
   servername: www.amd.com
   tls: true
@@ -1351,7 +1351,7 @@ proxies:
   port: 443
   reality-opts:
     public-key: bZpzmeWiEJyJQy0W2hHc34Nr6BuFXj1UDd80Cbwh1Fk
-    short-id: ff776ff77be48b88
+    short-id: "ff776ff77be48b88"
   server: 93.123.101.78
   servername: germ3.freeinternat.com
   skip-cert-verify: true
@@ -1439,7 +1439,7 @@ proxies:
   port: 443
   reality-opts:
     public-key: SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY
-    short-id: fd55b698ee8c3629
+    short-id: "fd55b698ee8c3629"
   server: 109.169.37.129
   servername: foodnetwork.com
   skip-cert-verify: true
@@ -1470,7 +1470,7 @@ proxies:
   port: 443
   reality-opts:
     public-key: bZpzmeWiEJyJQy0W2hHc34Nr6BuFXj1UDd80Cbwh1Fk
-    short-id: ff776ff77be48b88
+    short-id: "ff776ff77be48b88"
   server: lat.freeinternat.com
   servername: lat.freeinternat.com
   skip-cert-verify: true
@@ -1485,7 +1485,7 @@ proxies:
   port: 443
   reality-opts:
     public-key: TzOfUDe1Pf7GnxEJuK1I6XD8nNe4ZsmRPCxL8aFwCXs
-    short-id: 1e623c6d7f4d01eb
+    short-id: "1e623c6d7f4d01eb"
   server: 94.183.255.150
   servername: nl1.panel11.ru
   skip-cert-verify: true
@@ -1515,7 +1515,7 @@ proxies:
   port: 50159
   reality-opts:
     public-key: 6GwkpQjzpkMH3iFG8kTm4Xy3UHbjdWz8SwEYqtUio2A
-    short-id: 3a462b65305f0f33
+    short-id: "3a462b65305f0f33"
   server: 154.17.227.162
   servername: www.cloudflare.com
   tls: true
@@ -1585,7 +1585,7 @@ proxies:
   port: 443
   reality-opts:
     public-key: bY0-zlTOPCaEWDMw_BTzuzJW513tl6Hc61n4Z-q1cHE
-    short-id: 8f892fa1
+    short-id: "8f892fa1"
   server: 94.156.155.27
   servername: www.telekom.de
   tls: true
@@ -1694,13 +1694,13 @@ proxies:
   server: 147.15.81.156
   type: ss
 - name: "\U0001F534\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_e3414a29"
-  password: 'null'
+  password: "null"
   port: 9002
   server: 138.199.35.216
   skip-cert-verify: true
   tls: true
   type: http
-  username: 'null'
+  username: "null"
 - client-fingerprint: qq
   grpc-opts:
     grpc-mode: gun
@@ -1710,7 +1710,7 @@ proxies:
   port: 2087
   reality-opts:
     public-key: iWxxH0TWB1Ciz6sEwtfjUVY61OcTDihou5IJfkt0O0Q
-    short-id: f2a4c6e8
+    short-id: "f2a4c6e8"
   server: 200.165.230.19
   servername: vk.com
   skip-cert-verify: true
@@ -1732,20 +1732,20 @@ proxies:
   port: 11094
   reality-opts:
     public-key: 9dnXiXxP4xgvtTVRj9SBFdyO6mjGvVhWD8qVZZLCCCk
-    short-id: a356addf
+    short-id: "a356addf"
   server: 51.81.223.225
   servername: www.yahoo.com
   tls: true
   type: vless
   uuid: f1fa0ad9-b122-4b7c-da82-4bea9edc48dd
 - name: "\U0001F534\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_feb440d1"
-  password: 'null'
+  password: "null"
   port: 9002
   server: 138.199.35.212
   skip-cert-verify: true
   tls: true
   type: http
-  username: 'null'
+  username: "null"
 - name: "\u26AA\U0001F3F3\uFE0F[\U0001F4FA\U0001F3AD\U0001F3AA\U0001F4E6]_github.com/Ruk1ng001_63c86561"
   password: freeuser1
   port: 9251
@@ -1816,7 +1816,7 @@ proxies:
   port: 443
   reality-opts:
     public-key: OZVjfQBboTDTBw0baMFqzVPsVUI4FNQmspTEb0b0zW4
-    short-id: a1b2c3d4
+    short-id: "a1b2c3d4"
   server: 2.59.183.167
   servername: www.samsung.com
   tls: true
@@ -1845,7 +1845,7 @@ proxies:
   port: 443
   reality-opts:
     public-key: 0AVsyS7udTbxKRdSyQ2rtFC63icDQOVWq8FvAhhU-WY
-    short-id: cbb0a5c1dc905505
+    short-id: "cbb0a5c1dc905505"
   server: 194.93.61.66
   servername: cdnjs.com
   skip-cert-verify: true
@@ -1904,7 +1904,7 @@ proxies:
   port: 110
   reality-opts:
     public-key: 6LSBBaOUWujvSovACjcP7m-DI9u9R584qdJxNYnu-24
-    short-id: 513ba6a361f14cbe
+    short-id: "513ba6a361f14cbe"
   server: 2.27.57.154
   servername: ubuntu.com
   skip-cert-verify: true
@@ -1949,7 +1949,7 @@ proxies:
   port: 443
   reality-opts:
     public-key: tPyAWkalFM4yi9lYY0zLDRxQyfSwPDwiexAy9QOjrWI
-    short-id: 42171a632f3b99ed
+    short-id: "42171a632f3b99ed"
   server: 95.154.221.155
   servername: strapi.io
   skip-cert-verify: true
@@ -2000,7 +2000,7 @@ proxies:
   port: 443
   reality-opts:
     public-key: bZpzmeWiEJyJQy0W2hHc34Nr6BuFXj1UDd80Cbwh1Fk
-    short-id: ff776ff77be48b88
+    short-id: "ff776ff77be48b88"
   server: 194.238.42.191
   servername: kz.freeinternat.com
   skip-cert-verify: true
@@ -2023,7 +2023,7 @@ proxies:
   port: 13443
   reality-opts:
     public-key: gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM
-    short-id: a7f3c91b2e6d84c0
+    short-id: "a7f3c91b2e6d84c0"
   server: 195.123.210.168
   servername: auto.cendora.ru
   skip-cert-verify: true
@@ -2233,7 +2233,7 @@ proxies:
   port: 443
   reality-opts:
     public-key: bZpzmeWiEJyJQy0W2hHc34Nr6BuFXj1UDd80Cbwh1Fk
-    short-id: ff776ff77be48b88
+    short-id: "ff776ff77be48b88"
   server: ang.freeinternat.com
   servername: ang.freeinternat.com
   skip-cert-verify: true
@@ -2248,7 +2248,7 @@ proxies:
   port: 993
   reality-opts:
     public-key: 6LSBBaOUWujvSovACjcP7m-DI9u9R584qdJxNYnu-24
-    short-id: 16f1f848d713b6b2
+    short-id: "16f1f848d713b6b2"
   server: 2.27.57.154
   servername: ubuntu.com
   skip-cert-verify: true
@@ -2352,7 +2352,7 @@ proxies:
   port: 443
   reality-opts:
     public-key: SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY
-    short-id: fd55b698ee8c3629
+    short-id: "fd55b698ee8c3629"
   server: 194.110.207.48
   servername: kibi-institut.de
   skip-cert-verify: true
@@ -2404,14 +2404,14 @@ proxies:
   tls: true
   type: http
 - name: "\U0001F534\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_c2ca5979"
-  password: 'null'
+  password: "null"
   port: 9002
   server: 156.146.59.23
   skip-cert-verify: true
   sni: 156.146.59.23
   tls: true
   type: http
-  username: 'null'
+  username: "null"
 - name: "\U0001F534\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_5ddf3cc1"
   password: None
   port: 9002
@@ -2427,7 +2427,7 @@ proxies:
   port: 443
   reality-opts:
     public-key: 0AVsyS7udTbxKRdSyQ2rtFC63icDQOVWq8FvAhhU-WY
-    short-id: cbb0a5c1dc905505
+    short-id: "cbb0a5c1dc905505"
   server: 194.93.61.70
   servername: cdnjs.com
   skip-cert-verify: true
@@ -2490,7 +2490,7 @@ proxies:
   port: 443
   reality-opts:
     public-key: bZpzmeWiEJyJQy0W2hHc34Nr6BuFXj1UDd80Cbwh1Fk
-    short-id: ff776ff77be48b88
+    short-id: "ff776ff77be48b88"
   server: lit3.freeinternat.com
   servername: lit3.freeinternat.com
   skip-cert-verify: true
@@ -2522,7 +2522,7 @@ proxies:
   port: 443
   reality-opts:
     public-key: iWxxH0TWB1Ciz6sEwtfjUVY61OcTDihou5IJfkt0O0Q
-    short-id: a3f8d21c4b907e56
+    short-id: "a3f8d21c4b907e56"
   server: ru.lobbytech.ru
   servername: www.kinopoisk.ru
   skip-cert-verify: true
@@ -2546,7 +2546,7 @@ proxies:
   port: 443
   reality-opts:
     public-key: E1te_g9q6EWQVOCgjwI4PF-cml9qqW7OEAf33tYkUxQ
-    short-id: 17d334ad29b2ff40
+    short-id: "17d334ad29b2ff40"
   server: new3.api.go-vpn.club
   servername: cdnjs.com
   tls: true
@@ -2588,7 +2588,7 @@ proxies:
   port: 443
   reality-opts:
     public-key: ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk
-    short-id: 6d6f13013d3e1d0c
+    short-id: "6d6f13013d3e1d0c"
   server: n1.cloudgaming.one
   servername: n1.cloudgaming.one
   tls: true
@@ -2627,7 +2627,7 @@ proxies:
   port: 443
   reality-opts:
     public-key: DS9mX6cMb5wvwFzga8yN2NLbs7soXM7038_P23yPKwk
-    short-id: 8ffa160e608bf539
+    short-id: "8ffa160e608bf539"
   server: 138.124.104.136
   servername: pol.pinkmoon.pro
   skip-cert-verify: true
@@ -2777,7 +2777,7 @@ proxies:
   port: 443
   reality-opts:
     public-key: 0AVsyS7udTbxKRdSyQ2rtFC63icDQOVWq8FvAhhU-WY
-    short-id: cbb0a5c1dc905505
+    short-id: "cbb0a5c1dc905505"
   server: 194.93.61.92
   servername: cdnjs.com
   skip-cert-verify: true
@@ -2851,13 +2851,13 @@ proxies:
   type: http
   username: null
 - name: "\U0001F534\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_9dc8bae6"
-  password: 'null'
+  password: "null"
   port: 9002
   server: 156.146.59.41
   skip-cert-verify: true
   tls: true
   type: http
-  username: 'null'
+  username: "null"
 - name: "\U0001F534\U0001F1EE\U0001F1F9[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_595d4b27"
   port: 443
   server: 185.183.105.130
@@ -2998,7 +2998,7 @@ proxies:
   port: 443
   reality-opts:
     public-key: bZpzmeWiEJyJQy0W2hHc34Nr6BuFXj1UDd80Cbwh1Fk
-    short-id: ff776ff77be48b88
+    short-id: "ff776ff77be48b88"
   server: est2.freeinternat.com
   servername: est2.freeinternat.com
   skip-cert-verify: true
@@ -3268,13 +3268,13 @@ proxies:
   type: http
   username: null
 - name: "\U0001F534\U0001F1FA\U0001F1F8[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_cfc0a506"
-  password: 'null'
+  password: "null"
   port: 9002
   server: 156.146.59.12
   skip-cert-verify: true
   tls: true
   type: http
-  username: 'null'
+  username: "null"
 - name: "\u26AA\U0001F3F3\uFE0F[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_0464a06d"
   password: freeuser1
   port: 9251
@@ -3387,13 +3387,13 @@ proxies:
   type: http
   username: null
 - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_638cd677"
-  password: 'null'
+  password: "null"
   port: 9002
   server: 84.239.14.158
   skip-cert-verify: true
   tls: true
   type: http
-  username: 'null'
+  username: "null"
 - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_a9328839"
   port: 9002
   server: 84.239.49.222
@@ -3485,7 +3485,7 @@ proxies:
   port: 14406
   reality-opts:
     public-key: ldAmsl3dqTCUBmlmA8CS9ZnpznP6cFWj9AxNddWnbxY
-    short-id: 1a2b3c4d5e6f7a8b
+    short-id: "1a2b3c4d5e6f7a8b"
   server: 85.198.70.200
   servername: vk.ru
   tls: true
@@ -3582,7 +3582,7 @@ proxies:
   server: extension.intern3t.ru
   tls: true
   type: http
-  username: 85efca17026d85555ffc9b651149b5b7
+  username: "85efca17026d85555ffc9b651149b5b7"
 - name: "\U0001F534\U0001F1F7\U0001F1F4[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_455fc3a3"
   port: 9002
   server: 84.239.49.167
@@ -3697,9 +3697,9 @@ proxies:
   username: null
 - alpn:
   - h3
-  auth: 3ec082d54e
+  auth: "3ec082d54e"
   name: "\U0001F534\U0001F1E6\U0001F1F9[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_1eb94d1d"
-  password: 3ec082d54e
+  password: "3ec082d54e"
   port: 11592
   server: srv-40a0eb.21freedom.net
   skip-cert-verify: true
@@ -3828,7 +3828,7 @@ proxies:
   port: 443
   reality-opts:
     public-key: DS9mX6cMb5wvwFzga8yN2NLbs7soXM7038_P23yPKwk
-    short-id: 8ffa160e608bf539
+    short-id: "8ffa160e608bf539"
   server: pol.pinkmoon.pro
   servername: pol.pinkmoon.pro
   skip-cert-verify: true
@@ -4013,7 +4013,7 @@ proxies:
   username: null
 - cipher: aes-256-cfb
   name: "\U0001F7E0\U0001F1F0\U0001F1F7[\U0001F3AC\U0001F916\U0001F4FA\U0001F3AD]_github.com/Ruk1ng001_f9dd3272"
-  password: 7eadc6dbe2ae
+  password: "7eadc6dbe2ae"
   port: 65443
   server: 121.46.230.138
   type: ss
@@ -4055,7 +4055,7 @@ proxies:
   port: 443
   reality-opts:
     public-key: aB_2Tcf0A5LoiIEZHztR_l-ZOFeJKxYRH67s_OVQ9C0
-    short-id: a91045bc
+    short-id: "a91045bc"
   server: 163.5.153.153
   servername: www.samsung.com
   tls: true
@@ -4108,7 +4108,7 @@ proxies:
   port: 443
   reality-opts:
     public-key: XOcyZvF63CHDPnh3UCL-u-X8HYeNGiRtrwDVRLBC1DI
-    short-id: f41bc0b00ca1a978
+    short-id: "f41bc0b00ca1a978"
   server: nl3.murhost.network
   servername: nl3.murhost.network
   skip-cert-verify: true
@@ -4145,7 +4145,7 @@ proxies:
   port: 443
   reality-opts:
     public-key: YQTixaXzPVImuRc4TUbrFAekjIiaYV-t5S-HTKlH0AU
-    short-id: 2186a755ed67b034
+    short-id: "2186a755ed67b034"
   server: 5.180.42.210
   servername: nordic.cendora.ru
   skip-cert-verify: true
@@ -4195,7 +4195,7 @@ proxies:
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-08-23 20:43 (CST)"
+- name: "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-08-23 21:02 (CST)"
   type: trojan
   server: 127.0.0.1
   port: 443
@@ -4223,7 +4223,7 @@ proxy-groups:
   - "\u8BF4\u660E-\u6765\u6E90: Ruk1ng001/freeSub"
   - "\u8BF4\u660E-\u6E05\u6D17\u7ED3\u679C: \u6E05\u7406 0 \u4E2A\u8282\u70B9\u3001\
     \u8F6C\u8BD1 10081 \u4E2A\u5B57\u7B26"
-  - "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-08-23 20:43 (CST)"
+  - "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-08-23 21:02 (CST)"
   - "\u8BF4\u660E-\u4F5C\u8005: wzmwayne"
   - "\u8BF4\u660E-\u4ED3\u5E93: https://github.com/wzmwayne/proxy-node"
 - interval: 300

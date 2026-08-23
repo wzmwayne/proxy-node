@@ -101,7 +101,7 @@ proxies:
   server: 43.198.107.164
   port: 25982
   type: trojan
-  password: d5517dedef425597a1b9fdbaad99544e
+  password: "d5517dedef425597a1b9fdbaad99544e"
   sni: www.nintendogames.net
   skip-cert-verify: true
 - name: "\U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
@@ -129,28 +129,28 @@ proxies:
   server: 16.162.109.29
   port: 40136
   type: trojan
-  password: d5517dedef425597a1b9fdbaad99544e
+  password: "d5517dedef425597a1b9fdbaad99544e"
   sni: www.nintendogames.net
   skip-cert-verify: true
 - name: "\U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
   server: 18.163.126.92
   port: 18617
   type: trojan
-  password: d5517dedef425597a1b9fdbaad99544e
+  password: "d5517dedef425597a1b9fdbaad99544e"
   sni: www.nintendogames.net
   skip-cert-verify: true
 - name: "\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
   server: 95.40.14.234
   port: 51396
   type: trojan
-  password: d5517dedef425597a1b9fdbaad99544e
+  password: "d5517dedef425597a1b9fdbaad99544e"
   sni: www.nintendogames.net
   skip-cert-verify: true
 - name: "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
   server: 16.162.192.182
   port: 32434
   type: trojan
-  password: d5517dedef425597a1b9fdbaad99544e
+  password: "d5517dedef425597a1b9fdbaad99544e"
   sni: www.nintendogames.net
   skip-cert-verify: true
 - name: "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
@@ -164,14 +164,14 @@ proxies:
   server: 43.199.143.104
   port: 34039
   type: trojan
-  password: d5517dedef425597a1b9fdbaad99544e
+  password: "d5517dedef425597a1b9fdbaad99544e"
   sni: www.nintendogames.net
   skip-cert-verify: true
 - name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
   server: 95.40.14.234
   port: 39024
   type: trojan
-  password: d5517dedef425597a1b9fdbaad99544e
+  password: "d5517dedef425597a1b9fdbaad99544e"
   sni: www.nintendogames.net
   skip-cert-verify: true
 - name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
@@ -196,7 +196,7 @@ proxies:
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-08-23 20:43 (CST)"
+- name: "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-08-23 21:02 (CST)"
   type: trojan
   server: 127.0.0.1
   port: 443
@@ -224,7 +224,7 @@ proxy-groups:
   - "\u8BF4\u660E-\u6765\u6E90: ripaojiedian/freenode"
   - "\u8BF4\u660E-\u6E05\u6D17\u7ED3\u679C: \u6E05\u7406 0 \u4E2A\u8282\u70B9\u3001\
     \u8F6C\u8BD1 18296 \u4E2A\u5B57\u7B26"
-  - "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-08-23 20:43 (CST)"
+  - "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-08-23 21:02 (CST)"
   - "\u8BF4\u660E-\u4F5C\u8005: wzmwayne"
   - "\u8BF4\u660E-\u4ED3\u5E93: https://github.com/wzmwayne/proxy-node"
 - name: "\U0001F680 \u8282\u70B9\u9009\u62E9"

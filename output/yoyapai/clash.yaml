@@ -377,7 +377,7 @@ proxies:
   client-fingerprint: chrome
   reality-opts:
     public-key: ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo
-    short-id: dc8109baf0f607ea
+    short-id: "dc8109baf0f607ea"
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1FA\U0001F1F8US\u7F8E\u570B\u4E28yoyapai.com_3"
@@ -433,7 +433,7 @@ proxies:
   client-fingerprint: chrome
   reality-opts:
     public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
-    short-id: 2715592069f36fe7
+    short-id: "2715592069f36fe7"
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1F1\U0001F1F9LT\u7ACB\u9676\u5B9B\u4E28yoyapai.com"
@@ -447,7 +447,7 @@ proxies:
   client-fingerprint: firefox
   reality-opts:
     public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
-    short-id: 2cfb5a0ae8ab0cb0
+    short-id: "2cfb5a0ae8ab0cb0"
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1FA\U0001F1F8 US\u7F8E\u570B\u4E28yoyapai.com"
@@ -491,7 +491,7 @@ proxies:
   client-fingerprint: chrome
   reality-opts:
     public-key: z6_OFl0jskilOOxkQcUcdQOCS4-LVndwFF9i7kIOPzg
-    short-id: d23753491eefde7e
+    short-id: "d23753491eefde7e"
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1E8\U0001F1EDCH\u745E\u58EB\u4E28yoyapai.com"
@@ -505,7 +505,7 @@ proxies:
   client-fingerprint: chrome
   reality-opts:
     public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
-    short-id: e3d38cee79d4f94c
+    short-id: "e3d38cee79d4f94c"
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1F7\U0001F1FA RU\u4FC4\u7F85\u65AF\u4E28yoyapai.com"
@@ -513,7 +513,7 @@ proxies:
   server: 212.192.13.91
   port: 30129
   cipher: aes-256-gcm
-  password: 7e1dd4c55bf85da5
+  password: "7e1dd4c55bf85da5"
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1FA\U0001F1F8 US\u7F8E\u570B\u4E28yoyapai.com_3"
@@ -594,7 +594,7 @@ proxies:
   client-fingerprint: firefox
   reality-opts:
     public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
-    short-id: 2cfb5a0ae8ab0cb0
+    short-id: "2cfb5a0ae8ab0cb0"
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1F1\U0001F1F9LT\u7ACB\u9676\u5B9B\u4E28yoyapai.com_2"
@@ -608,7 +608,7 @@ proxies:
   client-fingerprint: firefox
   reality-opts:
     public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
-    short-id: 2cfb5a0ae8ab0cb0
+    short-id: "2cfb5a0ae8ab0cb0"
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1E8\U0001F1EDCH\u745E\u58EB\u4E28yoyapai.com_1"
@@ -622,7 +622,7 @@ proxies:
   client-fingerprint: chrome
   reality-opts:
     public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
-    short-id: e3d38cee79d4f94c
+    short-id: "e3d38cee79d4f94c"
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1E8\U0001F1EDCH\u745E\u58EB\u4E28yoyapai.com_2"
@@ -636,7 +636,7 @@ proxies:
   client-fingerprint: chrome
   reality-opts:
     public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
-    short-id: e3d38cee79d4f94c
+    short-id: "e3d38cee79d4f94c"
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1F1\U0001F1F9LT\u7ACB\u9676\u5B9B\u4E28yoyapai.com_3"
@@ -650,7 +650,7 @@ proxies:
   client-fingerprint: firefox
   reality-opts:
     public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
-    short-id: 2cfb5a0ae8ab0cb0
+    short-id: "2cfb5a0ae8ab0cb0"
   skip-cert-verify: true
   udp: true
 - name: "\u7F8E\u570B\u4E28yoyapai.com"
@@ -1368,7 +1368,7 @@ proxies:
   client-fingerprint: chrome
   reality-opts:
     public-key: 6p0aVCkOgd-xaxqSMANYABL6O4Tdbftnxjiy5qcmISQ
-    short-id: 0b
+    short-id: "0b"
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1FA\U0001F1F8 \u7F8E\u570B\u4E28yoyapai.com"
@@ -1381,7 +1381,7 @@ proxies:
   client-fingerprint: chrome
   reality-opts:
     public-key: 6p0aVCkOgd-xaxqSMANYABL6O4Tdbftnxjiy5qcmISQ
-    short-id: 0b
+    short-id: "0b"
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1FF\U0001F1E6 \u5357\u975E\u4E28yoyapai.com"
@@ -1395,7 +1395,7 @@ proxies:
   client-fingerprint: chrome
   reality-opts:
     public-key: EMS0wzISeSbEe4JABPD8EgDnyLXgDmrX4_lcfG6VVX4
-    short-id: dbbe8dca27a92c35
+    short-id: "dbbe8dca27a92c35"
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u7BC0\u9EDE\u4E28yoyapai.com_4"
@@ -1450,7 +1450,7 @@ proxies:
   client-fingerprint: chrome
   reality-opts:
     public-key: 1oUeBtHH4DskTM_jCh-6enWRkFMDX9l1OU5kWYl4kxA
-    short-id: f34818a561dfd1fe
+    short-id: "f34818a561dfd1fe"
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1E7\U0001F1F7\u5DF4\u897F\u4E28yoyapai.com"
@@ -1464,7 +1464,7 @@ proxies:
   client-fingerprint: chrome
   reality-opts:
     public-key: 1oUeBtHH4DskTM_jCh-6enWRkFMDX9l1OU5kWYl4kxA
-    short-id: 364994a6f61fc955
+    short-id: "364994a6f61fc955"
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1FA\U0001F1F8 \u7F8E\u570B"
@@ -1492,7 +1492,7 @@ proxies:
   client-fingerprint: chrome
   reality-opts:
     public-key: 6p0aVCkOgd-xaxqSMANYABL6O4Tdbftnxjiy5qcmISQ
-    short-id: 0b
+    short-id: "0b"
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1FA\U0001F1E6\u70CF\u514B\u862D\u4E28yoyapai.com"
@@ -1521,7 +1521,7 @@ proxies:
   client-fingerprint: chrome
   reality-opts:
     public-key: 6p0aVCkOgd-xaxqSMANYABL6O4Tdbftnxjiy5qcmISQ
-    short-id: 0b
+    short-id: "0b"
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1E9\U0001F1EA\u5FB7\u570B\u4E28yoyapai.com"
@@ -1586,7 +1586,7 @@ proxies:
   server: 176.32.35.51
   port: 10910
   cipher: aes-256-gcm
-  password: 895b4b796a357570
+  password: "895b4b796a357570"
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1FA\U0001F1F8_US\u7F8E\u570B\u4E28yoyapai.com"
@@ -1748,7 +1748,7 @@ proxies:
   server: 176.32.35.51
   port: 10916
   cipher: aes-256-gcm
-  password: 895b4b796a357570
+  password: "895b4b796a357570"
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1F7\U0001F1FA_RU\u4FC4\u7F85\u65AF\u4E28yoyapai.com_2"
@@ -1756,7 +1756,7 @@ proxies:
   server: 195.133.5.207
   port: 20188
   cipher: aes-256-gcm
-  password: bdb313adf74c2ede
+  password: "bdb313adf74c2ede"
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1EE\U0001F1F7_IR\u4F0A\u6717\u4E28yoyapai.com"
@@ -1838,7 +1838,7 @@ proxies:
   client-fingerprint: chrome
   reality-opts:
     public-key: qBtxq4RZxDLCJT8i48iaGMhacv8MOI0yhIFiuwYJm08
-    short-id: 825d392c67e4
+    short-id: "825d392c67e4"
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1F9\U0001F1F7\u571F\u8033\u5176\u4E28yoyapai.com_1"
@@ -2163,7 +2163,7 @@ proxies:
   client-fingerprint: chrome
   reality-opts:
     public-key: JqblL-dYqxHH3pAju89x3OkXlBQ8k5LzO2Yoadi8ylk
-    short-id: 373e14d458
+    short-id: "373e14d458"
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1F9\U0001F1ED\u6CF0\u570B\u4E28yoyapai.com"
@@ -2216,7 +2216,7 @@ proxies:
   client-fingerprint: chrome
   reality-opts:
     public-key: d1LjsQHtTCj7kHx2LHFisVDPc_xOtKnugy5YRFKXqUs
-    short-id: '39'
+    short-id: "39"
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1F0\U0001F1FF\u54C8\u85A9\u514B\u65AF\u5766\u4E28yoyapai.com"
@@ -2285,7 +2285,7 @@ proxies:
   client-fingerprint: firefox
   reality-opts:
     public-key: OTuJX9K_E2nHhg0mXT2uFMNIO7746G6c5rlT6OscQGk
-    short-id: 9698d67e63bc8ee0
+    short-id: "9698d67e63bc8ee0"
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1E9\U0001F1EA\u5FB7\u56FD\u4E28yoyapai.com"
@@ -2299,7 +2299,7 @@ proxies:
   client-fingerprint: edge
   reality-opts:
     public-key: mBaiGOrxW7NFGpW7aZLztWiME6vulM0Nk1Uh0SxX4zc
-    short-id: fa1a12cf
+    short-id: "fa1a12cf"
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1F5\U0001F1F1 PL\u6CE2\u5170\u4E28yoyapai.com"
@@ -2313,7 +2313,7 @@ proxies:
   client-fingerprint: firefox
   reality-opts:
     public-key: YxGdcVKnOjKUtaG-E68lzI_rd9DI5RvsbLY0qyMFX2w
-    short-id: e852dc
+    short-id: "e852dc"
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1F3\U0001F1F1_\u8377\u5170"
@@ -2389,7 +2389,7 @@ proxies:
   client-fingerprint: firefox
   reality-opts:
     public-key: y9hgkaFKFTgKL5PHsksGNKuSrd7jBysJ6rBHktu2k1o
-    short-id: 6ba85179e30d4fc2
+    short-id: "6ba85179e30d4fc2"
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1E9\U0001F1EA\u5FB7\u56FD\u4E28yoyapai.com_3"
@@ -2428,7 +2428,7 @@ proxies:
   client-fingerprint: firefox
   reality-opts:
     public-key: y9hgkaFKFTgKL5PHsksGNKuSrd7jBysJ6rBHktu2k1o
-    short-id: 6ba85179e30d4fc2
+    short-id: "6ba85179e30d4fc2"
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1E9\U0001F1EA\u5FB7\u56FD\u4E28yoyapai.com_4"
@@ -2512,7 +2512,7 @@ proxies:
   client-fingerprint: firefox
   reality-opts:
     public-key: xSvlclDt9Oz7WKqoCCyuT3mEGnLwyp5ciOUClsZADH8
-    short-id: d4331052
+    short-id: "d4331052"
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1F9\U0001F1ED\u6CF0\u56FD\u4E28yoyapai.com"
@@ -2541,7 +2541,7 @@ proxies:
   client-fingerprint: firefox
   reality-opts:
     public-key: W24D31y_1ZaASX1bq3d85DQaQd_3NcJQCvg1wmCn-Uo
-    short-id: e852dc
+    short-id: "e852dc"
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1E8\U0001F1E6CA\u52A0\u62FF\u5927\u4E28yoyapai.com_4"
@@ -2596,7 +2596,7 @@ proxies:
     - /api/v1/events
   reality-opts:
     public-key: 8R416wHsKA_fipQLIw2gceCaTTBJIZRMwGjNTURAx3I
-    short-id: ad55857184e91aad
+    short-id: "ad55857184e91aad"
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1F8\U0001F1EE\u65AF\u6D1B\u6587\u5C3C\u4E9A\u4E28yoyapai.com_1"
@@ -2613,7 +2613,7 @@ proxies:
     - /api/v1/events
   reality-opts:
     public-key: 8R416wHsKA_fipQLIw2gceCaTTBJIZRMwGjNTURAx3I
-    short-id: ad55857184e91aad
+    short-id: "ad55857184e91aad"
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1F0\U0001F1F7\u97E9\u56FD\u4E28yoyapai.com"
@@ -2627,7 +2627,7 @@ proxies:
   client-fingerprint: chrome
   reality-opts:
     public-key: fI-eoLmyyeYXgUHr2SWzHcwxkhxmDj2QBnivpUPYfVY
-    short-id: e3db542f549f5504
+    short-id: "e3db542f549f5504"
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1EB\U0001F1F7 \u6CD5\u56FD\u4E28yoyapai.com"
@@ -2681,7 +2681,7 @@ proxies:
   type: vless
   server: 138.124.100.128
   port: 443
-  uuid: '8033102198'
+  uuid: "8033102198"
   servername: ee4.fast-connect-service.site
   tls: true
   flow: xtls-rprx-vision
@@ -2699,7 +2699,7 @@ proxies:
   client-fingerprint: safari
   reality-opts:
     public-key: 8ik0rnxTlrrGfJaQnmLnUXpY0DSm_xohbJGvmfrbMSA
-    short-id: 459193ba
+    short-id: "459193ba"
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1F9\U0001F1EDTH\u6CF0\u570B\u4E28yoyapai.com_1"
@@ -2728,7 +2728,7 @@ proxies:
   client-fingerprint: firefox
   reality-opts:
     public-key: 8SX8GXMe3lXOyY_acO4HFXXYJn_rOOf4zkYFrifV1Tk
-    short-id: e852dc
+    short-id: "e852dc"
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1F9\U0001F1ED Thailand\u6CF0\u56FD\u4E28yoyapai.com"
@@ -3043,7 +3043,7 @@ proxies:
   client-fingerprint: qq
   reality-opts:
     public-key: gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM
-    short-id: a7f3c91b2e6d84c0
+    short-id: "a7f3c91b2e6d84c0"
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com_7"
@@ -3057,7 +3057,7 @@ proxies:
   client-fingerprint: firefox
   reality-opts:
     public-key: gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM
-    short-id: a7f3c91b2e6d84c0
+    short-id: "a7f3c91b2e6d84c0"
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com_8"
@@ -3071,7 +3071,7 @@ proxies:
   client-fingerprint: qq
   reality-opts:
     public-key: gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM
-    short-id: a7f3c91b2e6d84c0
+    short-id: "a7f3c91b2e6d84c0"
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1F8\U0001F1ECSG\u65B0\u52A0\u5761\u4E28yoyapai.com_1"
@@ -3085,7 +3085,7 @@ proxies:
   client-fingerprint: firefox
   reality-opts:
     public-key: eaRNeC8fccrx0nBNvBpAXZgK4m4FxfnQ-t0W7NOM7mU
-    short-id: e53048e82bb20077
+    short-id: "e53048e82bb20077"
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1F8\U0001F1ECSG\u65B0\u52A0\u5761\u4E28yoyapai.com_2"
@@ -3099,7 +3099,7 @@ proxies:
   client-fingerprint: firefox
   reality-opts:
     public-key: eaRNeC8fccrx0nBNvBpAXZgK4m4FxfnQ-t0W7NOM7mU
-    short-id: e53048e82bb20077
+    short-id: "e53048e82bb20077"
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com_1"
@@ -3113,7 +3113,7 @@ proxies:
   client-fingerprint: firefox
   reality-opts:
     public-key: b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI
-    short-id: 00bca5982f82d083
+    short-id: "00bca5982f82d083"
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1EA\U0001F1EA\u7231\u6C99\u5C3C\u4E9A\u4E28yoyapai.com"
@@ -3136,7 +3136,7 @@ proxies:
   client-fingerprint: firefox
   reality-opts:
     public-key: b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI
-    short-id: 00bca5982f82d083
+    short-id: "00bca5982f82d083"
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1FA\U0001F1F8US\u7F8E\u56FD\u4E28yoyapai.com_1"
@@ -3311,7 +3311,7 @@ proxies:
     - /
   reality-opts:
     public-key: XBBVeMURFu7jmYJ9MZwjEWgfQlGTnRs0B5So5Fy7jWs
-    short-id: 137531892b6dce83
+    short-id: "137531892b6dce83"
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1FA\U0001F1F8US\u7F8E\u56FD\u4E28yoyapai.com_3"
@@ -3328,7 +3328,7 @@ proxies:
     - /
   reality-opts:
     public-key: XBBVeMURFu7jmYJ9MZwjEWgfQlGTnRs0B5So5Fy7jWs
-    short-id: 137531892b6dce83
+    short-id: "137531892b6dce83"
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1FA\U0001F1F8US\u7F8E\u56FD\u4E28yoyapai.com_4"
@@ -3345,7 +3345,7 @@ proxies:
     - /
   reality-opts:
     public-key: XBBVeMURFu7jmYJ9MZwjEWgfQlGTnRs0B5So5Fy7jWs
-    short-id: 137531892b6dce83
+    short-id: "137531892b6dce83"
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1FA\U0001F1F8US\u7F8E\u56FD\u4E28yoyapai.com_5"
@@ -3362,7 +3362,7 @@ proxies:
     - /
   reality-opts:
     public-key: XBBVeMURFu7jmYJ9MZwjEWgfQlGTnRs0B5So5Fy7jWs
-    short-id: 137531892b6dce83
+    short-id: "137531892b6dce83"
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1FA\U0001F1F8US\u7F8E\u56FD\u4E28yoyapai.com_6"
@@ -3379,7 +3379,7 @@ proxies:
     - /
   reality-opts:
     public-key: XBBVeMURFu7jmYJ9MZwjEWgfQlGTnRs0B5So5Fy7jWs
-    short-id: 137531892b6dce83
+    short-id: "137531892b6dce83"
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1F9\U0001F1EDTH\u6CF0\u56FD\u4E28yoyapai.com_2"
@@ -3407,7 +3407,7 @@ proxies:
   client-fingerprint: qq
   reality-opts:
     public-key: YQTixaXzPVImuRc4TUbrFAekjIiaYV-t5S-HTKlH0AU
-    short-id: 2186a755ed67b034
+    short-id: "2186a755ed67b034"
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1EC\U0001F1E7GB\u82F1\u56FD\u4E28yoyapai.com"
@@ -3421,7 +3421,7 @@ proxies:
   client-fingerprint: firefox
   reality-opts:
     public-key: RwtMzZtTCmy9WRq3_27xeGF8-1l_qPXRVG3yIFp-6Go
-    short-id: c0d1d1776fed0f6d
+    short-id: "c0d1d1776fed0f6d"
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1EC\U0001F1E7GB\u82F1\u56FD\u4E28yoyapai.com_1"
@@ -3454,7 +3454,7 @@ proxies:
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-08-23 20:43 (CST)"
+- name: "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-08-23 21:02 (CST)"
   type: trojan
   server: 127.0.0.1
   port: 443
@@ -3482,7 +3482,7 @@ proxy-groups:
   - "\u8BF4\u660E-\u6765\u6E90: yoyapai.com"
   - "\u8BF4\u660E-\u6E05\u6D17\u7ED3\u679C: \u6E05\u7406 0 \u4E2A\u8282\u70B9\u3001\
     \u8F6C\u8BD1 10643 \u4E2A\u5B57\u7B26"
-  - "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-08-23 20:43 (CST)"
+  - "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-08-23 21:02 (CST)"
   - "\u8BF4\u660E-\u4F5C\u8005: wzmwayne"
   - "\u8BF4\u660E-\u4ED3\u5E93: https://github.com/wzmwayne/proxy-node"
 - name: "\U0001F680 \u8282\u70B9\u9009\u62E9"
