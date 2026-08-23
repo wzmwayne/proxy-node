@@ -28,6 +28,8 @@ import urllib.parse
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
+from sanitize import SafeDumper
+
 TEST_URL = "https://www.gstatic.com/generate_204"
 TIMEOUT_MS = 5000
 GROUP_TYPES = {
@@ -128,7 +130,7 @@ def main():
     with tempfile.TemporaryDirectory() as td:
         cfg_path = os.path.join(td, "config.yaml")
         with open(cfg_path, "w", encoding="utf-8") as f:
-            yaml.safe_dump(test_cfg, f, allow_unicode=False, sort_keys=False)
+            yaml.dump(test_cfg, f, Dumper=SafeDumper, allow_unicode=False, sort_keys=False)
         proc = subprocess.Popen(
             [mihomo, "-d", td, "-f", cfg_path],
             stdout=subprocess.DEVNULL,
@@ -206,7 +208,7 @@ def main():
             }
             os.makedirs(os.path.dirname(args.output) or ".", exist_ok=True)
             with open(args.output, "w", encoding="utf-8") as f:
-                yaml.safe_dump(aio, f, allow_unicode=False, default_flow_style=False, sort_keys=False)
+                yaml.dump(aio, f, Dumper=SafeDumper, allow_unicode=False, default_flow_style=False, sort_keys=False)
             print(f"[4/4] AIO 已写入 {args.output}: {len(good)} 个可用节点")
         finally:
             proc.terminate()

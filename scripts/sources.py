@@ -8,8 +8,6 @@ SOURCES = {
     "yoyapai": ("yoyapai.com", "https://yoyapai.com/category/mianfeijiedian"),
     "au1rxx": ("Au1rxx/free-vpn-subscriptions", "https://github.com/Au1rxx/free-vpn-subscriptions"),
     "freesub": ("Ruk1ng001/freeSub", "https://github.com/Ruk1ng001/freeSub"),
-    "radikal": ("0xRadikal/Free-v2ray-Configs", "https://github.com/0xRadikal/Free-v2ray-Configs"),
-    "free18": ("free18/v2ray", "https://github.com/free18/v2ray"),
     "ripaojiedian": ("ripaojiedian/freenode", "https://github.com/ripaojiedian/freenode"),
     "passcro": ("zhangkaiitugithub/passcro", "https://github.com/zhangkaiitugithub/passcro"),
     "anaer": ("anaer.github.io/Sub", "https://anaer.github.io/Sub/proxies.yaml"),
@@ -19,8 +17,6 @@ SOURCES = {
 FETCH_URLS = {
     "au1rxx": "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/clash.yaml",
     "freesub": "https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/clash.yaml",
-    "radikal": "https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/all/clash.yaml",
-    "free18": "https://raw.githubusercontent.com/free18/v2ray/main/c.yaml",
     "ripaojiedian": "https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash",
     "passcro": "https://raw.githubusercontent.com/zhangkaiitugithub/passcro/main/speednodes.yaml",
     "anaer": "https://anaer.github.io/Sub/proxies.yaml",

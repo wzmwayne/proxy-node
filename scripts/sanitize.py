@@ -13,12 +13,72 @@
   字符 —— 仅靠字节扫描发现不了,必须在解码后的值层面检查。
 """
 import argparse
+import re
 import sys
+
+import yaml
 
 from sources import SOURCES
 
 AUTHOR = "wzmwayne"
 REPO = "https://github.com/wzmwayne/proxy-node"
+
+# go-yaml v3 会把这些字符串解析为非字符串(yaml.v3 resolve.go):
+#   显式映射的 bool/null/inf/nan,以及 int/float/timestamp 样式。
+_YAML_V3_LITERALS = {
+    "true", "True", "TRUE", "false", "False", "FALSE",
+    "~", "null", "Null", "NULL",
+    ".nan", ".NaN", ".NAN",
+    ".inf", ".Inf", ".INF",
+    "+.inf", "+.Inf", "+.INF",
+    "-.inf", "-.Inf", "-.INF",
+    "<<",
+}
+_YAML_V3_FLOAT = re.compile(r"^[-+]?(\.[0-9]+|[0-9]+(\.[0-9]*)?)([eE][-+]?[0-9]+)?$")
+_YAML_V3_TIMESTAMP = re.compile(
+    r"^[0-9]{4}-[0-9]{1,2}-[0-9]{1,2}([Tt ]+.*)?$"
+)
+
+
+def yaml_v3_needs_quotes(s: str) -> bool:
+    """判断字符串在 go-yaml v3 中是否会被解析为数字/布尔/null 等非字符串。"""
+    if s in _YAML_V3_LITERALS:
+        return True
+    if s == "":
+        return False  # PyYAML 对空串输出 '' 引号,本身安全
+    plain = s.replace("_", "")
+    try:
+        int(plain, 0)  # 十进制 / 0x / 0o / 0b
+        return True
+    except ValueError:
+        pass
+    try:
+        int(plain, 16)
+        return True
+    except ValueError:
+        pass
+    if _YAML_V3_FLOAT.match(s):
+        try:
+            float(plain)
+            return True
+        except ValueError:
+            pass
+    if _YAML_V3_TIMESTAMP.match(s):
+        return True
+    return False
+
+
+class SafeDumper(yaml.SafeDumper):
+    pass
+
+
+def _represent_str(dumper, data):
+    if yaml_v3_needs_quotes(data):
+        return dumper.represent_scalar("tag:yaml.org,2002:str", data, style='"')
+    return yaml.SafeDumper.represent_str(dumper, data)
+
+
+SafeDumper.add_representer(str, _represent_str)
 
 
 def beijing_now():
@@ -149,8 +209,6 @@ def deep_clean(node, removed=None):
 
 
 def clean_yaml(src, dst, source):
-    import yaml
-
     if source not in SOURCES:
         raise SystemExit(f"[FAIL] 未知来源: {source} (可选: {', '.join(SOURCES)})")
     source_label, source_url = SOURCES[source]
@@ -226,9 +284,11 @@ def clean_yaml(src, dst, source):
     escaped_chars = count_non_ascii(data)
     inject_fake_nodes(data, source_label, dropped_count, escaped_chars, beijing_now())
 
-    # 6) 输出为纯 ASCII YAML(非 ASCII 全部转义,控制字符绝不会出现在字节里)
-    out = yaml.safe_dump(
+    # 6) 输出为纯 ASCII YAML(非 ASCII 全部转义,控制字符绝不会出现在字节里;
+    #    对 go-yaml v3 会解析为数字/布尔/null 的字符串强制加引号,避免语义漂移)
+    out = yaml.dump(
         data,
+        Dumper=SafeDumper,
         allow_unicode=False,
         default_flow_style=False,
         sort_keys=False,

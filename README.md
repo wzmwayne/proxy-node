@@ -23,8 +23,6 @@
 | yoyapai.com | https://raw.githubusercontent.com/wzmwayne/proxy-node/main/output/yoyapai/clash.yaml | https://ghproxy.net/github.com/wzmwayne/proxy-node/raw/main/output/yoyapai/clash.yaml |
 | Au1rxx/free-vpn-subscriptions | https://raw.githubusercontent.com/wzmwayne/proxy-node/main/output/au1rxx/clash.yaml | https://ghproxy.net/github.com/wzmwayne/proxy-node/raw/main/output/au1rxx/clash.yaml |
 | Ruk1ng001/freeSub | https://raw.githubusercontent.com/wzmwayne/proxy-node/main/output/freesub/clash.yaml | https://ghproxy.net/github.com/wzmwayne/proxy-node/raw/main/output/freesub/clash.yaml |
-| 0xRadikal/Free-v2ray-Configs | https://raw.githubusercontent.com/wzmwayne/proxy-node/main/output/radikal/clash.yaml | https://ghproxy.net/github.com/wzmwayne/proxy-node/raw/main/output/radikal/clash.yaml |
-| free18/v2ray | https://raw.githubusercontent.com/wzmwayne/proxy-node/main/output/free18/clash.yaml | https://ghproxy.net/github.com/wzmwayne/proxy-node/raw/main/output/free18/clash.yaml |
 | ripaojiedian/freenode | https://raw.githubusercontent.com/wzmwayne/proxy-node/main/output/ripaojiedian/clash.yaml | https://ghproxy.net/github.com/wzmwayne/proxy-node/raw/main/output/ripaojiedian/clash.yaml |
 | zhangkaiitugithub/passcro | https://raw.githubusercontent.com/wzmwayne/proxy-node/main/output/passcro/clash.yaml | https://ghproxy.net/github.com/wzmwayne/proxy-node/raw/main/output/passcro/clash.yaml |
 | anaer.github.io/Sub | https://raw.githubusercontent.com/wzmwayne/proxy-node/main/output/anaer/clash.yaml | https://ghproxy.net/github.com/wzmwayne/proxy-node/raw/main/output/anaer/clash.yaml |
@@ -48,8 +46,6 @@ output/
   yoyapai/  clash.yaml     # yoyapai.com 来源(清洗后)
   au1rxx/   clash.yaml     # Au1rxx/free-vpn-subscriptions 来源(清洗后)
   freesub/  clash.yaml     # Ruk1ng001/freeSub 来源(清洗后)
-  radikal/  clash.yaml     # 0xRadikal/Free-v2ray-Configs 来源(清洗后)
-  free18/   clash.yaml     # free18/v2ray 来源(清洗后)
   ripaojiedian/ clash.yaml # ripaojiedian/freenode 来源(清洗后)
   passcro/  clash.yaml     # zhangkaiitugithub/passcro 来源(清洗后)
   anaer/    clash.yaml     # anaer.github.io/Sub 来源(清洗后)
