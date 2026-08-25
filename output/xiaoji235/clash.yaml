@@ -1,13 +1,13 @@
 mixed-port: 7890
-allow-lan: true
+allow-lan: false
 mode: rule
 log-level: info
-ipv6: true
+ipv6: false
 external-controller: 127.0.0.1:9090
 dns:
   enable: true
-  listen: 0.0.0.0:1053
-  ipv6: true
+  listen: 127.0.0.1:1053
+  ipv6: false
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   default-nameserver:
@@ -16,330 +16,270 @@ dns:
   nameserver:
   - https://dns.alidns.com/dns-query
   - https://doh.pub/dns-query
+  proxy-server-nameserver:
+  - https://dns.alidns.com/dns-query
+  - https://doh.pub/dns-query
 proxies:
-- name: "\U0001F1FB\U0001F1F3_VN_\u8D8A\u5357"
-  type: ss
-  server: 103.186.154.181
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+- name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
+  type: vmess
+  server: v29.hdacd.com
+  port: 30829
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
   udp: true
-- name: "\U0001F1F3\U0001F1F1_NL_\u8377\u5170->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
+- name: "\U0001F1F8\U0001F1EC_SG_\u65B0\u52A0\u5761"
   type: vless
-  server: 188.42.88.238
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.jpmj.dev
+  server: sgp3xui.jzy88.top
+  port: 54324
+  uuid: cdd37253-5f9b-4dcb-8b01-ad60a29384b8
+  network: grpc
+  servername: sgp3xui.jzy88.top
   tls: true
-  ws-opts:
-    headers:
-      Host: sni.jpmj.dev
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: grpc
+  skip-cert-verify: true
   udp: true
-- name: "\U0001F1E7\U0001F1FF_BZ_\u4F2F\u5229\u5179"
+- name: "\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD"
   type: vless
-  server: 45.131.6.191
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.my111000.tech
+  server: 13.37.22.60
+  port: 22223
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F"
+  type: vmess
+  server: n1747624260.4u9ma.icu
+  port: 443
+  uuid: eee8cb72-7eab-4034-a308-ed06cb07e003
+  alterId: 0
+  cipher: auto
   tls: true
-  ws-opts:
-    path: Telegram%F0%9F%87%A8%F0%9F%87%B3@WangCai2/
-    headers:
-      Host: sni.my111000.tech
+  skip-cert-verify: true
+  network: ws
   udp: true
 - name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
-  type: vless
-  server: 135.84.73.245
+  type: vmess
+  server: guanwang.awsno.com
   port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.111000.dynv6.net
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  alterId: 0
+  cipher: auto
   tls: true
-  ws-opts:
-    headers:
-      Host: sni.111000.dynv6.net
-  udp: true
-- name: "\U0001F1EA\U0001F1F8_ES_\u897F\u73ED\u7259"
-  type: ss
-  server: 5.188.181.201
-  port: 9029
-  cipher: aes-256-cfb
-  password: dU3DSNS8wYPXzEKw
-  udp: true
-- name: "\U0001F1E7\U0001F1FF_BZ_\u4F2F\u5229\u5179_1"
-  type: vless
-  server: 45.131.4.192
-  port: 80
-  uuid: 5f4845b4-11dc-41d6-9508-4ff6a02e36c1
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: silent-paper-fa57.fipiyag989.workers.dev
-  udp: true
-- name: "\U0001F1FB\U0001F1F3_VN_\u8D8A\u5357_1"
-  type: ss
-  server: 103.186.154.166
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-- name: "\U0001F1EB\U0001F1EE_FI_\u82AC\u5170"
-  type: vless
-  server: 144.31.82.47
-  port: 18038
-  uuid: a42c8b66-d0a7-4b49-9143-b98f1c84edba
-  servername: www.microsoft.com
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: UDLhjunZjP-5A6KBMeuWe3qp_FusLAshcQIcCF7EZh8
-    short-id: "ce9f790791426d83"
-  udp: true
-- name: "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C->\U0001F1F9\U0001F1FC_TW_\u4E2D\u56FD\
-    \u53F0\u6E7E"
-  type: vless
-  server: 216.23.108.4
-  port: 55309
-  uuid: 9c5d1bf0-d58b-4001-9e7c-0c1fa314068c
-  servername: download.windowsupdate.com
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: qq
-  reality-opts:
-    public-key: 7BS-JUFgYVaWrwwyDSiVq_YDoG36w8cRd4U8HvEg-F0
-    short-id: "4bcbc85d"
-  udp: true
-- name: "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C"
-  type: vless
-  server: 216.23.108.4
-  port: 55305
-  uuid: 9c5d1bf0-d58b-4001-9e7c-0c1fa314068c
-  servername: download.windowsupdate.com
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 7BS-JUFgYVaWrwwyDSiVq_YDoG36w8cRd4U8HvEg-F0
-    short-id: "4bcbc85d"
-  udp: true
-- name: "\U0001F1EC\U0001F1E7_GB_\u82F1\u56FD"
-  type: vless
-  server: london1.ap221.com
-  port: 443
-  uuid: 3a1d7c1d-09c6-4c81-8e11-75dd4ab1ac07
-  servername: london.ap221.com
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  udp: true
-- name: "\U0001F1F0\U0001F1F7_KR_\u97E9\u56FD"
-  type: vless
-  server: 59.4.161.71
-  port: 38241
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.111000.v6.army
-  tls: true
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: sni.111000.v6.army
-  udp: true
-- name: "\U0001F1FB\U0001F1F3_VN_\u8D8A\u5357_2"
-  type: ss
-  server: 103.186.154.174
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  skip-cert-verify: true
   udp: true
 - name: "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C->\U0001F1F8\U0001F1EC_SG_\u65B0\u52A0\
     \u5761"
-  type: vless
-  server: 216.23.108.4
-  port: 55313
-  uuid: 9c5d1bf0-d58b-4001-9e7c-0c1fa314068c
-  servername: download.windowsupdate.com
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: safari
-  reality-opts:
-    public-key: 7BS-JUFgYVaWrwwyDSiVq_YDoG36w8cRd4U8HvEg-F0
-    short-id: "4bcbc85d"
-  udp: true
-- name: "\U0001F1FB\U0001F1F3_VN_\u8D8A\u5357_3"
-  type: ss
-  server: 103.186.154.40
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-- name: "\U0001F1F9\U0001F1ED_TH_\u6CF0\u56FD"
-  type: vless
-  server: 47.81.36.237
-  port: 443
-  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
-  servername: api.digital-help-prd.autodesk.com
-  tls: true
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
-  udp: true
-- name: "\U0001F1F0\U0001F1F7_KR_\u97E9\u56FD_1"
-  type: vless
-  server: 121.175.77.73
-  port: 10333
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.111000.v6.army
-  tls: true
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: sni.111000.v6.army
-  udp: true
-- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_1"
-  type: vless
-  server: 104.18.12.149
-  port: 443
-  uuid: b60e5c32-3d4e-425c-a785-a36cd0621a72
-  network: ws
-  servername: S4-f45.pAGeS.DeV
-  tls: true
-  ws-opts:
-    path: /
-    headers:
-      Host: S4-f45.pAGeS.DeV
-  udp: true
-- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_2"
-  type: vless
-  server: 104.250.239.8
-  port: 17195
-  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  servername: usvless.yydzx.xyz
-  tls: true
-  flow: xtls-rprx-vision
-  udp: true
-- name: "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C_1"
-  type: vless
-  server: 158.51.110.12
-  port: 443
-  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
-  network: ws
-  servername: pagescm.freen5.cc.cd
-  tls: true
-  ws-opts:
-    path: /showfp=chrome
-    headers:
-      Host: pagescm.freen5.cc.cd
-  udp: true
-- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_3"
-  type: vless
-  server: 104.17.101.139
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.111000.dynv6.net
-  tls: true
-  ws-opts:
-    path: /?proxyip=ip.111000.de5.net%3A443
-    headers:
-      Host: sni.111000.dynv6.net
-  udp: true
-- name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F"
-  type: ss
-  server: 103.149.182.105
-  port: 8388
-  cipher: chacha20-ietf
-  password: asd123456
-  udp: true
-- name: "\U0001F1F0\U0001F1FF_KZ_\u54C8\u8428\u514B\u65AF\u5766"
-  type: vless
-  server: 31.43.179.238
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.jpmj.dev
-  tls: true
-  ws-opts:
-    headers:
-      Host: sni.jpmj.dev
-  udp: true
-- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_4"
-  type: vless
-  server: 139.64.235.238
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.jpmj.dev
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: sni.jpmj.dev
-  udp: true
-- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_5"
-  type: vless
-  server: 45.153.7.191
-  port: 2096
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.my111000.tech
-  tls: true
-  ws-opts:
-    headers:
-      Host: sni.my111000.tech
-  udp: true
-- name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_6"
-  type: vless
-  server: 162.159.17.207
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.111000.v6.army
-  tls: true
-  ws-opts:
-    path: /?https%3A%2F%2Ft.me%2Fwangcai2%F0%9F%87%A8%F0%9F%87%B3=
-    headers:
-      Host: sni.111000.v6.army
-  udp: true
-- name: "\U0001F1FB\U0001F1F3_VN_\u8D8A\u5357_4"
-  type: ss
-  server: 103.186.155.114
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-- name: "\U0001F1FB\U0001F1F3_VN_\u8D8A\u5357_5"
-  type: ss
-  server: 103.186.154.234
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-- name: "\U0001F1E8\U0001F1FE_CY_\u585E\u6D66\u8DEF\u65AF"
-  type: vless
-  server: 77.37.33.40
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
+  type: vmess
+  server: v45.hdacd.com
+  port: 30845
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
   tls: false
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F9\U0001F1F7_TR_\u571F\u8033\u5176"
+  type: vless
+  server: 45.196.201.55
+  port: 443
+  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
+  servername: storage.yandex.net
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+    short-id: "c6ef72e4635d15a5"
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F_1"
+  type: vmess
+  server: 47.244.120.197
+  port: 44867
+  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
   ws-opts:
-    path: "/?ed=2560&https://t.me/youtube@ZYFXS\U0001F1E8\U0001F1F3"
-    headers:
-      Host: vms.lifetime57.workers.dev
+    path: /arki?ed=2048
+  udp: true
+- name: "\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD_1"
+  type: vless
+  server: 13.37.22.60
+  port: 22222
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EE\U0001F1F7_IR_\u4F0A\u6717->\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD"
+  type: vless
+  server: babi.amojimi.ir
+  port: 33485
+  uuid: 33ad2587-5ae6-46b0-a04e-b05aab9f5d84
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD\
+    _1"
+  type: vmess
+  server: v4.hdacd.com
+  port: 30804
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
+  type: vless
+  server: 52.57.117.158
+  port: 22223
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD\
+    _2"
+  type: vmess
+  server: v8.hdacd.com
+  port: 30808
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F9\U0001F1F7_TR_\u571F\u8033\u5176_1"
+  type: vless
+  server: 45.196.201.14
+  port: 443
+  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
+  servername: storage.yandex.net
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+    short-id: "c6ef72e4635d15a5"
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
+  type: vmess
+  server: v24.hdacd.com
+  port: 30824
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD_2"
+  type: vless
+  server: 13.37.22.60
+  port: 22224
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F8\U0001F1EC_SG_\u65B0\u52A0\u5761_1"
+  type: trojan
+  server: resolved-gelding.rooster465.autos
+  port: 443
+  password: "FC60532879"
+  sni: resolved-gelding.rooster465.autos
+  skip-cert-verify: true
+  tls: false
+  udp: true
+- name: "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
+  type: vmess
+  server: v33.hdacd.com
+  port: 30833
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: none
+  tls: false
+  skip-cert-verify: true
   udp: true
 - name: "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF"
-  type: ss
-  server: ru.safepass.click
-  port: 442
-  cipher: aes-128-gcm
-  password: 6784aee2-0dfe-474f-8446-480259ff9918
+  type: vless
+  server: 46.29.163.32
+  port: 29311
+  uuid: dee59997-f3f0-4dc5-bb26-ae24ae63ec5a
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F9\U0001F1F7_TR_\u571F\u8033\u5176_2"
+  type: vless
+  server: 45.196.201.105
+  port: 443
+  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
+  servername: storage.yandex.net
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+    short-id: "c6ef72e4635d15a5"
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F9\U0001F1F7_TR_\u571F\u8033\u5176_3"
+  type: vless
+  server: 45.196.201.170
+  port: 443
+  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
+  servername: storage.yandex.net
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+    short-id: "c6ef72e4635d15a5"
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F_2"
+  type: vmess
+  server: 47.76.127.88
+  port: 5566
+  uuid: 44712929-c2b7-4fa4-93bd-9de332a78c8c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F9\U0001F1F7_TR_\u571F\u8033\u5176_4"
+  type: vless
+  server: 45.196.201.92
+  port: 443
+  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
+  servername: storage.yandex.net
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+    short-id: "c6ef72e4635d15a5"
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F9\U0001F1F7_TR_\u571F\u8033\u5176_5"
+  type: vless
+  server: 45.196.201.37
+  port: 443
+  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
+  servername: storage.yandex.net
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+    short-id: "c6ef72e4635d15a5"
+  skip-cert-verify: true
   udp: true
 - name: "\u8BF4\u660E-\u6765\u6E90: xiaoji235/airport-free"
   type: trojan
@@ -349,14 +289,14 @@ proxies:
   udp: true
   skip-cert-verify: true
 - name: "\u8BF4\u660E-\u6E05\u6D17\u7ED3\u679C: \u6E05\u7406 0 \u4E2A\u8282\u70B9\u3001\
-    \u8F6C\u8BD1 18905 \u4E2A\u5B57\u7B26"
+    \u8F6C\u8BD1 18855 \u4E2A\u5B57\u7B26"
   type: trojan
   server: 127.0.0.1
   port: 443
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-08-25 12:31 (CST)"
+- name: "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-08-25 16:33 (CST)"
   type: trojan
   server: 127.0.0.1
   port: 443
@@ -383,8 +323,8 @@ proxy-groups:
   proxies:
   - "\u8BF4\u660E-\u6765\u6E90: xiaoji235/airport-free"
   - "\u8BF4\u660E-\u6E05\u6D17\u7ED3\u679C: \u6E05\u7406 0 \u4E2A\u8282\u70B9\u3001\
-    \u8F6C\u8BD1 18905 \u4E2A\u5B57\u7B26"
-  - "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-08-25 12:31 (CST)"
+    \u8F6C\u8BD1 18855 \u4E2A\u5B57\u7B26"
+  - "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-08-25 16:33 (CST)"
   - "\u8BF4\u660E-\u4F5C\u8005: wzmwayne"
   - "\u8BF4\u660E-\u4ED3\u5E93: https://github.com/wzmwayne/proxy-node"
 - name: "\U0001F680 \u8282\u70B9\u9009\u62E9"
@@ -392,71 +332,57 @@ proxy-groups:
   proxies:
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - DIRECT
-  - "\U0001F1FB\U0001F1F3_VN_\u8D8A\u5357"
-  - "\U0001F1F3\U0001F1F1_NL_\u8377\u5170->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
-  - "\U0001F1E7\U0001F1FF_BZ_\u4F2F\u5229\u5179"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
-  - "\U0001F1EA\U0001F1F8_ES_\u897F\u73ED\u7259"
-  - "\U0001F1E7\U0001F1FF_BZ_\u4F2F\u5229\u5179_1"
-  - "\U0001F1FB\U0001F1F3_VN_\u8D8A\u5357_1"
-  - "\U0001F1EB\U0001F1EE_FI_\u82AC\u5170"
-  - "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C->\U0001F1F9\U0001F1FC_TW_\u4E2D\u56FD\u53F0\
-    \u6E7E"
-  - "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C"
-  - "\U0001F1EC\U0001F1E7_GB_\u82F1\u56FD"
-  - "\U0001F1F0\U0001F1F7_KR_\u97E9\u56FD"
-  - "\U0001F1FB\U0001F1F3_VN_\u8D8A\u5357_2"
-  - "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C->\U0001F1F8\U0001F1EC_SG_\u65B0\u52A0\u5761"
-  - "\U0001F1FB\U0001F1F3_VN_\u8D8A\u5357_3"
-  - "\U0001F1F9\U0001F1ED_TH_\u6CF0\u56FD"
-  - "\U0001F1F0\U0001F1F7_KR_\u97E9\u56FD_1"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_1"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_2"
-  - "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C_1"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_3"
+  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
+  - "\U0001F1F8\U0001F1EC_SG_\u65B0\u52A0\u5761"
+  - "\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD"
   - "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F"
-  - "\U0001F1F0\U0001F1FF_KZ_\u54C8\u8428\u514B\u65AF\u5766"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_4"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_5"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_6"
-  - "\U0001F1FB\U0001F1F3_VN_\u8D8A\u5357_4"
-  - "\U0001F1FB\U0001F1F3_VN_\u8D8A\u5357_5"
-  - "\U0001F1E8\U0001F1FE_CY_\u585E\u6D66\u8DEF\u65AF"
+  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
+  - "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C->\U0001F1F8\U0001F1EC_SG_\u65B0\u52A0\u5761"
+  - "\U0001F1F9\U0001F1F7_TR_\u571F\u8033\u5176"
+  - "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F_1"
+  - "\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD_1"
+  - "\U0001F1EE\U0001F1F7_IR_\u4F0A\u6717->\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD"
+  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_1"
+  - "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
+  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_2"
+  - "\U0001F1F9\U0001F1F7_TR_\u571F\u8033\u5176_1"
+  - "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
+  - "\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD_2"
+  - "\U0001F1F8\U0001F1EC_SG_\u65B0\u52A0\u5761_1"
+  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
   - "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF"
+  - "\U0001F1F9\U0001F1F7_TR_\u571F\u8033\u5176_2"
+  - "\U0001F1F9\U0001F1F7_TR_\u571F\u8033\u5176_3"
+  - "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F_2"
+  - "\U0001F1F9\U0001F1F7_TR_\u571F\u8033\u5176_4"
+  - "\U0001F1F9\U0001F1F7_TR_\u571F\u8033\u5176_5"
 - name: "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   type: url-test
   proxies:
-  - "\U0001F1FB\U0001F1F3_VN_\u8D8A\u5357"
-  - "\U0001F1F3\U0001F1F1_NL_\u8377\u5170->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
-  - "\U0001F1E7\U0001F1FF_BZ_\u4F2F\u5229\u5179"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
-  - "\U0001F1EA\U0001F1F8_ES_\u897F\u73ED\u7259"
-  - "\U0001F1E7\U0001F1FF_BZ_\u4F2F\u5229\u5179_1"
-  - "\U0001F1FB\U0001F1F3_VN_\u8D8A\u5357_1"
-  - "\U0001F1EB\U0001F1EE_FI_\u82AC\u5170"
-  - "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C->\U0001F1F9\U0001F1FC_TW_\u4E2D\u56FD\u53F0\
-    \u6E7E"
-  - "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C"
-  - "\U0001F1EC\U0001F1E7_GB_\u82F1\u56FD"
-  - "\U0001F1F0\U0001F1F7_KR_\u97E9\u56FD"
-  - "\U0001F1FB\U0001F1F3_VN_\u8D8A\u5357_2"
-  - "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C->\U0001F1F8\U0001F1EC_SG_\u65B0\u52A0\u5761"
-  - "\U0001F1FB\U0001F1F3_VN_\u8D8A\u5357_3"
-  - "\U0001F1F9\U0001F1ED_TH_\u6CF0\u56FD"
-  - "\U0001F1F0\U0001F1F7_KR_\u97E9\u56FD_1"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_1"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_2"
-  - "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C_1"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_3"
+  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
+  - "\U0001F1F8\U0001F1EC_SG_\u65B0\u52A0\u5761"
+  - "\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD"
   - "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F"
-  - "\U0001F1F0\U0001F1FF_KZ_\u54C8\u8428\u514B\u65AF\u5766"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_4"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_5"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_6"
-  - "\U0001F1FB\U0001F1F3_VN_\u8D8A\u5357_4"
-  - "\U0001F1FB\U0001F1F3_VN_\u8D8A\u5357_5"
-  - "\U0001F1E8\U0001F1FE_CY_\u585E\u6D66\u8DEF\u65AF"
+  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
+  - "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C->\U0001F1F8\U0001F1EC_SG_\u65B0\u52A0\u5761"
+  - "\U0001F1F9\U0001F1F7_TR_\u571F\u8033\u5176"
+  - "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F_1"
+  - "\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD_1"
+  - "\U0001F1EE\U0001F1F7_IR_\u4F0A\u6717->\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD"
+  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_1"
+  - "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
+  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_2"
+  - "\U0001F1F9\U0001F1F7_TR_\u571F\u8033\u5176_1"
+  - "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
+  - "\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD_2"
+  - "\U0001F1F8\U0001F1EC_SG_\u65B0\u52A0\u5761_1"
+  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
   - "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF"
+  - "\U0001F1F9\U0001F1F7_TR_\u571F\u8033\u5176_2"
+  - "\U0001F1F9\U0001F1F7_TR_\u571F\u8033\u5176_3"
+  - "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F_2"
+  - "\U0001F1F9\U0001F1F7_TR_\u571F\u8033\u5176_4"
+  - "\U0001F1F9\U0001F1F7_TR_\u571F\u8033\u5176_5"
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
@@ -466,145 +392,117 @@ proxy-groups:
   - "\U0001F680 \u8282\u70B9\u9009\u62E9"
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
-  - "\U0001F1FB\U0001F1F3_VN_\u8D8A\u5357"
-  - "\U0001F1F3\U0001F1F1_NL_\u8377\u5170->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
-  - "\U0001F1E7\U0001F1FF_BZ_\u4F2F\u5229\u5179"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
-  - "\U0001F1EA\U0001F1F8_ES_\u897F\u73ED\u7259"
-  - "\U0001F1E7\U0001F1FF_BZ_\u4F2F\u5229\u5179_1"
-  - "\U0001F1FB\U0001F1F3_VN_\u8D8A\u5357_1"
-  - "\U0001F1EB\U0001F1EE_FI_\u82AC\u5170"
-  - "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C->\U0001F1F9\U0001F1FC_TW_\u4E2D\u56FD\u53F0\
-    \u6E7E"
-  - "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C"
-  - "\U0001F1EC\U0001F1E7_GB_\u82F1\u56FD"
-  - "\U0001F1F0\U0001F1F7_KR_\u97E9\u56FD"
-  - "\U0001F1FB\U0001F1F3_VN_\u8D8A\u5357_2"
-  - "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C->\U0001F1F8\U0001F1EC_SG_\u65B0\u52A0\u5761"
-  - "\U0001F1FB\U0001F1F3_VN_\u8D8A\u5357_3"
-  - "\U0001F1F9\U0001F1ED_TH_\u6CF0\u56FD"
-  - "\U0001F1F0\U0001F1F7_KR_\u97E9\u56FD_1"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_1"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_2"
-  - "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C_1"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_3"
+  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
+  - "\U0001F1F8\U0001F1EC_SG_\u65B0\u52A0\u5761"
+  - "\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD"
   - "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F"
-  - "\U0001F1F0\U0001F1FF_KZ_\u54C8\u8428\u514B\u65AF\u5766"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_4"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_5"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_6"
-  - "\U0001F1FB\U0001F1F3_VN_\u8D8A\u5357_4"
-  - "\U0001F1FB\U0001F1F3_VN_\u8D8A\u5357_5"
-  - "\U0001F1E8\U0001F1FE_CY_\u585E\u6D66\u8DEF\u65AF"
+  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
+  - "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C->\U0001F1F8\U0001F1EC_SG_\u65B0\u52A0\u5761"
+  - "\U0001F1F9\U0001F1F7_TR_\u571F\u8033\u5176"
+  - "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F_1"
+  - "\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD_1"
+  - "\U0001F1EE\U0001F1F7_IR_\u4F0A\u6717->\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD"
+  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_1"
+  - "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
+  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_2"
+  - "\U0001F1F9\U0001F1F7_TR_\u571F\u8033\u5176_1"
+  - "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
+  - "\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD_2"
+  - "\U0001F1F8\U0001F1EC_SG_\u65B0\u52A0\u5761_1"
+  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
   - "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF"
+  - "\U0001F1F9\U0001F1F7_TR_\u571F\u8033\u5176_2"
+  - "\U0001F1F9\U0001F1F7_TR_\u571F\u8033\u5176_3"
+  - "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F_2"
+  - "\U0001F1F9\U0001F1F7_TR_\u571F\u8033\u5176_4"
+  - "\U0001F1F9\U0001F1F7_TR_\u571F\u8033\u5176_5"
 - name: "\U0001F4F2 \u7535\u62A5\u4FE1\u606F"
   type: select
   proxies:
   - "\U0001F680 \u8282\u70B9\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
-  - "\U0001F1FB\U0001F1F3_VN_\u8D8A\u5357"
-  - "\U0001F1F3\U0001F1F1_NL_\u8377\u5170->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
-  - "\U0001F1E7\U0001F1FF_BZ_\u4F2F\u5229\u5179"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
-  - "\U0001F1EA\U0001F1F8_ES_\u897F\u73ED\u7259"
-  - "\U0001F1E7\U0001F1FF_BZ_\u4F2F\u5229\u5179_1"
-  - "\U0001F1FB\U0001F1F3_VN_\u8D8A\u5357_1"
-  - "\U0001F1EB\U0001F1EE_FI_\u82AC\u5170"
-  - "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C->\U0001F1F9\U0001F1FC_TW_\u4E2D\u56FD\u53F0\
-    \u6E7E"
-  - "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C"
-  - "\U0001F1EC\U0001F1E7_GB_\u82F1\u56FD"
-  - "\U0001F1F0\U0001F1F7_KR_\u97E9\u56FD"
-  - "\U0001F1FB\U0001F1F3_VN_\u8D8A\u5357_2"
-  - "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C->\U0001F1F8\U0001F1EC_SG_\u65B0\u52A0\u5761"
-  - "\U0001F1FB\U0001F1F3_VN_\u8D8A\u5357_3"
-  - "\U0001F1F9\U0001F1ED_TH_\u6CF0\u56FD"
-  - "\U0001F1F0\U0001F1F7_KR_\u97E9\u56FD_1"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_1"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_2"
-  - "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C_1"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_3"
+  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
+  - "\U0001F1F8\U0001F1EC_SG_\u65B0\u52A0\u5761"
+  - "\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD"
   - "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F"
-  - "\U0001F1F0\U0001F1FF_KZ_\u54C8\u8428\u514B\u65AF\u5766"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_4"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_5"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_6"
-  - "\U0001F1FB\U0001F1F3_VN_\u8D8A\u5357_4"
-  - "\U0001F1FB\U0001F1F3_VN_\u8D8A\u5357_5"
-  - "\U0001F1E8\U0001F1FE_CY_\u585E\u6D66\u8DEF\u65AF"
+  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
+  - "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C->\U0001F1F8\U0001F1EC_SG_\u65B0\u52A0\u5761"
+  - "\U0001F1F9\U0001F1F7_TR_\u571F\u8033\u5176"
+  - "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F_1"
+  - "\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD_1"
+  - "\U0001F1EE\U0001F1F7_IR_\u4F0A\u6717->\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD"
+  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_1"
+  - "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
+  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_2"
+  - "\U0001F1F9\U0001F1F7_TR_\u571F\u8033\u5176_1"
+  - "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
+  - "\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD_2"
+  - "\U0001F1F8\U0001F1EC_SG_\u65B0\u52A0\u5761_1"
+  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
   - "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF"
+  - "\U0001F1F9\U0001F1F7_TR_\u571F\u8033\u5176_2"
+  - "\U0001F1F9\U0001F1F7_TR_\u571F\u8033\u5176_3"
+  - "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F_2"
+  - "\U0001F1F9\U0001F1F7_TR_\u571F\u8033\u5176_4"
+  - "\U0001F1F9\U0001F1F7_TR_\u571F\u8033\u5176_5"
 - name: "\u24C2\uFE0F \u5FAE\u8F6F\u670D\u52A1"
   type: select
   proxies:
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\U0001F680 \u8282\u70B9\u9009\u62E9"
-  - "\U0001F1FB\U0001F1F3_VN_\u8D8A\u5357"
-  - "\U0001F1F3\U0001F1F1_NL_\u8377\u5170->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
-  - "\U0001F1E7\U0001F1FF_BZ_\u4F2F\u5229\u5179"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
-  - "\U0001F1EA\U0001F1F8_ES_\u897F\u73ED\u7259"
-  - "\U0001F1E7\U0001F1FF_BZ_\u4F2F\u5229\u5179_1"
-  - "\U0001F1FB\U0001F1F3_VN_\u8D8A\u5357_1"
-  - "\U0001F1EB\U0001F1EE_FI_\u82AC\u5170"
-  - "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C->\U0001F1F9\U0001F1FC_TW_\u4E2D\u56FD\u53F0\
-    \u6E7E"
-  - "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C"
-  - "\U0001F1EC\U0001F1E7_GB_\u82F1\u56FD"
-  - "\U0001F1F0\U0001F1F7_KR_\u97E9\u56FD"
-  - "\U0001F1FB\U0001F1F3_VN_\u8D8A\u5357_2"
-  - "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C->\U0001F1F8\U0001F1EC_SG_\u65B0\u52A0\u5761"
-  - "\U0001F1FB\U0001F1F3_VN_\u8D8A\u5357_3"
-  - "\U0001F1F9\U0001F1ED_TH_\u6CF0\u56FD"
-  - "\U0001F1F0\U0001F1F7_KR_\u97E9\u56FD_1"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_1"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_2"
-  - "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C_1"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_3"
+  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
+  - "\U0001F1F8\U0001F1EC_SG_\u65B0\u52A0\u5761"
+  - "\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD"
   - "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F"
-  - "\U0001F1F0\U0001F1FF_KZ_\u54C8\u8428\u514B\u65AF\u5766"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_4"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_5"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_6"
-  - "\U0001F1FB\U0001F1F3_VN_\u8D8A\u5357_4"
-  - "\U0001F1FB\U0001F1F3_VN_\u8D8A\u5357_5"
-  - "\U0001F1E8\U0001F1FE_CY_\u585E\u6D66\u8DEF\u65AF"
+  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
+  - "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C->\U0001F1F8\U0001F1EC_SG_\u65B0\u52A0\u5761"
+  - "\U0001F1F9\U0001F1F7_TR_\u571F\u8033\u5176"
+  - "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F_1"
+  - "\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD_1"
+  - "\U0001F1EE\U0001F1F7_IR_\u4F0A\u6717->\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD"
+  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_1"
+  - "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
+  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_2"
+  - "\U0001F1F9\U0001F1F7_TR_\u571F\u8033\u5176_1"
+  - "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
+  - "\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD_2"
+  - "\U0001F1F8\U0001F1EC_SG_\u65B0\u52A0\u5761_1"
+  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
   - "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF"
+  - "\U0001F1F9\U0001F1F7_TR_\u571F\u8033\u5176_2"
+  - "\U0001F1F9\U0001F1F7_TR_\u571F\u8033\u5176_3"
+  - "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F_2"
+  - "\U0001F1F9\U0001F1F7_TR_\u571F\u8033\u5176_4"
+  - "\U0001F1F9\U0001F1F7_TR_\u571F\u8033\u5176_5"
 - name: "\U0001F34E \u82F9\u679C\u670D\u52A1"
   type: select
   proxies:
   - "\U0001F680 \u8282\u70B9\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
-  - "\U0001F1FB\U0001F1F3_VN_\u8D8A\u5357"
-  - "\U0001F1F3\U0001F1F1_NL_\u8377\u5170->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
-  - "\U0001F1E7\U0001F1FF_BZ_\u4F2F\u5229\u5179"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
-  - "\U0001F1EA\U0001F1F8_ES_\u897F\u73ED\u7259"
-  - "\U0001F1E7\U0001F1FF_BZ_\u4F2F\u5229\u5179_1"
-  - "\U0001F1FB\U0001F1F3_VN_\u8D8A\u5357_1"
-  - "\U0001F1EB\U0001F1EE_FI_\u82AC\u5170"
-  - "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C->\U0001F1F9\U0001F1FC_TW_\u4E2D\u56FD\u53F0\
-    \u6E7E"
-  - "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C"
-  - "\U0001F1EC\U0001F1E7_GB_\u82F1\u56FD"
-  - "\U0001F1F0\U0001F1F7_KR_\u97E9\u56FD"
-  - "\U0001F1FB\U0001F1F3_VN_\u8D8A\u5357_2"
-  - "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C->\U0001F1F8\U0001F1EC_SG_\u65B0\u52A0\u5761"
-  - "\U0001F1FB\U0001F1F3_VN_\u8D8A\u5357_3"
-  - "\U0001F1F9\U0001F1ED_TH_\u6CF0\u56FD"
-  - "\U0001F1F0\U0001F1F7_KR_\u97E9\u56FD_1"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_1"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_2"
-  - "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C_1"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_3"
+  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
+  - "\U0001F1F8\U0001F1EC_SG_\u65B0\u52A0\u5761"
+  - "\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD"
   - "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F"
-  - "\U0001F1F0\U0001F1FF_KZ_\u54C8\u8428\u514B\u65AF\u5766"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_4"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_5"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_6"
-  - "\U0001F1FB\U0001F1F3_VN_\u8D8A\u5357_4"
-  - "\U0001F1FB\U0001F1F3_VN_\u8D8A\u5357_5"
-  - "\U0001F1E8\U0001F1FE_CY_\u585E\u6D66\u8DEF\u65AF"
+  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
+  - "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C->\U0001F1F8\U0001F1EC_SG_\u65B0\u52A0\u5761"
+  - "\U0001F1F9\U0001F1F7_TR_\u571F\u8033\u5176"
+  - "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F_1"
+  - "\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD_1"
+  - "\U0001F1EE\U0001F1F7_IR_\u4F0A\u6717->\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD"
+  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_1"
+  - "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
+  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_2"
+  - "\U0001F1F9\U0001F1F7_TR_\u571F\u8033\u5176_1"
+  - "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
+  - "\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD_2"
+  - "\U0001F1F8\U0001F1EC_SG_\u65B0\u52A0\u5761_1"
+  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
   - "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF"
+  - "\U0001F1F9\U0001F1F7_TR_\u571F\u8033\u5176_2"
+  - "\U0001F1F9\U0001F1F7_TR_\u571F\u8033\u5176_3"
+  - "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F_2"
+  - "\U0001F1F9\U0001F1F7_TR_\u571F\u8033\u5176_4"
+  - "\U0001F1F9\U0001F1F7_TR_\u571F\u8033\u5176_5"
 - name: "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   type: select
   proxies:
@@ -627,37 +525,30 @@ proxy-groups:
   - "\U0001F680 \u8282\u70B9\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
-  - "\U0001F1FB\U0001F1F3_VN_\u8D8A\u5357"
-  - "\U0001F1F3\U0001F1F1_NL_\u8377\u5170->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
-  - "\U0001F1E7\U0001F1FF_BZ_\u4F2F\u5229\u5179"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
-  - "\U0001F1EA\U0001F1F8_ES_\u897F\u73ED\u7259"
-  - "\U0001F1E7\U0001F1FF_BZ_\u4F2F\u5229\u5179_1"
-  - "\U0001F1FB\U0001F1F3_VN_\u8D8A\u5357_1"
-  - "\U0001F1EB\U0001F1EE_FI_\u82AC\u5170"
-  - "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C->\U0001F1F9\U0001F1FC_TW_\u4E2D\u56FD\u53F0\
-    \u6E7E"
-  - "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C"
-  - "\U0001F1EC\U0001F1E7_GB_\u82F1\u56FD"
-  - "\U0001F1F0\U0001F1F7_KR_\u97E9\u56FD"
-  - "\U0001F1FB\U0001F1F3_VN_\u8D8A\u5357_2"
-  - "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C->\U0001F1F8\U0001F1EC_SG_\u65B0\u52A0\u5761"
-  - "\U0001F1FB\U0001F1F3_VN_\u8D8A\u5357_3"
-  - "\U0001F1F9\U0001F1ED_TH_\u6CF0\u56FD"
-  - "\U0001F1F0\U0001F1F7_KR_\u97E9\u56FD_1"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_1"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_2"
-  - "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C_1"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_3"
+  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
+  - "\U0001F1F8\U0001F1EC_SG_\u65B0\u52A0\u5761"
+  - "\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD"
   - "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F"
-  - "\U0001F1F0\U0001F1FF_KZ_\u54C8\u8428\u514B\u65AF\u5766"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_4"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_5"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_6"
-  - "\U0001F1FB\U0001F1F3_VN_\u8D8A\u5357_4"
-  - "\U0001F1FB\U0001F1F3_VN_\u8D8A\u5357_5"
-  - "\U0001F1E8\U0001F1FE_CY_\u585E\u6D66\u8DEF\u65AF"
+  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
+  - "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C->\U0001F1F8\U0001F1EC_SG_\u65B0\u52A0\u5761"
+  - "\U0001F1F9\U0001F1F7_TR_\u571F\u8033\u5176"
+  - "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F_1"
+  - "\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD_1"
+  - "\U0001F1EE\U0001F1F7_IR_\u4F0A\u6717->\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD"
+  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_1"
+  - "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
+  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_2"
+  - "\U0001F1F9\U0001F1F7_TR_\u571F\u8033\u5176_1"
+  - "\U0001F1EF\U0001F1F5_JP_\u65E5\u672C->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD"
+  - "\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD_2"
+  - "\U0001F1F8\U0001F1EC_SG_\u65B0\u52A0\u5761_1"
+  - "\U0001F1E8\U0001F1F3_CN_\u4E2D\u56FD->\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD"
   - "\U0001F1F7\U0001F1FA_RU_\u4FC4\u7F57\u65AF"
+  - "\U0001F1F9\U0001F1F7_TR_\u571F\u8033\u5176_2"
+  - "\U0001F1F9\U0001F1F7_TR_\u571F\u8033\u5176_3"
+  - "\U0001F1ED\U0001F1F0_HK_\u4E2D\u56FD\u9999\u6E2F_2"
+  - "\U0001F1F9\U0001F1F7_TR_\u571F\u8033\u5176_4"
+  - "\U0001F1F9\U0001F1F7_TR_\u571F\u8033\u5176_5"
 rule-providers:
   LocalAreaNetwork:
     type: http
