@@ -356,7 +356,7 @@ proxies:
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-08-25 04:21 (CST)"
+- name: "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-08-25 08:48 (CST)"
   type: trojan
   server: 127.0.0.1
   port: 443
@@ -384,7 +384,7 @@ proxy-groups:
   - "\u8BF4\u660E-\u6765\u6E90: xiaoji235/airport-free"
   - "\u8BF4\u660E-\u6E05\u6D17\u7ED3\u679C: \u6E05\u7406 0 \u4E2A\u8282\u70B9\u3001\
     \u8F6C\u8BD1 18905 \u4E2A\u5B57\u7B26"
-  - "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-08-25 04:21 (CST)"
+  - "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-08-25 08:48 (CST)"
   - "\u8BF4\u660E-\u4F5C\u8005: wzmwayne"
   - "\u8BF4\u660E-\u4ED3\u5E93: https://github.com/wzmwayne/proxy-node"
 - name: "\U0001F680 \u8282\u70B9\u9009\u62E9"
