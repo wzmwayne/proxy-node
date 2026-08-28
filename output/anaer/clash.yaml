@@ -9,24 +9,6 @@ proxies:
   alterId: 64
   cipher: auto
 - name: "\u5176\u4ED6-001"
-  type: trojan
-  network: tcp
-  server: hkdcrtc-e.catcat321.com
-  port: 20066
-  password: a126f35c-e832-4115-8593-b723ade3f7be
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-- name: "\u5176\u4ED6-002"
-  type: trojan
-  network: tcp
-  server: kkvlvvq-a.catcat321.com
-  port: 20085
-  password: a126f35c-e832-4115-8593-b723ade3f7be
-  skip-cert-verify: true
-  udp: true
-  sni: hk.catxstar.com
-  client-fingerprint: chrome
-- name: "\u5176\u4ED6-003"
   type: vless
   network: ws
   uuid: af563223-7402-4ecd-bbf9-10f7410753fa
@@ -49,6 +31,24 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   packet-encoding: xudp
+- name: "\u5176\u4ED6-002"
+  type: trojan
+  network: tcp
+  server: hkdcrtc-e.catcat321.com
+  port: 20066
+  password: a126f35c-e832-4115-8593-b723ade3f7be
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+- name: "\u5176\u4ED6-003"
+  type: trojan
+  network: tcp
+  server: kkvlvvq-a.catcat321.com
+  port: 20085
+  password: a126f35c-e832-4115-8593-b723ade3f7be
+  skip-cert-verify: true
+  udp: true
+  sni: hk.catxstar.com
+  client-fingerprint: chrome
 - name: "\u5FB7\u56FD-001 |1.6MB/s"
   type: hysteria
   server: 5.83.129.90
@@ -927,49 +927,59 @@ proxies:
   tls: true
   udp: true
   sni: www.bing.com
-- name: "\u7F8E\u56FD-001 |3.3MB/s|TK-US|YT-US|GPT\u207A-US|GM-US"
+- name: "\u7F8E\u56FD-001"
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 63.141.128.30
+  port: 8880
+  ws-opts:
+    headers:
+      Host: vms.lifetime42.workers.dev
+    path: /
+- name: "\u7F8E\u56FD-002 |3.3MB/s|TK-US|YT-US|GPT\u207A-US|GM-US"
   type: http
   server: 138.199.35.215
   port: 9002
   skip-cert-verify: true
   tls: true
-- name: "\u7F8E\u56FD-002 |3.2MB/s|TK-US|YT-US|GPT\u207A-US|GM-US"
+- name: "\u7F8E\u56FD-003 |3.2MB/s|TK-US|YT-US|GPT\u207A-US|GM-US"
   type: http
   server: 38.28.193.188
   port: 443
   skip-cert-verify: true
   tls: true
-- name: "\u7F8E\u56FD-003 |1.5MB/s|TK-US|YT-US|GPT\u207A-US|GM-US"
+- name: "\u7F8E\u56FD-004 |1.5MB/s|TK-US|YT-US|GPT\u207A-US|GM-US"
   type: http
   server: 209.148.53.153
   port: 8090
   skip-cert-verify: true
   tls: true
-- name: "\u7F8E\u56FD-004 |1.0MB/s|TK-US|GPT\u207A-US"
+- name: "\u7F8E\u56FD-005 |1.0MB/s|TK-US|GPT\u207A-US"
   type: http
   server: 138.199.35.198
   port: 9002
   skip-cert-verify: true
   tls: true
-- name: "\u7F8E\u56FD-005 |2.4MB/s|TK-US|YT-US|GPT\u207A-US|GM-US"
+- name: "\u7F8E\u56FD-006 |2.4MB/s|TK-US|YT-US|GPT\u207A-US|GM-US"
   type: http
   server: 156.146.59.47
   port: 9002
   skip-cert-verify: true
   tls: true
-- name: "\u7F8E\u56FD-006 |2.4MB/s|TK-US|YT-US|GPT\u207A-US|GM-US"
+- name: "\u7F8E\u56FD-007 |2.4MB/s|TK-US|YT-US|GPT\u207A-US|GM-US"
   type: http
   server: 156.146.59.12
   port: 9002
   skip-cert-verify: true
   tls: true
-- name: "\u7F8E\u56FD-007 |2.3MB/s|TK-US|YT-US|GPT\u207A-US|GM-US"
+- name: "\u7F8E\u56FD-008 |2.3MB/s|TK-US|YT-US|GPT\u207A-US|GM-US"
   type: http
   server: 156.146.59.20
   port: 9002
   skip-cert-verify: true
   tls: true
-- name: "\u7F8E\u56FD-008 |1.3MB/s"
+- name: "\u7F8E\u56FD-009 |1.3MB/s"
   type: mieru
   server: 157.254.223.44
   port: 34567
@@ -977,16 +987,26 @@ proxies:
   multiplexing: MULTIPLEXING_LOW
   transport: TCP
   username: dongtaiwang.com
-- name: "\u8377\u5170-001 |2.1MB/s|TK-NL|GPT\u207A-NL|GM-NL"
+- name: "\u8377\u5170-001"
+  type: vless
+  network: ws
+  uuid: e911c552-3a98-41e0-b5fb-0dd3879887b7
+  server: 91.232.114.148
+  servername: vod.ensf.top
+  port: 443
+  skip-cert-verify: false
+  tls: true
+  udp: true
+  tfo: false
+  ws-opts:
+    headers:
+      Host: vod.ensf.top
+    path: /api/v1/irc
+  client-fingerprint: chrome
+- name: "\u8377\u5170-002 |2.1MB/s|TK-NL|GPT\u207A-NL|GM-NL"
   type: http
   server: 84.17.47.150
   port: 9002
-  skip-cert-verify: true
-  tls: true
-- name: "\u8377\u5170-002 |1.8MB/s|TK-NL|GPT\u207A-NL"
-  type: http
-  server: 51.159.225.196
-  port: 23856
   skip-cert-verify: true
   tls: true
 - name: "\u8377\u5170-003 |1.8MB/s|TK-NL|GPT\u207A-NL|GM-NL"
@@ -995,7 +1015,13 @@ proxies:
   port: 443
   skip-cert-verify: true
   tls: true
-- name: "\u8377\u5170-004 |1.6MB/s|TK-NL|GPT\u207A-NL|GM-NL"
+- name: "\u8377\u5170-004 |1.8MB/s|TK-NL|GPT\u207A-NL"
+  type: http
+  server: 51.159.225.196
+  port: 23856
+  skip-cert-verify: true
+  tls: true
+- name: "\u8377\u5170-005 |1.6MB/s|TK-NL|GPT\u207A-NL|GM-NL"
   type: http
   server: 84.17.47.147
   port: 9002
@@ -1009,14 +1035,14 @@ proxies:
   udp: true
   skip-cert-verify: true
 - name: "\u8BF4\u660E-\u6E05\u6D17\u7ED3\u679C: \u6E05\u7406 0 \u4E2A\u8282\u70B9\u3001\
-    \u8F6C\u8BD1 528 \u4E2A\u5B57\u7B26"
+    \u8F6C\u8BD1 532 \u4E2A\u5B57\u7B26"
   type: trojan
   server: 127.0.0.1
   port: 443
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-08-28 02:40 (CST)"
+- name: "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-08-28 11:56 (CST)"
   type: trojan
   server: 127.0.0.1
   port: 443
