@@ -289,14 +289,14 @@ proxies:
   udp: true
   skip-cert-verify: true
 - name: "\u8BF4\u660E-\u6E05\u6D17\u7ED3\u679C: \u6E05\u7406 0 \u4E2A\u8282\u70B9\u3001\
-    \u8F6C\u8BD1 18855 \u4E2A\u5B57\u7B26"
+    \u8F6C\u8BD1 18882 \u4E2A\u5B57\u7B26"
   type: trojan
   server: 127.0.0.1
   port: 443
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-09-01 10:53 (CST)"
+- name: "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-09-01 17:02 (CST)"
   type: trojan
   server: 127.0.0.1
   port: 443
@@ -323,8 +323,8 @@ proxy-groups:
   proxies:
   - "\u8BF4\u660E-\u6765\u6E90: xiaoji235/airport-free"
   - "\u8BF4\u660E-\u6E05\u6D17\u7ED3\u679C: \u6E05\u7406 0 \u4E2A\u8282\u70B9\u3001\
-    \u8F6C\u8BD1 18855 \u4E2A\u5B57\u7B26"
-  - "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-09-01 10:53 (CST)"
+    \u8F6C\u8BD1 18882 \u4E2A\u5B57\u7B26"
+  - "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-09-01 17:02 (CST)"
   - "\u8BF4\u660E-\u4F5C\u8005: wzmwayne"
   - "\u8BF4\u660E-\u4ED3\u5E93: https://github.com/wzmwayne/proxy-node"
 - name: "\U0001F680 \u8282\u70B9\u9009\u62E9"
@@ -2296,6 +2296,15 @@ rules:
 - "DOMAIN,alt7-mtalk.google.com,\U0001F4E2 \u8C37\u6B4CFCM"
 - "DOMAIN,alt8-mtalk.google.com,\U0001F4E2 \u8C37\u6B4CFCM"
 - "DOMAIN,mtalk.google.com,\U0001F4E2 \u8C37\u6B4CFCM"
+- "DOMAIN,alt1.mobile-gtalk.l.google.com,\U0001F4E2 \u8C37\u6B4CFCM"
+- "DOMAIN,alt2.mobile-gtalk.l.google.com,\U0001F4E2 \u8C37\u6B4CFCM"
+- "DOMAIN,alt3.mobile-gtalk.l.google.com,\U0001F4E2 \u8C37\u6B4CFCM"
+- "DOMAIN,alt4.mobile-gtalk.l.google.com,\U0001F4E2 \u8C37\u6B4CFCM"
+- "DOMAIN,alt5.mobile-gtalk.l.google.com,\U0001F4E2 \u8C37\u6B4CFCM"
+- "DOMAIN,alt6.mobile-gtalk.l.google.com,\U0001F4E2 \u8C37\u6B4CFCM"
+- "DOMAIN,alt7.mobile-gtalk.l.google.com,\U0001F4E2 \u8C37\u6B4CFCM"
+- "DOMAIN,alt8.mobile-gtalk.l.google.com,\U0001F4E2 \u8C37\u6B4CFCM"
+- "DOMAIN,mobile-gtalk.l.google.com,\U0001F4E2 \u8C37\u6B4CFCM"
 - "IP-CIDR,64.233.177.188/32,\U0001F4E2 \u8C37\u6B4CFCM,no-resolve"
 - "IP-CIDR,64.233.186.188/32,\U0001F4E2 \u8C37\u6B4CFCM,no-resolve"
 - "IP-CIDR,64.233.187.188/32,\U0001F4E2 \u8C37\u6B4CFCM,no-resolve"
@@ -4138,6 +4147,9 @@ rules:
 - "IP-CIDR,101.199.196.0/22,\U0001F3AF \u5168\u7403\u76F4\u8FDE,no-resolve"
 - "GEOIP,CN,\U0001F3AF \u5168\u7403\u76F4\u8FDE"
 - "MATCH,\U0001F41F \u6F0F\u7F51\u4E4B\u9C7C"
-port: 7890
-socks-port: 7891
+clash-for-android:
+  append-system-dns: false
+unified-delay: true
+global-client-fingerprint: chrome
+keep-alive-interval: 360
 error code: 520
