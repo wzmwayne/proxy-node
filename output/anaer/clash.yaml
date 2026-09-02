@@ -18,59 +18,6 @@ proxies:
 - name: "\u5176\u4ED6-002"
   type: vless
   network: ws
-  uuid: 45643c5f-ffc2-46f3-b82c-329aea9962d4
-  server: 172.67.153.109
-  port: 8080
-  udp: true
-  xudp: true
-  ws-opts:
-    headers:
-      Host: server10.sotowoy673.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /eyJqdW5rIjoiQkRZWDhCN01sIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIl19?ed=2560
-  encryption: none
-- name: "\u5176\u4ED6-003"
-  type: vless
-  network: ws
-  uuid: 431d9fd7-b32d-4838-b281-f34604c56e77
-  server: 188.114.96.0
-  servername: creambabay.pages.dev
-  port: 443
-  skip-cert-verify: false
-  tls: true
-  udp: true
-  tfo: false
-  ws-opts:
-    headers:
-      Host: creambabay.pages.dev
-    path: /vl/sw3njMWg41aR6H1DDXba?ed=2560
-  client-fingerprint: chrome
-- name: "\u5176\u4ED6-004"
-  type: vmess
-  network: tcp
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  server: v4.hdacd.com
-  port: 30804
-  skip-cert-verify: true
-  alterId: 2
-  cipher: auto
-- name: "\u5176\u4ED6-005"
-  type: vmess
-  network: ws
-  uuid: 62319519-82bc-46ff-99cd-237bd0882cef
-  server: t.cnmjcn.cyou
-  port: 16632
-  skip-cert-verify: true
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: 1b24b66c02c843942070b76b27406898.mobgslb.tbcache.com
-    path: /
-- name: "\u5176\u4ED6-006"
-  type: vless
-  network: ws
   uuid: af563223-7402-4ecd-bbf9-10f7410753fa
   server: ld.242311.xyz
   servername: ld.242311.xyz
@@ -91,24 +38,6 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   packet-encoding: xudp
-- name: "\u5176\u4ED6-007"
-  type: trojan
-  network: tcp
-  server: hkdcrtc-e.catcat321.com
-  port: 20066
-  password: a126f35c-e832-4115-8593-b723ade3f7be
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-- name: "\u5176\u4ED6-008"
-  type: trojan
-  network: tcp
-  server: kkvlvvq-a.catcat321.com
-  port: 20085
-  password: a126f35c-e832-4115-8593-b723ade3f7be
-  skip-cert-verify: true
-  udp: true
-  sni: hk.catxstar.com
-  client-fingerprint: chrome
 - name: "\u5FB7\u56FD-001 |1.6MB/s"
   type: hysteria
   server: 5.83.129.90
@@ -179,16 +108,16 @@ proxies:
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: "\u7F57\u9A6C\u5C3C\u4E9A-006 |1.1MB/s"
+- name: "\u7F57\u9A6C\u5C3C\u4E9A-006 |1.1MB/s|TK-RO|GPT\u207A-RO|GM-RO"
   type: http
-  server: 193.176.84.40
+  server: 193.176.84.30
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: "\u7F57\u9A6C\u5C3C\u4E9A-007 |1.1MB/s|TK-RO|GPT\u207A-RO|GM-RO"
+- name: "\u7F57\u9A6C\u5C3C\u4E9A-007 |1.1MB/s"
   type: http
-  server: 193.176.84.30
+  server: 193.176.84.40
   port: 9002
   skip-cert-verify: true
   tls: true
@@ -288,12 +217,12 @@ proxies:
   type: vless
   network: ws
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 50.62.195.50
+  server: 63.141.128.30
   port: 8880
   ws-opts:
     headers:
-      Host: vms.lifetime38.workers.dev
-    path: /?ed=2560
+      Host: vms.lifetime42.workers.dev
+    path: /
 - name: "\u7F8E\u56FD-002 |3.3MB/s|TK-US|YT-US|GPT\u207A-US|GM-US"
   type: http
   server: 138.199.35.215
@@ -350,14 +279,14 @@ proxies:
   udp: true
   skip-cert-verify: true
 - name: "\u8BF4\u660E-\u6E05\u6D17\u7ED3\u679C: \u6E05\u7406 0 \u4E2A\u8282\u70B9\u3001\
-    \u8F6C\u8BD1 134 \u4E2A\u5B57\u7B26"
+    \u8F6C\u8BD1 122 \u4E2A\u5B57\u7B26"
   type: trojan
   server: 127.0.0.1
   port: 443
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-09-02 16:16 (CST)"
+- name: "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-09-02 23:43 (CST)"
   type: trojan
   server: 127.0.0.1
   port: 443
