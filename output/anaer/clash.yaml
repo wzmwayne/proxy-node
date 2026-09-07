@@ -2,6 +2,22 @@ proxies:
 - name: "\u5176\u4ED6-001"
   type: vless
   network: ws
+  uuid: 2b8738de-1af5-4267-b101-c05707769ed4
+  server: 172.67.130.187
+  servername: fans.liverpool.qzz.io
+  port: 2053
+  skip-cert-verify: false
+  tls: true
+  udp: true
+  tfo: false
+  ws-opts:
+    headers:
+      Host: fans.liverpool.qzz.io
+    path: /eyJqdW5rIjoiZXlpMnFWRURmWkp5ZCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
+  client-fingerprint: chrome
+- name: "\u5176\u4ED6-002"
+  type: vless
+  network: ws
   uuid: 2cf94f4d-9d5b-49ca-81a3-ddc0529a2dac
   server: kr.mkdir.kdns.fr
   servername: ai-verps.pages.dev
@@ -15,7 +31,16 @@ proxies:
       Host: ai-verps.pages.dev
     path: /
   client-fingerprint: chrome
-- name: "\u5176\u4ED6-002"
+- name: "\u5176\u4ED6-003"
+  type: vmess
+  network: tcp
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  server: v36.hdacd.com
+  port: 30836
+  skip-cert-verify: true
+  alterId: 2
+  cipher: auto
+- name: "\u5176\u4ED6-004"
   type: vless
   network: ws
   uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
@@ -30,7 +55,7 @@ proxies:
     headers:
       Host: 4-M16.aYUtTHAya2031.kdnS.fR
     path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-- name: "\u5176\u4ED6-003"
+- name: "\u5176\u4ED6-005"
   type: vless
   network: ws
   uuid: 099244b9-2168-4dbd-870e-cbbe9d6eb573
@@ -46,7 +71,7 @@ proxies:
       Host: whitecreeper.pages.dev
     path: /proxyip=ProxyIP.SG.CMLiussss.Net
   client-fingerprint: chrome
-- name: "\u5176\u4ED6-004"
+- name: "\u5176\u4ED6-006"
   type: vless
   network: ws
   uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
@@ -61,7 +86,7 @@ proxies:
     headers:
       Host: 2-M16.ChIAnG-MAi2031.kdns.Fr
     path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-- name: "\u5176\u4ED6-005"
+- name: "\u5176\u4ED6-007"
   type: vless
   network: ws
   uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
@@ -76,7 +101,7 @@ proxies:
     headers:
       Host: 7-M16.pAttAYa-8.kdnS.fR
     path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-- name: "\u5176\u4ED6-006"
+- name: "\u5176\u4ED6-008"
   type: vless
   network: ws
   uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
@@ -91,7 +116,7 @@ proxies:
     headers:
       Host: 5-M16.chIAng-mAi2032.kDNS.fr
     path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-- name: "\u5176\u4ED6-007"
+- name: "\u5176\u4ED6-009"
   type: vless
   network: ws
   uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
@@ -106,7 +131,7 @@ proxies:
     headers:
       Host: 4-m16.ChIAn-mai-7.kDnS.fr
     path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-- name: "\u5176\u4ED6-008"
+- name: "\u5176\u4ED6-010"
   type: vless
   network: ws
   uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
@@ -121,7 +146,7 @@ proxies:
     headers:
       Host: 7-m16.CHiaN-MAi-8.KDNS.Fr
     path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-- name: "\u5176\u4ED6-009"
+- name: "\u5176\u4ED6-011"
   type: vless
   network: ws
   uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
@@ -136,7 +161,7 @@ proxies:
     headers:
       Host: 3-M16.ayUTthAYa2032.kdNs.FR
     path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-- name: "\u5176\u4ED6-010"
+- name: "\u5176\u4ED6-012"
   type: vless
   network: ws
   uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
@@ -151,7 +176,7 @@ proxies:
     headers:
       Host: EDgE-RouTINg-m16-1.KazAN.KDNs.fr
     path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-- name: "\u5176\u4ED6-011"
+- name: "\u5176\u4ED6-013"
   type: vless
   network: ws
   uuid: af563223-7402-4ecd-bbf9-10f7410753fa
@@ -174,7 +199,7 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   packet-encoding: xudp
-- name: "\u5176\u4ED6-012"
+- name: "\u5176\u4ED6-014"
   type: vless
   network: ws
   uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
@@ -189,7 +214,7 @@ proxies:
     headers:
       Host: IMG-edGe-m16-3.hUAnGSHANg.PP.uA
     path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-- name: "\u5176\u4ED6-013"
+- name: "\u5176\u4ED6-015"
   type: vless
   network: ws
   uuid: 395d040e-a04a-43d7-a1e9-8635f545879a
@@ -205,7 +230,7 @@ proxies:
       Host: shalana.xyz
     path: /shalana
   client-fingerprint: unsafe
-- name: "\u5176\u4ED6-014"
+- name: "\u5176\u4ED6-016"
   type: vless
   network: ws
   uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
@@ -220,7 +245,7 @@ proxies:
     headers:
       Host: 6-M16.chiaN-MAi-6.KDns.fR
     path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-- name: "\u5176\u4ED6-015"
+- name: "\u5176\u4ED6-017"
   type: vless
   network: ws
   uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
@@ -235,7 +260,7 @@ proxies:
     headers:
       Host: 6-m16.chIAnG-rAI2036.kDNS.FR
     path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-- name: "\u5176\u4ED6-016"
+- name: "\u5176\u4ED6-018"
   type: vless
   network: ws
   uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
@@ -250,7 +275,7 @@ proxies:
     headers:
       Host: 1-M16.AyUtTHAYA2030.KdNS.fR
     path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-- name: "\u5176\u4ED6-017"
+- name: "\u5176\u4ED6-019"
   type: vless
   network: ws
   uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
@@ -336,30 +361,30 @@ proxies:
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: "\u7F57\u9A6C\u5C3C\u4E9A-006 |1.1MB/s"
-  type: http
-  server: 193.176.84.40
-  port: 9002
-  skip-cert-verify: true
-  tls: true
-  sni: www.bing.com
-- name: "\u7F57\u9A6C\u5C3C\u4E9A-007 |1.1MB/s|TK-RO|GPT\u207A-RO|GM-RO"
+- name: "\u7F57\u9A6C\u5C3C\u4E9A-006 |1.1MB/s|TK-RO|GPT\u207A-RO|GM-RO"
   type: http
   server: 193.176.84.30
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
+- name: "\u7F57\u9A6C\u5C3C\u4E9A-007 |1.1MB/s"
+  type: http
+  server: 193.176.84.40
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
 - name: "\u7F57\u9A6C\u5C3C\u4E9A-008 |1.0MB/s"
   type: http
-  server: 193.176.84.26
+  server: 193.176.84.23
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
 - name: "\u7F57\u9A6C\u5C3C\u4E9A-009 |1.0MB/s"
   type: http
-  server: 193.176.84.23
+  server: 193.176.84.26
   port: 9002
   skip-cert-verify: true
   tls: true
@@ -441,25 +466,7 @@ proxies:
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: "\u7F8E\u56FD-001 |3.3MB/s|TK-US|YT-US|GPT\u207A-US|GM-US"
-  type: http
-  server: 138.199.35.215
-  port: 9002
-  skip-cert-verify: true
-  tls: true
-- name: "\u7F8E\u56FD-002 |3.2MB/s|TK-US|YT-US|GPT\u207A-US|GM-US"
-  type: http
-  server: 38.28.193.188
-  port: 443
-  skip-cert-verify: true
-  tls: true
-- name: "\u7F8E\u56FD-003 |1.0MB/s|TK-US|GPT\u207A-US"
-  type: http
-  server: 138.199.35.198
-  port: 9002
-  skip-cert-verify: true
-  tls: true
-- name: "\u7F8E\u56FD-004"
+- name: "\u7F8E\u56FD-001"
   type: vless
   network: ws
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
@@ -469,10 +476,28 @@ proxies:
     headers:
       Host: vms.lifetime42.workers.dev
     path: /
-- name: "\u7F8E\u56FD-005 |1.5MB/s|TK-US|YT-US|GPT\u207A-US|GM-US"
+- name: "\u7F8E\u56FD-002 |3.3MB/s|TK-US|YT-US|GPT\u207A-US|GM-US"
+  type: http
+  server: 138.199.35.215
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+- name: "\u7F8E\u56FD-003 |3.2MB/s|TK-US|YT-US|GPT\u207A-US|GM-US"
+  type: http
+  server: 38.28.193.188
+  port: 443
+  skip-cert-verify: true
+  tls: true
+- name: "\u7F8E\u56FD-004 |1.5MB/s|TK-US|YT-US|GPT\u207A-US|GM-US"
   type: http
   server: 209.148.53.153
   port: 8090
+  skip-cert-verify: true
+  tls: true
+- name: "\u7F8E\u56FD-005 |1.0MB/s|TK-US|GPT\u207A-US"
+  type: http
+  server: 138.199.35.198
+  port: 9002
   skip-cert-verify: true
   tls: true
 - name: "\u8377\u5170-001 |2.1MB/s|TK-NL|GPT\u207A-NL|GM-NL"
@@ -507,14 +532,14 @@ proxies:
   udp: true
   skip-cert-verify: true
 - name: "\u8BF4\u660E-\u6E05\u6D17\u7ED3\u679C: \u6E05\u7406 0 \u4E2A\u8282\u70B9\u3001\
-    \u8F6C\u8BD1 152 \u4E2A\u5B57\u7B26"
+    \u8F6C\u8BD1 156 \u4E2A\u5B57\u7B26"
   type: trojan
   server: 127.0.0.1
   port: 443
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-09-07 16:47 (CST)"
+- name: "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-09-08 00:57 (CST)"
   type: trojan
   server: 127.0.0.1
   port: 443
