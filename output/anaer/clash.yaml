@@ -9,7 +9,37 @@ proxies:
   skip-cert-verify: true
   alterId: 64
   cipher: auto
+- name: "\u4FC4\u7F57\u65AF\u8054\u90A6-001"
+  type: vmess
+  network: ws
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  server: 194.226.142.120
+  port: 443
+  skip-cert-verify: true
+  tls: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+    path: /api/v1/gpu-stream/socket
 - name: "\u5176\u4ED6-001"
+  type: vless
+  network: ws
+  uuid: 5ef04ae8-8d7c-0a66-13f4-6e3f00000003
+  server: 104.17.147.22
+  servername: relay.lunetcloud.ir
+  port: 443
+  skip-cert-verify: false
+  tls: true
+  udp: true
+  tfo: false
+  ws-opts:
+    headers:
+      Host: relay.lunetcloud.ir
+    path: /lunetnetwork
+  client-fingerprint: chrome
+- name: "\u5176\u4ED6-002"
   type: vless
   network: ws
   uuid: 49b5c5d1-8fb0-4fd2-8129-01bd2178e8d1
@@ -25,7 +55,7 @@ proxies:
       Host: gy-cffc4-node-31z7yxejlog9qfu0.lancelot.dpdns.org
     path: /chat/thread/gif/proxyip=ProxyIP.KR.CMLiussss.net?ed=2560
   client-fingerprint: chrome
-- name: "\u5176\u4ED6-002"
+- name: "\u5176\u4ED6-003"
   type: vless
   network: ws
   uuid: 49b5c5d1-8fb0-4fd2-8129-01bd2178e8d1
@@ -40,22 +70,6 @@ proxies:
     headers:
       Host: gy-cffc6-node-31z7yxejlog9qfu0.lancelot.dpdns.org
     path: /posts/proxyip=ProxyIP.KR.CMLiussss.net?ed=2560
-  client-fingerprint: chrome
-- name: "\u5176\u4ED6-003"
-  type: vless
-  network: ws
-  uuid: 5ef04ae8-8d7c-0a66-13f4-6e3f00000003
-  server: 104.17.147.22
-  servername: relay.lunetcloud.ir
-  port: 443
-  skip-cert-verify: false
-  tls: true
-  udp: true
-  tfo: false
-  ws-opts:
-    headers:
-      Host: relay.lunetcloud.ir
-    path: /lunetnetwork
   client-fingerprint: chrome
 - name: "\u5176\u4ED6-004"
   type: vless
@@ -82,27 +96,12 @@ proxies:
   skip-cert-verify: true
   alterId: 2
   cipher: auto
-- name: "\u5176\u4ED6-006"
+- name: "\u5370\u5EA6-001"
   type: vless
   network: ws
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  server: 172.67.190.103
-  servername: 6-m16.chIAnG-rAI2036.kDNS.FR
-  port: 443
-  skip-cert-verify: true
-  tls: true
-  udp: true
-  tfo: false
-  ws-opts:
-    headers:
-      Host: 6-m16.chIAnG-rAI2036.kDNS.FR
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-- name: "\u5176\u4ED6-007"
-  type: vless
-  network: ws
-  uuid: 2cf94f4d-9d5b-49ca-81a3-ddc0529a2dac
-  server: kr.mkdir.kdns.fr
-  servername: ai-verps.pages.dev
+  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  server: 65.20.85.14
+  servername: www.zyjdwz.cc.cd
   port: 443
   skip-cert-verify: false
   tls: true
@@ -110,33 +109,26 @@ proxies:
   tfo: false
   ws-opts:
     headers:
-      Host: ai-verps.pages.dev
+      Host: www.zyjdwz.cc.cd
     path: /
-  client-fingerprint: chrome
-- name: "\u5176\u4ED6-008"
+  client-fingerprint: random
+- name: "\u5FB7\u56FD-001"
   type: vless
   network: ws
-  uuid: af563223-7402-4ecd-bbf9-10f7410753fa
-  server: ld.242311.xyz
-  servername: ld.242311.xyz
-  port: 443
+  uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
+  server: 64.226.95.244
+  servername: cf3.schzyc.cc.cd
+  port: 2096
   skip-cert-verify: false
   tls: true
   udp: true
+  tfo: false
   ws-opts:
     headers:
-      Host: ld.242311.xyz
-    path: /
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2048
+      Host: cf3.schzyc.cc.cd
+    path: /proxyip=ProxyIP.CMLiussss.net
   client-fingerprint: chrome
-  encryption: none
-  ech-opts:
-    _dns: https://dns.alidns.com/dns-query
-    enable: true
-    query-server-name: cloudflare-ech.com
-  packet-encoding: xudp
-- name: "\u5FB7\u56FD-001 |1.6MB/s"
+- name: "\u5FB7\u56FD-002 |1.6MB/s"
   type: hysteria
   server: 5.83.129.90
   port: 54177
@@ -150,7 +142,7 @@ proxies:
   down: 1000
   protocol: udp
   up: 500
-- name: "\u5FB7\u56FD-002 |594KB/s"
+- name: "\u5FB7\u56FD-003 |594KB/s"
   type: hysteria
   server: 5.83.129.153
   port: 20088
@@ -231,14 +223,14 @@ proxies:
   sni: www.bing.com
 - name: "\u7F57\u9A6C\u5C3C\u4E9A-008 |1.0MB/s"
   type: http
-  server: 193.176.84.23
+  server: 193.176.84.26
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
 - name: "\u7F57\u9A6C\u5C3C\u4E9A-009 |1.0MB/s"
   type: http
-  server: 193.176.84.26
+  server: 193.176.84.23
   port: 9002
   skip-cert-verify: true
   tls: true
@@ -321,14 +313,15 @@ proxies:
   tls: true
   sni: www.bing.com
 - name: "\u7F8E\u56FD-001"
-  type: vmess
-  network: tcp
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-  server: 165.140.217.2
-  port: 443
-  skip-cert-verify: true
-  alterId: 0
-  cipher: auto
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 63.141.128.30
+  port: 8880
+  ws-opts:
+    headers:
+      Host: vms.lifetime42.workers.dev
+    path: /
 - name: "\u7F8E\u56FD-002 |3.3MB/s|TK-US|YT-US|GPT\u207A-US|GM-US"
   type: http
   server: 138.199.35.215
@@ -353,7 +346,40 @@ proxies:
   port: 9002
   skip-cert-verify: true
   tls: true
-- name: "\u8377\u5170-001"
+- name: "\u7F8E\u56FD-006"
+  type: vmess
+  network: tcp
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+  server: 165.140.217.2
+  port: 443
+  skip-cert-verify: true
+  alterId: 0
+  cipher: auto
+- name: "\u8377\u5170-001 |2.1MB/s|TK-NL|GPT\u207A-NL|GM-NL"
+  type: http
+  server: 84.17.47.150
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+- name: "\u8377\u5170-002 |1.8MB/s|TK-NL|GPT\u207A-NL|GM-NL"
+  type: http
+  server: 5.255.118.82
+  port: 443
+  skip-cert-verify: true
+  tls: true
+- name: "\u8377\u5170-003 |1.8MB/s|TK-NL|GPT\u207A-NL"
+  type: http
+  server: 51.159.225.196
+  port: 23856
+  skip-cert-verify: true
+  tls: true
+- name: "\u8377\u5170-004 |1.6MB/s|TK-NL|GPT\u207A-NL|GM-NL"
+  type: http
+  server: 84.17.47.147
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+- name: "\u8377\u5170-005"
   type: vmess
   network: ws
   uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
@@ -367,30 +393,6 @@ proxies:
     headers:
       Host: renderer-stream-2-62.mirra.now
     path: /api/v1/gpu-stream/socket
-- name: "\u8377\u5170-002 |2.1MB/s|TK-NL|GPT\u207A-NL|GM-NL"
-  type: http
-  server: 84.17.47.150
-  port: 9002
-  skip-cert-verify: true
-  tls: true
-- name: "\u8377\u5170-003 |1.8MB/s|TK-NL|GPT\u207A-NL"
-  type: http
-  server: 51.159.225.196
-  port: 23856
-  skip-cert-verify: true
-  tls: true
-- name: "\u8377\u5170-004 |1.8MB/s|TK-NL|GPT\u207A-NL|GM-NL"
-  type: http
-  server: 5.255.118.82
-  port: 443
-  skip-cert-verify: true
-  tls: true
-- name: "\u8377\u5170-005 |1.6MB/s|TK-NL|GPT\u207A-NL|GM-NL"
-  type: http
-  server: 84.17.47.147
-  port: 9002
-  skip-cert-verify: true
-  tls: true
 - name: "\u8BF4\u660E-\u6765\u6E90: anaer.github.io/Sub"
   type: trojan
   server: 127.0.0.1
@@ -399,14 +401,14 @@ proxies:
   udp: true
   skip-cert-verify: true
 - name: "\u8BF4\u660E-\u6E05\u6D17\u7ED3\u679C: \u6E05\u7406 0 \u4E2A\u8282\u70B9\u3001\
-    \u8F6C\u8BD1 140 \u4E2A\u5B57\u7B26"
+    \u8F6C\u8BD1 145 \u4E2A\u5B57\u7B26"
   type: trojan
   server: 127.0.0.1
   port: 443
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-09-12 16:15 (CST)"
+- name: "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-09-12 22:44 (CST)"
   type: trojan
   server: 127.0.0.1
   port: 443
