@@ -10,6 +10,22 @@ proxies:
   alterId: 64
   cipher: auto
 - name: "\u5176\u4ED6-001"
+  type: vless
+  network: ws
+  uuid: 099244b9-2168-4dbd-870e-cbbe9d6eb573
+  server: 172.67.65.56
+  servername: whitecreeper.pages.dev
+  port: 2053
+  skip-cert-verify: false
+  tls: true
+  udp: true
+  tfo: false
+  ws-opts:
+    headers:
+      Host: whitecreeper.pages.dev
+    path: /proxyip=ProxyIP.SG.CMLiussss.Net
+  client-fingerprint: chrome
+- name: "\u5176\u4ED6-002"
   type: vmess
   network: ws
   uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
@@ -23,53 +39,7 @@ proxies:
     headers:
       Host: guanwang.awsno.com
     path: /hls/cctv5phd.m3u8
-- name: "\u5176\u4ED6-002"
-  type: vless
-  network: ws
-  uuid: V2XNET
-  server: 188.114.98.0
-  servername: or.mirikhan.dpdns.org
-  port: 443
-  skip-cert-verify: false
-  tls: true
-  udp: true
-  tfo: false
-  ws-opts:
-    headers:
-      Host: or.mirikhan.dpdns.org
-    path: /xvpnws/
-  client-fingerprint: chrome
 - name: "\u5176\u4ED6-003"
-  type: vmess
-  network: ws
-  uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
-  server: 82259754d625.oylfmxz.cn
-  port: 443
-  skip-cert-verify: true
-  tls: true
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: 82259754d625.oylfmxz.cn
-    path: /
-- name: "\u5176\u4ED6-004"
-  type: vless
-  network: ws
-  uuid: 3f2c2a0c-53ea-4bb4-8869-38f52d875d33
-  server: lxcl.pages.dev
-  servername: lxcl.pages.dev
-  port: 443
-  skip-cert-verify: false
-  tls: true
-  udp: true
-  tfo: false
-  ws-opts:
-    headers:
-      Host: lxcl.pages.dev
-    path: /
-  client-fingerprint: chrome
-- name: "\u5176\u4ED6-005"
   type: vless
   network: ws
   uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
@@ -85,7 +55,53 @@ proxies:
       Host: kkkk-xcd.pages.dev
     path: /?ed=2048
   client-fingerprint: chrome
+- name: "\u5176\u4ED6-004"
+  type: vless
+  network: ws
+  uuid: V2XNET
+  server: 188.114.98.0
+  servername: or.mirikhan.dpdns.org
+  port: 443
+  skip-cert-verify: false
+  tls: true
+  udp: true
+  tfo: false
+  ws-opts:
+    headers:
+      Host: or.mirikhan.dpdns.org
+    path: /xvpnws/
+  client-fingerprint: chrome
+- name: "\u5176\u4ED6-005"
+  type: vmess
+  network: ws
+  uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
+  server: 82259754d625.oylfmxz.cn
+  port: 443
+  skip-cert-verify: true
+  tls: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: 82259754d625.oylfmxz.cn
+    path: /
 - name: "\u5176\u4ED6-006"
+  type: vless
+  network: ws
+  uuid: 3f2c2a0c-53ea-4bb4-8869-38f52d875d33
+  server: lxcl.pages.dev
+  servername: lxcl.pages.dev
+  port: 443
+  skip-cert-verify: false
+  tls: true
+  udp: true
+  tfo: false
+  ws-opts:
+    headers:
+      Host: lxcl.pages.dev
+    path: /
+  client-fingerprint: chrome
+- name: "\u5176\u4ED6-007"
   type: vmess
   network: tcp
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
@@ -128,6 +144,18 @@ proxies:
   client-fingerprint: chrome
 - name: "\u5FB7\u56FD-001"
   type: vless
+  network: tcp
+  uuid: 23af657b-e7f0-4f65-85da-dc96b7f30f37
+  server: 5.230.135.136
+  servername: 1nf76rsu9r.stream-book.com
+  port: 8443
+  skip-cert-verify: false
+  tls: true
+  udp: true
+  tfo: false
+  client-fingerprint: chrome
+- name: "\u5FB7\u56FD-002"
+  type: vless
   network: ws
   uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
   server: 64.226.95.244
@@ -142,7 +170,7 @@ proxies:
       Host: cf3.schzyc.cc.cd
     path: /proxyip=ProxyIP.CMLiussss.net
   client-fingerprint: chrome
-- name: "\u5FB7\u56FD-002 |1.6MB/s"
+- name: "\u5FB7\u56FD-003 |1.6MB/s"
   type: hysteria
   server: 5.83.129.90
   port: 54177
@@ -156,7 +184,7 @@ proxies:
   down: 1000
   protocol: udp
   up: 500
-- name: "\u5FB7\u56FD-003 |594KB/s"
+- name: "\u5FB7\u56FD-004 |594KB/s"
   type: hysteria
   server: 5.83.129.153
   port: 20088
@@ -201,6 +229,22 @@ proxies:
     headers:
       Host: kkkk-8oc.pages.dev
     path: /?ed=2048
+  client-fingerprint: chrome
+- name: "\u65E5\u672C-001"
+  type: vless
+  network: ws
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+  server: 64.204.49.68
+  servername: vp10.pages.dev
+  port: 443
+  skip-cert-verify: false
+  tls: true
+  udp: true
+  tfo: false
+  ws-opts:
+    headers:
+      Host: vp10.pages.dev
+    path: /
   client-fingerprint: chrome
 - name: "\u6CD5\u56FD-001"
   type: vless
@@ -292,14 +336,14 @@ proxies:
   sni: www.bing.com
 - name: "\u7F57\u9A6C\u5C3C\u4E9A-008 |1.0MB/s"
   type: http
-  server: 193.176.84.26
+  server: 193.176.84.23
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
 - name: "\u7F57\u9A6C\u5C3C\u4E9A-009 |1.0MB/s"
   type: http
-  server: 193.176.84.23
+  server: 193.176.84.26
   port: 9002
   skip-cert-verify: true
   tls: true
@@ -455,6 +499,23 @@ proxies:
       Host: kkkk-8oc.pages.dev
     path: /?ed=2048
   client-fingerprint: chrome
+- name: "\u9999\u6E2F-001"
+  type: vless
+  network: ws
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  server: 23.249.18.144
+  servername: cdn8848.776676.xyz
+  port: 8581
+  skip-cert-verify: true
+  tls: true
+  ws-opts:
+    headers:
+      Host: cdn8848.776676.xyz
+    path: /channels/act?ed=2560
+  client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
 - name: "\u8BF4\u660E-\u6765\u6E90: anaer.github.io/Sub"
   type: trojan
   server: 127.0.0.1
@@ -463,14 +524,14 @@ proxies:
   udp: true
   skip-cert-verify: true
 - name: "\u8BF4\u660E-\u6E05\u6D17\u7ED3\u679C: \u6E05\u7406 0 \u4E2A\u8282\u70B9\u3001\
-    \u8F6C\u8BD1 150 \u4E2A\u5B57\u7B26"
+    \u8F6C\u8BD1 158 \u4E2A\u5B57\u7B26"
   type: trojan
   server: 127.0.0.1
   port: 443
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-09-18 16:38 (CST)"
+- name: "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-09-18 23:33 (CST)"
   type: trojan
   server: 127.0.0.1
   port: 443
