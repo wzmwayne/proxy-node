@@ -1,4 +1,6 @@
 # 宣传：vl.wzml.cc.cd 免费视频解析
+# 宣传：vl.wzml.cc.cd 免费视频解析
+# 如果你觉得项目好用，点个star吧，同时别忘了试试vl.wzml.cc.cd免费多平台视频解析！
 # proxy-node
 
 免费 Clash 节点订阅聚合 - 每 4 小时自动抓取、清洗、更新
