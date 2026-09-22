@@ -9,22 +9,33 @@ proxies:
   skip-cert-verify: true
   alterId: 64
   cipher: auto
+- name: "\u4E4C\u514B\u5170-001"
+  type: vless
+  network: ws
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  server: 213.111.148.137
+  servername: shuma.ccwu.cc
+  port: 443
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: shuma.ccwu.cc
+    path: /
+  client-fingerprint: chrome
 - name: "\u5176\u4ED6-001"
   type: vless
   network: ws
-  uuid: 099244b9-2168-4dbd-870e-cbbe9d6eb573
-  server: 172.67.65.56
-  servername: whitecreeper.pages.dev
-  port: 2053
-  skip-cert-verify: false
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  server: 104.21.87.109
+  servername: 7-m16.PhUkEt2035.kdNS.fr
+  port: 443
   tls: true
-  udp: true
-  tfo: false
   ws-opts:
     headers:
-      Host: whitecreeper.pages.dev
-    path: /proxyip=ProxyIP.SG.CMLiussss.Net
-  client-fingerprint: chrome
+      Host: 7-m16.PhUkEt2035.kdNS.fr
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
 - name: "\u5176\u4ED6-002"
   type: vmess
   network: ws
@@ -55,12 +66,12 @@ proxies:
       Host: kkkk-xcd.pages.dev
     path: /?ed=2048
   client-fingerprint: chrome
-- name: "\u5176\u4ED6-004"
+- name: "\u5370\u5EA6-001"
   type: vless
   network: ws
-  uuid: V2XNET
-  server: 188.114.98.0
-  servername: or.mirikhan.dpdns.org
+  uuid: c92e12ca-ea66-4785-8675-652b35134117
+  server: 139.84.156.127
+  servername: thus-k.netnode.cc.cd
   port: 443
   skip-cert-verify: false
   tls: true
@@ -68,24 +79,8 @@ proxies:
   tfo: false
   ws-opts:
     headers:
-      Host: or.mirikhan.dpdns.org
-    path: /xvpnws/
-  client-fingerprint: chrome
-- name: "\u5176\u4ED6-005"
-  type: vless
-  network: ws
-  uuid: 3f2c2a0c-53ea-4bb4-8869-38f52d875d33
-  server: lxcl.pages.dev
-  servername: lxcl.pages.dev
-  port: 443
-  skip-cert-verify: false
-  tls: true
-  udp: true
-  tfo: false
-  ws-opts:
-    headers:
-      Host: lxcl.pages.dev
-    path: /
+      Host: thus-k.netnode.cc.cd
+    path: /t.me/daily_free_vpn
   client-fingerprint: chrome
 - name: "\u5E0C\u814A-001"
   type: vless
@@ -103,7 +98,22 @@ proxies:
       Host: kkkk-xcd.pages.dev
     path: /?ed=2048
   client-fingerprint: chrome
-- name: "\u5FB7\u56FD-001 |1.6MB/s"
+- name: "\u5FB7\u56FD-001"
+  type: vless
+  network: ws
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  server: 109.176.202.20
+  servername: shuma.ccwu.cc
+  port: 443
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  ws-opts:
+    headers:
+      Host: shuma.ccwu.cc
+    path: /
+  client-fingerprint: chrome
+- name: "\u5FB7\u56FD-002 |1.6MB/s"
   type: hysteria
   server: 5.83.129.90
   port: 54177
@@ -117,7 +127,7 @@ proxies:
   down: 1000
   protocol: udp
   up: 500
-- name: "\u5FB7\u56FD-002 |594KB/s"
+- name: "\u5FB7\u56FD-003 |594KB/s"
   type: hysteria
   server: 5.83.129.153
   port: 20088
@@ -131,18 +141,6 @@ proxies:
   up: 500
   down: 1000
   auth_str: dongtaiwang.com
-- name: "\u5FB7\u56FD-003"
-  type: vless
-  network: tcp
-  uuid: 23af657b-e7f0-4f65-85da-dc96b7f30f37
-  server: 5.230.135.136
-  servername: 1nf76rsu9r.stream-book.com
-  port: 8443
-  skip-cert-verify: false
-  tls: true
-  udp: true
-  tfo: false
-  client-fingerprint: chrome
 - name: "\u5FB7\u56FD-004"
   type: vless
   network: ws
@@ -190,22 +188,6 @@ proxies:
     headers:
       Host: kkkk-8oc.pages.dev
     path: /?ed=2048
-  client-fingerprint: chrome
-- name: "\u65E5\u672C-001"
-  type: vless
-  network: ws
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  server: 64.204.49.68
-  servername: vp10.pages.dev
-  port: 443
-  skip-cert-verify: false
-  tls: true
-  udp: true
-  tfo: false
-  ws-opts:
-    headers:
-      Host: vp10.pages.dev
-    path: /
   client-fingerprint: chrome
 - name: "\u6CD5\u56FD-001"
   type: vless
@@ -410,22 +392,37 @@ proxies:
   port: 9002
   skip-cert-verify: true
   tls: true
+- name: "\u82AC\u5170-001"
+  type: vless
+  network: xhttp
+  uuid: d9d0f208-d582-41d5-bb7b-742671402810
+  server: 31.76.226.100
+  servername: hub-ee-01.hanvpn.cc
+  port: 9443
+  tls: true
+  udp: true
+  xudp: true
+  client-fingerprint: chrome
+  xhttp-opts:
+    host: hub-ee-01.hanvpn.cc
+    mode: auto
+    path: /ee01-xhttp-8e47a/
 - name: "\u8377\u5170-001 |2.1MB/s|TK-NL|GPT\u207A-NL|GM-NL"
   type: http
   server: 84.17.47.150
   port: 9002
   skip-cert-verify: true
   tls: true
-- name: "\u8377\u5170-002 |1.8MB/s|TK-NL|GPT\u207A-NL"
-  type: http
-  server: 51.159.225.196
-  port: 23856
-  skip-cert-verify: true
-  tls: true
-- name: "\u8377\u5170-003 |1.8MB/s|TK-NL|GPT\u207A-NL|GM-NL"
+- name: "\u8377\u5170-002 |1.8MB/s|TK-NL|GPT\u207A-NL|GM-NL"
   type: http
   server: 5.255.118.82
   port: 443
+  skip-cert-verify: true
+  tls: true
+- name: "\u8377\u5170-003 |1.8MB/s|TK-NL|GPT\u207A-NL"
+  type: http
+  server: 51.159.225.196
+  port: 23856
   skip-cert-verify: true
   tls: true
 - name: "\u8377\u5170-004 |1.6MB/s|TK-NL|GPT\u207A-NL|GM-NL"
@@ -475,14 +472,14 @@ proxies:
   udp: true
   skip-cert-verify: true
 - name: "\u8BF4\u660E-\u6E05\u6D17\u7ED3\u679C: \u6E05\u7406 0 \u4E2A\u8282\u70B9\u3001\
-    \u8F6C\u8BD1 149 \u4E2A\u5B57\u7B26"
+    \u8F6C\u8BD1 150 \u4E2A\u5B57\u7B26"
   type: trojan
   server: 127.0.0.1
   port: 443
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-09-22 16:55 (CST)"
+- name: "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-09-23 00:01 (CST)"
   type: trojan
   server: 127.0.0.1
   port: 443
