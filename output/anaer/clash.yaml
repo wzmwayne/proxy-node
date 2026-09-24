@@ -1,14 +1,4 @@
 proxies:
-- name: "\u4E2D\u56FD-001"
-  type: vmess
-  network: tcp
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  server: 112.132.215.108
-  servername: 112.132.215.108
-  port: 50002
-  skip-cert-verify: true
-  alterId: 64
-  cipher: auto
 - name: "\u4E4C\u514B\u5170-001"
   type: vless
   network: ws
@@ -36,36 +26,6 @@ proxies:
     headers:
       Host: 7-m16.PhUkEt2035.kdNS.fr
     path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-- name: "\u5176\u4ED6-002"
-  type: vmess
-  network: ws
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  server: www.shopify.com
-  port: 443
-  skip-cert-verify: true
-  tls: true
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: guanwang.awsno.com
-    path: /hls/cctv5phd.m3u8
-- name: "\u5176\u4ED6-003"
-  type: vless
-  network: ws
-  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
-  server: 8.35.211.236
-  servername: kkkk-xcd.pages.dev
-  port: 443
-  skip-cert-verify: false
-  tls: true
-  udp: true
-  tfo: false
-  ws-opts:
-    headers:
-      Host: kkkk-xcd.pages.dev
-    path: /?ed=2048
-  client-fingerprint: chrome
 - name: "\u5370\u5EA6-001"
   type: vless
   network: ws
@@ -82,23 +42,35 @@ proxies:
       Host: thus-k.netnode.cc.cd
     path: /t.me/daily_free_vpn
   client-fingerprint: chrome
-- name: "\u5E0C\u814A-001"
-  type: vless
-  network: ws
-  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
-  server: 38.54.29.210
-  servername: kkkk-xcd.pages.dev
-  port: 2053
-  skip-cert-verify: false
-  tls: true
+- name: "\u5FB7\u56FD-001 |1.6MB/s"
+  type: hysteria
+  server: 5.83.129.90
+  port: 54177
+  skip-cert-verify: true
   udp: true
-  tfo: false
-  ws-opts:
-    headers:
-      Host: kkkk-xcd.pages.dev
-    path: /?ed=2048
-  client-fingerprint: chrome
-- name: "\u5FB7\u56FD-001"
+  sni: apple.com
+  alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 1000
+  protocol: udp
+  up: 500
+- name: "\u5FB7\u56FD-002 |594KB/s"
+  type: hysteria
+  server: 5.83.129.153
+  port: 20088
+  skip-cert-verify: true
+  udp: true
+  sni: apple.com
+  alpn:
+  - h3
+  protocol: udp
+  auth-str: dongtaiwang.com
+  up: 500
+  down: 1000
+  auth_str: dongtaiwang.com
+- name: "\u5FB7\u56FD-003"
   type: vless
   network: ws
   uuid: c18b978e-1c4e-415c-8bea-07942b563a64
@@ -113,34 +85,6 @@ proxies:
       Host: shuma.ccwu.cc
     path: /
   client-fingerprint: chrome
-- name: "\u5FB7\u56FD-002 |1.6MB/s"
-  type: hysteria
-  server: 5.83.129.90
-  port: 54177
-  skip-cert-verify: true
-  udp: true
-  sni: apple.com
-  alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 1000
-  protocol: udp
-  up: 500
-- name: "\u5FB7\u56FD-003 |594KB/s"
-  type: hysteria
-  server: 5.83.129.153
-  port: 20088
-  skip-cert-verify: true
-  udp: true
-  sni: apple.com
-  alpn:
-  - h3
-  protocol: udp
-  auth-str: dongtaiwang.com
-  up: 500
-  down: 1000
-  auth_str: dongtaiwang.com
 - name: "\u5FB7\u56FD-004"
   type: vless
   network: ws
@@ -157,98 +101,41 @@ proxies:
       Host: cf3.schzyc.cc.cd
     path: /proxyip=ProxyIP.CMLiussss.net
   client-fingerprint: chrome
-- name: "\u632A\u5A01-001"
-  type: vless
-  network: ws
-  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
-  server: 185.125.171.128
-  servername: kkkk-xcd.pages.dev
-  port: 8443
-  skip-cert-verify: false
-  tls: true
-  udp: true
-  tfo: false
-  ws-opts:
-    headers:
-      Host: kkkk-xcd.pages.dev
-    path: /?ed=2048
-  client-fingerprint: chrome
-- name: "\u65B0\u52A0\u5761-001"
-  type: vless
-  network: ws
-  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
-  server: 43.174.195.1
-  servername: kkkk-8oc.pages.dev
-  port: 443
-  skip-cert-verify: false
-  tls: true
-  udp: true
-  tfo: false
-  ws-opts:
-    headers:
-      Host: kkkk-8oc.pages.dev
-    path: /?ed=2048
-  client-fingerprint: chrome
-- name: "\u6CD5\u56FD-001"
-  type: vless
-  network: ws
-  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
-  server: 141.227.137.177
-  servername: kkkk-xcd.pages.dev
-  port: 2053
-  skip-cert-verify: false
-  tls: true
-  udp: true
-  tfo: false
-  ws-opts:
-    headers:
-      Host: kkkk-xcd.pages.dev
-    path: /?ed=2048
-  client-fingerprint: chrome
-- name: "\u6CE2\u5170-001"
-  type: vless
-  network: ws
-  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
-  server: 103.167.234.26
-  servername: kkkk-8oc.pages.dev
-  port: 443
-  skip-cert-verify: false
-  tls: true
-  udp: true
-  tfo: false
-  ws-opts:
-    headers:
-      Host: kkkk-8oc.pages.dev
-    path: /?ed=2048
-  client-fingerprint: chrome
 - name: "\u6FB3\u5927\u5229\u4E9A-001 |3.0MB/s|TK-AU|YT-AU|GPT\u207A-AU"
   type: http
   server: 159.13.44.228
   port: 443
   skip-cert-verify: true
   tls: true
-- name: "\u7F57\u9A6C\u5C3C\u4E9A-001 |3.3MB/s|TK-RO|GPT\u207A-RO|GM-RO"
+- name: "\u7F57\u9A6C\u5C3C\u4E9A-001 |1.0MB/s"
+  type: http
+  server: 193.176.84.23
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: "\u7F57\u9A6C\u5C3C\u4E9A-002 |3.3MB/s|TK-RO|GPT\u207A-RO|GM-RO"
   type: http
   server: 193.176.84.35
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: "\u7F57\u9A6C\u5C3C\u4E9A-002 |2.3MB/s|TK-RO|GPT\u207A-RO|GM-RO"
+- name: "\u7F57\u9A6C\u5C3C\u4E9A-003 |2.3MB/s|TK-RO|GPT\u207A-RO|GM-RO"
   type: http
   server: 193.176.84.17
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: "\u7F57\u9A6C\u5C3C\u4E9A-003 |1.4MB/s"
+- name: "\u7F57\u9A6C\u5C3C\u4E9A-004 |1.4MB/s"
   type: http
   server: 193.176.84.27
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: "\u7F57\u9A6C\u5C3C\u4E9A-004 |1.3MB/s"
+- name: "\u7F57\u9A6C\u5C3C\u4E9A-005 |1.3MB/s"
   type: http
   server: 193.176.84.36
   port: 9002
@@ -256,37 +143,30 @@ proxies:
   tls: true
   udp: true
   sni: www.bing.com
-- name: "\u7F57\u9A6C\u5C3C\u4E9A-005 |1.2MB/s"
+- name: "\u7F57\u9A6C\u5C3C\u4E9A-006 |1.2MB/s"
   type: http
   server: 193.176.84.32
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: "\u7F57\u9A6C\u5C3C\u4E9A-006 |1.1MB/s|TK-RO|GPT\u207A-RO|GM-RO"
+- name: "\u7F57\u9A6C\u5C3C\u4E9A-007 |1.1MB/s|TK-RO|GPT\u207A-RO|GM-RO"
   type: http
   server: 193.176.84.30
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: "\u7F57\u9A6C\u5C3C\u4E9A-007 |1.1MB/s"
+- name: "\u7F57\u9A6C\u5C3C\u4E9A-008 |1.1MB/s"
   type: http
   server: 193.176.84.40
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: "\u7F57\u9A6C\u5C3C\u4E9A-008 |1.0MB/s"
-  type: http
-  server: 193.176.84.26
-  port: 9002
-  skip-cert-verify: true
-  tls: true
-  sni: www.bing.com
 - name: "\u7F57\u9A6C\u5C3C\u4E9A-009 |1.0MB/s"
   type: http
-  server: 193.176.84.23
+  server: 193.176.84.26
   port: 9002
   skip-cert-verify: true
   tls: true
@@ -407,16 +287,16 @@ proxies:
     host: hub-ee-01.hanvpn.cc
     mode: auto
     path: /ee01-xhttp-8e47a/
-- name: "\u8377\u5170-001 |2.1MB/s|TK-NL|GPT\u207A-NL|GM-NL"
-  type: http
-  server: 84.17.47.150
-  port: 9002
-  skip-cert-verify: true
-  tls: true
-- name: "\u8377\u5170-002 |1.8MB/s|TK-NL|GPT\u207A-NL|GM-NL"
+- name: "\u8377\u5170-001 |1.8MB/s|TK-NL|GPT\u207A-NL|GM-NL"
   type: http
   server: 5.255.118.82
   port: 443
+  skip-cert-verify: true
+  tls: true
+- name: "\u8377\u5170-002 |2.1MB/s|TK-NL|GPT\u207A-NL|GM-NL"
+  type: http
+  server: 84.17.47.150
+  port: 9002
   skip-cert-verify: true
   tls: true
 - name: "\u8377\u5170-003 |1.8MB/s|TK-NL|GPT\u207A-NL"
@@ -431,22 +311,6 @@ proxies:
   port: 9002
   skip-cert-verify: true
   tls: true
-- name: "\u97E9\u56FD-001"
-  type: vless
-  network: ws
-  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
-  server: 110.10.178.240
-  servername: kkkk-8oc.pages.dev
-  port: 443
-  skip-cert-verify: false
-  tls: true
-  udp: true
-  tfo: false
-  ws-opts:
-    headers:
-      Host: kkkk-8oc.pages.dev
-    path: /?ed=2048
-  client-fingerprint: chrome
 - name: "\u9999\u6E2F-001"
   type: vless
   network: ws
@@ -472,14 +336,14 @@ proxies:
   udp: true
   skip-cert-verify: true
 - name: "\u8BF4\u660E-\u6E05\u6D17\u7ED3\u679C: \u6E05\u7406 0 \u4E2A\u8282\u70B9\u3001\
-    \u8F6C\u8BD1 150 \u4E2A\u5B57\u7B26"
+    \u8F6C\u8BD1 131 \u4E2A\u5B57\u7B26"
   type: trojan
   server: 127.0.0.1
   port: 443
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-09-24 16:53 (CST)"
+- name: "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-09-25 00:14 (CST)"
   type: trojan
   server: 127.0.0.1
   port: 443
