@@ -1,19 +1,30 @@
 proxies:
-- name: "\u5176\u4ED6-001"
+- name: "\u4E2D\u56FD-001"
   type: vmess
-  network: ws
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  server: guanwang.awsno.com
-  port: 443
+  network: tcp
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  server: 112.132.215.108
+  port: 50002
   skip-cert-verify: true
-  tls: true
-  alterId: 0
+  alterId: 64
   cipher: auto
+- name: "\u4E2D\u56FD-002"
+  type: vless
+  network: ws
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  server: 129.211.188.184
+  servername: jp3.yohototo.top
+  port: 8443
+  skip-cert-verify: false
+  tls: true
+  udp: true
+  tfo: false
   ws-opts:
     headers:
-      Host: guanwang.awsno.com
-    path: /hls/cctv5phd.m3u8
-- name: "\u5176\u4ED6-002"
+      Host: jp3.yohototo.top
+    path: /tyxyws
+  client-fingerprint: unsafe
+- name: "\u5176\u4ED6-001"
   type: vless
   network: ws
   uuid: 2e305ebe-f6e6-4689-b32f-cd04ab5ff541
@@ -29,23 +40,22 @@ proxies:
       Host: idb8onmvbntuyt5t7t6cejfw8vlrb.pages.dev
     path: /vl/9yvcoLdzdOXLUYfH7r5gwJhu1CHrj
   client-fingerprint: chrome
-- name: "\u5176\u4ED6-003"
+- name: "\u5176\u4ED6-002"
   type: vless
   network: ws
-  uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
-  server: 104.19.154.200
-  servername: free.cndyw.ggff.net
+  uuid: 0799a47d-d446-4a20-8e75-441fa899fbb1
+  server: 104.16.72.70
+  servername: unnes.ac.id.r3xxe.eu.cc
   port: 443
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: true
   udp: true
   tfo: false
   ws-opts:
     headers:
-      Host: free.cndyw.ggff.net
-    path: pyip=bpb.yousef.isegaro.com
-  client-fingerprint: chrome
-- name: "\u5176\u4ED6-004"
+      Host: unnes.ac.id.r3xxe.eu.cc
+    path: /id-pusat
+- name: "\u5176\u4ED6-003"
   type: vless
   network: ws
   uuid: bc5ec86c-3e65-4272-994c-59a924c72a68
@@ -61,12 +71,26 @@ proxies:
       Host: fbsv6.guardora.pro
     path: /ws
   client-fingerprint: firefox
-- name: "\u5370\u5EA6-001"
+- name: "\u5176\u4ED6-004"
+  type: vmess
+  network: ws
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  server: guanwang.awsno.com
+  port: 443
+  skip-cert-verify: true
+  tls: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: guanwang.awsno.com
+    path: /hls/cctv5phd.m3u8
+- name: "\u5176\u4ED6-005"
   type: vless
   network: ws
-  uuid: c92e12ca-ea66-4785-8675-652b35134117
-  server: 139.84.156.127
-  servername: thus-k.netnode.cc.cd
+  uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
+  server: 104.19.154.200
+  servername: free.cndyw.ggff.net
   port: 443
   skip-cert-verify: false
   tls: true
@@ -74,8 +98,8 @@ proxies:
   tfo: false
   ws-opts:
     headers:
-      Host: thus-k.netnode.cc.cd
-    path: /t.me/daily_free_vpn
+      Host: free.cndyw.ggff.net
+    path: pyip=bpb.yousef.isegaro.com
   client-fingerprint: chrome
 - name: "\u5FB7\u56FD-001 |1.6MB/s"
   type: hysteria
@@ -147,16 +171,16 @@ proxies:
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: "\u7F57\u9A6C\u5C3C\u4E9A-006 |1.1MB/s|TK-RO|GPT\u207A-RO|GM-RO"
+- name: "\u7F57\u9A6C\u5C3C\u4E9A-006 |1.1MB/s"
   type: http
-  server: 193.176.84.30
+  server: 193.176.84.40
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: "\u7F57\u9A6C\u5C3C\u4E9A-007 |1.1MB/s"
+- name: "\u7F57\u9A6C\u5C3C\u4E9A-007 |1.1MB/s|TK-RO|GPT\u207A-RO|GM-RO"
   type: http
-  server: 193.176.84.40
+  server: 193.176.84.30
   port: 9002
   skip-cert-verify: true
   tls: true
@@ -334,14 +358,14 @@ proxies:
   udp: true
   skip-cert-verify: true
 - name: "\u8BF4\u660E-\u6E05\u6D17\u7ED3\u679C: \u6E05\u7406 0 \u4E2A\u8282\u70B9\u3001\
-    \u8F6C\u8BD1 130 \u4E2A\u5B57\u7B26"
+    \u8F6C\u8BD1 134 \u4E2A\u5B57\u7B26"
   type: trojan
   server: 127.0.0.1
   port: 443
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-09-29 18:17 (CST)"
+- name: "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-09-30 01:23 (CST)"
   type: trojan
   server: 127.0.0.1
   port: 443
