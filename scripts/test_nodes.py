@@ -524,7 +524,7 @@ def build_merge_only(proxies, n_inputs, src_of_name, net_label=""):
     names = [p["name"] for p in ordered]
 
     now = time.strftime("%Y-%m-%d %H:%M", time.gmtime(time.time() + 8 * 3600))
-    fake_names = [f"说明-来源: AIO 合并(合并 {n_inputs} 个来源)"]
+    fake_names = [f"说明-来源: AIO 不精选(合并 {n_inputs} 个来源)"]
     if net_label:
         fake_names.append(f"说明-测试网络: {net_label}")
     fake_names.append("说明-测试: 本次未测延迟/带宽,直接合并(不精选)")
@@ -535,7 +535,7 @@ def build_merge_only(proxies, n_inputs, src_of_name, net_label=""):
     ]
 
     groups = [{"name": "说明", "type": "select", "proxies": fake_names}]
-    groups.append({"name": "🚀 节点选择(全部精选)", "type": "select", "proxies": names})
+    groups.append({"name": "🚀 节点选择(全部)", "type": "select", "proxies": names})
     groups.append({
         "name": "♻️ 自动选择",
         "type": "url-test",
@@ -562,7 +562,7 @@ def build_merge_only(proxies, n_inputs, src_of_name, net_label=""):
         "external-controller": "127.0.0.1:9090",
         "proxies": [fake_proxy(n) for n in fake_names] + ordered,
         "proxy-groups": groups,
-        "rules": ["MATCH,🚀 节点选择(全部精选)"],
+        "rules": ["MATCH,🚀 节点选择(全部)"],
     }
     return aio, src_stat
 
