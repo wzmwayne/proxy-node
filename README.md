@@ -4,7 +4,7 @@
 
 - 仓库已解除**归档（只读）**，恢复每 4 小时自动抓取、清洗、实测与发布；
 - 停更期间 `output/*` 曾被替换为「通知假节点」（用于在客户端展示公告），现所有订阅已恢复为真实节点；
-- 项目说明文档保留在本 README 下方（自「宣传 / proxy-node」起）。
+- 项目说明文档保留在本 README 下方（自「proxy-node」起）。
 
 ## 为什么关注 keepandroidopen.org
 
@@ -18,8 +18,6 @@
 放弃所有权利（Unlicense / 公有领域），可自由取用、修改与再分发，详见 [LICENSE](LICENSE)。
 
 ---
-
-# 宣传：vl.wzml.cc.cd 免费视频解析
 
 # proxy-node
 
