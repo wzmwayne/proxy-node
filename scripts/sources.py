@@ -37,6 +37,8 @@ SOURCES = {
     "passcro": ("zhangkaiitugithub/passcro", "https://github.com/zhangkaiitugithub/passcro"),
     "anaer": ("anaer.github.io/Sub", "https://anaer.github.io/Sub/proxies.yaml"),
     "xiaoji235": ("xiaoji235/airport-free", "https://github.com/xiaoji235/airport-free"),
+    "barabama": ("Barabama/FreeNodes", "https://github.com/Barabama/FreeNodes"),
+    "free18": ("free18/v2ray", "https://github.com/free18/v2ray"),
 }
 
 FETCH_URLS = {
@@ -46,4 +48,6 @@ FETCH_URLS = {
     "passcro": "https://raw.githubusercontent.com/zhangkaiitugithub/passcro/main/speednodes.yaml",
     "anaer": "https://anaer.github.io/Sub/proxies.yaml",
     "xiaoji235": "https://raw.githubusercontent.com/xiaoji235/airport-free/main/clash/clashnodecc.txt",
+    "barabama": "https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/clashmeta.yaml",
+    "free18": "https://raw.githubusercontent.com/free18/v2ray/main/c.yaml",
 }

@@ -60,6 +60,8 @@
 | xiaoji235/airport-free | https://raw.githubusercontent.com/wzmwayne/proxy-node/main/output/xiaoji235/clash.yaml | https://ghproxy.net/github.com/wzmwayne/proxy-node/raw/main/output/xiaoji235/clash.yaml |
 | NodeToolBox（每日文章页解析） | https://raw.githubusercontent.com/wzmwayne/proxy-node/main/output/nodetoolbox/clash.yaml | https://ghproxy.net/github.com/wzmwayne/proxy-node/raw/main/output/nodetoolbox/clash.yaml |
 | 机场e（jichangg.world） | https://raw.githubusercontent.com/wzmwayne/proxy-node/main/output/jichangg/clash.yaml | https://ghproxy.net/github.com/wzmwayne/proxy-node/raw/main/output/jichangg/clash.yaml |
+| Barabama/FreeNodes | https://raw.githubusercontent.com/wzmwayne/proxy-node/main/output/barabama/clash.yaml | https://ghproxy.net/github.com/wzmwayne/proxy-node/raw/main/output/barabama/clash.yaml |
+| free18/v2ray | https://raw.githubusercontent.com/wzmwayne/proxy-node/main/output/free18/clash.yaml | https://ghproxy.net/github.com/wzmwayne/proxy-node/raw/main/output/free18/clash.yaml |
 
 > 仅提供 Clash (Mihomo) 格式。直接复制链接到 FlClash / Clash Verge Rev / Mihomo 的订阅导入框即可。
 
@@ -131,6 +133,8 @@ output/
   anaer/    clash.yaml     # anaer.github.io/Sub 来源(清洗后)
   xiaoji235/ clash.yaml    # xiaoji235/airport-free 来源(清洗后)
   nodetoolbox/ clash.yaml  # NodeToolBox 来源(页面型,清洗后)
+  barabama/ clash.yaml     # Barabama/FreeNodes 来源(清洗后)
+  free18/   clash.yaml     # free18/v2ray 来源(清洗后)
   jichangg/ clash.yaml     # 机场e 来源(页面型,站点恢复后自动接入)
   aio/      clash.yaml     # AIO 精选(合并全部来源,经内核可达性 + 测速)
   aio-all/  clash.yaml     # AIO 不精选(全部来源直接去重合并,不做测试)
