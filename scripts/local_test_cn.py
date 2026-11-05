@@ -149,6 +149,8 @@ def main():
             print("  [INFO] 未启用镜像,直连 GitHub")
         step("1/3 抓取其它来源")
         run([sys.executable, "scripts/fetch_sources.py"], env)
+        step("1/3 抓取页面型来源(每日文章页解析)")
+        run([sys.executable, "scripts/scrape_page_sources.py"], env)
 
     # ---------- 2) 清洗 ----------
     raw_files = sorted(glob.glob(os.path.join(ROOT, "output", "*", "clash.raw.yaml")))

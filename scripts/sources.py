@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """订阅来源清单(集中维护) + GitHub 下载镜像支持。
 
-SOURCES:    来源标识 -> (显示名称, 主页 URL),供 sanitize.py 说明节点使用
-FETCH_URLS: 来源标识 -> 订阅文件 URL(yoyapai 由 scraper.py 抓取,不在此列)
+SOURCES:       来源标识 -> (显示名称, 主页 URL),供 sanitize.py 说明节点使用
+FETCH_URLS:    来源标识 -> 固定订阅文件 URL(yoyapai 由 scraper.py 抓取,不在此列)
+PAGE_SOURCES:  页面型来源(订阅地址每日变化)见 page_sources.py,由 scrape_page_sources.py 抓取
 """
 import os
 
@@ -27,6 +28,9 @@ def mirror_url(url: str) -> str:
 
 SOURCES = {
     "yoyapai": ("yoyapai.com", "https://yoyapai.com/category/mianfeijiedian"),
+    # 页面型来源(订阅地址每日变化,由 scrape_page_sources.py 解析)
+    "nodetoolbox": ("NodeToolBox", "https://nodetoolbox.net/free-nodes/"),
+    "jichangg": ("机场e (jichangg.world)", "https://jichangg.world/mianfei/"),
     "au1rxx": ("Au1rxx/free-vpn-subscriptions", "https://github.com/Au1rxx/free-vpn-subscriptions"),
     "freesub": ("Ruk1ng001/freeSub", "https://github.com/Ruk1ng001/freeSub"),
     "ripaojiedian": ("ripaojiedian/freenode", "https://github.com/ripaojiedian/freenode"),

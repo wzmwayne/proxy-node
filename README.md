@@ -38,8 +38,14 @@
 | zhangkaiitugithub/passcro | https://raw.githubusercontent.com/wzmwayne/proxy-node/main/output/passcro/clash.yaml | https://ghproxy.net/github.com/wzmwayne/proxy-node/raw/main/output/passcro/clash.yaml |
 | anaer.github.io/Sub | https://raw.githubusercontent.com/wzmwayne/proxy-node/main/output/anaer/clash.yaml | https://ghproxy.net/github.com/wzmwayne/proxy-node/raw/main/output/anaer/clash.yaml |
 | xiaoji235/airport-free | https://raw.githubusercontent.com/wzmwayne/proxy-node/main/output/xiaoji235/clash.yaml | https://ghproxy.net/github.com/wzmwayne/proxy-node/raw/main/output/xiaoji235/clash.yaml |
+| NodeToolBox（每日文章页解析） | https://raw.githubusercontent.com/wzmwayne/proxy-node/main/output/nodetoolbox/clash.yaml | https://ghproxy.net/github.com/wzmwayne/proxy-node/raw/main/output/nodetoolbox/clash.yaml |
+| 机场e（jichangg.world） | https://raw.githubusercontent.com/wzmwayne/proxy-node/main/output/jichangg/clash.yaml | https://ghproxy.net/github.com/wzmwayne/proxy-node/raw/main/output/jichangg/clash.yaml |
 
 > 仅提供 Clash (Mihomo) 格式。直接复制链接到 FlClash / Clash Verge Rev / Mihomo 的订阅导入框即可。
+>
+> **页面型来源**:NodeToolBox 与 机场e 的订阅地址按日期变化,由 `scripts/scrape_page_sources.py`
+> 解析每日文章页后下载。其中 `jichangg.world` 站点自 2026-10 起其订阅域名(`sub.jichange.world`)
+> 已无法解析(页面也停在 10-08),当前会自动跳过;站点恢复后无需改代码即可自动接入。
 
 ## AIO 精选怎么来的
 
@@ -80,11 +86,15 @@ output/
   passcro/  clash.yaml     # zhangkaiitugithub/passcro 来源(清洗后)
   anaer/    clash.yaml     # anaer.github.io/Sub 来源(清洗后)
   xiaoji235/ clash.yaml    # xiaoji235/airport-free 来源(清洗后)
+  nodetoolbox/ clash.yaml  # NodeToolBox 来源(页面型,清洗后)
+  jichangg/ clash.yaml     # 机场e 来源(页面型,站点恢复后自动接入)
   aio/      clash.yaml     # AIO 精选(合并全部来源,经内核可达性 + 测速)
 scripts/
   sources.py               # 来源清单(名称/主页/下载 URL,集中维护)
   scraper.py               # 抓取 yoyapai.com 文章并下载最新订阅
-  fetch_sources.py         # 下载其它来源到 output/<name>/clash.raw.yaml(暂存)
+  fetch_sources.py         # 下载固定订阅地址的来源到 output/<name>/clash.raw.yaml(暂存)
+  page_sources.py          # 页面型来源解析器(nodetoolbox / jichangg)
+  scrape_page_sources.py   # 抓取页面型来源的最新订阅(解析每日文章页)
   sanitize.py              # 清洗(控制字符/垃圾键/重名/悬空引用)+ 内核门禁
   test_nodes.py            # 内核可达性 + 20MB 测速 + 生成 AIO
   check_sources.py         # 校验 output/ 与来源清单一致(防孤儿目录)
@@ -104,7 +114,8 @@ pip install -r requirements.txt
 bash scripts/install_mihomo.sh                 # 下载并校验 mihomo(可用 MIHOMO_BIN 覆盖)
 
 python scripts/scraper.py                      # 抓 yoyapai -> output/yoyapai/clash.raw.yaml
-python scripts/fetch_sources.py                # 抓其它来源 -> output/<name>/clash.raw.yaml
+python scripts/fetch_sources.py                # 抓固定订阅地址的来源 -> output/<name>/clash.raw.yaml
+python scripts/scrape_page_sources.py -v       # 抓页面型来源(每日文章页解析),--dry-run 可先看解析结果
 
 # 清洗单个来源(带内核门禁;--gate 需要 mihomo 与网络)
 python scripts/sanitize.py output/yoyapai/clash.raw.yaml output/yoyapai/clash.yaml \

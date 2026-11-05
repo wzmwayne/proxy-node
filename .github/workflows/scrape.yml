@@ -63,6 +63,9 @@ jobs:
       - name: Fetch other sources
         run: python scripts/fetch_sources.py || echo "::warning::部分来源下载失败，继续处理已下载的来源"
 
+      - name: 抓取页面型来源（每日文章页解析）
+        run: python scripts/scrape_page_sources.py || echo "::warning::页面型来源抓取失败，跳过"
+
       - name: Sanitize + 内核门禁 + 发布
         run: |
           published=0
