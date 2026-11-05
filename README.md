@@ -1,3 +1,24 @@
+# 声明
+
+本项目已于 **2026-11-05 恢复维护**（此前因学业原因暂缓更新并把仓库设为归档，现解除归档）。
+
+- 仓库已解除**归档（只读）**，恢复每 4 小时自动抓取、清洗、实测与发布；
+- 停更期间 `output/*` 曾被替换为「通知假节点」（用于在客户端展示公告），现所有订阅已恢复为真实节点；
+- 项目说明文档保留在本 README 下方（自「宣传 / proxy-node」起）。
+
+## 为什么关注 keepandroidopen.org
+
+安卓正在从「开放安装」走向受控分发：侧载限制、开发者验证、平台签名垄断，
+会直接压缩个人开发者与普通用户的空间。这与项目是否更新无关，值得持续关注。
+
+<https://keepandroidopen.org>
+
+## 许可
+
+放弃所有权利（Unlicense / 公有领域），可自由取用、修改与再分发，详见 [LICENSE](LICENSE)。
+
+---
+
 # 宣传：vl.wzml.cc.cd 免费视频解析
 
 # proxy-node
@@ -215,4 +236,4 @@ python scripts/local_test_cn.py --no-fetch  # 跳过抓取，直接测仓库里�
 
 ## License
 
-MIT,见 [LICENSE](LICENSE)。
+放弃所有权利（Unlicense / 公有领域）,可自由取用、修改与再分发,见 [LICENSE](LICENSE)。
