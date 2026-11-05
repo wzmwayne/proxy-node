@@ -9,6 +9,15 @@ on:
         description: 只生成不提交(调试用)
         type: boolean
         default: false
+      test_latency:
+        description: 是否测延迟/可达性(false=跳过延迟测试)
+        type: boolean
+        default: true
+      test_bandwidth:
+        description: 是否测带宽(20MB 测速,false=跳过测速)
+        type: boolean
+        default: true
+      # 两个都选 false 时:AIO 直接合并(不测延迟/带宽)
 
 # 同一时间只跑一轮,避免两次运行互相 push 冲突
 concurrency:
@@ -100,7 +109,19 @@ jobs:
           if [ -z "$INPUTS" ]; then
             echo "::error::没有可用的来源文件"; exit 1
           fi
+          TEST_LATENCY="${{ inputs.test_latency }}"
+          TEST_BANDWIDTH="${{ inputs.test_bandwidth }}"
+          FLAGS=""
+          if [ "$TEST_LATENCY" = "false" ] && [ "$TEST_BANDWIDTH" = "false" ]; then
+            FLAGS="--merge-only"
+            echo "手动参数: 不测延迟/带宽 -> AIO 直接合并"
+          else
+            if [ "$TEST_LATENCY" = "false" ]; then FLAGS="$FLAGS --no-delay"; fi
+            if [ "$TEST_BANDWIDTH" = "false" ]; then FLAGS="$FLAGS --no-speed"; fi
+            echo "手动参数: test_latency=${TEST_LATENCY:-true} test_bandwidth=${TEST_BANDWIDTH:-true}"
+          fi
           python scripts/test_nodes.py $INPUTS -o output/aio/clash.yaml \
+            $FLAGS \
             --mihomo "$MIHOMO_BIN" \
             --concurrency 128 \
             --timeout-ms 4500 \

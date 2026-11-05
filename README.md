@@ -75,6 +75,23 @@
 - 写入前二次解析校验 + `mihomo -t` 内核门禁,任一不过即**拒绝发布并保留上一版**(不会把坏配置推给用户);
 - 抓取失败/中断的来源**不会被重新盖上"更新时间"**,旧文件原样保留,时间戳即真实新鲜度。
 
+### 手动触发参数（workflow_dispatch）
+
+Actions → 定时抓取清洗节点 → Run workflow,可选参数:
+
+| 参数 | 默认 | 说明 |
+|------|------|------|
+| `dry_run` | false | 只生成不提交(调试用) |
+| `test_latency` | true | 是否测延迟/可达性;false 时跳过延迟测试 |
+| `test_bandwidth` | true | 是否测带宽(20MB 文件测速);false 时跳过测速 |
+
+- **两个都 false**:AIO **直接合并**——不测延迟/带宽、不启动 mihomo 测试,只做去重/唯一名/分组,
+  分组为 `说明` / `🚀 节点选择(全部精选)` / `♻️ 自动选择` / `📦 <来源>`,节点名不加速度标注;
+- **只关延迟**:跳过独立延迟测试,测速时顺带记录延时;
+- **只关带宽**:保留延迟过滤,AIO 节点名标注 `[未测速]`。
+
+对应 CLI 参数:`--merge-only`(直接合并)、`--no-delay`、`--no-speed`。
+
 ## 目录结构
 
 ```
@@ -128,7 +145,8 @@ python scripts/test_nodes.py output/*/clash.yaml -o output/aio/clash.yaml \
 python scripts/check_sources.py                # 来源清单一致性
 ```
 
-常用调参:`--no-speed` 跳过测速;`--limit N` 只测前 N 个节点(调试);
+常用调参:`--no-speed` 跳过测速;`--no-delay` 跳过延迟测试;`--merge-only` 完全不测直接合并;
+`--limit N` 只测前 N 个节点(调试);
 `--speed-url` 自定义测速文件(逗号分隔可多个,全部会被测);
 `--speed-weight-cloudflare` / `--speed-weight-release` 调整加权平均权重(默认 0.6 / 0.4);
 `--speed-min-bytes` 截断判定阈值;`--speed-latency-timeout` 测速前延时复测超时;
