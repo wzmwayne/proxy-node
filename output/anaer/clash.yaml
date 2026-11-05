@@ -1,21 +1,308 @@
-# 本订阅已停止提供节点：因学业原因，所有项目暂停。
-# 该文件由 scripts/fake_notice.py 生成，仅用于在客户端展示公告。
-mixed-port: 7890
-allow-lan: false
-mode: rule
-log-level: warning
-
 proxies:
-  - name: "【公告】因学业原因，所有项目暂停（详见 wzml.us.ci）"
-    type: socks5
-    server: 127.0.0.1
-    port: 1
-    udp: false
-
+- name: "\u5176\u4ED6-001"
+  type: vmess
+  network: ws
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  server: guanwang.awsno.com
+  port: 443
+  skip-cert-verify: true
+  tls: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: guanwang.awsno.com
+    path: /hls/cctv5phd.m3u8
+- name: "\u5FB7\u56FD-001 |1.6MB/s"
+  type: hysteria
+  server: 5.83.129.90
+  port: 54177
+  skip-cert-verify: true
+  udp: true
+  sni: apple.com
+  alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 1000
+  protocol: udp
+  up: 500
+- name: "\u5FB7\u56FD-002 |594KB/s"
+  type: hysteria
+  server: 5.83.129.153
+  port: 20088
+  skip-cert-verify: true
+  udp: true
+  sni: apple.com
+  alpn:
+  - h3
+  protocol: udp
+  auth-str: dongtaiwang.com
+  up: 500
+  down: 1000
+  auth_str: dongtaiwang.com
+- name: "\u6FB3\u5927\u5229\u4E9A-001 |3.0MB/s|TK-AU|YT-AU|GPT\u207A-AU"
+  type: http
+  server: 159.13.44.228
+  port: 443
+  skip-cert-verify: true
+  tls: true
+- name: "\u7F57\u9A6C\u5C3C\u4E9A-001 |3.3MB/s|TK-RO|GPT\u207A-RO|GM-RO"
+  type: http
+  server: 193.176.84.35
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: "\u7F57\u9A6C\u5C3C\u4E9A-002 |2.3MB/s|TK-RO|GPT\u207A-RO|GM-RO"
+  type: http
+  server: 193.176.84.17
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: "\u7F57\u9A6C\u5C3C\u4E9A-003 |1.4MB/s"
+  type: http
+  server: 193.176.84.27
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: "\u7F57\u9A6C\u5C3C\u4E9A-004 |1.3MB/s"
+  type: http
+  server: 193.176.84.36
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  udp: true
+  sni: www.bing.com
+- name: "\u7F57\u9A6C\u5C3C\u4E9A-005 |1.2MB/s"
+  type: http
+  server: 193.176.84.32
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: "\u7F57\u9A6C\u5C3C\u4E9A-006 |1.1MB/s"
+  type: http
+  server: 193.176.84.40
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: "\u7F57\u9A6C\u5C3C\u4E9A-007 |1.1MB/s|TK-RO|GPT\u207A-RO|GM-RO"
+  type: http
+  server: 193.176.84.30
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: "\u7F57\u9A6C\u5C3C\u4E9A-008 |1.0MB/s"
+  type: http
+  server: 193.176.84.23
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: "\u7F57\u9A6C\u5C3C\u4E9A-009 |1.0MB/s"
+  type: http
+  server: 193.176.84.26
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: "\u7F57\u9A6C\u5C3C\u4E9A-010 |1020KB/s"
+  type: http
+  server: 193.176.84.22
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: "\u7F57\u9A6C\u5C3C\u4E9A-011 |968KB/s"
+  type: http
+  server: 193.176.84.37
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: "\u7F57\u9A6C\u5C3C\u4E9A-012 |943KB/s"
+  type: http
+  server: 193.176.84.34
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: "\u7F57\u9A6C\u5C3C\u4E9A-013 |891KB/s"
+  type: http
+  server: 193.176.84.31
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: "\u7F57\u9A6C\u5C3C\u4E9A-014 |768KB/s"
+  type: http
+  server: 193.176.84.24
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: "\u7F57\u9A6C\u5C3C\u4E9A-015 |731KB/s"
+  type: http
+  server: 193.176.84.19
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: "\u7F57\u9A6C\u5C3C\u4E9A-016 |639KB/s"
+  type: http
+  server: 193.176.84.20
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: "\u7F57\u9A6C\u5C3C\u4E9A-017 |622KB/s"
+  type: http
+  server: 193.176.84.21
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: "\u7F57\u9A6C\u5C3C\u4E9A-018 |586KB/s"
+  type: http
+  server: 193.176.84.25
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: "\u7F57\u9A6C\u5C3C\u4E9A-019 |557KB/s"
+  type: http
+  server: 193.176.84.39
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: "\u7F57\u9A6C\u5C3C\u4E9A-020 |554KB/s"
+  type: http
+  server: 193.176.84.38
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: "\u7F8E\u56FD-001 |3.3MB/s|TK-US|YT-US|GPT\u207A-US|GM-US"
+  type: http
+  server: 138.199.35.215
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+- name: "\u7F8E\u56FD-002 |3.2MB/s|TK-US|YT-US|GPT\u207A-US|GM-US"
+  type: http
+  server: 38.28.193.188
+  port: 443
+  skip-cert-verify: true
+  tls: true
+- name: "\u7F8E\u56FD-003 |1.0MB/s|TK-US|GPT\u207A-US"
+  type: http
+  server: 138.199.35.198
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+- name: "\u7F8E\u56FD-004"
+  type: vless
+  network: ws
+  uuid: ff0b6ba8-bed0-4c4d-bbc9-23af47582615
+  server: 200.165.231.209
+  servername: wstg.datasynctrue.online
+  port: 443
+  skip-cert-verify: false
+  tls: true
+  udp: true
+  tfo: false
+  ws-opts:
+    headers:
+      Host: wstg.datasynctrue.online
+    path: /api/connect
+- name: "\u7F8E\u56FD-005 |1.5MB/s|TK-US|YT-US|GPT\u207A-US|GM-US"
+  type: http
+  server: 209.148.53.153
+  port: 8090
+  skip-cert-verify: true
+  tls: true
+- name: "\u8377\u5170-001 |2.1MB/s|TK-NL|GPT\u207A-NL|GM-NL"
+  type: http
+  server: 84.17.47.150
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+- name: "\u8377\u5170-002 |1.8MB/s|TK-NL|GPT\u207A-NL"
+  type: http
+  server: 51.159.225.196
+  port: 23856
+  skip-cert-verify: true
+  tls: true
+- name: "\u8377\u5170-003 |1.6MB/s|TK-NL|GPT\u207A-NL|GM-NL"
+  type: http
+  server: 84.17.47.147
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+- name: "\u8377\u5170-004 |1.8MB/s|TK-NL|GPT\u207A-NL|GM-NL"
+  type: http
+  server: 5.255.118.82
+  port: 443
+  skip-cert-verify: true
+  tls: true
+- name: "\u97E9\u56FD-001"
+  type: vmess
+  network: http
+  uuid: 35aa0fda-175a-4aec-c468-0231dee1a121
+  server: 43.108.103.167
+  port: 123
+  skip-cert-verify: true
+  alterId: 0
+  cipher: auto
+- name: "\u8BF4\u660E-\u6765\u6E90: anaer.github.io/Sub"
+  type: trojan
+  server: 127.0.0.1
+  port: 443
+  password: dummy
+  udp: true
+  skip-cert-verify: true
+- name: "\u8BF4\u660E-\u6E05\u6D17\u7ED3\u679C: \u6E05\u7406 0 \u4E2A\u8282\u70B9\u3001\
+    \u4FEE\u590D 0 \u5904\u5F15\u7528\u3001\u8F6C\u8BD1 122 \u4E2A\u5B57\u7B26"
+  type: trojan
+  server: 127.0.0.1
+  port: 443
+  password: dummy
+  udp: true
+  skip-cert-verify: true
+- name: "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-10-17 10:23 (CST)"
+  type: trojan
+  server: 127.0.0.1
+  port: 443
+  password: dummy
+  udp: true
+  skip-cert-verify: true
+- name: "\u8BF4\u660E-\u4F5C\u8005: wzmwayne"
+  type: trojan
+  server: 127.0.0.1
+  port: 443
+  password: dummy
+  udp: true
+  skip-cert-verify: true
+- name: "\u8BF4\u660E-\u4ED3\u5E93: https://github.com/wzmwayne/proxy-node"
+  type: trojan
+  server: 127.0.0.1
+  port: 443
+  password: dummy
+  udp: true
+  skip-cert-verify: true
 proxy-groups:
-  - name: "PROXY"
-    type: select
-    proxies: ["【公告】因学业原因，所有项目暂停（详见 wzml.us.ci）"]
-
-rules:
-  - MATCH,PROXY
+- name: "\u8BF4\u660E"
+  type: select
+  proxies:
+  - "\u8BF4\u660E-\u6765\u6E90: anaer.github.io/Sub"
+  - "\u8BF4\u660E-\u6E05\u6D17\u7ED3\u679C: \u6E05\u7406 0 \u4E2A\u8282\u70B9\u3001\
+    \u4FEE\u590D 0 \u5904\u5F15\u7528\u3001\u8F6C\u8BD1 122 \u4E2A\u5B57\u7B26"
+  - "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-10-17 10:23 (CST)"
+  - "\u8BF4\u660E-\u4F5C\u8005: wzmwayne"
+  - "\u8BF4\u660E-\u4ED3\u5E93: https://github.com/wzmwayne/proxy-node"
