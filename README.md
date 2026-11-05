@@ -27,7 +27,7 @@
 
 ## 说明
 
-本仓库通过 GitHub Actions **每 4 小时**(UTC 00/04/08/12/16/20,即北京时间 08/12/16/20/00/04 点)自动抓取多个免费节点来源,对每个来源的订阅文件做**清洗**后发布,并额外用 Clash.Meta (mihomo) 内核**逐个节点实测**生成 AIO 精选。
+本仓库通过 GitHub Actions **每 4 小时**(UTC 00/04/08/12/16/20,即北京时间 08/12/16/20/00/04 点)自动抓取多个免费节点来源,对每个来源的订阅文件做**清洗**后发布,并用 Clash.Meta (mihomo) 内核**逐个节点实测**生成 **AIO 精选**;同时把全部来源节点**直接去重合并**生成一份 **AIO 不精选**。
 
 **不同来源的订阅文件相互独立、按来源目录分类存放,不会混淆。**
 
@@ -46,7 +46,8 @@
 
 | 类型 | 直连 | ghproxy.net 镜像(国内网络) |
 |------|------|------------------------------|
-| **AIO 精选(合并全部来源)** | https://raw.githubusercontent.com/wzmwayne/proxy-node/main/output/aio/clash.yaml | https://ghproxy.net/github.com/wzmwayne/proxy-node/raw/main/output/aio/clash.yaml |
+| **AIO 精选(推荐,实测过滤)** | https://raw.githubusercontent.com/wzmwayne/proxy-node/main/output/aio/clash.yaml | https://ghproxy.net/github.com/wzmwayne/proxy-node/raw/main/output/aio/clash.yaml |
+| **AIO 不精选(直接合并全部节点)** | https://raw.githubusercontent.com/wzmwayne/proxy-node/main/output/aio-all/clash.yaml | https://ghproxy.net/github.com/wzmwayne/proxy-node/raw/main/output/aio-all/clash.yaml |
 
 **单来源订阅(直连 + ghproxy 镜像)**:
 
@@ -63,8 +64,15 @@
 | 机场e（jichangg.world） | https://raw.githubusercontent.com/wzmwayne/proxy-node/main/output/jichangg/clash.yaml | https://ghproxy.net/github.com/wzmwayne/proxy-node/raw/main/output/jichangg/clash.yaml |
 
 > 仅提供 Clash (Mihomo) 格式。直接复制链接到 FlClash / Clash Verge Rev / Mihomo 的订阅导入框即可。
->
-> **页面型来源**:NodeToolBox 与 机场e 的订阅地址按日期变化,由 `scripts/scrape_page_sources.py`
+
+**两种 AIO 怎么选**:
+
+| 订阅 | 内容 | 适合 |
+|------|------|------|
+| `output/aio/clash.yaml`(精选) | 只保留延迟/测速通过的节点,节点名带 `[x.xMB/s]` 标注,含高速/优质/各来源分组 | 大多数用户,开箱即用 |
+| `output/aio-all/clash.yaml`(不精选) | **不做延迟/带宽测试**,把所有来源节点直接去重合并,节点名不改、不含速度标注 | 想自己在客户端里测速/自选、或想看全量节点的用户 |
+
+> 两者更新频率相同(每 4 小时一次)。**页面型来源**:NodeToolBox 与 机场e 的订阅地址按日期变化,由 `scripts/scrape_page_sources.py`
 > 解析每日文章页后下载。其中 `jichangg.world` 站点自 2026-10 起其订阅域名(`sub.jichange.world`)
 > 已无法解析(页面也停在 10-08),当前会自动跳过;站点恢复后无需改代码即可自动接入。
 
@@ -127,6 +135,7 @@ output/
   nodetoolbox/ clash.yaml  # NodeToolBox 来源(页面型,清洗后)
   jichangg/ clash.yaml     # 机场e 来源(页面型,站点恢复后自动接入)
   aio/      clash.yaml     # AIO 精选(合并全部来源,经内核可达性 + 测速)
+  aio-all/  clash.yaml     # AIO 不精选(全部来源直接去重合并,不做测试)
 scripts/
   sources.py               # 来源清单(名称/主页/下载 URL,集中维护)
   scraper.py               # 抓取 yoyapai.com 文章并下载最新订阅

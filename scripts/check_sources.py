@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """校验 output/ 目录与 sources.py 来源清单一致,防止再出现"孤儿来源目录"。
 
-  * output/<name>/ 必须能在 SOURCES 里找到(只有 output/aio 例外);
+  * output/<name>/ 必须能在 SOURCES 里找到(只有 output/aio、output/aio-all 例外);
   * 每个来源都应有已发布的 clash.yaml,缺失只告警(v1 可自动重建)。
 
 用法:
@@ -12,7 +12,7 @@ import sys
 
 from sources import SOURCES
 
-ALLOWED_EXTRA = {"aio"}
+ALLOWED_EXTRA = {"aio", "aio-all"}
 OUTPUT = "output"
 
 

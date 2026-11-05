@@ -176,7 +176,7 @@ def main():
     if inputs is None:
         inputs = sorted(
             p for p in glob.glob(os.path.join(ROOT, "output", "*", "clash.yaml"))
-            if os.path.basename(os.path.dirname(p)) != "aio"
+            if os.path.basename(os.path.dirname(p)) not in ("aio", "aio-all")
         )
     inputs = [p for p in inputs if os.path.isfile(p)]
     if not inputs:

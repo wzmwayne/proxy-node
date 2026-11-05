@@ -104,7 +104,7 @@ jobs:
 
       - name: 可达性 + 测速 + 生成 AIO
         run: |
-          INPUTS=$(find output -mindepth 2 -maxdepth 2 -name clash.yaml ! -path 'output/aio/*' | sort | tr '\n' ' ')
+          INPUTS=$(find output -mindepth 2 -maxdepth 2 -name clash.yaml ! -path 'output/aio/*' ! -path 'output/aio-all/*' | sort | tr '\n' ' ')
           echo "输入: $INPUTS"
           if [ -z "$INPUTS" ]; then
             echo "::error::没有可用的来源文件"; exit 1
@@ -132,12 +132,25 @@ jobs:
             --speed-bytes 20000000 \
             || echo "::warning::AIO 生成失败（节点测试异常），保留上一版"
 
-      - name: 校验 AIO
+      - name: 生成 AIO 不精选(直接合并)
+        run: |
+          INPUTS=$(find output -mindepth 2 -maxdepth 2 -name clash.yaml ! -path 'output/aio/*' ! -path 'output/aio-all/*' | sort | tr '\n' ' ')
+          echo "输入: $INPUTS"
+          if [ -z "$INPUTS" ]; then
+            echo "::error::没有可用的来源文件"; exit 1
+          fi
+          python scripts/test_nodes.py $INPUTS -o output/aio-all/clash.yaml --merge-only \
+            || echo "::warning::AIO 不精选生成失败，保留上一版"
+
+      - name: 校验 AIO（精选 + 不精选）
         run: |
           if [ "${MIHOMO_GATE:-0}" = "1" ]; then
-            "$MIHOMO_BIN" -t -d "$MIHOMO_DIR" -f output/aio/clash.yaml \
-              && echo "AIO 内核校验通过" \
-              || { echo "::error::AIO 未通过内核校验"; exit 1; }
+            for f in output/aio/clash.yaml output/aio-all/clash.yaml; do
+              [ -f "$f" ] || { echo "::warning::$f 不存在，跳过"; continue; }
+              "$MIHOMO_BIN" -t -d "$MIHOMO_DIR" -f "$f" \
+                && echo "[OK] $f 内核校验通过" \
+                || { echo "::error::$f 未通过内核校验"; exit 1; }
+            done
           else
             echo "::warning::跳过 AIO 内核校验（地理库不可用）"
           fi

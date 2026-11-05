@@ -527,7 +527,7 @@ def build_merge_only(proxies, n_inputs, src_of_name, net_label=""):
     fake_names = [f"说明-来源: AIO 合并(合并 {n_inputs} 个来源)"]
     if net_label:
         fake_names.append(f"说明-测试网络: {net_label}")
-    fake_names.append("说明-测试: 本次未测延迟/带宽,直接合并(手动触发参数)")
+    fake_names.append("说明-测试: 本次未测延迟/带宽,直接合并(不精选)")
     fake_names += [
         f"说明-更新时间: {now} (CST)",
         f"说明-作者: {AUTHOR}",
