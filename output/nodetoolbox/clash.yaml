@@ -4,109 +4,110 @@ mode: rule
 log-level: info
 proxies:
 - type: vless
-  server: jp.sofast.live
-  port: 52683
-  udp: true
-  uuid: 399b6b23-cc40-4831-a494-61948e2df133
-  name: "8\u5143\u8001\u724C\u4E13\u7EBF\u673A\u573A\uFF1Acczzuu.top"
-- type: vless
   server: us22.sofast.live
   port: 58011
   udp: true
   uuid: 0afc6426-606c-48e7-bd70-3c424a416842
   client-fingerprint: chrome
-  name: "\u7F8E\u56FD_909C6E"
-- type: vless
-  server: swedenafteraventura.space
-  port: 443
+  name: "8\u5143\u8001\u724C\u4E13\u7EBF\u673A\u573A\uFF1Acczzuu.top"
+- type: ss
+  server: 154.36.158.197
+  port: 8388
+  cipher: aes-256-gcm
+  password: BeaUf9c0AEWH40Pu
   udp: true
-  uuid: 50a87e21-f0e2-4b53-a787-91adfe748f63
+  name: "\u65E5\u672C_6A22EA"
+- type: vless
+  server: jp.sofast.live
+  port: 52683
+  udp: true
+  uuid: 5aaa5259-f924-4682-a4a3-149d472a9dcc
+  name: "\u7F8E\u56FD_DB7113"
+- type: vless
+  server: 122.8.47.4
+  port: 8443
+  udp: true
+  uuid: ffaa2141-759b-424f-f28c-23dbeae00f10
   tls: true
-  servername: swedenafteraventura.space
+  servername: www.philips.com
   client-fingerprint: chrome
   reality-opts:
-    public-key: TyuIIquHoesD9YwMQJHda0YZ3Hy9Dh123dQ00iGK0QY
+    public-key: Sq7mtLmaanwsTVNBR9gU7ECU87ftrb_wFGRLLNRBlmQ
     short-id: ''
-  flow: xtls-rprx-vision
-  name: "\u7F8E\u56FD_F440F2"
-- type: vless
-  server: 87.232.88.27
-  port: 443
-  udp: true
-  uuid: e08d9bc5-6832-4dd4-bd44-d9bbe61e5817
-  tls: true
-  servername: max.ru
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: 4qE0kXmxDvNzsns2jdwd74AN35RptcTD4eKo5REa9w8
-    short-id: "04"
   network: grpc
   grpc-opts:
-    grpc-service-name: grpc-67
-  name: "\u7F8E\u56FD_2F498B"
-- type: ss
-  server: 202.50.253.45
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-  name: "\u610F\u5927\u5229_1B78FA"
-- type: ss
-  server: 202.50.253.27
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-  name: "\u610F\u5927\u5229_A371F7"
-- type: ss
-  server: 202.50.253.63
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-  name: "\u610F\u5927\u5229_AA98CE"
-- type: ss
-  server: 202.50.253.81
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-  name: "\u610F\u5927\u5229_A8458B"
+    grpc-service-name: TunService
+  name: "\u6CD5\u56FD_0624B7"
 - type: ss
   server: 202.50.253.72
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-  name: "\u610F\u5927\u5229_6D417E"
+  name: "\u610F\u5927\u5229_8B185B"
 - type: ss
-  server: 202.50.253.99
+  server: 202.50.253.27
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-  name: "\u610F\u5927\u5229_D85C6C"
-- type: ss
-  server: 202.50.253.54
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-  name: "\u610F\u5927\u5229_B2C2F9"
+  name: "\u610F\u5927\u5229_3C4C6F"
 - type: ss
   server: 202.50.253.18
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-  name: "\u610F\u5927\u5229_270466"
+  name: "\u610F\u5927\u5229_EF95BB"
+- type: ss
+  server: 202.50.253.99
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+  name: "\u610F\u5927\u5229_11A2BD"
 - type: ss
   server: 202.50.253.90
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-  name: "\u610F\u5927\u5229_3AC2A3"
+  name: "\u610F\u5927\u5229_722B30"
+- type: ss
+  server: 202.50.253.45
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+  name: "\u610F\u5927\u5229_B846BE"
+- type: ss
+  server: 202.50.253.63
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+  name: "\u610F\u5927\u5229_3E4777"
+- type: ss
+  server: 202.50.253.81
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+  name: "\u610F\u5927\u5229_895DE2"
+- type: ss
+  server: 202.50.253.36
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+  name: "\u610F\u5927\u5229_8AB17C"
+- type: ss
+  server: 202.50.253.54
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+  name: "\u610F\u5927\u5229_E91A40"
 - name: "\u8BF4\u660E-\u6765\u6E90: NodeToolBox"
   type: trojan
   server: 127.0.0.1
@@ -115,14 +116,14 @@ proxies:
   udp: true
   skip-cert-verify: true
 - name: "\u8BF4\u660E-\u6E05\u6D17\u7ED3\u679C: \u6E05\u7406 0 \u4E2A\u8282\u70B9\u3001\
-    \u4FEE\u590D 0 \u5904\u5F15\u7528\u3001\u8F6C\u8BD1 90 \u4E2A\u5B57\u7B26"
+    \u4FEE\u590D 0 \u5904\u5F15\u7528\u3001\u8F6C\u8BD1 96 \u4E2A\u5B57\u7B26"
   type: trojan
   server: 127.0.0.1
   port: 443
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-11-06 05:48 (CST)"
+- name: "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-11-06 13:27 (CST)"
   type: trojan
   server: 127.0.0.1
   port: 443
@@ -149,25 +150,26 @@ proxy-groups:
   proxies:
   - "\u8BF4\u660E-\u6765\u6E90: NodeToolBox"
   - "\u8BF4\u660E-\u6E05\u6D17\u7ED3\u679C: \u6E05\u7406 0 \u4E2A\u8282\u70B9\u3001\
-    \u4FEE\u590D 0 \u5904\u5F15\u7528\u3001\u8F6C\u8BD1 90 \u4E2A\u5B57\u7B26"
-  - "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-11-06 05:48 (CST)"
+    \u4FEE\u590D 0 \u5904\u5F15\u7528\u3001\u8F6C\u8BD1 96 \u4E2A\u5B57\u7B26"
+  - "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-11-06 13:27 (CST)"
   - "\u8BF4\u660E-\u4F5C\u8005: wzmwayne"
   - "\u8BF4\u660E-\u4ED3\u5E93: https://github.com/wzmwayne/proxy-node"
 - name: "\u8282\u70B9\u9009\u62E9"
   type: select
   proxies:
   - "8\u5143\u8001\u724C\u4E13\u7EBF\u673A\u573A\uFF1Acczzuu.top"
-  - "\u7F8E\u56FD_909C6E"
-  - "\u7F8E\u56FD_F440F2"
-  - "\u7F8E\u56FD_2F498B"
-  - "\u610F\u5927\u5229_1B78FA"
-  - "\u610F\u5927\u5229_A371F7"
-  - "\u610F\u5927\u5229_AA98CE"
-  - "\u610F\u5927\u5229_A8458B"
-  - "\u610F\u5927\u5229_6D417E"
-  - "\u610F\u5927\u5229_D85C6C"
-  - "\u610F\u5927\u5229_B2C2F9"
-  - "\u610F\u5927\u5229_270466"
-  - "\u610F\u5927\u5229_3AC2A3"
+  - "\u65E5\u672C_6A22EA"
+  - "\u7F8E\u56FD_DB7113"
+  - "\u6CD5\u56FD_0624B7"
+  - "\u610F\u5927\u5229_8B185B"
+  - "\u610F\u5927\u5229_3C4C6F"
+  - "\u610F\u5927\u5229_EF95BB"
+  - "\u610F\u5927\u5229_11A2BD"
+  - "\u610F\u5927\u5229_722B30"
+  - "\u610F\u5927\u5229_B846BE"
+  - "\u610F\u5927\u5229_3E4777"
+  - "\u610F\u5927\u5229_895DE2"
+  - "\u610F\u5927\u5229_8AB17C"
+  - "\u610F\u5927\u5229_E91A40"
 rules:
 - "MATCH,\u8282\u70B9\u9009\u62E9"
