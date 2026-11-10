@@ -18,9 +18,9 @@ proxies:
 - name: "\u5176\u4ED6-001"
   type: vless
   network: ws
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  server: 172.66.133.28
-  servername: xy1ej.stream-node-us.danfeng.qzz.io
+  uuid: bdde0eb9-62c6-4d30-ac96-ab10d8eb7939
+  server: 104.26.1.117
+  servername: erupencompanypdr.pages.dev
   port: 443
   skip-cert-verify: false
   tls: true
@@ -28,48 +28,9 @@ proxies:
   tfo: false
   ws-opts:
     headers:
-      Host: xy1ej.stream-node-us.danfeng.qzz.io
-    path: /danfeng?ed=2560
-  client-fingerprint: firefox
-- name: "\u5176\u4ED6-002"
-  type: vless
-  network: ws
-  uuid: 50414e45-4c5f-5a45-5553-52108a2d5224
-  server: 104.27.88.172
-  servername: web-app-nr6wpa.app-tp57xz.workers.dev
-  port: 80
-  tls: false
-  ws-opts:
-    headers:
-      Host: web-app-nr6wpa.app-tp57xz.workers.dev
-    path: /api/ws
-  encryption: none
-- name: "\u5176\u4ED6-003"
-  type: vless
-  network: tcp
-  uuid: 254f28cb-d0c1-41e9-a06b-f2155213ff04
-  server: ams2.shtil.io
-  servername: ams2.shtil.io
-  port: 444
-  skip-cert-verify: false
-  tls: true
-  udp: true
-  tfo: false
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-- name: "\u5176\u4ED6-004"
-  type: vless
-  network: tcp
-  uuid: 2446e2e2-1ce3-4502-9050-1dd32bacc68c
-  server: 875f9760-be1a-4dfe-8c2b-3f080b5ab158.node1.runet.network
-  servername: 875f9760-be1a-4dfe-8c2b-3f080b5ab158.node1.runet.network
-  port: 20065
-  skip-cert-verify: false
-  tls: true
-  udp: true
-  tfo: false
+      Host: erupencompanypdr.pages.dev
+    path: /ISoOMY675XVPxHG4?ed=2560
   client-fingerprint: chrome
-  flow: xtls-rprx-vision
 - name: "\u5FB7\u56FD-001 |1.6MB/s"
   type: hysteria
   server: 5.83.129.90
@@ -84,22 +45,6 @@ proxies:
   down: 1000
   protocol: udp
   up: 500
-- name: "\u5FB7\u56FD-002"
-  type: vless
-  network: ws
-  uuid: 7f733b1a-6c00-48ac-ae3b-cbc178a9146e
-  server: 195.137.226.133
-  servername: nexostore.xnetaro.ir
-  port: 2083
-  skip-cert-verify: false
-  tls: true
-  udp: true
-  tfo: false
-  ws-opts:
-    headers:
-      Host: nexostore.xnetaro.ir
-    path: /wss?TELEGRAM----
-  client-fingerprint: firefox
 - name: "\u610F\u5927\u5229-001"
   type: vless
   network: ws
@@ -112,19 +57,6 @@ proxies:
     headers:
       Host: vp58.cc.cd
     path: "/Telegram\U0001F1E8\U0001F1F3 fp=chromefp=chrome"
-- name: "\u65B0\u897F\u5170-001"
-  type: vless
-  network: tcp
-  uuid: 254f28cb-d0c1-41e9-a06b-f2155213ff04
-  server: 177.177.215.45
-  servername: ams2.shtil.io
-  port: 444
-  skip-cert-verify: false
-  tls: true
-  udp: true
-  tfo: false
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
 - name: "\u6FB3\u5927\u5229\u4E9A-001 |3.0MB/s|TK-AU|YT-AU|GPT\u207A-AU"
   type: http
   server: 159.13.44.228
@@ -183,14 +115,14 @@ proxies:
   sni: www.bing.com
 - name: "\u7F57\u9A6C\u5C3C\u4E9A-008 |1.0MB/s"
   type: http
-  server: 193.176.84.26
+  server: 193.176.84.23
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
 - name: "\u7F57\u9A6C\u5C3C\u4E9A-009 |1.0MB/s"
   type: http
-  server: 193.176.84.23
+  server: 193.176.84.26
   port: 9002
   skip-cert-verify: true
   tls: true
@@ -296,16 +228,6 @@ proxies:
   port: 9002
   skip-cert-verify: true
   tls: true
-- name: "\u7F8E\u56FD-005"
-  type: vless
-  network: ws
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  server: 63.141.128.30
-  port: 8880
-  ws-opts:
-    headers:
-      Host: vms.lifetime42.workers.dev
-    path: /
 - name: "\u8377\u5170-001 |2.1MB/s|TK-NL|GPT\u207A-NL|GM-NL"
   type: http
   server: 84.17.47.150
@@ -338,14 +260,14 @@ proxies:
   udp: true
   skip-cert-verify: true
 - name: "\u8BF4\u660E-\u6E05\u6D17\u7ED3\u679C: \u6E05\u7406 0 \u4E2A\u8282\u70B9\u3001\
-    \u4FEE\u590D 0 \u5904\u5F15\u7528\u3001\u8F6C\u8BD1 139 \u4E2A\u5B57\u7B26"
+    \u4FEE\u590D 0 \u5904\u5F15\u7528\u3001\u8F6C\u8BD1 126 \u4E2A\u5B57\u7B26"
   type: trojan
   server: 127.0.0.1
   port: 443
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-11-10 02:25 (CST)"
+- name: "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-11-10 10:34 (CST)"
   type: trojan
   server: 127.0.0.1
   port: 443
@@ -372,7 +294,7 @@ proxy-groups:
   proxies:
   - "\u8BF4\u660E-\u6765\u6E90: anaer.github.io/Sub"
   - "\u8BF4\u660E-\u6E05\u6D17\u7ED3\u679C: \u6E05\u7406 0 \u4E2A\u8282\u70B9\u3001\
-    \u4FEE\u590D 0 \u5904\u5F15\u7528\u3001\u8F6C\u8BD1 139 \u4E2A\u5B57\u7B26"
-  - "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-11-10 02:25 (CST)"
+    \u4FEE\u590D 0 \u5904\u5F15\u7528\u3001\u8F6C\u8BD1 126 \u4E2A\u5B57\u7B26"
+  - "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-11-10 10:34 (CST)"
   - "\u8BF4\u660E-\u4F5C\u8005: wzmwayne"
   - "\u8BF4\u660E-\u4ED3\u5E93: https://github.com/wzmwayne/proxy-node"
