@@ -21,7 +21,7 @@ proxies:
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-11-12 14:06 (CST)"
+- name: "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-11-13 00:42 (CST)"
   type: trojan
   server: 127.0.0.1
   port: 443
@@ -45532,150 +45532,33 @@ proxies:
   servername: resources.searchnationwidecareerchangehelperandguidancetoday.com
   sni: resources.searchnationwidecareerchangehelperandguidancetoday.com
   skip-cert-verify: true
-- name: 47.236.168.243 [731ac5ffdf3c]
-  password: "8888"
-  port: 1080
-  server: 47.236.168.243
-  type: socks5
-  username: "8888"
-- name: 4FreeIran-04ad2b5c45 [e33fca6fd91c]
-  network: ws
-  port: 443
-  server: 146.75.59.186
-  servername: cdn.akamai.steamstatic.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 97e0ea78-67ae-4984-8a14-a7d1a51e58de
-  ws-opts:
-    headers:
-      host: copy_az_channel_NUFiLTER_6i.global.ssl.fastly.net.
-    path: /?------Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------&
-- name: 4FreeIran-1639587653 [176980ab9e16]
-  network: ws
-  port: 443
-  server: 199.232.78.120
-  servername: cdn.akamai.steamstatic.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 8d2cbffd-43d0-458d-906b-7c54b7b51f38
-  ws-opts:
-    headers:
-      host: ushetzijji.global.ssl.fastly.net.
-    path: /
-- client-fingerprint: chrome
-  name: 4FreeIran-4102188c73 [43400abea954]
-  network: tcp
-  packet-encoding: xudp
-  port: 8443
-  reality-opts:
-    public-key: 4g6gX0ueJap7pY_iTDx23h6bzo3KIOTcFzP1Uacn0QA
-    short-id: "4ad2e4e660550e43"
-  server: 143.246.62.191
-  servername: github.githubassets.com
-  tls: true
-  type: vless
-  uuid: eb8c97f7-a154-4442-91b0-54c0d055ad0b
-  x-toolall-mihomo: true
-- name: 4FreeIran-4658a2d085 [fbf78d0b8386]
-  network: ws
-  port: 443
-  server: 146.75.59.186
-  servername: cdn.akamai.steamstatic.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 97e0ea78-67ae-4984-8a14-a7d1a51e58de
-  ws-opts:
-    headers:
-      host: copy_az_channel_NUFiLTER_6i.global.ssl.fastly.net.
-    path: /?TELEGRAM--BYA--CHANEL---@GHOFLSHCAN---@GHOFLSHCAN---@GHOFLSHCAN---@GHOFLSHCAN---@GHOFLSHCAN---@GHOFLSHCAN---@GHOFLSHCAN---@GHOFLSHCAN---@GHOFLSHCAN---@GHOFLSHCAN---@GHOFLSHCAN---@GHOFLSHCAN---@GHOFLSHCAN---@GHOFLSHCAN---@GHOFLSHCAN---@GHOFLSHCAN---@GHOFLSHCAN---@GHOFLSHCAN---@GHOFLSHCAN---@GHOFLSHCAN---@GHOFLSHCAN---@GHOFLSHCAN---@GHOFLSHCAN---@GHOFLSHCAN---@GHOFLSHCAN---@GHOFLSHCAN---@GHOFLSHCAN---@GHOFLSHCAN---@GHOFLSHCAN---@GHOFLSHCAN---@GHOFLSHCAN---@GHOFLSHCAN---@GHOFLSHCAN---@GHOFLSHCAN---@GHOFLSHCAN---@GHOFLSHCAN---@GHOFLSHCAN---@GHOFLSHCAN---@GHOFLSHCAN---@GHOFLSHCAN---@GHOFLSHCAN---@GHOFLSHCAN---@GHOFLSHCAN---@GHOFLSHCAN---@GHOFLSHCAN---@GHOFLSHCAN---@GHOFLSHCAN---@GHOFLSHCAN---@GHOFLSHCAN---@GHOFLSHCAN---@GHOFLSHCAN---@GHOFLSHCAN---@GHOFLSHCAN---@GHOFLSHCAN---@GHOFLSHCAN---@GHOFLSHCAN---@GHOFLSHCAN---@GHOFLSHCAN---@GHOFLSHCAN---@GHOFLSHCAN---@GHOFLSHCAN---@GHOFLSHCAN---@GHOFLSHCAN---@GHOFLSHCAN--@GHOFLSHCAN---@GHOFLSHCAN---@GHOFLSHCAN---@GHOFLSHCAN
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: 4FreeIran-5be82b36db [bbb625e201cc]
-  network: tcp
-  port: 46957
-  reality-opts:
-    public-key: 1SefqLQXrqkiUdf7cTMF53hrMZyo684_uneRC8-qTxI
-    short-id: "8f6683a234d3"
-  server: zfapi.zalolink.com
-  servername: psstatic.cdn.bcebos.com
-  tls: true
-  type: vless
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  x-toolall-mihomo: true
-- cipher: chacha20-ietf
-  name: 4FreeIran-5f9dcd5035 [2433c44b2dd1]
-  obfs: tls1.2_ticket_auth
-  password: dongtaiwang.com
-  port: 33336
-  protocol: auth_chain_a
-  server: 109.104.153.43
-  type: ssr
-  x-toolall-mihomo: true
-- client-fingerprint: ios
-  name: 4FreeIran-71151c3c1d [53def67b44b4]
-  network: ws
-  port: 443
-  server: 146.75.59.186
-  servername: cdn.akamai.steamstatic.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 8d2cbffd-43d0-458d-906b-7c54b7b51f38
-  ws-opts:
-    headers:
-      Host: looabomrhesamijji.global.ssl.fastly.net.
-    path: /
-  x-toolall-mihomo: true
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 4FreeIran-a75f8a5610 [cb10e9d7ca5c]
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: edge.bookmai.com
-  servername: mother-earth.fyi
-  tls: true
-  type: vless
-  uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
-  x-toolall-mihomo: true
 - cipher: aes-256-gcm
-  name: 4FreeIran-d37f40b402 [641a38ed61e1]
+  name: 4FreeIran-10ac640c12 [7441ad351988]
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
-  server: 202.50.253.27
+  server: 202.50.253.99
   type: ss
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: 4FreeIran-dbdc25b871 [0f4c16c13db5]
-  network: tcp
-  port: 35460
-  reality-opts:
-    public-key: mkVsbEvwaiSo9QwnrVN65YZ92QntQQyYs2iDxN6yTlw
-    short-id: "30d976db3eab32"
-  server: zfapi.zalolink.com
-  servername: psstatic.cdn.bcebos.com
-  tls: true
-  type: vless
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  x-toolall-mihomo: true
+- cipher: aes-256-gcm
+  name: 4FreeIran-a7babbd8ef [d027a4419852]
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.72
+  type: ss
 - client-fingerprint: chrome
-  name: 4Jadi-4794f67529 [17908eda609e]
-  network: ws
+  grpc-opts:
+    grpc-service-name: "5b79e8a94241"
+  name: 4Jadi-9dded5c504 [51960e30ea45]
+  network: grpc
+  packet-encoding: xudp
   port: 443
-  server: 199.232.78.120
-  servername: cdn.akamai.steamstatic.com
-  skip-cert-verify: true
+  reality-opts:
+    public-key: zbz--PMjcIC4Ggr3j-ibDf0fzXRTj0lM_HzjPJyMkVE
+    short-id: "50a749f0eccb628c"
+  server: 15b171g.nl7.h1clayd.click
+  servername: 15b171g.nl7.h1clayd.click
   tls: true
   type: vless
-  uuid: 8d2cbffd-43d0-458d-906b-7c54b7b51f38
-  ws-opts:
-    headers:
-      Host: finalnsdger.global.ssl.fastly.net.
-    path: /
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
   x-toolall-mihomo: true
 - client-fingerprint: chrome
   name: 4Jadi-f9c6c2557c [4effd5ed74c8]
@@ -45691,35 +45574,19 @@ proxies:
   type: vless
   uuid: eb8c97f7-a154-4442-91b0-54c0d055ad0b
   x-toolall-mihomo: true
-- client-fingerprint: firefox
+- client-fingerprint: safari
   flow: xtls-rprx-vision
-  name: 4Kian-3ca10dee5c [7abde24d55f2]
+  name: 4Kian-674341a24f [bbb625e201cc]
   network: tcp
-  port: 443
+  port: 46957
   reality-opts:
-    public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
-    short-id: "42426c882c5fcd41"
-  server: 196.199.122.2
-  servername: 7aa271t.es1.h1clayd.click
+    public-key: 1SefqLQXrqkiUdf7cTMF53hrMZyo684_uneRC8-qTxI
+    short-id: "8f6683a234d3"
+  server: zfapi.zalolink.com
+  servername: psstatic.cdn.bcebos.com
   tls: true
   type: vless
-  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-  x-toolall-mihomo: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 4Kian-6230c58433 [328fd1658781]
-  network: ws
-  port: 443
-  server: 3.169.9.125
-  servername: d2im3v6ipzlavc.cloudfront.net
-  tls: true
-  type: vless
-  uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
-  ws-opts:
-    headers:
-      Host: d2im3v6ipzlavc.cloudfront.net
-    path: /
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
   x-toolall-mihomo: true
 - cipher: aes-256-gcm
   name: 4Kian-74c8620a30 [e7fda757ab59]
@@ -45727,88 +45594,25 @@ proxies:
   port: 19999
   server: 202.50.253.81
   type: ss
+- name: 4Mohsen-818b6739cf [e26c34b2f6c8]
+  password: https://xship.2fa.cat
+  port: 443
+  server: starlink-ft.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: hysteria2
+  x-toolall-mihomo: true
 - cipher: aes-256-gcm
-  name: 4Kian-a7fdf66a3d [04808d3a56bc]
+  name: 4Mohsen-b2a1a157ad [92c172b4f3c3]
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
-  server: 202.50.253.18
+  server: 202.50.253.45
   type: ss
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: 4Mohsen-344623e571 [4c69d1647204]
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: Caj4X3VjnHfdRQzWLmjFCiG_CGw0scYYni6UxVfBs38
-    short-id: "db6a4219fb"
-  server: msk10.gacvpn.site
-  servername: nl3-edge.gacvpn.site
-  tls: true
-  type: vless
-  uuid: 3f5e89d5-591f-4ac9-b071-b05680b573c3
-  x-toolall-mihomo: true
-- name: 4Mohsen-35c7718182 [5adea4149997]
-  network: ws
-  password: 46d221fa-e9b4-748c-4eae-019a88e42991
-  port: 443
-  server: 191.44.112.170
-  sni: orbylume.my.to
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      host: orbylume.my.to
-    path: /tvpn-trojan/bg
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 4Mohsen-7a4980ab68 [300e6159a177]
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: Caj4X3VjnHfdRQzWLmjFCiG_CGw0scYYni6UxVfBs38
-    short-id: "db6a4219fb"
-  server: 89.125.48.218
-  servername: nl3-edge.gacvpn.site
-  tls: true
-  type: vless
-  uuid: 3f5e89d5-591f-4ac9-b071-b05680b573c3
-  x-toolall-mihomo: true
 - cipher: aes-256-gcm
   name: 4Mohsen-e1b2cd8181 [8ed40d75cd58]
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.90
-  type: ss
-- name: 4Nika-23b3240f15 [99f53987abb6]
-  network: ws
-  password: 46d221fa-e9b4-748c-4eae-019a88e42991
-  port: 443
-  server: 191.44.112.170.sslip.io
-  skip-cert-verify: true
-  sni: orbylume.my.to
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      host: orbylume.my.to
-    path: /tvpn-trojan/bg
-- client-fingerprint: chrome
-  name: 4Nika-7f4d7d7176 [77a783d4b6b9]
-  port: 8443
-  reality-opts:
-    public-key: 4g6gX0ueJap7pY_iTDx23h6bzo3KIOTcFzP1Uacn0QA
-    short-id: "4ad2e4e660550e43"
-  server: 143.246.62.191
-  servername: github.githubassets.com
-  tls: true
-  type: vless
-  uuid: eb8c97f7-a154-4442-91b0-54c0d055ad0b
-  x-toolall-mihomo: true
-- cipher: aes-256-gcm
-  name: 4Nika-81d0f507d7 [48d202d9c29c]
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.63
   type: ss
 - client-fingerprint: chrome
   name: 4Nika-892ef8890f [6f03627ccfe2]
@@ -45822,19 +45626,6 @@ proxies:
   type: vless
   uuid: eb8c97f7-a154-4442-91b0-54c0d055ad0b
   x-toolall-mihomo: true
-- name: 4Nika-9d97a54771 [5a8df557341e]
-  network: ws
-  port: 443
-  server: 146.75.59.186
-  servername: cdn.akamai.steamstatic.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 97e0ea78-67ae-4984-8a14-a7d1a51e58de
-  ws-opts:
-    headers:
-      host: copy_az_channel_NUFiLTER_6i.global.ssl.fastly.net.
-    path: /
 - client-fingerprint: chrome
   name: 4Nika-b871a1fb3e [0af049cd4841]
   network: tcp
@@ -45855,39 +45646,14 @@ proxies:
   port: 19999
   server: 202.50.253.36
   type: ss
-- name: 4Sarina-302b1624fe [e8381b4a7373]
-  network: ws
-  port: 443
-  server: wwww.qarvian.ir
-  servername: cdn.akamai.steamstatic.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 97e0ea78-67ae-4984-8a14-a7d1a51e58de
-  ws-opts:
-    headers:
-      host: copy_az_channel_NUFiLTER_17i.global.ssl.fastly.net.
-    path: /?------Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------&
-- name: 4Sarina-3cc55772e7 [5ed6188290a4]
-  password: d7563108-615c-4338-a7bd-77f359869a4a
-  port: 20027
-  server: sclass-b1.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  tls: true
-  type: trojan
-- client-fingerprint: firefox
-  name: 4Sarina-dcff49d8de [5f83c952c59b]
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: UoS8qZ74hP_ECcncCz55lzvlcVss3R7VA0WYZE0YQCY
-    short-id: "ba2a3dce62b99092"
-  server: 9.247.54.226
-  servername: 04535dt.us8.h1clayd.click
-  tls: true
-  type: vless
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+- cipher: chacha20-ietf
+  name: 4Sarina-370cb86cf1 [6d6b41c5de08]
+  obfs: tls1.2_ticket_auth
+  password: dongtaiwang.com
+  port: 33336
+  protocol: auth_chain_a
+  server: ssr2.762988.xyz
+  type: ssr
   x-toolall-mihomo: true
 - client-fingerprint: chrome
   name: 4Sarina-e29c160c53 [0961efb8b410]
@@ -45909,178 +45675,66 @@ proxies:
   port: 19999
   server: 202.50.253.54
   type: ss
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '@OutlineReleasedKey [304a016ecf9a]'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
-    short-id: "428ef87fd47a3a32"
-  server: ee.subv.ru
-  servername: dvizhok.su
-  tls: true
-  type: vless
-  uuid: 90157e25-cee1-4217-921e-91f300bc1a24
-  x-toolall-mihomo: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '@meliproxyy [2ffaa05b6353]'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: edge.bookmai.com
-  servername: mother-earth.fyi
-  tls: true
-  type: vless
-  uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
-  x-toolall-mihomo: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '@meliproxyy [5deb6c23180f]'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: edge.bookmai.com
-  servername: mother-earth.fyi
-  tls: true
-  type: vless
-  uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
-  x-toolall-mihomo: true
-- name: "B - \U0001F1F7\U0001F1F4 RO 02 TG: @nodpai [c8b57947e73d]"
-  port: 9002
-  server: 193.176.84.36
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
+- name: "C - \U0001F1FA\U0001F1F8 US 36 TG: @nodpai [4e17894fc917]"
+  password: gs4BXwT6SW
+  port: 10988
+  server: 154.26.192.123
   type: http
-- name: "B - \U0001F1F7\U0001F1F4 RO 08 TG: @nodpai [49894881bdcc]"
-  port: 9002
-  server: 193.176.84.25
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: "B - \U0001F1F7\U0001F1F4 RO 11 TG: @nodpai [4b2bbcd96ee8]"
-  port: 9002
-  server: 193.176.84.24
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: "B - \U0001F1F7\U0001F1F4 RO 31 TG: @nodpai [12ca5365c9b6]"
-  port: 9002
-  server: 193.176.84.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: "CA\u52A0\u62FF\u5927(mibei77.com \u7C73\u8D1D\u8282\u70B9\u5206\u4EAB) [ef556785f605]"
-  port: 52683
-  server: jp.sofast.live
-  type: vless
-  uuid: 399b6b23-cc40-4831-a494-61948e2df133
-- alterId: 0
-  cipher: auto
-  name: "CN\u3010\u9AD8\u901F\u8282\u70B9\uFF1Ahttps://tt.vg/vip\u301111 [1ae80c118f8d9daf]\
-    \ [dbc97b843b9e]"
-  network: ws
-  port: 10086
-  server: 39.108.113.127
-  type: vmess
-  udp: true
-  uuid: b0253c6c-0b96-4950-bde1-669f13bc1a01
-  ws-opts:
-    path: /
-  x-toolall-mihomo: true
-- alterId: 0
-  cipher: auto
-  name: "CN\u3010\u9AD8\u901F\u8282\u70B9\uFF1Ahttps://tt.vg/vip\u301111 [c7a56b22ff11]"
-  network: ws
-  port: 10086
-  server: 39.108.113.127
-  type: vmess
-  uuid: b0253c6c-0b96-4950-bde1-669f13bc1a01
-  ws-opts:
-    path: /
-- name: DE - zhuhai.uk [cca86fa6a2ad513c] [150bf99b5cd0]
+  username: fQ67Dpe5dU
+- name: DE - zhuhai.uk 02 [cca86fa6a2ad513c] [150bf99b5cd0]
   password: "null"
   port: 443
   server: fan.973511.xyz
   tls: true
   type: http
   username: "null"
-- name: DE_speednode_0004 [92e8593bee30]
-  port: 443
-  server: 213.109.163.119
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: DK_speednode_0005 [0ed63a7414e3]
-  port: 9002
-  server: 158.173.154.5
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: DK_speednode_0006 [f53c69176375]
-  port: 9002
-  server: 158.173.154.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: FR_speednode_0008 [a57a3277a4a7]
-  port: 19362
-  server: 51.159.225.197
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: FR_speednode_0009 [d04a31b7857b]
-  port: 8090
-  server: 83.206.1.225
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: FR_speednode_0010 [e6da0f6df43c]
-  password: "null"
-  port: 23856
-  server: 51.159.225.196
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: "null"
-  x-toolall-mihomo: true
-- name: FR_speednode_0011 [eaf068c92f1f]
-  port: 23856
-  server: 51.159.225.196
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: IE_speednode_0013 [37e4a848bf1f]
-  port: 443
-  server: 34.249.214.108
-  skip-cert-verify: true
-  tls: true
-  type: http
+- cipher: aes-256-gcm
+  name: IT_speednode_0014 [e690e14ea5a9]
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.72
+  type: ss
   udp: true
   x-toolall-mihomo: true
 - cipher: aes-256-gcm
-  name: "IT\u3010\u9AD8\u901F\u8282\u70B9\uFF1Ahttps://tt.vg/vip\u30111 [de1d706be16eedad]\
-    \ [ae9a44202ffc]"
+  name: IT_speednode_0015 [c9cdfff6d2cc]
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
-  server: 202.50.253.90
+  server: 202.50.253.27
+  type: ss
+  udp: true
+  x-toolall-mihomo: true
+- cipher: aes-256-gcm
+  name: IT_speednode_0016 [e4fa750756fd]
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.45
+  type: ss
+  udp: true
+  x-toolall-mihomo: true
+- cipher: aes-256-gcm
+  name: IT_speednode_0017 [07162a4c93e6]
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.99
+  type: ss
+  udp: true
+  x-toolall-mihomo: true
+- cipher: aes-256-gcm
+  name: "IT\u3010\u9AD8\u901F\u8282\u70B9\uFF1Ahttps://tt.vg/vip\u30112 [9d6d2faeef141ad8]\
+    \ [544fdd461b91]"
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.54
+  type: ss
+  udp: true
+  x-toolall-mihomo: true
+- cipher: aes-256-gcm
+  name: "IT\u3010\u9AD8\u901F\u8282\u70B9\uFF1Ahttps://tt.vg/vip\u30113 [04641adcccb29f99]\
+    \ [30207bf94172]"
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.36
   type: ss
   udp: true
   x-toolall-mihomo: true
@@ -46093,65 +45747,33 @@ proxies:
   type: ss
   udp: true
   x-toolall-mihomo: true
-- name: JP - zhuhai.uk [b7fcd414f39c9921] [9d3ee5abd072]
-  port: 443
-  server: fan.571589.xyz
+- cipher: aes-256-gcm
+  name: "IT\u3010\u9AD8\u901F\u8282\u70B9\uFF1Ahttps://tt.vg/vip\u30117 [47970f3e0c19e42e]\
+    \ [885d389b64d7]"
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.18
+  type: ss
+  udp: true
+  x-toolall-mihomo: true
+- name: JP - zhuhai.uk [2926e1a11f800c7e] [7ba567cbae47]
+  password: "null"
+  port: 40583
+  server: 120.232.204.58
+  skip-cert-verify: true
   tls: true
   type: http
-- name: KR - zhuhai.uk [2f8956cc0b762858] [6b316d79c2c9]
+  username: "null"
+- name: KR - zhuhai.uk 02 [2f8956cc0b762858] [6b316d79c2c9]
   port: 443
   server: 152.69.230.221
   skip-cert-verify: true
   tls: true
   type: http
-- name: LV_speednode_0020 [a0b4e0754e17]
-  port: 443
-  server: 185.219.159.15
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: LV_speednode_0021 [21c346022b3f]
-  password: None
-  port: 443
-  server: 185.219.159.16
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: NL - zhuhai.uk [579b2d214c3aac52] [47dbdd004c5b]
-  password: "null"
-  port: 9002
-  server: 84.17.47.147
-  skip-cert-verify: true
-  sni: 84.17.47.147
-  tls: true
-  type: http
-  username: "null"
-- name: NL_speednode_0022 [9786e1ec9296]
-  password: "null"
-  port: 443
-  server: 103.97.88.154
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: "null"
-  x-toolall-mihomo: true
-- name: NL_speednode_0023 [f03b16402ab3]
-  port: 9002
-  server: 84.17.47.124
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: NL_speednode_0025 [461db3e89d9a]
+- name: NL_speednode_0024 [f6303636874a]
   password: None
   port: 9002
-  server: 84.17.47.149
+  server: 84.17.47.148
   skip-cert-verify: true
   tls: true
   type: http
@@ -46165,96 +45787,88 @@ proxies:
   type: http
   udp: true
   x-toolall-mihomo: true
-- name: NL_speednode_0027 [5a16ef58e735]
-  password: None
-  port: 9002
-  server: 84.17.47.123
+- name: US - zhuhai.uk 03 [7fcb0892a70e2a8c] [cd62d4e997be]
+  port: 9443
+  server: 198.44.138.27
   skip-cert-verify: true
   tls: true
   type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: RO-Bucharest-3176843-tqzq [c52f2f9bbaff]
-  password: "null"
-  port: 9002
-  server: 193.176.84.31
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: "null"
-- name: RO-Bucharest-3176843-vkhp [c2a232611f73]
-  password: "null"
-  port: 9002
-  server: 193.176.84.33
-  skip-cert-verify: true
-  sni: 193.176.84.33
-  tls: true
-  type: http
-  username: "null"
-- name: US - zhuhai.uk 08 [64e69799f1f1e578] [562ca4382193]
-  port: 9002
-  server: 138.199.35.218
-  skip-cert-verify: true
-  sni: 138.199.35.218
-  tls: true
-  type: http
-- name: US_speednode_0039 [8302b676182f]
-  port: 8443
-  server: 44.248.167.117
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: US_speednode_0040 [853162e17c25]
+- name: US - zhuhai.uk 05 [429fd8aa5fdfda83] [a3d0ff39dcd3]
   port: 443
-  server: 38.247.141.135
+  server: 12.202.180.118
   skip-cert-verify: true
   tls: true
   type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: VIP1-SE-Stockholm-1251938-hohf [e39388f12d00]
-  port: 9050
-  server: 45.61.129.165
-  type: socks5
-  username: bnVsbDpudWxs
-- name: VIP1-US-Seattle-41682158-hhec [4469ccdebae5]
-  password: test123
-  port: 1080
-  server: 104.168.249.36
-  type: socks5
-  username: test123
-- name: VIP2-BG-Sofia-915618-dvgd [06839255a299]
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: "US\u7F8E\u56FD(mibei77.com \u7C73\u8D1D\u8282\u70B9\u5206\u4EAB) [0d9434f73c0a]"
   network: ws
-  password: 46d221fa-e9b4-748c-4eae-019a88e42991
   port: 443
-  server: 191.44.112.170.sslip.io
-  sni: orbylume.my.to
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      host: orbylume.my.to
-    path: /tvpn-trojan/bg
-- name: VIP2-NL-Amsterdam-2421161-hynn [0e92352956d1]
-  port: 9050
-  server: 45.61.129.165
-  type: socks5
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: "204adda7e3da"
-  name: canfingV2rayNG-381 [5ec0e7e36b26]
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: PD8Jdlg3xB9QY--jwQjp8PFPzCS8-Oryw6-HWBcHMFU
-    short-id: "d3bd772514c87d28"
-  server: 79.182.39.131
-  servername: 717252g.nl8.h1clayd.click
+  server: 3.169.9.125
+  servername: d2ex4nxd2e01ub.cloudfront.net
   tls: true
   type: vless
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
+  ws-opts:
+    headers:
+      Host: d2ex4nxd2e01ub.cloudfront.net
+    path: /
+  x-toolall-mihomo: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: VIP2-DE-Frankfurt am Main-h-322310712-ddyx [ba46ffad0b07]
+  port: 443
+  reality-opts:
+    public-key: ZKLerhOtbZ9D1Kvfz9w9LPGhYTQmfGs98HthyAy85AQ
+    short-id: "503131904226bcad"
+  server: 194.113.35.240
+  servername: www.shinservice.ru
+  tls: true
+  type: vless
+  uuid: 4b5bada6-0724-4cb1-8105-04737c8a7a3e
+  x-toolall-mihomo: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: VIP2-DE-Frankfurt am Main-h-322310712-ddyx [c0b2b41a02c0]
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: ZKLerhOtbZ9D1Kvfz9w9LPGhYTQmfGs98HthyAy85AQ
+    short-id: "503131904226bcad"
+  server: 194.113.35.240
+  servername: www.shinservice.ru
+  tls: true
+  type: vless
+  uuid: 4b5bada6-0724-4cb1-8105-04737c8a7a3e
+  x-toolall-mihomo: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: VIP2-ES-Madrid-h-198553-dvgz [1e395538b6f2]
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
+    short-id: "42426c882c5fcd41"
+  server: 196.196.149.80
+  servername: 7aa271t.es1.h1clayd.click
+  tls: true
+  type: vless
+  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
+  x-toolall-mihomo: true
+- name: VIP2-SG-Singapore-23616824-ddvg [731ac5ffdf3c]
+  password: "8888"
+  port: 1080
+  server: 47.236.168.243
+  type: socks5
+  username: "8888"
+- name: VIP2-US-Phoenix-h-914612420-dyzd [b66d645e1b7e]
+  password: eb9888f5-66ec-481d-a82f-0f4e6277f098
+  port: 51000
+  server: 129.146.124.201
+  skip-cert-verify: true
+  sni: cn.cremedelamer.com
+  type: hysteria2
   x-toolall-mihomo: true
 - alpn:
   - h3
@@ -46269,21 +45883,28 @@ proxies:
   type: hysteria
   up: 11 Mbps
   x-toolall-mihomo: true
-- name: twmoon1-cdn-route.couldflare-cdn.com [842d17517f87]
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 1443
-  server: twmoon1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- name: "\u2753Other_1|212KB/s|R002-260618 [bcad80c3a8d5]"
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: oci-tokyo [a2b54ac4c885]
+  network: tcp
   port: 443
-  server: 159.13.44.228
-  skip-cert-verify: true
-  sub_tag: R002-260618
+  reality-opts:
+    public-key: 99eQkMBHqOEKororOWKFlmH8M0o9VaVpV9w1vQIxhz8
+    short-id: "684c7531e599dec0"
+  server: 158.101.151.157
+  servername: www.microsoft.com
   tls: true
+  type: vless
+  uuid: 66171cbe-0b4b-4b24-99f6-d5a822f4dc9a
+  x-toolall-mihomo: true
+- name: "\u2753Other_19|554KB/s|R002-260618 [8ec8dc372133]"
+  password: 0wcmn0va70ra
+  port: 7706
+  server: 136.143.243.57
+  sub_tag: R002-260618
   type: http
   udp: true
+  username: hommkiti
   x-toolall-mihomo: true
 - cipher: aes-256-gcm
   delay: 600
@@ -46304,6 +45925,15 @@ proxies:
   udp: true
   x-toolall-mihomo: true
 - cipher: aes-256-gcm
+  delay: 587
+  name: "\u610F\u5927\u5229 - Milan - 5 [0e16aae8a64f]"
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.54
+  type: ss
+  udp: true
+  x-toolall-mihomo: true
+- cipher: aes-256-gcm
   delay: 1596
   name: "\u610F\u5927\u5229 - Milan - 7 [9d0e1ffea805]"
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -46312,102 +45942,52 @@ proxies:
   type: ss
   udp: true
   x-toolall-mihomo: true
-- name: "\u6C5F\u6C5F\u97E9\u56FD IEPL\uFF5C\u516C\u76CA 01 [f7be86c822fc]"
-  password: ''
-  port: 1090
-  server: 121.169.46.116
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-  x-toolall-mihomo: true
-- cipher: 2022-blake3-aes-128-gcm
-  name: "\u7F8E\u56FD \u6D1B\u6749\u77F6 - US03 [d01ac4c7ddb9]"
-  password: YTE1ZWU4ZTEyZjc3YmEzZA==:NjRjZGI3OTgtZWUyMS00OA==
-  plugin: gost-plugin
-  plugin-opts:
-    host: ccus3.7777792.xyz
-    mode: websocket
-    mux: true
-    path: /api/v1/stream
-    tls: false
-  port: 80
-  server: 104.18.6.131
-  type: ss
-  udp: true
-  udp-over-tcp: true
-  udp-over-tcp-version: 2
-  x-toolall-mihomo: true
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: "\U0001F1E6\U0001F1EA_\u963F\u62C9\u4F2F\u8054\u5408\u914B\u957F\u56FD (2)\
-    \ [ce5bf4e822ad8c71] [64952e21d921]"
-  port: 443
-  reality-opts:
-    public-key: Caj4X3VjnHfdRQzWLmjFCiG_CGw0scYYni6UxVfBs38
-    short-id: "db6a4219fb"
-  server: msk10.gacvpn.site
-  servername: nl3-edge.gacvpn.site
-  skip-cert-verify: true
-  sni: nl3-edge.gacvpn.site
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3f5e89d5-591f-4ac9-b071-b05680b573c3
-  x-toolall-mihomo: true
-- name: "\U0001F1E6\U0001F1F1AL_3|590KB/s|P002-260618 [687295eda033]"
-  password: None
-  port: 443
-  server: 87.120.103.226
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: "\U0001F1E6\U0001F1F1AL_4|605KB/s|K001-260618 [b1efb572cb22]"
-  password: ''
+- name: "\U0001F1E6\U0001F1F1AL_1|1.1MB/s [c0ba1fab26a85fc5] [df74b31c3766]"
   port: 9443
   server: 31.171.155.210
   skip-cert-verify: true
-  sub_tag: K001-260618
   tls: true
   type: http
-  udp: true
-  username: ''
-  x-toolall-mihomo: true
-- name: "\U0001F1E6\U0001F1F9AT_1|2.4MB/s [c4950e321b388c13] [82d61a814f86]"
+- name: "\U0001F1E6\U0001F1F1AL_2|2.2MB/s [9f75c64fdecb2338] [1bc4ee1c22d3]"
+  port: 443
+  server: 87.120.103.226
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: "\U0001F1E6\U0001F1F9AT_1|2.1MB/s [82d61a814f86]"
   port: 443
   server: 146.70.244.2
   skip-cert-verify: true
   tls: true
   type: http
-- name: "\U0001F1E7\U0001F1E6BA_2|1.0MB/s|R002-260618 [9bb95b13ab3d]"
+- name: "\U0001F1E7\U0001F1EABE_1|1.8MB/s [2ec001363135]"
   port: 443
-  server: 185.164.35.16
+  server: 146.70.123.98
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: "\U0001F1E7\U0001F1ECBG_8|1.1MB/s|R002-260618 [709b57a81efe]"
+  password: None
+  port: 443
+  server: 185.94.192.210
   skip-cert-verify: true
   sub_tag: R002-260618
   tls: true
   type: http
   udp: true
   x-toolall-mihomo: true
-- name: "\U0001F1E7\U0001F1EABE_1|1.1MB/s [e0f784c83df0b208] [2ec001363135]"
+- name: "\U0001F1E8\U0001F1E6CA_25|858KB/s|K001-260618 [49f256b7eb71]"
+  password: None
   port: 443
-  server: 146.70.123.98
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: "\U0001F1E7\U0001F1F7BR_7|539KB/s|K001-260618 [8547e1f0145e]"
-  password: "null"
-  port: 443
-  server: 134.65.17.77
+  server: 206.223.183.13
   skip-cert-verify: true
   sub_tag: K001-260618
   tls: true
   type: http
   udp: true
-  username: "null"
+  username: ''
   x-toolall-mihomo: true
-- name: "\U0001F1E8\U0001F1E6CA_13|810KB/s|R002-260618 [0718e9a83f9f]"
+- name: "\U0001F1E8\U0001F1E6CA_2|1.9MB/s|R002-260618 [0718e9a83f9f]"
   port: 443
   server: 206.223.183.21
   skip-cert-verify: true
@@ -46416,35 +45996,7 @@ proxies:
   type: http
   udp: true
   x-toolall-mihomo: true
-- name: "\U0001F1E8\U0001F1E6CA_1|1.3MB/s [6f8cc1aa23d4e66c] [6954308d0681]"
-  port: 9443
-  server: 198.44.157.27
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: "\U0001F1E8\U0001F1E6CA_23|755KB/s|K001-260618 [f11c4bd24f04]"
-  password: None
-  port: 9443
-  server: 198.44.157.19
-  skip-cert-verify: true
-  sub_tag: K001-260618
-  tls: true
-  type: http
-  udp: true
-  username: ''
-  x-toolall-mihomo: true
-- name: "\U0001F1E8\U0001F1E6CA_29|699KB/s|P002-260618 [106191a33389]"
-  password: "null"
-  port: 443
-  server: 4.172.245.121
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  username: "null"
-  x-toolall-mihomo: true
-- name: "\U0001F1E8\U0001F1E6CA_37|559KB/s|P002-260618 [a085336e318e]"
+- name: "\U0001F1E8\U0001F1E6CA_36|756KB/s|P002-260618 [a085336e318e]"
   password: None
   port: 443
   server: 206.223.183.16
@@ -46454,18 +46006,38 @@ proxies:
   type: http
   udp: true
   x-toolall-mihomo: true
-- name: "\U0001F1E8\U0001F1EDCH_27|551KB/s|K001-260618 [540e8f638a67]"
-  password: None
+- name: "\U0001F1E8\U0001F1E6CA_5|912KB/s|R002-260618 [bf3cde1b6b99]"
   port: 9443
-  server: 149.88.27.46
+  server: 149.88.98.81
   skip-cert-verify: true
-  sub_tag: K001-260618
+  sub_tag: R002-260618
   tls: true
   type: http
   udp: true
-  username: ''
   x-toolall-mihomo: true
-- name: "\U0001F1E8\U0001F1EDCH_29|838KB/s|K001-260618 [8d22fc5fb5dd]"
+- client-fingerprint: chrome
+  name: "\U0001F1E8\U0001F1E6\u52A0\u62FF\u5927 \u5E7F\u64ADIP 19.68MB/s 254 linuxdo@onimaii\
+    \ [f866334e8b41]"
+  network: ws
+  port: 443
+  server: 60.248.219.53
+  servername: ty986gfazs.cainiaohub.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: c1c04450-bf71-4049-ad0c-9cf6d94d9f1f
+  ws-opts:
+    headers:
+      Host: ty986gfazs.cainiaohub.xyz
+    path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
+  x-toolall-mihomo: true
+- name: "\U0001F1E8\U0001F1EDCH_1|1.7MB/s [1c4f67b44e61]"
+  port: 443
+  server: 31.7.62.50
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: "\U0001F1E8\U0001F1EDCH_34|1.2MB/s|K001-260618 [8d22fc5fb5dd]"
   password: ''
   port: 9443
   server: 149.88.27.33
@@ -46476,13 +46048,7 @@ proxies:
   udp: true
   username: ''
   x-toolall-mihomo: true
-- name: "\U0001F1E8\U0001F1EDCH_4|1.1MB/s [7fa190c2668d85d6] [1c4f67b44e61]"
-  port: 443
-  server: 31.7.62.50
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: "\U0001F1E8\U0001F1EDCH_62|721KB/s|R002-260618 [2a1b7b362990]"
+- name: "\U0001F1E8\U0001F1EDCH_3|1.3MB/s|R002-260618 [2a1b7b362990]"
   port: 9443
   server: 37.120.213.210
   skip-cert-verify: true
@@ -46491,19 +46057,22 @@ proxies:
   type: http
   udp: true
   x-toolall-mihomo: true
-- ip: 172.16.0.2/32
-  ipv6: 2606:4700:110:8e4e:939b:b987:39aa:c46c/128
-  mtu: 1280
-  name: "\U0001F1E8\U0001F1F3CN_1|1.3MB/s [3d6c775aa8f4ffe5] [9f3960695181]"
-  port: 3854
-  private-key: OEysS/3kryZt7O/RobQFlmPatDWuUl9bwef0IoMX/Uo=
-  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
-  reserved:
-  - 0
-  - 0
-  - 0
-  server: 8.6.112.134
-  type: wireguard
+- name: "\U0001F1E8\U0001F1F3\u53F0\u6E7E \u539F\u751FIP 0.19MB/s 390 linuxdo@onimaii\
+    \ [842d17517f87]"
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 1443
+  server: twmoon1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- name: "\U0001F1E8\U0001F1FFCZ_1|1.6MB/s|P002-260618 [c09077eae3d7]"
+  password: None
+  port: 443
+  server: 185.216.35.130
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
   udp: true
   x-toolall-mihomo: true
 - name: "\U0001F1E8\U0001F1FFCZ_1|3.3MB/s [654d560d4c97]"
@@ -46516,58 +46085,7 @@ proxies:
   udp: true
   username: ''
   x-toolall-mihomo: true
-- name: "\U0001F1E8\U0001F1FFCZ_8|904KB/s|P002-260618 [c09077eae3d7]"
-  password: None
-  port: 443
-  server: 185.216.35.130
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: "\U0001F1E9\U0001F1EADE_105|4.1MB/s|P002-260618 [e1dacb4207c8]"
-  password: None
-  port: 443
-  server: 87.106.223.158
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: "\U0001F1E9\U0001F1EADE_110|3.2MB/s|R002-260618 [fa577ab1f98c]"
-  password: "null"
-  port: 443
-  server: 159.69.94.125
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  username: "null"
-  x-toolall-mihomo: true
-- name: "\U0001F1E9\U0001F1EADE_12|3.5MB/s|R002-260618 [d879bd5657a9]"
-  port: 443
-  server: 87.106.223.158
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: "\U0001F1E9\U0001F1EADE_132|4.3MB/s|K001-260618 [c22c6176e8e0]"
-  password: "null"
-  port: 443
-  server: 213.109.163.119
-  skip-cert-verify: true
-  sub_tag: K001-260618
-  tls: true
-  type: http
-  udp: true
-  username: "null"
-  x-toolall-mihomo: true
-- name: "\U0001F1E9\U0001F1EADE_14|291KB/s|R002-260618 [4194c42ef8e9]"
+- name: "\U0001F1E9\U0001F1EADE_165|906KB/s|R002-260618 [4194c42ef8e9]"
   password: "null"
   port: 443
   server: fan.973511.xyz
@@ -46578,176 +46096,58 @@ proxies:
   udp: true
   username: "null"
   x-toolall-mihomo: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: "\U0001F1E9\U0001F1EADE_170|409KB/s|M003-260806 [98fab60b8a80]"
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: MuQH546CBdgYVBzNU_F5fimkbQ0srHxgLKDjl1Wz2Rw
-    short-id: "00000000"
-  server: 95.85.234.66
-  servername: fl-modx.webedg.net
-  tls: true
-  type: vless
-  uuid: 3659f248-1797-4d6e-9982-a308565fec79
-  x-toolall-mihomo: true
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: "\U0001F1E9\U0001F1EADE_182|1.2MB/s|S001-260618 [9a63840cd58a]"
-  network: grpc
-  packet-encoding: xudp
-  port: 443
-  server: 212.113.116.181
-  servername: de.oncloudvpn.com
-  sub_tag: S001-260618
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1d46250c-f015-439d-a7fd-c4d9e2a4c63d
-  x-toolall-mihomo: true
-  xudp: true
-- name: "\U0001F1E9\U0001F1EADE_22|1.7MB/s|R002-260618 [ce5222b25c0f]"
-  port: 443
-  server: 217.92.132.233
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: "\U0001F1E9\U0001F1EADE_23|1.6MB/s|R002-260618 [9e1fea1b92ef]"
-  port: 443
-  server: 116.202.172.99
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: "\U0001F1E9\U0001F1EADE_2|1.6MB/s [072757054c212a2a] [700b4bd38f03]"
+- name: "\U0001F1E9\U0001F1EADE_1|1.3MB/s [700b4bd38f03]"
   port: 443
   server: 213.177.229.161
   skip-cert-verify: true
   tls: true
   type: http
-- name: "\U0001F1E9\U0001F1EADE_36|6.0MB/s|K001-260618 [4b38bdefdd21]"
-  password: None
-  port: 9002
-  server: 158.173.154.3
-  skip-cert-verify: true
-  sub_tag: K001-260618
-  tls: true
-  type: http
-  udp: true
-  username: ''
-  x-toolall-mihomo: true
-- name: "\U0001F1E9\U0001F1EADE_3|2.0MB/s [2df495ac24d78d7d] [7e54912d3b27]"
+- name: "\U0001F1E9\U0001F1EADE_2|2.1MB/s [7e54912d3b27]"
   port: 443
   server: 172.64.69.89
   skip-cert-verify: true
   tls: true
   type: http
-- name: "\U0001F1E9\U0001F1EADE_3|573KB/s|P002-260618 [9425f5a13d8f]"
-  password: "e4b72b531a2d10900519"
-  port: 443
-  server: 167.172.172.190
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  username: testuser1
-  x-toolall-mihomo: true
-- name: "\U0001F1E9\U0001F1EADE_64|1.0MB/s|R002-260618 [c6a7d6bb2cb1]"
-  password: None
-  port: 443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: "\U0001F1E9\U0001F1EADE_6|3.9MB/s [aff0968e0afe]"
+- name: "\U0001F1E9\U0001F1EADE_3|1.5MB/s [aff0968e0afe]"
   password: None
   port: 443
   server: 172.64.68.89
   skip-cert-verify: true
   tls: true
   type: http
-- name: "\U0001F1E9\U0001F1EADE_6|4.8MB/s|R002-260618 [853cbfea7588]"
+- name: "\U0001F1E9\U0001F1EADE_4|3.1MB/s|R002-260618 [d879bd5657a9]"
   port: 443
-  server: 159.69.94.125
+  server: 87.106.223.158
   skip-cert-verify: true
   sub_tag: R002-260618
   tls: true
   type: http
   udp: true
   x-toolall-mihomo: true
-- name: "\U0001F1E9\U0001F1EADE_7|1.6MB/s|R002-260618 [380d6623cb02]"
-  port: 443
-  server: 185.44.107.166
+- name: "\U0001F1E9\U0001F1EADE_59|1.2MB/s|R002-260618 [7e349bfebde8]"
+  port: 8443
+  server: 77.221.136.60
   skip-cert-verify: true
   sub_tag: R002-260618
   tls: true
   type: http
   udp: true
   x-toolall-mihomo: true
-- name: "\U0001F1E9\U0001F1EADE_80|4.3MB/s|R002-260618 [270f10d1ed7e]"
-  password: "null"
+- name: "\U0001F1E9\U0001F1EADE_93|158KB/s|R002-260618 [4c333b993ec8]"
   port: 443
-  server: 116.202.172.99
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  username: "null"
-  x-toolall-mihomo: true
-- name: "\U0001F1E9\U0001F1EADE_98|5.2MB/s|R002-260618 [45ae42e77b51]"
-  port: 443
-  server: 213.109.163.119
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: "\U0001F1E9\U0001F1EADE_9|2.9MB/s|R002-260618 [7e33ca9d37ba]"
-  port: 9002
-  server: 158.173.154.4
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD->\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD\
-    _IPV4 [5f6627e9d54a]"
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: edge.bookmai.com
-  servername: mother-earth.fyi
+  server: fan.973511.xyz
   skip-cert-verify: false
+  sni: fan.973511.xyz
+  sub_tag: R002-260618
   tls: true
-  type: vless
-  uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
+  type: http
+  udp: true
   x-toolall-mihomo: true
 - alpn:
   - h3
   auth-str: dongtaiwang.com
   down: "55"
-  name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_IPV4 (2) [6a9ab7ea2aa03f5f] [13e50110b6aa]"
+  name: "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_IPV4 (3) [6a9ab7ea2aa03f5f] [13e50110b6aa]"
   password: dongtaiwang.com
   port: 54177
   server: 5.83.129.90
@@ -46758,16 +46158,7 @@ proxies:
   type: hysteria
   up: "11"
   x-toolall-mihomo: true
-- name: "\U0001F1E9\U0001F1EA\u5FB7\u56FD \u539F\u751FIP 22.98MB/s 392 linuxdo@onimaii\
-    \ [800452a5db63]"
-  password: "e4b72b531a2d10900519"
-  port: 443
-  server: 162.243.146.243
-  sni: a2f392f3.acsnet.co
-  tls: true
-  type: http
-  username: testuser1
-- name: "\U0001F1E9\U0001F1F0DK_2|1.1MB/s|R002-260618 [b39e85018bb8]"
+- name: "\U0001F1E9\U0001F1F0DK_1|1.3MB/s|R002-260618 [b39e85018bb8]"
   port: 9443
   server: 185.245.84.50
   skip-cert-verify: true
@@ -46776,7 +46167,7 @@ proxies:
   type: http
   udp: true
   x-toolall-mihomo: true
-- name: "\U0001F1EA\U0001F1E8EC_1|369KB/s|P002-260618 [416434520316]"
+- name: "\U0001F1EA\U0001F1E8EC_1|593KB/s|P002-260618 [416434520316]"
   password: ''
   port: 9443
   server: 38.165.231.71
@@ -46787,7 +46178,7 @@ proxies:
   udp: true
   username: ''
   x-toolall-mihomo: true
-- name: "\U0001F1EA\U0001F1EAEE_2|712KB/s|R002-260618 [195bde6c350e]"
+- name: "\U0001F1EA\U0001F1EAEE_3|1.1MB/s|R002-260618 [195bde6c350e]"
   port: 9443
   server: 95.153.31.66
   skip-cert-verify: true
@@ -46796,69 +46187,52 @@ proxies:
   type: http
   udp: true
   x-toolall-mihomo: true
-- name: "\U0001F1EA\U0001F1EAEE_5|1009KB/s|R002-260618 [ac78dec43e12]"
+- name: "\U0001F1EA\U0001F1F8ES \u5E7F\u64ADIP 28.44MB/s 450 linuxdo@onimaii [0eccd5bfbdc6]"
+  password: 0wcmn0va70ra
+  port: 9879
+  server: 85.189.216.134
+  type: http
+  username: hommkiti
+- name: "\U0001F1EB\U0001F1F7FR_109|6.0MB/s [9513c3ec83ca]"
+  password: "null"
   port: 443
-  server: 95.153.32.2
+  server: 172.64.69.89
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: "null"
+  x-toolall-mihomo: true
+- name: "\U0001F1EB\U0001F1F7FR_16|4.8MB/s|R002-260618 [05011d068359]"
+  port: 443
+  server: 172.64.68.89
   skip-cert-verify: true
   sub_tag: R002-260618
   tls: true
   type: http
   udp: true
   x-toolall-mihomo: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: "\U0001F1EA\U0001F1F8ES \u5E7F\u64ADIP 4.04MB/s 481 linuxdo@onimaii [747848a4c572]"
-  network: tcp
+- name: "\U0001F1EB\U0001F1F7FR_3|2.6MB/s [32e7639f03cef99d] [35e8ee638fd0]"
   port: 443
-  reality-opts:
-    public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
-    short-id: "42426c882c5fcd41"
-  server: 196.196.149.80
-  servername: 7aa271t.es1.h1clayd.click
-  tls: true
-  type: vless
-  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-  x-toolall-mihomo: true
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  down: "55"
-  name: "\U0001F1EB\U0001F1F7FR_1|3.2MB/s [01fe92b261e5]"
-  password: dongtaiwang.com
-  port: 24667
-  server: 62.210.28.175
-  servername: bing.com
+  server: 149.102.245.65
   skip-cert-verify: true
-  sni: bing.com
   tls: true
-  type: hysteria
-  up: "11"
+  type: http
+- name: "\U0001F1EB\U0001F1F7FR_48|6.3MB/s|R002-260618 [3ca035c6a0e8]"
+  port: 443
+  server: 172.64.69.89
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
   x-toolall-mihomo: true
-- name: "\U0001F1EB\U0001F1F7FR_40|7.7MB/s|P002-260618 [8b2e468494ca]"
+- name: "\U0001F1EB\U0001F1F7FR_55|3.3MB/s|P002-260618 [d9f747e4f4f4]"
   password: None
-  port: 6103
-  server: 87.98.174.157
+  port: 443
+  server: 172.64.68.89
   skip-cert-verify: true
   sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: "\U0001F1EB\U0001F1F7FR_6|997KB/s|R002-260618 [fb5ca88b9889]"
-  port: 8081
-  server: 31.32.19.111
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: "\U0001F1EB\U0001F1F7FR_9|1.5MB/s|R002-260618 [52e4b2be20ad]"
-  port: 443
-  server: 103.82.101.43
-  skip-cert-verify: true
-  sni: 76d1d3ecadca44efa2339867d7dfc9a1-8e928736d0f8dbdc.apache-iv.com
-  sub_tag: R002-260618
   tls: true
   type: http
   udp: true
@@ -46878,69 +46252,59 @@ proxies:
   type: hysteria
   up: "11"
   x-toolall-mihomo: true
-- client-fingerprint: chrome
-  name: "\U0001F1EB\U0001F1F7\u6CD5\u56FD \u539F\u751FIP 0.19MB/s 413 linuxdo@onimaii\
-    \ [bb07647dd446]"
-  network: ws
-  port: 443
-  server: 3.169.9.125
-  servername: d14jyezfrcyf60.cloudfront.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
-  ws-opts:
-    headers:
-      Host: d14jyezfrcyf60.cloudfront.net
-    path: /
-  x-toolall-mihomo: true
-- name: "\U0001F1EB\U0001F1F7\u6CD5\u56FD \u539F\u751FIP 1.16MB/s 323 linuxdo@onimaii\
-    \ [a19214b2ce0d]"
-  password: freeuser1
-  port: 9251
-  server: fr012.freeconnect.link
-  tls: true
-  type: http
-  username: freeuser1
 - alpn:
   - h3
   auth-str: dongtaiwang.com
   down: "55"
-  name: "\U0001F1EB\U0001F1F7\u6CD5\u56FD \u539F\u751FIP 2.30MB/s 312 linuxdo@onimaii\
-    \ [ffd6f8980cb1]"
-  port: 36699
-  server: 163.172.117.163
+  name: "\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD_IPV4 [99a84d3b717c4b3a] [01fe92b261e5]"
+  password: dongtaiwang.com
+  port: 24667
+  server: 62.210.28.175
+  servername: bing.com
+  skip-cert-verify: true
+  sni: bing.com
+  tls: true
+  type: hysteria
+  up: "11"
+  x-toolall-mihomo: true
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  down: "55"
+  name: "\U0001F1EB\U0001F1F7\u6CD5\u56FD \u539F\u751FIP 0.63MB/s 335 linuxdo@onimaii\
+    \ [cf00a1d02f2d]"
+  port: 24667
+  server: 62.210.28.175
   skip-cert-verify: true
   type: hysteria
   up: "11"
   x-toolall-mihomo: true
-- name: "\U0001F1EB\U0001F1F7\u6CD5\u56FD \u539F\u751FIP 2.30MB/s 333 linuxdo@onimaii\
-    \ [ff9b00b5bb2d]"
-  password: freeuser1
-  port: 9251
-  server: fr003.freeconnect.link
-  tls: true
+- name: "\U0001F1EB\U0001F1F7\u6CD5\u56FD \u539F\u751FIP 1.75MB/s 359 linuxdo@onimaii\
+    \ [09d8a2c30e1c]"
+  password: 0wcmn0va70ra
+  port: 6182
+  server: 142.252.37.58
   type: http
-  username: freeuser1
-- name: "\U0001F1EB\U0001F1F7\u6CD5\u56FD \u5E7F\u64ADIP 5.46MB/s 537 linuxdo@onimaii\
-    \ [1692ef1d71af]"
-  password: freeuser1
-  port: 9251
-  server: nl205.freeconnect.link
-  tls: true
-  type: http
-  username: freeuser1
-- name: "\U0001F1EC\U0001F1E7GB_14|1.4MB/s|P002-260618 [8160cb3bcb47]"
-  password: None
+  username: hommkiti
+- name: "\U0001F1EC\U0001F1E7GB_16|513KB/s|R002-260618 [800642584a35]"
   port: 443
-  server: 212.102.63.31
+  server: 212.102.63.1
   skip-cert-verify: true
-  sub_tag: P002-260618
+  sub_tag: R002-260618
   tls: true
   type: http
   udp: true
   x-toolall-mihomo: true
-- name: "\U0001F1EC\U0001F1E7GB_22|742KB/s|P002-260618 [13d215abf4ed]"
+- name: "\U0001F1EC\U0001F1E7GB_24|1.2MB/s|R002-260618 [5eb8393cd366]"
+  port: 9443
+  server: 84.233.178.33
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: "\U0001F1EC\U0001F1E7GB_26|966KB/s|P002-260618 [13d215abf4ed]"
   password: None
   port: 9443
   server: 84.17.50.214
@@ -46950,21 +46314,17 @@ proxies:
   type: http
   udp: true
   x-toolall-mihomo: true
-- name: "\U0001F1EC\U0001F1E7GB_4|2.4MB/s [7f7d62a908305081] [77b854829501]"
+- name: "\U0001F1EC\U0001F1E7GB_2|2.1MB/s|P002-260618 [0d245f0bc5a5619b] [8160cb3bcb47]"
+  password: None
   port: 443
-  server: 212.102.63.1
+  server: 212.102.63.31
   skip-cert-verify: true
+  sub_tag: P002-260618
   tls: true
   type: http
-- name: "\U0001F1EC\U0001F1E7\u82F1\u56FD \u539F\u751FIP 2.35MB/s 533 linuxdo@onimaii\
-    \ [8705806b83bb]"
-  password: freeuser1
-  port: 9251
-  server: ma1-gb.freeconnect.link
-  tls: true
-  type: http
-  username: freeuser1
-- name: "\U0001F1EC\U0001F1EAGE_1|2.6MB/s [8036133de7b2061f] [89e68234388e]"
+  udp: true
+  x-toolall-mihomo: true
+- name: "\U0001F1EC\U0001F1EAGE_1|2.9MB/s [8036133de7b2061f] [89e68234388e]"
   port: 443
   server: 195.54.178.210
   skip-cert-verify: true
@@ -46990,22 +46350,17 @@ proxies:
   udp: true
   username: ''
   x-toolall-mihomo: true
-- name: "\U0001F1ED\U0001F1F0 \u9999\u6E2F | HKG 2 [b3da4aa5fca7158d] [3e22ca82dfce]"
-  password: b80fb17e-082a-40ce-9e38-ee2f92c1a6ea
-  port: 36031
-  server: site.ddddd.site
+- name: "\U0001F1ED\U0001F1F0HK_27|175KB/s|R002-260618 [76f77bed8475]"
+  port: 443
+  server: fan.240104.xyz
   skip-cert-verify: true
-  sni: virtual.ubuntu24.com
-  type: anytls
-  x-toolall-mihomo: true
-- name: "\U0001F1ED\U0001F1F0HK_1|4.5MB/s [c28c3ed8f5fb]"
-  password: None
-  port: 31343
-  server: 120.232.204.58
-  skip-cert-verify: true
+  sni: fan.240104.xyz
+  sub_tag: R002-260618
   tls: true
   type: http
-- name: "\U0001F1ED\U0001F1F0HK_70|134KB/s|R002-260618 [dabbadb69986]"
+  udp: true
+  x-toolall-mihomo: true
+- name: "\U0001F1ED\U0001F1F0HK_96|175KB/s|R002-260618 [dabbadb69986]"
   password: "null"
   port: 443
   server: fan.240104.xyz
@@ -47016,41 +46371,21 @@ proxies:
   udp: true
   username: "null"
   x-toolall-mihomo: true
-- mport: 20000-50000
-  name: "\U0001F1ED\U0001F1F0\u3010\u4E9A\u6D32\u3011\u9999\u6E2F01\u4E28\u76F4\u8FDE\
-    \ [1307741c2443]"
-  password: e0379de1-6712-4644-b41b-afde5fa30ad7
-  port: 20000
-  ports: 20000-50000
-  server: 209.9.200.122
-  skip-cert-verify: true
-  sni: www.shopify.com
-  type: hysteria2
-  udp: true
-  x-toolall-mihomo: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: "\U0001F1ED\U0001F1F0\u9999\u6E2F|HK|admin@VIP [c5723ba4a5e1]"
-  port: 51314
-  reality-opts:
-    public-key: VWY3lvh8l3OoKnhln5nIzmxAG0Imp9arXMK6nbsGVB4
-    short-id: "0ee643ab"
-  server: hk3.wawojk.dpdns.org
-  servername: www.asus.com
-  tls: true
-  type: vless
-  uuid: affd72c9-0870-4c92-b6e5-af7d0e06313e
-  x-toolall-mihomo: true
-- name: "\U0001F1EE\U0001F1E9ID_2|690KB/s|R002-260618 [33704a7027b0]"
+- name: "\U0001F1ED\U0001F1F0\u9999\u6E2F \u539F\u751FIP 0.23MB/s 491 linuxdo@onimaii\
+    \ [72f6cc3a695c]"
+  password: "null"
   port: 443
-  server: 103.86.116.118
-  skip-cert-verify: true
-  sub_tag: R002-260618
+  server: fan.240104.xyz
   tls: true
   type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: "\U0001F1EE\U0001F1EAIE_2|3.1MB/s|R002-260618 [ccdfe7c35f3d]"
+  username: "null"
+- name: "\U0001F1ED\U0001F1FAHU_1|2.9MB/s [c089a9fb49699380] [b55234c9ce9b]"
+  port: 443
+  server: 146.70.203.18
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: "\U0001F1EE\U0001F1EAIE_2|2.6MB/s|R002-260618 [ccdfe7c35f3d]"
   port: 443
   server: 18.200.158.139
   skip-cert-verify: true
@@ -47059,75 +46394,71 @@ proxies:
   type: http
   udp: true
   x-toolall-mihomo: true
-- name: "\U0001F1EE\U0001F1EAIE_6|3.1MB/s|K001-260618 [42d7ca444ffb]"
+- name: "\U0001F1EE\U0001F1EAIE_6|1.1MB/s|P002-260618 [88c0cbd1ecd0]"
   password: None
   port: 443
-  server: 34.249.214.108
+  server: 149.88.96.1
   skip-cert-verify: true
-  sub_tag: K001-260618
-  tls: true
-  type: http
-  udp: true
-  username: ''
-  x-toolall-mihomo: true
-- name: "\U0001F1EE\U0001F1EAIE_7|2.2MB/s|R002-260618 [316bb3bdd670]"
-  password: "null"
-  port: 443
-  server: 34.249.214.108
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  username: "null"
-  x-toolall-mihomo: true
-- name: "\U0001F1EE\U0001F1F1IL_3|1.5MB/s|K001-260618 [a4cd70176943]"
-  password: None
-  port: 443
-  server: 62.90.77.30
-  skip-cert-verify: true
-  sub_tag: K001-260618
-  tls: true
-  type: http
-  udp: true
-  username: ''
-  x-toolall-mihomo: true
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: "7d5abcd7d8a1"
-  name: "\U0001F1EE\U0001F1F3\u5370\u5EA6 \u539F\u751FIP 9.97MB/s 478 linuxdo@onimaii\
-    \ [f1389ae4c418]"
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: xn7KVKS5MOnsFrYrEeRS04JssBCOxh12rxegaDFyGkA
-    short-id: "6d289ff0f47c0aac"
-  server: 196.245.153.156
-  servername: 961ec0g.nl17.h1clayd.click
-  tls: true
-  type: vless
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-  x-toolall-mihomo: true
-- name: "\U0001F1EE\U0001F1F8IS_1|1.1MB/s [d8d8a2212f3e4302] [5dec383d7134]"
-  port: 9443
-  server: 185.165.170.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: "\U0001F1EE\U0001F1F8IS_1|946KB/s|R002-260618 [5b4be6a66266]"
-  port: 9443
-  server: 185.165.170.1
-  skip-cert-verify: true
-  sub_tag: R002-260618
+  sub_tag: P002-260618
   tls: true
   type: http
   udp: true
   x-toolall-mihomo: true
 - cipher: aes-256-gcm
-  name: "\U0001F1EE\U0001F1F9 \u610F\u5927\u5229 | SS | 005 [9f940a28db48]"
+  name: "\U0001F1EE\U0001F1F9 \u610F\u5927\u5229 | SS | 001 [e0e3bc5211d1]"
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.45
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  udp: true
+  x-toolall-mihomo: true
+- cipher: aes-256-gcm
+  name: "\U0001F1EE\U0001F1F9 \u610F\u5927\u5229 | SS | 009 [9f940a28db48]"
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.99
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  udp: true
+  x-toolall-mihomo: true
+- cipher: aes-256-gcm
+  name: "\U0001F1EE\U0001F1F9 \u610F\u5927\u5229 | SS | 010 [ed9e5a0dab11]"
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.27
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  udp: true
+  x-toolall-mihomo: true
+- cipher: aes-256-gcm
+  name: "\U0001F1EE\U0001F1F9 \u610F\u5927\u5229 | SS | 015 [8817c7e26aa5]"
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.72
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  udp: true
+  x-toolall-mihomo: true
+- cipher: aes-256-gcm
+  name: "\U0001F1EE\U0001F1F9 \u610F\u5927\u5229 | SS | 016 [01776833adf8]"
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.36
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  udp: true
+  x-toolall-mihomo: true
+- cipher: aes-256-gcm
+  name: "\U0001F1EE\U0001F1F9 \u610F\u5927\u5229 | SS | 018 [444fcb7f7f5e]"
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.54
   skip-cert-verify: false
   tls: false
   type: ss
@@ -47139,64 +46470,103 @@ proxies:
   server: 69.16.157.244
   type: socks5
   username: ufCobhydz4Wd
-- name: "\U0001F1EE\U0001F1F9IT_36|379KB/s|R002-260618 [7eb30bb9e2dc]"
-  network: tcp
-  password: d9064589-74af-432a-9390-5d8a9da281bf
-  port: 20117
-  server: sclass-00.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  sub_tag: R002-260618
-  type: trojan
+- cipher: aes-256-gcm
+  name: "\U0001F1EE\U0001F1F9IT_10|2.8MB/s|B007-260618 [9a9ddab60873]"
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.36
+  sub_tag: B007-260618
+  type: ss
   udp: true
   x-toolall-mihomo: true
-- client-fingerprint: chrome
-  name: "\U0001F1EE\U0001F1F9IT_38|396KB/s|C002-260622 [6e44ce9f8186]"
-  network: tcp
-  password: d7563108-615c-4338-a7bd-77f359869a4a
-  port: 20117
-  server: sclass-00.catcat321.com
-  servername: hk.catxstar.com
-  skip-cert-verify: true
-  type: trojan
+- cipher: aes-256-gcm
+  name: "\U0001F1EE\U0001F1F9IT_11|3.4MB/s|B007-260618 [57445a13c843]"
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.18
+  sub_tag: B007-260618
+  type: ss
+  udp: true
   x-toolall-mihomo: true
-- name: "\U0001F1EE\U0001F1F9IT_3|1.8MB/s|R002-260618 [c2997d8fb09c]"
+- cipher: aes-256-gcm
+  name: "\U0001F1EE\U0001F1F9IT_16|1009KB/s|A004-260618 [fedf53752e2e]"
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.99
+  sub_tag: A004-260618
+  type: ss
+  udp: true
+  x-toolall-mihomo: true
+- cipher: aes-256-gcm
+  name: "\U0001F1EE\U0001F1F9IT_17|1.3MB/s|A004-260618 [0a1416cee6e7]"
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.72
+  sub_tag: A004-260618
+  type: ss
+  udp: true
+  x-toolall-mihomo: true
+- cipher: aes-256-gcm
+  name: "\U0001F1EE\U0001F1F9IT_2|524KB/s|A004-260618 [04af617c92c1]"
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.63
+  sub_tag: A004-260618
+  type: ss
+  udp: true
+  x-toolall-mihomo: true
+- name: "\U0001F1EE\U0001F1F9IT_34|758KB/s|R002-260618 [5557bbfed0ae]"
   port: 443
-  server: 95.229.15.89
+  server: 185.183.105.130
   skip-cert-verify: true
   sub_tag: R002-260618
   tls: true
   type: http
   udp: true
   x-toolall-mihomo: true
-- name: "\U0001F1EE\U0001F1F9|\u610F\u5927\u5229-IEPL 02 [0e562b525f4e]"
-  password: d9064589-74af-432a-9390-5d8a9da281bf
-  port: 20117
-  server: sclass-00.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
+- cipher: aes-256-gcm
+  name: "\U0001F1EE\U0001F1F9IT_3|2.3MB/s|B007-260618 [717452ac7274]"
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.54
+  sub_tag: B007-260618
+  type: ss
   udp: true
   x-toolall-mihomo: true
-- name: "\U0001F1EE\U0001F1F9|\u610F\u5927\u5229-IEPL 02 [7b44fa072404]"
-  password: d7563108-615c-4338-a7bd-77f359869a4a
-  port: 20117
-  server: sclass-01.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
+- cipher: aes-256-gcm
+  name: "\U0001F1EE\U0001F1F9IT_5|1.7MB/s|A004-260618 [fd0047a3e1ce]"
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.81
+  sub_tag: A004-260618
+  type: ss
   udp: true
   x-toolall-mihomo: true
-- name: "\U0001F1EE\U0001F1F9|\u610F\u5927\u5229-IEPL 02 [9bec713ba84d]"
-  password: d7563108-615c-4338-a7bd-77f359869a4a
-  port: 20117
-  server: sclass-00.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
+- cipher: aes-256-gcm
+  name: "\U0001F1EE\U0001F1F9IT_6|2.9MB/s|C001-260618 [30ad3d6dcba9]"
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.90
+  sub_tag: C001-260618
+  type: ss
   udp: true
   x-toolall-mihomo: true
-- name: "\U0001F1EF\U0001F1F5JP_16|221KB/s|R002-260618 [0dcfe37b3009]"
+- cipher: aes-256-gcm
+  name: "\U0001F1EE\U0001F1F9IT_9|2.1MB/s|A004-260618 [5381c352aaea]"
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.45
+  sub_tag: A004-260618
+  type: ss
+  udp: true
+  x-toolall-mihomo: true
+- name: "\U0001F1EF\U0001F1F5JP-104.252.87.200-0585 [b29edabeed6b]"
+  password: 0wcmn0va70ra
+  port: 9177
+  server: 104.252.87.200
+  type: http
+  username: hommkiti
+- name: "\U0001F1EF\U0001F1F5JP_16|116KB/s|R002-260618 [0dcfe37b3009]"
   port: 443
   server: fan.571589.xyz
   sni: fan.571589.xyz
@@ -47204,17 +46574,6 @@ proxies:
   tls: true
   type: http
   udp: true
-  x-toolall-mihomo: true
-- fingerprint: ''
-  name: "\U0001F1EF\U0001F1F5JP_2|3.5MB/s [fd37f50f897d]"
-  password: b80fb17e-082a-40ce-9e38-ee2f92c1a6ea
-  port: 36035
-  server: site.ddddd.site
-  skip-cert-verify: true
-  sni: virtual.ubuntu24.com
-  type: anytls
-  udp: true
-  username: b80fb17e-082a-40ce-9e38-ee2f92c1a6ea
   x-toolall-mihomo: true
 - name: "\U0001F1EF\U0001F1F5JP_6|2.4MB/s [0f4839b899b0]"
   password: ''
@@ -47227,73 +46586,62 @@ proxies:
   udp: true
   username: ''
   x-toolall-mihomo: true
-- name: "\U0001F1F1\U0001F1F9LT_8|2.2MB/s|K001-260618 [4f2dcb921fd1]"
-  password: None
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: "\U0001F1EF\U0001F1F5\u3010\u4E9A\u6D32\u3011\u65E5\u672C01\u4E28Vless [60a04b2acd63]"
   port: 443
-  server: 89.124.11.9
+  server: 18.181.238.222
+  servername: www.bing.com
   skip-cert-verify: true
-  sub_tag: K001-260618
+  tls: true
+  type: vless
+  udp: true
+  uuid: e0379de1-6712-4644-b41b-afde5fa30ad7
+  x-toolall-mihomo: true
+- name: "\U0001F1EF\U0001F1F5\u65E5\u672C \u539F\u751FIP 0.23MB/s 058 linuxdo@onimaii\
+    \ [9d3ee5abd072]"
+  port: 443
+  server: fan.571589.xyz
   tls: true
   type: http
-  udp: true
-  username: ''
-  x-toolall-mihomo: true
-- name: "\U0001F1F1\U0001F1FBLV_12|860KB/s|R002-260618 [1f31728dcdb5]"
+- client-fingerprint: firefox
+  name: "\U0001F1EF\U0001F1F5\u65E5\u672C-Y(\u901A\u7528) [6a2814044b6a]"
+  network: ws
   port: 443
-  server: 85.203.39.130
+  server: cos-cdn-u.alicdn.win
+  servername: mms-statlc-z7kq-y.hemaapi.men
+  tls: true
+  type: vless
+  udp: true
+  uuid: e3bc601b-364e-4304-8fea-46f04a9ccad4
+  ws-opts:
+    headers:
+      Host: mms-static-main-y.hemaapi.men
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/120.0.0.0 Safari/537.36
+    path: /newlogin/login.do
+  x-toolall-mihomo: true
+- name: "\U0001F1F2\U0001F1FEMY_1|437KB/s|R002-260618 [575a64a44155]"
+  port: 9443
+  server: 152.233.3.14
   skip-cert-verify: true
   sub_tag: R002-260618
   tls: true
   type: http
   udp: true
   x-toolall-mihomo: true
-- name: "\U0001F1F1\U0001F1FBLV_1|1.6MB/s [3d36e3eca205be4c] [db7b7005e8b5]"
-  port: 443
-  server: 109.248.147.66
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: "\U0001F1F1\U0001F1FBLV_3|1.9MB/s|R002-260618 [36d7f182a1bb]"
-  port: 443
-  server: 185.219.159.15
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
+- cipher: chacha20-ietf
+  name: "\U0001F1F3\U0001F1F1 \u8377\u5170 | NLD [ad12022f0033]"
+  obfs: tls1.2_ticket_auth
+  obfs-param: ''
+  password: dongtaiwang.com
+  port: 33336
+  protocol: auth_chain_a
+  protocol-param: ''
+  server: 109.104.153.43
+  type: ssr
   x-toolall-mihomo: true
-- name: "\U0001F1F3\U0001F1EC|\u5C3C\u65E5\u5229\u4E9A-IEPL 02 [0d39a05a2fe3]"
-  password: d7563108-615c-4338-a7bd-77f359869a4a
-  port: 20103
-  server: sclass-01.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
-  udp: true
-  x-toolall-mihomo: true
-- name: "\U0001F1F3\U0001F1F1NL_100|3.7MB/s|R002-260618 [3499c45c1db8]"
-  password: "e4b72b531a2d10900519"
-  port: 443
-  server: 82.196.9.7
-  sni: 52c40907.acsnet.co
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  username: testuser1
-  x-toolall-mihomo: true
-- name: "\U0001F1F3\U0001F1F1NL_105|2.6MB/s|R002-260618 [91edde60f3c3]"
-  password: "null"
-  port: 9002
-  server: 84.17.47.146
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  username: "null"
-  x-toolall-mihomo: true
-- name: "\U0001F1F3\U0001F1F1NL_106|5.6MB/s|R002-260618 [0dc67707ea09]"
+- name: "\U0001F1F3\U0001F1F1NL_10|3.4MB/s|R002-260618 [8e8ae16c401394c6] [0dc67707ea09]"
   password: "null"
   port: 9002
   server: 84.17.47.147
@@ -47305,17 +46653,46 @@ proxies:
   udp: true
   username: "null"
   x-toolall-mihomo: true
-- name: "\U0001F1F3\U0001F1F1NL_11|3.3MB/s [7a217f0fa92e]"
-  password: ''
-  port: 23856
-  server: 51.159.225.196
+- name: "\U0001F1F3\U0001F1F1NL_12|3.6MB/s|R002-260618 [387205ed3889]"
+  password: "null"
+  port: 9002
+  server: 84.17.47.150
   skip-cert-verify: true
+  sub_tag: R002-260618
   tls: true
   type: http
   udp: true
-  username: ''
+  username: "null"
   x-toolall-mihomo: true
-- name: "\U0001F1F3\U0001F1F1NL_126|746KB/s|R002-260618 [3a2f60b0f8e9]"
+- name: "\U0001F1F3\U0001F1F1NL_130|2.4MB/s|R002-260618 [d6a1d9c0507d]"
+  port: 9002
+  server: 84.17.47.150
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: "\U0001F1F3\U0001F1F1NL_146|1.4MB/s|R002-260618 [cdf1dfaec06e]"
+  port: 443
+  server: 185.246.153.28
+  skip-cert-verify: true
+  sni: 4a8c2906c96058315dffbc2b0e7ff19b-0c66a58858a795df.apache-iv.com
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: "\U0001F1F3\U0001F1F1NL_159|5.8MB/s|R002-260618 [1402a9534703]"
+  port: 9002
+  server: 84.17.47.124
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: "\U0001F1F3\U0001F1F1NL_177|1.6MB/s|R002-260618 [3a2f60b0f8e9]"
   port: 443
   server: 161.129.60.66
   skip-cert-verify: true
@@ -47324,26 +46701,17 @@ proxies:
   type: http
   udp: true
   x-toolall-mihomo: true
-- name: "\U0001F1F3\U0001F1F1NL_138|3.7MB/s|R002-260618 [2be510be4df2]"
-  port: 443
-  server: 5.255.118.82
+- name: "\U0001F1F3\U0001F1F1NL_209|5.5MB/s [25479245cd52]"
+  password: "null"
+  port: 9002
+  server: 84.17.47.123
   skip-cert-verify: true
-  sub_tag: R002-260618
   tls: true
   type: http
   udp: true
+  username: "null"
   x-toolall-mihomo: true
-- name: "\U0001F1F3\U0001F1F1NL_139|4.9MB/s|P002-260618 [63ec64e2a2bb]"
-  password: None
-  port: 443
-  server: 5.255.118.82
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: "\U0001F1F3\U0001F1F1NL_149|6.2MB/s|K001-260618 [6da234288c32]"
+- name: "\U0001F1F3\U0001F1F1NL_23|4.8MB/s|K001-260618 [6da234288c32]"
   password: None
   port: 9002
   server: 84.17.47.149
@@ -47354,114 +46722,22 @@ proxies:
   udp: true
   username: ''
   x-toolall-mihomo: true
-- name: "\U0001F1F3\U0001F1F1NL_194|5.6MB/s|R002-260618 [5fce3aa04aef]"
+- name: "\U0001F1F3\U0001F1F1NL_58|718KB/s|R002-260618 [1ada39f7a818]"
+  port: 443
+  server: 185.246.153.42
+  skip-cert-verify: true
+  sni: 482c8436a1f7c908b48a1757abb5dd79-3791fb4df2db250b.apache-iv.com
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: "\U0001F1F3\U0001F1F1NL_97|5.4MB/s|P002-260618 [cf7ad954a413]"
+  password: None
   port: 9002
   server: 84.17.47.126
   skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: "\U0001F1F3\U0001F1F1NL_21|1.1MB/s|R002-260618 [9c657aa129dc]"
-  port: 443
-  server: 103.97.88.154
-  skip-cert-verify: true
-  sni: 4a8c2906c96058315dffbc2b0e7ff19b-98005bea43f9ac33.apache-iv.com
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: "\U0001F1F3\U0001F1F1NL_24|4.4MB/s|R002-260618 [d6a1d9c0507d]"
-  port: 9002
-  server: 84.17.47.150
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: "\U0001F1F3\U0001F1F1NL_264|3.2MB/s|K001-260618 [66eb4f6956b3]"
-  password: None
-  port: 443
-  server: 5.2.73.112
-  skip-cert-verify: true
-  sub_tag: K001-260618
-  tls: true
-  type: http
-  udp: true
-  username: ''
-  x-toolall-mihomo: true
-- name: "\U0001F1F3\U0001F1F1NL_2|2.7MB/s|K001-260618 [4001dcaf70b737c1] [fb49417616d7]"
-  password: None
-  port: 9443
-  server: 149.36.51.161
-  skip-cert-verify: true
-  sub_tag: K001-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: "\U0001F1F3\U0001F1F1NL_32|5.5MB/s|R002-260618 [dfb7ded183f7]"
-  password: "null"
-  port: 23856
-  server: 51.159.225.196
-  skip-cert-verify: true
-  sni: 51.159.225.196
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  username: "null"
-  x-toolall-mihomo: true
-- name: "\U0001F1F3\U0001F1F1NL_50|1.9MB/s|P002-260618 [84115914fa34]"
-  password: ''
-  port: 9002
-  server: 84.17.47.146
-  skip-cert-verify: true
   sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  username: ''
-  x-toolall-mihomo: true
-- name: "\U0001F1F3\U0001F1F1NL_53|5.6MB/s|K001-260618 [7e0836542e57]"
-  password: "null"
-  port: 9002
-  server: 84.17.47.147
-  skip-cert-verify: true
-  sub_tag: K001-260618
-  tls: true
-  type: http
-  udp: true
-  username: "null"
-  x-toolall-mihomo: true
-- name: "\U0001F1F3\U0001F1F1NL_62|4.6MB/s [f4205fb09074]"
-  password: "null"
-  port: 9002
-  server: 84.17.47.148
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: "null"
-  x-toolall-mihomo: true
-- name: "\U0001F1F3\U0001F1F1NL_84|1.4MB/s|R002-260618 [cdf1dfaec06e]"
-  port: 443
-  server: 185.246.153.28
-  skip-cert-verify: true
-  sni: 4a8c2906c96058315dffbc2b0e7ff19b-0c66a58858a795df.apache-iv.com
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: "\U0001F1F3\U0001F1F1NL_85|6.2MB/s|R002-260618 [c2e77b5c06d1]"
-  port: 443
-  server: 51.158.243.91
-  skip-cert-verify: true
-  sub_tag: R002-260618
   tls: true
   type: http
   udp: true
@@ -47476,7 +46752,7 @@ proxies:
   udp: true
   username: ''
   x-toolall-mihomo: true
-- name: "\U0001F1F3\U0001F1F1\u8377\u5170 \u5E7F\u64ADIP 1.34MB/s 537 linuxdo@onimaii\
+- name: "\U0001F1F3\U0001F1F1\u8377\u5170 \u5E7F\u64ADIP 1.85MB/s 298 linuxdo@onimaii\
     \ [87b7a0605709]"
   password: freeuser1
   port: 9251
@@ -47484,45 +46760,145 @@ proxies:
   tls: true
   type: http
   username: freeuser1
-- name: "\U0001F1F3\U0001F1F1\u8377\u5170 \u5E7F\u64ADIP 1.47MB/s 535 linuxdo@onimaii\
-    \ [d90a774116a4]"
-  password: freeuser1
-  port: 9251
-  server: nl203.freeconnect.link
+- name: "\U0001F1F3\U0001F1F1\u8377\u5170 \u5E7F\u64ADIP 15.32MB/s 397 linuxdo@onimaii\
+    \ [1188f394534f]"
+  port: 443
+  server: fan.226278.xyz
   tls: true
   type: http
-  username: freeuser1
-- name: "\U0001F1F5\U0001F1F1PL_2|2.3MB/s|K001-260618 [bebfacdfeb24]"
-  password: "null"
-  port: 443
-  server: 151.115.54.133
+- name: "\U0001F1F3\U0001F1F4NO_2|819KB/s|P002-260618 [bf419422604f]"
+  password: None
+  port: 9443
+  server: 146.70.170.210
   skip-cert-verify: true
-  sub_tag: K001-260618
+  sub_tag: P002-260618
   tls: true
   type: http
   udp: true
-  username: "null"
   x-toolall-mihomo: true
-- name: "\U0001F1F5\U0001F1F1PL_3|2.7MB/s [49fb3e53a1a1b4d9] [c95c95ac1c6a]"
+- name: "\U0001F1F5\U0001F1F1PL_7|982KB/s|R002-260618 [96ab3f14b94a]"
   port: 443
-  server: 37.120.156.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: "\U0001F1F5\U0001F1F1PL_4|1.7MB/s|R002-260618 [2e410e6190d1]"
-  port: 443
-  server: 91.92.250.33
+  server: 37.120.156.18
   skip-cert-verify: true
   sub_tag: R002-260618
   tls: true
   type: http
   udp: true
   x-toolall-mihomo: true
+- name: "\U0001F1F5\U0001F1F9PT_1|1.7MB/s|P002-260618 [cebb66dedc8f]"
+  password: None
+  port: 443
+  server: 149.22.86.1
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: "\U0001F1F7\U0001F1F8RS_1|1.4MB/s [8cd189883c14]"
+  port: 443
+  server: 146.70.221.18
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: "\U0001F1F7\U0001F1FARU_10|1006KB/s|P002-260618 [487ddf8ab8ec]"
+  password: "null"
+  port: 1446
+  server: 46.29.166.134
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+  username: "null"
+  x-toolall-mihomo: true
+- name: "\U0001F1F7\U0001F1FARU_1|1.0MB/s [53e4c48d230a]"
+  password: None
+  port: 1446
+  server: 46.29.166.134
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: "\U0001F1F8\U0001F1EASE_1|1.6MB/s [c8f2cf3c5cad46de] [4cac4ba92768]"
+  port: 443
+  server: 146.70.242.130
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: "\U0001F1F8\U0001F1EC SG-Singapore-h-4261392-jdjb [185196af213b]"
+  port: 443
+  server: 154.26.139.24
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: "\U0001F1F8\U0001F1ECSG_1|3.5MB/s [d41506053b11fbe8] [b51ecdc3c81e]"
+  password: 5e8bc530-3a90-11ef-bd5b-f23c913c8d2b
+  port: 5228
+  server: c8f40e6a-tjrog0-tobupp-1rvjz.sg2.oshuawei.com
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 5e8bc530-3a90-11ef-bd5b-f23c913c8d2b
+- name: "\U0001F1F8\U0001F1ECSG_21|641KB/s [903162eb96fc]"
+  password: ''
+  port: 9443
+  server: 149.88.99.209
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+  x-toolall-mihomo: true
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: "\U0001F1F9\U0001F1EDTH_3|209KB/s|M003-260806 [af678e0cad55]"
+  network: tcp
+  packet-encoding: xudp
+  port: 11802
+  reality-opts:
+    public-key: FUBjYwXlKIVwF7IuJf5dt_HU2sUnrEt10s4TIlTe8Q4
+    short-id: "6c84fbac2d"
+  server: zfapi.zalolink.com
+  servername: psstatic.cdn.bcebos.com
+  tls: true
+  type: vless
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  x-toolall-mihomo: true
+- client-fingerprint: chrome
+  name: "\U0001F1F9\U0001F1F7TR_12|1.6MB/s|C002-260622 [4a85c2657e23]"
+  network: tcp
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  port: 20027
+  server: sclass-b1.catcat321.com
+  servername: hk.catxstar.com
+  skip-cert-verify: true
+  type: trojan
+  x-toolall-mihomo: true
+- name: "\U0001F1F9\U0001F1F7TR_9|1.6MB/s|R002-260618 [4d5625fc8237]"
+  network: tcp
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  port: 20028
+  server: sclass-b1.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  sub_tag: R002-260618
+  type: trojan
+  udp: true
+  x-toolall-mihomo: true
+- name: "\U0001F1F9\U0001F1FCTW_24|492KB/s [333e4bb8a14f]"
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 1443
+  server: twmoon1-cdn-route.couldflare-cdn.com
+  sni: twmoon1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  udp: true
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+  x-toolall-mihomo: true
 - alpn:
   - http/1.1
   client-fingerprint: qq
-  encryption: none
-  name: "\U0001F1F5\U0001F1F1PL_4|2.7MB/s [a5b34b3b22af07ea] [bfde4a7e1482]"
+  name: "\U0001F1FA\U0001F1F3 \u672A\u77E5\u5730\u533A | VLESS | 004 [7dc4c8469452]"
   network: ws
   port: 443
   server: 3.169.9.125
@@ -47534,569 +46910,12 @@ proxies:
   ws-opts:
     headers:
       Host: d2ex4nxd2e01ub.cloudfront.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/31.0.1650.57 Safari/537.36
     path: /
   x-toolall-mihomo: true
-  xudp: true
-- name: "\U0001F1F5\U0001F1F9PT_1|751KB/s|P002-260618 [cebb66dedc8f]"
-  password: None
-  port: 443
-  server: 149.22.86.1
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: "\U0001F1F5\U0001F1F9PT_2|985KB/s|P002-260618 [158734cfe430]"
-  password: None
-  port: 443
-  server: 149.22.86.14
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: "\U0001F1F7\U0001F1F4 RO-Bucharest-3176842-vivi [caa834972008]"
-  password: "null"
-  port: 9002
-  server: 193.176.84.23
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: "null"
-- name: "\U0001F1F7\U0001F1F4 RO-Bucharest-3176842-ytqb [cf95381b7672]"
-  password: "null"
-  port: 9002
-  server: 193.176.84.27
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: "null"
-- name: "\U0001F1F7\U0001F1F4 RO-Bucharest-3176842-znsz [5e718bf22a48]"
-  password: "null"
-  port: 9002
-  server: 193.176.84.26
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: "null"
-- name: "\U0001F1F7\U0001F1F4RO_14|3.5MB/s [7cb56d5dc842]"
-  password: ''
-  port: 9002
-  server: 193.176.84.16
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-  x-toolall-mihomo: true
-- name: "\U0001F1F7\U0001F1F4RO_16|1.5MB/s|P002-260618 [fa2a85d8b301]"
-  password: None
-  port: 9002
-  server: 193.176.84.20
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: "\U0001F1F7\U0001F1F4RO_1|1.3MB/s|R002-260618 [a2b16dd523e3]"
-  port: 9002
-  server: 193.176.84.23
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: "\U0001F1F7\U0001F1F4RO_1|1013KB/s [64132a297b67d75e] [c7424c8f342f]"
-  port: 443
-  server: 185.163.110.194
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: "\U0001F1F7\U0001F1F4RO_25|1.0MB/s|P002-260618 [82e19d7afb39]"
-  password: "null"
-  port: 9002
-  server: 193.176.84.21
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  username: "null"
-  x-toolall-mihomo: true
-- name: "\U0001F1F7\U0001F1F4RO_27|1.3MB/s|P002-260618 [dfd60e192c98]"
-  password: None
-  port: 9002
-  server: 193.176.84.37
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: "\U0001F1F7\U0001F1F4RO_28|1.2MB/s|P002-260618 [1f2c7631affa]"
-  port: 9002
-  server: 193.176.84.26
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: "\U0001F1F7\U0001F1F4RO_30|1.3MB/s|R002-260618 [5e3b8e02da0d]"
-  password: "null"
-  port: 9002
-  server: 193.176.84.37
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  username: "null"
-  x-toolall-mihomo: true
-- name: "\U0001F1F7\U0001F1F4RO_32|1.4MB/s|R002-260618 [5953354bba2d]"
-  port: 9002
-  server: 193.176.84.27
-  skip-cert-verify: true
-  sni: www.bing.com
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: "\U0001F1F7\U0001F1F4RO_35|1.2MB/s|P002-260618 [736bef3beed2]"
-  password: ''
-  port: 9002
-  server: 193.176.84.16
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  username: ''
-  x-toolall-mihomo: true
-- name: "\U0001F1F7\U0001F1F4RO_3|1.0MB/s [76cb9d7b2584]"
-  port: 9002
-  server: 193.176.84.35
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: "\U0001F1F7\U0001F1F4RO_45|1.4MB/s|Z001-260618 [bac6945fef7a]"
-  port: 9002
-  server: 193.176.84.21
-  skip-cert-verify: true
-  sub_tag: Z001-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: "\U0001F1F7\U0001F1F4RO_46|1.1MB/s|P002-260618 [69fb10c859fa]"
-  port: 9002
-  server: 193.176.84.36
-  skip-cert-verify: true
-  sni: www.bing.com
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: "\U0001F1F7\U0001F1F4RO_47|806KB/s [87adfdd05303]"
-  port: 9002
-  server: 193.176.84.38
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: "\U0001F1F7\U0001F1F4RO_49|3.2MB/s [8ef0180a1a66]"
-  password: ''
-  port: 9002
-  server: 193.176.84.27
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-  x-toolall-mihomo: true
-- name: "\U0001F1F7\U0001F1F4RO_50|1002KB/s|R002-260618 [1ec0c679cc33]"
-  port: 9002
-  server: 193.176.84.26
-  skip-cert-verify: true
-  sni: www.bing.com
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: "\U0001F1F7\U0001F1F4RO_57|1.2MB/s [c3a4db1baea6]"
-  port: 9002
-  server: 193.176.84.20
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: "\U0001F1F7\U0001F1F4RO_58|1.5MB/s|P002-260618 [194f7d9511ca]"
-  port: 9002
-  server: 193.176.84.36
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: "\U0001F1F7\U0001F1F4RO_5|1012KB/s|P002-260618 [0da3137e4041]"
-  password: None
-  port: 9002
-  server: 193.176.84.34
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: "\U0001F1F7\U0001F1F4RO_64|1.6MB/s|R002-260618 [a970fd3379f6]"
-  password: None
-  port: 9002
-  server: 193.176.84.22
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: "\U0001F1F7\U0001F1F4RO_70|1.0MB/s|R002-260618 [053b7adc5779]"
-  password: "null"
-  port: 9002
-  server: 193.176.84.19
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  username: "null"
-  x-toolall-mihomo: true
-- name: "\U0001F1F7\U0001F1F4RO_73|663KB/s|R002-260618 [350885e5379e]"
-  password: "null"
-  port: 9002
-  server: 193.176.84.31
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  username: "null"
-  x-toolall-mihomo: true
-- name: "\U0001F1F7\U0001F1F4RO_75|1.6MB/s|P002-260618 [2850908fb5a2]"
-  password: None
-  port: 9002
-  server: 193.176.84.32
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: "\U0001F1F7\U0001F1F4RO_76|677KB/s|K001-260618 [b1963a1f112e]"
-  password: "null"
-  port: 9002
-  server: 193.176.84.33
-  skip-cert-verify: true
-  sub_tag: K001-260618
-  tls: true
-  type: http
-  udp: true
-  username: "null"
-  x-toolall-mihomo: true
-- name: "\U0001F1F7\U0001F1F4RO_77|902KB/s|R002-260618 [beb2518b7b3f]"
-  port: 9002
-  server: 193.176.84.34
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: "\U0001F1F7\U0001F1F4RO_79|704KB/s [4e23915cab3d]"
-  port: 9002
-  server: 193.176.84.39
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: "\U0001F1F7\U0001F1F4RO_7|1.3MB/s [803396a730d6]"
-  port: 9002
-  server: 193.176.84.21
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: "\U0001F1F7\U0001F1F4RO_7|1.4MB/s [0b5076bf06d9]"
-  password: ''
-  port: 9002
-  server: 193.176.84.26
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-  x-toolall-mihomo: true
-- name: "\U0001F1F7\U0001F1F4RO_83|1.3MB/s|R002-260618 [c4abbd7a2b86]"
-  port: 9002
-  server: 193.176.84.25
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: "\U0001F1F7\U0001F1F4RO_89|913KB/s|Z001-260618 [cc83e436a3ed]"
-  port: 9002
-  server: 193.176.84.33
-  skip-cert-verify: true
-  sub_tag: Z001-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: "\U0001F1F7\U0001F1F4RO_90|767KB/s|Z001-260618 [d5e2c2adf6e6]"
-  port: 9002
-  server: 193.176.84.40
-  skip-cert-verify: true
-  sub_tag: Z001-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: "\U0001F1F7\U0001F1F4RO_93|927KB/s|R002-260618 [895f1e471f2b]"
-  password: "null"
-  port: 9002
-  server: 193.176.84.35
-  skip-cert-verify: true
-  sni: 193.176.84.35
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  username: "null"
-  x-toolall-mihomo: true
-- name: "\U0001F1F7\U0001F1F4RO_98|1.0MB/s|R002-260618 [e561e88209e4]"
-  port: 9443
-  server: 135.136.1.2
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: "\U0001F1F7\U0001F1F8RS_1|641KB/s|R002-260618 [16e141fc55f7]"
-  port: 443
-  server: 146.70.221.18
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: "\U0001F1F7\U0001F1F8RS_2|1.2MB/s [75a2f6837ce725b0] [8cd189883c14]"
-  port: 443
-  server: 146.70.221.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: "\U0001F1F7\U0001F1FARU_11|1.5MB/s|P002-260618 [487ddf8ab8ec]"
-  password: "null"
-  port: 1446
-  server: 46.29.166.134
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  username: "null"
-  x-toolall-mihomo: true
-- name: "\U0001F1F7\U0001F1FARU_1|1.1MB/s [36beb8f3a9fd0640] [53e4c48d230a]"
-  password: None
-  port: 1446
-  server: 46.29.166.134
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: "\U0001F1F7\U0001F1FARU_2|1.4MB/s|R002-260618 [98457ae63628]"
-  port: 8443
-  server: 87.242.85.187
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: "\U0001F1F7\U0001F1FARU_6|777KB/s|R002-260618 [991270c1ef26]"
-  password: "null"
-  port: 443
-  server: 178.219.43.226
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  username: "null"
-  x-toolall-mihomo: true
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  down: "55"
-  name: "\U0001F1F7\U0001F1FA\u4FC4\u7F57\u65AF \u5E7F\u64ADIP 19.82MB/s 487 linuxdo@onimaii\
-    \ [b8ad33342c16]"
-  port: 26691
-  server: 5.83.129.143
-  skip-cert-verify: true
-  type: hysteria
-  up: "11"
-  x-toolall-mihomo: true
-- name: "\U0001F1F8\U0001F1EASE_11|1.3MB/s|R002-260618 [0903bb7d23dc]"
-  port: 9443
-  server: 146.70.242.146
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: "\U0001F1F8\U0001F1EASE_1|1.6MB/s [4cac4ba92768]"
-  port: 443
-  server: 146.70.242.130
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: "\U0001F1F8\U0001F1EASE_3|1.1MB/s [e6f43095a5730b5a] [da688d679f0f]"
-  port: 443
-  server: 79.142.77.63
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: "\U0001F1F8\U0001F1EC SG-Singapore-h-4261392-jdjb [185196af213b]"
-  port: 443
-  server: 154.26.139.24
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: "\U0001F1F8\U0001F1EC \u3010\u4E9A\u6D32\u3011\u65B0\u52A0\u576101\u4E28Vless\
-    \ [ac083e63d8cb]"
-  port: 443
-  server: 47.129.1.175
-  servername: www.shopify.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: e0379de1-6712-4644-b41b-afde5fa30ad7
-  x-toolall-mihomo: true
-- client-fingerprint: chrome
-  name: "\U0001F1F9\U0001F1F7TR_13|1.5MB/s|C002-260622 [a819e5226202]"
-  network: tcp
-  password: d7563108-615c-4338-a7bd-77f359869a4a
-  port: 20027
-  server: sclass-b1.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  sub_tag: C002-260622
-  type: trojan
-  udp: true
-  x-toolall-mihomo: true
-- name: "\U0001F1F9\U0001F1F7TR_1|1.1MB/s [aab31336e95c]"
-  password: d7563108-615c-4338-a7bd-77f359869a4a
-  port: 20028
-  server: sclass-b1.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  tls: true
-  type: trojan
-- name: "\U0001F1F9\U0001F1F7TR_2|1.8MB/s [e3ba77a91d06]"
-  password: d7563108-615c-4338-a7bd-77f359869a4a
-  port: 20027
-  server: sclass-b1.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
-  udp: true
-  x-toolall-mihomo: true
-- name: "\U0001F1F9\U0001F1F7TR_9|1.4MB/s|R002-260618 [4d5625fc8237]"
-  network: tcp
-  password: d7563108-615c-4338-a7bd-77f359869a4a
-  port: 20028
-  server: sclass-b1.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  sub_tag: R002-260618
-  type: trojan
-  udp: true
-  x-toolall-mihomo: true
-- name: "\U0001F1F9\U0001F1F7|\u571F\u8033\u5176-IEPL 02 [d2f8390c0aef]"
-  password: d7563108-615c-4338-a7bd-77f359869a4a
-  port: 20028
-  server: sclass-b1.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
-  udp: true
-  x-toolall-mihomo: true
-- name: "\U0001F1F9\U0001F1FC_TW_\u53F0\u6E7E->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD\
-    _IPV4 [2dbece9fe4a58266] [041783ac3b13]"
-  password: "0324fbc29561"
-  port: 443
-  server: sdf65h46wr.df6h451rh.xin
-  servername: images.ctfassets.net
-  skip-cert-verify: true
-  sni: images.ctfassets.net
-  tls: true
-  type: anytls
-  x-toolall-mihomo: true
-- name: "\U0001F1FA\U0001F1F8 US-Los Angeles-81993519-dcem [4e5e3974d830]"
-  password: "null"
-  port: 9002
-  server: 138.199.35.198
-  skip-cert-verify: true
-  sni: 138.199.35.198
-  tls: true
-  type: http
-  username: "null"
 - name: "\U0001F1FA\U0001F1F8 US-Los Angeles-81993520-craa [cf54b49d68c3]"
   password: "null"
   port: 9002
   server: 138.199.35.206
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: "null"
-- name: "\U0001F1FA\U0001F1F8 US-Los Angeles-81993521-nnrs [c6a884b69d38]"
-  password: "null"
-  port: 9002
-  server: 138.199.35.219
-  skip-cert-verify: true
-  sni: 138.199.35.219
-  tls: true
-  type: http
-  username: "null"
-- name: "\U0001F1FA\U0001F1F8 US-Los Angeles-81993522-ssqn [847f2db108c7]"
-  password: "null"
-  port: 9002
-  server: 138.199.35.220
   skip-cert-verify: true
   tls: true
   type: http
@@ -48117,31 +46936,23 @@ proxies:
   tls: true
   type: http
   username: "null"
-- name: "\U0001F1FA\U0001F1F8US_10|141KB/s|R002-260618 [fb6ab23cbfa0]"
-  port: 443
-  server: fan.365747.xyz
-  skip-cert-verify: true
-  sni: fan.365747.xyz
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
+- cipher: chacha20-ietf
+  name: "\U0001F1FA\U0001F1F8US-140.188.73.129-5784 [4cec6c79a30e]"
+  obfs: tls1.2_ticket_auth
+  obfs-param: ''
+  password: dongtaiwang.com
+  port: 33336
+  protocol: auth_chain_a
+  protocol-param: ''
+  server: ssr2.762988.xyz
+  type: ssr
   x-toolall-mihomo: true
-- name: "\U0001F1FA\U0001F1F8US_111|745KB/s|P002-260618 [eb5e259d4ea2]"
+- name: "\U0001F1FA\U0001F1F8US_117|763KB/s|P002-260618 [7d6155f186a0]"
   password: None
   port: 9002
-  server: 138.199.35.208
+  server: 138.199.35.198
   skip-cert-verify: true
   sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: "\U0001F1FA\U0001F1F8US_138|746KB/s|R002-260618 [652faeadb26b]"
-  port: 9002
-  server: 138.199.35.206
-  skip-cert-verify: true
-  sub_tag: R002-260618
   tls: true
   type: http
   udp: true
@@ -48156,23 +46967,44 @@ proxies:
   udp: true
   username: ''
   x-toolall-mihomo: true
-- name: "\U0001F1FA\U0001F1F8US_162|836KB/s|R002-260618 [e2e51e2ca311]"
+- name: "\U0001F1FA\U0001F1F8US_13|768KB/s|P002-260618 [185dbe9aa84d]"
+  password: None
   port: 9002
-  server: 138.199.35.200
+  server: 138.199.35.197
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: "\U0001F1FA\U0001F1F8US_148|811KB/s|R002-260618 [9c80833ac4df]"
+  port: 9002
+  server: 138.199.35.198
   skip-cert-verify: true
   sub_tag: R002-260618
   tls: true
   type: http
   udp: true
   x-toolall-mihomo: true
-- name: "\U0001F1FA\U0001F1F8US_168|1.2MB/s|R002-260618 [1ea9cca17cf2]"
-  port: 8443
-  server: 44.217.145.28
+- name: "\U0001F1FA\U0001F1F8US_164|784KB/s|R002-260618 [022e12564278]"
+  port: 9002
+  server: 138.199.35.216
   skip-cert-verify: true
   sub_tag: R002-260618
   tls: true
   type: http
   udp: true
+  x-toolall-mihomo: true
+- name: "\U0001F1FA\U0001F1F8US_165|748KB/s|R002-260618 [025fdab39289]"
+  password: "null"
+  port: 9002
+  server: 138.199.35.199
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  username: "null"
   x-toolall-mihomo: true
 - name: "\U0001F1FA\U0001F1F8US_16|1.2MB/s [e00ef38c4155]"
   password: ''
@@ -48184,36 +47016,34 @@ proxies:
   udp: true
   username: ''
   x-toolall-mihomo: true
-- name: "\U0001F1FA\U0001F1F8US_173|308KB/s|R002-260618 [af1f3857761c]"
+- name: "\U0001F1FA\U0001F1F8US_172|199KB/s|R002-260618 [b7625f20acff]"
   port: 443
-  server: 137.175.22.84
+  server: 137.175.22.16
   skip-cert-verify: true
   sub_tag: R002-260618
   tls: true
   type: http
   udp: true
   x-toolall-mihomo: true
-- name: "\U0001F1FA\U0001F1F8US_179|260KB/s|R002-260618 [b332bf462ada]"
-  password: "null"
-  port: 443
-  server: fan.596189.xyz
-  sni: fan.596189.xyz
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  username: "null"
-  x-toolall-mihomo: true
-- name: "\U0001F1FA\U0001F1F8US_197|831KB/s|P002-260618 [622a861ed45b]"
+- name: "\U0001F1FA\U0001F1F8US_17|779KB/s|P002-260618 [f088a5cd9f30]"
   password: "null"
   port: 9002
-  server: 138.199.35.198
+  server: 138.199.35.195
   skip-cert-verify: true
   sub_tag: P002-260618
   tls: true
   type: http
   udp: true
   username: "null"
+  x-toolall-mihomo: true
+- name: "\U0001F1FA\U0001F1F8US_185|1.1MB/s|R002-260618 [5c171c482ccc]"
+  port: 443
+  server: 192.227.176.234
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
   x-toolall-mihomo: true
 - name: "\U0001F1FA\U0001F1F8US_19|1.8MB/s [df2b9dfe7cec]"
   password: ''
@@ -48225,55 +47055,28 @@ proxies:
   udp: true
   username: ''
   x-toolall-mihomo: true
-- name: "\U0001F1FA\U0001F1F8US_201|347KB/s|R002-260618 [4d2a6a08e9aa]"
-  port: 443
-  server: 137.175.22.89
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: "\U0001F1FA\U0001F1F8US_20|2.4MB/s [4cc7e4544b90]"
-  password: ''
-  port: 9443
-  server: 38.95.111.226
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-  x-toolall-mihomo: true
-- name: "\U0001F1FA\U0001F1F8US_20|4.1MB/s [7b64c9723464]"
-  password: ''
-  port: 9002
-  server: 138.199.35.212
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-  x-toolall-mihomo: true
-- name: "\U0001F1FA\U0001F1F8US_210|206KB/s|R002-260618 [0c82ded83ee7]"
-  port: 443
-  server: 137.175.22.52
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: "\U0001F1FA\U0001F1F8US_219|178KB/s|R002-260618 [ca5e6e62e5da]"
-  port: 443
-  server: 38.28.185.222
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: "\U0001F1FA\U0001F1F8US_235|697KB/s|P002-260618 [555e78e1dd84]"
+- name: "\U0001F1FA\U0001F1F8US_202|695KB/s|R002-260618 [4aec08f449a5]"
   password: None
+  port: 9002
+  server: 138.199.35.201
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: "\U0001F1FA\U0001F1F8US_210|665KB/s|P002-260618 [81f6c05a9160]"
+  password: None
+  port: 443
+  server: 167.88.60.242
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: "\U0001F1FA\U0001F1F8US_228|794KB/s|P002-260618 [9ca0f8bb710c]"
+  password: "null"
   port: 9002
   server: 138.199.35.206
   skip-cert-verify: true
@@ -48281,26 +47084,49 @@ proxies:
   tls: true
   type: http
   udp: true
+  username: "null"
   x-toolall-mihomo: true
-- name: "\U0001F1FA\U0001F1F8US_238|295KB/s [ed6dee326740]"
-  password: test123
-  port: 1080
-  server: 104.168.249.36
-  skip-cert-verify: true
-  type: socks5
-  udp: true
-  username: test123
-  x-toolall-mihomo: true
-- name: "\U0001F1FA\U0001F1F8US_251|259KB/s|R002-260618 [fa48c427c867]"
+- name: "\U0001F1FA\U0001F1F8US_243|772KB/s|R002-260618 [2ecadbd871bf]"
   port: 443
-  server: 137.175.22.40
+  server: 12.221.146.147
   skip-cert-verify: true
   sub_tag: R002-260618
   tls: true
   type: http
   udp: true
   x-toolall-mihomo: true
-- name: "\U0001F1FA\U0001F1F8US_252|572KB/s|P002-260618 [1f04858a3534]"
+- name: "\U0001F1FA\U0001F1F8US_25|697KB/s [9f09522e76be]"
+  password: ''
+  port: 9002
+  server: 138.199.35.219
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+  x-toolall-mihomo: true
+- name: "\U0001F1FA\U0001F1F8US_297|779KB/s|R002-260618 [ebfd5d9ae74e]"
+  password: "null"
+  port: 9002
+  server: 138.199.35.205
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  username: "null"
+  x-toolall-mihomo: true
+- name: "\U0001F1FA\U0001F1F8US_303|147KB/s|R002-260618 [fb6ab23cbfa0]"
+  port: 443
+  server: fan.365747.xyz
+  skip-cert-verify: true
+  sni: fan.365747.xyz
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: "\U0001F1FA\U0001F1F8US_333|776KB/s|P002-260618 [1f04858a3534]"
   password: "null"
   port: 9002
   server: 138.199.35.202
@@ -48311,31 +47137,32 @@ proxies:
   udp: true
   username: "null"
   x-toolall-mihomo: true
-- name: "\U0001F1FA\U0001F1F8US_255|792KB/s|P002-260618 [2f507ac80f4d]"
-  password: "null"
+- name: "\U0001F1FA\U0001F1F8US_341|772KB/s|R002-260618 [e6c09f5655f6]"
+  password: None
   port: 9002
-  server: 138.199.35.209
+  server: 138.199.35.195
   skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  username: "null"
-  x-toolall-mihomo: true
-- name: "\U0001F1FA\U0001F1F8US_271|635KB/s|R002-260618 [ba053fffbf11]"
-  port: 443
-  server: 216.107.139.82
-  skip-cert-verify: true
-  sni: 991cc80f13caf81d3426ddebb2da7f49-92ff472ddc24e5b7.apache-iv.com
   sub_tag: R002-260618
   tls: true
   type: http
   udp: true
   x-toolall-mihomo: true
-- name: "\U0001F1FA\U0001F1F8US_34|1.6MB/s [6572aef900a7]"
+- name: "\U0001F1FA\U0001F1F8US_36|765KB/s|R002-260618 [a773897f9e28]"
+  password: "null"
+  port: 9002
+  server: 138.199.35.219
+  skip-cert-verify: true
+  sni: 138.199.35.219
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  username: "null"
+  x-toolall-mihomo: true
+- name: "\U0001F1FA\U0001F1F8US_376|816KB/s [4e07637ecf6a]"
   password: ''
   port: 9002
-  server: 138.199.35.197
+  server: 138.199.35.205
   skip-cert-verify: true
   tls: true
   type: http
@@ -48352,7 +47179,53 @@ proxies:
   udp: true
   username: ''
   x-toolall-mihomo: true
-- name: "\U0001F1FA\U0001F1F8US_3|1.3MB/s [f4e3445a2d03992b] [caa3d26f6218]"
+- name: "\U0001F1FA\U0001F1F8US_386|251KB/s|R002-260618 [0c82ded83ee7]"
+  port: 443
+  server: 137.175.22.52
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: "\U0001F1FA\U0001F1F8US_387|131KB/s|R002-260618 [fa48c427c867]"
+  port: 443
+  server: 137.175.22.40
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: "\U0001F1FA\U0001F1F8US_398|831KB/s|P002-260618 [622a861ed45b]"
+  password: "null"
+  port: 9002
+  server: 138.199.35.198
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+  username: "null"
+  x-toolall-mihomo: true
+- name: "\U0001F1FA\U0001F1F8US_402|182KB/s|R002-260618 [471ebd29feb8]"
+  port: 443
+  server: 137.175.22.85
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: "\U0001F1FA\U0001F1F8US_474|348KB/s|R002-260618 [11b89e7c037f]"
+  password: https://xship.top
+  port: 443
+  server: starlink-ft.251313.xyz
+  skip-cert-verify: true
+  sni: xship.top
+  type: hysteria2
+  x-toolall-mihomo: true
+- name: "\U0001F1FA\U0001F1F8US_4|1018KB/s [f4e3445a2d03992b] [caa3d26f6218]"
   password: None
   port: 9002
   server: 138.199.35.206
@@ -48360,66 +47233,16 @@ proxies:
   tls: true
   type: http
   username: "null"
-- name: "\U0001F1FA\U0001F1F8US_3|730KB/s|P002-260618 [02a5da37f711]"
-  password: "null"
-  port: 9002
-  server: 138.199.35.220
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  username: "null"
-  x-toolall-mihomo: true
-- name: "\U0001F1FA\U0001F1F8US_409|343KB/s|R002-260618 [f9ee278038cc]"
-  port: 8090
-  server: 98.101.229.212
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: "\U0001F1FA\U0001F1F8US_40|762KB/s|P002-260618 [878cf3bf5441]"
-  password: None
-  port: 9002
-  server: 138.199.35.213
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: "\U0001F1FA\U0001F1F8US_468|805KB/s|P002-260618 [85c34e9c077c]"
-  password: None
+- name: "\U0001F1FA\U0001F1F8US_502|69KB/s|R002-260618 [475ea325156b]"
   port: 443
-  server: 129.153.93.183
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: "\U0001F1FA\U0001F1F8US_50|759KB/s [ee98ba87e968]"
-  password: ''
-  port: 9002
-  server: 138.199.35.208
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-  x-toolall-mihomo: true
-- name: "\U0001F1FA\U0001F1F8US_549|253KB/s|R002-260618 [c097310eb21d]"
-  port: 9002
-  server: 138.199.35.197
+  server: 137.175.22.29
   skip-cert-verify: true
   sub_tag: R002-260618
   tls: true
   type: http
   udp: true
   x-toolall-mihomo: true
-- name: "\U0001F1FA\U0001F1F8US_557|213KB/s|R002-260618 [cf4353d767f9]"
+- name: "\U0001F1FA\U0001F1F8US_548|112KB/s|R002-260618 [cf4353d767f9]"
   port: 443
   server: 137.175.22.98
   skip-cert-verify: true
@@ -48428,122 +47251,28 @@ proxies:
   type: http
   udp: true
   x-toolall-mihomo: true
-- name: "\U0001F1FA\U0001F1F8US_570|420KB/s|R002-260618 [a0283fd82a2a]"
+- client-fingerprint: firefox
+  name: "\U0001F1FA\U0001F1F8US_678|282KB/s|M003-260806 [76dcc8008ef1]"
+  network: tcp
+  packet-encoding: xudp
   port: 443
-  server: 68.235.56.51
-  skip-cert-verify: true
-  sub_tag: R002-260618
+  reality-opts:
+    public-key: UoS8qZ74hP_ECcncCz55lzvlcVss3R7VA0WYZE0YQCY
+    short-id: "ba2a3dce62b99092"
+  server: 04535dt.us8.h1clayd.click
+  servername: 04535dt.us8.h1clayd.click
   tls: true
-  type: http
-  udp: true
+  type: vless
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
   x-toolall-mihomo: true
-- name: "\U0001F1FA\U0001F1F8US_597|642KB/s|R002-260618 [60350da1ad73]"
-  password: None
-  port: 443
-  server: 149.34.248.65
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: "\U0001F1FA\U0001F1F8US_5|2.2MB/s [3955add388a9b62c] [cac0b72a8bd7]"
+- name: "\U0001F1FA\U0001F1F8US_6|2.8MB/s [3955add388a9b62c] [cac0b72a8bd7]"
   password: None
   port: 9002
   server: 138.199.35.204
   skip-cert-verify: true
   tls: true
   type: http
-- name: "\U0001F1FA\U0001F1F8US_67|696KB/s [4a2e8ac2a0a1]"
-  password: ''
-  port: 9002
-  server: 138.199.35.199
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-  x-toolall-mihomo: true
-- name: "\U0001F1FA\U0001F1F8US_6|2.4MB/s [cd71824d3fd9492b] [93256b066833]"
-  port: 9002
-  server: 138.199.35.215
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- client-fingerprint: chrome
-  encryption: none
-  fingerprint: "cd6e838b9bfe31cab8b3d5c858b0d6223fe84ece236c1fdb281be93c302e1e6e"
-  name: "\U0001F1FA\U0001F1F8US_701|690KB/s|S004-260618 [89a59d73ae23]"
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: wwww.qarvian.ir
-  servername: cdn.akamai.steamstatic.com
-  sub_tag: S004-260618
-  tls: true
-  type: vless
-  udp: true
-  uuid: 97e0ea78-67ae-4984-8a14-a7d1a51e58de
-  ws-opts:
-    headers:
-      Host: copy_az_channel_NUFiLTER_7i.global.ssl.fastly.net.
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/36.0.1985.125 Safari/537.36
-    path: /
-  x-toolall-mihomo: true
-  xudp: true
-- name: "\U0001F1FA\U0001F1F8US_77|321KB/s|Z001-260618 [28e9acde0de0]"
-  port: 443
-  server: fan.226278.xyz
-  sni: fan.226278.xyz
-  sub_tag: Z001-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: "\U0001F1FA\U0001F1F8US_78|413KB/s|R002-260618 [fd84cd8528ed]"
-  password: "e4b72b531a2d10900519"
-  port: 443
-  server: 162.243.146.243
-  sni: a2f392f3.acsnet.co
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  username: testuser1
-  x-toolall-mihomo: true
-- name: "\U0001F1FA\U0001F1F8US_86|786KB/s|P002-260618 [87e5f13b7f8e]"
-  password: None
-  port: 9002
-  server: 138.199.35.216
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: "\U0001F1FA\U0001F1F8US_89|788KB/s|R002-260618 [a773897f9e28]"
-  password: "null"
-  port: 9002
-  server: 138.199.35.219
-  skip-cert-verify: true
-  sni: 138.199.35.219
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  username: "null"
-  x-toolall-mihomo: true
-- name: "\U0001F1FA\U0001F1F8US_8|2.0MB/s [8be9c6b93efc]"
-  port: 443
-  server: 192.227.176.234
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: "\U0001F1FA\U0001F1F8US_90|323KB/s|R002-260618 [546a84eb8c38]"
-  password: "null"
+- name: "\U0001F1FA\U0001F1F8US_8|185KB/s|R002-260618 [6c56a283eb65]"
   port: 443
   server: 38.28.193.188
   skip-cert-verify: true
@@ -48551,42 +47280,31 @@ proxies:
   tls: true
   type: http
   udp: true
-  username: "null"
   x-toolall-mihomo: true
-- name: "\U0001F1FA\U0001F1F8US_92|773KB/s|R002-260618 [ba6106d1e495]"
-  password: "null"
-  port: 9002
-  server: 138.199.35.214
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  username: "null"
-  x-toolall-mihomo: true
-- name: "\U0001F1FA\U0001F1F8US_97|809KB/s|R002-260618 [2151e44c1e0d]"
-  port: 9002
-  server: 138.199.35.215
+- name: "\U0001F1FA\U0001F1F8US_93|442KB/s|R002-260618 [a67122b8947b]"
+  port: 8443
+  server: 44.248.167.117
   skip-cert-verify: true
   sub_tag: R002-260618
   tls: true
   type: http
   udp: true
   x-toolall-mihomo: true
-- name: "\U0001F1FA\U0001F1F8US_99|791KB/s|R002-260618 [0431a97250a2]"
+- name: "\U0001F1FA\U0001F1F8US_95|799KB/s [b86bd25a4d6a]"
+  password: ''
   port: 9002
-  server: 138.199.35.207
+  server: 138.199.35.203
   skip-cert-verify: true
-  sub_tag: R002-260618
   tls: true
   type: http
   udp: true
+  username: ''
   x-toolall-mihomo: true
 - alpn:
   - h3
   auth-str: dongtaiwang.com
   down: "20"
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_IPV4 (2) [043fad269c75cb80] [1fff1a445142]"
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_IPV4 (5) [043fad269c75cb80] [1fff1a445142]"
   password: dongtaiwang.com
   port: 20022
   server: 137.175.82.43
@@ -48601,7 +47319,7 @@ proxies:
   - h3
   auth-str: dongtaiwang.com
   down: "55"
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_IPV4 (3) [adba72747dfe65f2] [e8ca1b4db8ff]"
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_IPV4 (6) [adba72747dfe65f2] [e8ca1b4db8ff]"
   password: dongtaiwang.com
   port: 20022
   server: 137.175.82.44
@@ -48616,7 +47334,7 @@ proxies:
   - h3
   auth-str: github.com/Alvin9999-newpac/fanqiang
   down: "55"
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_IPV4 (4) [7d52065b98f691ee] [4183972a059f]"
+  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_IPV4 (7) [7d52065b98f691ee] [4183972a059f]"
   password: github.com/Alvin9999-newpac/fanqiang
   port: 22335
   server: 198.200.57.142
@@ -48627,40 +47345,16 @@ proxies:
   type: hysteria
   up: "11"
   x-toolall-mihomo: true
-- client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_IPV4 [46a02d76d82efae3] [85fce8021ebe]"
-  network: ws
-  port: 443
-  server: 3.169.9.125
-  servername: d14jyezfrcyf60.cloudfront.net
+- name: "\U0001F1FA\U0001F1F8_\u7F8E\u56FD (8) (2) [0c54cae9f0e5ecff] [5e5aa346f3ec]"
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  port: 20028
+  server: sclass-b1.catcat321.com
+  servername: hk.catxstar.com
   skip-cert-verify: true
-  sni: d14jyezfrcyf60.cloudfront.net
+  sni: hk.catxstar.com
   tls: true
-  type: vless
-  uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
-  ws-opts:
-    headers:
-      Host: d14jyezfrcyf60.cloudfront.net
-    path: /
-  x-toolall-mihomo: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8_\u7F8E\u56FD (116) [843d14316eee0bea] [fac3cf97b214]"
-  network: ws
-  port: 443
-  server: 3.169.9.125
-  servername: d4afoyczh5tek.cloudfront.net
-  skip-cert-verify: true
-  sni: d4afoyczh5tek.cloudfront.net
-  tls: true
-  type: vless
+  type: trojan
   udp: true
-  uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
-  ws-opts:
-    headers:
-      Host: d4afoyczh5tek.cloudfront.net
-    path: /
   x-toolall-mihomo: true
 - name: "\U0001F1FA\U0001F1F8\u7F8E\u56FD \u539F\u751FIP 0.45MB/s 055 linuxdo@onimaii\
     \ [ffebf4869150]"
@@ -48671,35 +47365,33 @@ proxies:
   tls: true
   type: http
   username: "null"
-- name: "\U0001F1FA\U0001F1F8\u7F8E\u56FD \u539F\u751FIP 0.47MB/s 061 linuxdo@onimaii\
-    \ [1188f394534f]"
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  down: "55"
+  name: "\U0001F1FA\U0001F1F8\u7F8E\u56FD \u539F\u751FIP 1.97MB/s 423 linuxdo@onimaii\
+    \ [ee2f37400563]"
+  port: 20022
+  server: 137.175.82.44
+  skip-cert-verify: true
+  type: hysteria
+  up: "11"
+  x-toolall-mihomo: true
+- name: "\U0001F1FA\U0001F1F8\u7F8E\u56FD \u539F\u751FIP 17.33MB/s 163 linuxdo@onimaii\
+    \ [06037c628552]"
+  password: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
   port: 443
-  server: fan.226278.xyz
+  server: dde2e8be-teisg0-tiuovf-v3c2.sj.hyhuawei.com
+  sni: dde2e8be-teisg0-tiuovf-v3c2.sj.hyhuawei.com
   tls: true
   type: http
-- name: "\U0001F1FA\U0001F1F8\u7F8E\u56FD \u539F\u751FIP 0.65MB/s 534 linuxdo@onimaii\
-    \ [0e083ab9a38b]"
-  password: freeuser1
-  port: 9251
-  server: dl1-us.freeconnect.link
-  tls: true
-  type: http
-  username: freeuser1
-- name: "\U0001F1FA\U0001F1F8\u7F8E\u56FD \u539F\u751FIP 8.89MB/s 234 linuxdo@onimaii\
-    \ [0372827f2b85]"
-  password: 0wcmn0va70ra
-  port: 7706
-  server: 136.143.243.57
-  type: http
-  username: hommkiti
-- name: "\U0001F1FA\U0001F1F8\u7F8E\u56FD \u5E7F\u64ADIP 32.85MB/s 436 linuxdo@onimaii\
-    \ [0eccd5bfbdc6]"
-  password: 0wcmn0va70ra
-  port: 9879
-  server: 85.189.216.134
-  type: http
-  username: hommkiti
-- name: "\U0001F1FF\U0001F1E6ZA_2|457KB/s|R002-260618 [cae81acbd27d]"
+  username: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
+- name: "\U0001F1FA\U0001F1F8\u7F8E\u56FD \u539F\u751FIP 6.58MB/s 404 linuxdo@onimaii\
+    \ [342cda1e6290]"
+  port: 44499
+  server: 45.61.188.134
+  type: socks5
+- name: "\U0001F1FF\U0001F1E6ZA_3|428KB/s|R002-260618 [cae81acbd27d]"
   port: 443
   server: 197.242.159.23
   skip-cert-verify: true
@@ -48708,119 +47400,137 @@ proxies:
   type: http
   udp: true
   x-toolall-mihomo: true
-- name: "\U0001F3F3\uFE0F\u672A\u77E5 \u539F\u751FIP 1.35MB/s 293 linuxdo@onimaii\
-    \ [1b492461acd8]"
-  password: freeuser1
-  port: 9251
-  server: nl205.freeconnect.link
-  sni: nl205.freeconnect.link
-  tls: true
-  type: http
-  username: freeuser1
-- name: "\U0001F9E636@oneclickvpnkeys [342cda1e6290]"
-  port: 44499
-  server: 45.61.188.134
-  type: socks5
-- name: "\U0001F9E66@oneclickvpnkeys [3ece0f2bc243]"
-  port: 1080
-  server: 5.255.113.177
-  type: socks5
-- type: vless
-  server: jp.sofast.live
-  port: 52683
+- type: vmess
+  server: 47.244.120.197
+  port: 36703
+  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
+  alterId: 0
+  cipher: auto
   udp: true
-  uuid: 399b6b23-cc40-4831-a494-61948e2df133
+  network: ws
+  ws-opts:
+    path: /arki
+    headers: {}
   name: "8\u5143\u8001\u724C\u4E13\u7EBF\u673A\u573A\uFF1Acczzuu.top"
-- type: vless
-  server: 196.196.148.63
-  port: 443
-  udp: true
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-  tls: true
-  servername: 717252g.nl8.h1clayd.click
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: PD8Jdlg3xB9QY--jwQjp8PFPzCS8-Oryw6-HWBcHMFU
-    short-id: "d3bd772514c87d28"
-  network: grpc
-  grpc-opts:
-    grpc-service-name: "204adda7e3da"
-  name: "\u4FC4\u7F57\u65AF_80385B"
-- type: vless
-  server: 2.26.251.236
-  port: 443
-  udp: true
-  uuid: c16e8cdb-65dd-4049-bc65-14c051b8a6c6
-  tls: true
-  servername: mental-deprivation.ru
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: 1iVMMhJZgXHRY7tRlR-1kypF0YeaBcB7EjcfHRsYZX4
-    short-id: "4ff31b18d1bd8227"
-  flow: xtls-rprx-vision
-  name: "\u5FB7\u56FD_B77B4C"
-- type: ss
-  server: 202.50.253.81
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-  name: "\u610F\u5927\u5229_1DDFC8"
 - type: ss
   server: 202.50.253.36
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-  name: "\u610F\u5927\u5229_4CEE81"
-- type: ss
-  server: 202.50.253.99
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-  name: "\u610F\u5927\u5229_935E46"
+  name: "\u610F\u5927\u5229_2778AD"
 - type: ss
   server: 202.50.253.45
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-  name: "\u610F\u5927\u5229_B980BE"
+  name: "\u610F\u5927\u5229_5B04C9"
 - type: ss
   server: 202.50.253.18
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-  name: "\u610F\u5927\u5229_FED34B"
+  name: "\u610F\u5927\u5229_6B3226"
+- type: ss
+  server: 202.50.253.99
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+  name: "\u610F\u5927\u5229_7D9751"
+- type: ss
+  server: 202.50.253.81
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+  name: "\u610F\u5927\u5229_BA084B"
 - type: ss
   server: 154.36.158.197
   port: 8388
   cipher: aes-256-gcm
   password: BeaUf9c0AEWH40Pu
   udp: true
-  name: "\u65E5\u672C_F4D102"
+  name: "\u65E5\u672C_570867"
 - type: vless
   server: us22.sofast.live
   port: 58011
   udp: true
   uuid: 0afc6426-606c-48e7-bd70-3c424a416842
-  client-fingerprint: chrome
-  name: "\u7F8E\u56FD_793D14"
+  name: "\u7F8E\u56FD_1B76B1"
 - type: vless
-  server: msk10.gacvpn.site
+  server: sundaylanzgem.site
   port: 443
   udp: true
-  uuid: 3f5e89d5-591f-4ac9-b071-b05680b573c3
+  uuid: 50a87e21-f0e2-4b53-a787-91adfe748f63
   tls: true
-  servername: nl3-edge.gacvpn.site
-  client-fingerprint: edge
+  servername: sundaylanzgem.site
+  client-fingerprint: qq
   reality-opts:
-    public-key: Caj4X3VjnHfdRQzWLmjFCiG_CGw0scYYni6UxVfBs38
-    short-id: "db6a4219fb"
+    public-key: -BN9yCN0ECqxOPoJOan1-CIMEYc5e7wdJwaeDxsUM20
+    short-id: ''
   flow: xtls-rprx-vision
-  name: "\u8377\u5170_4D65B2"
+  name: "\u7F8E\u56FD_4FAE27"
+- type: vless
+  server: gemsubbgem.world
+  port: 443
+  udp: true
+  uuid: 50a87e21-f0e2-4b53-a787-91adfe748f63
+  tls: true
+  servername: gemsubbgem.world
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 6PJlXT9xrgJP8RXfhpWDMKPh4eqGt_IZmenc_a6v0gg
+    short-id: ''
+  flow: xtls-rprx-vision
+  name: "\u7F8E\u56FD_678F8E"
+- type: vless
+  server: jp.sofast.live
+  port: 52683
+  udp: true
+  uuid: 5aaa5259-f924-4682-a4a3-149d472a9dcc
+  name: "\u7F8E\u56FD_9CC66C"
+- type: vless
+  server: hollandlanzerotte.xyz
+  port: 443
+  udp: true
+  uuid: 50a87e21-f0e2-4b53-a787-91adfe748f63
+  tls: true
+  servername: hollandlanzerotte.xyz
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: EEL-yDPBfol_fiEEM8Pd0zue7SSz5MtZlXEePVak2jc
+    short-id: ''
+  flow: xtls-rprx-vision
+  name: "\u7F8E\u56FD_EEF8CE"
+- type: vless
+  server: 72.56.38.83
+  port: 443
+  udp: true
+  uuid: 1e2b9c0c-4f9b-56f5-a062-1c4f2d2aa200
+  tls: true
+  servername: absolute-disaster.org
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: ZzIetLcQtENjIXQ9XZqFo8p3J81p8Emj0wi51Uy07n8
+    short-id: ''
+  flow: xtls-rprx-vision
+  name: "\u8377\u5170_A5C641"
+- type: vless
+  server: 196.199.122.2
+  port: 443
+  udp: true
+  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
+  tls: true
+  servername: 7aa271t.es1.h1clayd.click
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
+    short-id: "42426c882c5fcd41"
+  flow: xtls-rprx-vision
+  name: "\u897F\u73ED\u7259_B68CDF"
 - name: AT_speednode_0001
   server: au2.pad-sservice.lat
   port: 8443
@@ -50133,7 +48843,7 @@ proxy-groups:
     \u6E90)"
   - "\u8BF4\u660E-\u6D4B\u8BD5: \u672C\u6B21\u672A\u6D4B\u5EF6\u8FDF/\u5E26\u5BBD\
     ,\u76F4\u63A5\u5408\u5E76(\u4E0D\u7CBE\u9009)"
-  - "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-11-12 14:06 (CST)"
+  - "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-11-13 00:42 (CST)"
   - "\u8BF4\u660E-\u4F5C\u8005: wzmwayne"
   - "\u8BF4\u660E-\u4ED3\u5E93: https://github.com/wzmwayne/proxy-node"
 - name: "\U0001F680 \u8282\u70B9\u9009\u62E9(\u5168\u90E8)"
@@ -53989,365 +52699,232 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8_\u7F8E\u56FD (97)"
   - "\U0001F1FA\U0001F1F8_\u7F8E\u56FD (98)"
   - "\U0001F1FA\U0001F1F8_\u7F8E\u56FD (99)"
-  - 47.236.168.243 [731ac5ffdf3c]
-  - 4FreeIran-04ad2b5c45 [e33fca6fd91c]
-  - 4FreeIran-1639587653 [176980ab9e16]
-  - 4FreeIran-4102188c73 [43400abea954]
-  - 4FreeIran-4658a2d085 [fbf78d0b8386]
-  - 4FreeIran-5be82b36db [bbb625e201cc]
-  - 4FreeIran-5f9dcd5035 [2433c44b2dd1]
-  - 4FreeIran-71151c3c1d [53def67b44b4]
-  - 4FreeIran-a75f8a5610 [cb10e9d7ca5c]
-  - 4FreeIran-d37f40b402 [641a38ed61e1]
-  - 4FreeIran-dbdc25b871 [0f4c16c13db5]
-  - 4Jadi-4794f67529 [17908eda609e]
+  - 4FreeIran-10ac640c12 [7441ad351988]
+  - 4FreeIran-a7babbd8ef [d027a4419852]
+  - 4Jadi-9dded5c504 [51960e30ea45]
   - 4Jadi-f9c6c2557c [4effd5ed74c8]
-  - 4Kian-3ca10dee5c [7abde24d55f2]
-  - 4Kian-6230c58433 [328fd1658781]
+  - 4Kian-674341a24f [bbb625e201cc]
   - 4Kian-74c8620a30 [e7fda757ab59]
-  - 4Kian-a7fdf66a3d [04808d3a56bc]
-  - 4Mohsen-344623e571 [4c69d1647204]
-  - 4Mohsen-35c7718182 [5adea4149997]
-  - 4Mohsen-7a4980ab68 [300e6159a177]
+  - 4Mohsen-818b6739cf [e26c34b2f6c8]
+  - 4Mohsen-b2a1a157ad [92c172b4f3c3]
   - 4Mohsen-e1b2cd8181 [8ed40d75cd58]
-  - 4Nika-23b3240f15 [99f53987abb6]
-  - 4Nika-7f4d7d7176 [77a783d4b6b9]
-  - 4Nika-81d0f507d7 [48d202d9c29c]
   - 4Nika-892ef8890f [6f03627ccfe2]
-  - 4Nika-9d97a54771 [5a8df557341e]
   - 4Nika-b871a1fb3e [0af049cd4841]
   - 4Sarina-1027ad08d6 [25decbaaa10a]
-  - 4Sarina-302b1624fe [e8381b4a7373]
-  - 4Sarina-3cc55772e7 [5ed6188290a4]
-  - 4Sarina-dcff49d8de [5f83c952c59b]
+  - 4Sarina-370cb86cf1 [6d6b41c5de08]
   - 4Sarina-e29c160c53 [0961efb8b410]
   - 4Sarina-f029b66473 [2e294afda7be]
-  - '@OutlineReleasedKey [304a016ecf9a]'
-  - '@meliproxyy [2ffaa05b6353]'
-  - '@meliproxyy [5deb6c23180f]'
-  - "B - \U0001F1F7\U0001F1F4 RO 02 TG: @nodpai [c8b57947e73d]"
-  - "B - \U0001F1F7\U0001F1F4 RO 08 TG: @nodpai [49894881bdcc]"
-  - "B - \U0001F1F7\U0001F1F4 RO 11 TG: @nodpai [4b2bbcd96ee8]"
-  - "B - \U0001F1F7\U0001F1F4 RO 31 TG: @nodpai [12ca5365c9b6]"
-  - "CA\u52A0\u62FF\u5927(mibei77.com \u7C73\u8D1D\u8282\u70B9\u5206\u4EAB) [ef556785f605]"
-  - "CN\u3010\u9AD8\u901F\u8282\u70B9\uFF1Ahttps://tt.vg/vip\u301111 [1ae80c118f8d9daf]\
-    \ [dbc97b843b9e]"
-  - "CN\u3010\u9AD8\u901F\u8282\u70B9\uFF1Ahttps://tt.vg/vip\u301111 [c7a56b22ff11]"
-  - DE - zhuhai.uk [cca86fa6a2ad513c] [150bf99b5cd0]
-  - DE_speednode_0004 [92e8593bee30]
-  - DK_speednode_0005 [0ed63a7414e3]
-  - DK_speednode_0006 [f53c69176375]
-  - FR_speednode_0008 [a57a3277a4a7]
-  - FR_speednode_0009 [d04a31b7857b]
-  - FR_speednode_0010 [e6da0f6df43c]
-  - FR_speednode_0011 [eaf068c92f1f]
-  - IE_speednode_0013 [37e4a848bf1f]
-  - "IT\u3010\u9AD8\u901F\u8282\u70B9\uFF1Ahttps://tt.vg/vip\u30111 [de1d706be16eedad]\
-    \ [ae9a44202ffc]"
+  - "C - \U0001F1FA\U0001F1F8 US 36 TG: @nodpai [4e17894fc917]"
+  - DE - zhuhai.uk 02 [cca86fa6a2ad513c] [150bf99b5cd0]
+  - IT_speednode_0014 [e690e14ea5a9]
+  - IT_speednode_0015 [c9cdfff6d2cc]
+  - IT_speednode_0016 [e4fa750756fd]
+  - IT_speednode_0017 [07162a4c93e6]
+  - "IT\u3010\u9AD8\u901F\u8282\u70B9\uFF1Ahttps://tt.vg/vip\u30112 [9d6d2faeef141ad8]\
+    \ [544fdd461b91]"
+  - "IT\u3010\u9AD8\u901F\u8282\u70B9\uFF1Ahttps://tt.vg/vip\u30113 [04641adcccb29f99]\
+    \ [30207bf94172]"
   - "IT\u3010\u9AD8\u901F\u8282\u70B9\uFF1Ahttps://tt.vg/vip\u30115 [cf828b32fb3c578d]\
     \ [3bb0f43ab34c]"
-  - JP - zhuhai.uk [b7fcd414f39c9921] [9d3ee5abd072]
-  - KR - zhuhai.uk [2f8956cc0b762858] [6b316d79c2c9]
-  - LV_speednode_0020 [a0b4e0754e17]
-  - LV_speednode_0021 [21c346022b3f]
-  - NL - zhuhai.uk [579b2d214c3aac52] [47dbdd004c5b]
-  - NL_speednode_0022 [9786e1ec9296]
-  - NL_speednode_0023 [f03b16402ab3]
-  - NL_speednode_0025 [461db3e89d9a]
+  - "IT\u3010\u9AD8\u901F\u8282\u70B9\uFF1Ahttps://tt.vg/vip\u30117 [47970f3e0c19e42e]\
+    \ [885d389b64d7]"
+  - JP - zhuhai.uk [2926e1a11f800c7e] [7ba567cbae47]
+  - KR - zhuhai.uk 02 [2f8956cc0b762858] [6b316d79c2c9]
+  - NL_speednode_0024 [f6303636874a]
   - NL_speednode_0026 [86fd6822b11a]
-  - NL_speednode_0027 [5a16ef58e735]
-  - RO-Bucharest-3176843-tqzq [c52f2f9bbaff]
-  - RO-Bucharest-3176843-vkhp [c2a232611f73]
-  - US - zhuhai.uk 08 [64e69799f1f1e578] [562ca4382193]
-  - US_speednode_0039 [8302b676182f]
-  - US_speednode_0040 [853162e17c25]
-  - VIP1-SE-Stockholm-1251938-hohf [e39388f12d00]
-  - VIP1-US-Seattle-41682158-hhec [4469ccdebae5]
-  - VIP2-BG-Sofia-915618-dvgd [06839255a299]
-  - VIP2-NL-Amsterdam-2421161-hynn [0e92352956d1]
-  - canfingV2rayNG-381 [5ec0e7e36b26]
+  - US - zhuhai.uk 03 [7fcb0892a70e2a8c] [cd62d4e997be]
+  - US - zhuhai.uk 05 [429fd8aa5fdfda83] [a3d0ff39dcd3]
+  - "US\u7F8E\u56FD(mibei77.com \u7C73\u8D1D\u8282\u70B9\u5206\u4EAB) [0d9434f73c0a]"
+  - VIP2-DE-Frankfurt am Main-h-322310712-ddyx [ba46ffad0b07]
+  - VIP2-DE-Frankfurt am Main-h-322310712-ddyx [c0b2b41a02c0]
+  - VIP2-ES-Madrid-h-198553-dvgz [1e395538b6f2]
+  - VIP2-SG-Singapore-23616824-ddvg [731ac5ffdf3c]
+  - VIP2-US-Phoenix-h-914612420-dyzd [b66d645e1b7e]
   - https://github.com/*********-*... [d80a98d80fc6]
-  - twmoon1-cdn-route.couldflare-cdn.com [842d17517f87]
-  - "\u2753Other_1|212KB/s|R002-260618 [bcad80c3a8d5]"
+  - oci-tokyo [a2b54ac4c885]
+  - "\u2753Other_19|554KB/s|R002-260618 [8ec8dc372133]"
   - "\u610F\u5927\u5229 - Milan - 2 [24f3d799447b]"
   - "\u610F\u5927\u5229 - Milan - 3 [1228d4259a60]"
+  - "\u610F\u5927\u5229 - Milan - 5 [0e16aae8a64f]"
   - "\u610F\u5927\u5229 - Milan - 7 [9d0e1ffea805]"
-  - "\u6C5F\u6C5F\u97E9\u56FD IEPL\uFF5C\u516C\u76CA 01 [f7be86c822fc]"
-  - "\u7F8E\u56FD \u6D1B\u6749\u77F6 - US03 [d01ac4c7ddb9]"
-  - "\U0001F1E6\U0001F1EA_\u963F\u62C9\u4F2F\u8054\u5408\u914B\u957F\u56FD (2) [ce5bf4e822ad8c71]\
-    \ [64952e21d921]"
-  - "\U0001F1E6\U0001F1F1AL_3|590KB/s|P002-260618 [687295eda033]"
-  - "\U0001F1E6\U0001F1F1AL_4|605KB/s|K001-260618 [b1efb572cb22]"
-  - "\U0001F1E6\U0001F1F9AT_1|2.4MB/s [c4950e321b388c13] [82d61a814f86]"
-  - "\U0001F1E7\U0001F1E6BA_2|1.0MB/s|R002-260618 [9bb95b13ab3d]"
-  - "\U0001F1E7\U0001F1EABE_1|1.1MB/s [e0f784c83df0b208] [2ec001363135]"
-  - "\U0001F1E7\U0001F1F7BR_7|539KB/s|K001-260618 [8547e1f0145e]"
-  - "\U0001F1E8\U0001F1E6CA_13|810KB/s|R002-260618 [0718e9a83f9f]"
-  - "\U0001F1E8\U0001F1E6CA_1|1.3MB/s [6f8cc1aa23d4e66c] [6954308d0681]"
-  - "\U0001F1E8\U0001F1E6CA_23|755KB/s|K001-260618 [f11c4bd24f04]"
-  - "\U0001F1E8\U0001F1E6CA_29|699KB/s|P002-260618 [106191a33389]"
-  - "\U0001F1E8\U0001F1E6CA_37|559KB/s|P002-260618 [a085336e318e]"
-  - "\U0001F1E8\U0001F1EDCH_27|551KB/s|K001-260618 [540e8f638a67]"
-  - "\U0001F1E8\U0001F1EDCH_29|838KB/s|K001-260618 [8d22fc5fb5dd]"
-  - "\U0001F1E8\U0001F1EDCH_4|1.1MB/s [7fa190c2668d85d6] [1c4f67b44e61]"
-  - "\U0001F1E8\U0001F1EDCH_62|721KB/s|R002-260618 [2a1b7b362990]"
-  - "\U0001F1E8\U0001F1F3CN_1|1.3MB/s [3d6c775aa8f4ffe5] [9f3960695181]"
+  - "\U0001F1E6\U0001F1F1AL_1|1.1MB/s [c0ba1fab26a85fc5] [df74b31c3766]"
+  - "\U0001F1E6\U0001F1F1AL_2|2.2MB/s [9f75c64fdecb2338] [1bc4ee1c22d3]"
+  - "\U0001F1E6\U0001F1F9AT_1|2.1MB/s [82d61a814f86]"
+  - "\U0001F1E7\U0001F1EABE_1|1.8MB/s [2ec001363135]"
+  - "\U0001F1E7\U0001F1ECBG_8|1.1MB/s|R002-260618 [709b57a81efe]"
+  - "\U0001F1E8\U0001F1E6CA_25|858KB/s|K001-260618 [49f256b7eb71]"
+  - "\U0001F1E8\U0001F1E6CA_2|1.9MB/s|R002-260618 [0718e9a83f9f]"
+  - "\U0001F1E8\U0001F1E6CA_36|756KB/s|P002-260618 [a085336e318e]"
+  - "\U0001F1E8\U0001F1E6CA_5|912KB/s|R002-260618 [bf3cde1b6b99]"
+  - "\U0001F1E8\U0001F1E6\u52A0\u62FF\u5927 \u5E7F\u64ADIP 19.68MB/s 254 linuxdo@onimaii\
+    \ [f866334e8b41]"
+  - "\U0001F1E8\U0001F1EDCH_1|1.7MB/s [1c4f67b44e61]"
+  - "\U0001F1E8\U0001F1EDCH_34|1.2MB/s|K001-260618 [8d22fc5fb5dd]"
+  - "\U0001F1E8\U0001F1EDCH_3|1.3MB/s|R002-260618 [2a1b7b362990]"
+  - "\U0001F1E8\U0001F1F3\u53F0\u6E7E \u539F\u751FIP 0.19MB/s 390 linuxdo@onimaii\
+    \ [842d17517f87]"
+  - "\U0001F1E8\U0001F1FFCZ_1|1.6MB/s|P002-260618 [c09077eae3d7]"
   - "\U0001F1E8\U0001F1FFCZ_1|3.3MB/s [654d560d4c97]"
-  - "\U0001F1E8\U0001F1FFCZ_8|904KB/s|P002-260618 [c09077eae3d7]"
-  - "\U0001F1E9\U0001F1EADE_105|4.1MB/s|P002-260618 [e1dacb4207c8]"
-  - "\U0001F1E9\U0001F1EADE_110|3.2MB/s|R002-260618 [fa577ab1f98c]"
-  - "\U0001F1E9\U0001F1EADE_12|3.5MB/s|R002-260618 [d879bd5657a9]"
-  - "\U0001F1E9\U0001F1EADE_132|4.3MB/s|K001-260618 [c22c6176e8e0]"
-  - "\U0001F1E9\U0001F1EADE_14|291KB/s|R002-260618 [4194c42ef8e9]"
-  - "\U0001F1E9\U0001F1EADE_170|409KB/s|M003-260806 [98fab60b8a80]"
-  - "\U0001F1E9\U0001F1EADE_182|1.2MB/s|S001-260618 [9a63840cd58a]"
-  - "\U0001F1E9\U0001F1EADE_22|1.7MB/s|R002-260618 [ce5222b25c0f]"
-  - "\U0001F1E9\U0001F1EADE_23|1.6MB/s|R002-260618 [9e1fea1b92ef]"
-  - "\U0001F1E9\U0001F1EADE_2|1.6MB/s [072757054c212a2a] [700b4bd38f03]"
-  - "\U0001F1E9\U0001F1EADE_36|6.0MB/s|K001-260618 [4b38bdefdd21]"
-  - "\U0001F1E9\U0001F1EADE_3|2.0MB/s [2df495ac24d78d7d] [7e54912d3b27]"
-  - "\U0001F1E9\U0001F1EADE_3|573KB/s|P002-260618 [9425f5a13d8f]"
-  - "\U0001F1E9\U0001F1EADE_64|1.0MB/s|R002-260618 [c6a7d6bb2cb1]"
-  - "\U0001F1E9\U0001F1EADE_6|3.9MB/s [aff0968e0afe]"
-  - "\U0001F1E9\U0001F1EADE_6|4.8MB/s|R002-260618 [853cbfea7588]"
-  - "\U0001F1E9\U0001F1EADE_7|1.6MB/s|R002-260618 [380d6623cb02]"
-  - "\U0001F1E9\U0001F1EADE_80|4.3MB/s|R002-260618 [270f10d1ed7e]"
-  - "\U0001F1E9\U0001F1EADE_98|5.2MB/s|R002-260618 [45ae42e77b51]"
-  - "\U0001F1E9\U0001F1EADE_9|2.9MB/s|R002-260618 [7e33ca9d37ba]"
-  - "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD->\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD_IPV4\
-    \ [5f6627e9d54a]"
-  - "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_IPV4 (2) [6a9ab7ea2aa03f5f] [13e50110b6aa]"
-  - "\U0001F1E9\U0001F1EA\u5FB7\u56FD \u539F\u751FIP 22.98MB/s 392 linuxdo@onimaii\
-    \ [800452a5db63]"
-  - "\U0001F1E9\U0001F1F0DK_2|1.1MB/s|R002-260618 [b39e85018bb8]"
-  - "\U0001F1EA\U0001F1E8EC_1|369KB/s|P002-260618 [416434520316]"
-  - "\U0001F1EA\U0001F1EAEE_2|712KB/s|R002-260618 [195bde6c350e]"
-  - "\U0001F1EA\U0001F1EAEE_5|1009KB/s|R002-260618 [ac78dec43e12]"
-  - "\U0001F1EA\U0001F1F8ES \u5E7F\u64ADIP 4.04MB/s 481 linuxdo@onimaii [747848a4c572]"
-  - "\U0001F1EB\U0001F1F7FR_1|3.2MB/s [01fe92b261e5]"
-  - "\U0001F1EB\U0001F1F7FR_40|7.7MB/s|P002-260618 [8b2e468494ca]"
-  - "\U0001F1EB\U0001F1F7FR_6|997KB/s|R002-260618 [fb5ca88b9889]"
-  - "\U0001F1EB\U0001F1F7FR_9|1.5MB/s|R002-260618 [52e4b2be20ad]"
+  - "\U0001F1E9\U0001F1EADE_165|906KB/s|R002-260618 [4194c42ef8e9]"
+  - "\U0001F1E9\U0001F1EADE_1|1.3MB/s [700b4bd38f03]"
+  - "\U0001F1E9\U0001F1EADE_2|2.1MB/s [7e54912d3b27]"
+  - "\U0001F1E9\U0001F1EADE_3|1.5MB/s [aff0968e0afe]"
+  - "\U0001F1E9\U0001F1EADE_4|3.1MB/s|R002-260618 [d879bd5657a9]"
+  - "\U0001F1E9\U0001F1EADE_59|1.2MB/s|R002-260618 [7e349bfebde8]"
+  - "\U0001F1E9\U0001F1EADE_93|158KB/s|R002-260618 [4c333b993ec8]"
+  - "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_IPV4 (3) [6a9ab7ea2aa03f5f] [13e50110b6aa]"
+  - "\U0001F1E9\U0001F1F0DK_1|1.3MB/s|R002-260618 [b39e85018bb8]"
+  - "\U0001F1EA\U0001F1E8EC_1|593KB/s|P002-260618 [416434520316]"
+  - "\U0001F1EA\U0001F1EAEE_3|1.1MB/s|R002-260618 [195bde6c350e]"
+  - "\U0001F1EA\U0001F1F8ES \u5E7F\u64ADIP 28.44MB/s 450 linuxdo@onimaii [0eccd5bfbdc6]"
+  - "\U0001F1EB\U0001F1F7FR_109|6.0MB/s [9513c3ec83ca]"
+  - "\U0001F1EB\U0001F1F7FR_16|4.8MB/s|R002-260618 [05011d068359]"
+  - "\U0001F1EB\U0001F1F7FR_3|2.6MB/s [32e7639f03cef99d] [35e8ee638fd0]"
+  - "\U0001F1EB\U0001F1F7FR_48|6.3MB/s|R002-260618 [3ca035c6a0e8]"
+  - "\U0001F1EB\U0001F1F7FR_55|3.3MB/s|P002-260618 [d9f747e4f4f4]"
   - "\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD_IPV4 (2) [59c241a8c325cb6f] [73488ba91fd1]"
-  - "\U0001F1EB\U0001F1F7\u6CD5\u56FD \u539F\u751FIP 0.19MB/s 413 linuxdo@onimaii\
-    \ [bb07647dd446]"
-  - "\U0001F1EB\U0001F1F7\u6CD5\u56FD \u539F\u751FIP 1.16MB/s 323 linuxdo@onimaii\
-    \ [a19214b2ce0d]"
-  - "\U0001F1EB\U0001F1F7\u6CD5\u56FD \u539F\u751FIP 2.30MB/s 312 linuxdo@onimaii\
-    \ [ffd6f8980cb1]"
-  - "\U0001F1EB\U0001F1F7\u6CD5\u56FD \u539F\u751FIP 2.30MB/s 333 linuxdo@onimaii\
-    \ [ff9b00b5bb2d]"
-  - "\U0001F1EB\U0001F1F7\u6CD5\u56FD \u5E7F\u64ADIP 5.46MB/s 537 linuxdo@onimaii\
-    \ [1692ef1d71af]"
-  - "\U0001F1EC\U0001F1E7GB_14|1.4MB/s|P002-260618 [8160cb3bcb47]"
-  - "\U0001F1EC\U0001F1E7GB_22|742KB/s|P002-260618 [13d215abf4ed]"
-  - "\U0001F1EC\U0001F1E7GB_4|2.4MB/s [7f7d62a908305081] [77b854829501]"
-  - "\U0001F1EC\U0001F1E7\u82F1\u56FD \u539F\u751FIP 2.35MB/s 533 linuxdo@onimaii\
-    \ [8705806b83bb]"
-  - "\U0001F1EC\U0001F1EAGE_1|2.6MB/s [8036133de7b2061f] [89e68234388e]"
+  - "\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD_IPV4 [99a84d3b717c4b3a] [01fe92b261e5]"
+  - "\U0001F1EB\U0001F1F7\u6CD5\u56FD \u539F\u751FIP 0.63MB/s 335 linuxdo@onimaii\
+    \ [cf00a1d02f2d]"
+  - "\U0001F1EB\U0001F1F7\u6CD5\u56FD \u539F\u751FIP 1.75MB/s 359 linuxdo@onimaii\
+    \ [09d8a2c30e1c]"
+  - "\U0001F1EC\U0001F1E7GB_16|513KB/s|R002-260618 [800642584a35]"
+  - "\U0001F1EC\U0001F1E7GB_24|1.2MB/s|R002-260618 [5eb8393cd366]"
+  - "\U0001F1EC\U0001F1E7GB_26|966KB/s|P002-260618 [13d215abf4ed]"
+  - "\U0001F1EC\U0001F1E7GB_2|2.1MB/s|P002-260618 [0d245f0bc5a5619b] [8160cb3bcb47]"
+  - "\U0001F1EC\U0001F1EAGE_1|2.9MB/s [8036133de7b2061f] [89e68234388e]"
   - "\U0001F1EC\U0001F1F7GR_1|2.3MB/s [4cc1e630f5fc]"
   - "\U0001F1EC\U0001F1F7GR_1|2.7MB/s [8d8bfa9f553a]"
-  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F | HKG 2 [b3da4aa5fca7158d] [3e22ca82dfce]"
-  - "\U0001F1ED\U0001F1F0HK_1|4.5MB/s [c28c3ed8f5fb]"
-  - "\U0001F1ED\U0001F1F0HK_70|134KB/s|R002-260618 [dabbadb69986]"
-  - "\U0001F1ED\U0001F1F0\u3010\u4E9A\u6D32\u3011\u9999\u6E2F01\u4E28\u76F4\u8FDE\
-    \ [1307741c2443]"
-  - "\U0001F1ED\U0001F1F0\u9999\u6E2F|HK|admin@VIP [c5723ba4a5e1]"
-  - "\U0001F1EE\U0001F1E9ID_2|690KB/s|R002-260618 [33704a7027b0]"
-  - "\U0001F1EE\U0001F1EAIE_2|3.1MB/s|R002-260618 [ccdfe7c35f3d]"
-  - "\U0001F1EE\U0001F1EAIE_6|3.1MB/s|K001-260618 [42d7ca444ffb]"
-  - "\U0001F1EE\U0001F1EAIE_7|2.2MB/s|R002-260618 [316bb3bdd670]"
-  - "\U0001F1EE\U0001F1F1IL_3|1.5MB/s|K001-260618 [a4cd70176943]"
-  - "\U0001F1EE\U0001F1F3\u5370\u5EA6 \u539F\u751FIP 9.97MB/s 478 linuxdo@onimaii\
-    \ [f1389ae4c418]"
-  - "\U0001F1EE\U0001F1F8IS_1|1.1MB/s [d8d8a2212f3e4302] [5dec383d7134]"
-  - "\U0001F1EE\U0001F1F8IS_1|946KB/s|R002-260618 [5b4be6a66266]"
-  - "\U0001F1EE\U0001F1F9 \u610F\u5927\u5229 | SS | 005 [9f940a28db48]"
+  - "\U0001F1ED\U0001F1F0HK_27|175KB/s|R002-260618 [76f77bed8475]"
+  - "\U0001F1ED\U0001F1F0HK_96|175KB/s|R002-260618 [dabbadb69986]"
+  - "\U0001F1ED\U0001F1F0\u9999\u6E2F \u539F\u751FIP 0.23MB/s 491 linuxdo@onimaii\
+    \ [72f6cc3a695c]"
+  - "\U0001F1ED\U0001F1FAHU_1|2.9MB/s [c089a9fb49699380] [b55234c9ce9b]"
+  - "\U0001F1EE\U0001F1EAIE_2|2.6MB/s|R002-260618 [ccdfe7c35f3d]"
+  - "\U0001F1EE\U0001F1EAIE_6|1.1MB/s|P002-260618 [88c0cbd1ecd0]"
+  - "\U0001F1EE\U0001F1F9 \u610F\u5927\u5229 | SS | 001 [e0e3bc5211d1]"
+  - "\U0001F1EE\U0001F1F9 \u610F\u5927\u5229 | SS | 009 [9f940a28db48]"
+  - "\U0001F1EE\U0001F1F9 \u610F\u5927\u5229 | SS | 010 [ed9e5a0dab11]"
+  - "\U0001F1EE\U0001F1F9 \u610F\u5927\u5229 | SS | 015 [8817c7e26aa5]"
+  - "\U0001F1EE\U0001F1F9 \u610F\u5927\u5229 | SS | 016 [01776833adf8]"
+  - "\U0001F1EE\U0001F1F9 \u610F\u5927\u5229 | SS | 018 [444fcb7f7f5e]"
   - "\U0001F1EE\U0001F1F9@oneclickvpnkeys [1c28314a226b]"
-  - "\U0001F1EE\U0001F1F9IT_36|379KB/s|R002-260618 [7eb30bb9e2dc]"
-  - "\U0001F1EE\U0001F1F9IT_38|396KB/s|C002-260622 [6e44ce9f8186]"
-  - "\U0001F1EE\U0001F1F9IT_3|1.8MB/s|R002-260618 [c2997d8fb09c]"
-  - "\U0001F1EE\U0001F1F9|\u610F\u5927\u5229-IEPL 02 [0e562b525f4e]"
-  - "\U0001F1EE\U0001F1F9|\u610F\u5927\u5229-IEPL 02 [7b44fa072404]"
-  - "\U0001F1EE\U0001F1F9|\u610F\u5927\u5229-IEPL 02 [9bec713ba84d]"
-  - "\U0001F1EF\U0001F1F5JP_16|221KB/s|R002-260618 [0dcfe37b3009]"
-  - "\U0001F1EF\U0001F1F5JP_2|3.5MB/s [fd37f50f897d]"
+  - "\U0001F1EE\U0001F1F9IT_10|2.8MB/s|B007-260618 [9a9ddab60873]"
+  - "\U0001F1EE\U0001F1F9IT_11|3.4MB/s|B007-260618 [57445a13c843]"
+  - "\U0001F1EE\U0001F1F9IT_16|1009KB/s|A004-260618 [fedf53752e2e]"
+  - "\U0001F1EE\U0001F1F9IT_17|1.3MB/s|A004-260618 [0a1416cee6e7]"
+  - "\U0001F1EE\U0001F1F9IT_2|524KB/s|A004-260618 [04af617c92c1]"
+  - "\U0001F1EE\U0001F1F9IT_34|758KB/s|R002-260618 [5557bbfed0ae]"
+  - "\U0001F1EE\U0001F1F9IT_3|2.3MB/s|B007-260618 [717452ac7274]"
+  - "\U0001F1EE\U0001F1F9IT_5|1.7MB/s|A004-260618 [fd0047a3e1ce]"
+  - "\U0001F1EE\U0001F1F9IT_6|2.9MB/s|C001-260618 [30ad3d6dcba9]"
+  - "\U0001F1EE\U0001F1F9IT_9|2.1MB/s|A004-260618 [5381c352aaea]"
+  - "\U0001F1EF\U0001F1F5JP-104.252.87.200-0585 [b29edabeed6b]"
+  - "\U0001F1EF\U0001F1F5JP_16|116KB/s|R002-260618 [0dcfe37b3009]"
   - "\U0001F1EF\U0001F1F5JP_6|2.4MB/s [0f4839b899b0]"
-  - "\U0001F1F1\U0001F1F9LT_8|2.2MB/s|K001-260618 [4f2dcb921fd1]"
-  - "\U0001F1F1\U0001F1FBLV_12|860KB/s|R002-260618 [1f31728dcdb5]"
-  - "\U0001F1F1\U0001F1FBLV_1|1.6MB/s [3d36e3eca205be4c] [db7b7005e8b5]"
-  - "\U0001F1F1\U0001F1FBLV_3|1.9MB/s|R002-260618 [36d7f182a1bb]"
-  - "\U0001F1F3\U0001F1EC|\u5C3C\u65E5\u5229\u4E9A-IEPL 02 [0d39a05a2fe3]"
-  - "\U0001F1F3\U0001F1F1NL_100|3.7MB/s|R002-260618 [3499c45c1db8]"
-  - "\U0001F1F3\U0001F1F1NL_105|2.6MB/s|R002-260618 [91edde60f3c3]"
-  - "\U0001F1F3\U0001F1F1NL_106|5.6MB/s|R002-260618 [0dc67707ea09]"
-  - "\U0001F1F3\U0001F1F1NL_11|3.3MB/s [7a217f0fa92e]"
-  - "\U0001F1F3\U0001F1F1NL_126|746KB/s|R002-260618 [3a2f60b0f8e9]"
-  - "\U0001F1F3\U0001F1F1NL_138|3.7MB/s|R002-260618 [2be510be4df2]"
-  - "\U0001F1F3\U0001F1F1NL_139|4.9MB/s|P002-260618 [63ec64e2a2bb]"
-  - "\U0001F1F3\U0001F1F1NL_149|6.2MB/s|K001-260618 [6da234288c32]"
-  - "\U0001F1F3\U0001F1F1NL_194|5.6MB/s|R002-260618 [5fce3aa04aef]"
-  - "\U0001F1F3\U0001F1F1NL_21|1.1MB/s|R002-260618 [9c657aa129dc]"
-  - "\U0001F1F3\U0001F1F1NL_24|4.4MB/s|R002-260618 [d6a1d9c0507d]"
-  - "\U0001F1F3\U0001F1F1NL_264|3.2MB/s|K001-260618 [66eb4f6956b3]"
-  - "\U0001F1F3\U0001F1F1NL_2|2.7MB/s|K001-260618 [4001dcaf70b737c1] [fb49417616d7]"
-  - "\U0001F1F3\U0001F1F1NL_32|5.5MB/s|R002-260618 [dfb7ded183f7]"
-  - "\U0001F1F3\U0001F1F1NL_50|1.9MB/s|P002-260618 [84115914fa34]"
-  - "\U0001F1F3\U0001F1F1NL_53|5.6MB/s|K001-260618 [7e0836542e57]"
-  - "\U0001F1F3\U0001F1F1NL_62|4.6MB/s [f4205fb09074]"
-  - "\U0001F1F3\U0001F1F1NL_84|1.4MB/s|R002-260618 [cdf1dfaec06e]"
-  - "\U0001F1F3\U0001F1F1NL_85|6.2MB/s|R002-260618 [c2e77b5c06d1]"
+  - "\U0001F1EF\U0001F1F5\u3010\u4E9A\u6D32\u3011\u65E5\u672C01\u4E28Vless [60a04b2acd63]"
+  - "\U0001F1EF\U0001F1F5\u65E5\u672C \u539F\u751FIP 0.23MB/s 058 linuxdo@onimaii\
+    \ [9d3ee5abd072]"
+  - "\U0001F1EF\U0001F1F5\u65E5\u672C-Y(\u901A\u7528) [6a2814044b6a]"
+  - "\U0001F1F2\U0001F1FEMY_1|437KB/s|R002-260618 [575a64a44155]"
+  - "\U0001F1F3\U0001F1F1 \u8377\u5170 | NLD [ad12022f0033]"
+  - "\U0001F1F3\U0001F1F1NL_10|3.4MB/s|R002-260618 [8e8ae16c401394c6] [0dc67707ea09]"
+  - "\U0001F1F3\U0001F1F1NL_12|3.6MB/s|R002-260618 [387205ed3889]"
+  - "\U0001F1F3\U0001F1F1NL_130|2.4MB/s|R002-260618 [d6a1d9c0507d]"
+  - "\U0001F1F3\U0001F1F1NL_146|1.4MB/s|R002-260618 [cdf1dfaec06e]"
+  - "\U0001F1F3\U0001F1F1NL_159|5.8MB/s|R002-260618 [1402a9534703]"
+  - "\U0001F1F3\U0001F1F1NL_177|1.6MB/s|R002-260618 [3a2f60b0f8e9]"
+  - "\U0001F1F3\U0001F1F1NL_209|5.5MB/s [25479245cd52]"
+  - "\U0001F1F3\U0001F1F1NL_23|4.8MB/s|K001-260618 [6da234288c32]"
+  - "\U0001F1F3\U0001F1F1NL_58|718KB/s|R002-260618 [1ada39f7a818]"
+  - "\U0001F1F3\U0001F1F1NL_97|5.4MB/s|P002-260618 [cf7ad954a413]"
   - "\U0001F1F3\U0001F1F1NL_9|1.0MB/s [3744e5a8bca3]"
-  - "\U0001F1F3\U0001F1F1\u8377\u5170 \u5E7F\u64ADIP 1.34MB/s 537 linuxdo@onimaii\
+  - "\U0001F1F3\U0001F1F1\u8377\u5170 \u5E7F\u64ADIP 1.85MB/s 298 linuxdo@onimaii\
     \ [87b7a0605709]"
-  - "\U0001F1F3\U0001F1F1\u8377\u5170 \u5E7F\u64ADIP 1.47MB/s 535 linuxdo@onimaii\
-    \ [d90a774116a4]"
-  - "\U0001F1F5\U0001F1F1PL_2|2.3MB/s|K001-260618 [bebfacdfeb24]"
-  - "\U0001F1F5\U0001F1F1PL_3|2.7MB/s [49fb3e53a1a1b4d9] [c95c95ac1c6a]"
-  - "\U0001F1F5\U0001F1F1PL_4|1.7MB/s|R002-260618 [2e410e6190d1]"
-  - "\U0001F1F5\U0001F1F1PL_4|2.7MB/s [a5b34b3b22af07ea] [bfde4a7e1482]"
-  - "\U0001F1F5\U0001F1F9PT_1|751KB/s|P002-260618 [cebb66dedc8f]"
-  - "\U0001F1F5\U0001F1F9PT_2|985KB/s|P002-260618 [158734cfe430]"
-  - "\U0001F1F7\U0001F1F4 RO-Bucharest-3176842-vivi [caa834972008]"
-  - "\U0001F1F7\U0001F1F4 RO-Bucharest-3176842-ytqb [cf95381b7672]"
-  - "\U0001F1F7\U0001F1F4 RO-Bucharest-3176842-znsz [5e718bf22a48]"
-  - "\U0001F1F7\U0001F1F4RO_14|3.5MB/s [7cb56d5dc842]"
-  - "\U0001F1F7\U0001F1F4RO_16|1.5MB/s|P002-260618 [fa2a85d8b301]"
-  - "\U0001F1F7\U0001F1F4RO_1|1.3MB/s|R002-260618 [a2b16dd523e3]"
-  - "\U0001F1F7\U0001F1F4RO_1|1013KB/s [64132a297b67d75e] [c7424c8f342f]"
-  - "\U0001F1F7\U0001F1F4RO_25|1.0MB/s|P002-260618 [82e19d7afb39]"
-  - "\U0001F1F7\U0001F1F4RO_27|1.3MB/s|P002-260618 [dfd60e192c98]"
-  - "\U0001F1F7\U0001F1F4RO_28|1.2MB/s|P002-260618 [1f2c7631affa]"
-  - "\U0001F1F7\U0001F1F4RO_30|1.3MB/s|R002-260618 [5e3b8e02da0d]"
-  - "\U0001F1F7\U0001F1F4RO_32|1.4MB/s|R002-260618 [5953354bba2d]"
-  - "\U0001F1F7\U0001F1F4RO_35|1.2MB/s|P002-260618 [736bef3beed2]"
-  - "\U0001F1F7\U0001F1F4RO_3|1.0MB/s [76cb9d7b2584]"
-  - "\U0001F1F7\U0001F1F4RO_45|1.4MB/s|Z001-260618 [bac6945fef7a]"
-  - "\U0001F1F7\U0001F1F4RO_46|1.1MB/s|P002-260618 [69fb10c859fa]"
-  - "\U0001F1F7\U0001F1F4RO_47|806KB/s [87adfdd05303]"
-  - "\U0001F1F7\U0001F1F4RO_49|3.2MB/s [8ef0180a1a66]"
-  - "\U0001F1F7\U0001F1F4RO_50|1002KB/s|R002-260618 [1ec0c679cc33]"
-  - "\U0001F1F7\U0001F1F4RO_57|1.2MB/s [c3a4db1baea6]"
-  - "\U0001F1F7\U0001F1F4RO_58|1.5MB/s|P002-260618 [194f7d9511ca]"
-  - "\U0001F1F7\U0001F1F4RO_5|1012KB/s|P002-260618 [0da3137e4041]"
-  - "\U0001F1F7\U0001F1F4RO_64|1.6MB/s|R002-260618 [a970fd3379f6]"
-  - "\U0001F1F7\U0001F1F4RO_70|1.0MB/s|R002-260618 [053b7adc5779]"
-  - "\U0001F1F7\U0001F1F4RO_73|663KB/s|R002-260618 [350885e5379e]"
-  - "\U0001F1F7\U0001F1F4RO_75|1.6MB/s|P002-260618 [2850908fb5a2]"
-  - "\U0001F1F7\U0001F1F4RO_76|677KB/s|K001-260618 [b1963a1f112e]"
-  - "\U0001F1F7\U0001F1F4RO_77|902KB/s|R002-260618 [beb2518b7b3f]"
-  - "\U0001F1F7\U0001F1F4RO_79|704KB/s [4e23915cab3d]"
-  - "\U0001F1F7\U0001F1F4RO_7|1.3MB/s [803396a730d6]"
-  - "\U0001F1F7\U0001F1F4RO_7|1.4MB/s [0b5076bf06d9]"
-  - "\U0001F1F7\U0001F1F4RO_83|1.3MB/s|R002-260618 [c4abbd7a2b86]"
-  - "\U0001F1F7\U0001F1F4RO_89|913KB/s|Z001-260618 [cc83e436a3ed]"
-  - "\U0001F1F7\U0001F1F4RO_90|767KB/s|Z001-260618 [d5e2c2adf6e6]"
-  - "\U0001F1F7\U0001F1F4RO_93|927KB/s|R002-260618 [895f1e471f2b]"
-  - "\U0001F1F7\U0001F1F4RO_98|1.0MB/s|R002-260618 [e561e88209e4]"
-  - "\U0001F1F7\U0001F1F8RS_1|641KB/s|R002-260618 [16e141fc55f7]"
-  - "\U0001F1F7\U0001F1F8RS_2|1.2MB/s [75a2f6837ce725b0] [8cd189883c14]"
-  - "\U0001F1F7\U0001F1FARU_11|1.5MB/s|P002-260618 [487ddf8ab8ec]"
-  - "\U0001F1F7\U0001F1FARU_1|1.1MB/s [36beb8f3a9fd0640] [53e4c48d230a]"
-  - "\U0001F1F7\U0001F1FARU_2|1.4MB/s|R002-260618 [98457ae63628]"
-  - "\U0001F1F7\U0001F1FARU_6|777KB/s|R002-260618 [991270c1ef26]"
-  - "\U0001F1F7\U0001F1FA\u4FC4\u7F57\u65AF \u5E7F\u64ADIP 19.82MB/s 487 linuxdo@onimaii\
-    \ [b8ad33342c16]"
-  - "\U0001F1F8\U0001F1EASE_11|1.3MB/s|R002-260618 [0903bb7d23dc]"
-  - "\U0001F1F8\U0001F1EASE_1|1.6MB/s [4cac4ba92768]"
-  - "\U0001F1F8\U0001F1EASE_3|1.1MB/s [e6f43095a5730b5a] [da688d679f0f]"
+  - "\U0001F1F3\U0001F1F1\u8377\u5170 \u5E7F\u64ADIP 15.32MB/s 397 linuxdo@onimaii\
+    \ [1188f394534f]"
+  - "\U0001F1F3\U0001F1F4NO_2|819KB/s|P002-260618 [bf419422604f]"
+  - "\U0001F1F5\U0001F1F1PL_7|982KB/s|R002-260618 [96ab3f14b94a]"
+  - "\U0001F1F5\U0001F1F9PT_1|1.7MB/s|P002-260618 [cebb66dedc8f]"
+  - "\U0001F1F7\U0001F1F8RS_1|1.4MB/s [8cd189883c14]"
+  - "\U0001F1F7\U0001F1FARU_10|1006KB/s|P002-260618 [487ddf8ab8ec]"
+  - "\U0001F1F7\U0001F1FARU_1|1.0MB/s [53e4c48d230a]"
+  - "\U0001F1F8\U0001F1EASE_1|1.6MB/s [c8f2cf3c5cad46de] [4cac4ba92768]"
   - "\U0001F1F8\U0001F1EC SG-Singapore-h-4261392-jdjb [185196af213b]"
-  - "\U0001F1F8\U0001F1EC \u3010\u4E9A\u6D32\u3011\u65B0\u52A0\u576101\u4E28Vless\
-    \ [ac083e63d8cb]"
-  - "\U0001F1F9\U0001F1F7TR_13|1.5MB/s|C002-260622 [a819e5226202]"
-  - "\U0001F1F9\U0001F1F7TR_1|1.1MB/s [aab31336e95c]"
-  - "\U0001F1F9\U0001F1F7TR_2|1.8MB/s [e3ba77a91d06]"
-  - "\U0001F1F9\U0001F1F7TR_9|1.4MB/s|R002-260618 [4d5625fc8237]"
-  - "\U0001F1F9\U0001F1F7|\u571F\u8033\u5176-IEPL 02 [d2f8390c0aef]"
-  - "\U0001F1F9\U0001F1FC_TW_\u53F0\u6E7E->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_IPV4\
-    \ [2dbece9fe4a58266] [041783ac3b13]"
-  - "\U0001F1FA\U0001F1F8 US-Los Angeles-81993519-dcem [4e5e3974d830]"
+  - "\U0001F1F8\U0001F1ECSG_1|3.5MB/s [d41506053b11fbe8] [b51ecdc3c81e]"
+  - "\U0001F1F8\U0001F1ECSG_21|641KB/s [903162eb96fc]"
+  - "\U0001F1F9\U0001F1EDTH_3|209KB/s|M003-260806 [af678e0cad55]"
+  - "\U0001F1F9\U0001F1F7TR_12|1.6MB/s|C002-260622 [4a85c2657e23]"
+  - "\U0001F1F9\U0001F1F7TR_9|1.6MB/s|R002-260618 [4d5625fc8237]"
+  - "\U0001F1F9\U0001F1FCTW_24|492KB/s [333e4bb8a14f]"
+  - "\U0001F1FA\U0001F1F3 \u672A\u77E5\u5730\u533A | VLESS | 004 [7dc4c8469452]"
   - "\U0001F1FA\U0001F1F8 US-Los Angeles-81993520-craa [cf54b49d68c3]"
-  - "\U0001F1FA\U0001F1F8 US-Los Angeles-81993521-nnrs [c6a884b69d38]"
-  - "\U0001F1FA\U0001F1F8 US-Los Angeles-81993522-ssqn [847f2db108c7]"
   - "\U0001F1FA\U0001F1F8 US-Miami-9342487-vsra [568f056a4077]"
   - "\U0001F1FA\U0001F1F8 US-San Jose-82214-ttjq [d37c74156e45]"
-  - "\U0001F1FA\U0001F1F8US_10|141KB/s|R002-260618 [fb6ab23cbfa0]"
-  - "\U0001F1FA\U0001F1F8US_111|745KB/s|P002-260618 [eb5e259d4ea2]"
-  - "\U0001F1FA\U0001F1F8US_138|746KB/s|R002-260618 [652faeadb26b]"
+  - "\U0001F1FA\U0001F1F8US-140.188.73.129-5784 [4cec6c79a30e]"
+  - "\U0001F1FA\U0001F1F8US_117|763KB/s|P002-260618 [7d6155f186a0]"
   - "\U0001F1FA\U0001F1F8US_13|3.1MB/s [cc9cfe69e0e6]"
-  - "\U0001F1FA\U0001F1F8US_162|836KB/s|R002-260618 [e2e51e2ca311]"
-  - "\U0001F1FA\U0001F1F8US_168|1.2MB/s|R002-260618 [1ea9cca17cf2]"
+  - "\U0001F1FA\U0001F1F8US_13|768KB/s|P002-260618 [185dbe9aa84d]"
+  - "\U0001F1FA\U0001F1F8US_148|811KB/s|R002-260618 [9c80833ac4df]"
+  - "\U0001F1FA\U0001F1F8US_164|784KB/s|R002-260618 [022e12564278]"
+  - "\U0001F1FA\U0001F1F8US_165|748KB/s|R002-260618 [025fdab39289]"
   - "\U0001F1FA\U0001F1F8US_16|1.2MB/s [e00ef38c4155]"
-  - "\U0001F1FA\U0001F1F8US_173|308KB/s|R002-260618 [af1f3857761c]"
-  - "\U0001F1FA\U0001F1F8US_179|260KB/s|R002-260618 [b332bf462ada]"
-  - "\U0001F1FA\U0001F1F8US_197|831KB/s|P002-260618 [622a861ed45b]"
+  - "\U0001F1FA\U0001F1F8US_172|199KB/s|R002-260618 [b7625f20acff]"
+  - "\U0001F1FA\U0001F1F8US_17|779KB/s|P002-260618 [f088a5cd9f30]"
+  - "\U0001F1FA\U0001F1F8US_185|1.1MB/s|R002-260618 [5c171c482ccc]"
   - "\U0001F1FA\U0001F1F8US_19|1.8MB/s [df2b9dfe7cec]"
-  - "\U0001F1FA\U0001F1F8US_201|347KB/s|R002-260618 [4d2a6a08e9aa]"
-  - "\U0001F1FA\U0001F1F8US_20|2.4MB/s [4cc7e4544b90]"
-  - "\U0001F1FA\U0001F1F8US_20|4.1MB/s [7b64c9723464]"
-  - "\U0001F1FA\U0001F1F8US_210|206KB/s|R002-260618 [0c82ded83ee7]"
-  - "\U0001F1FA\U0001F1F8US_219|178KB/s|R002-260618 [ca5e6e62e5da]"
-  - "\U0001F1FA\U0001F1F8US_235|697KB/s|P002-260618 [555e78e1dd84]"
-  - "\U0001F1FA\U0001F1F8US_238|295KB/s [ed6dee326740]"
-  - "\U0001F1FA\U0001F1F8US_251|259KB/s|R002-260618 [fa48c427c867]"
-  - "\U0001F1FA\U0001F1F8US_252|572KB/s|P002-260618 [1f04858a3534]"
-  - "\U0001F1FA\U0001F1F8US_255|792KB/s|P002-260618 [2f507ac80f4d]"
-  - "\U0001F1FA\U0001F1F8US_271|635KB/s|R002-260618 [ba053fffbf11]"
-  - "\U0001F1FA\U0001F1F8US_34|1.6MB/s [6572aef900a7]"
+  - "\U0001F1FA\U0001F1F8US_202|695KB/s|R002-260618 [4aec08f449a5]"
+  - "\U0001F1FA\U0001F1F8US_210|665KB/s|P002-260618 [81f6c05a9160]"
+  - "\U0001F1FA\U0001F1F8US_228|794KB/s|P002-260618 [9ca0f8bb710c]"
+  - "\U0001F1FA\U0001F1F8US_243|772KB/s|R002-260618 [2ecadbd871bf]"
+  - "\U0001F1FA\U0001F1F8US_25|697KB/s [9f09522e76be]"
+  - "\U0001F1FA\U0001F1F8US_297|779KB/s|R002-260618 [ebfd5d9ae74e]"
+  - "\U0001F1FA\U0001F1F8US_303|147KB/s|R002-260618 [fb6ab23cbfa0]"
+  - "\U0001F1FA\U0001F1F8US_333|776KB/s|P002-260618 [1f04858a3534]"
+  - "\U0001F1FA\U0001F1F8US_341|772KB/s|R002-260618 [e6c09f5655f6]"
+  - "\U0001F1FA\U0001F1F8US_36|765KB/s|R002-260618 [a773897f9e28]"
+  - "\U0001F1FA\U0001F1F8US_376|816KB/s [4e07637ecf6a]"
   - "\U0001F1FA\U0001F1F8US_37|3.1MB/s [016d9dc73a87]"
-  - "\U0001F1FA\U0001F1F8US_3|1.3MB/s [f4e3445a2d03992b] [caa3d26f6218]"
-  - "\U0001F1FA\U0001F1F8US_3|730KB/s|P002-260618 [02a5da37f711]"
-  - "\U0001F1FA\U0001F1F8US_409|343KB/s|R002-260618 [f9ee278038cc]"
-  - "\U0001F1FA\U0001F1F8US_40|762KB/s|P002-260618 [878cf3bf5441]"
-  - "\U0001F1FA\U0001F1F8US_468|805KB/s|P002-260618 [85c34e9c077c]"
-  - "\U0001F1FA\U0001F1F8US_50|759KB/s [ee98ba87e968]"
-  - "\U0001F1FA\U0001F1F8US_549|253KB/s|R002-260618 [c097310eb21d]"
-  - "\U0001F1FA\U0001F1F8US_557|213KB/s|R002-260618 [cf4353d767f9]"
-  - "\U0001F1FA\U0001F1F8US_570|420KB/s|R002-260618 [a0283fd82a2a]"
-  - "\U0001F1FA\U0001F1F8US_597|642KB/s|R002-260618 [60350da1ad73]"
-  - "\U0001F1FA\U0001F1F8US_5|2.2MB/s [3955add388a9b62c] [cac0b72a8bd7]"
-  - "\U0001F1FA\U0001F1F8US_67|696KB/s [4a2e8ac2a0a1]"
-  - "\U0001F1FA\U0001F1F8US_6|2.4MB/s [cd71824d3fd9492b] [93256b066833]"
-  - "\U0001F1FA\U0001F1F8US_701|690KB/s|S004-260618 [89a59d73ae23]"
-  - "\U0001F1FA\U0001F1F8US_77|321KB/s|Z001-260618 [28e9acde0de0]"
-  - "\U0001F1FA\U0001F1F8US_78|413KB/s|R002-260618 [fd84cd8528ed]"
-  - "\U0001F1FA\U0001F1F8US_86|786KB/s|P002-260618 [87e5f13b7f8e]"
-  - "\U0001F1FA\U0001F1F8US_89|788KB/s|R002-260618 [a773897f9e28]"
-  - "\U0001F1FA\U0001F1F8US_8|2.0MB/s [8be9c6b93efc]"
-  - "\U0001F1FA\U0001F1F8US_90|323KB/s|R002-260618 [546a84eb8c38]"
-  - "\U0001F1FA\U0001F1F8US_92|773KB/s|R002-260618 [ba6106d1e495]"
-  - "\U0001F1FA\U0001F1F8US_97|809KB/s|R002-260618 [2151e44c1e0d]"
-  - "\U0001F1FA\U0001F1F8US_99|791KB/s|R002-260618 [0431a97250a2]"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_IPV4 (2) [043fad269c75cb80] [1fff1a445142]"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_IPV4 (3) [adba72747dfe65f2] [e8ca1b4db8ff]"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_IPV4 (4) [7d52065b98f691ee] [4183972a059f]"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_IPV4 [46a02d76d82efae3] [85fce8021ebe]"
-  - "\U0001F1FA\U0001F1F8_\u7F8E\u56FD (116) [843d14316eee0bea] [fac3cf97b214]"
+  - "\U0001F1FA\U0001F1F8US_386|251KB/s|R002-260618 [0c82ded83ee7]"
+  - "\U0001F1FA\U0001F1F8US_387|131KB/s|R002-260618 [fa48c427c867]"
+  - "\U0001F1FA\U0001F1F8US_398|831KB/s|P002-260618 [622a861ed45b]"
+  - "\U0001F1FA\U0001F1F8US_402|182KB/s|R002-260618 [471ebd29feb8]"
+  - "\U0001F1FA\U0001F1F8US_474|348KB/s|R002-260618 [11b89e7c037f]"
+  - "\U0001F1FA\U0001F1F8US_4|1018KB/s [f4e3445a2d03992b] [caa3d26f6218]"
+  - "\U0001F1FA\U0001F1F8US_502|69KB/s|R002-260618 [475ea325156b]"
+  - "\U0001F1FA\U0001F1F8US_548|112KB/s|R002-260618 [cf4353d767f9]"
+  - "\U0001F1FA\U0001F1F8US_678|282KB/s|M003-260806 [76dcc8008ef1]"
+  - "\U0001F1FA\U0001F1F8US_6|2.8MB/s [3955add388a9b62c] [cac0b72a8bd7]"
+  - "\U0001F1FA\U0001F1F8US_8|185KB/s|R002-260618 [6c56a283eb65]"
+  - "\U0001F1FA\U0001F1F8US_93|442KB/s|R002-260618 [a67122b8947b]"
+  - "\U0001F1FA\U0001F1F8US_95|799KB/s [b86bd25a4d6a]"
+  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_IPV4 (5) [043fad269c75cb80] [1fff1a445142]"
+  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_IPV4 (6) [adba72747dfe65f2] [e8ca1b4db8ff]"
+  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_IPV4 (7) [7d52065b98f691ee] [4183972a059f]"
+  - "\U0001F1FA\U0001F1F8_\u7F8E\u56FD (8) (2) [0c54cae9f0e5ecff] [5e5aa346f3ec]"
   - "\U0001F1FA\U0001F1F8\u7F8E\u56FD \u539F\u751FIP 0.45MB/s 055 linuxdo@onimaii\
     \ [ffebf4869150]"
-  - "\U0001F1FA\U0001F1F8\u7F8E\u56FD \u539F\u751FIP 0.47MB/s 061 linuxdo@onimaii\
-    \ [1188f394534f]"
-  - "\U0001F1FA\U0001F1F8\u7F8E\u56FD \u539F\u751FIP 0.65MB/s 534 linuxdo@onimaii\
-    \ [0e083ab9a38b]"
-  - "\U0001F1FA\U0001F1F8\u7F8E\u56FD \u539F\u751FIP 8.89MB/s 234 linuxdo@onimaii\
-    \ [0372827f2b85]"
-  - "\U0001F1FA\U0001F1F8\u7F8E\u56FD \u5E7F\u64ADIP 32.85MB/s 436 linuxdo@onimaii\
-    \ [0eccd5bfbdc6]"
-  - "\U0001F1FF\U0001F1E6ZA_2|457KB/s|R002-260618 [cae81acbd27d]"
-  - "\U0001F3F3\uFE0F\u672A\u77E5 \u539F\u751FIP 1.35MB/s 293 linuxdo@onimaii [1b492461acd8]"
-  - "\U0001F9E636@oneclickvpnkeys [342cda1e6290]"
-  - "\U0001F9E66@oneclickvpnkeys [3ece0f2bc243]"
+  - "\U0001F1FA\U0001F1F8\u7F8E\u56FD \u539F\u751FIP 1.97MB/s 423 linuxdo@onimaii\
+    \ [ee2f37400563]"
+  - "\U0001F1FA\U0001F1F8\u7F8E\u56FD \u539F\u751FIP 17.33MB/s 163 linuxdo@onimaii\
+    \ [06037c628552]"
+  - "\U0001F1FA\U0001F1F8\u7F8E\u56FD \u539F\u751FIP 6.58MB/s 404 linuxdo@onimaii\
+    \ [342cda1e6290]"
+  - "\U0001F1FF\U0001F1E6ZA_3|428KB/s|R002-260618 [cae81acbd27d]"
   - "8\u5143\u8001\u724C\u4E13\u7EBF\u673A\u573A\uFF1Acczzuu.top"
-  - "\u4FC4\u7F57\u65AF_80385B"
-  - "\u5FB7\u56FD_B77B4C"
-  - "\u610F\u5927\u5229_1DDFC8"
-  - "\u610F\u5927\u5229_4CEE81"
-  - "\u610F\u5927\u5229_935E46"
-  - "\u610F\u5927\u5229_B980BE"
-  - "\u610F\u5927\u5229_FED34B"
-  - "\u65E5\u672C_F4D102"
-  - "\u7F8E\u56FD_793D14"
-  - "\u8377\u5170_4D65B2"
+  - "\u610F\u5927\u5229_2778AD"
+  - "\u610F\u5927\u5229_5B04C9"
+  - "\u610F\u5927\u5229_6B3226"
+  - "\u610F\u5927\u5229_7D9751"
+  - "\u610F\u5927\u5229_BA084B"
+  - "\u65E5\u672C_570867"
+  - "\u7F8E\u56FD_1B76B1"
+  - "\u7F8E\u56FD_4FAE27"
+  - "\u7F8E\u56FD_678F8E"
+  - "\u7F8E\u56FD_9CC66C"
+  - "\u7F8E\u56FD_EEF8CE"
+  - "\u8377\u5170_A5C641"
+  - "\u897F\u73ED\u7259_B68CDF"
   - AT_speednode_0001
   - AT_speednode_0002
   - BR_speednode_0003
@@ -58319,368 +56896,235 @@ proxy-groups:
 - name: "\U0001F4E6 Ruk1ng001/freeSub"
   type: select
   proxies:
-  - 47.236.168.243 [731ac5ffdf3c]
-  - 4FreeIran-04ad2b5c45 [e33fca6fd91c]
-  - 4FreeIran-1639587653 [176980ab9e16]
-  - 4FreeIran-4102188c73 [43400abea954]
-  - 4FreeIran-4658a2d085 [fbf78d0b8386]
-  - 4FreeIran-5be82b36db [bbb625e201cc]
-  - 4FreeIran-5f9dcd5035 [2433c44b2dd1]
-  - 4FreeIran-71151c3c1d [53def67b44b4]
-  - 4FreeIran-a75f8a5610 [cb10e9d7ca5c]
-  - 4FreeIran-d37f40b402 [641a38ed61e1]
-  - 4FreeIran-dbdc25b871 [0f4c16c13db5]
-  - 4Jadi-4794f67529 [17908eda609e]
+  - 4FreeIran-10ac640c12 [7441ad351988]
+  - 4FreeIran-a7babbd8ef [d027a4419852]
+  - 4Jadi-9dded5c504 [51960e30ea45]
   - 4Jadi-f9c6c2557c [4effd5ed74c8]
-  - 4Kian-3ca10dee5c [7abde24d55f2]
-  - 4Kian-6230c58433 [328fd1658781]
+  - 4Kian-674341a24f [bbb625e201cc]
   - 4Kian-74c8620a30 [e7fda757ab59]
-  - 4Kian-a7fdf66a3d [04808d3a56bc]
-  - 4Mohsen-344623e571 [4c69d1647204]
-  - 4Mohsen-35c7718182 [5adea4149997]
-  - 4Mohsen-7a4980ab68 [300e6159a177]
+  - 4Mohsen-818b6739cf [e26c34b2f6c8]
+  - 4Mohsen-b2a1a157ad [92c172b4f3c3]
   - 4Mohsen-e1b2cd8181 [8ed40d75cd58]
-  - 4Nika-23b3240f15 [99f53987abb6]
-  - 4Nika-7f4d7d7176 [77a783d4b6b9]
-  - 4Nika-81d0f507d7 [48d202d9c29c]
   - 4Nika-892ef8890f [6f03627ccfe2]
-  - 4Nika-9d97a54771 [5a8df557341e]
   - 4Nika-b871a1fb3e [0af049cd4841]
   - 4Sarina-1027ad08d6 [25decbaaa10a]
-  - 4Sarina-302b1624fe [e8381b4a7373]
-  - 4Sarina-3cc55772e7 [5ed6188290a4]
-  - 4Sarina-dcff49d8de [5f83c952c59b]
+  - 4Sarina-370cb86cf1 [6d6b41c5de08]
   - 4Sarina-e29c160c53 [0961efb8b410]
   - 4Sarina-f029b66473 [2e294afda7be]
-  - '@OutlineReleasedKey [304a016ecf9a]'
-  - '@meliproxyy [2ffaa05b6353]'
-  - '@meliproxyy [5deb6c23180f]'
-  - "B - \U0001F1F7\U0001F1F4 RO 02 TG: @nodpai [c8b57947e73d]"
-  - "B - \U0001F1F7\U0001F1F4 RO 08 TG: @nodpai [49894881bdcc]"
-  - "B - \U0001F1F7\U0001F1F4 RO 11 TG: @nodpai [4b2bbcd96ee8]"
-  - "B - \U0001F1F7\U0001F1F4 RO 31 TG: @nodpai [12ca5365c9b6]"
-  - "CA\u52A0\u62FF\u5927(mibei77.com \u7C73\u8D1D\u8282\u70B9\u5206\u4EAB) [ef556785f605]"
-  - "CN\u3010\u9AD8\u901F\u8282\u70B9\uFF1Ahttps://tt.vg/vip\u301111 [1ae80c118f8d9daf]\
-    \ [dbc97b843b9e]"
-  - "CN\u3010\u9AD8\u901F\u8282\u70B9\uFF1Ahttps://tt.vg/vip\u301111 [c7a56b22ff11]"
-  - DE - zhuhai.uk [cca86fa6a2ad513c] [150bf99b5cd0]
-  - DE_speednode_0004 [92e8593bee30]
-  - DK_speednode_0005 [0ed63a7414e3]
-  - DK_speednode_0006 [f53c69176375]
-  - FR_speednode_0008 [a57a3277a4a7]
-  - FR_speednode_0009 [d04a31b7857b]
-  - FR_speednode_0010 [e6da0f6df43c]
-  - FR_speednode_0011 [eaf068c92f1f]
-  - IE_speednode_0013 [37e4a848bf1f]
-  - "IT\u3010\u9AD8\u901F\u8282\u70B9\uFF1Ahttps://tt.vg/vip\u30111 [de1d706be16eedad]\
-    \ [ae9a44202ffc]"
+  - "C - \U0001F1FA\U0001F1F8 US 36 TG: @nodpai [4e17894fc917]"
+  - DE - zhuhai.uk 02 [cca86fa6a2ad513c] [150bf99b5cd0]
+  - IT_speednode_0014 [e690e14ea5a9]
+  - IT_speednode_0015 [c9cdfff6d2cc]
+  - IT_speednode_0016 [e4fa750756fd]
+  - IT_speednode_0017 [07162a4c93e6]
+  - "IT\u3010\u9AD8\u901F\u8282\u70B9\uFF1Ahttps://tt.vg/vip\u30112 [9d6d2faeef141ad8]\
+    \ [544fdd461b91]"
+  - "IT\u3010\u9AD8\u901F\u8282\u70B9\uFF1Ahttps://tt.vg/vip\u30113 [04641adcccb29f99]\
+    \ [30207bf94172]"
   - "IT\u3010\u9AD8\u901F\u8282\u70B9\uFF1Ahttps://tt.vg/vip\u30115 [cf828b32fb3c578d]\
     \ [3bb0f43ab34c]"
-  - JP - zhuhai.uk [b7fcd414f39c9921] [9d3ee5abd072]
-  - KR - zhuhai.uk [2f8956cc0b762858] [6b316d79c2c9]
-  - LV_speednode_0020 [a0b4e0754e17]
-  - LV_speednode_0021 [21c346022b3f]
-  - NL - zhuhai.uk [579b2d214c3aac52] [47dbdd004c5b]
-  - NL_speednode_0022 [9786e1ec9296]
-  - NL_speednode_0023 [f03b16402ab3]
-  - NL_speednode_0025 [461db3e89d9a]
+  - "IT\u3010\u9AD8\u901F\u8282\u70B9\uFF1Ahttps://tt.vg/vip\u30117 [47970f3e0c19e42e]\
+    \ [885d389b64d7]"
+  - JP - zhuhai.uk [2926e1a11f800c7e] [7ba567cbae47]
+  - KR - zhuhai.uk 02 [2f8956cc0b762858] [6b316d79c2c9]
+  - NL_speednode_0024 [f6303636874a]
   - NL_speednode_0026 [86fd6822b11a]
-  - NL_speednode_0027 [5a16ef58e735]
-  - RO-Bucharest-3176843-tqzq [c52f2f9bbaff]
-  - RO-Bucharest-3176843-vkhp [c2a232611f73]
-  - US - zhuhai.uk 08 [64e69799f1f1e578] [562ca4382193]
-  - US_speednode_0039 [8302b676182f]
-  - US_speednode_0040 [853162e17c25]
-  - VIP1-SE-Stockholm-1251938-hohf [e39388f12d00]
-  - VIP1-US-Seattle-41682158-hhec [4469ccdebae5]
-  - VIP2-BG-Sofia-915618-dvgd [06839255a299]
-  - VIP2-NL-Amsterdam-2421161-hynn [0e92352956d1]
-  - canfingV2rayNG-381 [5ec0e7e36b26]
+  - US - zhuhai.uk 03 [7fcb0892a70e2a8c] [cd62d4e997be]
+  - US - zhuhai.uk 05 [429fd8aa5fdfda83] [a3d0ff39dcd3]
+  - "US\u7F8E\u56FD(mibei77.com \u7C73\u8D1D\u8282\u70B9\u5206\u4EAB) [0d9434f73c0a]"
+  - VIP2-DE-Frankfurt am Main-h-322310712-ddyx [ba46ffad0b07]
+  - VIP2-DE-Frankfurt am Main-h-322310712-ddyx [c0b2b41a02c0]
+  - VIP2-ES-Madrid-h-198553-dvgz [1e395538b6f2]
+  - VIP2-SG-Singapore-23616824-ddvg [731ac5ffdf3c]
+  - VIP2-US-Phoenix-h-914612420-dyzd [b66d645e1b7e]
   - https://github.com/*********-*... [d80a98d80fc6]
-  - twmoon1-cdn-route.couldflare-cdn.com [842d17517f87]
-  - "\u2753Other_1|212KB/s|R002-260618 [bcad80c3a8d5]"
+  - oci-tokyo [a2b54ac4c885]
+  - "\u2753Other_19|554KB/s|R002-260618 [8ec8dc372133]"
   - "\u610F\u5927\u5229 - Milan - 2 [24f3d799447b]"
   - "\u610F\u5927\u5229 - Milan - 3 [1228d4259a60]"
+  - "\u610F\u5927\u5229 - Milan - 5 [0e16aae8a64f]"
   - "\u610F\u5927\u5229 - Milan - 7 [9d0e1ffea805]"
-  - "\u6C5F\u6C5F\u97E9\u56FD IEPL\uFF5C\u516C\u76CA 01 [f7be86c822fc]"
-  - "\u7F8E\u56FD \u6D1B\u6749\u77F6 - US03 [d01ac4c7ddb9]"
-  - "\U0001F1E6\U0001F1EA_\u963F\u62C9\u4F2F\u8054\u5408\u914B\u957F\u56FD (2) [ce5bf4e822ad8c71]\
-    \ [64952e21d921]"
-  - "\U0001F1E6\U0001F1F1AL_3|590KB/s|P002-260618 [687295eda033]"
-  - "\U0001F1E6\U0001F1F1AL_4|605KB/s|K001-260618 [b1efb572cb22]"
-  - "\U0001F1E6\U0001F1F9AT_1|2.4MB/s [c4950e321b388c13] [82d61a814f86]"
-  - "\U0001F1E7\U0001F1E6BA_2|1.0MB/s|R002-260618 [9bb95b13ab3d]"
-  - "\U0001F1E7\U0001F1EABE_1|1.1MB/s [e0f784c83df0b208] [2ec001363135]"
-  - "\U0001F1E7\U0001F1F7BR_7|539KB/s|K001-260618 [8547e1f0145e]"
-  - "\U0001F1E8\U0001F1E6CA_13|810KB/s|R002-260618 [0718e9a83f9f]"
-  - "\U0001F1E8\U0001F1E6CA_1|1.3MB/s [6f8cc1aa23d4e66c] [6954308d0681]"
-  - "\U0001F1E8\U0001F1E6CA_23|755KB/s|K001-260618 [f11c4bd24f04]"
-  - "\U0001F1E8\U0001F1E6CA_29|699KB/s|P002-260618 [106191a33389]"
-  - "\U0001F1E8\U0001F1E6CA_37|559KB/s|P002-260618 [a085336e318e]"
-  - "\U0001F1E8\U0001F1EDCH_27|551KB/s|K001-260618 [540e8f638a67]"
-  - "\U0001F1E8\U0001F1EDCH_29|838KB/s|K001-260618 [8d22fc5fb5dd]"
-  - "\U0001F1E8\U0001F1EDCH_4|1.1MB/s [7fa190c2668d85d6] [1c4f67b44e61]"
-  - "\U0001F1E8\U0001F1EDCH_62|721KB/s|R002-260618 [2a1b7b362990]"
-  - "\U0001F1E8\U0001F1F3CN_1|1.3MB/s [3d6c775aa8f4ffe5] [9f3960695181]"
+  - "\U0001F1E6\U0001F1F1AL_1|1.1MB/s [c0ba1fab26a85fc5] [df74b31c3766]"
+  - "\U0001F1E6\U0001F1F1AL_2|2.2MB/s [9f75c64fdecb2338] [1bc4ee1c22d3]"
+  - "\U0001F1E6\U0001F1F9AT_1|2.1MB/s [82d61a814f86]"
+  - "\U0001F1E7\U0001F1EABE_1|1.8MB/s [2ec001363135]"
+  - "\U0001F1E7\U0001F1ECBG_8|1.1MB/s|R002-260618 [709b57a81efe]"
+  - "\U0001F1E8\U0001F1E6CA_25|858KB/s|K001-260618 [49f256b7eb71]"
+  - "\U0001F1E8\U0001F1E6CA_2|1.9MB/s|R002-260618 [0718e9a83f9f]"
+  - "\U0001F1E8\U0001F1E6CA_36|756KB/s|P002-260618 [a085336e318e]"
+  - "\U0001F1E8\U0001F1E6CA_5|912KB/s|R002-260618 [bf3cde1b6b99]"
+  - "\U0001F1E8\U0001F1E6\u52A0\u62FF\u5927 \u5E7F\u64ADIP 19.68MB/s 254 linuxdo@onimaii\
+    \ [f866334e8b41]"
+  - "\U0001F1E8\U0001F1EDCH_1|1.7MB/s [1c4f67b44e61]"
+  - "\U0001F1E8\U0001F1EDCH_34|1.2MB/s|K001-260618 [8d22fc5fb5dd]"
+  - "\U0001F1E8\U0001F1EDCH_3|1.3MB/s|R002-260618 [2a1b7b362990]"
+  - "\U0001F1E8\U0001F1F3\u53F0\u6E7E \u539F\u751FIP 0.19MB/s 390 linuxdo@onimaii\
+    \ [842d17517f87]"
+  - "\U0001F1E8\U0001F1FFCZ_1|1.6MB/s|P002-260618 [c09077eae3d7]"
   - "\U0001F1E8\U0001F1FFCZ_1|3.3MB/s [654d560d4c97]"
-  - "\U0001F1E8\U0001F1FFCZ_8|904KB/s|P002-260618 [c09077eae3d7]"
-  - "\U0001F1E9\U0001F1EADE_105|4.1MB/s|P002-260618 [e1dacb4207c8]"
-  - "\U0001F1E9\U0001F1EADE_110|3.2MB/s|R002-260618 [fa577ab1f98c]"
-  - "\U0001F1E9\U0001F1EADE_12|3.5MB/s|R002-260618 [d879bd5657a9]"
-  - "\U0001F1E9\U0001F1EADE_132|4.3MB/s|K001-260618 [c22c6176e8e0]"
-  - "\U0001F1E9\U0001F1EADE_14|291KB/s|R002-260618 [4194c42ef8e9]"
-  - "\U0001F1E9\U0001F1EADE_170|409KB/s|M003-260806 [98fab60b8a80]"
-  - "\U0001F1E9\U0001F1EADE_182|1.2MB/s|S001-260618 [9a63840cd58a]"
-  - "\U0001F1E9\U0001F1EADE_22|1.7MB/s|R002-260618 [ce5222b25c0f]"
-  - "\U0001F1E9\U0001F1EADE_23|1.6MB/s|R002-260618 [9e1fea1b92ef]"
-  - "\U0001F1E9\U0001F1EADE_2|1.6MB/s [072757054c212a2a] [700b4bd38f03]"
-  - "\U0001F1E9\U0001F1EADE_36|6.0MB/s|K001-260618 [4b38bdefdd21]"
-  - "\U0001F1E9\U0001F1EADE_3|2.0MB/s [2df495ac24d78d7d] [7e54912d3b27]"
-  - "\U0001F1E9\U0001F1EADE_3|573KB/s|P002-260618 [9425f5a13d8f]"
-  - "\U0001F1E9\U0001F1EADE_64|1.0MB/s|R002-260618 [c6a7d6bb2cb1]"
-  - "\U0001F1E9\U0001F1EADE_6|3.9MB/s [aff0968e0afe]"
-  - "\U0001F1E9\U0001F1EADE_6|4.8MB/s|R002-260618 [853cbfea7588]"
-  - "\U0001F1E9\U0001F1EADE_7|1.6MB/s|R002-260618 [380d6623cb02]"
-  - "\U0001F1E9\U0001F1EADE_80|4.3MB/s|R002-260618 [270f10d1ed7e]"
-  - "\U0001F1E9\U0001F1EADE_98|5.2MB/s|R002-260618 [45ae42e77b51]"
-  - "\U0001F1E9\U0001F1EADE_9|2.9MB/s|R002-260618 [7e33ca9d37ba]"
-  - "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD->\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD_IPV4\
-    \ [5f6627e9d54a]"
-  - "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_IPV4 (2) [6a9ab7ea2aa03f5f] [13e50110b6aa]"
-  - "\U0001F1E9\U0001F1EA\u5FB7\u56FD \u539F\u751FIP 22.98MB/s 392 linuxdo@onimaii\
-    \ [800452a5db63]"
-  - "\U0001F1E9\U0001F1F0DK_2|1.1MB/s|R002-260618 [b39e85018bb8]"
-  - "\U0001F1EA\U0001F1E8EC_1|369KB/s|P002-260618 [416434520316]"
-  - "\U0001F1EA\U0001F1EAEE_2|712KB/s|R002-260618 [195bde6c350e]"
-  - "\U0001F1EA\U0001F1EAEE_5|1009KB/s|R002-260618 [ac78dec43e12]"
-  - "\U0001F1EA\U0001F1F8ES \u5E7F\u64ADIP 4.04MB/s 481 linuxdo@onimaii [747848a4c572]"
-  - "\U0001F1EB\U0001F1F7FR_1|3.2MB/s [01fe92b261e5]"
-  - "\U0001F1EB\U0001F1F7FR_40|7.7MB/s|P002-260618 [8b2e468494ca]"
-  - "\U0001F1EB\U0001F1F7FR_6|997KB/s|R002-260618 [fb5ca88b9889]"
-  - "\U0001F1EB\U0001F1F7FR_9|1.5MB/s|R002-260618 [52e4b2be20ad]"
+  - "\U0001F1E9\U0001F1EADE_165|906KB/s|R002-260618 [4194c42ef8e9]"
+  - "\U0001F1E9\U0001F1EADE_1|1.3MB/s [700b4bd38f03]"
+  - "\U0001F1E9\U0001F1EADE_2|2.1MB/s [7e54912d3b27]"
+  - "\U0001F1E9\U0001F1EADE_3|1.5MB/s [aff0968e0afe]"
+  - "\U0001F1E9\U0001F1EADE_4|3.1MB/s|R002-260618 [d879bd5657a9]"
+  - "\U0001F1E9\U0001F1EADE_59|1.2MB/s|R002-260618 [7e349bfebde8]"
+  - "\U0001F1E9\U0001F1EADE_93|158KB/s|R002-260618 [4c333b993ec8]"
+  - "\U0001F1E9\U0001F1EA_DE_\u5FB7\u56FD_IPV4 (3) [6a9ab7ea2aa03f5f] [13e50110b6aa]"
+  - "\U0001F1E9\U0001F1F0DK_1|1.3MB/s|R002-260618 [b39e85018bb8]"
+  - "\U0001F1EA\U0001F1E8EC_1|593KB/s|P002-260618 [416434520316]"
+  - "\U0001F1EA\U0001F1EAEE_3|1.1MB/s|R002-260618 [195bde6c350e]"
+  - "\U0001F1EA\U0001F1F8ES \u5E7F\u64ADIP 28.44MB/s 450 linuxdo@onimaii [0eccd5bfbdc6]"
+  - "\U0001F1EB\U0001F1F7FR_109|6.0MB/s [9513c3ec83ca]"
+  - "\U0001F1EB\U0001F1F7FR_16|4.8MB/s|R002-260618 [05011d068359]"
+  - "\U0001F1EB\U0001F1F7FR_3|2.6MB/s [32e7639f03cef99d] [35e8ee638fd0]"
+  - "\U0001F1EB\U0001F1F7FR_48|6.3MB/s|R002-260618 [3ca035c6a0e8]"
+  - "\U0001F1EB\U0001F1F7FR_55|3.3MB/s|P002-260618 [d9f747e4f4f4]"
   - "\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD_IPV4 (2) [59c241a8c325cb6f] [73488ba91fd1]"
-  - "\U0001F1EB\U0001F1F7\u6CD5\u56FD \u539F\u751FIP 0.19MB/s 413 linuxdo@onimaii\
-    \ [bb07647dd446]"
-  - "\U0001F1EB\U0001F1F7\u6CD5\u56FD \u539F\u751FIP 1.16MB/s 323 linuxdo@onimaii\
-    \ [a19214b2ce0d]"
-  - "\U0001F1EB\U0001F1F7\u6CD5\u56FD \u539F\u751FIP 2.30MB/s 312 linuxdo@onimaii\
-    \ [ffd6f8980cb1]"
-  - "\U0001F1EB\U0001F1F7\u6CD5\u56FD \u539F\u751FIP 2.30MB/s 333 linuxdo@onimaii\
-    \ [ff9b00b5bb2d]"
-  - "\U0001F1EB\U0001F1F7\u6CD5\u56FD \u5E7F\u64ADIP 5.46MB/s 537 linuxdo@onimaii\
-    \ [1692ef1d71af]"
-  - "\U0001F1EC\U0001F1E7GB_14|1.4MB/s|P002-260618 [8160cb3bcb47]"
-  - "\U0001F1EC\U0001F1E7GB_22|742KB/s|P002-260618 [13d215abf4ed]"
-  - "\U0001F1EC\U0001F1E7GB_4|2.4MB/s [7f7d62a908305081] [77b854829501]"
-  - "\U0001F1EC\U0001F1E7\u82F1\u56FD \u539F\u751FIP 2.35MB/s 533 linuxdo@onimaii\
-    \ [8705806b83bb]"
-  - "\U0001F1EC\U0001F1EAGE_1|2.6MB/s [8036133de7b2061f] [89e68234388e]"
+  - "\U0001F1EB\U0001F1F7_FR_\u6CD5\u56FD_IPV4 [99a84d3b717c4b3a] [01fe92b261e5]"
+  - "\U0001F1EB\U0001F1F7\u6CD5\u56FD \u539F\u751FIP 0.63MB/s 335 linuxdo@onimaii\
+    \ [cf00a1d02f2d]"
+  - "\U0001F1EB\U0001F1F7\u6CD5\u56FD \u539F\u751FIP 1.75MB/s 359 linuxdo@onimaii\
+    \ [09d8a2c30e1c]"
+  - "\U0001F1EC\U0001F1E7GB_16|513KB/s|R002-260618 [800642584a35]"
+  - "\U0001F1EC\U0001F1E7GB_24|1.2MB/s|R002-260618 [5eb8393cd366]"
+  - "\U0001F1EC\U0001F1E7GB_26|966KB/s|P002-260618 [13d215abf4ed]"
+  - "\U0001F1EC\U0001F1E7GB_2|2.1MB/s|P002-260618 [0d245f0bc5a5619b] [8160cb3bcb47]"
+  - "\U0001F1EC\U0001F1EAGE_1|2.9MB/s [8036133de7b2061f] [89e68234388e]"
   - "\U0001F1EC\U0001F1F7GR_1|2.3MB/s [4cc1e630f5fc]"
   - "\U0001F1EC\U0001F1F7GR_1|2.7MB/s [8d8bfa9f553a]"
-  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F | HKG 2 [b3da4aa5fca7158d] [3e22ca82dfce]"
-  - "\U0001F1ED\U0001F1F0HK_1|4.5MB/s [c28c3ed8f5fb]"
-  - "\U0001F1ED\U0001F1F0HK_70|134KB/s|R002-260618 [dabbadb69986]"
-  - "\U0001F1ED\U0001F1F0\u3010\u4E9A\u6D32\u3011\u9999\u6E2F01\u4E28\u76F4\u8FDE\
-    \ [1307741c2443]"
-  - "\U0001F1ED\U0001F1F0\u9999\u6E2F|HK|admin@VIP [c5723ba4a5e1]"
-  - "\U0001F1EE\U0001F1E9ID_2|690KB/s|R002-260618 [33704a7027b0]"
-  - "\U0001F1EE\U0001F1EAIE_2|3.1MB/s|R002-260618 [ccdfe7c35f3d]"
-  - "\U0001F1EE\U0001F1EAIE_6|3.1MB/s|K001-260618 [42d7ca444ffb]"
-  - "\U0001F1EE\U0001F1EAIE_7|2.2MB/s|R002-260618 [316bb3bdd670]"
-  - "\U0001F1EE\U0001F1F1IL_3|1.5MB/s|K001-260618 [a4cd70176943]"
-  - "\U0001F1EE\U0001F1F3\u5370\u5EA6 \u539F\u751FIP 9.97MB/s 478 linuxdo@onimaii\
-    \ [f1389ae4c418]"
-  - "\U0001F1EE\U0001F1F8IS_1|1.1MB/s [d8d8a2212f3e4302] [5dec383d7134]"
-  - "\U0001F1EE\U0001F1F8IS_1|946KB/s|R002-260618 [5b4be6a66266]"
-  - "\U0001F1EE\U0001F1F9 \u610F\u5927\u5229 | SS | 005 [9f940a28db48]"
+  - "\U0001F1ED\U0001F1F0HK_27|175KB/s|R002-260618 [76f77bed8475]"
+  - "\U0001F1ED\U0001F1F0HK_96|175KB/s|R002-260618 [dabbadb69986]"
+  - "\U0001F1ED\U0001F1F0\u9999\u6E2F \u539F\u751FIP 0.23MB/s 491 linuxdo@onimaii\
+    \ [72f6cc3a695c]"
+  - "\U0001F1ED\U0001F1FAHU_1|2.9MB/s [c089a9fb49699380] [b55234c9ce9b]"
+  - "\U0001F1EE\U0001F1EAIE_2|2.6MB/s|R002-260618 [ccdfe7c35f3d]"
+  - "\U0001F1EE\U0001F1EAIE_6|1.1MB/s|P002-260618 [88c0cbd1ecd0]"
+  - "\U0001F1EE\U0001F1F9 \u610F\u5927\u5229 | SS | 001 [e0e3bc5211d1]"
+  - "\U0001F1EE\U0001F1F9 \u610F\u5927\u5229 | SS | 009 [9f940a28db48]"
+  - "\U0001F1EE\U0001F1F9 \u610F\u5927\u5229 | SS | 010 [ed9e5a0dab11]"
+  - "\U0001F1EE\U0001F1F9 \u610F\u5927\u5229 | SS | 015 [8817c7e26aa5]"
+  - "\U0001F1EE\U0001F1F9 \u610F\u5927\u5229 | SS | 016 [01776833adf8]"
+  - "\U0001F1EE\U0001F1F9 \u610F\u5927\u5229 | SS | 018 [444fcb7f7f5e]"
   - "\U0001F1EE\U0001F1F9@oneclickvpnkeys [1c28314a226b]"
-  - "\U0001F1EE\U0001F1F9IT_36|379KB/s|R002-260618 [7eb30bb9e2dc]"
-  - "\U0001F1EE\U0001F1F9IT_38|396KB/s|C002-260622 [6e44ce9f8186]"
-  - "\U0001F1EE\U0001F1F9IT_3|1.8MB/s|R002-260618 [c2997d8fb09c]"
-  - "\U0001F1EE\U0001F1F9|\u610F\u5927\u5229-IEPL 02 [0e562b525f4e]"
-  - "\U0001F1EE\U0001F1F9|\u610F\u5927\u5229-IEPL 02 [7b44fa072404]"
-  - "\U0001F1EE\U0001F1F9|\u610F\u5927\u5229-IEPL 02 [9bec713ba84d]"
-  - "\U0001F1EF\U0001F1F5JP_16|221KB/s|R002-260618 [0dcfe37b3009]"
-  - "\U0001F1EF\U0001F1F5JP_2|3.5MB/s [fd37f50f897d]"
+  - "\U0001F1EE\U0001F1F9IT_10|2.8MB/s|B007-260618 [9a9ddab60873]"
+  - "\U0001F1EE\U0001F1F9IT_11|3.4MB/s|B007-260618 [57445a13c843]"
+  - "\U0001F1EE\U0001F1F9IT_16|1009KB/s|A004-260618 [fedf53752e2e]"
+  - "\U0001F1EE\U0001F1F9IT_17|1.3MB/s|A004-260618 [0a1416cee6e7]"
+  - "\U0001F1EE\U0001F1F9IT_2|524KB/s|A004-260618 [04af617c92c1]"
+  - "\U0001F1EE\U0001F1F9IT_34|758KB/s|R002-260618 [5557bbfed0ae]"
+  - "\U0001F1EE\U0001F1F9IT_3|2.3MB/s|B007-260618 [717452ac7274]"
+  - "\U0001F1EE\U0001F1F9IT_5|1.7MB/s|A004-260618 [fd0047a3e1ce]"
+  - "\U0001F1EE\U0001F1F9IT_6|2.9MB/s|C001-260618 [30ad3d6dcba9]"
+  - "\U0001F1EE\U0001F1F9IT_9|2.1MB/s|A004-260618 [5381c352aaea]"
+  - "\U0001F1EF\U0001F1F5JP-104.252.87.200-0585 [b29edabeed6b]"
+  - "\U0001F1EF\U0001F1F5JP_16|116KB/s|R002-260618 [0dcfe37b3009]"
   - "\U0001F1EF\U0001F1F5JP_6|2.4MB/s [0f4839b899b0]"
-  - "\U0001F1F1\U0001F1F9LT_8|2.2MB/s|K001-260618 [4f2dcb921fd1]"
-  - "\U0001F1F1\U0001F1FBLV_12|860KB/s|R002-260618 [1f31728dcdb5]"
-  - "\U0001F1F1\U0001F1FBLV_1|1.6MB/s [3d36e3eca205be4c] [db7b7005e8b5]"
-  - "\U0001F1F1\U0001F1FBLV_3|1.9MB/s|R002-260618 [36d7f182a1bb]"
-  - "\U0001F1F3\U0001F1EC|\u5C3C\u65E5\u5229\u4E9A-IEPL 02 [0d39a05a2fe3]"
-  - "\U0001F1F3\U0001F1F1NL_100|3.7MB/s|R002-260618 [3499c45c1db8]"
-  - "\U0001F1F3\U0001F1F1NL_105|2.6MB/s|R002-260618 [91edde60f3c3]"
-  - "\U0001F1F3\U0001F1F1NL_106|5.6MB/s|R002-260618 [0dc67707ea09]"
-  - "\U0001F1F3\U0001F1F1NL_11|3.3MB/s [7a217f0fa92e]"
-  - "\U0001F1F3\U0001F1F1NL_126|746KB/s|R002-260618 [3a2f60b0f8e9]"
-  - "\U0001F1F3\U0001F1F1NL_138|3.7MB/s|R002-260618 [2be510be4df2]"
-  - "\U0001F1F3\U0001F1F1NL_139|4.9MB/s|P002-260618 [63ec64e2a2bb]"
-  - "\U0001F1F3\U0001F1F1NL_149|6.2MB/s|K001-260618 [6da234288c32]"
-  - "\U0001F1F3\U0001F1F1NL_194|5.6MB/s|R002-260618 [5fce3aa04aef]"
-  - "\U0001F1F3\U0001F1F1NL_21|1.1MB/s|R002-260618 [9c657aa129dc]"
-  - "\U0001F1F3\U0001F1F1NL_24|4.4MB/s|R002-260618 [d6a1d9c0507d]"
-  - "\U0001F1F3\U0001F1F1NL_264|3.2MB/s|K001-260618 [66eb4f6956b3]"
-  - "\U0001F1F3\U0001F1F1NL_2|2.7MB/s|K001-260618 [4001dcaf70b737c1] [fb49417616d7]"
-  - "\U0001F1F3\U0001F1F1NL_32|5.5MB/s|R002-260618 [dfb7ded183f7]"
-  - "\U0001F1F3\U0001F1F1NL_50|1.9MB/s|P002-260618 [84115914fa34]"
-  - "\U0001F1F3\U0001F1F1NL_53|5.6MB/s|K001-260618 [7e0836542e57]"
-  - "\U0001F1F3\U0001F1F1NL_62|4.6MB/s [f4205fb09074]"
-  - "\U0001F1F3\U0001F1F1NL_84|1.4MB/s|R002-260618 [cdf1dfaec06e]"
-  - "\U0001F1F3\U0001F1F1NL_85|6.2MB/s|R002-260618 [c2e77b5c06d1]"
+  - "\U0001F1EF\U0001F1F5\u3010\u4E9A\u6D32\u3011\u65E5\u672C01\u4E28Vless [60a04b2acd63]"
+  - "\U0001F1EF\U0001F1F5\u65E5\u672C \u539F\u751FIP 0.23MB/s 058 linuxdo@onimaii\
+    \ [9d3ee5abd072]"
+  - "\U0001F1EF\U0001F1F5\u65E5\u672C-Y(\u901A\u7528) [6a2814044b6a]"
+  - "\U0001F1F2\U0001F1FEMY_1|437KB/s|R002-260618 [575a64a44155]"
+  - "\U0001F1F3\U0001F1F1 \u8377\u5170 | NLD [ad12022f0033]"
+  - "\U0001F1F3\U0001F1F1NL_10|3.4MB/s|R002-260618 [8e8ae16c401394c6] [0dc67707ea09]"
+  - "\U0001F1F3\U0001F1F1NL_12|3.6MB/s|R002-260618 [387205ed3889]"
+  - "\U0001F1F3\U0001F1F1NL_130|2.4MB/s|R002-260618 [d6a1d9c0507d]"
+  - "\U0001F1F3\U0001F1F1NL_146|1.4MB/s|R002-260618 [cdf1dfaec06e]"
+  - "\U0001F1F3\U0001F1F1NL_159|5.8MB/s|R002-260618 [1402a9534703]"
+  - "\U0001F1F3\U0001F1F1NL_177|1.6MB/s|R002-260618 [3a2f60b0f8e9]"
+  - "\U0001F1F3\U0001F1F1NL_209|5.5MB/s [25479245cd52]"
+  - "\U0001F1F3\U0001F1F1NL_23|4.8MB/s|K001-260618 [6da234288c32]"
+  - "\U0001F1F3\U0001F1F1NL_58|718KB/s|R002-260618 [1ada39f7a818]"
+  - "\U0001F1F3\U0001F1F1NL_97|5.4MB/s|P002-260618 [cf7ad954a413]"
   - "\U0001F1F3\U0001F1F1NL_9|1.0MB/s [3744e5a8bca3]"
-  - "\U0001F1F3\U0001F1F1\u8377\u5170 \u5E7F\u64ADIP 1.34MB/s 537 linuxdo@onimaii\
+  - "\U0001F1F3\U0001F1F1\u8377\u5170 \u5E7F\u64ADIP 1.85MB/s 298 linuxdo@onimaii\
     \ [87b7a0605709]"
-  - "\U0001F1F3\U0001F1F1\u8377\u5170 \u5E7F\u64ADIP 1.47MB/s 535 linuxdo@onimaii\
-    \ [d90a774116a4]"
-  - "\U0001F1F5\U0001F1F1PL_2|2.3MB/s|K001-260618 [bebfacdfeb24]"
-  - "\U0001F1F5\U0001F1F1PL_3|2.7MB/s [49fb3e53a1a1b4d9] [c95c95ac1c6a]"
-  - "\U0001F1F5\U0001F1F1PL_4|1.7MB/s|R002-260618 [2e410e6190d1]"
-  - "\U0001F1F5\U0001F1F1PL_4|2.7MB/s [a5b34b3b22af07ea] [bfde4a7e1482]"
-  - "\U0001F1F5\U0001F1F9PT_1|751KB/s|P002-260618 [cebb66dedc8f]"
-  - "\U0001F1F5\U0001F1F9PT_2|985KB/s|P002-260618 [158734cfe430]"
-  - "\U0001F1F7\U0001F1F4 RO-Bucharest-3176842-vivi [caa834972008]"
-  - "\U0001F1F7\U0001F1F4 RO-Bucharest-3176842-ytqb [cf95381b7672]"
-  - "\U0001F1F7\U0001F1F4 RO-Bucharest-3176842-znsz [5e718bf22a48]"
-  - "\U0001F1F7\U0001F1F4RO_14|3.5MB/s [7cb56d5dc842]"
-  - "\U0001F1F7\U0001F1F4RO_16|1.5MB/s|P002-260618 [fa2a85d8b301]"
-  - "\U0001F1F7\U0001F1F4RO_1|1.3MB/s|R002-260618 [a2b16dd523e3]"
-  - "\U0001F1F7\U0001F1F4RO_1|1013KB/s [64132a297b67d75e] [c7424c8f342f]"
-  - "\U0001F1F7\U0001F1F4RO_25|1.0MB/s|P002-260618 [82e19d7afb39]"
-  - "\U0001F1F7\U0001F1F4RO_27|1.3MB/s|P002-260618 [dfd60e192c98]"
-  - "\U0001F1F7\U0001F1F4RO_28|1.2MB/s|P002-260618 [1f2c7631affa]"
-  - "\U0001F1F7\U0001F1F4RO_30|1.3MB/s|R002-260618 [5e3b8e02da0d]"
-  - "\U0001F1F7\U0001F1F4RO_32|1.4MB/s|R002-260618 [5953354bba2d]"
-  - "\U0001F1F7\U0001F1F4RO_35|1.2MB/s|P002-260618 [736bef3beed2]"
-  - "\U0001F1F7\U0001F1F4RO_3|1.0MB/s [76cb9d7b2584]"
-  - "\U0001F1F7\U0001F1F4RO_45|1.4MB/s|Z001-260618 [bac6945fef7a]"
-  - "\U0001F1F7\U0001F1F4RO_46|1.1MB/s|P002-260618 [69fb10c859fa]"
-  - "\U0001F1F7\U0001F1F4RO_47|806KB/s [87adfdd05303]"
-  - "\U0001F1F7\U0001F1F4RO_49|3.2MB/s [8ef0180a1a66]"
-  - "\U0001F1F7\U0001F1F4RO_50|1002KB/s|R002-260618 [1ec0c679cc33]"
-  - "\U0001F1F7\U0001F1F4RO_57|1.2MB/s [c3a4db1baea6]"
-  - "\U0001F1F7\U0001F1F4RO_58|1.5MB/s|P002-260618 [194f7d9511ca]"
-  - "\U0001F1F7\U0001F1F4RO_5|1012KB/s|P002-260618 [0da3137e4041]"
-  - "\U0001F1F7\U0001F1F4RO_64|1.6MB/s|R002-260618 [a970fd3379f6]"
-  - "\U0001F1F7\U0001F1F4RO_70|1.0MB/s|R002-260618 [053b7adc5779]"
-  - "\U0001F1F7\U0001F1F4RO_73|663KB/s|R002-260618 [350885e5379e]"
-  - "\U0001F1F7\U0001F1F4RO_75|1.6MB/s|P002-260618 [2850908fb5a2]"
-  - "\U0001F1F7\U0001F1F4RO_76|677KB/s|K001-260618 [b1963a1f112e]"
-  - "\U0001F1F7\U0001F1F4RO_77|902KB/s|R002-260618 [beb2518b7b3f]"
-  - "\U0001F1F7\U0001F1F4RO_79|704KB/s [4e23915cab3d]"
-  - "\U0001F1F7\U0001F1F4RO_7|1.3MB/s [803396a730d6]"
-  - "\U0001F1F7\U0001F1F4RO_7|1.4MB/s [0b5076bf06d9]"
-  - "\U0001F1F7\U0001F1F4RO_83|1.3MB/s|R002-260618 [c4abbd7a2b86]"
-  - "\U0001F1F7\U0001F1F4RO_89|913KB/s|Z001-260618 [cc83e436a3ed]"
-  - "\U0001F1F7\U0001F1F4RO_90|767KB/s|Z001-260618 [d5e2c2adf6e6]"
-  - "\U0001F1F7\U0001F1F4RO_93|927KB/s|R002-260618 [895f1e471f2b]"
-  - "\U0001F1F7\U0001F1F4RO_98|1.0MB/s|R002-260618 [e561e88209e4]"
-  - "\U0001F1F7\U0001F1F8RS_1|641KB/s|R002-260618 [16e141fc55f7]"
-  - "\U0001F1F7\U0001F1F8RS_2|1.2MB/s [75a2f6837ce725b0] [8cd189883c14]"
-  - "\U0001F1F7\U0001F1FARU_11|1.5MB/s|P002-260618 [487ddf8ab8ec]"
-  - "\U0001F1F7\U0001F1FARU_1|1.1MB/s [36beb8f3a9fd0640] [53e4c48d230a]"
-  - "\U0001F1F7\U0001F1FARU_2|1.4MB/s|R002-260618 [98457ae63628]"
-  - "\U0001F1F7\U0001F1FARU_6|777KB/s|R002-260618 [991270c1ef26]"
-  - "\U0001F1F7\U0001F1FA\u4FC4\u7F57\u65AF \u5E7F\u64ADIP 19.82MB/s 487 linuxdo@onimaii\
-    \ [b8ad33342c16]"
-  - "\U0001F1F8\U0001F1EASE_11|1.3MB/s|R002-260618 [0903bb7d23dc]"
-  - "\U0001F1F8\U0001F1EASE_1|1.6MB/s [4cac4ba92768]"
-  - "\U0001F1F8\U0001F1EASE_3|1.1MB/s [e6f43095a5730b5a] [da688d679f0f]"
+  - "\U0001F1F3\U0001F1F1\u8377\u5170 \u5E7F\u64ADIP 15.32MB/s 397 linuxdo@onimaii\
+    \ [1188f394534f]"
+  - "\U0001F1F3\U0001F1F4NO_2|819KB/s|P002-260618 [bf419422604f]"
+  - "\U0001F1F5\U0001F1F1PL_7|982KB/s|R002-260618 [96ab3f14b94a]"
+  - "\U0001F1F5\U0001F1F9PT_1|1.7MB/s|P002-260618 [cebb66dedc8f]"
+  - "\U0001F1F7\U0001F1F8RS_1|1.4MB/s [8cd189883c14]"
+  - "\U0001F1F7\U0001F1FARU_10|1006KB/s|P002-260618 [487ddf8ab8ec]"
+  - "\U0001F1F7\U0001F1FARU_1|1.0MB/s [53e4c48d230a]"
+  - "\U0001F1F8\U0001F1EASE_1|1.6MB/s [c8f2cf3c5cad46de] [4cac4ba92768]"
   - "\U0001F1F8\U0001F1EC SG-Singapore-h-4261392-jdjb [185196af213b]"
-  - "\U0001F1F8\U0001F1EC \u3010\u4E9A\u6D32\u3011\u65B0\u52A0\u576101\u4E28Vless\
-    \ [ac083e63d8cb]"
-  - "\U0001F1F9\U0001F1F7TR_13|1.5MB/s|C002-260622 [a819e5226202]"
-  - "\U0001F1F9\U0001F1F7TR_1|1.1MB/s [aab31336e95c]"
-  - "\U0001F1F9\U0001F1F7TR_2|1.8MB/s [e3ba77a91d06]"
-  - "\U0001F1F9\U0001F1F7TR_9|1.4MB/s|R002-260618 [4d5625fc8237]"
-  - "\U0001F1F9\U0001F1F7|\u571F\u8033\u5176-IEPL 02 [d2f8390c0aef]"
-  - "\U0001F1F9\U0001F1FC_TW_\u53F0\u6E7E->\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_IPV4\
-    \ [2dbece9fe4a58266] [041783ac3b13]"
-  - "\U0001F1FA\U0001F1F8 US-Los Angeles-81993519-dcem [4e5e3974d830]"
+  - "\U0001F1F8\U0001F1ECSG_1|3.5MB/s [d41506053b11fbe8] [b51ecdc3c81e]"
+  - "\U0001F1F8\U0001F1ECSG_21|641KB/s [903162eb96fc]"
+  - "\U0001F1F9\U0001F1EDTH_3|209KB/s|M003-260806 [af678e0cad55]"
+  - "\U0001F1F9\U0001F1F7TR_12|1.6MB/s|C002-260622 [4a85c2657e23]"
+  - "\U0001F1F9\U0001F1F7TR_9|1.6MB/s|R002-260618 [4d5625fc8237]"
+  - "\U0001F1F9\U0001F1FCTW_24|492KB/s [333e4bb8a14f]"
+  - "\U0001F1FA\U0001F1F3 \u672A\u77E5\u5730\u533A | VLESS | 004 [7dc4c8469452]"
   - "\U0001F1FA\U0001F1F8 US-Los Angeles-81993520-craa [cf54b49d68c3]"
-  - "\U0001F1FA\U0001F1F8 US-Los Angeles-81993521-nnrs [c6a884b69d38]"
-  - "\U0001F1FA\U0001F1F8 US-Los Angeles-81993522-ssqn [847f2db108c7]"
   - "\U0001F1FA\U0001F1F8 US-Miami-9342487-vsra [568f056a4077]"
   - "\U0001F1FA\U0001F1F8 US-San Jose-82214-ttjq [d37c74156e45]"
-  - "\U0001F1FA\U0001F1F8US_10|141KB/s|R002-260618 [fb6ab23cbfa0]"
-  - "\U0001F1FA\U0001F1F8US_111|745KB/s|P002-260618 [eb5e259d4ea2]"
-  - "\U0001F1FA\U0001F1F8US_138|746KB/s|R002-260618 [652faeadb26b]"
+  - "\U0001F1FA\U0001F1F8US-140.188.73.129-5784 [4cec6c79a30e]"
+  - "\U0001F1FA\U0001F1F8US_117|763KB/s|P002-260618 [7d6155f186a0]"
   - "\U0001F1FA\U0001F1F8US_13|3.1MB/s [cc9cfe69e0e6]"
-  - "\U0001F1FA\U0001F1F8US_162|836KB/s|R002-260618 [e2e51e2ca311]"
-  - "\U0001F1FA\U0001F1F8US_168|1.2MB/s|R002-260618 [1ea9cca17cf2]"
+  - "\U0001F1FA\U0001F1F8US_13|768KB/s|P002-260618 [185dbe9aa84d]"
+  - "\U0001F1FA\U0001F1F8US_148|811KB/s|R002-260618 [9c80833ac4df]"
+  - "\U0001F1FA\U0001F1F8US_164|784KB/s|R002-260618 [022e12564278]"
+  - "\U0001F1FA\U0001F1F8US_165|748KB/s|R002-260618 [025fdab39289]"
   - "\U0001F1FA\U0001F1F8US_16|1.2MB/s [e00ef38c4155]"
-  - "\U0001F1FA\U0001F1F8US_173|308KB/s|R002-260618 [af1f3857761c]"
-  - "\U0001F1FA\U0001F1F8US_179|260KB/s|R002-260618 [b332bf462ada]"
-  - "\U0001F1FA\U0001F1F8US_197|831KB/s|P002-260618 [622a861ed45b]"
+  - "\U0001F1FA\U0001F1F8US_172|199KB/s|R002-260618 [b7625f20acff]"
+  - "\U0001F1FA\U0001F1F8US_17|779KB/s|P002-260618 [f088a5cd9f30]"
+  - "\U0001F1FA\U0001F1F8US_185|1.1MB/s|R002-260618 [5c171c482ccc]"
   - "\U0001F1FA\U0001F1F8US_19|1.8MB/s [df2b9dfe7cec]"
-  - "\U0001F1FA\U0001F1F8US_201|347KB/s|R002-260618 [4d2a6a08e9aa]"
-  - "\U0001F1FA\U0001F1F8US_20|2.4MB/s [4cc7e4544b90]"
-  - "\U0001F1FA\U0001F1F8US_20|4.1MB/s [7b64c9723464]"
-  - "\U0001F1FA\U0001F1F8US_210|206KB/s|R002-260618 [0c82ded83ee7]"
-  - "\U0001F1FA\U0001F1F8US_219|178KB/s|R002-260618 [ca5e6e62e5da]"
-  - "\U0001F1FA\U0001F1F8US_235|697KB/s|P002-260618 [555e78e1dd84]"
-  - "\U0001F1FA\U0001F1F8US_238|295KB/s [ed6dee326740]"
-  - "\U0001F1FA\U0001F1F8US_251|259KB/s|R002-260618 [fa48c427c867]"
-  - "\U0001F1FA\U0001F1F8US_252|572KB/s|P002-260618 [1f04858a3534]"
-  - "\U0001F1FA\U0001F1F8US_255|792KB/s|P002-260618 [2f507ac80f4d]"
-  - "\U0001F1FA\U0001F1F8US_271|635KB/s|R002-260618 [ba053fffbf11]"
-  - "\U0001F1FA\U0001F1F8US_34|1.6MB/s [6572aef900a7]"
+  - "\U0001F1FA\U0001F1F8US_202|695KB/s|R002-260618 [4aec08f449a5]"
+  - "\U0001F1FA\U0001F1F8US_210|665KB/s|P002-260618 [81f6c05a9160]"
+  - "\U0001F1FA\U0001F1F8US_228|794KB/s|P002-260618 [9ca0f8bb710c]"
+  - "\U0001F1FA\U0001F1F8US_243|772KB/s|R002-260618 [2ecadbd871bf]"
+  - "\U0001F1FA\U0001F1F8US_25|697KB/s [9f09522e76be]"
+  - "\U0001F1FA\U0001F1F8US_297|779KB/s|R002-260618 [ebfd5d9ae74e]"
+  - "\U0001F1FA\U0001F1F8US_303|147KB/s|R002-260618 [fb6ab23cbfa0]"
+  - "\U0001F1FA\U0001F1F8US_333|776KB/s|P002-260618 [1f04858a3534]"
+  - "\U0001F1FA\U0001F1F8US_341|772KB/s|R002-260618 [e6c09f5655f6]"
+  - "\U0001F1FA\U0001F1F8US_36|765KB/s|R002-260618 [a773897f9e28]"
+  - "\U0001F1FA\U0001F1F8US_376|816KB/s [4e07637ecf6a]"
   - "\U0001F1FA\U0001F1F8US_37|3.1MB/s [016d9dc73a87]"
-  - "\U0001F1FA\U0001F1F8US_3|1.3MB/s [f4e3445a2d03992b] [caa3d26f6218]"
-  - "\U0001F1FA\U0001F1F8US_3|730KB/s|P002-260618 [02a5da37f711]"
-  - "\U0001F1FA\U0001F1F8US_409|343KB/s|R002-260618 [f9ee278038cc]"
-  - "\U0001F1FA\U0001F1F8US_40|762KB/s|P002-260618 [878cf3bf5441]"
-  - "\U0001F1FA\U0001F1F8US_468|805KB/s|P002-260618 [85c34e9c077c]"
-  - "\U0001F1FA\U0001F1F8US_50|759KB/s [ee98ba87e968]"
-  - "\U0001F1FA\U0001F1F8US_549|253KB/s|R002-260618 [c097310eb21d]"
-  - "\U0001F1FA\U0001F1F8US_557|213KB/s|R002-260618 [cf4353d767f9]"
-  - "\U0001F1FA\U0001F1F8US_570|420KB/s|R002-260618 [a0283fd82a2a]"
-  - "\U0001F1FA\U0001F1F8US_597|642KB/s|R002-260618 [60350da1ad73]"
-  - "\U0001F1FA\U0001F1F8US_5|2.2MB/s [3955add388a9b62c] [cac0b72a8bd7]"
-  - "\U0001F1FA\U0001F1F8US_67|696KB/s [4a2e8ac2a0a1]"
-  - "\U0001F1FA\U0001F1F8US_6|2.4MB/s [cd71824d3fd9492b] [93256b066833]"
-  - "\U0001F1FA\U0001F1F8US_701|690KB/s|S004-260618 [89a59d73ae23]"
-  - "\U0001F1FA\U0001F1F8US_77|321KB/s|Z001-260618 [28e9acde0de0]"
-  - "\U0001F1FA\U0001F1F8US_78|413KB/s|R002-260618 [fd84cd8528ed]"
-  - "\U0001F1FA\U0001F1F8US_86|786KB/s|P002-260618 [87e5f13b7f8e]"
-  - "\U0001F1FA\U0001F1F8US_89|788KB/s|R002-260618 [a773897f9e28]"
-  - "\U0001F1FA\U0001F1F8US_8|2.0MB/s [8be9c6b93efc]"
-  - "\U0001F1FA\U0001F1F8US_90|323KB/s|R002-260618 [546a84eb8c38]"
-  - "\U0001F1FA\U0001F1F8US_92|773KB/s|R002-260618 [ba6106d1e495]"
-  - "\U0001F1FA\U0001F1F8US_97|809KB/s|R002-260618 [2151e44c1e0d]"
-  - "\U0001F1FA\U0001F1F8US_99|791KB/s|R002-260618 [0431a97250a2]"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_IPV4 (2) [043fad269c75cb80] [1fff1a445142]"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_IPV4 (3) [adba72747dfe65f2] [e8ca1b4db8ff]"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_IPV4 (4) [7d52065b98f691ee] [4183972a059f]"
-  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_IPV4 [46a02d76d82efae3] [85fce8021ebe]"
-  - "\U0001F1FA\U0001F1F8_\u7F8E\u56FD (116) [843d14316eee0bea] [fac3cf97b214]"
+  - "\U0001F1FA\U0001F1F8US_386|251KB/s|R002-260618 [0c82ded83ee7]"
+  - "\U0001F1FA\U0001F1F8US_387|131KB/s|R002-260618 [fa48c427c867]"
+  - "\U0001F1FA\U0001F1F8US_398|831KB/s|P002-260618 [622a861ed45b]"
+  - "\U0001F1FA\U0001F1F8US_402|182KB/s|R002-260618 [471ebd29feb8]"
+  - "\U0001F1FA\U0001F1F8US_474|348KB/s|R002-260618 [11b89e7c037f]"
+  - "\U0001F1FA\U0001F1F8US_4|1018KB/s [f4e3445a2d03992b] [caa3d26f6218]"
+  - "\U0001F1FA\U0001F1F8US_502|69KB/s|R002-260618 [475ea325156b]"
+  - "\U0001F1FA\U0001F1F8US_548|112KB/s|R002-260618 [cf4353d767f9]"
+  - "\U0001F1FA\U0001F1F8US_678|282KB/s|M003-260806 [76dcc8008ef1]"
+  - "\U0001F1FA\U0001F1F8US_6|2.8MB/s [3955add388a9b62c] [cac0b72a8bd7]"
+  - "\U0001F1FA\U0001F1F8US_8|185KB/s|R002-260618 [6c56a283eb65]"
+  - "\U0001F1FA\U0001F1F8US_93|442KB/s|R002-260618 [a67122b8947b]"
+  - "\U0001F1FA\U0001F1F8US_95|799KB/s [b86bd25a4d6a]"
+  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_IPV4 (5) [043fad269c75cb80] [1fff1a445142]"
+  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_IPV4 (6) [adba72747dfe65f2] [e8ca1b4db8ff]"
+  - "\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD_IPV4 (7) [7d52065b98f691ee] [4183972a059f]"
+  - "\U0001F1FA\U0001F1F8_\u7F8E\u56FD (8) (2) [0c54cae9f0e5ecff] [5e5aa346f3ec]"
   - "\U0001F1FA\U0001F1F8\u7F8E\u56FD \u539F\u751FIP 0.45MB/s 055 linuxdo@onimaii\
     \ [ffebf4869150]"
-  - "\U0001F1FA\U0001F1F8\u7F8E\u56FD \u539F\u751FIP 0.47MB/s 061 linuxdo@onimaii\
-    \ [1188f394534f]"
-  - "\U0001F1FA\U0001F1F8\u7F8E\u56FD \u539F\u751FIP 0.65MB/s 534 linuxdo@onimaii\
-    \ [0e083ab9a38b]"
-  - "\U0001F1FA\U0001F1F8\u7F8E\u56FD \u539F\u751FIP 8.89MB/s 234 linuxdo@onimaii\
-    \ [0372827f2b85]"
-  - "\U0001F1FA\U0001F1F8\u7F8E\u56FD \u5E7F\u64ADIP 32.85MB/s 436 linuxdo@onimaii\
-    \ [0eccd5bfbdc6]"
-  - "\U0001F1FF\U0001F1E6ZA_2|457KB/s|R002-260618 [cae81acbd27d]"
-  - "\U0001F3F3\uFE0F\u672A\u77E5 \u539F\u751FIP 1.35MB/s 293 linuxdo@onimaii [1b492461acd8]"
-  - "\U0001F9E636@oneclickvpnkeys [342cda1e6290]"
-  - "\U0001F9E66@oneclickvpnkeys [3ece0f2bc243]"
+  - "\U0001F1FA\U0001F1F8\u7F8E\u56FD \u539F\u751FIP 1.97MB/s 423 linuxdo@onimaii\
+    \ [ee2f37400563]"
+  - "\U0001F1FA\U0001F1F8\u7F8E\u56FD \u539F\u751FIP 17.33MB/s 163 linuxdo@onimaii\
+    \ [06037c628552]"
+  - "\U0001F1FA\U0001F1F8\u7F8E\u56FD \u539F\u751FIP 6.58MB/s 404 linuxdo@onimaii\
+    \ [342cda1e6290]"
+  - "\U0001F1FF\U0001F1E6ZA_3|428KB/s|R002-260618 [cae81acbd27d]"
 - name: "\U0001F4E6 NodeToolBox"
   type: select
   proxies:
   - "8\u5143\u8001\u724C\u4E13\u7EBF\u673A\u573A\uFF1Acczzuu.top"
-  - "\u4FC4\u7F57\u65AF_80385B"
-  - "\u5FB7\u56FD_B77B4C"
-  - "\u610F\u5927\u5229_1DDFC8"
-  - "\u610F\u5927\u5229_4CEE81"
-  - "\u610F\u5927\u5229_935E46"
-  - "\u610F\u5927\u5229_B980BE"
-  - "\u610F\u5927\u5229_FED34B"
-  - "\u65E5\u672C_F4D102"
-  - "\u7F8E\u56FD_793D14"
-  - "\u8377\u5170_4D65B2"
+  - "\u610F\u5927\u5229_2778AD"
+  - "\u610F\u5927\u5229_5B04C9"
+  - "\u610F\u5927\u5229_6B3226"
+  - "\u610F\u5927\u5229_7D9751"
+  - "\u610F\u5927\u5229_BA084B"
+  - "\u65E5\u672C_570867"
+  - "\u7F8E\u56FD_1B76B1"
+  - "\u7F8E\u56FD_4FAE27"
+  - "\u7F8E\u56FD_678F8E"
+  - "\u7F8E\u56FD_9CC66C"
+  - "\u7F8E\u56FD_EEF8CE"
+  - "\u8377\u5170_A5C641"
+  - "\u897F\u73ED\u7259_B68CDF"
 - name: "\U0001F4E6 zhangkaiitugithub/passcro"
   type: select
   proxies:
