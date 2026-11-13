@@ -21,7 +21,7 @@ proxies:
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-11-13 00:42 (CST)"
+- name: "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-11-13 09:00 (CST)"
   type: trojan
   server: 127.0.0.1
   port: 443
@@ -44,20 +44,30 @@ proxies:
   skip-cert-verify: true
 - name: "\u5176\u4ED6-001"
   type: vless
-  network: ws
-  uuid: bdde0eb9-62c6-4d30-ac96-ab10d8eb7939
-  server: 104.26.1.117
-  servername: erupencompanypdr.pages.dev
-  port: 443
-  skip-cert-verify: false
-  tls: true
+  network: tcp
+  uuid: 399b6b23-cc40-4831-a494-61948e2df133
+  server: jp.sofast.live
+  port: 52683
+  tls: false
   udp: true
-  tfo: false
   ws-opts:
     headers:
-      Host: erupencompanypdr.pages.dev
-    path: /ISoOMY675XVPxHG4?ed=2560
+      Host: jp.sofast.live
+    path: /
+- name: "\u5DF4\u897F-001"
+  type: vless
+  network: xhttp
+  uuid: 7592ca5c-b352-4562-8856-a9c936a3331b
+  server: 200.102.179.69
+  servername: dmbdnpctq8hjxx.hat.onl
+  port: 443
+  tls: true
+  udp: true
   client-fingerprint: chrome
+  xhttp-opts:
+    host: dmbdnpctq8hjxx.hat.onl
+    mode: auto
+    path: /hls/014373eq/seg
 - name: "\u5FB7\u56FD-001 |1.6MB/s"
   type: hysteria
   server: 5.83.129.90
@@ -86,6 +96,19 @@ proxies:
   up: 500
   down: 1000
   auth_str: dongtaiwang.com
+- name: "\u6CE2\u5170-001"
+  type: vless
+  network: grpc
+  uuid: 3f5e89d5-591f-4ac9-b071-b05680b573c3
+  server: 138.124.242.46
+  servername: pl2-edge.gacvpn.site
+  port: 8443
+  tls: true
+  udp: true
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: connect-pl
+  client-fingerprint: firefox
 - name: "\u6FB3\u5927\u5229\u4E9A-001 |3.0MB/s|TK-AU|YT-AU|GPT\u207A-AU"
   type: http
   server: 159.13.44.228
@@ -239,22 +262,22 @@ proxies:
   port: 9002
   skip-cert-verify: true
   tls: true
-- name: "\u7F8E\u56FD-002 |1.5MB/s|TK-US|YT-US|GPT\u207A-US|GM-US"
+- name: "\u7F8E\u56FD-002 |3.2MB/s|TK-US|YT-US|GPT\u207A-US|GM-US"
+  type: http
+  server: 38.28.193.188
+  port: 443
+  skip-cert-verify: true
+  tls: true
+- name: "\u7F8E\u56FD-003 |1.5MB/s|TK-US|YT-US|GPT\u207A-US|GM-US"
   type: http
   server: 209.148.53.153
   port: 8090
   skip-cert-verify: true
   tls: true
-- name: "\u7F8E\u56FD-003 |1.0MB/s|TK-US|GPT\u207A-US"
+- name: "\u7F8E\u56FD-004 |1.0MB/s|TK-US|GPT\u207A-US"
   type: http
   server: 138.199.35.198
   port: 9002
-  skip-cert-verify: true
-  tls: true
-- name: "\u7F8E\u56FD-004 |3.2MB/s|TK-US|YT-US|GPT\u207A-US|GM-US"
-  type: http
-  server: 38.28.193.188
-  port: 443
   skip-cert-verify: true
   tls: true
 - name: "\u8377\u5170-001 |2.1MB/s|TK-NL|GPT\u207A-NL|GM-NL"
@@ -47402,77 +47425,87 @@ proxies:
   x-toolall-mihomo: true
 - type: vmess
   server: 47.244.120.197
-  port: 36703
-  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
+  port: 23026
+  uuid: b9de1bc9-baa7-41ac-86f7-ccd59695cb21
   alterId: 0
   cipher: auto
   udp: true
   network: ws
   ws-opts:
     path: /arki
-    headers: {}
+    headers:
+      Host: 47.244.120.197
   name: "8\u5143\u8001\u724C\u4E13\u7EBF\u673A\u573A\uFF1Acczzuu.top"
-- type: ss
-  server: 202.50.253.36
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- type: vless
+  server: 79.182.39.131
+  port: 443
   udp: true
-  name: "\u610F\u5927\u5229_2778AD"
-- type: ss
-  server: 202.50.253.45
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-  name: "\u610F\u5927\u5229_5B04C9"
-- type: ss
-  server: 202.50.253.18
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-  name: "\u610F\u5927\u5229_6B3226"
-- type: ss
-  server: 202.50.253.99
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-  name: "\u610F\u5927\u5229_7D9751"
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  tls: true
+  servername: 717252g.nl8.h1clayd.click
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: PD8Jdlg3xB9QY--jwQjp8PFPzCS8-Oryw6-HWBcHMFU
+    short-id: "d3bd772514c87d28"
+  network: grpc
+  grpc-opts:
+    grpc-service-name: "204adda7e3da"
+  name: "\u4FC4\u7F57\u65AF_8F46DE"
 - type: ss
   server: 202.50.253.81
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-  name: "\u610F\u5927\u5229_BA084B"
+  name: "\u610F\u5927\u5229_3BAD2A"
+- type: ss
+  server: 202.50.253.18
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+  name: "\u610F\u5927\u5229_4825FE"
+- type: ss
+  server: 202.50.253.45
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+  name: "\u610F\u5927\u5229_AFA412"
+- type: ss
+  server: 202.50.253.99
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+  name: "\u610F\u5927\u5229_B64B23"
+- type: ss
+  server: 202.50.253.36
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+  name: "\u610F\u5927\u5229_C584B4"
 - type: ss
   server: 154.36.158.197
   port: 8388
   cipher: aes-256-gcm
   password: BeaUf9c0AEWH40Pu
   udp: true
-  name: "\u65E5\u672C_570867"
+  name: "\u65E5\u672C_67947D"
 - type: vless
-  server: us22.sofast.live
-  port: 58011
-  udp: true
-  uuid: 0afc6426-606c-48e7-bd70-3c424a416842
-  name: "\u7F8E\u56FD_1B76B1"
-- type: vless
-  server: sundaylanzgem.site
+  server: 192.177.26.55
   port: 443
   udp: true
-  uuid: 50a87e21-f0e2-4b53-a787-91adfe748f63
+  uuid: 7ad63b26-bf70-4872-8fab-ebaf73a1e19d
   tls: true
-  servername: sundaylanzgem.site
-  client-fingerprint: qq
+  servername: repo-16.topp-con.xyz
+  client-fingerprint: chrome
   reality-opts:
-    public-key: -BN9yCN0ECqxOPoJOan1-CIMEYc5e7wdJwaeDxsUM20
-    short-id: ''
+    public-key: cC6kqzQ1mdCXyPey8xRXS7TQ1S4kF3nJW-h1ItJ4SH8
+    short-id: "bdaddda4cbc8c7bf"
   flow: xtls-rprx-vision
-  name: "\u7F8E\u56FD_4FAE27"
+  name: "\u7F8E\u56FD_12189C"
 - type: vless
   server: gemsubbgem.world
   port: 443
@@ -47485,28 +47518,9 @@ proxies:
     public-key: 6PJlXT9xrgJP8RXfhpWDMKPh4eqGt_IZmenc_a6v0gg
     short-id: ''
   flow: xtls-rprx-vision
-  name: "\u7F8E\u56FD_678F8E"
+  name: "\u7F8E\u56FD_F3A25F"
 - type: vless
-  server: jp.sofast.live
-  port: 52683
-  udp: true
-  uuid: 5aaa5259-f924-4682-a4a3-149d472a9dcc
-  name: "\u7F8E\u56FD_9CC66C"
-- type: vless
-  server: hollandlanzerotte.xyz
-  port: 443
-  udp: true
-  uuid: 50a87e21-f0e2-4b53-a787-91adfe748f63
-  tls: true
-  servername: hollandlanzerotte.xyz
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: EEL-yDPBfol_fiEEM8Pd0zue7SSz5MtZlXEePVak2jc
-    short-id: ''
-  flow: xtls-rprx-vision
-  name: "\u7F8E\u56FD_EEF8CE"
-- type: vless
-  server: 72.56.38.83
+  server: 201.51.11.65
   port: 443
   udp: true
   uuid: 1e2b9c0c-4f9b-56f5-a062-1c4f2d2aa200
@@ -47514,12 +47528,12 @@ proxies:
   servername: absolute-disaster.org
   client-fingerprint: chrome
   reality-opts:
-    public-key: ZzIetLcQtENjIXQ9XZqFo8p3J81p8Emj0wi51Uy07n8
+    public-key: GiDgVRVYrTkv1mZJeFVWkr736Iey2kqLM6L0eUbffV8
     short-id: ''
   flow: xtls-rprx-vision
-  name: "\u8377\u5170_A5C641"
+  name: "\u8377\u5170_3CDA4A"
 - type: vless
-  server: 196.199.122.2
+  server: 196.196.149.80
   port: 443
   udp: true
   uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
@@ -47530,7 +47544,19 @@ proxies:
     public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
     short-id: "42426c882c5fcd41"
   flow: xtls-rprx-vision
-  name: "\u897F\u73ED\u7259_B68CDF"
+  name: "\u897F\u73ED\u7259_CA5D27"
+- type: vless
+  server: 9.247.174.134
+  port: 8443
+  udp: true
+  uuid: 585a421d-d782-4420-912e-dd58ff5966d7
+  tls: true
+  servername: play.googleapis.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 7jPluypHwPilf_Mq7JOY96SwKkbK35WuIlN1HwGQ_0A
+    short-id: "974f7f8f"
+  name: "\u897F\u73ED\u7259_D32CCC"
 - name: AT_speednode_0001
   server: au2.pad-sservice.lat
   port: 8443
@@ -48843,15 +48869,17 @@ proxy-groups:
     \u6E90)"
   - "\u8BF4\u660E-\u6D4B\u8BD5: \u672C\u6B21\u672A\u6D4B\u5EF6\u8FDF/\u5E26\u5BBD\
     ,\u76F4\u63A5\u5408\u5E76(\u4E0D\u7CBE\u9009)"
-  - "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-11-13 00:42 (CST)"
+  - "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-11-13 09:00 (CST)"
   - "\u8BF4\u660E-\u4F5C\u8005: wzmwayne"
   - "\u8BF4\u660E-\u4ED3\u5E93: https://github.com/wzmwayne/proxy-node"
 - name: "\U0001F680 \u8282\u70B9\u9009\u62E9(\u5168\u90E8)"
   type: select
   proxies: &id001
   - "\u5176\u4ED6-001"
+  - "\u5DF4\u897F-001"
   - "\u5FB7\u56FD-001 |1.6MB/s"
   - "\u5FB7\u56FD-002 |594KB/s"
+  - "\u6CE2\u5170-001"
   - "\u6FB3\u5927\u5229\u4E9A-001 |3.0MB/s|TK-AU|YT-AU|GPT\u207A-AU"
   - "\u7F57\u9A6C\u5C3C\u4E9A-001 |3.3MB/s|TK-RO|GPT\u207A-RO|GM-RO"
   - "\u7F57\u9A6C\u5C3C\u4E9A-002 |2.3MB/s|TK-RO|GPT\u207A-RO|GM-RO"
@@ -48874,9 +48902,9 @@ proxy-groups:
   - "\u7F57\u9A6C\u5C3C\u4E9A-019 |557KB/s"
   - "\u7F57\u9A6C\u5C3C\u4E9A-020 |554KB/s"
   - "\u7F8E\u56FD-001 |3.3MB/s|TK-US|YT-US|GPT\u207A-US|GM-US"
-  - "\u7F8E\u56FD-002 |1.5MB/s|TK-US|YT-US|GPT\u207A-US|GM-US"
-  - "\u7F8E\u56FD-003 |1.0MB/s|TK-US|GPT\u207A-US"
-  - "\u7F8E\u56FD-004 |3.2MB/s|TK-US|YT-US|GPT\u207A-US|GM-US"
+  - "\u7F8E\u56FD-002 |3.2MB/s|TK-US|YT-US|GPT\u207A-US|GM-US"
+  - "\u7F8E\u56FD-003 |1.5MB/s|TK-US|YT-US|GPT\u207A-US|GM-US"
+  - "\u7F8E\u56FD-004 |1.0MB/s|TK-US|GPT\u207A-US"
   - "\u8377\u5170-001 |2.1MB/s|TK-NL|GPT\u207A-NL|GM-NL"
   - "\u8377\u5170-002 |1.8MB/s|TK-NL|GPT\u207A-NL"
   - "\u8377\u5170-003 |1.8MB/s|TK-NL|GPT\u207A-NL|GM-NL"
@@ -52912,19 +52940,18 @@ proxy-groups:
     \ [342cda1e6290]"
   - "\U0001F1FF\U0001F1E6ZA_3|428KB/s|R002-260618 [cae81acbd27d]"
   - "8\u5143\u8001\u724C\u4E13\u7EBF\u673A\u573A\uFF1Acczzuu.top"
-  - "\u610F\u5927\u5229_2778AD"
-  - "\u610F\u5927\u5229_5B04C9"
-  - "\u610F\u5927\u5229_6B3226"
-  - "\u610F\u5927\u5229_7D9751"
-  - "\u610F\u5927\u5229_BA084B"
-  - "\u65E5\u672C_570867"
-  - "\u7F8E\u56FD_1B76B1"
-  - "\u7F8E\u56FD_4FAE27"
-  - "\u7F8E\u56FD_678F8E"
-  - "\u7F8E\u56FD_9CC66C"
-  - "\u7F8E\u56FD_EEF8CE"
-  - "\u8377\u5170_A5C641"
-  - "\u897F\u73ED\u7259_B68CDF"
+  - "\u4FC4\u7F57\u65AF_8F46DE"
+  - "\u610F\u5927\u5229_3BAD2A"
+  - "\u610F\u5927\u5229_4825FE"
+  - "\u610F\u5927\u5229_AFA412"
+  - "\u610F\u5927\u5229_B64B23"
+  - "\u610F\u5927\u5229_C584B4"
+  - "\u65E5\u672C_67947D"
+  - "\u7F8E\u56FD_12189C"
+  - "\u7F8E\u56FD_F3A25F"
+  - "\u8377\u5170_3CDA4A"
+  - "\u897F\u73ED\u7259_CA5D27"
+  - "\u897F\u73ED\u7259_D32CCC"
   - AT_speednode_0001
   - AT_speednode_0002
   - BR_speednode_0003
@@ -53035,8 +53062,10 @@ proxy-groups:
   type: select
   proxies:
   - "\u5176\u4ED6-001"
+  - "\u5DF4\u897F-001"
   - "\u5FB7\u56FD-001 |1.6MB/s"
   - "\u5FB7\u56FD-002 |594KB/s"
+  - "\u6CE2\u5170-001"
   - "\u6FB3\u5927\u5229\u4E9A-001 |3.0MB/s|TK-AU|YT-AU|GPT\u207A-AU"
   - "\u7F57\u9A6C\u5C3C\u4E9A-001 |3.3MB/s|TK-RO|GPT\u207A-RO|GM-RO"
   - "\u7F57\u9A6C\u5C3C\u4E9A-002 |2.3MB/s|TK-RO|GPT\u207A-RO|GM-RO"
@@ -53059,9 +53088,9 @@ proxy-groups:
   - "\u7F57\u9A6C\u5C3C\u4E9A-019 |557KB/s"
   - "\u7F57\u9A6C\u5C3C\u4E9A-020 |554KB/s"
   - "\u7F8E\u56FD-001 |3.3MB/s|TK-US|YT-US|GPT\u207A-US|GM-US"
-  - "\u7F8E\u56FD-002 |1.5MB/s|TK-US|YT-US|GPT\u207A-US|GM-US"
-  - "\u7F8E\u56FD-003 |1.0MB/s|TK-US|GPT\u207A-US"
-  - "\u7F8E\u56FD-004 |3.2MB/s|TK-US|YT-US|GPT\u207A-US|GM-US"
+  - "\u7F8E\u56FD-002 |3.2MB/s|TK-US|YT-US|GPT\u207A-US|GM-US"
+  - "\u7F8E\u56FD-003 |1.5MB/s|TK-US|YT-US|GPT\u207A-US|GM-US"
+  - "\u7F8E\u56FD-004 |1.0MB/s|TK-US|GPT\u207A-US"
   - "\u8377\u5170-001 |2.1MB/s|TK-NL|GPT\u207A-NL|GM-NL"
   - "\u8377\u5170-002 |1.8MB/s|TK-NL|GPT\u207A-NL"
   - "\u8377\u5170-003 |1.8MB/s|TK-NL|GPT\u207A-NL|GM-NL"
@@ -57112,19 +57141,18 @@ proxy-groups:
   type: select
   proxies:
   - "8\u5143\u8001\u724C\u4E13\u7EBF\u673A\u573A\uFF1Acczzuu.top"
-  - "\u610F\u5927\u5229_2778AD"
-  - "\u610F\u5927\u5229_5B04C9"
-  - "\u610F\u5927\u5229_6B3226"
-  - "\u610F\u5927\u5229_7D9751"
-  - "\u610F\u5927\u5229_BA084B"
-  - "\u65E5\u672C_570867"
-  - "\u7F8E\u56FD_1B76B1"
-  - "\u7F8E\u56FD_4FAE27"
-  - "\u7F8E\u56FD_678F8E"
-  - "\u7F8E\u56FD_9CC66C"
-  - "\u7F8E\u56FD_EEF8CE"
-  - "\u8377\u5170_A5C641"
-  - "\u897F\u73ED\u7259_B68CDF"
+  - "\u4FC4\u7F57\u65AF_8F46DE"
+  - "\u610F\u5927\u5229_3BAD2A"
+  - "\u610F\u5927\u5229_4825FE"
+  - "\u610F\u5927\u5229_AFA412"
+  - "\u610F\u5927\u5229_B64B23"
+  - "\u610F\u5927\u5229_C584B4"
+  - "\u65E5\u672C_67947D"
+  - "\u7F8E\u56FD_12189C"
+  - "\u7F8E\u56FD_F3A25F"
+  - "\u8377\u5170_3CDA4A"
+  - "\u897F\u73ED\u7259_CA5D27"
+  - "\u897F\u73ED\u7259_D32CCC"
 - name: "\U0001F4E6 zhangkaiitugithub/passcro"
   type: select
   proxies:

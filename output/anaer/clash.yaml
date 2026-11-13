@@ -1,20 +1,30 @@
 proxies:
 - name: "\u5176\u4ED6-001"
   type: vless
-  network: ws
-  uuid: bdde0eb9-62c6-4d30-ac96-ab10d8eb7939
-  server: 104.26.1.117
-  servername: erupencompanypdr.pages.dev
-  port: 443
-  skip-cert-verify: false
-  tls: true
+  network: tcp
+  uuid: 399b6b23-cc40-4831-a494-61948e2df133
+  server: jp.sofast.live
+  port: 52683
+  tls: false
   udp: true
-  tfo: false
   ws-opts:
     headers:
-      Host: erupencompanypdr.pages.dev
-    path: /ISoOMY675XVPxHG4?ed=2560
+      Host: jp.sofast.live
+    path: /
+- name: "\u5DF4\u897F-001"
+  type: vless
+  network: xhttp
+  uuid: 7592ca5c-b352-4562-8856-a9c936a3331b
+  server: 200.102.179.69
+  servername: dmbdnpctq8hjxx.hat.onl
+  port: 443
+  tls: true
+  udp: true
   client-fingerprint: chrome
+  xhttp-opts:
+    host: dmbdnpctq8hjxx.hat.onl
+    mode: auto
+    path: /hls/014373eq/seg
 - name: "\u5FB7\u56FD-001 |1.6MB/s"
   type: hysteria
   server: 5.83.129.90
@@ -43,6 +53,19 @@ proxies:
   up: 500
   down: 1000
   auth_str: dongtaiwang.com
+- name: "\u6CE2\u5170-001"
+  type: vless
+  network: grpc
+  uuid: 3f5e89d5-591f-4ac9-b071-b05680b573c3
+  server: 138.124.242.46
+  servername: pl2-edge.gacvpn.site
+  port: 8443
+  tls: true
+  udp: true
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: connect-pl
+  client-fingerprint: firefox
 - name: "\u6FB3\u5927\u5229\u4E9A-001 |3.0MB/s|TK-AU|YT-AU|GPT\u207A-AU"
   type: http
   server: 159.13.44.228
@@ -196,22 +219,22 @@ proxies:
   port: 9002
   skip-cert-verify: true
   tls: true
-- name: "\u7F8E\u56FD-002 |1.5MB/s|TK-US|YT-US|GPT\u207A-US|GM-US"
+- name: "\u7F8E\u56FD-002 |3.2MB/s|TK-US|YT-US|GPT\u207A-US|GM-US"
+  type: http
+  server: 38.28.193.188
+  port: 443
+  skip-cert-verify: true
+  tls: true
+- name: "\u7F8E\u56FD-003 |1.5MB/s|TK-US|YT-US|GPT\u207A-US|GM-US"
   type: http
   server: 209.148.53.153
   port: 8090
   skip-cert-verify: true
   tls: true
-- name: "\u7F8E\u56FD-003 |1.0MB/s|TK-US|GPT\u207A-US"
+- name: "\u7F8E\u56FD-004 |1.0MB/s|TK-US|GPT\u207A-US"
   type: http
   server: 138.199.35.198
   port: 9002
-  skip-cert-verify: true
-  tls: true
-- name: "\u7F8E\u56FD-004 |3.2MB/s|TK-US|YT-US|GPT\u207A-US|GM-US"
-  type: http
-  server: 38.28.193.188
-  port: 443
   skip-cert-verify: true
   tls: true
 - name: "\u8377\u5170-001 |2.1MB/s|TK-NL|GPT\u207A-NL|GM-NL"
@@ -246,14 +269,14 @@ proxies:
   udp: true
   skip-cert-verify: true
 - name: "\u8BF4\u660E-\u6E05\u6D17\u7ED3\u679C: \u6E05\u7406 0 \u4E2A\u8282\u70B9\u3001\
-    \u4FEE\u590D 0 \u5904\u5F15\u7528\u3001\u8F6C\u8BD1 118 \u4E2A\u5B57\u7B26"
+    \u4FEE\u590D 0 \u5904\u5F15\u7528\u3001\u8F6C\u8BD1 122 \u4E2A\u5B57\u7B26"
   type: trojan
   server: 127.0.0.1
   port: 443
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-11-13 00:37 (CST)"
+- name: "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-11-13 08:55 (CST)"
   type: trojan
   server: 127.0.0.1
   port: 443
@@ -280,7 +303,7 @@ proxy-groups:
   proxies:
   - "\u8BF4\u660E-\u6765\u6E90: anaer.github.io/Sub"
   - "\u8BF4\u660E-\u6E05\u6D17\u7ED3\u679C: \u6E05\u7406 0 \u4E2A\u8282\u70B9\u3001\
-    \u4FEE\u590D 0 \u5904\u5F15\u7528\u3001\u8F6C\u8BD1 118 \u4E2A\u5B57\u7B26"
-  - "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-11-13 00:37 (CST)"
+    \u4FEE\u590D 0 \u5904\u5F15\u7528\u3001\u8F6C\u8BD1 122 \u4E2A\u5B57\u7B26"
+  - "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-11-13 08:55 (CST)"
   - "\u8BF4\u660E-\u4F5C\u8005: wzmwayne"
   - "\u8BF4\u660E-\u4ED3\u5E93: https://github.com/wzmwayne/proxy-node"
