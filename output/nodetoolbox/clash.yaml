@@ -3,175 +3,137 @@ allow-lan: false
 mode: rule
 log-level: info
 proxies:
-- type: vmess
-  server: 47.244.120.197
-  port: 23026
-  uuid: b9de1bc9-baa7-41ac-86f7-ccd59695cb21
-  alterId: 0
-  cipher: auto
-  udp: true
-  network: ws
-  ws-opts:
-    path: /arki
-    headers:
-      Host: 47.244.120.197
-  name: "8\u5143\u8001\u724C\u4E13\u7EBF\u673A\u573A\uFF1Acczzuu.top"
-- type: ss
-  server: 154.36.158.197
-  port: 8388
-  cipher: aes-256-gcm
-  password: BeaUf9c0AEWH40Pu
-  udp: true
-  name: "\u65E5\u672C_67947D"
 - type: vless
-  server: gemsubbgem.world
+  server: 2.26.251.236
   port: 443
   udp: true
-  uuid: 50a87e21-f0e2-4b53-a787-91adfe748f63
+  uuid: c16e8cdb-65dd-4049-bc65-14c051b8a6c6
   tls: true
-  servername: gemsubbgem.world
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 6PJlXT9xrgJP8RXfhpWDMKPh4eqGt_IZmenc_a6v0gg
-    short-id: ''
-  flow: xtls-rprx-vision
-  name: "\u7F8E\u56FD_F3A25F"
-- type: vless
-  server: 79.182.39.131
-  port: 443
-  udp: true
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-  tls: true
-  servername: 717252g.nl8.h1clayd.click
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: PD8Jdlg3xB9QY--jwQjp8PFPzCS8-Oryw6-HWBcHMFU
-    short-id: "d3bd772514c87d28"
-  network: grpc
-  grpc-opts:
-    grpc-service-name: "204adda7e3da"
-  name: "\u4FC4\u7F57\u65AF_8F46DE"
-- type: vless
-  server: 196.196.149.80
-  port: 443
-  udp: true
-  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-  tls: true
-  servername: 7aa271t.es1.h1clayd.click
+  servername: mental-deprivation.ru
   client-fingerprint: firefox
   reality-opts:
-    public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
-    short-id: "42426c882c5fcd41"
+    public-key: 1iVMMhJZgXHRY7tRlR-1kypF0YeaBcB7EjcfHRsYZX4
+    short-id: "4ff31b18d1bd8227"
   flow: xtls-rprx-vision
-  name: "\u897F\u73ED\u7259_CA5D27"
+  name: "8\u5143\u8001\u724C\u4E13\u7EBF\u673A\u573A\uFF1Acczzuu.top"
 - type: ss
   server: 202.50.253.54
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-  name: "\u610F\u5927\u5229_96F5F7"
+  name: "\u610F\u5927\u5229_B7D22D"
 - type: ss
-  server: 202.50.253.45
-  port: 19999
+  server: 154.36.158.197
+  port: 8388
   cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  password: BeaUf9c0AEWH40Pu
   udp: true
-  name: "\u610F\u5927\u5229_AFA412"
-- type: ss
-  server: 202.50.253.63
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-  name: "\u610F\u5927\u5229_6C427B"
+  name: "\u65E5\u672C_77EEA2"
 - type: vless
-  server: 201.51.11.65
+  server: 196.196.149.80
   port: 443
   udp: true
-  uuid: 1e2b9c0c-4f9b-56f5-a062-1c4f2d2aa200
+  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
   tls: true
-  servername: absolute-disaster.org
-  client-fingerprint: chrome
+  servername: b3cd32g.es1.h1clayd.click
+  client-fingerprint: firefox
   reality-opts:
-    public-key: GiDgVRVYrTkv1mZJeFVWkr736Iey2kqLM6L0eUbffV8
-    short-id: ''
-  flow: xtls-rprx-vision
-  name: "\u8377\u5170_3CDA4A"
-- type: ss
-  server: 202.50.253.18
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-  name: "\u610F\u5927\u5229_4825FE"
-- type: vless
-  server: 9.247.174.134
-  port: 8443
-  udp: true
-  uuid: 585a421d-d782-4420-912e-dd58ff5966d7
-  tls: true
-  servername: play.googleapis.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 7jPluypHwPilf_Mq7JOY96SwKkbK35WuIlN1HwGQ_0A
-    short-id: "974f7f8f"
-  name: "\u897F\u73ED\u7259_D32CCC"
-- type: ss
-  server: 202.50.253.72
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-  name: "\u610F\u5927\u5229_D66CB6"
-- type: ss
-  server: 202.50.253.90
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-  name: "\u610F\u5927\u5229_4D8BCC"
+    public-key: 7efBhLzPwoTtEC1GlukCdiTllobUfa2_XuAKNSLJx30
+    short-id: "e7cffac9f8cfb434"
+  network: grpc
+  grpc-opts:
+    grpc-service-name: ''
+  name: "\u897F\u73ED\u7259_9ED6E6"
 - type: ss
   server: 202.50.253.36
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-  name: "\u610F\u5927\u5229_C584B4"
-- type: ss
-  server: 202.50.253.99
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  name: "\u610F\u5927\u5229_906656"
+- type: vless
+  server: 72.56.38.83
+  port: 443
   udp: true
-  name: "\u610F\u5927\u5229_B64B23"
-- type: ss
-  server: 202.50.253.27
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-  name: "\u610F\u5927\u5229_929516"
+  uuid: Fluffy_VPN-zKZUa4Ie
+  tls: true
+  servername: absolute-disaster.org
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: ZzIetLcQtENjIXQ9XZqFo8p3J81p8Emj0wi51Uy07n8
+    short-id: ''
+  flow: xtls-rprx-vision
+  name: "\u8377\u5170_40DBA7"
 - type: ss
   server: 202.50.253.81
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-  name: "\u610F\u5927\u5229_3BAD2A"
+  name: "\u610F\u5927\u5229_9CDD82"
+- type: ss
+  server: 202.50.253.99
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+  name: "\u610F\u5927\u5229_0CD6EC"
+- type: ss
+  server: 202.50.253.63
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+  name: "\u610F\u5927\u5229_49A41E"
+- type: ss
+  server: 202.50.253.18
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+  name: "\u610F\u5927\u5229_1C4EFC"
+- type: ss
+  server: 202.50.253.72
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+  name: "\u610F\u5927\u5229_047A32"
 - type: vless
-  server: 192.177.26.55
+  server: 178.214.125.1
   port: 443
   udp: true
-  uuid: 7ad63b26-bf70-4872-8fab-ebaf73a1e19d
+  uuid: 3f3160a0-747d-4fed-bf3d-4d884bfa964d
   tls: true
-  servername: repo-16.topp-con.xyz
-  client-fingerprint: chrome
+  servername: conf.emaar.ru
+  client-fingerprint: edge
   reality-opts:
-    public-key: cC6kqzQ1mdCXyPey8xRXS7TQ1S4kF3nJW-h1ItJ4SH8
-    short-id: "bdaddda4cbc8c7bf"
+    public-key: ZxCwJxbsZWJYYCPzeWj7_fxJMVhwh4XGfpvjmEIQjHY
+    short-id: "6172ba9cffe9c22f"
   flow: xtls-rprx-vision
-  name: "\u7F8E\u56FD_12189C"
+  name: "\u82AC\u5170_C5DEA8"
+- type: ss
+  server: 202.50.253.90
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+  name: "\u610F\u5927\u5229_5CD7F1"
+- type: ss
+  server: 202.50.253.45
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+  name: "\u610F\u5927\u5229_696C5A"
+- type: ss
+  server: 202.50.253.27
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+  name: "\u610F\u5927\u5229_00C1C7"
 - name: "\u8BF4\u660E-\u6765\u6E90: NodeToolBox"
   type: trojan
   server: 127.0.0.1
@@ -180,14 +142,14 @@ proxies:
   udp: true
   skip-cert-verify: true
 - name: "\u8BF4\u660E-\u6E05\u6D17\u7ED3\u679C: \u6E05\u7406 0 \u4E2A\u8282\u70B9\u3001\
-    \u4FEE\u590D 0 \u5904\u5F15\u7528\u3001\u8F6C\u8BD1 118 \u4E2A\u5B57\u7B26"
+    \u4FEE\u590D 0 \u5904\u5F15\u7528\u3001\u8F6C\u8BD1 102 \u4E2A\u5B57\u7B26"
   type: trojan
   server: 127.0.0.1
   port: 443
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-11-13 19:55 (CST)"
+- name: "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-11-14 03:17 (CST)"
   type: trojan
   server: 127.0.0.1
   port: 443
@@ -214,30 +176,27 @@ proxy-groups:
   proxies:
   - "\u8BF4\u660E-\u6765\u6E90: NodeToolBox"
   - "\u8BF4\u660E-\u6E05\u6D17\u7ED3\u679C: \u6E05\u7406 0 \u4E2A\u8282\u70B9\u3001\
-    \u4FEE\u590D 0 \u5904\u5F15\u7528\u3001\u8F6C\u8BD1 118 \u4E2A\u5B57\u7B26"
-  - "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-11-13 19:55 (CST)"
+    \u4FEE\u590D 0 \u5904\u5F15\u7528\u3001\u8F6C\u8BD1 102 \u4E2A\u5B57\u7B26"
+  - "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-11-14 03:17 (CST)"
   - "\u8BF4\u660E-\u4F5C\u8005: wzmwayne"
   - "\u8BF4\u660E-\u4ED3\u5E93: https://github.com/wzmwayne/proxy-node"
 - name: "\u8282\u70B9\u9009\u62E9"
   type: select
   proxies:
   - "8\u5143\u8001\u724C\u4E13\u7EBF\u673A\u573A\uFF1Acczzuu.top"
-  - "\u65E5\u672C_67947D"
-  - "\u7F8E\u56FD_F3A25F"
-  - "\u4FC4\u7F57\u65AF_8F46DE"
-  - "\u897F\u73ED\u7259_CA5D27"
-  - "\u610F\u5927\u5229_96F5F7"
-  - "\u610F\u5927\u5229_AFA412"
-  - "\u610F\u5927\u5229_6C427B"
-  - "\u8377\u5170_3CDA4A"
-  - "\u610F\u5927\u5229_4825FE"
-  - "\u897F\u73ED\u7259_D32CCC"
-  - "\u610F\u5927\u5229_D66CB6"
-  - "\u610F\u5927\u5229_4D8BCC"
-  - "\u610F\u5927\u5229_C584B4"
-  - "\u610F\u5927\u5229_B64B23"
-  - "\u610F\u5927\u5229_929516"
-  - "\u610F\u5927\u5229_3BAD2A"
-  - "\u7F8E\u56FD_12189C"
+  - "\u610F\u5927\u5229_B7D22D"
+  - "\u65E5\u672C_77EEA2"
+  - "\u897F\u73ED\u7259_9ED6E6"
+  - "\u610F\u5927\u5229_906656"
+  - "\u8377\u5170_40DBA7"
+  - "\u610F\u5927\u5229_9CDD82"
+  - "\u610F\u5927\u5229_0CD6EC"
+  - "\u610F\u5927\u5229_49A41E"
+  - "\u610F\u5927\u5229_1C4EFC"
+  - "\u610F\u5927\u5229_047A32"
+  - "\u82AC\u5170_C5DEA8"
+  - "\u610F\u5927\u5229_5CD7F1"
+  - "\u610F\u5927\u5229_696C5A"
+  - "\u610F\u5927\u5229_00C1C7"
 rules:
 - "MATCH,\u8282\u70B9\u9009\u62E9"
