@@ -1,4 +1,15 @@
 proxies:
+- name: "\u4F0A\u6717-001"
+  type: vless
+  network: tcp
+  uuid: 667016ca-f02e-4b5f-bfc3-3d8ed81e9bec
+  server: 194.60.228.97
+  servername: base.hosamobenl.co.uk
+  port: 443
+  tls: true
+  ws-opts:
+    path: /
+  client-fingerprint: chrome
 - name: "\u5176\u4ED6-001"
   type: vless
   network: tcp
@@ -25,7 +36,23 @@ proxies:
     host: dmbdnpctq8hjxx.hat.onl
     mode: auto
     path: /hls/014373eq/seg
-- name: "\u5FB7\u56FD-001 |1.6MB/s"
+- name: "\u5FB7\u56FD-001"
+  type: vless
+  network: ws
+  uuid: 313b84fa-b922-500f-9b65-acb67c040cc0
+  server: 185.197.193.137
+  servername: us2.v2less.site
+  port: 443
+  skip-cert-verify: false
+  tls: true
+  udp: true
+  tfo: false
+  ws-opts:
+    headers:
+      Host: us2.v2less.site
+    path: /vless
+  client-fingerprint: chrome
+- name: "\u5FB7\u56FD-002 |1.6MB/s"
   type: hysteria
   server: 5.83.129.90
   port: 54177
@@ -39,20 +66,6 @@ proxies:
   down: 1000
   protocol: udp
   up: 500
-- name: "\u5FB7\u56FD-002 |594KB/s"
-  type: hysteria
-  server: 5.83.129.153
-  port: 20088
-  skip-cert-verify: true
-  udp: true
-  sni: apple.com
-  alpn:
-  - h3
-  protocol: udp
-  auth-str: dongtaiwang.com
-  up: 500
-  down: 1000
-  auth_str: dongtaiwang.com
 - name: "\u6CE2\u5170-001"
   type: vless
   network: grpc
@@ -213,12 +226,21 @@ proxies:
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: "\u7F8E\u56FD-001 |3.3MB/s|TK-US|YT-US|GPT\u207A-US|GM-US"
-  type: http
-  server: 138.199.35.215
-  port: 9002
+- name: "\u7F8E\u56FD-001"
+  type: vmess
+  network: ws
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  server: 192.74.236.148
+  port: 30004
   skip-cert-verify: true
   tls: true
+  udp: true
+  alterId: 64
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: www.91334565.xyz
+    path: /path/1733477783705
 - name: "\u7F8E\u56FD-002 |3.2MB/s|TK-US|YT-US|GPT\u207A-US|GM-US"
   type: http
   server: 38.28.193.188
@@ -231,7 +253,13 @@ proxies:
   port: 8090
   skip-cert-verify: true
   tls: true
-- name: "\u7F8E\u56FD-004 |1.0MB/s|TK-US|GPT\u207A-US"
+- name: "\u7F8E\u56FD-004 |3.3MB/s|TK-US|YT-US|GPT\u207A-US|GM-US"
+  type: http
+  server: 138.199.35.215
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+- name: "\u7F8E\u56FD-005 |1.0MB/s|TK-US|GPT\u207A-US"
   type: http
   server: 138.199.35.198
   port: 9002
@@ -243,16 +271,16 @@ proxies:
   port: 9002
   skip-cert-verify: true
   tls: true
-- name: "\u8377\u5170-002 |1.8MB/s|TK-NL|GPT\u207A-NL"
-  type: http
-  server: 51.159.225.196
-  port: 23856
-  skip-cert-verify: true
-  tls: true
-- name: "\u8377\u5170-003 |1.8MB/s|TK-NL|GPT\u207A-NL|GM-NL"
+- name: "\u8377\u5170-002 |1.8MB/s|TK-NL|GPT\u207A-NL|GM-NL"
   type: http
   server: 5.255.118.82
   port: 443
+  skip-cert-verify: true
+  tls: true
+- name: "\u8377\u5170-003 |1.8MB/s|TK-NL|GPT\u207A-NL"
+  type: http
+  server: 51.159.225.196
+  port: 23856
   skip-cert-verify: true
   tls: true
 - name: "\u8377\u5170-004 |1.6MB/s|TK-NL|GPT\u207A-NL|GM-NL"
@@ -269,14 +297,14 @@ proxies:
   udp: true
   skip-cert-verify: true
 - name: "\u8BF4\u660E-\u6E05\u6D17\u7ED3\u679C: \u6E05\u7406 0 \u4E2A\u8282\u70B9\u3001\
-    \u4FEE\u590D 0 \u5904\u5F15\u7528\u3001\u8F6C\u8BD1 122 \u4E2A\u5B57\u7B26"
+    \u4FEE\u590D 0 \u5904\u5F15\u7528\u3001\u8F6C\u8BD1 126 \u4E2A\u5B57\u7B26"
   type: trojan
   server: 127.0.0.1
   port: 443
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-11-17 20:50 (CST)"
+- name: "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-11-18 07:22 (CST)"
   type: trojan
   server: 127.0.0.1
   port: 443
@@ -303,7 +331,7 @@ proxy-groups:
   proxies:
   - "\u8BF4\u660E-\u6765\u6E90: anaer.github.io/Sub"
   - "\u8BF4\u660E-\u6E05\u6D17\u7ED3\u679C: \u6E05\u7406 0 \u4E2A\u8282\u70B9\u3001\
-    \u4FEE\u590D 0 \u5904\u5F15\u7528\u3001\u8F6C\u8BD1 122 \u4E2A\u5B57\u7B26"
-  - "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-11-17 20:50 (CST)"
+    \u4FEE\u590D 0 \u5904\u5F15\u7528\u3001\u8F6C\u8BD1 126 \u4E2A\u5B57\u7B26"
+  - "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-11-18 07:22 (CST)"
   - "\u8BF4\u660E-\u4F5C\u8005: wzmwayne"
   - "\u8BF4\u660E-\u4ED3\u5E93: https://github.com/wzmwayne/proxy-node"
