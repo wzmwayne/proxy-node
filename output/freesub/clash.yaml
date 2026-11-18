@@ -2,94 +2,130 @@ allow-lan: false
 mixed-port: 7890
 mode: rule
 proxies:
-- name: "A\U0001F7E2\U0001F1F5\U0001F1EDres[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_97fafe0f"
-  password: 6e4ceae4-6d81-4d87-9802-759ea5c244e5
-  port: 59005
-  server: control-shared.78778m.cn
+- name: "D\U0001F534\U0001F1F0\U0001F1F7hos[\U0001F52E\U0001F3B5\U0001F4DA]_dokng.com_f7be86c8"
+  password: ''
+  port: 1090
+  server: 121.169.46.116
   skip-cert-verify: true
-  sni: iosapps.itunes.apple.com
-  type: trojan
-  udp: true
+  type: socks5
+  username: ''
   x-toolall-mihomo: true
-- name: "C\U0001F7E0\U0001F1EF\U0001F1F5hos[\U0001F916\U0001F4AC\U0001F9E9\U0001F3AD\
-    ]_dokng.com_55f04018"
-  password: 6e4ceae4-6d81-4d87-9802-759ea5c244e5
-  port: 54226
-  server: control-jp02.78778m.cn
-  skip-cert-verify: true
-  sni: www.apple.com.cn
-  type: trojan
-  udp: true
-  x-toolall-mihomo: true
-- cipher: aes-256-gcm
-  name: "C\U0001F7E0\U0001F1E9\U0001F1EAhos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_e6782845"
-  password: itzvpn@321
-  port: 8388
-  server: 145.79.177.201
-  type: ss
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: "U\u26AA\U0001F3F3\uFE0Fukn[\u2708\uFE0F]_dokng.com_ad6105c9"
-  network: tcp
+- alpn:
+  - h2
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: mobile.api.Event
+  name: "C\U0001F7E0\U0001F1F7\U0001F1FAhos[\U0001F52E\U0001F3AE\u2708\uFE0F\U0001F50D\
+    ]_dokng.com_6aa562cc"
+  network: grpc
+  packet-encoding: xudp
   port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: edge.bookmai.com
-  servername: mother-earth.fyi
-  skip-cert-verify: true
-  tfo: false
+  server: vps3.nemnogogo.com
+  servername: vps3.nemnogogo.com
   tls: true
   type: vless
-  udp: true
-  uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
+  uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
   x-toolall-mihomo: true
-- client-fingerprint: firefox
-  name: "C\U0001F7E0\U0001F1F8\U0001F1EAhos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_4b500dbb"
-  port: 443
-  reality-opts:
-    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
-    short-id: "a7c92e4b10d6f835"
-  server: 88.216.214.159
-  servername: api-svc-mgr.galioncc.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: a30903dc-1bf0-4be5-8b1b-603a3a56211c
-  x-toolall-mihomo: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: "U\u26AA\U0001F3F3\uFE0Fukn[\u2708\uFE0F]_dokng.com_96102a68"
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 163.245.42.87
-  servername: mother-earth.fyi
-  tls: true
-  type: vless
-  uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
-  x-toolall-mihomo: true
-- name: "D\U0001F534\U0001F1E9\U0001F1EAhos[\U0001F916\U0001F4AC\U0001F9E9\U0001F3B5\
-    ]_dokng.com_0ed63a74"
+- name: "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
+    ]_dokng.com_9986f45d"
   port: 9002
-  server: 158.173.154.5
+  server: 84.17.47.148
+  skip-cert-verify: true
+  sni: 84.17.47.148
+  tls: true
+  type: http
+- name: "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F3B5\
+    ]_dokng.com_33ffe908"
+  password: "null"
+  port: 9002
+  server: 84.17.47.146
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: "null"
+- name: "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F4E6\
+    ]_dokng.com_47dbdd00"
+  password: "null"
+  port: 9002
+  server: 84.17.47.147
+  skip-cert-verify: true
+  sni: 84.17.47.147
+  tls: true
+  type: http
+  username: "null"
+- name: "D\U0001F534\U0001F1EE\U0001F1EAhos[\U0001F916\U0001F4AC\U0001F3AE\u2708\uFE0F\
+    ]_dokng.com_37e4a848"
+  port: 443
+  server: 34.249.214.108
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
   x-toolall-mihomo: true
-- name: "D\U0001F534\U0001F1F8\U0001F1EChos_dokng.com_731ac5ff"
-  password: "8888"
-  port: 1080
-  server: 47.236.168.243
+- name: "D\U0001F534\U0001F1EB\U0001F1F7hos[\U0001F4FA]_dokng.com_238d1eea"
+  password: Zn5mR7vA
+  port: 42000
+  server: 144.56.22.78
   type: socks5
-  username: "8888"
+  username: L8wP3kQx
+- name: "D\U0001F534\U0001F1E6\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
+    ]_dokng.com_8408eb8a"
+  port: 443
+  server: 146.70.244.2
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F3B5\
+    ]_dokng.com_f6303636"
+  password: None
+  port: 9002
+  server: 84.17.47.148
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- alpn:
+  - h2
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: mobile.api.Event
+  name: "C\U0001F7E0\U0001F1F7\U0001F1FAhos[\U0001F52E\U0001F3AE\u2708\uFE0F\U0001F50D\
+    ]_dokng.com_79432583"
+  network: grpc
+  port: 443
+  server: 201.51.12.98
+  servername: vps3.nemnogogo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
+  x-toolall-mihomo: true
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: mobile.api.Event
+  name: "C\U0001F7E0\U0001F1F7\U0001F1FAhos[\U0001F52E\U0001F3AE\U0001F50D]_dokng.com_84ca1557"
+  network: grpc
+  port: 443
+  server: 201.24.116.192
+  servername: vps3.nemnogogo.com
+  tls: true
+  type: vless
+  uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
+  x-toolall-mihomo: true
+- name: "D\U0001F534\U0001F1EF\U0001F1F5hos_dokng.com_4900a88a"
+  password: EGJDy5Kg
+  port: 42000
+  server: 103.248.150.50
+  type: socks5
+  username: paZFN3JA
 - alpn:
   - http/1.1
-  name: "D\U0001F534\U0001F1F8\U0001F1EAhos[\U0001F916\U0001F4AC\U0001F52E\U0001F3B5\
+  name: "D\U0001F534\U0001F1F8\U0001F1EAhos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
     ]_dokng.com_180c9335"
   network: ws
   port: 443
@@ -102,331 +138,83 @@ proxies:
     headers:
       host: subgift.gcorecdn.com
     path: /t.me-SubGift
-- name: "A\U0001F7E2\U0001F1EB\U0001F1F7res[\U0001F916\U0001F4AC\U0001F9E9\U0001F4FA\
-    ]_dokng.com_76a5a58b"
+- cipher: aes-256-gcm
+  name: "C\U0001F7E0\U0001F1EE\U0001F1F9hos[\U0001F4FA]_dokng.com_c9cdfff6"
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.27
+  type: ss
+  udp: true
+  x-toolall-mihomo: true
+- name: "C\U0001F7E0\U0001F1E9\U0001F1EAhos[\U0001F916\U0001F4AC\U0001F9E9\U0001F4FA\
+    ]_dokng.com_fc3b3a41"
   password: None
-  port: 9443
-  server: 138.199.47.247
+  port: 443
+  server: 149.36.50.1
   skip-cert-verify: true
   sub_tag: P002-260618
   tls: true
   type: http
   udp: true
   x-toolall-mihomo: true
-- name: "C\U0001F7E0\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F4AC\U0001F9E9\U0001F3AD\
-    ]_dokng.com_0510e64e"
-  password: 6e4ceae4-6d81-4d87-9802-759ea5c244e5
-  port: 56115
-  server: control-us01.78778m.cn
-  skip-cert-verify: true
-  sni: iosapps.itunes.apple.com
-  type: trojan
+- name: "D\U0001F534\U0001F1F5\U0001F1EDhos_dokng.com_19b515e6"
+  password: s6a1j38q
+  port: 42000
+  server: 103.18.230.88
+  type: socks5
+  username: uv4oakg5
+- name: "A\U0001F7E2\U0001F1FB\U0001F1F3res_dokng.com_11eacb89"
+  password: jHsK2gqs
+  port: 62000
+  server: 103.184.113.190
+  type: socks5
+  username: qT46DZLv
+- cipher: aes-256-gcm
+  name: "D\U0001F534\U0001F1EE\U0001F1F9hos[\U0001F4FA]_dokng.com_8c1c6b5a"
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.81
+  skip-cert-verify: false
+  tls: false
+  type: ss
   udp: true
   x-toolall-mihomo: true
-- name: "D\U0001F534\U0001F1EB\U0001F1F7hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_262bcecb"
-  password: "null"
-  port: 6103
-  server: 87.98.174.157
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  username: "null"
-  x-toolall-mihomo: true
-- name: "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F916\U0001F4AC\U0001F9E9\U0001F3AD\
-    ]_dokng.com_b3396cd6"
-  password: 6e4ceae4-6d81-4d87-9802-759ea5c244e5
-  port: 54258
-  server: ptxlv6-02.78778m.cn
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: trojan
-  udp: true
-  x-toolall-mihomo: true
-- name: "D\U0001F534\U0001F1EE\U0001F1EAhos[\U0001F4FA\U0001F3B5]_dokng.com_e2bb935e"
-  port: 443
-  server: 149.88.96.1
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- alterId: 0
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos_dokng.com_a6052a43"
+  password: l1tlrdx52v
+  port: 62000
+  server: 66.253.2.69
+  type: socks5
+  username: u_rb1dba2
+- alterId: 64
   cipher: auto
   country: "\U0001F1FA\U0001F1F8US"
   h2-opts: {}
   http-opts: {}
-  name: "U\u26AA\U0001F3F3\uFE0Fukn_dokng.com_31571c1e"
+  name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
+    ]_dokng.com_0cb09444"
   network: ws
-  port: 443
-  server: 172.67.190.164
-  servername: guanwang.awsno.com
+  port: 30004
+  server: 192.74.236.148
+  servername: www.91334565.xyz
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      HOST: guanwang.awsno.com
-    path: /hls/cctv5phd.m3u8
+      HOST: www.91334565.xyz
+    path: /path/1733477783705
   x-toolall-mihomo: true
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_05011d06"
-  port: 443
-  server: 172.64.68.89
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: "D\U0001F534\U0001F1EB\U0001F1F7hos[\U0001F4FA\U0001F3AD\U0001F3B5]_dokng.com_9f8b9b65"
-  port: 9443
-  server: 213.139.9.142
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: "C\U0001F7E0\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F9E9\U0001F4FA\
-    ]_dokng.com_3744e5a8"
+- name: "D\U0001F534\U0001F1E8\U0001F1FFhos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
+    ]_dokng.com_654d560d"
   password: ''
   port: 443
-  server: 149.36.51.129
+  server: 185.216.35.66
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
   username: ''
-  x-toolall-mihomo: true
-- name: "D\U0001F534\U0001F1F5\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_78351b27"
-  port: 443
-  server: 37.120.156.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: firefox
-  name: "C\U0001F7E0\U0001F1F8\U0001F1EAhos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_aa5218c2"
-  port: 443
-  reality-opts:
-    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
-    short-id: "a7c92e4b10d6f835"
-  server: 88.216.60.73
-  servername: ns-api-gw.galioncc.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: a30903dc-1bf0-4be5-8b1b-603a3a56211c
-  x-toolall-mihomo: true
-- client-fingerprint: firefox
-  name: "A\U0001F7E2\U0001F1F5\U0001F1F1res[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_3814084d"
-  port: 443
-  reality-opts:
-    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
-    short-id: "a7c92e4b10d6f835"
-  server: 80.47.10.106
-  servername: pl8.galioncc.com
-  skip-cert-verify: false
-  sni: pl8.galioncc.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: a30903dc-1bf0-4be5-8b1b-603a3a56211c
-  x-toolall-mihomo: true
-- name: "D\U0001F534\U0001F1F9\U0001F1EDhos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_8da68037"
-  password: 6e4ceae4-6d81-4d87-9802-759ea5c244e5
-  port: 59224
-  server: control-shared.78778m.cn
-  skip-cert-verify: true
-  sni: iosapps.itunes.apple.com
-  type: trojan
-  udp: true
-  x-toolall-mihomo: true
-- client-fingerprint: ios
-  name: "C\U0001F7E0\U0001F1F8\U0001F1EAhos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_53c913e6"
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
-    short-id: "a7c92e4b10d6f835"
-  server: 88.216.60.73
-  servername: ns-api-gw.galioncc.com
-  tls: true
-  type: vless
-  uuid: a30903dc-1bf0-4be5-8b1b-603a3a56211c
-  x-toolall-mihomo: true
-- name: "D\U0001F534\U0001F1F1\U0001F1FBhos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_a0b4e075"
-  port: 443
-  server: 185.219.159.15
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_86fd6822"
-  port: 9002
-  server: 84.17.47.125
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: "D\U0001F534\U0001F1EB\U0001F1F7hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_c3325e1b"
-  password: None
-  port: 443
-  server: 82.66.235.221
-  skip-cert-verify: true
-  sub_tag: K001-260618
-  tls: true
-  type: http
-  udp: true
-  username: ''
-  x-toolall-mihomo: true
-- name: "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_e6da0f6d"
-  password: "null"
-  port: 23856
-  server: 51.159.225.196
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: "null"
-  x-toolall-mihomo: true
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: grpc
-  name: "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_fb4e77e4"
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
-    short-id: "344f83372596eea2"
-  server: 92.255.58.59
-  servername: api-gw-cfg.galioncc.com
-  tls: true
-  type: vless
-  uuid: a30903dc-1bf0-0001-8b1b-603a3a56211c
-  x-toolall-mihomo: true
-- name: "D\U0001F534\U0001F1F1\U0001F1FBhos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_21c34602"
-  password: None
-  port: 443
-  server: 185.219.159.16
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: "D\U0001F534\U0001F1E9\U0001F1F0hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_1ed30155"
-  port: 9443
-  server: 185.245.84.50
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: "A\U0001F7E2\U0001F1F0\U0001F1FFres[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_b5a90094"
-  password: 6e4ceae4-6d81-4d87-9802-759ea5c244e5
-  port: 59126
-  server: control-shared.78778m.cn
-  skip-cert-verify: true
-  sni: iosapps.itunes.apple.com
-  type: trojan
-  udp: true
-  x-toolall-mihomo: true
-- name: "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F4FA\
-    ]_dokng.com_f03b1640"
-  port: 9002
-  server: 84.17.47.124
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- client-fingerprint: firefox
-  name: "C\U0001F7E0\U0001F1F8\U0001F1EAhos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_bfe9f443"
-  port: 443
-  reality-opts:
-    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
-    short-id: "a7c92e4b10d6f835"
-  server: 88.216.60.73
-  servername: ns-api-gw.galioncc.com
-  skip-cert-verify: true
-  sni: ns-api-gw.galioncc.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: a30903dc-1bf0-4be5-8b1b-603a3a56211c
-  x-toolall-mihomo: true
-- name: "A\U0001F7E2\U0001F1F8\U0001F1E6res[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_e6d3af00"
-  password: 6e4ceae4-6d81-4d87-9802-759ea5c244e5
-  port: 59044
-  server: control-shared.78778m.cn
-  skip-cert-verify: true
-  sni: iosapps.itunes.apple.com
-  type: trojan
-  udp: true
-  x-toolall-mihomo: true
-- name: "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_eaf068c9"
-  port: 23856
-  server: 51.159.225.196
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_8df65cc3"
-  port: 443
-  server: 172.64.68.89
-  skip-cert-verify: true
-  sni: 172.64.68.89
-  tls: true
-  type: http
-- name: "D\U0001F534\U0001F1E9\U0001F1EAhos[\U0001F916\U0001F4AC\U0001F9E9\U0001F3B5\
-    ]_dokng.com_f53c6917"
-  port: 9002
-  server: 158.173.154.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: "D\U0001F534\U0001F1E9\U0001F1EAhos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_92e8593b"
-  port: 443
-  server: 213.109.163.119
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_f6303636"
-  password: None
-  port: 9002
-  server: 84.17.47.148
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
   x-toolall-mihomo: true
 - alterId: 64
   cipher: auto
@@ -445,406 +233,69 @@ proxies:
       Host: www.91334565.xyz
     path: /path/1733477783705
   x-toolall-mihomo: true
-- name: "C\U0001F7E0\U0001F1E8\U0001F1E6hos[\U0001F916\U0001F4AC\U0001F9E9\U0001F3B5\
-    ]_dokng.com_00bc9137"
-  password: 6e4ceae4-6d81-4d87-9802-759ea5c244e5
-  port: 59025
-  server: control-shared.78778m.cn
-  skip-cert-verify: true
-  sni: iosapps.itunes.apple.com
-  type: trojan
+- cipher: aes-256-gcm
+  name: "C\U0001F7E0\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F52E\U0001F3B5\U0001F3AE\
+    ]_dokng.com_e4fa7507"
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.45
+  type: ss
   udp: true
   x-toolall-mihomo: true
-- client-fingerprint: ios
-  name: "U\u26AA\U0001F1F8\U0001F1EAukn[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_e84afe32"
-  port: 443
-  reality-opts:
-    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
-    short-id: "a7c92e4b10d6f835"
-  server: 88.216.60.73
-  servername: ns-api-gw.galioncc.com
-  skip-cert-verify: true
-  sni: ns-api-gw.galioncc.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: a30903dc-1bf0-4be5-8b1b-603a3a56211c
-  x-toolall-mihomo: true
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos_dokng.com_a6052a43"
-  password: l1tlrdx52v
-  port: 62000
-  server: 66.253.2.69
-  type: socks5
-  username: u_rb1dba2
-- name: "D\U0001F534\U0001F1E8\U0001F1FFhos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_654d560d"
-  password: ''
-  port: 443
-  server: 185.216.35.66
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-  x-toolall-mihomo: true
-- name: "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_461db3e8"
-  password: None
-  port: 9002
-  server: 84.17.47.149
-  skip-cert-verify: true
-  tls: true
-  type: http
+- cipher: aes-256-gcm
+  name: "D\U0001F534\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F3AE\
+    ]_dokng.com_e690e14e"
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.72
+  type: ss
   udp: true
   x-toolall-mihomo: true
-- name: "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_5a16ef58"
-  password: None
-  port: 9002
-  server: 84.17.47.123
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_33ffe908"
-  password: "null"
-  port: 9002
-  server: 84.17.47.146
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: "null"
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_4cc7e454"
-  password: ''
-  port: 9443
-  server: 38.95.111.226
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-  x-toolall-mihomo: true
-- name: "D\U0001F534\U0001F1F3\U0001F1F4hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_573c8c9f"
-  password: 6e4ceae4-6d81-4d87-9802-759ea5c244e5
-  port: 50124
-  server: control-shared.78778m.cn
-  skip-cert-verify: true
-  sni: iosapps.itunes.apple.com
-  type: trojan
-  udp: true
-  x-toolall-mihomo: true
-- name: "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_7a217f0f"
-  password: ''
-  port: 23856
-  server: 51.159.225.196
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-  x-toolall-mihomo: true
-- name: "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_387205ed"
-  password: "null"
-  port: 9002
-  server: 84.17.47.150
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  username: "null"
-  x-toolall-mihomo: true
-- name: "C\U0001F7E0\U0001F1EC\U0001F1F7hos[\U0001F4FA\U0001F3B5]_dokng.com_8d8bfa9f"
-  password: ''
-  port: 443
-  server: 149.22.85.65
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-  x-toolall-mihomo: true
-- name: "U\u26AA\U0001F3F3\uFE0Fukn_dokng.com_83529b9e"
-  port: 443
-  server: 37.120.156.34
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: "D\U0001F534\U0001F1EB\U0001F1F7hos[\U0001F916\U0001F4AC\U0001F9E9\U0001F3B5\
-    ]_dokng.com_62c630f3"
-  password: None
-  port: 443
-  server: 84.235.228.156
-  skip-cert-verify: true
-  sub_tag: K001-260618
-  tls: true
-  type: http
-  udp: true
-  username: ''
-  x-toolall-mihomo: true
-- name: "U\u26AA\U0001F1F3\U0001F1F1ukn[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_1b492461"
-  password: freeuser1
-  port: 9251
-  server: nl205.freeconnect.link
-  sni: nl205.freeconnect.link
-  tls: true
-  type: http
-  username: freeuser1
-- name: "A\U0001F7E2\U0001F1F2\U0001F1FDres_dokng.com_24835ec5"
-  password: lcFa8dTH
-  port: 62000
-  server: 94.194.165.96
-  type: socks5
-  username: QyVdo5ks
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_d37c7415"
-  password: "null"
-  port: 443
-  server: fan.365747.xyz
-  skip-cert-verify: true
-  sni: fan.365747.xyz
-  tls: true
-  type: http
-  username: "null"
-- name: "D\U0001F534\U0001F1F7\U0001F1FAhos[\U0001F52E\U0001F419\U0001F50D\U0001F4DA\
-    ]_dokng.com_991270c1"
-  password: "null"
-  port: 443
-  server: 178.219.43.226
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  username: "null"
-  x-toolall-mihomo: true
-- name: "C\U0001F7E0\U0001F1F2\U0001F1FDhos_dokng.com_445b01af"
-  password: DJy1T0dt
-  port: 42000
-  server: 144.225.47.8
-  type: socks5
-  username: Tek2x6av
+- cipher: aes-256-gcm
+  name: "U\u26AA\U0001F3F3\uFE0Fukn[\U0001F916\U0001F52E\U0001F3B5\u2708\uFE0F]_dokng.com_7441ad35"
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.99
+  type: ss
+- cipher: aes-256-gcm
+  name: "D\U0001F534\U0001F1EE\U0001F1F9hos[\U0001F4FA\U0001F3AE\U0001F50D]_dokng.com_8ed40d75"
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.90
+  type: ss
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: "U\u26AA\U0001F3F3\uFE0Fukn[\u2708\uFE0F]_dokng.com_73523249"
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: ''
-  server: edge.bookmai.com
-  servername: mother-earth.fyi
+  name: "C\U0001F7E0\U0001F1EB\U0001F1EEhos[\U0001F916\U0001F4AC\U0001F3B5\U0001F3AE\
+    ]_dokng.com_49c7000a"
+  network: ws
+  port: 2083
+  server: 198.202.24.142
+  servername: vipfree.dr-ping.ir
   tls: true
   type: vless
-  uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
+  uuid: a6ad7987-f17e-41fa-a752-72db9a725eb2
+  ws-opts:
+    headers:
+      Host: vipfree.dr-ping.ir
+    path: /
   x-toolall-mihomo: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: "U\u26AA\U0001F3F3\uFE0Fukn[\u2708\uFE0F]_dokng.com_5deb6c23"
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: edge.bookmai.com
-  servername: mother-earth.fyi
-  tls: true
-  type: vless
-  uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
-  x-toolall-mihomo: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: "U\u26AA\U0001F1EF\U0001F1F5ukn[\U0001F916\U0001F4AC\U0001F9E9\U0001F4FA]_dokng.com_9d5e5d0d"
-  port: 43149
-  reality-opts:
-    public-key: cvong7paE8XIzzbKWgV5iUruP1pBqI2IhMuBHc8c0UE
-    short-id: "15aa0ad4"
-  server: zfapi.zalolink.com
-  servername: psstatic.cdn.bcebos.com
-  skip-cert-verify: true
-  sni: psstatic.cdn.bcebos.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  x-toolall-mihomo: true
-- name: "D\U0001F534\U0001F1E8\U0001F1FFhos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_038587d2"
-  password: 6e4ceae4-6d81-4d87-9802-759ea5c244e5
-  port: 59047
-  server: control-shared.78778m.cn
-  skip-cert-verify: true
-  sni: iosapps.itunes.apple.com
-  type: trojan
-  udp: true
-  x-toolall-mihomo: true
-- name: "A\U0001F7E2\U0001F1F2\U0001F1FDres_dokng.com_1aa34d5e"
-  password: 2j7CCZQb
-  port: 62000
-  server: 94.194.164.203
-  type: socks5
-  username: rVkkraqT
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F4FA]_dokng.com_6de72c54"
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F3B5\u2708\uFE0F\U0001F419\
+    ]_dokng.com_016d9dc7"
   password: ''
-  port: 9443
-  server: 104.244.210.50
+  port: 443
+  server: 149.88.21.129
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
   username: ''
   x-toolall-mihomo: true
-- cipher: chacha20-ietf
-  name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_6d6b41c5"
-  obfs: tls1.2_ticket_auth
-  password: dongtaiwang.com
-  port: 33336
-  protocol: auth_chain_a
-  server: ssr2.762988.xyz
-  type: ssr
-  x-toolall-mihomo: true
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F4FA]_dokng.com_568f056a"
-  port: 443
-  server: 149.34.248.65
-  skip-cert-verify: true
-  sni: 149.34.248.65
-  tls: true
-  type: http
-- name: "A\U0001F7E2\U0001F1EC\U0001F1E7res[\U0001F916\U0001F4AC\U0001F9E9\U0001F4FA\
-    ]_dokng.com_13d215ab"
-  password: None
-  port: 9443
-  server: 84.17.50.214
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: "U\u26AA\U0001F3F3\uFE0Fukn[\u2708\uFE0F]_dokng.com_cb10e9d7"
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: edge.bookmai.com
-  servername: mother-earth.fyi
-  tls: true
+- name: "C\U0001F7E0\U0001F1EF\U0001F1F5hos[\U0001F916\U0001F4AC\u2708\uFE0F\U0001F50D\
+    ]_dokng.com_e7a3bbb0"
+  port: 18454
+  server: 168.110.21.56
   type: vless
-  uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
-  x-toolall-mihomo: true
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_ffebf486"
-  password: "null"
-  port: 443
-  server: fan.365747.xyz
-  sni: fan.365747.xyz
-  tls: true
-  type: http
-  username: "null"
-- name: "D\U0001F534\U0001F1F7\U0001F1FAhos[\U0001F52E\U0001F3B5\U0001F3AE\u2708\uFE0F\
-    ]_dokng.com_03de321c"
-  port: 1446
-  server: 46.29.166.134
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_47dbdd00"
-  password: "null"
-  port: 9002
-  server: 84.17.47.147
-  skip-cert-verify: true
-  sni: 84.17.47.147
-  tls: true
-  type: http
-  username: "null"
-- name: "C\U0001F7E0\U0001F1EC\U0001F1E7hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_7c18af79"
-  password: None
-  port: 9443
-  server: 84.17.50.129
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: "D\U0001F534\U0001F1E9\U0001F1EAhos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_abbba1fa"
-  port: 443
-  server: 193.233.75.115
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: "C\U0001F7E0\U0001F1E8\U0001F1E6hos_dokng.com_8a105a38"
-  port: 9443
-  server: 198.44.142.27
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_202aca3d"
-  password: None
-  port: 9002
-  server: 193.176.84.18
-  skip-cert-verify: true
-  sub_tag: K001-260618
-  tls: true
-  type: http
-  udp: true
-  username: ''
-  x-toolall-mihomo: true
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AE]_dokng.com_343ae4aa"
-  port: 38182
-  server: 69.55.49.177
-  type: socks5
-- name: "C\U0001F7E0\U0001F1F7\U0001F1FAhos[\U0001F52E\U0001F419\U0001F50D\U0001F4DA\
-    ]_dokng.com_f0ef6c34"
-  password: 6e4ceae4-6d81-4d87-9802-759ea5c244e5
-  port: 59032
-  server: control-shared.78778m.cn
-  skip-cert-verify: true
-  sni: iosapps.itunes.apple.com
-  type: trojan
-  udp: true
-  x-toolall-mihomo: true
-- name: "D\U0001F534\U0001F1F8\U0001F1EChos_dokng.com_c8c444fd"
-  password: "c0a34a"
-  port: 62000
-  server: 66.80.2.252
-  type: socks5
-  username: usereb7d
-- name: "C\U0001F7E0\U0001F1F2\U0001F1FDhos_dokng.com_d123f47b"
-  password: sZnD8GTz
-  port: 42000
-  server: 144.225.47.68
-  sub_tag: R002-260618
-  type: socks5
-  udp: true
-  username: DJy1T0dt
-  x-toolall-mihomo: true
-- name: "C\U0001F7E0\U0001F1EC\U0001F1F7hos[\U0001F916\U0001F4AC\U0001F9E9\U0001F4FA\
-    ]_dokng.com_4cc1e630"
+  uuid: ff8fc3f9-0c1b-4a6f-97cb-ed1cde4de62d
+- name: "C\U0001F7E0\U0001F1EC\U0001F1F7hos[\U0001F916\U0001F4AC\U0001F3B5]_dokng.com_4cc1e630"
   password: ''
   port: 443
   server: 149.22.85.78
@@ -854,56 +305,150 @@ proxies:
   udp: true
   username: ''
   x-toolall-mihomo: true
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "U\u26AA\U0001F3F3\uFE0Fukn_dokng.com_fa0120b9"
-  network: ws
+- name: "C\U0001F7E0\U0001F1E6\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F3B5\
+    ]_dokng.com_5c5a81ec"
+  password: None
   port: 443
-  server: 104.18.42.163
-  servername: guanwang.awsno.com
+  server: 87.120.103.242
+  skip-cert-verify: true
+  sub_tag: P002-260618
   tls: true
-  type: vmess
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  ws-opts:
-    headers:
-      Host: guanwang.awsno.com
-    path: /hls/cctv5phd.m3u8
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: "D\U0001F534\U0001F1F8\U0001F1EChos[\U0001F916\U0001F4AC\U0001F52E\U0001F3B5\
+    ]_dokng.com_185196af"
+  port: 443
+  server: 154.26.139.24
+  skip-cert-verify: true
+  tls: true
+  type: http
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  down: "55"
+  name: "D\U0001F534\U0001F1EB\U0001F1F7hos[\U0001F916\U0001F4AC\U0001F52E\U0001F3AE\
+    ]_dokng.com_a19a479b"
+  port: 24667
+  protocol: udp
+  server: 62.210.124.132
+  skip-cert-verify: true
+  type: hysteria
+  up: "11"
   x-toolall-mihomo: true
 - cipher: aes-256-gcm
-  name: "D\U0001F534\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_e7fda757"
+  name: "D\U0001F534\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F52E\U0001F3B5\U0001F3AE\
+    ]_dokng.com_444fcb7f"
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
-  server: 202.50.253.81
+  server: 202.50.253.54
+  skip-cert-verify: false
+  tls: false
   type: ss
-- name: "C\U0001F7E0\U0001F1EE\U0001F1F3hos[\U0001F916\U0001F4AC\U0001F9E9\U0001F3B5\
-    ]_dokng.com_54aa8a9f"
-  password: 6e4ceae4-6d81-4d87-9802-759ea5c244e5
-  port: 59009
-  server: control-shared.78778m.cn
-  skip-cert-verify: true
-  sni: iosapps.itunes.apple.com
-  type: trojan
   udp: true
   x-toolall-mihomo: true
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: "C\U0001F7E0\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_56da3c2d"
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA
-    short-id: "8d0d0679f42ffd98"
-  server: 196.196.148.76
-  servername: 8a2e72t.nl20.h1clayd.shop
+  name: "U\u26AA\U0001F3F3\uFE0Fukn_dokng.com_5bde06c7"
+  network: ws
+  port: 2053
+  server: 172.67.199.126
+  servername: fast.145779.xyz
   tls: true
   type: vless
-  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
+  uuid: c83f15bf-1817-4ec8-a19f-6393d226434c
+  ws-opts:
+    headers:
+      Host: fast.145779.xyz
+    path: /ws-tesla
   x-toolall-mihomo: true
+- name: "C\U0001F7E0\U0001F1EC\U0001F1F7hos[\U0001F916\U0001F4FA\U0001F3B5]_dokng.com_8d8bfa9f"
+  password: ''
+  port: 443
+  server: 149.22.85.65
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+  x-toolall-mihomo: true
+- name: "C\U0001F7E0\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F9E9\U0001F4FA\
+    ]_dokng.com_3744e5a8"
+  password: ''
+  port: 443
+  server: 149.36.51.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+  x-toolall-mihomo: true
+- cipher: chacha20-ietf
+  name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F4AC\U0001F3B5\U0001F39E\
+    \uFE0F]_dokng.com_6d6b41c5"
+  obfs: tls1.2_ticket_auth
+  password: dongtaiwang.com
+  port: 33336
+  protocol: auth_chain_a
+  server: ssr2.762988.xyz
+  type: ssr
+  x-toolall-mihomo: true
+- name: "D\U0001F534\U0001F1EF\U0001F1F5hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
+    ]_dokng.com_0f4839b8"
+  password: ''
+  port: 443
+  server: fan.571589.xyz
+  skip-cert-verify: true
+  sni: fan.571589.xyz
+  tls: true
+  type: http
+  udp: true
+  username: ''
+  x-toolall-mihomo: true
+- name: "A\U0001F7E2\U0001F1F9\U0001F1EDres[\U0001F916\U0001F52E\U0001F3AE\U0001F419\
+    ]_dokng.com_8be67b1a"
+  password: YlRoWvE0dL_cUqS94wPeKnA4
+  port: 62000
+  server: 87.84.49.140
+  type: socks5
+  username: ks878449260d
 - cipher: aes-256-gcm
-  name: "D\U0001F534\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
+  name: "D\U0001F534\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F52E\U0001F9E9\U0001F3B5\
+    ]_dokng.com_ed4de7bb"
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.90
+  skip-cert-verify: false
+  tls: false
+  type: ss
+  udp: true
+  x-toolall-mihomo: true
+- name: "A\U0001F7E2\U0001F1F9\U0001F1EDres_dokng.com_441fecdf"
+  password: fAgE2jqK
+  port: 42000
+  server: 151.246.108.69
+  type: socks5
+  username: h87527jJ
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos_dokng.com_342cda1e"
+  port: 44499
+  server: 45.61.188.134
+  type: socks5
+- cipher: aes-256-gcm
+  name: "D\U0001F534\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F3B5\
+    ]_dokng.com_3bb0f43a"
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.63
+  type: ss
+  udp: true
+  x-toolall-mihomo: true
+- name: "C\U0001F7E0\U0001F1F2\U0001F1FDhos[\U0001F50D]_dokng.com_aff11c5d"
+  password: sZnD8GTz
+  port: 42000
+  server: 144.225.47.68
+  type: socks5
+  username: DJy1T0dt
+- cipher: aes-256-gcm
+  name: "D\U0001F534\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F50D\
     ]_dokng.com_544fdd46"
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
@@ -911,10 +456,185 @@ proxies:
   type: ss
   udp: true
   x-toolall-mihomo: true
-- client-fingerprint: firefox
+- name: "D\U0001F534\U0001F1F8\U0001F1EChos[\U0001F52E\U0001F3B5]_dokng.com_c8c444fd"
+  password: "c0a34a"
+  port: 62000
+  server: 66.80.2.252
+  type: socks5
+  username: usereb7d
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F4AC\U0001F52E\U0001F3B5\
+    ]_dokng.com_ffebf486"
+  password: "null"
+  port: 443
+  server: fan.365747.xyz
+  sni: fan.365747.xyz
+  tls: true
+  type: http
+  username: "null"
+- name: "A\U0001F7E2\U0001F1F9\U0001F1EDres[\U0001F3AE]_dokng.com_a8a9e262"
+  password: VAwyJQX0iKMJiyCw5UVK9wGH
+  port: 42000
+  server: 103.14.164.30
+  type: socks5
+  username: route164JIa2CBPxfy
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F52E\U0001F4FA]_dokng.com_4cc7e454"
+  password: ''
+  port: 9443
+  server: 38.95.111.226
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+  x-toolall-mihomo: true
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F4AC\U0001F52E\U0001F3AE\
+    ]_dokng.com_f4f770d1"
+  port: 443
+  server: 38.28.185.166
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: "A\U0001F7E2\U0001F1F9\U0001F1EDres_dokng.com_021435aa"
+  password: YlRoWvE0dL_cUqS94wPeKnA4
+  port: 62000
+  server: 87.84.49.245
+  type: socks5
+  username: ks878449260d
+- name: "D\U0001F534\U0001F1EB\U0001F1F7hos[\U0001F916\U0001F4AC\U0001F3AE\u2708\uFE0F\
+    ]_dokng.com_9ccf3749"
+  port: 443
+  server: 149.102.245.65
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- cipher: aes-256-gcm
+  name: "C\U0001F7E0\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F3B5\
+    ]_dokng.com_04808d3a"
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.18
+  type: ss
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F4AC\U0001F3B5]_dokng.com_568f056a"
+  port: 443
+  server: 149.34.248.65
+  skip-cert-verify: true
+  sni: 149.34.248.65
+  tls: true
+  type: http
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: "C\U0001F7E0\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_9eaca6a6"
+  name: "C\U0001F7E0\U0001F1EF\U0001F1F5hos[\U0001F916\U0001F4AC\U0001F9E9\U0001F4FA\
+    ]_dokng.com_049fa9f2"
+  network: tcp
+  port: 43149
+  reality-opts:
+    public-key: cvong7paE8XIzzbKWgV5iUruP1pBqI2IhMuBHc8c0UE
+    short-id: "15aa0ad4"
+  server: zfapi.zalolink.com
+  servername: psstatic.cdn.bcebos.com
+  tls: true
+  type: vless
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  x-toolall-mihomo: true
+- cipher: aes-256-gcm
+  name: "C\U0001F7E0\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F4FA\
+    ]_dokng.com_57445a13"
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.18
+  sub_tag: B007-260618
+  type: ss
+  udp: true
+  x-toolall-mihomo: true
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F4AC\U0001F52E\U0001F3B5\
+    ]_dokng.com_d37c7415"
+  password: "null"
+  port: 443
+  server: fan.365747.xyz
+  skip-cert-verify: true
+  sni: fan.365747.xyz
+  tls: true
+  type: http
+  username: "null"
+- name: "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F4FA\
+    ]_dokng.com_c6134407"
+  password: "null"
+  port: 9002
+  server: 84.17.47.149
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  username: "null"
+  x-toolall-mihomo: true
+- name: "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F4E6\
+    ]_dokng.com_5a16ef58"
+  password: None
+  port: 9002
+  server: 84.17.47.123
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- cipher: aes-256-gcm
+  name: "C\U0001F7E0\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F3AE\
+    ]_dokng.com_07162a4c"
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.99
+  type: ss
+  udp: true
+  x-toolall-mihomo: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: "U\u26AA\U0001F3F3\uFE0Fukn[\U0001F916\U0001F4AC\U0001F9E9\U0001F3AE]_dokng.com_78065240"
+  port: 43149
+  reality-opts:
+    public-key: cvong7paE8XIzzbKWgV5iUruP1pBqI2IhMuBHc8c0UE
+    short-id: "15aa0ad4"
+  server: zfapi.zalolink.com
+  servername: psstatic.cdn.bcebos.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  x-toolall-mihomo: true
+- cipher: aes-256-gcm
+  name: "D\U0001F534\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\u2708\uFE0F\
+    ]_dokng.com_48d202d9"
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.63
+  type: ss
+- name: "A\U0001F7E2\U0001F1F9\U0001F1EDres[\U0001F52E\U0001F3AE\U0001F419\U0001F50D\
+    ]_dokng.com_c58cd50f"
+  password: VAwyJQX0iKMJiyCw5UVK9wGH
+  port: 42000
+  server: 103.14.164.202
+  type: socks5
+  username: route164JIa2CBPxfy
+- cipher: aes-256-gcm
+  name: "U\u26AA\U0001F3F3\uFE0Fukn[\U0001F4AC\U0001F3AE\U0001F4DA]_dokng.com_92c172b4"
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.45
+  type: ss
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F3AE\u2708\uFE0F\U0001F4DA\
+    ]_dokng.com_34c3c6dd"
+  port: 443
+  server: 137.175.77.35
+  skip-cert-verify: true
+  sni: 137.175.77.35
+  tls: true
+  type: http
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: "C\U0001F7E0\U0001F1F3\U0001F1F1hos[\U0001F4AC]_dokng.com_56da3c2d"
   network: tcp
   port: 443
   reality-opts:
@@ -924,86 +644,40 @@ proxies:
   servername: 8a2e72t.nl20.h1clayd.shop
   tls: true
   type: vless
-  udp: true
   uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
   x-toolall-mihomo: true
-- cipher: aes-256-gcm
-  name: "D\U0001F534\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_c23341c5"
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.63
-  skip-cert-verify: false
-  tls: false
-  type: ss
-  udp: true
+- name: "C\U0001F7E0\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F4AC\U0001F3AE\u2708\uFE0F\
+    ]_dokng.com_3803d1d0"
+  password: https://xship.best
+  port: 443
+  server: starlink-ft.251313.xyz
+  skip-cert-verify: true
+  sni: xship.top
+  type: hysteria2
+  x-toolall-mihomo: true
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  down: "50"
+  name: "D\U0001F534\U0001F1EB\U0001F1F7hos[\U0001F916\U0001F4AC\U0001F52E\U0001F3B5\
+    ]_dokng.com_67a56137"
+  port: 24667
+  server: 62.210.70.191
+  skip-cert-verify: true
+  type: hysteria
+  up: "10"
   x-toolall-mihomo: true
 - cipher: aes-256-gcm
-  name: "D\U0001F534\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
+  name: "D\U0001F534\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F3B5\
     ]_dokng.com_2e294afd"
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.54
   type: ss
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_1188f394"
-  port: 443
-  server: fan.226278.xyz
-  tls: true
-  type: http
-- cipher: aes-256-gcm
-  name: "C\U0001F7E0\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_ed9e5a0d"
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.27
-  skip-cert-verify: false
-  tls: false
-  type: ss
-  udp: true
-  x-toolall-mihomo: true
-- name: "A\U0001F7E2\U0001F1FF\U0001F1E6res[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_05c3a70c"
-  password: 6e4ceae4-6d81-4d87-9802-759ea5c244e5
-  port: 59045
-  server: control-shared.78778m.cn
-  skip-cert-verify: true
-  sni: iosapps.itunes.apple.com
-  type: trojan
-  udp: true
-  x-toolall-mihomo: true
-- alterId: 0
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - down-cdn.dingtalk.com
-    method: GET
-    path:
-    - /3x
-  name: "C\U0001F7E0\U0001F1E8\U0001F1EDhos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_c1500362"
-  network: http
-  port: 42831
-  server: 179.43.140.24
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: a925a98c-ad7a-40c6-9fdf-130a1de69416
-  x-toolall-mihomo: true
-- cipher: aes-256-gcm
-  name: "C\U0001F7E0\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_c9cdfff6"
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.27
-  type: ss
-  udp: true
-  x-toolall-mihomo: true
 - client-fingerprint: edge
   grpc-opts:
     grpc-service-name: "99f2107b03f8"
-  name: "C\U0001F7E0\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
+  name: "C\U0001F7E0\U0001F1FA\U0001F1F8hos[\U0001F52E\U0001F4FA\U0001F3B5\U0001F3AE\
     ]_dokng.com_379449c0"
   network: grpc
   packet-encoding: xudp
@@ -1017,769 +691,36 @@ proxies:
   type: vless
   uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
   x-toolall-mihomo: true
-- cipher: aes-256-gcm
-  name: "C\U0001F7E0\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_30207bf9"
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.36
-  type: ss
-  udp: true
-  x-toolall-mihomo: true
-- name: "U\u26AA\U0001F3F3\uFE0Fukn[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_656b80b8"
-  password: 6e4ceae4-6d81-4d87-9802-759ea5c244e5
-  port: 59146
-  server: control-shared.78778m.cn
-  skip-cert-verify: true
-  sni: iosapps.itunes.apple.com
-  type: trojan
-  udp: true
-  x-toolall-mihomo: true
-- alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  name: "D\U0001F534\U0001F1E9\U0001F1EAhos[\U0001F916\U0001F4AC\U0001F52E\U0001F4FA\
-    ]_dokng.com_d8b0cf80"
-  network: ws
-  port: 443
-  server: 46.8.64.51
-  servername: clover.filnex.baby
-  tls: true
-  type: vless
-  uuid: 80a06811-f74b-4b82-ac99-7e66c2a98e1c
-  ws-opts:
-    headers:
-      Host: clover.filnex.baby
-    path: /api/de6/stream
-  x-toolall-mihomo: true
-- cipher: aes-256-gcm
-  name: "D\U0001F534\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_3bb0f43a"
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.63
-  type: ss
-  udp: true
-  x-toolall-mihomo: true
-- cipher: aes-256-gcm
-  name: "D\U0001F534\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_a7740ab5"
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.81
-  type: ss
-  udp: true
-  x-toolall-mihomo: true
-- cipher: aes-256-gcm
-  name: "D\U0001F534\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_444fcb7f"
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.54
-  skip-cert-verify: false
-  tls: false
-  type: ss
-  udp: true
-  x-toolall-mihomo: true
-- name: "A\U0001F7E2\U0001F1E6\U0001F1F7res[\U0001F916\U0001F4AC\U0001F52E\U0001F4FA\
-    ]_dokng.com_8261826b"
-  password: 6e4ceae4-6d81-4d87-9802-759ea5c244e5
-  port: 59019
-  server: control-shared.78778m.cn
-  skip-cert-verify: true
-  sni: iosapps.itunes.apple.com
-  type: trojan
-  udp: true
-  x-toolall-mihomo: true
-- cipher: aes-256-gcm
-  name: "D\U0001F534\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_e690e14e"
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.72
-  type: ss
-  udp: true
-  x-toolall-mihomo: true
-- name: "U\u26AA\U0001F3F3\uFE0Fukn_dokng.com_99fcd799"
-  password: None
-  port: 443
-  server: 213.207.130.34
-  skip-cert-verify: true
-  sub_tag: K001-260618
-  tls: true
-  type: http
-  udp: true
-  username: ''
-  x-toolall-mihomo: true
-- cipher: aes-256-gcm
-  name: "D\U0001F534\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F4FA\
-    ]_dokng.com_ed4de7bb"
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.90
-  skip-cert-verify: false
-  tls: false
-  type: ss
-  udp: true
-  x-toolall-mihomo: true
-- cipher: aes-256-gcm
-  name: "C\U0001F7E0\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_92c172b4"
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.45
-  type: ss
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_582c323a"
-  port: 443
-  server: 38.28.185.178
-  skip-cert-verify: true
-  tls: true
-  type: http
-- cipher: aes-256-gcm
-  name: "D\U0001F534\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_8817c7e2"
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.72
-  skip-cert-verify: false
-  tls: false
-  type: ss
-  udp: true
-  x-toolall-mihomo: true
-- cipher: aes-256-gcm
-  name: "D\U0001F534\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_8c1c6b5a"
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.81
-  skip-cert-verify: false
-  tls: false
-  type: ss
-  udp: true
-  x-toolall-mihomo: true
-- cipher: aes-256-gcm
-  name: "C\U0001F7E0\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_07162a4c"
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.99
-  type: ss
-  udp: true
-  x-toolall-mihomo: true
-- name: "D\U0001F534\U0001F1EE\U0001F1EAhos[\U0001F916\U0001F4AC\U0001F9E9\U0001F3B5\
-    ]_dokng.com_37e4a848"
-  port: 443
-  server: 34.249.214.108
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: "U\u26AA\U0001F3F3\uFE0Fukn_dokng.com_f7be86c8"
-  password: ''
-  port: 1090
-  server: 121.169.46.116
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-  x-toolall-mihomo: true
-- cipher: aes-256-gcm
-  name: "C\U0001F7E0\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_885d389b"
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.18
-  type: ss
-  udp: true
-  x-toolall-mihomo: true
-- cipher: aes-256-gcm
-  delay: 679
-  name: "D\U0001F534\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_f2a1583b"
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.72
-  type: ss
-  udp: true
-  x-toolall-mihomo: true
-- alterId: 0
-  cipher: auto
-  name: "U\u26AA\U0001F3F3\uFE0Fukn_dokng.com_cebe1823"
-  network: ws
-  port: 443
-  server: 172.67.190.164
-  servername: guanwang.awsno.com
-  tls: true
-  type: vmess
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  ws-opts:
-    headers:
-      host: guanwang.awsno.com
-    path: /hls/cctv5phd.m3u8
-- name: "D\U0001F534\U0001F1EB\U0001F1F7hos[\U0001F916\U0001F4AC\U0001F52E\U0001F3B5\
-    ]_dokng.com_d04a31b7"
-  port: 8090
-  server: 83.206.1.225
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- cipher: aes-256-gcm
-  name: "D\U0001F534\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_48d202d9"
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.63
-  type: ss
-- cipher: aes-256-gcm
-  name: "D\U0001F534\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_04af617c"
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.63
-  sub_tag: A004-260618
-  type: ss
-  udp: true
-  x-toolall-mihomo: true
-- cipher: aes-256-gcm
-  name: "C\U0001F7E0\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_e4fa7507"
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.45
-  type: ss
-  udp: true
-  x-toolall-mihomo: true
-- name: "A\U0001F7E2\U0001F1F9\U0001F1EDres_dokng.com_63f8b36e"
-  password: Ks4Iab43
-  port: 42000
-  server: 82.47.152.151
-  type: socks5
-  username: userLjVB
-- cipher: aes-256-gcm
-  name: "C\U0001F7E0\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_7441ad35"
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.99
-  type: ss
-- name: "A\U0001F7E2\U0001F1E7\U0001F1F7res_dokng.com_936e7dd6"
-  password: 0mvrt5jb
-  port: 62000
-  server: 191.7.129.133
-  type: socks5
-  username: uwrgfkwg
-- name: "A\U0001F7E2\U0001F1F9\U0001F1EDres_dokng.com_affc047b"
-  password: ao3W5ZML
-  port: 42000
-  server: 168.222.8.119
-  type: socks5
-  username: JPjarpW3
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "U\u26AA\U0001F3F3\uFE0Fukn_dokng.com_275e588f"
-  network: ws
-  port: 443
-  server: 188.114.99.137
-  servername: guanwang.awsno.com
-  tls: true
-  type: vmess
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  ws-opts:
-    headers:
-      Host: guanwang.awsno.com
-    path: /hls/cctv5phd.m3u8
-  x-toolall-mihomo: true
-- name: "A\U0001F7E2\U0001F1F9\U0001F1EDres[\U0001F3B5\U0001F3AE\U0001F50D]_dokng.com_da6cca38"
-  password: 1pB7HV6u
-  port: 42000
-  server: 151.246.109.86
-  type: socks5
-  username: AJ3d9gJw
-- name: "D\U0001F534\U0001F1EF\U0001F1F5hos[\U0001F916\U0001F52E\U0001F3B5\U0001F3AE\
-    ]_dokng.com_4900a88a"
-  password: EGJDy5Kg
-  port: 42000
-  server: 103.248.150.50
-  type: socks5
-  username: paZFN3JA
-- client-fingerprint: firefox
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: "C\U0001F7E0\U0001F1EA\U0001F1F8hos[\U0001F916\U0001F4AC\U0001F52E\U0001F4FA\
-    ]_dokng.com_b8ae846e"
+  name: "D\U0001F534\U0001F1F8\U0001F1EChos[\U0001F3AE\u2708\uFE0F\U0001F419\U0001F50D\
+    ]_dokng.com_f56c2037"
   network: tcp
-  packet-encoding: xudp
-  port: 443
+  port: 51283
   reality-opts:
-    public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
-    short-id: "42426c882c5fcd41"
-  server: 196.199.122.2
-  servername: 7aa271t.es1.h1clayd.click
+    public-key: IjWYbHNrZb3UCQxsTJyekEOA3tHq42L6Jw3O8MmLYVQ
+    short-id: "fa514b83"
+  server: free.fugui.lol
+  servername: swdist.apple.com
   tls: true
   type: vless
-  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
+  uuid: ead3595f-4020-4e76-a3ec-c248e1a2f2f7
   x-toolall-mihomo: true
-- cipher: aes-256-gcm
-  name: "C\U0001F7E0\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_04808d3a"
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.18
-  type: ss
-- name: "D\U0001F534\U0001F1FB\U0001F1F3hos[\U0001F916\U0001F4AC\U0001F52E\U0001F4FA\
-    ]_dokng.com_c355101a"
-  password: ''
-  port: 8443
-  server: 14.225.71.128
-  skip-cert-verify: true
-  sub_tag: K001-260618
-  tls: true
-  type: http
-  udp: true
-  username: ''
-  x-toolall-mihomo: true
-- name: "A\U0001F7E2\U0001F1F9\U0001F1EDres_dokng.com_bf81894b"
+- name: "A\U0001F7E2\U0001F1F9\U0001F1EDres[\U0001F3AE\u2708\uFE0F]_dokng.com_bf81894b"
   password: 1pB7HV6u
   port: 42000
   server: 151.246.109.158
   type: socks5
   username: AJ3d9gJw
-- cipher: aes-256-gcm
-  name: "D\U0001F534\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_d027a441"
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.72
-  type: ss
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: "204adda7e3da"
-  name: "C\U0001F7E0\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_0aff9cf2"
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: PD8Jdlg3xB9QY--jwQjp8PFPzCS8-Oryw6-HWBcHMFU
-    short-id: "d3bd772514c87d28"
-  server: 196.196.148.63
-  servername: 717252g.nl8.h1clayd.click
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-  x-toolall-mihomo: true
-- name: "A\U0001F7E2\U0001F1F9\U0001F1EDres_dokng.com_18746d5d"
-  password: zdnivBaI
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos_dokng.com_60b20da2"
+  password: r1703057as
   port: 62000
-  server: 109.66.136.42
+  server: 216.132.114.182
   type: socks5
-  username: r3ZzP8WW
-- name: "A\U0001F7E2\U0001F1F9\U0001F1EDres_dokng.com_3740a210"
-  password: zdnivBaI
-  port: 62000
-  server: 109.66.136.194
-  type: socks5
-  username: r3ZzP8WW
-- cipher: aes-256-gcm
-  name: "D\U0001F534\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_8ed40d75"
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.90
-  type: ss
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: "C\U0001F7E0\U0001F1EA\U0001F1F8hos[\U0001F916\U0001F4AC\U0001F52E\U0001F3AE\
-    ]_dokng.com_f3aeb7e7"
-  port: 443
-  reality-opts:
-    public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
-    short-id: "42426c882c5fcd41"
-  server: 196.199.122.2
-  servername: 7aa271t.es1.h1clayd.click
-  skip-cert-verify: true
-  sni: 7aa271t.es1.h1clayd.click
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-  x-toolall-mihomo: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: "C\U0001F7E0\U0001F1EA\U0001F1F8hos[\U0001F916\U0001F4AC\U0001F52E\U0001F3B5\
-    ]_dokng.com_7abde24d"
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
-    short-id: "42426c882c5fcd41"
-  server: 196.199.122.2
-  servername: 7aa271t.es1.h1clayd.click
-  tls: true
-  type: vless
-  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-  x-toolall-mihomo: true
-- cipher: aes-256-gcm
-  name: "C\U0001F7E0\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_641a38ed"
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.27
-  type: ss
-- client-fingerprint: edge
-  grpc-opts:
-    grpc-service-name: "99f2107b03f8"
-  name: "C\U0001F7E0\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_7e88745b"
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: cO3wYHISTeorXcM8ffaDCDdqZ-olBQL-GyZqb-W7rTk
-    short-id: "bd8f712209a9c283"
-  server: 89.124.122.19
-  servername: 0592efg.us8.h1clayd.click
-  tls: true
-  type: vless
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-  x-toolall-mihomo: true
-- client-fingerprint: chrome
-  name: "U\u26AA\U0001F3F3\uFE0Fukn[\U0001F916\U0001F4AC\U0001F52E\U0001F3B5]_dokng.com_41ddb3a7"
-  port: 443
-  reality-opts:
-    public-key: l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs
-    short-id: "361d0dd59c70516f"
-  server: 196.196.148.85
-  servername: 5d0319t.nl7.h1clayd.click
-  skip-cert-verify: true
-  sni: 5d0319t.nl7.h1clayd.click
-  tls: true
-  type: vless
-  udp: true
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-  x-toolall-mihomo: true
-- cipher: aes-256-gcm
-  name: "D\U0001F534\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_ae9a4420"
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.90
-  type: ss
-  udp: true
-  x-toolall-mihomo: true
-- name: "C\U0001F7E0\U0001F1F2\U0001F1FDhos_dokng.com_aff11c5d"
-  password: sZnD8GTz
-  port: 42000
-  server: 144.225.47.68
-  type: socks5
-  username: DJy1T0dt
-- name: "C\U0001F7E0\U0001F1E7\U0001F1F7hos[\U0001F916\U0001F4AC\U0001F3B5\U0001F3AE\
-    ]_dokng.com_a7fea21d"
-  password: 6e4ceae4-6d81-4d87-9802-759ea5c244e5
-  port: 59214
-  server: control-shared.78778m.cn
-  skip-cert-verify: true
-  sni: iosapps.itunes.apple.com
-  type: trojan
-  udp: true
-  x-toolall-mihomo: true
-- name: "D\U0001F534\U0001F1F1\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F3B5\
-    ]_dokng.com_747fd292"
-  port: 443
-  server: 89.124.11.9
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: "C\U0001F7E0\U0001F1EA\U0001F1F8hos[\U0001F916\U0001F4AC\U0001F52E\U0001F3B5\
-    ]_dokng.com_9f945074"
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
-    short-id: "42426c882c5fcd41"
-  server: 196.196.149.81
-  servername: 7aa271t.es1.h1clayd.click
-  tls: true
-  type: vless
-  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-  x-toolall-mihomo: true
-- name: "C\U0001F7E0\U0001F1F7\U0001F1F4hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_9ba1e05c"
-  password: 6e4ceae4-6d81-4d87-9802-759ea5c244e5
-  port: 50136
-  server: control-shared.78778m.cn
-  skip-cert-verify: true
-  sni: iosapps.itunes.apple.com
-  type: trojan
-  udp: true
-  x-toolall-mihomo: true
-- client-fingerprint: chrome
-  name: "C\U0001F7E0\U0001F1E6\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F3B5\
-    ]_dokng.com_8a208f4c"
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs
-    short-id: "361d0dd59c70516f"
-  server: 196.196.148.85
-  servername: 5d0319t.nl7.h1clayd.click
-  tls: true
-  type: vless
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-  x-toolall-mihomo: true
-- name: "A\U0001F7E2\U0001F1E7\U0001F1F7res[\U0001F50D]_dokng.com_dbd9f715"
-  password: 0mvrt5jb
-  port: 62000
-  server: 191.7.129.133
-  sub_tag: R002-260618
-  type: socks5
-  udp: true
-  username: uwrgfkwg
-  x-toolall-mihomo: true
+  username: u_rf6ba87
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: "C\U0001F7E0\U0001F1EA\U0001F1F8hos[\U0001F916\U0001F4AC\U0001F52E\U0001F3B5\
-    ]_dokng.com_38171dc1"
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
-    short-id: "42426c882c5fcd41"
-  server: 196.196.149.80
-  servername: 7aa271t.es1.h1clayd.click
-  tls: true
-  type: vless
-  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-  x-toolall-mihomo: true
-- name: "A\U0001F7E2\U0001F1F9\U0001F1EDres_dokng.com_5d41bcce"
-  password: mpbK00Pl
-  port: 42000
-  server: 192.204.15.135
-  type: socks5
-  username: X3s3JteD
-- name: "D\U0001F534\U0001F1ED\U0001F1F0hos[\U0001F9E9\U0001F3B5\U0001F3AE\u2708\uFE0F\
-    ]_dokng.com_6624eea7"
-  port: 443
-  server: 202.85.53.25
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: "A\U0001F7E2\U0001F1F9\U0001F1EDres[\U0001F50D]_dokng.com_a8a9e262"
-  password: VAwyJQX0iKMJiyCw5UVK9wGH
-  port: 42000
-  server: 103.14.164.30
-  type: socks5
-  username: route164JIa2CBPxfy
-- client-fingerprint: chrome
-  name: "D\U0001F534\U0001F1ED\U0001F1F0hos_dokng.com_a4a827b8"
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 162.159.153.4
-  servername: rayan-007.maxima.dpdns.org
-  tls: true
-  type: vless
-  uuid: f2a73750-3087-48ff-a763-1348c15dce68
-  ws-opts:
-    headers:
-      Host: rayan-007.maxima.dpdns.org
-    path: /
-  x-toolall-mihomo: true
-- client-fingerprint: firefox
-  name: "C\U0001F7E0\U0001F1E6\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F3B5\
-    ]_dokng.com_e0876948"
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs
-    short-id: "361d0dd59c70516f"
-  server: 196.196.148.85
-  servername: 5d0319t.nl7.h1clayd.click
-  tls: true
-  type: vless
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-  x-toolall-mihomo: true
-- client-fingerprint: firefox
-  name: "C\U0001F7E0\U0001F1E6\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F3AE\
-    ]_dokng.com_fbb5c550"
-  port: 443
-  reality-opts:
-    public-key: l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs
-    short-id: "361d0dd59c70516f"
-  server: 196.196.148.85
-  servername: 5d0319t.nl7.h1clayd.click
-  tls: true
-  type: vless
-  udp: true
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-  x-toolall-mihomo: true
-- client-fingerprint: firefox
-  name: "U\u26AA\U0001F3F3\uFE0Fukn[\U0001F916\U0001F4AC\U0001F52E\U0001F3AE]_dokng.com_3e91976f"
-  port: 443
-  reality-opts:
-    public-key: l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs
-    short-id: "361d0dd59c70516f"
-  server: 196.196.148.85
-  servername: 5d0319t.nl7.h1clayd.click
-  tls: true
-  type: vless
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-  x-toolall-mihomo: true
-- name: "A\U0001F7E2\U0001F1EE\U0001F1E9res[\U0001F4AC]_dokng.com_5f6d4e46"
-  password: 4j4q5adbni
-  port: 62000
-  server: 198.87.103.5
-  type: socks5
-  username: u_f7c7852
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: "C\U0001F7E0\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_d02c5ccc"
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA
-    short-id: "8d0d0679f42ffd98"
-  server: 196.196.148.76
-  servername: 8a2e72t.nl20.h1clayd.shop
-  tls: true
-  type: vless
-  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-  x-toolall-mihomo: true
-- name: "A\U0001F7E2\U0001F1FB\U0001F1F3res_dokng.com_8b68a714"
-  password: jHsK2gqs
-  port: 62000
-  server: 103.184.113.236
-  type: socks5
-  username: qT46DZLv
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: "C\U0001F7E0\U0001F1EA\U0001F1F8hos[\U0001F916\U0001F4AC\U0001F52E\U0001F3B5\
-    ]_dokng.com_24ee5ddf"
-  port: 443
-  reality-opts:
-    public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
-    short-id: "42426c882c5fcd41"
-  server: 196.199.122.2
-  servername: 7aa271t.es1.h1clayd.click
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-  x-toolall-mihomo: true
-- alterId: 0
-  cipher: auto
-  name: "U\u26AA\U0001F3F3\uFE0Fukn_dokng.com_ba3b7ea2"
-  network: ws
-  port: 443
-  server: 172.67.190.164
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  ws-opts:
-    headers:
-      host: guanwang.awsno.com
-    path: /hls/cctv5phd.m3u8
-- client-fingerprint: firefox
-  name: "C\U0001F7E0\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F4AC\U0001F52E\U0001F3B5\
-    ]_dokng.com_3447c6df"
-  port: 443
-  reality-opts:
-    public-key: UoS8qZ74hP_ECcncCz55lzvlcVss3R7VA0WYZE0YQCY
-    short-id: "ba2a3dce62b99092"
-  server: 196.245.52.187
-  servername: 04535dt.us8.h1clayd.click
-  tls: true
-  type: vless
-  udp: true
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-  x-toolall-mihomo: true
-- cipher: aes-256-gcm
-  name: "C\U0001F7E0\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_79faec8a"
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.18
-  skip-cert-verify: false
-  tls: false
-  type: ss
-  udp: true
-  x-toolall-mihomo: true
-- name: "A\U0001F7E2\U0001F1FA\U0001F1F8res[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_f9ee2780"
-  port: 8090
-  server: 98.101.229.212
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: "C\U0001F7E0\U0001F1EA\U0001F1F8hos[\U0001F916\U0001F4AC\U0001F52E\U0001F3B5\
-    ]_dokng.com_c851b7e4"
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
-    short-id: "42426c882c5fcd41"
-  server: 196.196.149.81
-  servername: 7aa271t.es1.h1clayd.click
-  tls: true
-  type: vless
-  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-  x-toolall-mihomo: true
-- client-fingerprint: firefox
-  name: "C\U0001F7E0\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F4AC\U0001F52E\U0001F3AE\
-    ]_dokng.com_e77fc2ab"
-  port: 443
-  reality-opts:
-    public-key: UoS8qZ74hP_ECcncCz55lzvlcVss3R7VA0WYZE0YQCY
-    short-id: "ba2a3dce62b99092"
-  server: 196.245.52.187
-  servername: 04535dt.us8.h1clayd.click
-  skip-cert-verify: true
-  sni: 04535dt.us8.h1clayd.click
-  tls: true
-  type: vless
-  udp: true
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-  x-toolall-mihomo: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: "C\U0001F7E0\U0001F1EA\U0001F1F8hos[\U0001F4AC\U0001F52E\U0001F3AE\u2708\uFE0F\
-    ]_dokng.com_f8fb5ad9"
-  port: 443
-  reality-opts:
-    public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
-    short-id: "42426c882c5fcd41"
-  server: 196.196.149.81
-  servername: 7aa271t.es1.h1clayd.click
-  skip-cert-verify: true
-  sni: 7aa271t.es1.h1clayd.click
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-  x-toolall-mihomo: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F916\U0001F4AC\U0001F52E\U0001F3AE\
-    ]_dokng.com_1d21d16a"
-  network: tcp
-  packet-encoding: xudp
+  name: "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F916\U0001F3AE\U0001F50D]_dokng.com_3e981ae0"
   port: 46957
   reality-opts:
     public-key: 1SefqLQXrqkiUdf7cTMF53hrMZyo684_uneRC8-qTxI
@@ -1788,20 +729,35 @@ proxies:
   servername: psstatic.cdn.bcebos.com
   tls: true
   type: vless
+  udp: true
   uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
   x-toolall-mihomo: true
-- name: "D\U0001F534\U0001F1EE\U0001F1F9hos[\U0001F3B5]_dokng.com_1c28314a"
-  password: JdFlrZhqHP
-  port: 1080
-  server: 69.16.157.244
-  type: socks5
-  username: ufCobhydz4Wd
-- client-fingerprint: firefox
+- client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: "C\U0001F7E0\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F3AE\
-    ]_dokng.com_a73acf88"
+  name: "U\u26AA\U0001F3F3\uFE0Fukn[\U0001F916\U0001F4AC\U0001F52E\U0001F3B5]_dokng.com_a07afe5c"
+  port: 54528
+  reality-opts:
+    public-key: 7GvJVbR6BRhtrc8-rcZvB8qTFUF1LPeM_MmoZ04mBxo
+    short-id: "54cca3c1c1c7"
+  server: zfapi.zalolink.com
+  servername: www.apple.com
+  skip-cert-verify: false
+  sni: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  x-toolall-mihomo: true
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AE\U0001F419]_dokng.com_4e17894f"
+  password: gs4BXwT6SW
+  port: 10988
+  server: 154.26.192.123
+  type: http
+  username: fQ67Dpe5dU
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: "C\U0001F7E0\U0001F1F3\U0001F1F1hos[\U0001F4AC\U0001F3AE]_dokng.com_dcf6a7a8"
   network: tcp
-  packet-encoding: xudp
   port: 443
   reality-opts:
     public-key: VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA
@@ -1812,184 +768,61 @@ proxies:
   type: vless
   uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
   x-toolall-mihomo: true
-- alterId: 0
-  cipher: auto
-  name: "U\u26AA\U0001F3F3\uFE0Fukn_dokng.com_49e1aa4a"
-  network: ws
-  port: 443
-  server: 104.18.42.163
-  servername: guanwang.awsno.com
+- name: "A\U0001F7E2\U0001F1F8\U0001F1ECres[\U0001F4AC]_dokng.com_903162eb"
+  password: ''
+  port: 9443
+  server: 149.88.99.209
   skip-cert-verify: true
   tls: true
-  type: vmess
+  type: http
   udp: true
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  ws-opts:
-    headers:
-      Host: guanwang.awsno.com
-    path: /hls/cctv5phd.m3u8
+  username: ''
   x-toolall-mihomo: true
-- name: "C\U0001F7E0\U0001F1F2\U0001F1FDhos[\U0001F4FA]_dokng.com_8d9836d8"
+- name: "A\U0001F7E2\U0001F1F2\U0001F1FDres_dokng.com_1aa34d5e"
+  password: 2j7CCZQb
+  port: 62000
+  server: 94.194.164.203
+  type: socks5
+  username: rVkkraqT
+- cipher: aes-256-gcm
+  name: "C\U0001F7E0\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F3AE\
+    ]_dokng.com_30207bf9"
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.36
+  type: ss
+  udp: true
+  x-toolall-mihomo: true
+- name: "D\U0001F534\U0001F1FA\U0001F1F8hos_dokng.com_3dc5b537"
+  password: 7i1dheg6
+  port: 62000
+  server: 216.132.114.194
+  type: socks5
+  username: utdr8wvs
+- name: "C\U0001F7E0\U0001F1F2\U0001F1FDhos_dokng.com_12126395"
   password: sZnD8GTz
   port: 42000
-  server: 144.225.47.158
+  server: 144.225.47.106
   type: socks5
   username: DJy1T0dt
-- name: "A\U0001F7E2\U0001F1EE\U0001F1E9res[\U0001F916\U0001F4AC\U0001F52E\U0001F3B5\
-    ]_dokng.com_85aa1e0b"
-  password: RRWtX6XP
-  port: 62000
-  server: 203.84.138.59
-  type: socks5
-  username: 9tcjLp2W
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: "C\U0001F7E0\U0001F1EA\U0001F1F8hos[\U0001F916\U0001F4AC\U0001F52E\u2708\uFE0F\
-    ]_dokng.com_562212cb"
-  port: 443
+  name: "C\U0001F7E0\U0001F1EF\U0001F1F5hos[\U0001F916\U0001F4AC\U0001F9E9\U0001F4FA\
+    ]_dokng.com_6e4dfdc6"
+  port: 43149
   reality-opts:
-    public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
-    short-id: "42426c882c5fcd41"
-  server: 196.196.149.81
-  servername: 7aa271t.es1.h1clayd.click
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-  x-toolall-mihomo: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: "C\U0001F7E0\U0001F1EA\U0001F1F8hos[\U0001F916\U0001F4AC\U0001F52E\U0001F3B5\
-    ]_dokng.com_7d4f8218"
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
-    short-id: "42426c882c5fcd41"
-  server: 196.196.148.90
-  servername: 7aa271t.es9.h1clayd.click
-  tls: true
-  type: vless
-  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-  x-toolall-mihomo: true
-- name: "C\U0001F7E0\U0001F1F9\U0001F1EDhos_dokng.com_5acf8d13"
-  password: KT5hiU8o
-  port: 42000
-  server: 104.234.70.82
-  type: socks5
-  username: rnt2L4XO
-- client-fingerprint: firefox
-  name: "C\U0001F7E0\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F4AC\U0001F52E\U0001F3B5\
-    ]_dokng.com_8d1d0ca5"
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: UoS8qZ74hP_ECcncCz55lzvlcVss3R7VA0WYZE0YQCY
-    short-id: "ba2a3dce62b99092"
-  server: 196.245.52.187
-  servername: 04535dt.us8.h1clayd.click
-  tls: true
-  type: vless
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-  x-toolall-mihomo: true
-- client-fingerprint: firefox
-  name: "C\U0001F7E0\U0001F1E6\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F3B5\
-    ]_dokng.com_7658b466"
-  port: 443
-  reality-opts:
-    public-key: l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs
-    short-id: "361d0dd59c70516f"
-  server: 196.196.148.85
-  servername: 5d0319t.nl7.h1clayd.click
-  skip-cert-verify: true
-  sni: 5d0319t.nl7.h1clayd.click
-  tls: true
-  type: vless
-  udp: true
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-  x-toolall-mihomo: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: "C\U0001F7E0\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_20e3bf5a"
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA
-    short-id: "8d0d0679f42ffd98"
-  server: 136.234.9.11
-  servername: 8a2e72t.nl20.h1clayd.shop
-  tls: true
-  type: vless
-  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-  x-toolall-mihomo: true
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: "D\U0001F534\U0001F1E6\U0001F1FAhos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_0371e9d8"
-  port: 54528
-  reality-opts:
-    public-key: 7GvJVbR6BRhtrc8-rcZvB8qTFUF1LPeM_MmoZ04mBxo
-    short-id: "54cca3c1c1c7"
+    public-key: cvong7paE8XIzzbKWgV5iUruP1pBqI2IhMuBHc8c0UE
+    short-id: "15aa0ad4"
   server: zfapi.zalolink.com
-  servername: www.apple.com
-  skip-cert-verify: true
-  sni: www.apple.com
+  servername: psstatic.cdn.bcebos.com
   tls: true
   type: vless
   udp: true
   uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
   x-toolall-mihomo: true
-- name: "D\U0001F534\U0001F1F2\U0001F1FDhos_dokng.com_e24c2bfd"
-  port: 999
-  server: 189.51.168.164
-  type: http
-- name: "C\U0001F7E0\U0001F1FA\U0001F1F8hos_dokng.com_67802e55"
-  password: tta09q3b
-  port: 62000
-  server: 23.230.200.136
-  type: socks5
-  username: uqywawrz
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: "C\U0001F7E0\U0001F1EA\U0001F1F8hos[\U0001F916\U0001F4AC\U0001F52E\U0001F3B5\
-    ]_dokng.com_3a319faa"
-  port: 443
-  reality-opts:
-    public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
-    short-id: "42426c882c5fcd41"
-  server: 196.196.149.80
-  servername: 7aa271t.es1.h1clayd.click
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-  x-toolall-mihomo: true
-- client-fingerprint: firefox
-  name: "C\U0001F7E0\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F4AC\U0001F52E\U0001F3AE\
-    ]_dokng.com_3c052db8"
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: UoS8qZ74hP_ECcncCz55lzvlcVss3R7VA0WYZE0YQCY
-    short-id: "ba2a3dce62b99092"
-  server: 196.245.52.187
-  servername: 04535dt.us8.h1clayd.click
-  tls: true
-  type: vless
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-  x-toolall-mihomo: true
-- name: "A\U0001F7E2\U0001F1FB\U0001F1F3res_dokng.com_11eacb89"
-  password: jHsK2gqs
-  port: 62000
-  server: 103.184.113.190
-  type: socks5
-  username: qT46DZLv
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_899fc334"
+  name: "U\u26AA\U0001F3F3\uFE0Fukn[\U0001F3AE\u2708\uFE0F\U0001F50D\U0001F4DA]_dokng.com_899fc334"
   network: tcp
   port: 30322
   reality-opts:
@@ -2002,9 +835,23 @@ proxies:
   uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
   x-toolall-mihomo: true
 - client-fingerprint: firefox
-  name: "U\u26AA\U0001F3F3\uFE0Fukn[\U0001F916\U0001F4AC\U0001F52E\U0001F3B5]_dokng.com_2e8886fe"
+  flow: xtls-rprx-vision
+  name: "C\U0001F7E0\U0001F1F3\U0001F1F1hos_dokng.com_a73acf88"
   network: tcp
   packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA
+    short-id: "8d0d0679f42ffd98"
+  server: 136.148.208.221
+  servername: 8a2e72t.nl20.h1clayd.shop
+  tls: true
+  type: vless
+  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
+  x-toolall-mihomo: true
+- client-fingerprint: firefox
+  name: "C\U0001F7E0\U0001F1E6\U0001F1F1hos_dokng.com_e0876948"
+  network: tcp
   port: 443
   reality-opts:
     public-key: l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs
@@ -2015,185 +862,60 @@ proxies:
   type: vless
   uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
   x-toolall-mihomo: true
+- name: "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F3AE\
+    ]_dokng.com_1ee853a3"
+  password: None
+  port: 9002
+  server: 84.17.47.125
+  skip-cert-verify: true
+  sni: 84.17.47.125
+  tls: true
+  type: http
+  username: "null"
+- name: "U\u26AA\U0001F3F3\uFE0Fukn[\U0001F916\U0001F52E\U0001F3B5]_dokng.com_1188f394"
+  port: 443
+  server: fan.226278.xyz
+  tls: true
+  type: http
+- client-fingerprint: safari
+  grpc-opts:
+    grpc-service-name: glush.de3.v1
+  name: "D\U0001F534\U0001F1E9\U0001F1EAhos[\U0001F916\U0001F52E\U0001F3AE\u2708\uFE0F\
+    ]_dokng.com_4186974d"
+  network: grpc
+  port: 443
+  server: luminexorizon.ink
+  servername: luminexorizon.ink
+  tls: true
+  type: vless
+  uuid: 4b50270b-5caf-4c34-b3da-17b4525604a6
+  x-toolall-mihomo: true
 - alterId: 0
   cipher: auto
-  name: "U\u26AA\U0001F3F3\uFE0Fukn_dokng.com_334192ec"
+  client-fingerprint: chrome
+  name: "U\u26AA\U0001F3F3\uFE0Fukn_dokng.com_18866abf"
   network: ws
   port: 443
-  server: 172.64.145.93
+  server: www.shopify.com
   servername: guanwang.awsno.com
-  skip-cert-verify: true
   tls: true
   type: vmess
-  udp: true
   uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
   ws-opts:
     headers:
       Host: guanwang.awsno.com
     path: /hls/cctv5phd.m3u8
   x-toolall-mihomo: true
-- name: "D\U0001F534\U0001F1EA\U0001F1E8hos_dokng.com_b7f302f8"
-  password: ''
-  port: 9443
-  server: 38.165.231.71
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-  x-toolall-mihomo: true
-- name: "D\U0001F534\U0001F1F8\U0001F1EChos[\U0001F916\U0001F4AC\U0001F3B5\U0001F3AE\
-    ]_dokng.com_185196af"
-  port: 443
-  server: 154.26.139.24
-  skip-cert-verify: true
-  tls: true
-  type: http
 - cipher: aes-256-gcm
-  name: "C\U0001F7E0\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_25decbaa"
+  name: "D\U0001F534\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F39E\
+    \uFE0F]_dokng.com_c23341c5"
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
-  server: 202.50.253.36
+  server: 202.50.253.63
+  skip-cert-verify: false
+  tls: false
   type: ss
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos_dokng.com_034ba6dd"
-  password: 75bPoRcB
-  port: 62000
-  server: 216.132.114.27
-  type: socks5
-  username: JzufiJ62
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F4AC\U0001F9E9\U0001F3B5\
-    ]_dokng.com_8302b676"
-  port: 8443
-  server: 44.248.167.117
-  skip-cert-verify: true
-  tls: true
-  type: http
   udp: true
-  x-toolall-mihomo: true
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F419]_dokng.com_4e17894f"
-  password: gs4BXwT6SW
-  port: 10988
-  server: 154.26.192.123
-  type: http
-  username: fQ67Dpe5dU
-- name: "D\U0001F534\U0001F1E9\U0001F1EAhos[\U0001F916\U0001F4AC\U0001F9E9\U0001F4FA\
-    ]_dokng.com_460e6705"
-  password: "null"
-  port: 9002
-  server: 158.173.154.5
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: "null"
-  x-toolall-mihomo: true
-- alterId: 0
-  cipher: auto
-  country: "\U0001F1FA\U0001F1F8US"
-  h2-opts: {}
-  http-opts: {}
-  name: "U\u26AA\U0001F3F3\uFE0Fukn_dokng.com_d89346f5"
-  network: ws
-  port: 443
-  server: 172.64.145.93
-  servername: guanwang.awsno.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  ws-opts:
-    headers:
-      HOST: guanwang.awsno.com
-    path: /hls/cctv5phd.m3u8
-  x-toolall-mihomo: true
-- alterId: 0
-  cipher: auto
-  name: "U\u26AA\U0001F3F3\uFE0Fukn_dokng.com_efb39810"
-  network: ws
-  port: 443
-  server: 172.67.190.164
-  servername: guanwang.awsno.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  ws-opts:
-    headers:
-      Host: guanwang.awsno.com
-    path: /hls/cctv5phd.m3u8
-  x-toolall-mihomo: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: "D\U0001F534\U0001F1E6\U0001F1FAhos[\U0001F916\U0001F4AC\U0001F52E\U0001F3B5\
-    ]_dokng.com_903be00b"
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: gCAazs5uxNuMZIxfDdw8wPE0nwKY4QfBfBkQveKAkEk
-    short-id: "0ad08b47f498efd2"
-  server: 51.161.204.244
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  uuid: 36e89875-9c53-482b-bc41-d3890e9da176
-  x-toolall-mihomo: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: "U\u26AA\U0001F3F3\uFE0Fukn[\u2708\uFE0F]_dokng.com_2ffaa05b"
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: edge.bookmai.com
-  servername: mother-earth.fyi
-  tls: true
-  type: vless
-  uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
-  x-toolall-mihomo: true
-- name: "C\U0001F7E0\U0001F1FA\U0001F1F8hos[\U0001F3AE\U0001F419]_dokng.com_e26c34b2"
-  password: https://xship.2fa.cat
-  port: 443
-  server: starlink-ft.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: hysteria2
-  x-toolall-mihomo: true
-- name: "A\U0001F7E2\U0001F1F9\U0001F1EDres[\U0001F4AC\U0001F3B5\u2708\uFE0F\U0001F50D\
-    ]_dokng.com_72bd5c3a"
-  password: mpbK00Pl
-  port: 42000
-  server: 192.204.15.192
-  type: socks5
-  username: X3s3JteD
-- name: "A\U0001F7E2\U0001F1F9\U0001F1EDres_dokng.com_021435aa"
-  password: YlRoWvE0dL_cUqS94wPeKnA4
-  port: 62000
-  server: 87.84.49.245
-  type: socks5
-  username: ks878449260d
-- cipher: aes-256-gcm
-  name: "C\U0001F7E0\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F4AC\U0001F52E\U0001F3AE\
-    ]_dokng.com_8363c287"
-  password: Lpq5UPVHtQYiuB9jEUNc2WkeIYCUH9DE
-  port: 18443
-  server: 48.103.218.241
-  type: ss
-- client-fingerprint: firefox
-  name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
-    ]_dokng.com_373eb482"
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
-    short-id: "868419504747f6de"
-  server: 84.32.54.237
-  servername: rly-gw-cfg.galioncc.com
-  tls: true
-  type: vless
-  uuid: a30903dc-1bf0-4be5-8b1b-603a3a56211c
   x-toolall-mihomo: true
 - name: "D\U0001F534\U0001F1EF\U0001F1F5hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9\
     ]_dokng.com_9d3ee5ab"
@@ -2201,45 +923,6 @@ proxies:
   server: fan.571589.xyz
   tls: true
   type: http
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F4AC\U0001F3AE\U0001F50D\
-    ]_dokng.com_fccd5dab"
-  port: 7615
-  server: 47.90.206.169
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F4AC\U0001F52E\U0001F3B5\
-    ]_dokng.com_853162e1"
-  port: 443
-  server: 38.247.141.135
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: "C\U0001F7E0\U0001F1EA\U0001F1F8hos[\U0001F916\U0001F52E\U0001F3B5\U0001F3AE\
-    ]_dokng.com_44d86972"
-  port: 443
-  reality-opts:
-    public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
-    short-id: "42426c882c5fcd41"
-  server: 196.196.149.80
-  servername: 7aa271t.es1.h1clayd.click
-  skip-cert-verify: true
-  sni: 7aa271t.es1.h1clayd.click
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-  x-toolall-mihomo: true
-- name: "A\U0001F7E2\U0001F1F9\U0001F1EDres[\U0001F4FA]_dokng.com_a8d802b0"
-  password: Ks4Iab43
-  port: 42000
-  server: 82.47.152.44
-  type: socks5
-  username: userLjVB
 - name: "\u8BF4\u660E-\u6765\u6E90: Ruk1ng001/freeSub"
   type: trojan
   server: 127.0.0.1
@@ -2248,14 +931,14 @@ proxies:
   udp: true
   skip-cert-verify: true
 - name: "\u8BF4\u660E-\u6E05\u6D17\u7ED3\u679C: \u6E05\u7406 0 \u4E2A\u8282\u70B9\u3001\
-    \u4FEE\u590D 0 \u5904\u5F15\u7528\u3001\u8F6C\u8BD1 3257 \u4E2A\u5B57\u7B26"
+    \u4FEE\u590D 0 \u5904\u5F15\u7528\u3001\u8F6C\u8BD1 1715 \u4E2A\u5B57\u7B26"
   type: trojan
   server: 127.0.0.1
   port: 443
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-11-18 14:13 (CST)"
+- name: "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-11-19 00:58 (CST)"
   type: trojan
   server: 127.0.0.1
   port: 443
@@ -2282,8 +965,8 @@ proxy-groups:
   proxies:
   - "\u8BF4\u660E-\u6765\u6E90: Ruk1ng001/freeSub"
   - "\u8BF4\u660E-\u6E05\u6D17\u7ED3\u679C: \u6E05\u7406 0 \u4E2A\u8282\u70B9\u3001\
-    \u4FEE\u590D 0 \u5904\u5F15\u7528\u3001\u8F6C\u8BD1 3257 \u4E2A\u5B57\u7B26"
-  - "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-11-18 14:13 (CST)"
+    \u4FEE\u590D 0 \u5904\u5F15\u7528\u3001\u8F6C\u8BD1 1715 \u4E2A\u5B57\u7B26"
+  - "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-11-19 00:58 (CST)"
   - "\u8BF4\u660E-\u4F5C\u8005: wzmwayne"
   - "\u8BF4\u660E-\u4ED3\u5E93: https://github.com/wzmwayne/proxy-node"
 - name: "\u267B\uFE0F"
@@ -2293,200 +976,85 @@ proxy-groups:
   tolerance: 50
   lazy: true
   proxies:
-  - "A\U0001F7E2\U0001F1F5\U0001F1EDres[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_97fafe0f"
-  - "C\U0001F7E0\U0001F1EF\U0001F1F5hos[\U0001F916\U0001F4AC\U0001F9E9\U0001F3AD]_dokng.com_55f04018"
-  - "C\U0001F7E0\U0001F1E9\U0001F1EAhos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_e6782845"
-  - "U\u26AA\U0001F3F3\uFE0Fukn[\u2708\uFE0F]_dokng.com_ad6105c9"
-  - "C\U0001F7E0\U0001F1F8\U0001F1EAhos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_4b500dbb"
-  - "U\u26AA\U0001F3F3\uFE0Fukn[\u2708\uFE0F]_dokng.com_96102a68"
-  - "D\U0001F534\U0001F1E9\U0001F1EAhos[\U0001F916\U0001F4AC\U0001F9E9\U0001F3B5]_dokng.com_0ed63a74"
-  - "D\U0001F534\U0001F1F8\U0001F1EChos_dokng.com_731ac5ff"
-  - "D\U0001F534\U0001F1F8\U0001F1EAhos[\U0001F916\U0001F4AC\U0001F52E\U0001F3B5]_dokng.com_180c9335"
-  - "A\U0001F7E2\U0001F1EB\U0001F1F7res[\U0001F916\U0001F4AC\U0001F9E9\U0001F4FA]_dokng.com_76a5a58b"
-  - "C\U0001F7E0\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F4AC\U0001F9E9\U0001F3AD]_dokng.com_0510e64e"
-  - "D\U0001F534\U0001F1EB\U0001F1F7hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_262bcecb"
-  - "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F916\U0001F4AC\U0001F9E9\U0001F3AD]_dokng.com_b3396cd6"
-  - "D\U0001F534\U0001F1EE\U0001F1EAhos[\U0001F4FA\U0001F3B5]_dokng.com_e2bb935e"
-  - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_05011d06"
-  - "D\U0001F534\U0001F1EB\U0001F1F7hos[\U0001F4FA\U0001F3AD\U0001F3B5]_dokng.com_9f8b9b65"
-  - "C\U0001F7E0\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F9E9\U0001F4FA]_dokng.com_3744e5a8"
-  - "D\U0001F534\U0001F1F5\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_78351b27"
-  - "C\U0001F7E0\U0001F1F8\U0001F1EAhos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_aa5218c2"
-  - "A\U0001F7E2\U0001F1F5\U0001F1F1res[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_3814084d"
-  - "D\U0001F534\U0001F1F9\U0001F1EDhos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_8da68037"
-  - "C\U0001F7E0\U0001F1F8\U0001F1EAhos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_53c913e6"
-  - "D\U0001F534\U0001F1F1\U0001F1FBhos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_a0b4e075"
-  - "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_86fd6822"
-  - "D\U0001F534\U0001F1EB\U0001F1F7hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_c3325e1b"
-  - "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_e6da0f6d"
-  - "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_fb4e77e4"
-  - "D\U0001F534\U0001F1F1\U0001F1FBhos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_21c34602"
-  - "D\U0001F534\U0001F1E9\U0001F1F0hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_1ed30155"
-  - "A\U0001F7E2\U0001F1F0\U0001F1FFres[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_b5a90094"
-  - "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F4FA]_dokng.com_f03b1640"
-  - "C\U0001F7E0\U0001F1F8\U0001F1EAhos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_bfe9f443"
-  - "A\U0001F7E2\U0001F1F8\U0001F1E6res[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_e6d3af00"
-  - "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_eaf068c9"
-  - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_8df65cc3"
-  - "D\U0001F534\U0001F1E9\U0001F1EAhos[\U0001F916\U0001F4AC\U0001F9E9\U0001F3B5]_dokng.com_f53c6917"
-  - "D\U0001F534\U0001F1E9\U0001F1EAhos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_92e8593b"
-  - "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_f6303636"
-  - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_13889823"
-  - "C\U0001F7E0\U0001F1E8\U0001F1E6hos[\U0001F916\U0001F4AC\U0001F9E9\U0001F3B5]_dokng.com_00bc9137"
-  - "U\u26AA\U0001F1F8\U0001F1EAukn[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_e84afe32"
+  - "D\U0001F534\U0001F1F0\U0001F1F7hos[\U0001F52E\U0001F3B5\U0001F4DA]_dokng.com_f7be86c8"
+  - "C\U0001F7E0\U0001F1F7\U0001F1FAhos[\U0001F52E\U0001F3AE\u2708\uFE0F\U0001F50D\
+    ]_dokng.com_6aa562cc"
+  - "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_9986f45d"
+  - "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F3B5]_dokng.com_33ffe908"
+  - "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F4E6]_dokng.com_47dbdd00"
+  - "D\U0001F534\U0001F1EE\U0001F1EAhos[\U0001F916\U0001F4AC\U0001F3AE\u2708\uFE0F\
+    ]_dokng.com_37e4a848"
+  - "D\U0001F534\U0001F1EB\U0001F1F7hos[\U0001F4FA]_dokng.com_238d1eea"
+  - "D\U0001F534\U0001F1E6\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_8408eb8a"
+  - "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F3B5]_dokng.com_f6303636"
+  - "C\U0001F7E0\U0001F1F7\U0001F1FAhos[\U0001F52E\U0001F3AE\u2708\uFE0F\U0001F50D\
+    ]_dokng.com_79432583"
+  - "C\U0001F7E0\U0001F1F7\U0001F1FAhos[\U0001F52E\U0001F3AE\U0001F50D]_dokng.com_84ca1557"
+  - "D\U0001F534\U0001F1EF\U0001F1F5hos_dokng.com_4900a88a"
+  - "D\U0001F534\U0001F1F8\U0001F1EAhos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_180c9335"
+  - "C\U0001F7E0\U0001F1EE\U0001F1F9hos[\U0001F4FA]_dokng.com_c9cdfff6"
+  - "C\U0001F7E0\U0001F1E9\U0001F1EAhos[\U0001F916\U0001F4AC\U0001F9E9\U0001F4FA]_dokng.com_fc3b3a41"
+  - "D\U0001F534\U0001F1F5\U0001F1EDhos_dokng.com_19b515e6"
   - "D\U0001F534\U0001F1FA\U0001F1F8hos_dokng.com_a6052a43"
+  - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_0cb09444"
   - "D\U0001F534\U0001F1E8\U0001F1FFhos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_654d560d"
-  - "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_461db3e8"
-  - "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_5a16ef58"
-  - "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_33ffe908"
-  - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_4cc7e454"
-  - "D\U0001F534\U0001F1F3\U0001F1F4hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_573c8c9f"
-  - "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_7a217f0f"
-  - "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_387205ed"
-  - "C\U0001F7E0\U0001F1EC\U0001F1F7hos[\U0001F4FA\U0001F3B5]_dokng.com_8d8bfa9f"
-  - "U\u26AA\U0001F3F3\uFE0Fukn_dokng.com_83529b9e"
-  - "D\U0001F534\U0001F1EB\U0001F1F7hos[\U0001F916\U0001F4AC\U0001F9E9\U0001F3B5]_dokng.com_62c630f3"
-  - "U\u26AA\U0001F1F3\U0001F1F1ukn[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_1b492461"
-  - "A\U0001F7E2\U0001F1F2\U0001F1FDres_dokng.com_24835ec5"
-  - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_d37c7415"
-  - "D\U0001F534\U0001F1F7\U0001F1FAhos[\U0001F52E\U0001F419\U0001F50D\U0001F4DA]_dokng.com_991270c1"
-  - "C\U0001F7E0\U0001F1F2\U0001F1FDhos_dokng.com_445b01af"
-  - "U\u26AA\U0001F3F3\uFE0Fukn[\u2708\uFE0F]_dokng.com_73523249"
-  - "U\u26AA\U0001F3F3\uFE0Fukn[\u2708\uFE0F]_dokng.com_5deb6c23"
-  - "U\u26AA\U0001F1EF\U0001F1F5ukn[\U0001F916\U0001F4AC\U0001F9E9\U0001F4FA]_dokng.com_9d5e5d0d"
-  - "D\U0001F534\U0001F1E8\U0001F1FFhos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_038587d2"
-  - "A\U0001F7E2\U0001F1F2\U0001F1FDres_dokng.com_1aa34d5e"
-  - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F4FA]_dokng.com_6de72c54"
-  - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_6d6b41c5"
-  - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F4FA]_dokng.com_568f056a"
-  - "A\U0001F7E2\U0001F1EC\U0001F1E7res[\U0001F916\U0001F4AC\U0001F9E9\U0001F4FA]_dokng.com_13d215ab"
-  - "U\u26AA\U0001F3F3\uFE0Fukn[\u2708\uFE0F]_dokng.com_cb10e9d7"
-  - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_ffebf486"
-  - "D\U0001F534\U0001F1F7\U0001F1FAhos[\U0001F52E\U0001F3B5\U0001F3AE\u2708\uFE0F\
-    ]_dokng.com_03de321c"
-  - "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_47dbdd00"
-  - "C\U0001F7E0\U0001F1EC\U0001F1E7hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_7c18af79"
-  - "D\U0001F534\U0001F1E9\U0001F1EAhos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_abbba1fa"
-  - "C\U0001F7E0\U0001F1E8\U0001F1E6hos_dokng.com_8a105a38"
-  - "D\U0001F534\U0001F1F7\U0001F1F4hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_202aca3d"
-  - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AE]_dokng.com_343ae4aa"
-  - "C\U0001F7E0\U0001F1F7\U0001F1FAhos[\U0001F52E\U0001F419\U0001F50D\U0001F4DA]_dokng.com_f0ef6c34"
-  - "D\U0001F534\U0001F1F8\U0001F1EChos_dokng.com_c8c444fd"
-  - "C\U0001F7E0\U0001F1F2\U0001F1FDhos_dokng.com_d123f47b"
-  - "C\U0001F7E0\U0001F1EC\U0001F1F7hos[\U0001F916\U0001F4AC\U0001F9E9\U0001F4FA]_dokng.com_4cc1e630"
-  - "U\u26AA\U0001F3F3\uFE0Fukn_dokng.com_fa0120b9"
-  - "D\U0001F534\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_e7fda757"
-  - "C\U0001F7E0\U0001F1EE\U0001F1F3hos[\U0001F916\U0001F4AC\U0001F9E9\U0001F3B5]_dokng.com_54aa8a9f"
-  - "C\U0001F7E0\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_56da3c2d"
-  - "D\U0001F534\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_544fdd46"
-  - "C\U0001F7E0\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_9eaca6a6"
-  - "D\U0001F534\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_c23341c5"
-  - "D\U0001F534\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_2e294afd"
-  - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_1188f394"
-  - "C\U0001F7E0\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_ed9e5a0d"
-  - "A\U0001F7E2\U0001F1FF\U0001F1E6res[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_05c3a70c"
-  - "C\U0001F7E0\U0001F1E8\U0001F1EDhos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_c1500362"
-  - "C\U0001F7E0\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_c9cdfff6"
-  - "C\U0001F7E0\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_379449c0"
-  - "C\U0001F7E0\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_30207bf9"
-  - "U\u26AA\U0001F3F3\uFE0Fukn[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_656b80b8"
-  - "D\U0001F534\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_3bb0f43a"
-  - "D\U0001F534\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_a7740ab5"
-  - "D\U0001F534\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_444fcb7f"
-  - "A\U0001F7E2\U0001F1E6\U0001F1F7res[\U0001F916\U0001F4AC\U0001F52E\U0001F4FA]_dokng.com_8261826b"
-  - "D\U0001F534\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_e690e14e"
-  - "U\u26AA\U0001F3F3\uFE0Fukn_dokng.com_99fcd799"
-  - "D\U0001F534\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F4FA]_dokng.com_ed4de7bb"
-  - "C\U0001F7E0\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_92c172b4"
-  - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_582c323a"
-  - "D\U0001F534\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_8817c7e2"
-  - "D\U0001F534\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_8c1c6b5a"
-  - "C\U0001F7E0\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_07162a4c"
-  - "D\U0001F534\U0001F1EE\U0001F1EAhos[\U0001F916\U0001F4AC\U0001F9E9\U0001F3B5]_dokng.com_37e4a848"
-  - "U\u26AA\U0001F3F3\uFE0Fukn_dokng.com_f7be86c8"
-  - "C\U0001F7E0\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_885d389b"
-  - "D\U0001F534\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_f2a1583b"
-  - "U\u26AA\U0001F3F3\uFE0Fukn_dokng.com_cebe1823"
-  - "D\U0001F534\U0001F1EB\U0001F1F7hos[\U0001F916\U0001F4AC\U0001F52E\U0001F3B5]_dokng.com_d04a31b7"
-  - "D\U0001F534\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_48d202d9"
-  - "D\U0001F534\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_04af617c"
-  - "A\U0001F7E2\U0001F1F9\U0001F1EDres_dokng.com_63f8b36e"
-  - "C\U0001F7E0\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_7441ad35"
-  - "A\U0001F7E2\U0001F1F9\U0001F1EDres_dokng.com_affc047b"
-  - "U\u26AA\U0001F3F3\uFE0Fukn_dokng.com_275e588f"
-  - "A\U0001F7E2\U0001F1F9\U0001F1EDres[\U0001F3B5\U0001F3AE\U0001F50D]_dokng.com_da6cca38"
-  - "D\U0001F534\U0001F1EF\U0001F1F5hos[\U0001F916\U0001F52E\U0001F3B5\U0001F3AE]_dokng.com_4900a88a"
-  - "C\U0001F7E0\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_04808d3a"
-  - "D\U0001F534\U0001F1FB\U0001F1F3hos[\U0001F916\U0001F4AC\U0001F52E\U0001F4FA]_dokng.com_c355101a"
-  - "A\U0001F7E2\U0001F1F9\U0001F1EDres_dokng.com_bf81894b"
-  - "D\U0001F534\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_d027a441"
-  - "C\U0001F7E0\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_0aff9cf2"
-  - "A\U0001F7E2\U0001F1F9\U0001F1EDres_dokng.com_18746d5d"
-  - "A\U0001F7E2\U0001F1F9\U0001F1EDres_dokng.com_3740a210"
-  - "D\U0001F534\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_8ed40d75"
-  - "C\U0001F7E0\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_641a38ed"
-  - "D\U0001F534\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_ae9a4420"
-  - "C\U0001F7E0\U0001F1F2\U0001F1FDhos_dokng.com_aff11c5d"
-  - "C\U0001F7E0\U0001F1E7\U0001F1F7hos[\U0001F916\U0001F4AC\U0001F3B5\U0001F3AE]_dokng.com_a7fea21d"
-  - "D\U0001F534\U0001F1F1\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F3B5]_dokng.com_747fd292"
-  - "C\U0001F7E0\U0001F1F7\U0001F1F4hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_9ba1e05c"
-  - "C\U0001F7E0\U0001F1E6\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F3B5]_dokng.com_8a208f4c"
-  - "A\U0001F7E2\U0001F1E7\U0001F1F7res[\U0001F50D]_dokng.com_dbd9f715"
-  - "A\U0001F7E2\U0001F1F9\U0001F1EDres_dokng.com_5d41bcce"
-  - "D\U0001F534\U0001F1ED\U0001F1F0hos[\U0001F9E9\U0001F3B5\U0001F3AE\u2708\uFE0F\
-    ]_dokng.com_6624eea7"
-  - "A\U0001F7E2\U0001F1F9\U0001F1EDres[\U0001F50D]_dokng.com_a8a9e262"
-  - "D\U0001F534\U0001F1ED\U0001F1F0hos_dokng.com_a4a827b8"
-  - "C\U0001F7E0\U0001F1E6\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F3B5]_dokng.com_e0876948"
-  - "A\U0001F7E2\U0001F1EE\U0001F1E9res[\U0001F4AC]_dokng.com_5f6d4e46"
-  - "C\U0001F7E0\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_d02c5ccc"
-  - "A\U0001F7E2\U0001F1FB\U0001F1F3res_dokng.com_8b68a714"
-  - "U\u26AA\U0001F3F3\uFE0Fukn_dokng.com_ba3b7ea2"
-  - "C\U0001F7E0\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_79faec8a"
-  - "A\U0001F7E2\U0001F1FA\U0001F1F8res[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_f9ee2780"
-  - "C\U0001F7E0\U0001F1EA\U0001F1F8hos[\U0001F916\U0001F4AC\U0001F52E\U0001F3B5]_dokng.com_c851b7e4"
-  - "C\U0001F7E0\U0001F1EA\U0001F1F8hos[\U0001F4AC\U0001F52E\U0001F3AE\u2708\uFE0F\
-    ]_dokng.com_f8fb5ad9"
-  - "C\U0001F7E0\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F3AE]_dokng.com_a73acf88"
-  - "U\u26AA\U0001F3F3\uFE0Fukn_dokng.com_49e1aa4a"
-  - "C\U0001F7E0\U0001F1F2\U0001F1FDhos[\U0001F4FA]_dokng.com_8d9836d8"
-  - "A\U0001F7E2\U0001F1EE\U0001F1E9res[\U0001F916\U0001F4AC\U0001F52E\U0001F3B5]_dokng.com_85aa1e0b"
-  - "C\U0001F7E0\U0001F1F9\U0001F1EDhos_dokng.com_5acf8d13"
-  - "C\U0001F7E0\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_20e3bf5a"
-  - "D\U0001F534\U0001F1E6\U0001F1FAhos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_0371e9d8"
-  - "D\U0001F534\U0001F1F2\U0001F1FDhos_dokng.com_e24c2bfd"
-  - "C\U0001F7E0\U0001F1FA\U0001F1F8hos_dokng.com_67802e55"
-  - "C\U0001F7E0\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F4AC\U0001F52E\U0001F3AE]_dokng.com_3c052db8"
-  - "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_899fc334"
-  - "D\U0001F534\U0001F1EA\U0001F1E8hos_dokng.com_b7f302f8"
-  - "C\U0001F7E0\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_25decbaa"
-  - "D\U0001F534\U0001F1FA\U0001F1F8hos_dokng.com_034ba6dd"
-  - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F4AC\U0001F9E9\U0001F3B5]_dokng.com_8302b676"
-  - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F419]_dokng.com_4e17894f"
-  - "D\U0001F534\U0001F1E9\U0001F1EAhos[\U0001F916\U0001F4AC\U0001F9E9\U0001F4FA]_dokng.com_460e6705"
-  - "U\u26AA\U0001F3F3\uFE0Fukn_dokng.com_d89346f5"
-  - "U\u26AA\U0001F3F3\uFE0Fukn_dokng.com_efb39810"
-  - "D\U0001F534\U0001F1E6\U0001F1FAhos[\U0001F916\U0001F4AC\U0001F52E\U0001F3B5]_dokng.com_903be00b"
-  - "U\u26AA\U0001F3F3\uFE0Fukn[\u2708\uFE0F]_dokng.com_2ffaa05b"
-  - "C\U0001F7E0\U0001F1FA\U0001F1F8hos[\U0001F3AE\U0001F419]_dokng.com_e26c34b2"
-  - "A\U0001F7E2\U0001F1F9\U0001F1EDres[\U0001F4AC\U0001F3B5\u2708\uFE0F\U0001F50D\
-    ]_dokng.com_72bd5c3a"
+  - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_13889823"
+  - "D\U0001F534\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F3AE]_dokng.com_e690e14e"
+  - "D\U0001F534\U0001F1EE\U0001F1F9hos[\U0001F4FA\U0001F3AE\U0001F50D]_dokng.com_8ed40d75"
+  - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F3B5\u2708\uFE0F\U0001F419\
+    ]_dokng.com_016d9dc7"
+  - "C\U0001F7E0\U0001F1EF\U0001F1F5hos[\U0001F916\U0001F4AC\u2708\uFE0F\U0001F50D\
+    ]_dokng.com_e7a3bbb0"
+  - "C\U0001F7E0\U0001F1EC\U0001F1F7hos[\U0001F916\U0001F4AC\U0001F3B5]_dokng.com_4cc1e630"
+  - "D\U0001F534\U0001F1F8\U0001F1EChos[\U0001F916\U0001F4AC\U0001F52E\U0001F3B5]_dokng.com_185196af"
+  - "D\U0001F534\U0001F1EB\U0001F1F7hos[\U0001F916\U0001F4AC\U0001F52E\U0001F3AE]_dokng.com_a19a479b"
+  - "U\u26AA\U0001F3F3\uFE0Fukn_dokng.com_5bde06c7"
+  - "C\U0001F7E0\U0001F1EC\U0001F1F7hos[\U0001F916\U0001F4FA\U0001F3B5]_dokng.com_8d8bfa9f"
+  - "C\U0001F7E0\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F9E9\U0001F4FA]_dokng.com_3744e5a8"
+  - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F4AC\U0001F3B5\U0001F39E\uFE0F\
+    ]_dokng.com_6d6b41c5"
+  - "D\U0001F534\U0001F1EF\U0001F1F5hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_0f4839b8"
+  - "A\U0001F7E2\U0001F1F9\U0001F1EDres[\U0001F916\U0001F52E\U0001F3AE\U0001F419]_dokng.com_8be67b1a"
+  - "D\U0001F534\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F52E\U0001F9E9\U0001F3B5]_dokng.com_ed4de7bb"
+  - "A\U0001F7E2\U0001F1F9\U0001F1EDres_dokng.com_441fecdf"
+  - "D\U0001F534\U0001F1FA\U0001F1F8hos_dokng.com_342cda1e"
+  - "D\U0001F534\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F3B5]_dokng.com_3bb0f43a"
+  - "C\U0001F7E0\U0001F1F2\U0001F1FDhos[\U0001F50D]_dokng.com_aff11c5d"
+  - "D\U0001F534\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F50D]_dokng.com_544fdd46"
+  - "D\U0001F534\U0001F1F8\U0001F1EChos[\U0001F52E\U0001F3B5]_dokng.com_c8c444fd"
+  - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F4AC\U0001F52E\U0001F3B5]_dokng.com_ffebf486"
+  - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F52E\U0001F4FA]_dokng.com_4cc7e454"
   - "A\U0001F7E2\U0001F1F9\U0001F1EDres_dokng.com_021435aa"
-  - "C\U0001F7E0\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F4AC\U0001F52E\U0001F3AE]_dokng.com_8363c287"
-  - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_373eb482"
+  - "C\U0001F7E0\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F3B5]_dokng.com_04808d3a"
+  - "C\U0001F7E0\U0001F1EF\U0001F1F5hos[\U0001F916\U0001F4AC\U0001F9E9\U0001F4FA]_dokng.com_049fa9f2"
+  - "C\U0001F7E0\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F4FA]_dokng.com_57445a13"
+  - "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F4FA]_dokng.com_c6134407"
+  - "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F4E6]_dokng.com_5a16ef58"
+  - "C\U0001F7E0\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F3AE]_dokng.com_07162a4c"
+  - "U\u26AA\U0001F3F3\uFE0Fukn[\U0001F916\U0001F4AC\U0001F9E9\U0001F3AE]_dokng.com_78065240"
+  - "D\U0001F534\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\u2708\uFE0F\
+    ]_dokng.com_48d202d9"
+  - "U\u26AA\U0001F3F3\uFE0Fukn[\U0001F4AC\U0001F3AE\U0001F4DA]_dokng.com_92c172b4"
+  - "C\U0001F7E0\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F4AC\U0001F3AE\u2708\uFE0F\
+    ]_dokng.com_3803d1d0"
+  - "C\U0001F7E0\U0001F1FA\U0001F1F8hos[\U0001F52E\U0001F4FA\U0001F3B5\U0001F3AE]_dokng.com_379449c0"
+  - "D\U0001F534\U0001F1F8\U0001F1EChos[\U0001F3AE\u2708\uFE0F\U0001F419\U0001F50D\
+    ]_dokng.com_f56c2037"
+  - "A\U0001F7E2\U0001F1F9\U0001F1EDres[\U0001F3AE\u2708\uFE0F]_dokng.com_bf81894b"
+  - "D\U0001F534\U0001F1FA\U0001F1F8hos_dokng.com_60b20da2"
+  - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AE\U0001F419]_dokng.com_4e17894f"
+  - "A\U0001F7E2\U0001F1F8\U0001F1ECres[\U0001F4AC]_dokng.com_903162eb"
+  - "A\U0001F7E2\U0001F1F2\U0001F1FDres_dokng.com_1aa34d5e"
+  - "C\U0001F7E0\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F3AE]_dokng.com_30207bf9"
+  - "D\U0001F534\U0001F1FA\U0001F1F8hos_dokng.com_3dc5b537"
+  - "C\U0001F7E0\U0001F1F2\U0001F1FDhos_dokng.com_12126395"
+  - "C\U0001F7E0\U0001F1EF\U0001F1F5hos[\U0001F916\U0001F4AC\U0001F9E9\U0001F4FA]_dokng.com_6e4dfdc6"
+  - "U\u26AA\U0001F3F3\uFE0Fukn[\U0001F3AE\u2708\uFE0F\U0001F50D\U0001F4DA]_dokng.com_899fc334"
+  - "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F3AE]_dokng.com_1ee853a3"
+  - "U\u26AA\U0001F3F3\uFE0Fukn[\U0001F916\U0001F52E\U0001F3B5]_dokng.com_1188f394"
+  - "D\U0001F534\U0001F1E9\U0001F1EAhos[\U0001F916\U0001F52E\U0001F3AE\u2708\uFE0F\
+    ]_dokng.com_4186974d"
   - "D\U0001F534\U0001F1EF\U0001F1F5hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_9d3ee5ab"
-  - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F4AC\U0001F52E\U0001F3B5]_dokng.com_853162e1"
-  - "A\U0001F7E2\U0001F1F9\U0001F1EDres[\U0001F4FA]_dokng.com_a8d802b0"
-- name: "\U0001F1ED\U0001F1F0"
-  type: fallback
-  url: https://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 50
-  lazy: true
-  proxies:
-  - "D\U0001F534\U0001F1ED\U0001F1F0hos[\U0001F9E9\U0001F3B5\U0001F3AE\u2708\uFE0F\
-    ]_dokng.com_6624eea7"
-  - "\u267B\uFE0F"
 - name: "\U0001F1EF\U0001F1F5"
   type: fallback
   url: https://www.gstatic.com/generate_204
@@ -2494,7 +1062,7 @@ proxy-groups:
   tolerance: 80
   lazy: true
   proxies:
-  - "C\U0001F7E0\U0001F1EF\U0001F1F5hos[\U0001F916\U0001F4AC\U0001F9E9\U0001F3AD]_dokng.com_55f04018"
+  - "D\U0001F534\U0001F1EF\U0001F1F5hos_dokng.com_4900a88a"
   - "\u267B\uFE0F"
 - name: "\U0001F1F8\U0001F1EC"
   type: fallback
@@ -2503,7 +1071,7 @@ proxy-groups:
   tolerance: 80
   lazy: true
   proxies:
-  - "D\U0001F534\U0001F1F8\U0001F1EChos_dokng.com_731ac5ff"
+  - "D\U0001F534\U0001F1F8\U0001F1EChos[\U0001F916\U0001F4AC\U0001F52E\U0001F3B5]_dokng.com_185196af"
   - "\u267B\uFE0F"
 - name: "\U0001F1FA\U0001F1F8"
   type: fallback
@@ -2512,7 +1080,16 @@ proxy-groups:
   tolerance: 150
   lazy: true
   proxies:
-  - "C\U0001F7E0\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F4AC\U0001F9E9\U0001F3AD]_dokng.com_0510e64e"
+  - "D\U0001F534\U0001F1FA\U0001F1F8hos_dokng.com_a6052a43"
+  - "\u267B\uFE0F"
+- name: "\U0001F1F0\U0001F1F7"
+  type: fallback
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 100
+  lazy: true
+  proxies:
+  - "D\U0001F534\U0001F1F0\U0001F1F7hos[\U0001F52E\U0001F3B5\U0001F4DA]_dokng.com_f7be86c8"
   - "\u267B\uFE0F"
 - name: "\U0001F3AC"
   type: fallback
@@ -2521,7 +1098,6 @@ proxy-groups:
   tolerance: 150
   lazy: true
   proxies:
-  - "\U0001F1ED\U0001F1F0"
   - "\U0001F1F8\U0001F1EC"
   - "\U0001F1EF\U0001F1F5"
   - "\u267B\uFE0F"
@@ -2532,7 +1108,7 @@ proxy-groups:
   tolerance: 100
   lazy: true
   proxies:
-  - "A\U0001F7E2\U0001F1F5\U0001F1EDres[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_97fafe0f"
+  - "D\U0001F534\U0001F1EB\U0001F1F7hos[\U0001F4FA]_dokng.com_238d1eea"
   - "\u267B\uFE0F"
 - name: "\U0001F3AD"
   type: fallback
@@ -2541,27 +1117,7 @@ proxy-groups:
   tolerance: 150
   lazy: true
   proxies:
-  - "A\U0001F7E2\U0001F1F5\U0001F1EDres[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_97fafe0f"
-  - "C\U0001F7E0\U0001F1EF\U0001F1F5hos[\U0001F916\U0001F4AC\U0001F9E9\U0001F3AD]_dokng.com_55f04018"
-  - "C\U0001F7E0\U0001F1E9\U0001F1EAhos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_e6782845"
-  - "A\U0001F7E2\U0001F1EB\U0001F1F7res[\U0001F916\U0001F4AC\U0001F9E9\U0001F4FA]_dokng.com_76a5a58b"
-  - "C\U0001F7E0\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F4AC\U0001F9E9\U0001F3AD]_dokng.com_0510e64e"
-  - "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F916\U0001F4AC\U0001F9E9\U0001F3AD]_dokng.com_b3396cd6"
-  - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_05011d06"
-  - "D\U0001F534\U0001F1EB\U0001F1F7hos[\U0001F4FA\U0001F3AD\U0001F3B5]_dokng.com_9f8b9b65"
-  - "C\U0001F7E0\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F9E9\U0001F4FA]_dokng.com_3744e5a8"
-  - "D\U0001F534\U0001F1F5\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_78351b27"
-  - "C\U0001F7E0\U0001F1F8\U0001F1EAhos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_aa5218c2"
-  - "D\U0001F534\U0001F1F9\U0001F1EDhos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_8da68037"
-  - "C\U0001F7E0\U0001F1F8\U0001F1EAhos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_53c913e6"
-  - "D\U0001F534\U0001F1EB\U0001F1F7hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_c3325e1b"
-  - "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_e6da0f6d"
-  - "D\U0001F534\U0001F1E9\U0001F1F0hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_1ed30155"
-  - "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F4FA]_dokng.com_f03b1640"
-  - "C\U0001F7E0\U0001F1F8\U0001F1EAhos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_bfe9f443"
-  - "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_eaf068c9"
-  - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_8df65cc3"
-  - "\U0001F1ED\U0001F1F0"
+  - "D\U0001F534\U0001F1F8\U0001F1EAhos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_180c9335"
   - "\U0001F1F8\U0001F1EC"
   - "\u267B\uFE0F"
 - name: "\U0001F3B5"
@@ -2571,26 +1127,26 @@ proxy-groups:
   tolerance: 80
   lazy: true
   proxies:
-  - "C\U0001F7E0\U0001F1EF\U0001F1F5hos[\U0001F916\U0001F4AC\U0001F9E9\U0001F3AD]_dokng.com_55f04018"
-  - "C\U0001F7E0\U0001F1F8\U0001F1EAhos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_4b500dbb"
-  - "D\U0001F534\U0001F1E9\U0001F1EAhos[\U0001F916\U0001F4AC\U0001F9E9\U0001F3B5]_dokng.com_0ed63a74"
-  - "A\U0001F7E2\U0001F1EB\U0001F1F7res[\U0001F916\U0001F4AC\U0001F9E9\U0001F4FA]_dokng.com_76a5a58b"
-  - "C\U0001F7E0\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F4AC\U0001F9E9\U0001F3AD]_dokng.com_0510e64e"
-  - "D\U0001F534\U0001F1EB\U0001F1F7hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_262bcecb"
-  - "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F916\U0001F4AC\U0001F9E9\U0001F3AD]_dokng.com_b3396cd6"
-  - "D\U0001F534\U0001F1EE\U0001F1EAhos[\U0001F4FA\U0001F3B5]_dokng.com_e2bb935e"
-  - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_05011d06"
-  - "D\U0001F534\U0001F1EB\U0001F1F7hos[\U0001F4FA\U0001F3AD\U0001F3B5]_dokng.com_9f8b9b65"
+  - "D\U0001F534\U0001F1F0\U0001F1F7hos[\U0001F52E\U0001F3B5\U0001F4DA]_dokng.com_f7be86c8"
+  - "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F3B5]_dokng.com_33ffe908"
+  - "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F3B5]_dokng.com_f6303636"
+  - "D\U0001F534\U0001F1F8\U0001F1EAhos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_180c9335"
+  - "C\U0001F7E0\U0001F1E9\U0001F1EAhos[\U0001F916\U0001F4AC\U0001F9E9\U0001F4FA]_dokng.com_fc3b3a41"
+  - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_0cb09444"
+  - "D\U0001F534\U0001F1E8\U0001F1FFhos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_654d560d"
+  - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_13889823"
+  - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F3B5\u2708\uFE0F\U0001F419\
+    ]_dokng.com_016d9dc7"
+  - "C\U0001F7E0\U0001F1EC\U0001F1F7hos[\U0001F916\U0001F4AC\U0001F3B5]_dokng.com_4cc1e630"
+  - "D\U0001F534\U0001F1F8\U0001F1EChos[\U0001F916\U0001F4AC\U0001F52E\U0001F3B5]_dokng.com_185196af"
+  - "C\U0001F7E0\U0001F1EC\U0001F1F7hos[\U0001F916\U0001F4FA\U0001F3B5]_dokng.com_8d8bfa9f"
   - "C\U0001F7E0\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F9E9\U0001F4FA]_dokng.com_3744e5a8"
-  - "D\U0001F534\U0001F1F5\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_78351b27"
-  - "C\U0001F7E0\U0001F1F8\U0001F1EAhos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_aa5218c2"
-  - "A\U0001F7E2\U0001F1F5\U0001F1F1res[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_3814084d"
-  - "D\U0001F534\U0001F1F9\U0001F1EDhos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_8da68037"
-  - "C\U0001F7E0\U0001F1F8\U0001F1EAhos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_53c913e6"
-  - "D\U0001F534\U0001F1F1\U0001F1FBhos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_a0b4e075"
-  - "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_86fd6822"
-  - "D\U0001F534\U0001F1EB\U0001F1F7hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_c3325e1b"
-  - "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_e6da0f6d"
+  - "D\U0001F534\U0001F1EF\U0001F1F5hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_0f4839b8"
+  - "D\U0001F534\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F52E\U0001F9E9\U0001F3B5]_dokng.com_ed4de7bb"
+  - "D\U0001F534\U0001F1F8\U0001F1EChos[\U0001F52E\U0001F3B5]_dokng.com_c8c444fd"
+  - "C\U0001F7E0\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F3B5]_dokng.com_04808d3a"
+  - "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F4FA]_dokng.com_c6134407"
+  - "C\U0001F7E0\U0001F1EF\U0001F1F5hos[\U0001F916\U0001F4AC\U0001F9E9\U0001F4FA]_dokng.com_6e4dfdc6"
   - "\u267B\uFE0F"
 - name: "\U0001F3AA"
   type: fallback
@@ -2618,7 +1174,7 @@ proxy-groups:
   tolerance: 100
   lazy: true
   proxies:
-  - "A\U0001F7E2\U0001F1F5\U0001F1EDres[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_97fafe0f"
+  - "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_9986f45d"
   - "\U0001F1FA\U0001F1F8"
   - "\U0001F1EF\U0001F1F5"
   - "\U0001F1F8\U0001F1EC"
@@ -2658,7 +1214,7 @@ proxy-groups:
   tolerance: 50
   lazy: true
   proxies:
-  - "A\U0001F7E2\U0001F1F5\U0001F1EDres[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_97fafe0f"
+  - "D\U0001F534\U0001F1F0\U0001F1F7hos[\U0001F52E\U0001F3B5\U0001F4DA]_dokng.com_f7be86c8"
   - "\u267B\uFE0F"
 - name: "\U0001F4E5"
   type: load-balance
@@ -2667,7 +1223,7 @@ proxy-groups:
   lazy: true
   strategy: consistent-hashing
   proxies:
-  - "A\U0001F7E2\U0001F1F5\U0001F1EDres[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_97fafe0f"
+  - "D\U0001F534\U0001F1F0\U0001F1F7hos[\U0001F52E\U0001F3B5\U0001F4DA]_dokng.com_f7be86c8"
   - "\u267B\uFE0F"
 - name: "\U0001F3AF"
   type: select
@@ -2680,62 +1236,68 @@ proxy-groups:
   tolerance: 100
   lazy: true
   proxies:
-  - "A\U0001F7E2\U0001F1F5\U0001F1EDres[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_97fafe0f"
-  - "C\U0001F7E0\U0001F1EF\U0001F1F5hos[\U0001F916\U0001F4AC\U0001F9E9\U0001F3AD]_dokng.com_55f04018"
-  - "C\U0001F7E0\U0001F1E9\U0001F1EAhos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_e6782845"
-  - "U\u26AA\U0001F3F3\uFE0Fukn[\u2708\uFE0F]_dokng.com_ad6105c9"
-  - "C\U0001F7E0\U0001F1F8\U0001F1EAhos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_4b500dbb"
-  - "U\u26AA\U0001F3F3\uFE0Fukn[\u2708\uFE0F]_dokng.com_96102a68"
-  - "D\U0001F534\U0001F1E9\U0001F1EAhos[\U0001F916\U0001F4AC\U0001F9E9\U0001F3B5]_dokng.com_0ed63a74"
-  - "D\U0001F534\U0001F1F8\U0001F1EChos_dokng.com_731ac5ff"
-  - "D\U0001F534\U0001F1F8\U0001F1EAhos[\U0001F916\U0001F4AC\U0001F52E\U0001F3B5]_dokng.com_180c9335"
-  - "A\U0001F7E2\U0001F1EB\U0001F1F7res[\U0001F916\U0001F4AC\U0001F9E9\U0001F4FA]_dokng.com_76a5a58b"
-  - "C\U0001F7E0\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F4AC\U0001F9E9\U0001F3AD]_dokng.com_0510e64e"
-  - "D\U0001F534\U0001F1EB\U0001F1F7hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_262bcecb"
-  - "C\U0001F7E0\U0001F1F8\U0001F1EChos[\U0001F916\U0001F4AC\U0001F9E9\U0001F3AD]_dokng.com_b3396cd6"
-  - "D\U0001F534\U0001F1EE\U0001F1EAhos[\U0001F4FA\U0001F3B5]_dokng.com_e2bb935e"
-  - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_05011d06"
-  - "D\U0001F534\U0001F1EB\U0001F1F7hos[\U0001F4FA\U0001F3AD\U0001F3B5]_dokng.com_9f8b9b65"
-  - "C\U0001F7E0\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F9E9\U0001F4FA]_dokng.com_3744e5a8"
-  - "D\U0001F534\U0001F1F5\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_78351b27"
-  - "C\U0001F7E0\U0001F1F8\U0001F1EAhos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_aa5218c2"
-  - "A\U0001F7E2\U0001F1F5\U0001F1F1res[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_3814084d"
-  - "D\U0001F534\U0001F1F9\U0001F1EDhos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_8da68037"
-  - "C\U0001F7E0\U0001F1F8\U0001F1EAhos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_53c913e6"
-  - "D\U0001F534\U0001F1F1\U0001F1FBhos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_a0b4e075"
-  - "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_86fd6822"
-  - "D\U0001F534\U0001F1EB\U0001F1F7hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_c3325e1b"
-  - "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_e6da0f6d"
-  - "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_fb4e77e4"
-  - "D\U0001F534\U0001F1F1\U0001F1FBhos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_21c34602"
-  - "D\U0001F534\U0001F1E9\U0001F1F0hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_1ed30155"
-  - "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F4FA]_dokng.com_f03b1640"
-  - "C\U0001F7E0\U0001F1F8\U0001F1EAhos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_bfe9f443"
-  - "A\U0001F7E2\U0001F1F8\U0001F1E6res[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_e6d3af00"
-  - "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_eaf068c9"
-  - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_8df65cc3"
-  - "D\U0001F534\U0001F1E9\U0001F1EAhos[\U0001F916\U0001F4AC\U0001F9E9\U0001F3B5]_dokng.com_f53c6917"
-  - "D\U0001F534\U0001F1E9\U0001F1EAhos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_92e8593b"
-  - "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_f6303636"
-  - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_13889823"
-  - "C\U0001F7E0\U0001F1E8\U0001F1E6hos[\U0001F916\U0001F4AC\U0001F9E9\U0001F3B5]_dokng.com_00bc9137"
-  - "U\u26AA\U0001F1F8\U0001F1EAukn[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_e84afe32"
+  - "D\U0001F534\U0001F1F0\U0001F1F7hos[\U0001F52E\U0001F3B5\U0001F4DA]_dokng.com_f7be86c8"
+  - "C\U0001F7E0\U0001F1F7\U0001F1FAhos[\U0001F52E\U0001F3AE\u2708\uFE0F\U0001F50D\
+    ]_dokng.com_6aa562cc"
+  - "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_9986f45d"
+  - "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F3B5]_dokng.com_33ffe908"
+  - "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F4E6]_dokng.com_47dbdd00"
+  - "D\U0001F534\U0001F1EE\U0001F1EAhos[\U0001F916\U0001F4AC\U0001F3AE\u2708\uFE0F\
+    ]_dokng.com_37e4a848"
+  - "D\U0001F534\U0001F1EB\U0001F1F7hos[\U0001F4FA]_dokng.com_238d1eea"
+  - "D\U0001F534\U0001F1E6\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_8408eb8a"
+  - "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F3B5]_dokng.com_f6303636"
+  - "C\U0001F7E0\U0001F1F7\U0001F1FAhos[\U0001F52E\U0001F3AE\u2708\uFE0F\U0001F50D\
+    ]_dokng.com_79432583"
+  - "C\U0001F7E0\U0001F1F7\U0001F1FAhos[\U0001F52E\U0001F3AE\U0001F50D]_dokng.com_84ca1557"
+  - "D\U0001F534\U0001F1EF\U0001F1F5hos_dokng.com_4900a88a"
+  - "D\U0001F534\U0001F1F8\U0001F1EAhos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_180c9335"
+  - "C\U0001F7E0\U0001F1EE\U0001F1F9hos[\U0001F4FA]_dokng.com_c9cdfff6"
+  - "C\U0001F7E0\U0001F1E9\U0001F1EAhos[\U0001F916\U0001F4AC\U0001F9E9\U0001F4FA]_dokng.com_fc3b3a41"
   - "D\U0001F534\U0001F1FA\U0001F1F8hos_dokng.com_a6052a43"
+  - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_0cb09444"
   - "D\U0001F534\U0001F1E8\U0001F1FFhos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_654d560d"
-  - "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_461db3e8"
-  - "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_5a16ef58"
-  - "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_33ffe908"
-  - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_4cc7e454"
-  - "D\U0001F534\U0001F1F3\U0001F1F4hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_573c8c9f"
-  - "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_7a217f0f"
-  - "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_387205ed"
-  - "C\U0001F7E0\U0001F1EC\U0001F1F7hos[\U0001F4FA\U0001F3B5]_dokng.com_8d8bfa9f"
+  - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_13889823"
+  - "D\U0001F534\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F3AE]_dokng.com_e690e14e"
+  - "D\U0001F534\U0001F1EE\U0001F1F9hos[\U0001F4FA\U0001F3AE\U0001F50D]_dokng.com_8ed40d75"
+  - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F3B5\u2708\uFE0F\U0001F419\
+    ]_dokng.com_016d9dc7"
+  - "C\U0001F7E0\U0001F1EF\U0001F1F5hos[\U0001F916\U0001F4AC\u2708\uFE0F\U0001F50D\
+    ]_dokng.com_e7a3bbb0"
+  - "C\U0001F7E0\U0001F1EC\U0001F1F7hos[\U0001F916\U0001F4AC\U0001F3B5]_dokng.com_4cc1e630"
+  - "D\U0001F534\U0001F1F8\U0001F1EChos[\U0001F916\U0001F4AC\U0001F52E\U0001F3B5]_dokng.com_185196af"
+  - "C\U0001F7E0\U0001F1EC\U0001F1F7hos[\U0001F916\U0001F4FA\U0001F3B5]_dokng.com_8d8bfa9f"
+  - "C\U0001F7E0\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F9E9\U0001F4FA]_dokng.com_3744e5a8"
+  - "D\U0001F534\U0001F1EF\U0001F1F5hos[\U0001F916\U0001F4AC\U0001F52E\U0001F9E9]_dokng.com_0f4839b8"
+  - "A\U0001F7E2\U0001F1F9\U0001F1EDres[\U0001F916\U0001F52E\U0001F3AE\U0001F419]_dokng.com_8be67b1a"
+  - "D\U0001F534\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F52E\U0001F9E9\U0001F3B5]_dokng.com_ed4de7bb"
+  - "A\U0001F7E2\U0001F1F9\U0001F1EDres_dokng.com_441fecdf"
+  - "D\U0001F534\U0001F1FA\U0001F1F8hos_dokng.com_342cda1e"
+  - "D\U0001F534\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F50D]_dokng.com_544fdd46"
+  - "D\U0001F534\U0001F1F8\U0001F1EChos[\U0001F52E\U0001F3B5]_dokng.com_c8c444fd"
+  - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F4AC\U0001F52E\U0001F3B5]_dokng.com_ffebf486"
+  - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F916\U0001F52E\U0001F4FA]_dokng.com_4cc7e454"
+  - "A\U0001F7E2\U0001F1F9\U0001F1EDres_dokng.com_021435aa"
+  - "C\U0001F7E0\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F3B5]_dokng.com_04808d3a"
+  - "C\U0001F7E0\U0001F1EF\U0001F1F5hos[\U0001F916\U0001F4AC\U0001F9E9\U0001F4FA]_dokng.com_049fa9f2"
+  - "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F4FA]_dokng.com_c6134407"
+  - "D\U0001F534\U0001F1F3\U0001F1F1hos[\U0001F916\U0001F4AC\U0001F52E\U0001F4E6]_dokng.com_5a16ef58"
+  - "C\U0001F7E0\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\U0001F3AE]_dokng.com_07162a4c"
+  - "U\u26AA\U0001F3F3\uFE0Fukn[\U0001F916\U0001F4AC\U0001F9E9\U0001F3AE]_dokng.com_78065240"
+  - "D\U0001F534\U0001F1EE\U0001F1F9hos[\U0001F916\U0001F4AC\U0001F52E\u2708\uFE0F\
+    ]_dokng.com_48d202d9"
+  - "U\u26AA\U0001F3F3\uFE0Fukn[\U0001F4AC\U0001F3AE\U0001F4DA]_dokng.com_92c172b4"
+  - "D\U0001F534\U0001F1F8\U0001F1EChos[\U0001F3AE\u2708\uFE0F\U0001F419\U0001F50D\
+    ]_dokng.com_f56c2037"
+  - "A\U0001F7E2\U0001F1F9\U0001F1EDres[\U0001F3AE\u2708\uFE0F]_dokng.com_bf81894b"
+  - "D\U0001F534\U0001F1FA\U0001F1F8hos_dokng.com_60b20da2"
+  - "D\U0001F534\U0001F1FA\U0001F1F8hos[\U0001F3AE\U0001F419]_dokng.com_4e17894f"
+  - "A\U0001F7E2\U0001F1F8\U0001F1ECres[\U0001F4AC]_dokng.com_903162eb"
   - "\u267B\uFE0F"
 - name: "\U0001F30D"
   type: select
   proxies:
   - "\u267B\uFE0F"
-  - "\U0001F1ED\U0001F1F0"
   - "\U0001F1EF\U0001F1F5"
   - "\U0001F1F8\U0001F1EC"
   - "\U0001F1FA\U0001F1F8"
@@ -2750,10 +1312,10 @@ proxy-groups:
   - "\U0001F500"
   - "\U0001F427"
   - "\U0001F9D1\u200D\U0001F4BB"
-  - "\U0001F1ED\U0001F1F0"
   - "\U0001F1EF\U0001F1F5"
   - "\U0001F1F8\U0001F1EC"
   - "\U0001F1FA\U0001F1F8"
+  - "\U0001F1F0\U0001F1F7"
   - DIRECT
 - name: "\U0001F6E1\uFE0F"
   type: select
