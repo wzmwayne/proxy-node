@@ -65,70 +65,6 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
-  server: 139.162.91.239
-  port: 443
-  type: vless
-  uuid: b0dc852a-97ec-4d4e-9179-f0e5c2ef1489
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  reality-opts:
-    public-key: 7PBmAR6CGAh2naIi09rlP_PtmLmqhlXF_toZEdAHmRo
-    short-id: "7c6d6833"
-  servername: itunes.apple.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws
-  udp: true
-- name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
-  server: 167.82.76.27
-  port: 443
-  type: trojan
-  password: MiTiVPN
-  sni: ssl.fastly.com
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EB\U0001F1F7 \u6CD5\u56FD|@ripaojiedian"
-  server: edge.bookmai.com
-  port: 443
-  type: vless
-  uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
-  tls: true
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  servername: mother-earth.fyi
-  client-fingerprint: chrome
-  network: tcp
-  udp: true
-- name: "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
-  server: v2jp.k1.ssnss.live
-  port: 44184
-  type: trojan
-  password: d050aca3-9df2-4461-90ec-92373c1d7636
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
-  server: 172.105.216.21
-  port: 443
-  type: vless
-  uuid: 76f1ce49-bcea-4680-b9ef-16592269445b
-  tls: true
-  tfo: false
-  skip-cert-verify: true
-  reality-opts:
-    public-key: Mjv5qe_CrvfHdVwgtyqYbqPesZ-1oko2XYg3dguzvxg
-    short-id: "c29f9af4"
-  servername: itunes.apple.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws
-  udp: true
 - name: "\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
   server: 139.162.20.241
   port: 443
@@ -145,56 +81,263 @@ proxies:
   network: ws
   ws-opts:
     path: /ws
+    v2ray-http-upgrade: false
+  udp: true
+- name: "\U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
+  server: 116.213.43.43
+  port: 11103
+  type: vless
+  uuid: bb836d81-d0c5-4f01-a584-806cdf65e36a
+  tls: true
+  tfo: false
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  reality-opts:
+    public-key: 5NNdXPMTBLP-xeDKFwcG-j6u-c4DhXIfnlHMqMJZ4n4
+    short-id: "9564e1a7a1cf8b3a"
+  servername: www.apple.com
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
+  server: 116.213.43.43
+  port: 11107
+  type: vless
+  uuid: 08a37d1f-7bf1-4b5d-a2ec-5ced6a633d7f
+  tls: true
+  tfo: false
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  reality-opts:
+    public-key: 6GRzkPbs12fKBdBBFzs5dmtmbSHCXMngUCBKLrXYm3U
+    short-id: "e2ccd8eedcbee2ce"
+  servername: www.apple.com
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: "\U0001F1F9\U0001F1FC \u53F0\u6E7E|@ripaojiedian"
+  server: 116.213.43.43
+  port: 11102
+  type: vless
+  uuid: 530d31fc-2690-49e4-bfc9-3f991e145008
+  tls: true
+  tfo: false
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  reality-opts:
+    public-key: oW6HMjniDmBJdjGKwhBAIS2zMS1VvHORubh9vdazqQ0
+    short-id: "ed571d022f7bc3bf"
+  servername: www.apple.com
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: "\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
+  server: 47.243.230.253
+  port: 443
+  type: vless
+  uuid: 27c26119-090b-4ae3-80d2-e9f08a575862
+  tls: true
+  tfo: false
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  reality-opts:
+    public-key: NNBFlHVb2xbmURjkxXCZfqZNFmd5MprUtg5usEg_LRw
+    short-id: "58d234c8c6a009bc"
+  servername: www.apple.com
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
+  server: 103.119.15.175
+  port: 443
+  type: vless
+  uuid: 89be587f-0e93-4c67-822e-98ad0a56c29e
+  tls: true
+  tfo: false
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  reality-opts:
+    public-key: vQgrNIQTmbTIqtauDixzp2ePvd-aK_zlTctIDRPk3wQ
+    short-id: "ce90a4459f024897"
+  servername: www.amazon.com
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: "\U0001F1E9\U0001F1EA \u5FB7\u56FD|@ripaojiedian"
+  server: 189.24.82.30
+  port: 443
+  type: vless
+  uuid: b354463f-ac84-422e-9a26-556c81ba001c
+  tls: true
+  tfo: false
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  reality-opts:
+    public-key: 77HTpkO_F3cUfA5Trka3eSh8V18atRMLyclGqZ__8C8
+    short-id: "b73c53b18b65dd90"
+  servername: www.apple.com
+  client-fingerprint: chrome
+  network: tcp
   udp: true
 - name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
-  server: 172.235.53.103
-  port: 443
+  server: 116.213.43.43
+  port: 11105
   type: vless
-  uuid: 38ae2bc6-577c-4e0a-b49c-81c44a0b4383
+  uuid: 31d5b95e-aff2-4ffb-8160-b5ae941b46f6
   tls: true
   tfo: false
+  flow: xtls-rprx-vision
   skip-cert-verify: true
   reality-opts:
-    public-key: YS1T3hKkZSWZBej5I1O2s3QQ-jf5JOAY24EZbp9faX8
-    short-id: "60e39a7e"
-  servername: itunes.apple.com
+    public-key: ghxoNrFX488_gXprrfDt-03Lkxj3YFqS2q-DDw-m6yE
+    short-id: "d9180a5730e950d2"
+  servername: www.apple.com
   client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws
+  network: tcp
   udp: true
 - name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
-  server: 172.236.239.126
+  server: 166.0.27.137
   port: 443
   type: vless
-  uuid: 6b4861de-7316-4a5a-bc45-0cbd8bf97eab
+  uuid: ad45be81-9ba1-4a41-9326-f6ceb63eb79f
   tls: true
   tfo: false
+  flow: xtls-rprx-vision
   skip-cert-verify: true
   reality-opts:
-    public-key: SJAHlQal4h4gy7BFInw13ute3ZM49kXMWCkJj3F4tW0
-    short-id: "357a37e1"
-  servername: itunes.apple.com
+    public-key: AMv7Xq2QzEDvAotwLRbqCk-WAxlQ7lxxYffMCvmNGhE
+    short-id: "5bcc25a95dcd415b"
+  servername: www.samsung.com
   client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws
+  network: tcp
   udp: true
-- name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD4|@ripaojiedian"
-  server: 167.82.76.27
+- name: "\U0001F1EC\U0001F1E7 \u82F1\u56FD|@ripaojiedian"
+  server: 8.208.101.215
   port: 443
-  type: trojan
-  password: MiTiVPN
-  sni: ssl.fastly.com
+  type: vless
+  uuid: 3112c3f2-7172-417d-bce6-d168135d1603
+  tls: true
+  tfo: false
+  flow: xtls-rprx-vision
   skip-cert-verify: true
+  reality-opts:
+    public-key: U6FtussjhSb81ka0z9IDf1n80syjsczIDrRTdmzyeGM
+    short-id: "5a6f99962a27cdbc"
+  servername: www.ebay.com
+  client-fingerprint: chrome
+  network: tcp
   udp: true
-- name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD5|@ripaojiedian"
-  server: 151.101.110.219
-  port: 443
-  type: trojan
-  password: Mitivpn
-  sni: ssl.fastly.com
+- name: "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
+  server: 116.213.43.43
+  port: 11101
+  type: vless
+  uuid: ca69a29d-60ef-433a-91bc-27537be993c8
+  tls: true
+  tfo: false
+  flow: xtls-rprx-vision
   skip-cert-verify: true
+  reality-opts:
+    public-key: 2eUT-b2e2lghUKWM3qf8uI3_Dphg9whKrQ08o4S-bzw
+    short-id: "82f99830e7b834e2"
+  servername: www.apple.com
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
+  server: 47.84.39.7
+  port: 443
+  type: vless
+  uuid: a6fd460c-88bd-4425-bb56-2b73d29455cc
+  tls: true
+  tfo: false
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  reality-opts:
+    public-key: EXPjsObdfDnKuRmw4-A9_G4k-WP2cUXuuvUo8It1sAo
+    short-id: "4d1244cd42a20e6c"
+  servername: www.amazon.com
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: "\U0001F1F0\U0001F1F7 \u97E9\u56FD|@ripaojiedian"
+  server: 43.108.109.112
+  port: 443
+  type: vless
+  uuid: 4ded3111-b418-475a-93de-0360932508b2
+  tls: true
+  tfo: false
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  reality-opts:
+    public-key: vrFq4-k-eiTSyRF3T3e7Fqmlv4XSKmByKYsw55zeX3w
+    short-id: "b79a86e2b1a586a0"
+  servername: www.samsung.com
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: "\U0001F1F9\U0001F1ED \u6CF0\u56FD|@ripaojiedian"
+  server: 47.81.32.116
+  port: 443
+  type: vless
+  uuid: 33330382-a046-428d-9e95-9aae8bd6b90e
+  tls: true
+  tfo: false
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  reality-opts:
+    public-key: P3MHfKzFZhV5TRjdEj2r43fUr24iijLqB_k7rbSR2Bg
+    short-id: "4446248c38c846e6"
+  servername: www.amazon.com
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: "\U0001F1F5\U0001F1ED \u83F2\u5F8B\u5BBE|@ripaojiedian"
+  server: 47.80.76.105
+  port: 443
+  type: vless
+  uuid: ecdcc5d3-644a-4606-9e9e-130315da68cd
+  tls: true
+  tfo: false
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  reality-opts:
+    public-key: T7_XLYoPP1_kxIaOov9SovRMk-P1mS-FRhdWueHxaR0
+    short-id: "58aa532948cab4a4"
+  servername: www.amazon.com
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: "\U0001F1F2\U0001F1FE \u9A6C\u6765\u897F\u4E9A|@ripaojiedian"
+  server: 47.250.146.252
+  port: 443
+  type: vless
+  uuid: 7a09c6e0-ad6e-4f96-980e-e0b198bb722f
+  tls: true
+  tfo: false
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  reality-opts:
+    public-key: SJyvyV7tQNPeJR-dnV11hve50q-En-mhh2eDXMX16C4
+    short-id: "2fbe9d45d0754b78"
+  servername: www.ebay.com
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: "\U0001F1EE\U0001F1E9 \u5370\u5C3C|@ripaojiedian"
+  server: 147.139.197.200
+  port: 443
+  type: vless
+  uuid: a197af05-7048-478e-8d99-c3151adb4064
+  tls: true
+  tfo: false
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  reality-opts:
+    public-key: ulPGCwIg38AVGww0FBfCNROmu_0N1hykbHbhcAFgcl0
+    short-id: "6135361d11cc2b31"
+  servername: www.ebay.com
+  client-fingerprint: chrome
+  network: tcp
   udp: true
 - name: "\u8BF4\u660E-\u6765\u6E90: ripaojiedian/freenode"
   type: trojan
@@ -204,14 +347,14 @@ proxies:
   udp: true
   skip-cert-verify: true
 - name: "\u8BF4\u660E-\u6E05\u6D17\u7ED3\u679C: \u6E05\u7406 0 \u4E2A\u8282\u70B9\u3001\
-    \u4FEE\u590D 0 \u5904\u5F15\u7528\u3001\u8F6C\u8BD1 18240 \u4E2A\u5B57\u7B26"
+    \u4FEE\u590D 0 \u5904\u5F15\u7528\u3001\u8F6C\u8BD1 18573 \u4E2A\u5B57\u7B26"
   type: trojan
   server: 127.0.0.1
   port: 443
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-11-22 05:28 (CST)"
+- name: "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-11-22 13:28 (CST)"
   type: trojan
   server: 127.0.0.1
   port: 443
@@ -238,8 +381,8 @@ proxy-groups:
   proxies:
   - "\u8BF4\u660E-\u6765\u6E90: ripaojiedian/freenode"
   - "\u8BF4\u660E-\u6E05\u6D17\u7ED3\u679C: \u6E05\u7406 0 \u4E2A\u8282\u70B9\u3001\
-    \u4FEE\u590D 0 \u5904\u5F15\u7528\u3001\u8F6C\u8BD1 18240 \u4E2A\u5B57\u7B26"
-  - "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-11-22 05:28 (CST)"
+    \u4FEE\u590D 0 \u5904\u5F15\u7528\u3001\u8F6C\u8BD1 18573 \u4E2A\u5B57\u7B26"
+  - "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-11-22 13:28 (CST)"
   - "\u8BF4\u660E-\u4F5C\u8005: wzmwayne"
   - "\u8BF4\u660E-\u4ED3\u5E93: https://github.com/wzmwayne/proxy-node"
 - name: "\U0001F680 \u8282\u70B9\u9009\u62E9"
@@ -249,16 +392,23 @@ proxy-groups:
   - DIRECT
   - "\U0001F1EE\U0001F1F9 \u610F\u5927\u5229|@ripaojiedian"
   - "\U0001F1EE\U0001F1F9 \u610F\u5927\u52292|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
-  - "\U0001F1EB\U0001F1F7 \u6CD5\u56FD|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
+  - "\U0001F1F9\U0001F1FC \u53F0\u6E7E|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
+  - "\U0001F1E9\U0001F1EA \u5FB7\u56FD|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD4|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD5|@ripaojiedian"
+  - "\U0001F1EC\U0001F1E7 \u82F1\u56FD|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
+  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD|@ripaojiedian"
+  - "\U0001F1F9\U0001F1ED \u6CF0\u56FD|@ripaojiedian"
+  - "\U0001F1F5\U0001F1ED \u83F2\u5F8B\u5BBE|@ripaojiedian"
+  - "\U0001F1F2\U0001F1FE \u9A6C\u6765\u897F\u4E9A|@ripaojiedian"
+  - "\U0001F1EE\U0001F1E9 \u5370\u5C3C|@ripaojiedian"
 - name: "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -267,16 +417,23 @@ proxy-groups:
   proxies:
   - "\U0001F1EE\U0001F1F9 \u610F\u5927\u5229|@ripaojiedian"
   - "\U0001F1EE\U0001F1F9 \u610F\u5927\u52292|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
-  - "\U0001F1EB\U0001F1F7 \u6CD5\u56FD|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
+  - "\U0001F1F9\U0001F1FC \u53F0\u6E7E|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
+  - "\U0001F1E9\U0001F1EA \u5FB7\u56FD|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD4|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD5|@ripaojiedian"
+  - "\U0001F1EC\U0001F1E7 \u82F1\u56FD|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
+  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD|@ripaojiedian"
+  - "\U0001F1F9\U0001F1ED \u6CF0\u56FD|@ripaojiedian"
+  - "\U0001F1F5\U0001F1ED \u83F2\u5F8B\u5BBE|@ripaojiedian"
+  - "\U0001F1F2\U0001F1FE \u9A6C\u6765\u897F\u4E9A|@ripaojiedian"
+  - "\U0001F1EE\U0001F1E9 \u5370\u5C3C|@ripaojiedian"
 - name: "\U0001F30D \u56FD\u5916\u5A92\u4F53"
   type: select
   proxies:
@@ -285,16 +442,23 @@ proxy-groups:
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\U0001F1EE\U0001F1F9 \u610F\u5927\u5229|@ripaojiedian"
   - "\U0001F1EE\U0001F1F9 \u610F\u5927\u52292|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
-  - "\U0001F1EB\U0001F1F7 \u6CD5\u56FD|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
+  - "\U0001F1F9\U0001F1FC \u53F0\u6E7E|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
+  - "\U0001F1E9\U0001F1EA \u5FB7\u56FD|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD4|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD5|@ripaojiedian"
+  - "\U0001F1EC\U0001F1E7 \u82F1\u56FD|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
+  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD|@ripaojiedian"
+  - "\U0001F1F9\U0001F1ED \u6CF0\u56FD|@ripaojiedian"
+  - "\U0001F1F5\U0001F1ED \u83F2\u5F8B\u5BBE|@ripaojiedian"
+  - "\U0001F1F2\U0001F1FE \u9A6C\u6765\u897F\u4E9A|@ripaojiedian"
+  - "\U0001F1EE\U0001F1E9 \u5370\u5C3C|@ripaojiedian"
 - name: "\U0001F4F2 \u7535\u62A5\u4FE1\u606F"
   type: select
   proxies:
@@ -302,16 +466,23 @@ proxy-groups:
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\U0001F1EE\U0001F1F9 \u610F\u5927\u5229|@ripaojiedian"
   - "\U0001F1EE\U0001F1F9 \u610F\u5927\u52292|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
-  - "\U0001F1EB\U0001F1F7 \u6CD5\u56FD|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
+  - "\U0001F1F9\U0001F1FC \u53F0\u6E7E|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
+  - "\U0001F1E9\U0001F1EA \u5FB7\u56FD|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD4|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD5|@ripaojiedian"
+  - "\U0001F1EC\U0001F1E7 \u82F1\u56FD|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
+  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD|@ripaojiedian"
+  - "\U0001F1F9\U0001F1ED \u6CF0\u56FD|@ripaojiedian"
+  - "\U0001F1F5\U0001F1ED \u83F2\u5F8B\u5BBE|@ripaojiedian"
+  - "\U0001F1F2\U0001F1FE \u9A6C\u6765\u897F\u4E9A|@ripaojiedian"
+  - "\U0001F1EE\U0001F1E9 \u5370\u5C3C|@ripaojiedian"
 - name: "\u24C2\uFE0F \u5FAE\u8F6F\u670D\u52A1"
   type: select
   proxies:
@@ -319,16 +490,23 @@ proxy-groups:
   - "\U0001F680 \u8282\u70B9\u9009\u62E9"
   - "\U0001F1EE\U0001F1F9 \u610F\u5927\u5229|@ripaojiedian"
   - "\U0001F1EE\U0001F1F9 \u610F\u5927\u52292|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
-  - "\U0001F1EB\U0001F1F7 \u6CD5\u56FD|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
+  - "\U0001F1F9\U0001F1FC \u53F0\u6E7E|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
+  - "\U0001F1E9\U0001F1EA \u5FB7\u56FD|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD4|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD5|@ripaojiedian"
+  - "\U0001F1EC\U0001F1E7 \u82F1\u56FD|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
+  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD|@ripaojiedian"
+  - "\U0001F1F9\U0001F1ED \u6CF0\u56FD|@ripaojiedian"
+  - "\U0001F1F5\U0001F1ED \u83F2\u5F8B\u5BBE|@ripaojiedian"
+  - "\U0001F1F2\U0001F1FE \u9A6C\u6765\u897F\u4E9A|@ripaojiedian"
+  - "\U0001F1EE\U0001F1E9 \u5370\u5C3C|@ripaojiedian"
 - name: "\U0001F34E \u82F9\u679C\u670D\u52A1"
   type: select
   proxies:
@@ -336,16 +514,23 @@ proxy-groups:
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\U0001F1EE\U0001F1F9 \u610F\u5927\u5229|@ripaojiedian"
   - "\U0001F1EE\U0001F1F9 \u610F\u5927\u52292|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
-  - "\U0001F1EB\U0001F1F7 \u6CD5\u56FD|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
+  - "\U0001F1F9\U0001F1FC \u53F0\u6E7E|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
+  - "\U0001F1E9\U0001F1EA \u5FB7\u56FD|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD4|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD5|@ripaojiedian"
+  - "\U0001F1EC\U0001F1E7 \u82F1\u56FD|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
+  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD|@ripaojiedian"
+  - "\U0001F1F9\U0001F1ED \u6CF0\u56FD|@ripaojiedian"
+  - "\U0001F1F5\U0001F1ED \u83F2\u5F8B\u5BBE|@ripaojiedian"
+  - "\U0001F1F2\U0001F1FE \u9A6C\u6765\u897F\u4E9A|@ripaojiedian"
+  - "\U0001F1EE\U0001F1E9 \u5370\u5C3C|@ripaojiedian"
 - name: "\U0001F4E2 \u8C37\u6B4CFCM"
   type: select
   proxies:
@@ -354,16 +539,23 @@ proxy-groups:
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F1EE\U0001F1F9 \u610F\u5927\u5229|@ripaojiedian"
   - "\U0001F1EE\U0001F1F9 \u610F\u5927\u52292|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
-  - "\U0001F1EB\U0001F1F7 \u6CD5\u56FD|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
+  - "\U0001F1F9\U0001F1FC \u53F0\u6E7E|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
+  - "\U0001F1E9\U0001F1EA \u5FB7\u56FD|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD4|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD5|@ripaojiedian"
+  - "\U0001F1EC\U0001F1E7 \u82F1\u56FD|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
+  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD|@ripaojiedian"
+  - "\U0001F1F9\U0001F1ED \u6CF0\u56FD|@ripaojiedian"
+  - "\U0001F1F5\U0001F1ED \u83F2\u5F8B\u5BBE|@ripaojiedian"
+  - "\U0001F1F2\U0001F1FE \u9A6C\u6765\u897F\u4E9A|@ripaojiedian"
+  - "\U0001F1EE\U0001F1E9 \u5370\u5C3C|@ripaojiedian"
 - name: "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   type: select
   proxies:
@@ -388,16 +580,23 @@ proxy-groups:
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F1EE\U0001F1F9 \u610F\u5927\u5229|@ripaojiedian"
   - "\U0001F1EE\U0001F1F9 \u610F\u5927\u52292|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
-  - "\U0001F1EB\U0001F1F7 \u6CD5\u56FD|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
+  - "\U0001F1F9\U0001F1FC \u53F0\u6E7E|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
+  - "\U0001F1E9\U0001F1EA \u5FB7\u56FD|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD4|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD5|@ripaojiedian"
+  - "\U0001F1EC\U0001F1E7 \u82F1\u56FD|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
+  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD|@ripaojiedian"
+  - "\U0001F1F9\U0001F1ED \u6CF0\u56FD|@ripaojiedian"
+  - "\U0001F1F5\U0001F1ED \u83F2\u5F8B\u5BBE|@ripaojiedian"
+  - "\U0001F1F2\U0001F1FE \u9A6C\u6765\u897F\u4E9A|@ripaojiedian"
+  - "\U0001F1EE\U0001F1E9 \u5370\u5C3C|@ripaojiedian"
 rules:
 - "DOMAIN-SUFFIX,acl4.ssr,\U0001F3AF \u5168\u7403\u76F4\u8FDE"
 - "DOMAIN-SUFFIX,ip6-localhost,\U0001F3AF \u5168\u7403\u76F4\u8FDE"
@@ -485,7 +684,6 @@ rules:
 - "DOMAIN-KEYWORD,guanggao,\U0001F6D1 \u5168\u7403\u62E6\u622A"
 - "DOMAIN-KEYWORD,omgmta,\U0001F6D1 \u5168\u7403\u62E6\u622A"
 - "DOMAIN-KEYWORD,omniture,\U0001F6D1 \u5168\u7403\u62E6\u622A"
-- "DOMAIN-KEYWORD,openx,\U0001F6D1 \u5168\u7403\u62E6\u622A"
 - "DOMAIN-KEYWORD,partnerad,\U0001F6D1 \u5168\u7403\u62E6\u622A"
 - "DOMAIN-KEYWORD,pingfore,\U0001F6D1 \u5168\u7403\u62E6\u622A"
 - "DOMAIN-KEYWORD,socdm,\U0001F6D1 \u5168\u7403\u62E6\u622A"
@@ -994,6 +1192,9 @@ rules:
 - "DOMAIN-SUFFIX,nend.net,\U0001F6D1 \u5168\u7403\u62E6\u622A"
 - "DOMAIN-SUFFIX,netshelter.net,\U0001F6D1 \u5168\u7403\u62E6\u622A"
 - "DOMAIN-SUFFIX,nexage.com,\U0001F6D1 \u5168\u7403\u62E6\u622A"
+- "DOMAIN-SUFFIX,openx.net,\U0001F6D1 \u5168\u7403\u62E6\u622A"
+- "DOMAIN-SUFFIX,openxenterprise.com,\U0001F6D1 \u5168\u7403\u62E6\u622A"
+- "DOMAIN-SUFFIX,openxmarket.asia,\U0001F6D1 \u5168\u7403\u62E6\u622A"
 - "DOMAIN-SUFFIX,owneriq.net,\U0001F6D1 \u5168\u7403\u62E6\u622A"
 - "DOMAIN-SUFFIX,pixels.asia,\U0001F6D1 \u5168\u7403\u62E6\u622A"
 - "DOMAIN-SUFFIX,plista.com,\U0001F6D1 \u5168\u7403\u62E6\u622A"
@@ -2076,23 +2277,23 @@ rules:
 - "DOMAIN-SUFFIX,tralog.ganji.com,\U0001F343 \u5E94\u7528\u51C0\u5316"
 - "DOMAIN-SUFFIX,up.qingdaonews.com,\U0001F343 \u5E94\u7528\u51C0\u5316"
 - "DOMAIN,alt1-mtalk.google.com,\U0001F4E2 \u8C37\u6B4CFCM"
-- "DOMAIN,alt2-mtalk.google.com,\U0001F4E2 \u8C37\u6B4CFCM"
-- "DOMAIN,alt3-mtalk.google.com,\U0001F4E2 \u8C37\u6B4CFCM"
-- "DOMAIN,alt4-mtalk.google.com,\U0001F4E2 \u8C37\u6B4CFCM"
-- "DOMAIN,alt5-mtalk.google.com,\U0001F4E2 \u8C37\u6B4CFCM"
-- "DOMAIN,alt6-mtalk.google.com,\U0001F4E2 \u8C37\u6B4CFCM"
-- "DOMAIN,alt7-mtalk.google.com,\U0001F4E2 \u8C37\u6B4CFCM"
-- "DOMAIN,alt8-mtalk.google.com,\U0001F4E2 \u8C37\u6B4CFCM"
-- "DOMAIN,mtalk.google.com,\U0001F4E2 \u8C37\u6B4CFCM"
 - "DOMAIN,alt1.mobile-gtalk.l.google.com,\U0001F4E2 \u8C37\u6B4CFCM"
+- "DOMAIN,alt2-mtalk.google.com,\U0001F4E2 \u8C37\u6B4CFCM"
 - "DOMAIN,alt2.mobile-gtalk.l.google.com,\U0001F4E2 \u8C37\u6B4CFCM"
+- "DOMAIN,alt3-mtalk.google.com,\U0001F4E2 \u8C37\u6B4CFCM"
 - "DOMAIN,alt3.mobile-gtalk.l.google.com,\U0001F4E2 \u8C37\u6B4CFCM"
+- "DOMAIN,alt4-mtalk.google.com,\U0001F4E2 \u8C37\u6B4CFCM"
 - "DOMAIN,alt4.mobile-gtalk.l.google.com,\U0001F4E2 \u8C37\u6B4CFCM"
+- "DOMAIN,alt5-mtalk.google.com,\U0001F4E2 \u8C37\u6B4CFCM"
 - "DOMAIN,alt5.mobile-gtalk.l.google.com,\U0001F4E2 \u8C37\u6B4CFCM"
+- "DOMAIN,alt6-mtalk.google.com,\U0001F4E2 \u8C37\u6B4CFCM"
 - "DOMAIN,alt6.mobile-gtalk.l.google.com,\U0001F4E2 \u8C37\u6B4CFCM"
+- "DOMAIN,alt7-mtalk.google.com,\U0001F4E2 \u8C37\u6B4CFCM"
 - "DOMAIN,alt7.mobile-gtalk.l.google.com,\U0001F4E2 \u8C37\u6B4CFCM"
+- "DOMAIN,alt8-mtalk.google.com,\U0001F4E2 \u8C37\u6B4CFCM"
 - "DOMAIN,alt8.mobile-gtalk.l.google.com,\U0001F4E2 \u8C37\u6B4CFCM"
 - "DOMAIN,mobile-gtalk.l.google.com,\U0001F4E2 \u8C37\u6B4CFCM"
+- "DOMAIN,mtalk.google.com,\U0001F4E2 \u8C37\u6B4CFCM"
 - "IP-CIDR,64.233.177.188/32,\U0001F4E2 \u8C37\u6B4CFCM,no-resolve"
 - "IP-CIDR,64.233.186.188/32,\U0001F4E2 \u8C37\u6B4CFCM,no-resolve"
 - "IP-CIDR,64.233.187.188/32,\U0001F4E2 \u8C37\u6B4CFCM,no-resolve"
@@ -2287,53 +2488,6 @@ rules:
 - "IP-CIDR6,2001:b28:f23f::/48,\U0001F4F2 \u7535\u62A5\u4FE1\u606F,no-resolve"
 - "DOMAIN-SUFFIX,edgedatg.com,\U0001F30D \u56FD\u5916\u5A92\u4F53"
 - "DOMAIN-SUFFIX,go.com,\U0001F30D \u56FD\u5916\u5A92\u4F53"
-- "DOMAIN-KEYWORD,anthropic,\U0001F30D \u56FD\u5916\u5A92\u4F53"
-- "DOMAIN-KEYWORD,claude,\U0001F30D \u56FD\u5916\u5A92\u4F53"
-- "DOMAIN-KEYWORD,openai,\U0001F30D \u56FD\u5916\u5A92\u4F53"
-- "DOMAIN,ai.google.dev,\U0001F30D \u56FD\u5916\u5A92\u4F53"
-- "DOMAIN,aistudio.google.com,\U0001F30D \u56FD\u5916\u5A92\u4F53"
-- "DOMAIN,api.githubcopilot.com,\U0001F30D \u56FD\u5916\u5A92\u4F53"
-- "DOMAIN,api.groq.com,\U0001F30D \u56FD\u5916\u5A92\u4F53"
-- "DOMAIN,api.together.xyz,\U0001F30D \u56FD\u5916\u5A92\u4F53"
-- "DOMAIN,bard.google.com,\U0001F30D \u56FD\u5916\u5A92\u4F53"
-- "DOMAIN,console.groq.com,\U0001F30D \u56FD\u5916\u5A92\u4F53"
-- "DOMAIN,copilot-proxy.githubusercontent.com,\U0001F30D \u56FD\u5916\u5A92\u4F53"
-- "DOMAIN,gemini.google.com,\U0001F30D \u56FD\u5916\u5A92\u4F53"
-- "DOMAIN,generativelanguage.googleapis.com,\U0001F30D \u56FD\u5916\u5A92\u4F53"
-- "DOMAIN,notebooklm.google.com,\U0001F30D \u56FD\u5916\u5A92\u4F53"
-- "DOMAIN,sydney.bing.com,\U0001F30D \u56FD\u5916\u5A92\u4F53"
-- "DOMAIN-SUFFIX,ai.azure.com,\U0001F30D \u56FD\u5916\u5A92\u4F53"
-- "DOMAIN-SUFFIX,anthropic.com,\U0001F30D \u56FD\u5916\u5A92\u4F53"
-- "DOMAIN-SUFFIX,auth0.com,\U0001F30D \u56FD\u5916\u5A92\u4F53"
-- "DOMAIN-SUFFIX,bard.google.com,\U0001F30D \u56FD\u5916\u5A92\u4F53"
-- "DOMAIN-SUFFIX,chatgpt.com,\U0001F30D \u56FD\u5916\u5A92\u4F53"
-- "DOMAIN-SUFFIX,claude.ai,\U0001F30D \u56FD\u5916\u5A92\u4F53"
-- "DOMAIN-SUFFIX,claude.com,\U0001F30D \u56FD\u5916\u5A92\u4F53"
-- "DOMAIN-SUFFIX,claudeusercontent.com,\U0001F30D \u56FD\u5916\u5A92\u4F53"
-- "DOMAIN-SUFFIX,client-api.arkoselabs.com,\U0001F30D \u56FD\u5916\u5A92\u4F53"
-- "DOMAIN-SUFFIX,copilot.cloud.microsoft,\U0001F30D \u56FD\u5916\u5A92\u4F53"
-- "DOMAIN-SUFFIX,copilot.microsoft.com,\U0001F30D \u56FD\u5916\u5A92\u4F53"
-- "DOMAIN-SUFFIX,cursor.com,\U0001F30D \u56FD\u5916\u5A92\u4F53"
-- "DOMAIN-SUFFIX,cursor.sh,\U0001F30D \u56FD\u5916\u5A92\u4F53"
-- "DOMAIN-SUFFIX,events.statsigapi.net,\U0001F30D \u56FD\u5916\u5A92\u4F53"
-- "DOMAIN-SUFFIX,featuregates.org,\U0001F30D \u56FD\u5916\u5A92\u4F53"
-- "DOMAIN-SUFFIX,gemini.google.com,\U0001F30D \u56FD\u5916\u5A92\u4F53"
-- "DOMAIN-SUFFIX,grazie.ai,\U0001F30D \u56FD\u5916\u5A92\u4F53"
-- "DOMAIN-SUFFIX,grazie.aws.intellij.net,\U0001F30D \u56FD\u5916\u5A92\u4F53"
-- "DOMAIN-SUFFIX,identrust.com,\U0001F30D \u56FD\u5916\u5A92\u4F53"
-- "DOMAIN-SUFFIX,intercom.io,\U0001F30D \u56FD\u5916\u5A92\u4F53"
-- "DOMAIN-SUFFIX,intercomcdn.com,\U0001F30D \u56FD\u5916\u5A92\u4F53"
-- "DOMAIN-SUFFIX,jetbrains.ai,\U0001F30D \u56FD\u5916\u5A92\u4F53"
-- "DOMAIN-SUFFIX,makersuite.google.com,\U0001F30D \u56FD\u5916\u5A92\u4F53"
-- "DOMAIN-SUFFIX,meta.ai,\U0001F30D \u56FD\u5916\u5A92\u4F53"
-- "DOMAIN-SUFFIX,mistral.ai,\U0001F30D \u56FD\u5916\u5A92\u4F53"
-- "DOMAIN-SUFFIX,oaistatic.com,\U0001F30D \u56FD\u5916\u5A92\u4F53"
-- "DOMAIN-SUFFIX,oaiusercontent.com,\U0001F30D \u56FD\u5916\u5A92\u4F53"
-- "DOMAIN-SUFFIX,openai.com,\U0001F30D \u56FD\u5916\u5A92\u4F53"
-- "DOMAIN-SUFFIX,openaiapi-site.azureedge.net,\U0001F30D \u56FD\u5916\u5A92\u4F53"
-- "DOMAIN-SUFFIX,perplexity.ai,\U0001F30D \u56FD\u5916\u5A92\u4F53"
-- "DOMAIN-SUFFIX,sora.com,\U0001F30D \u56FD\u5916\u5A92\u4F53"
-- "DOMAIN-SUFFIX,x.ai,\U0001F30D \u56FD\u5916\u5A92\u4F53"
 - "DOMAIN-KEYWORD,abematv.akamaized.net,\U0001F30D \u56FD\u5916\u5A92\u4F53"
 - "DOMAIN-SUFFIX,abema.io,\U0001F30D \u56FD\u5916\u5A92\u4F53"
 - "DOMAIN-SUFFIX,abema.tv,\U0001F30D \u56FD\u5916\u5A92\u4F53"
@@ -2572,22 +2726,6 @@ rules:
 - "DOMAIN-SUFFIX,olevod.io,\U0001F30D \u56FD\u5916\u5A92\u4F53"
 - "DOMAIN-SUFFIX,olevod.tv,\U0001F30D \u56FD\u5916\u5A92\u4F53"
 - "DOMAIN-SUFFIX,olevodtv.com,\U0001F30D \u56FD\u5916\u5A92\u4F53"
-- "DOMAIN-KEYWORD,openai,\U0001F30D \u56FD\u5916\u5A92\u4F53"
-- "DOMAIN-SUFFIX,auth0.com,\U0001F30D \u56FD\u5916\u5A92\u4F53"
-- "DOMAIN-SUFFIX,challenges.cloudflare.com,\U0001F30D \u56FD\u5916\u5A92\u4F53"
-- "DOMAIN-SUFFIX,chatgpt.com,\U0001F30D \u56FD\u5916\u5A92\u4F53"
-- "DOMAIN-SUFFIX,client-api.arkoselabs.com,\U0001F30D \u56FD\u5916\u5A92\u4F53"
-- "DOMAIN-SUFFIX,events.statsigapi.net,\U0001F30D \u56FD\u5916\u5A92\u4F53"
-- "DOMAIN-SUFFIX,featuregates.org,\U0001F30D \u56FD\u5916\u5A92\u4F53"
-- "DOMAIN-SUFFIX,identrust.com,\U0001F30D \u56FD\u5916\u5A92\u4F53"
-- "DOMAIN-SUFFIX,intercom.io,\U0001F30D \u56FD\u5916\u5A92\u4F53"
-- "DOMAIN-SUFFIX,intercomcdn.com,\U0001F30D \u56FD\u5916\u5A92\u4F53"
-- "DOMAIN-SUFFIX,oaistatic.com,\U0001F30D \u56FD\u5916\u5A92\u4F53"
-- "DOMAIN-SUFFIX,oaiusercontent.com,\U0001F30D \u56FD\u5916\u5A92\u4F53"
-- "DOMAIN-SUFFIX,openai.com,\U0001F30D \u56FD\u5916\u5A92\u4F53"
-- "DOMAIN-SUFFIX,openaiapi-site.azureedge.net,\U0001F30D \u56FD\u5916\u5A92\u4F53"
-- "DOMAIN-SUFFIX,sentry.io,\U0001F30D \u56FD\u5916\u5A92\u4F53"
-- "DOMAIN-SUFFIX,stripe.com,\U0001F30D \u56FD\u5916\u5A92\u4F53"
 - "DOMAIN-SUFFIX,pbs.org,\U0001F30D \u56FD\u5916\u5A92\u4F53"
 - "DOMAIN-SUFFIX,pandora.com,\U0001F30D \u56FD\u5916\u5A92\u4F53"
 - "DOMAIN-SUFFIX,phncdn.com,\U0001F30D \u56FD\u5916\u5A92\u4F53"
@@ -2817,6 +2955,61 @@ rules:
 - "DOMAIN-SUFFIX,vimeo.com,\U0001F680 \u8282\u70B9\u9009\u62E9"
 - "DOMAIN-SUFFIX,vine.co,\U0001F680 \u8282\u70B9\u9009\u62E9"
 - "DOMAIN-SUFFIX,vox-cdn.com,\U0001F680 \u8282\u70B9\u9009\u62E9"
+- "DOMAIN,ai.google.dev,\U0001F680 \u8282\u70B9\u9009\u62E9"
+- "DOMAIN,aistudio.google.com,\U0001F680 \u8282\u70B9\u9009\u62E9"
+- "DOMAIN,api.githubcopilot.com,\U0001F680 \u8282\u70B9\u9009\u62E9"
+- "DOMAIN,api.groq.com,\U0001F680 \u8282\u70B9\u9009\u62E9"
+- "DOMAIN,api.together.xyz,\U0001F680 \u8282\u70B9\u9009\u62E9"
+- "DOMAIN,bard.google.com,\U0001F680 \u8282\u70B9\u9009\u62E9"
+- "DOMAIN,console.groq.com,\U0001F680 \u8282\u70B9\u9009\u62E9"
+- "DOMAIN,copilot-proxy.githubusercontent.com,\U0001F680 \u8282\u70B9\u9009\u62E9"
+- "DOMAIN,gemini.google.com,\U0001F680 \u8282\u70B9\u9009\u62E9"
+- "DOMAIN,geminiweb-pa.clients.google.com,\U0001F680 \u8282\u70B9\u9009\u62E9"
+- "DOMAIN,geminiweb-pa.clients6.google.com,\U0001F680 \u8282\u70B9\u9009\u62E9"
+- "DOMAIN,generativelanguage.googleapis.com,\U0001F680 \u8282\u70B9\u9009\u62E9"
+- "DOMAIN,notebooklm-pa.googleapis.com,\U0001F680 \u8282\u70B9\u9009\u62E9"
+- "DOMAIN,notebooklm.google.com,\U0001F680 \u8282\u70B9\u9009\u62E9"
+- "DOMAIN,sydney.bing.com,\U0001F680 \u8282\u70B9\u9009\u62E9"
+- "DOMAIN-KEYWORD,anthropic,\U0001F680 \u8282\u70B9\u9009\u62E9"
+- "DOMAIN-KEYWORD,antigravity,\U0001F680 \u8282\u70B9\u9009\u62E9"
+- "DOMAIN-KEYWORD,claude,\U0001F680 \u8282\u70B9\u9009\u62E9"
+- "DOMAIN-KEYWORD,openai,\U0001F680 \u8282\u70B9\u9009\u62E9"
+- "DOMAIN-SUFFIX,ai.azure.com,\U0001F680 \u8282\u70B9\u9009\u62E9"
+- "DOMAIN-SUFFIX,anthropic.com,\U0001F680 \u8282\u70B9\u9009\u62E9"
+- "DOMAIN-SUFFIX,auth0.com,\U0001F680 \u8282\u70B9\u9009\u62E9"
+- "DOMAIN-SUFFIX,bard.google.com,\U0001F680 \u8282\u70B9\u9009\u62E9"
+- "DOMAIN-SUFFIX,chatgpt.com,\U0001F680 \u8282\u70B9\u9009\u62E9"
+- "DOMAIN-SUFFIX,clau.de,\U0001F680 \u8282\u70B9\u9009\u62E9"
+- "DOMAIN-SUFFIX,claude.ai,\U0001F680 \u8282\u70B9\u9009\u62E9"
+- "DOMAIN-SUFFIX,claude.com,\U0001F680 \u8282\u70B9\u9009\u62E9"
+- "DOMAIN-SUFFIX,claudeusercontent.com,\U0001F680 \u8282\u70B9\u9009\u62E9"
+- "DOMAIN-SUFFIX,client-api.arkoselabs.com,\U0001F680 \u8282\u70B9\u9009\u62E9"
+- "DOMAIN-SUFFIX,copilot.cloud.microsoft,\U0001F680 \u8282\u70B9\u9009\u62E9"
+- "DOMAIN-SUFFIX,copilot.microsoft.com,\U0001F680 \u8282\u70B9\u9009\u62E9"
+- "DOMAIN-SUFFIX,cursor.com,\U0001F680 \u8282\u70B9\u9009\u62E9"
+- "DOMAIN-SUFFIX,cursor.sh,\U0001F680 \u8282\u70B9\u9009\u62E9"
+- "DOMAIN-SUFFIX,events.statsigapi.net,\U0001F680 \u8282\u70B9\u9009\u62E9"
+- "DOMAIN-SUFFIX,featuregates.org,\U0001F680 \u8282\u70B9\u9009\u62E9"
+- "DOMAIN-SUFFIX,gemini.google.com,\U0001F680 \u8282\u70B9\u9009\u62E9"
+- "DOMAIN-SUFFIX,grazie.ai,\U0001F680 \u8282\u70B9\u9009\u62E9"
+- "DOMAIN-SUFFIX,grazie.aws.intellij.net,\U0001F680 \u8282\u70B9\u9009\u62E9"
+- "DOMAIN-SUFFIX,grok.com,\U0001F680 \u8282\u70B9\u9009\u62E9"
+- "DOMAIN-SUFFIX,identrust.com,\U0001F680 \u8282\u70B9\u9009\u62E9"
+- "DOMAIN-SUFFIX,intercom.io,\U0001F680 \u8282\u70B9\u9009\u62E9"
+- "DOMAIN-SUFFIX,intercomcdn.com,\U0001F680 \u8282\u70B9\u9009\u62E9"
+- "DOMAIN-SUFFIX,jetbrains.ai,\U0001F680 \u8282\u70B9\u9009\u62E9"
+- "DOMAIN-SUFFIX,makersuite.google.com,\U0001F680 \u8282\u70B9\u9009\u62E9"
+- "DOMAIN-SUFFIX,meta.ai,\U0001F680 \u8282\u70B9\u9009\u62E9"
+- "DOMAIN-SUFFIX,mistral.ai,\U0001F680 \u8282\u70B9\u9009\u62E9"
+- "DOMAIN-SUFFIX,notebooklm.google,\U0001F680 \u8282\u70B9\u9009\u62E9"
+- "DOMAIN-SUFFIX,notebooklm.google.com,\U0001F680 \u8282\u70B9\u9009\u62E9"
+- "DOMAIN-SUFFIX,oaistatic.com,\U0001F680 \u8282\u70B9\u9009\u62E9"
+- "DOMAIN-SUFFIX,oaiusercontent.com,\U0001F680 \u8282\u70B9\u9009\u62E9"
+- "DOMAIN-SUFFIX,openai.com,\U0001F680 \u8282\u70B9\u9009\u62E9"
+- "DOMAIN-SUFFIX,openaiapi-site.azureedge.net,\U0001F680 \u8282\u70B9\u9009\u62E9"
+- "DOMAIN-SUFFIX,perplexity.ai,\U0001F680 \u8282\u70B9\u9009\u62E9"
+- "DOMAIN-SUFFIX,sora.com,\U0001F680 \u8282\u70B9\u9009\u62E9"
+- "DOMAIN-SUFFIX,x.ai,\U0001F680 \u8282\u70B9\u9009\u62E9"
 - "DOMAIN-SUFFIX,amazon.co.jp,\U0001F680 \u8282\u70B9\u9009\u62E9"
 - "DOMAIN-SUFFIX,amazon.com,\U0001F680 \u8282\u70B9\u9009\u62E9"
 - "DOMAIN-SUFFIX,amazonaws.com,\U0001F680 \u8282\u70B9\u9009\u62E9"
@@ -2966,8 +3159,23 @@ rules:
 - "IP-CIDR,119.235.236.0/23,\U0001F680 \u8282\u70B9\u9009\u62E9,no-resolve"
 - "IP-CIDR,147.92.128.0/17,\U0001F680 \u8282\u70B9\u9009\u62E9,no-resolve"
 - "IP-CIDR,203.104.128.0/19,\U0001F680 \u8282\u70B9\u9009\u62E9,no-resolve"
-- "DOMAIN-SUFFIX,openai.com,\U0001F680 \u8282\u70B9\u9009\u62E9"
+- "DOMAIN-KEYWORD,openai,\U0001F680 \u8282\u70B9\u9009\u62E9"
+- "DOMAIN-SUFFIX,auth0.com,\U0001F680 \u8282\u70B9\u9009\u62E9"
 - "DOMAIN-SUFFIX,challenges.cloudflare.com,\U0001F680 \u8282\u70B9\u9009\u62E9"
+- "DOMAIN-SUFFIX,chatgpt.com,\U0001F680 \u8282\u70B9\u9009\u62E9"
+- "DOMAIN-SUFFIX,client-api.arkoselabs.com,\U0001F680 \u8282\u70B9\u9009\u62E9"
+- "DOMAIN-SUFFIX,events.statsigapi.net,\U0001F680 \u8282\u70B9\u9009\u62E9"
+- "DOMAIN-SUFFIX,featuregates.org,\U0001F680 \u8282\u70B9\u9009\u62E9"
+- "DOMAIN-SUFFIX,identrust.com,\U0001F680 \u8282\u70B9\u9009\u62E9"
+- "DOMAIN-SUFFIX,intercom.io,\U0001F680 \u8282\u70B9\u9009\u62E9"
+- "DOMAIN-SUFFIX,intercomcdn.com,\U0001F680 \u8282\u70B9\u9009\u62E9"
+- "DOMAIN-SUFFIX,oaistatic.com,\U0001F680 \u8282\u70B9\u9009\u62E9"
+- "DOMAIN-SUFFIX,oaiusercontent.com,\U0001F680 \u8282\u70B9\u9009\u62E9"
+- "DOMAIN-SUFFIX,openai.com,\U0001F680 \u8282\u70B9\u9009\u62E9"
+- "DOMAIN-SUFFIX,openaiapi-site.azureedge.net,\U0001F680 \u8282\u70B9\u9009\u62E9"
+- "DOMAIN-SUFFIX,sentry.io,\U0001F680 \u8282\u70B9\u9009\u62E9"
+- "DOMAIN-SUFFIX,sora.com,\U0001F680 \u8282\u70B9\u9009\u62E9"
+- "DOMAIN-SUFFIX,stripe.com,\U0001F680 \u8282\u70B9\u9009\u62E9"
 - "DOMAIN-KEYWORD,1drv,\U0001F680 \u8282\u70B9\u9009\u62E9"
 - "DOMAIN-KEYWORD,onedrive,\U0001F680 \u8282\u70B9\u9009\u62E9"
 - "DOMAIN-KEYWORD,skydrive,\U0001F680 \u8282\u70B9\u9009\u62E9"
