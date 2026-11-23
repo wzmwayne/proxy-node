@@ -65,7 +65,7 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: "\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
+- name: "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57615|@ripaojiedian"
   server: 139.162.20.241
   port: 443
   type: vless
@@ -83,37 +83,109 @@ proxies:
     path: /ws
     v2ray-http-upgrade: false
   udp: true
-- name: "\U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
-  server: 116.213.43.43
-  port: 11103
+- name: "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
+  server: 47.84.39.7
+  port: 443
   type: vless
-  uuid: bb836d81-d0c5-4f01-a584-806cdf65e36a
+  uuid: a6fd460c-88bd-4425-bb56-2b73d29455cc
   tls: true
   tfo: false
   flow: xtls-rprx-vision
   skip-cert-verify: true
   reality-opts:
-    public-key: 5NNdXPMTBLP-xeDKFwcG-j6u-c4DhXIfnlHMqMJZ4n4
-    short-id: "9564e1a7a1cf8b3a"
-  servername: www.apple.com
+    public-key: EXPjsObdfDnKuRmw4-A9_G4k-WP2cUXuuvUo8It1sAo
+    short-id: "4d1244cd42a20e6c"
+  servername: www.amazon.com
   client-fingerprint: chrome
   network: tcp
   udp: true
 - name: "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
-  server: 116.213.43.43
-  port: 11107
+  server: ibsdsf.df6h451rh.xin
+  port: 443
+  type: anytls
+  password: "2902c46c8493"
+  client-fingerprint: chrome
+  udp: true
+  sni: docs.microsoft.com
+  skip-cert-verify: true
+- name: "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
+  server: nu2rb.supertoolify.com
+  port: 443
+  type: trojan
+  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  sni: nu2rb.supertoolify.com
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
+  server: 139.162.91.182
+  port: 443
   type: vless
-  uuid: 08a37d1f-7bf1-4b5d-a2ec-5ced6a633d7f
+  uuid: b4ec7f6b-b41e-4018-9f76-19204e138db9
   tls: true
   tfo: false
-  flow: xtls-rprx-vision
   skip-cert-verify: true
   reality-opts:
-    public-key: 6GRzkPbs12fKBdBBFzs5dmtmbSHCXMngUCBKLrXYm3U
-    short-id: "e2ccd8eedcbee2ce"
-  servername: www.apple.com
+    public-key: k0o_QkU2gSE5m1a6tWbkkZ-Z28GTj30UHW8cHWCulzU
+    short-id: "db1a5f5e"
+  servername: itunes.apple.com
   client-fingerprint: chrome
-  network: tcp
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
+    v2ray-http-upgrade: false
+  udp: true
+- name: "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
+  server: 172.104.86.181
+  port: 443
+  type: vless
+  uuid: 010431f3-04f6-4404-a801-b93bf2e3c2b2
+  tls: true
+  tfo: false
+  skip-cert-verify: true
+  reality-opts:
+    public-key: ujYDprigWFLxcj4BtitDNa-hoPjIbpSzrnEcqp3cgjk
+    short-id: "c8559ca1"
+  servername: itunes.apple.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
+    v2ray-http-upgrade: false
+  udp: true
+- name: "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57611|@ripaojiedian"
+  server: bgsg2.hikigo.com
+  port: 443
+  type: hysteria2
+  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  auth: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  sni: bgsg2.hikigo.com
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: sj1awrdwnn5lbuno
+  udp: true
+- name: "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
+  server: 139.162.20.241
+  port: 443
+  type: vless
+  uuid: 7f0270f9-1abc-4c4f-960d-0a23e32f1eb8
+  tls: true
+  tfo: false
+  skip-cert-verify: true
+  reality-opts:
+    public-key: fG1u2AZj5pgSNWO3MBmkoY6K61xBwnuYX3_z1fSeR0o
+    short-id: "640c807d"
+  servername: itunes.apple.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
+    v2ray-http-upgrade: false
   udp: true
 - name: "\U0001F1F9\U0001F1FC \u53F0\u6E7E|@ripaojiedian"
   server: 116.213.43.43
@@ -131,213 +203,204 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   udp: true
-- name: "\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
-  server: 47.243.230.253
+- name: "\U0001F1F9\U0001F1FC \u53F0\u6E7E2|@ripaojiedian"
+  server: a54ge.df6h451rh.xin
   port: 443
+  type: anytls
+  password: "0324fbc29561"
+  client-fingerprint: chrome
+  udp: true
+  sni: docs.microsoft.com
+  skip-cert-verify: true
+- name: "\U0001F1FB\U0001F1F3 \u8D8A\u5357|@ripaojiedian"
+  server: xvxn1hkzf.mateflora.com
+  port: 443
+  type: trojan
+  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  sni: xvxn1hkzf.mateflora.com
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
+  server: 151.158.0.83
+  port: 8443
   type: vless
-  uuid: 27c26119-090b-4ae3-80d2-e9f08a575862
+  uuid: b69cf773-da16-486e-afce-a45b94f998b3
   tls: true
   tfo: false
-  flow: xtls-rprx-vision
   skip-cert-verify: true
-  reality-opts:
-    public-key: NNBFlHVb2xbmURjkxXCZfqZNFmd5MprUtg5usEg_LRw
-    short-id: "58d234c8c6a009bc"
-  servername: www.apple.com
+  servername: senflarelink-node-6b9.pages.dev
   client-fingerprint: chrome
-  network: tcp
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: senflarelink-node-6b9.pages.dev
+    v2ray-http-upgrade: false
+  udp: true
+- name: "\U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
+  server: 206.237.18.145
+  port: 8443
+  type: vless
+  uuid: b69cf773-da16-486e-afce-a45b94f998b3
+  tls: true
+  tfo: false
+  skip-cert-verify: true
+  servername: senflarelink-node-m3bfbn.pages.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: senflarelink-node-m3bfbn.pages.dev
+    v2ray-http-upgrade: false
+  udp: true
+- name: "\U0001F1F9\U0001F1FC \u53F0\u6E7E3|@ripaojiedian"
+  server: 154.40.61.186
+  port: 8443
+  type: vless
+  uuid: b69cf773-da16-486e-afce-a45b94f998b3
+  tls: true
+  tfo: false
+  skip-cert-verify: true
+  servername: senflarelink-node-wj1gsa.pages.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: senflarelink-node-wj1gsa.pages.dev
+    v2ray-http-upgrade: false
+  udp: true
+- name: "\U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
+  server: 5641sdds.df6h451rh.xin
+  port: 443
+  type: anytls
+  password: "0324fbc29561"
+  client-fingerprint: chrome
+  udp: true
+  sni: images.ctfassets.net
+  skip-cert-verify: true
+- name: "\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
+  server: 43.159.41.66
+  port: 8443
+  type: vless
+  uuid: b69cf773-da16-486e-afce-a45b94f998b3
+  tls: true
+  tfo: false
+  skip-cert-verify: true
+  servername: senflarelink-node-il65vh.pages.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: senflarelink-node-il65vh.pages.dev
+    v2ray-http-upgrade: false
   udp: true
 - name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
-  server: 103.119.15.175
+  server: 172.233.129.172
   port: 443
   type: vless
-  uuid: 89be587f-0e93-4c67-822e-98ad0a56c29e
+  uuid: 40a4b915-5e6f-4316-9bb1-e899f30608e3
   tls: true
   tfo: false
-  flow: xtls-rprx-vision
   skip-cert-verify: true
   reality-opts:
-    public-key: vQgrNIQTmbTIqtauDixzp2ePvd-aK_zlTctIDRPk3wQ
-    short-id: "ce90a4459f024897"
-  servername: www.amazon.com
+    public-key: LWfC_chpo4uDtzJ9VVnuTcf6zTzWKx-LCJAE2Ltl7h4
+    short-id: "5818adc3"
+  servername: itunes.apple.com
   client-fingerprint: chrome
-  network: tcp
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
+    v2ray-http-upgrade: false
   udp: true
-- name: "\U0001F1E9\U0001F1EA \u5FB7\u56FD|@ripaojiedian"
-  server: 189.24.82.30
-  port: 443
+- name: "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57614|@ripaojiedian"
+  server: 43.134.187.97
+  port: 8443
   type: vless
-  uuid: b354463f-ac84-422e-9a26-556c81ba001c
+  uuid: b69cf773-da16-486e-afce-a45b94f998b3
   tls: true
   tfo: false
-  flow: xtls-rprx-vision
   skip-cert-verify: true
-  reality-opts:
-    public-key: 77HTpkO_F3cUfA5Trka3eSh8V18atRMLyclGqZ__8C8
-    short-id: "b73c53b18b65dd90"
-  servername: www.apple.com
+  servername: senflarelink-node-2ott2x.pages.dev
   client-fingerprint: chrome
-  network: tcp
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: senflarelink-node-2ott2x.pages.dev
+    v2ray-http-upgrade: false
   udp: true
-- name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
-  server: 116.213.43.43
-  port: 11105
+- name: "\U0001F1EF\U0001F1F5 \u65E5\u672C4|@ripaojiedian"
+  server: 166.88.14.71
+  port: 8443
   type: vless
-  uuid: 31d5b95e-aff2-4ffb-8160-b5ae941b46f6
+  uuid: b69cf773-da16-486e-afce-a45b94f998b3
   tls: true
   tfo: false
-  flow: xtls-rprx-vision
   skip-cert-verify: true
-  reality-opts:
-    public-key: ghxoNrFX488_gXprrfDt-03Lkxj3YFqS2q-DDw-m6yE
-    short-id: "d9180a5730e950d2"
-  servername: www.apple.com
+  servername: senflarelink-node-71i.pages.dev
   client-fingerprint: chrome
-  network: tcp
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: senflarelink-node-71i.pages.dev
+    v2ray-http-upgrade: false
   udp: true
-- name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
-  server: 166.0.27.137
-  port: 443
+- name: "\U0001F1EF\U0001F1F5 \u65E5\u672C5|@ripaojiedian"
+  server: 45.32.57.15
+  port: 8443
   type: vless
-  uuid: ad45be81-9ba1-4a41-9326-f6ceb63eb79f
+  uuid: b69cf773-da16-486e-afce-a45b94f998b3
   tls: true
   tfo: false
-  flow: xtls-rprx-vision
   skip-cert-verify: true
-  reality-opts:
-    public-key: AMv7Xq2QzEDvAotwLRbqCk-WAxlQ7lxxYffMCvmNGhE
-    short-id: "5bcc25a95dcd415b"
-  servername: www.samsung.com
+  servername: senflarelink-node-nwz76h.pages.dev
   client-fingerprint: chrome
-  network: tcp
-  udp: true
-- name: "\U0001F1EC\U0001F1E7 \u82F1\u56FD|@ripaojiedian"
-  server: 8.208.101.215
-  port: 443
-  type: vless
-  uuid: 3112c3f2-7172-417d-bce6-d168135d1603
-  tls: true
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  reality-opts:
-    public-key: U6FtussjhSb81ka0z9IDf1n80syjsczIDrRTdmzyeGM
-    short-id: "5a6f99962a27cdbc"
-  servername: www.ebay.com
-  client-fingerprint: chrome
-  network: tcp
-  udp: true
-- name: "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
-  server: 116.213.43.43
-  port: 11101
-  type: vless
-  uuid: ca69a29d-60ef-433a-91bc-27537be993c8
-  tls: true
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  reality-opts:
-    public-key: 2eUT-b2e2lghUKWM3qf8uI3_Dphg9whKrQ08o4S-bzw
-    short-id: "82f99830e7b834e2"
-  servername: www.apple.com
-  client-fingerprint: chrome
-  network: tcp
-  udp: true
-- name: "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
-  server: 47.84.39.7
-  port: 443
-  type: vless
-  uuid: a6fd460c-88bd-4425-bb56-2b73d29455cc
-  tls: true
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  reality-opts:
-    public-key: EXPjsObdfDnKuRmw4-A9_G4k-WP2cUXuuvUo8It1sAo
-    short-id: "4d1244cd42a20e6c"
-  servername: www.amazon.com
-  client-fingerprint: chrome
-  network: tcp
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: senflarelink-node-nwz76h.pages.dev
+    v2ray-http-upgrade: false
   udp: true
 - name: "\U0001F1F0\U0001F1F7 \u97E9\u56FD|@ripaojiedian"
-  server: 43.108.109.112
-  port: 443
+  server: 131.186.22.95
+  port: 8443
   type: vless
-  uuid: 4ded3111-b418-475a-93de-0360932508b2
+  uuid: b69cf773-da16-486e-afce-a45b94f998b3
   tls: true
   tfo: false
-  flow: xtls-rprx-vision
   skip-cert-verify: true
-  reality-opts:
-    public-key: vrFq4-k-eiTSyRF3T3e7Fqmlv4XSKmByKYsw55zeX3w
-    short-id: "b79a86e2b1a586a0"
-  servername: www.samsung.com
+  servername: senflarelink-node-il65vh.pages.dev
   client-fingerprint: chrome
-  network: tcp
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: senflarelink-node-il65vh.pages.dev
+    v2ray-http-upgrade: false
   udp: true
-- name: "\U0001F1F9\U0001F1ED \u6CF0\u56FD|@ripaojiedian"
-  server: 47.81.32.116
-  port: 443
+- name: "\U0001F1F0\U0001F1F7 \u97E9\u56FD2|@ripaojiedian"
+  server: 14.44.19.57
+  port: 12101
   type: vless
-  uuid: 33330382-a046-428d-9e95-9aae8bd6b90e
+  uuid: b69cf773-da16-486e-afce-a45b94f998b3
   tls: true
   tfo: false
-  flow: xtls-rprx-vision
   skip-cert-verify: true
-  reality-opts:
-    public-key: P3MHfKzFZhV5TRjdEj2r43fUr24iijLqB_k7rbSR2Bg
-    short-id: "4446248c38c846e6"
-  servername: www.amazon.com
+  servername: senflarelink-node-nwz76h.pages.dev
   client-fingerprint: chrome
-  network: tcp
-  udp: true
-- name: "\U0001F1F5\U0001F1ED \u83F2\u5F8B\u5BBE|@ripaojiedian"
-  server: 47.80.76.105
-  port: 443
-  type: vless
-  uuid: ecdcc5d3-644a-4606-9e9e-130315da68cd
-  tls: true
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  reality-opts:
-    public-key: T7_XLYoPP1_kxIaOov9SovRMk-P1mS-FRhdWueHxaR0
-    short-id: "58aa532948cab4a4"
-  servername: www.amazon.com
-  client-fingerprint: chrome
-  network: tcp
-  udp: true
-- name: "\U0001F1F2\U0001F1FE \u9A6C\u6765\u897F\u4E9A|@ripaojiedian"
-  server: 47.250.146.252
-  port: 443
-  type: vless
-  uuid: 7a09c6e0-ad6e-4f96-980e-e0b198bb722f
-  tls: true
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  reality-opts:
-    public-key: SJyvyV7tQNPeJR-dnV11hve50q-En-mhh2eDXMX16C4
-    short-id: "2fbe9d45d0754b78"
-  servername: www.ebay.com
-  client-fingerprint: chrome
-  network: tcp
-  udp: true
-- name: "\U0001F1EE\U0001F1E9 \u5370\u5C3C|@ripaojiedian"
-  server: 147.139.197.200
-  port: 443
-  type: vless
-  uuid: a197af05-7048-478e-8d99-c3151adb4064
-  tls: true
-  tfo: false
-  flow: xtls-rprx-vision
-  skip-cert-verify: true
-  reality-opts:
-    public-key: ulPGCwIg38AVGww0FBfCNROmu_0N1hykbHbhcAFgcl0
-    short-id: "6135361d11cc2b31"
-  servername: www.ebay.com
-  client-fingerprint: chrome
-  network: tcp
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: senflarelink-node-nwz76h.pages.dev
+    v2ray-http-upgrade: false
   udp: true
 - name: "\u8BF4\u660E-\u6765\u6E90: ripaojiedian/freenode"
   type: trojan
@@ -347,14 +410,14 @@ proxies:
   udp: true
   skip-cert-verify: true
 - name: "\u8BF4\u660E-\u6E05\u6D17\u7ED3\u679C: \u6E05\u7406 0 \u4E2A\u8282\u70B9\u3001\
-    \u4FEE\u590D 0 \u5904\u5F15\u7528\u3001\u8F6C\u8BD1 18573 \u4E2A\u5B57\u7B26"
+    \u4FEE\u590D 0 \u5904\u5F15\u7528\u3001\u8F6C\u8BD1 18762 \u4E2A\u5B57\u7B26"
   type: trojan
   server: 127.0.0.1
   port: 443
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-11-23 05:40 (CST)"
+- name: "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-11-23 14:06 (CST)"
   type: trojan
   server: 127.0.0.1
   port: 443
@@ -381,8 +444,8 @@ proxy-groups:
   proxies:
   - "\u8BF4\u660E-\u6765\u6E90: ripaojiedian/freenode"
   - "\u8BF4\u660E-\u6E05\u6D17\u7ED3\u679C: \u6E05\u7406 0 \u4E2A\u8282\u70B9\u3001\
-    \u4FEE\u590D 0 \u5904\u5F15\u7528\u3001\u8F6C\u8BD1 18573 \u4E2A\u5B57\u7B26"
-  - "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-11-23 05:40 (CST)"
+    \u4FEE\u590D 0 \u5904\u5F15\u7528\u3001\u8F6C\u8BD1 18762 \u4E2A\u5B57\u7B26"
+  - "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-11-23 14:06 (CST)"
   - "\u8BF4\u660E-\u4F5C\u8005: wzmwayne"
   - "\u8BF4\u660E-\u4ED3\u5E93: https://github.com/wzmwayne/proxy-node"
 - name: "\U0001F680 \u8282\u70B9\u9009\u62E9"
@@ -392,23 +455,28 @@ proxy-groups:
   - DIRECT
   - "\U0001F1EE\U0001F1F9 \u610F\u5927\u5229|@ripaojiedian"
   - "\U0001F1EE\U0001F1F9 \u610F\u5927\u52292|@ripaojiedian"
-  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
-  - "\U0001F1F9\U0001F1FC \u53F0\u6E7E|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
-  - "\U0001F1E9\U0001F1EA \u5FB7\u56FD|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
-  - "\U0001F1EC\U0001F1E7 \u82F1\u56FD|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57615|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57611|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
+  - "\U0001F1F9\U0001F1FC \u53F0\u6E7E|@ripaojiedian"
+  - "\U0001F1F9\U0001F1FC \u53F0\u6E7E2|@ripaojiedian"
+  - "\U0001F1FB\U0001F1F3 \u8D8A\u5357|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
+  - "\U0001F1F9\U0001F1FC \u53F0\u6E7E3|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57614|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C4|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C5|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 \u97E9\u56FD|@ripaojiedian"
-  - "\U0001F1F9\U0001F1ED \u6CF0\u56FD|@ripaojiedian"
-  - "\U0001F1F5\U0001F1ED \u83F2\u5F8B\u5BBE|@ripaojiedian"
-  - "\U0001F1F2\U0001F1FE \u9A6C\u6765\u897F\u4E9A|@ripaojiedian"
-  - "\U0001F1EE\U0001F1E9 \u5370\u5C3C|@ripaojiedian"
+  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD2|@ripaojiedian"
 - name: "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -417,23 +485,28 @@ proxy-groups:
   proxies:
   - "\U0001F1EE\U0001F1F9 \u610F\u5927\u5229|@ripaojiedian"
   - "\U0001F1EE\U0001F1F9 \u610F\u5927\u52292|@ripaojiedian"
-  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
-  - "\U0001F1F9\U0001F1FC \u53F0\u6E7E|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
-  - "\U0001F1E9\U0001F1EA \u5FB7\u56FD|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
-  - "\U0001F1EC\U0001F1E7 \u82F1\u56FD|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57615|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57611|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
+  - "\U0001F1F9\U0001F1FC \u53F0\u6E7E|@ripaojiedian"
+  - "\U0001F1F9\U0001F1FC \u53F0\u6E7E2|@ripaojiedian"
+  - "\U0001F1FB\U0001F1F3 \u8D8A\u5357|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
+  - "\U0001F1F9\U0001F1FC \u53F0\u6E7E3|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57614|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C4|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C5|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 \u97E9\u56FD|@ripaojiedian"
-  - "\U0001F1F9\U0001F1ED \u6CF0\u56FD|@ripaojiedian"
-  - "\U0001F1F5\U0001F1ED \u83F2\u5F8B\u5BBE|@ripaojiedian"
-  - "\U0001F1F2\U0001F1FE \u9A6C\u6765\u897F\u4E9A|@ripaojiedian"
-  - "\U0001F1EE\U0001F1E9 \u5370\u5C3C|@ripaojiedian"
+  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD2|@ripaojiedian"
 - name: "\U0001F30D \u56FD\u5916\u5A92\u4F53"
   type: select
   proxies:
@@ -442,23 +515,28 @@ proxy-groups:
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\U0001F1EE\U0001F1F9 \u610F\u5927\u5229|@ripaojiedian"
   - "\U0001F1EE\U0001F1F9 \u610F\u5927\u52292|@ripaojiedian"
-  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
-  - "\U0001F1F9\U0001F1FC \u53F0\u6E7E|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
-  - "\U0001F1E9\U0001F1EA \u5FB7\u56FD|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
-  - "\U0001F1EC\U0001F1E7 \u82F1\u56FD|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57615|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57611|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
+  - "\U0001F1F9\U0001F1FC \u53F0\u6E7E|@ripaojiedian"
+  - "\U0001F1F9\U0001F1FC \u53F0\u6E7E2|@ripaojiedian"
+  - "\U0001F1FB\U0001F1F3 \u8D8A\u5357|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
+  - "\U0001F1F9\U0001F1FC \u53F0\u6E7E3|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57614|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C4|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C5|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 \u97E9\u56FD|@ripaojiedian"
-  - "\U0001F1F9\U0001F1ED \u6CF0\u56FD|@ripaojiedian"
-  - "\U0001F1F5\U0001F1ED \u83F2\u5F8B\u5BBE|@ripaojiedian"
-  - "\U0001F1F2\U0001F1FE \u9A6C\u6765\u897F\u4E9A|@ripaojiedian"
-  - "\U0001F1EE\U0001F1E9 \u5370\u5C3C|@ripaojiedian"
+  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD2|@ripaojiedian"
 - name: "\U0001F4F2 \u7535\u62A5\u4FE1\u606F"
   type: select
   proxies:
@@ -466,23 +544,28 @@ proxy-groups:
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\U0001F1EE\U0001F1F9 \u610F\u5927\u5229|@ripaojiedian"
   - "\U0001F1EE\U0001F1F9 \u610F\u5927\u52292|@ripaojiedian"
-  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
-  - "\U0001F1F9\U0001F1FC \u53F0\u6E7E|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
-  - "\U0001F1E9\U0001F1EA \u5FB7\u56FD|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
-  - "\U0001F1EC\U0001F1E7 \u82F1\u56FD|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57615|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57611|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
+  - "\U0001F1F9\U0001F1FC \u53F0\u6E7E|@ripaojiedian"
+  - "\U0001F1F9\U0001F1FC \u53F0\u6E7E2|@ripaojiedian"
+  - "\U0001F1FB\U0001F1F3 \u8D8A\u5357|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
+  - "\U0001F1F9\U0001F1FC \u53F0\u6E7E3|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57614|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C4|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C5|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 \u97E9\u56FD|@ripaojiedian"
-  - "\U0001F1F9\U0001F1ED \u6CF0\u56FD|@ripaojiedian"
-  - "\U0001F1F5\U0001F1ED \u83F2\u5F8B\u5BBE|@ripaojiedian"
-  - "\U0001F1F2\U0001F1FE \u9A6C\u6765\u897F\u4E9A|@ripaojiedian"
-  - "\U0001F1EE\U0001F1E9 \u5370\u5C3C|@ripaojiedian"
+  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD2|@ripaojiedian"
 - name: "\u24C2\uFE0F \u5FAE\u8F6F\u670D\u52A1"
   type: select
   proxies:
@@ -490,23 +573,28 @@ proxy-groups:
   - "\U0001F680 \u8282\u70B9\u9009\u62E9"
   - "\U0001F1EE\U0001F1F9 \u610F\u5927\u5229|@ripaojiedian"
   - "\U0001F1EE\U0001F1F9 \u610F\u5927\u52292|@ripaojiedian"
-  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
-  - "\U0001F1F9\U0001F1FC \u53F0\u6E7E|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
-  - "\U0001F1E9\U0001F1EA \u5FB7\u56FD|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
-  - "\U0001F1EC\U0001F1E7 \u82F1\u56FD|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57615|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57611|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
+  - "\U0001F1F9\U0001F1FC \u53F0\u6E7E|@ripaojiedian"
+  - "\U0001F1F9\U0001F1FC \u53F0\u6E7E2|@ripaojiedian"
+  - "\U0001F1FB\U0001F1F3 \u8D8A\u5357|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
+  - "\U0001F1F9\U0001F1FC \u53F0\u6E7E3|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57614|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C4|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C5|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 \u97E9\u56FD|@ripaojiedian"
-  - "\U0001F1F9\U0001F1ED \u6CF0\u56FD|@ripaojiedian"
-  - "\U0001F1F5\U0001F1ED \u83F2\u5F8B\u5BBE|@ripaojiedian"
-  - "\U0001F1F2\U0001F1FE \u9A6C\u6765\u897F\u4E9A|@ripaojiedian"
-  - "\U0001F1EE\U0001F1E9 \u5370\u5C3C|@ripaojiedian"
+  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD2|@ripaojiedian"
 - name: "\U0001F34E \u82F9\u679C\u670D\u52A1"
   type: select
   proxies:
@@ -514,23 +602,28 @@ proxy-groups:
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\U0001F1EE\U0001F1F9 \u610F\u5927\u5229|@ripaojiedian"
   - "\U0001F1EE\U0001F1F9 \u610F\u5927\u52292|@ripaojiedian"
-  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
-  - "\U0001F1F9\U0001F1FC \u53F0\u6E7E|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
-  - "\U0001F1E9\U0001F1EA \u5FB7\u56FD|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
-  - "\U0001F1EC\U0001F1E7 \u82F1\u56FD|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57615|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57611|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
+  - "\U0001F1F9\U0001F1FC \u53F0\u6E7E|@ripaojiedian"
+  - "\U0001F1F9\U0001F1FC \u53F0\u6E7E2|@ripaojiedian"
+  - "\U0001F1FB\U0001F1F3 \u8D8A\u5357|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
+  - "\U0001F1F9\U0001F1FC \u53F0\u6E7E3|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57614|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C4|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C5|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 \u97E9\u56FD|@ripaojiedian"
-  - "\U0001F1F9\U0001F1ED \u6CF0\u56FD|@ripaojiedian"
-  - "\U0001F1F5\U0001F1ED \u83F2\u5F8B\u5BBE|@ripaojiedian"
-  - "\U0001F1F2\U0001F1FE \u9A6C\u6765\u897F\u4E9A|@ripaojiedian"
-  - "\U0001F1EE\U0001F1E9 \u5370\u5C3C|@ripaojiedian"
+  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD2|@ripaojiedian"
 - name: "\U0001F4E2 \u8C37\u6B4CFCM"
   type: select
   proxies:
@@ -539,23 +632,28 @@ proxy-groups:
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F1EE\U0001F1F9 \u610F\u5927\u5229|@ripaojiedian"
   - "\U0001F1EE\U0001F1F9 \u610F\u5927\u52292|@ripaojiedian"
-  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
-  - "\U0001F1F9\U0001F1FC \u53F0\u6E7E|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
-  - "\U0001F1E9\U0001F1EA \u5FB7\u56FD|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
-  - "\U0001F1EC\U0001F1E7 \u82F1\u56FD|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57615|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57611|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
+  - "\U0001F1F9\U0001F1FC \u53F0\u6E7E|@ripaojiedian"
+  - "\U0001F1F9\U0001F1FC \u53F0\u6E7E2|@ripaojiedian"
+  - "\U0001F1FB\U0001F1F3 \u8D8A\u5357|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
+  - "\U0001F1F9\U0001F1FC \u53F0\u6E7E3|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57614|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C4|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C5|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 \u97E9\u56FD|@ripaojiedian"
-  - "\U0001F1F9\U0001F1ED \u6CF0\u56FD|@ripaojiedian"
-  - "\U0001F1F5\U0001F1ED \u83F2\u5F8B\u5BBE|@ripaojiedian"
-  - "\U0001F1F2\U0001F1FE \u9A6C\u6765\u897F\u4E9A|@ripaojiedian"
-  - "\U0001F1EE\U0001F1E9 \u5370\u5C3C|@ripaojiedian"
+  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD2|@ripaojiedian"
 - name: "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   type: select
   proxies:
@@ -580,23 +678,28 @@ proxy-groups:
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F1EE\U0001F1F9 \u610F\u5927\u5229|@ripaojiedian"
   - "\U0001F1EE\U0001F1F9 \u610F\u5927\u52292|@ripaojiedian"
-  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
-  - "\U0001F1F9\U0001F1FC \u53F0\u6E7E|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
-  - "\U0001F1E9\U0001F1EA \u5FB7\u56FD|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
-  - "\U0001F1EC\U0001F1E7 \u82F1\u56FD|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57615|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57611|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
+  - "\U0001F1F9\U0001F1FC \u53F0\u6E7E|@ripaojiedian"
+  - "\U0001F1F9\U0001F1FC \u53F0\u6E7E2|@ripaojiedian"
+  - "\U0001F1FB\U0001F1F3 \u8D8A\u5357|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
+  - "\U0001F1F9\U0001F1FC \u53F0\u6E7E3|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57614|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C4|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C5|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 \u97E9\u56FD|@ripaojiedian"
-  - "\U0001F1F9\U0001F1ED \u6CF0\u56FD|@ripaojiedian"
-  - "\U0001F1F5\U0001F1ED \u83F2\u5F8B\u5BBE|@ripaojiedian"
-  - "\U0001F1F2\U0001F1FE \u9A6C\u6765\u897F\u4E9A|@ripaojiedian"
-  - "\U0001F1EE\U0001F1E9 \u5370\u5C3C|@ripaojiedian"
+  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD2|@ripaojiedian"
 rules:
 - "DOMAIN-SUFFIX,acl4.ssr,\U0001F3AF \u5168\u7403\u76F4\u8FDE"
 - "DOMAIN-SUFFIX,ip6-localhost,\U0001F3AF \u5168\u7403\u76F4\u8FDE"
