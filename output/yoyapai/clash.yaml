@@ -48,49 +48,6 @@ proxies:
   servername: docs.microsoft.com
   sni: docs.microsoft.com
   skip-cert-verify: false
-- type: anytls
-  name: "\U0001F1F9\U0001F1FCTW\u53F0\u6E7E\u4E28yoyapai.com (2)"
-  server: a54ge.df6h451rh.xin
-  port: 443
-  password: "0324fbc29561"
-  udp: true
-  tls: true
-  servername: docs.microsoft.com
-  sni: docs.microsoft.com
-  skip-cert-verify: false
-  client-fingerprint: chrome
-- type: vless
-  name: "\U0001F1E8\U0001F1E6CA\u52A0\u62FF\u5927\u4E28yoyapai.com"
-  server: 104.17.147.208
-  port: 443
-  uuid: 258ca28a-d982-4a40-b620-7c1c81108060
-  udp: true
-  tls: true
-  servername: b.rack.sxsc.dpdns.org
-  sni: b.rack.sxsc.dpdns.org
-  skip-cert-verify: false
-  alpn:
-  - h3
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: b.rack.sxsc.dpdns.org
-- type: vless
-  name: "\u2753\u672A\u77E5\u4E28yoyapai.com"
-  server: 104.17.136.102
-  port: 2087
-  uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
-  udp: true
-  tls: true
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: rezanoori4295.pages.dev
 - type: ss
   name: "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com"
   server: 47.254.128.109
@@ -100,27 +57,59 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: false
+- type: anytls
+  name: "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com"
+  server: ibsdsf.df6h451rh.xin
+  port: 443
+  password: "2902c46c8493"
+  udp: true
+  tls: true
+  servername: docs.microsoft.com
+  sni: docs.microsoft.com
+  skip-cert-verify: false
+  client-fingerprint: chrome
+- type: ss
+  name: "\u2753\u672A\u77E5\u4E28yoyapai.com"
+  server: 47.254.128.109
+  port: 443
+  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
+  cipher: 2022-blake3-chacha20-poly1305
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: vless
+  name: "\U0001F1EC\U0001F1E7GB\u82F1\u56FD\u4E28yoyapai.com"
+  server: 2.26.251.236
+  port: 443
+  uuid: c16e8cdb-65dd-4049-bc65-14c051b8a6c6
+  flow: xtls-rprx-vision
+  udp: true
+  tls: true
+  servername: mental-deprivation.ru
+  sni: mental-deprivation.ru
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: 1iVMMhJZgXHRY7tRlR-1kypF0YeaBcB7EjcfHRsYZX4
+    short-id: "4ff31b18d1bd8227"
+- type: vless
+  name: "\U0001F1EC\U0001F1E7GB\u82F1\u56FD\u4E28yoyapai.com (2)"
+  server: 2.26.251.236
+  port: 443
+  uuid: c16e8cdb-65dd-4049-bc65-14c051b8a6c6
+  flow: xtls-rprx-vision
+  udp: true
+  tls: true
+  servername: mental-deprivation.ru
+  sni: mental-deprivation.ru
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 1iVMMhJZgXHRY7tRlR-1kypF0YeaBcB7EjcfHRsYZX4
+    short-id: "4ff31b18d1bd8227"
 - type: ss
   name: "\u2753\u672A\u77E5\u4E28yoyapai.com (2)"
-  server: 202.50.253.72
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- type: ss
-  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (3)"
-  server: 202.50.253.63
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- type: ss
-  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (4)"
-  server: 202.50.253.72
+  server: 202.50.253.45
   port: 19999
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   cipher: aes-256-gcm
@@ -128,85 +117,22 @@ proxies:
   tls: false
   skip-cert-verify: false
 - type: vless
-  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (5)"
-  server: api.ferrin.uk
+  name: "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (2)"
+  server: 2.26.251.236
   port: 443
-  uuid: 7d1a74fd-8a38-4a29-863f-5da53a9e557e
+  uuid: c16e8cdb-65dd-4049-bc65-14c051b8a6c6
+  flow: xtls-rprx-vision
   udp: true
   tls: true
-  servername: 7d1a74fd.ferrin.uk
-  sni: 7d1a74fd.ferrin.uk
+  servername: mental-deprivation.ru
+  sni: mental-deprivation.ru
   skip-cert-verify: false
-  client-fingerprint: chrome
-  network: xhttp
-  xhttp-opts:
-    path: /es
-    mode: stream-one
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: 1iVMMhJZgXHRY7tRlR-1kypF0YeaBcB7EjcfHRsYZX4
+    short-id: "4ff31b18d1bd8227"
 - type: ss
-  name: "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com"
-  server: 202.50.253.36
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- type: ss
-  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (6)"
-  server: 202.50.253.27
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- type: ss
-  name: "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (2)"
-  server: 202.50.253.27
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- type: ss
-  name: "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (2)"
-  server: 202.50.253.72
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- type: ss
-  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (7)"
-  server: 202.50.253.36
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- type: ss
-  name: "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (3)"
-  server: 202.50.253.90
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- type: ss
-  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (8)"
-  server: 202.50.253.63
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- type: ss
-  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (9)"
+  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (3)"
   server: 202.50.253.99
   port: 19999
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -214,161 +140,23 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: false
-- type: ss
-  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (10)"
-  server: 202.50.253.72
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- type: ss
-  name: "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (4)"
-  server: 202.50.253.72
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- type: ss
-  name: "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (5)"
-  server: 202.50.253.45
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- type: ss
-  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (11)"
-  server: 202.50.253.36
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- type: ss
-  name: "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (6)"
-  server: 202.50.253.90
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- type: ss
-  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (12)"
-  server: 202.50.253.45
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- type: ss
-  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (13)"
-  server: 202.50.253.18
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- type: ss
-  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (14)"
-  server: 202.50.253.27
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- type: ss
-  name: "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (7)"
-  server: 202.50.253.90
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- type: ss
-  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (15)"
-  server: 202.50.253.54
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- type: ss
+- type: vless
   name: "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (3)"
-  server: 202.50.253.72
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
+  server: 2.26.251.236
+  port: 443
+  uuid: c16e8cdb-65dd-4049-bc65-14c051b8a6c6
+  flow: xtls-rprx-vision
   udp: true
-  tls: false
+  tls: true
+  servername: mental-deprivation.ru
+  sni: mental-deprivation.ru
   skip-cert-verify: false
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: 1iVMMhJZgXHRY7tRlR-1kypF0YeaBcB7EjcfHRsYZX4
+    short-id: "4ff31b18d1bd8227"
 - type: ss
-  name: "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (8)"
-  server: 202.50.253.81
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- type: ss
-  name: "\U0001F1F3\U0001F1FFNZ\u65B0\u897F\u5170\u4E28yoyapai.com"
-  server: 202.50.253.72
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- type: ss
-  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (16)"
-  server: 202.50.253.27
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- type: ss
-  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (17)"
-  server: 202.50.253.72
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- type: ss
-  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (18)"
-  server: 202.50.253.54
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- type: ss
-  name: "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (9)"
-  server: 202.50.253.72
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- type: ss
-  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (19)"
+  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (4)"
   server: 202.50.253.72
   port: 19999
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -386,7 +174,7 @@ proxies:
   tls: false
   skip-cert-verify: false
 - type: ss
-  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (20)"
+  name: "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com"
   server: 202.50.253.72
   port: 19999
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -395,43 +183,7 @@ proxies:
   tls: false
   skip-cert-verify: false
 - type: ss
-  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (21)"
-  server: 202.50.253.45
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- type: ss
-  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (22)"
-  server: 202.50.253.99
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- type: ss
-  name: "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (10)"
-  server: 202.50.253.54
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- type: ss
-  name: "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (11)"
-  server: 202.50.253.90
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- type: ss
-  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (23)"
+  name: "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (2)"
   server: 202.50.253.81
   port: 19999
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -440,8 +192,17 @@ proxies:
   tls: false
   skip-cert-verify: false
 - type: ss
-  name: "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (12)"
-  server: 202.50.253.72
+  name: "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (3)"
+  server: 202.50.253.36
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (4)"
+  server: 202.50.253.90
   port: 19999
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   cipher: aes-256-gcm
@@ -458,61 +219,7 @@ proxies:
   tls: false
   skip-cert-verify: false
 - type: ss
-  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (24)"
-  server: 202.50.253.90
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- type: ss
-  name: "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (13)"
-  server: 202.50.253.99
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- type: ss
-  name: "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (14)"
-  server: 202.50.253.45
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- type: ss
-  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (25)"
-  server: 202.50.253.72
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- type: ss
-  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (26)"
-  server: 202.50.253.45
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- type: ss
-  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (27)"
-  server: 202.50.253.18
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- type: ss
-  name: "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (15)"
+  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (5)"
   server: 202.50.253.81
   port: 19999
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -521,34 +228,7 @@ proxies:
   tls: false
   skip-cert-verify: false
 - type: ss
-  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (28)"
-  server: 202.50.253.63
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- type: ss
-  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (29)"
-  server: 202.50.253.54
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- type: ss
-  name: "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (16)"
-  server: 202.50.253.99
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- type: ss
-  name: "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (17)"
+  name: "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (5)"
   server: 202.50.253.45
   port: 19999
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -557,7 +237,43 @@ proxies:
   tls: false
   skip-cert-verify: false
 - type: ss
-  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (30)"
+  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (6)"
+  server: 202.50.253.63
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (7)"
+  server: 202.50.253.72
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (6)"
+  server: 202.50.253.45
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (7)"
+  server: 202.50.253.27
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (8)"
   server: 202.50.253.18
   port: 19999
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -566,7 +282,331 @@ proxies:
   tls: false
   skip-cert-verify: false
 - type: ss
+  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (9)"
+  server: 202.50.253.45
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (8)"
+  server: 202.50.253.90
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (10)"
+  server: 202.50.253.90
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (9)"
+  server: 202.50.253.99
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (11)"
+  server: 202.50.253.72
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: "\U0001F1F3\U0001F1FFNZ\u65B0\u897F\u5170\u4E28yoyapai.com"
+  server: 202.50.253.72
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (12)"
+  server: 202.50.253.36
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (13)"
+  server: 202.50.253.54
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (14)"
+  server: 202.50.253.72
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (15)"
+  server: 202.50.253.72
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (10)"
+  server: 202.50.253.72
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (16)"
+  server: 202.50.253.45
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (11)"
+  server: 202.50.253.72
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (17)"
+  server: 202.50.253.27
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (18)"
+  server: 202.50.253.99
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (12)"
+  server: 202.50.253.45
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (5)"
+  server: 202.50.253.72
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (19)"
+  server: 202.50.253.27
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (20)"
+  server: 202.50.253.54
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (21)"
+  server: 202.50.253.54
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (13)"
+  server: 202.50.253.81
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (14)"
+  server: 202.50.253.99
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (15)"
+  server: 202.50.253.54
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (22)"
+  server: 202.50.253.18
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (23)"
+  server: 202.50.253.63
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (16)"
+  server: 202.50.253.90
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (17)"
+  server: 202.50.253.63
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (6)"
+  server: 202.50.253.72
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
   name: "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (18)"
+  server: 202.50.253.90
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (24)"
+  server: 202.50.253.81
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (25)"
+  server: 202.50.253.18
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (26)"
+  server: 202.50.253.63
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (27)"
+  server: 202.50.253.36
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (28)"
+  server: 202.50.253.36
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (19)"
+  server: 202.50.253.27
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (29)"
+  server: 202.50.253.72
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (30)"
   server: 202.50.253.27
   port: 19999
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -576,70 +616,7 @@ proxies:
   skip-cert-verify: false
 - type: ss
   name: "\u2753\u672A\u77E5\u4E28yoyapai.com (31)"
-  server: 202.50.253.36
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- type: ss
-  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (32)"
-  server: 202.50.253.81
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- type: ss
-  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (33)"
-  server: 202.50.253.36
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- type: ss
-  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (34)"
   server: 202.50.253.45
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- type: ss
-  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (35)"
-  server: 47.254.128.109
-  port: 443
-  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
-  cipher: 2022-blake3-chacha20-poly1305
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- type: vless
-  name: "\U0001F1F3\U0001F1F1NL\u8377\u5170\u4E28yoyapai.com (2)"
-  server: 196.245.52.183
-  port: 443
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-  udp: true
-  tls: true
-  servername: e60833x.nl7.h1clayd.click
-  sni: e60833x.nl7.h1clayd.click
-  skip-cert-verify: false
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: jIRVNEf9SpuWP2nJrAbHGGIUnfzOmwZZlrNGw-Y-O2Q
-    short-id: "2d2598d60447a967"
-  network: xhttp
-  xhttp-opts:
-    path: /d20896a4ce30
-    mode: auto
-- type: ss
-  name: "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (19)"
-  server: 202.50.253.63
   port: 19999
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   cipher: aes-256-gcm
@@ -664,6 +641,57 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: false
+- type: ss
+  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (32)"
+  server: 202.50.253.72
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (33)"
+  server: 202.50.253.36
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: vless
+  name: "\U0001F1F3\U0001F1F1NL\u8377\u5170\u4E28yoyapai.com (2)"
+  server: 196.245.52.183
+  port: 443
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  udp: true
+  tls: true
+  servername: e60833x.nl7.h1clayd.click
+  sni: e60833x.nl7.h1clayd.click
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: jIRVNEf9SpuWP2nJrAbHGGIUnfzOmwZZlrNGw-Y-O2Q
+    short-id: "2d2598d60447a967"
+  network: xhttp
+  xhttp-opts:
+    path: /d20896a4ce30
+    mode: auto
+- type: vless
+  name: "\U0001F1EC\U0001F1E7GB\u82F1\u56FD\u4E28yoyapai.com (3)"
+  server: 2.26.251.236
+  port: 443
+  uuid: c16e8cdb-65dd-4049-bc65-14c051b8a6c6
+  flow: xtls-rprx-vision
+  udp: true
+  tls: true
+  servername: mental-deprivation.ru
+  sni: mental-deprivation.ru
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: 1iVMMhJZgXHRY7tRlR-1kypF0YeaBcB7EjcfHRsYZX4
+    short-id: "4ff31b18d1bd8227"
 - type: vless
   name: "FR\u6CD5\u570B\u4E28yoyapai.com"
   server: yx.cloudflare.182682.xyz
@@ -755,7 +783,7 @@ proxies:
   ws-opts:
     path: /assignment
 - type: trojan
-  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (36)"
+  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (34)"
   server: 104.18.152.108
   port: 443
   password: humanity
@@ -796,7 +824,7 @@ proxies:
   ws-opts:
     path: /assignment
 - type: vless
-  name: "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (5)"
+  name: "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (7)"
   server: 217.60.68.196
   port: 443
   uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
@@ -811,7 +839,7 @@ proxies:
     public-key: b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI
     short-id: "00bca5982f82d083"
 - type: vless
-  name: "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (6)"
+  name: "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (8)"
   server: 217.60.68.196
   port: 443
   uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
@@ -889,7 +917,7 @@ proxies:
     host: frfx.pafaktalaei.ir
     mode: auto
 - type: vless
-  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (37)"
+  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (35)"
   server: dey.lnmarketplace.net
   port: 443
   uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
@@ -1113,7 +1141,7 @@ proxies:
     headers:
       Host: d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com
 - type: vless
-  name: "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com"
+  name: "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (2)"
   server: 91.193.58.209
   port: 80
   uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
@@ -1126,7 +1154,7 @@ proxies:
     headers:
       Host: twilight-poetry-2bfe.218-699.workers.dev
 - type: vless
-  name: "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (2)"
+  name: "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (3)"
   server: 91.193.58.197
   port: 80
   uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
@@ -1139,7 +1167,7 @@ proxies:
     headers:
       Host: twilight-poetry-2bfe.218-699.workers.dev
 - type: vless
-  name: "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (3)"
+  name: "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (4)"
   server: 91.193.58.179
   port: 80
   uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
@@ -1567,7 +1595,7 @@ proxies:
     headers:
       Host: holy-breeze-0bac.47-dec.workers.dev
 - type: vless
-  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (38)"
+  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (36)"
   server: 91.206.71.8
   port: 80
   uuid: c20a0bcf-aa6f-4c35-9e62-a39b47b04e73
@@ -1592,6 +1620,54 @@ proxies:
     path: /eyJqdW5rIjoiUEVTdDRlR2hhc0JuYyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzI2MDI6ZmM1OTpiMDo2NDo6XSJdfQ
     headers:
       Host: icy-darkness-8ff1.farzambia12mo.workers.dev
+- type: trojan
+  name: "\U0001F1EE\U0001F1F7IR\u4F0A\u6717\u4E28yoyapai.com"
+  server: 2.144.21.112
+  port: 40443
+  password: humanity
+  udp: true
+  tls: true
+  servername: www.ignitelimit.com
+  sni: www.ignitelimit.com
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.ignitelimit.com
+- type: vless
+  name: "\U0001F1F7\U0001F1FARU\u4FC4\u7F57\u65AF\u4E28yoyapai.com"
+  server: 78.159.247.253
+  port: 2027
+  uuid: 851ed0d8-a37b-452d-8ef2-5b6c2d28a060
+  flow: xtls-rprx-vision
+  udp: true
+  tls: true
+  servername: storage.yandex.net
+  sni: storage.yandex.net
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo
+    short-id: "dc8109baf0f607ea"
+- type: vless
+  name: "\U0001F1FA\U0001F1F8US\u7F8E\u56FD\u4E28yoyapai.com (2)"
+  server: 165.231.150.12
+  port: 443
+  uuid: fbd1bcab-3480-4344-b3da-ae42d728ef51
+  udp: true
+  tls: true
+  servername: obrienteamnissan.com
+  sni: obrienteamnissan.com
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: XBBVeMURFu7jmYJ9MZwjEWgfQlGTnRs0B5So5Fy7jWs
+    short-id: "137531892b6dce83"
+  network: xhttp
+  xhttp-opts:
+    path: /
+    mode: auto
 - type: vless
   name: "\U0001F1F9\U0001F1EDTH\u6CF0\u56FD\u4E28yoyapai.com"
   server: 18.239.134.69
@@ -1620,7 +1696,7 @@ proxies:
     headers:
       Host: round-haze-8783.294.workers.dev
 - type: vless
-  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (39)"
+  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (37)"
   server: 108.162.198.178
   port: 80
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
@@ -1715,7 +1791,7 @@ proxies:
     headers:
       Host: d7pu5mzr9c4b0.cloudfront.net
 - type: vless
-  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (40)"
+  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (38)"
   server: 199.232.78.120
   port: 443
   uuid: 8d2cbffd-43d0-458d-906b-7c54b7b51f38
@@ -1730,35 +1806,35 @@ proxies:
     headers:
       Host: fraboijji.global.ssl.fastly.net.
 - type: vless
-  name: "\U0001F1EC\U0001F1E7GB\u82F1\u56FD\u4E28yoyapai.com"
-  server: 2.26.251.236
+  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (39)"
+  server: 201.4.73.21
   port: 443
-  uuid: c16e8cdb-65dd-4049-bc65-14c051b8a6c6
+  uuid: 664f65f4-33b3-43a3-b9e5-68192d1d428e
   flow: xtls-rprx-vision
   udp: true
   tls: true
-  servername: mental-deprivation.ru
-  sni: mental-deprivation.ru
-  skip-cert-verify: false
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: 1iVMMhJZgXHRY7tRlR-1kypF0YeaBcB7EjcfHRsYZX4
-    short-id: "4ff31b18d1bd8227"
-- type: vless
-  name: "\U0001F1EC\U0001F1E7GB\u82F1\u56FD\u4E28yoyapai.com (2)"
-  server: 2.26.251.236
-  port: 443
-  uuid: c16e8cdb-65dd-4049-bc65-14c051b8a6c6
-  flow: xtls-rprx-vision
-  udp: true
-  tls: true
-  servername: mental-deprivation.ru
-  sni: mental-deprivation.ru
+  servername: granite-orchard.cdn.cachefleet.com
+  sni: granite-orchard.cdn.cachefleet.com
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
-    public-key: 1iVMMhJZgXHRY7tRlR-1kypF0YeaBcB7EjcfHRsYZX4
-    short-id: "4ff31b18d1bd8227"
+    public-key: ql7l6Vw5DFt5ZJeGE6ZxsM1kcIvZabxQVr8zkoPJoUE
+    short-id: "8691df964f0bebcb"
+- type: vless
+  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (40)"
+  server: 201.4.73.21
+  port: 443
+  uuid: 664f65f4-33b3-43a3-b9e5-68192d1d428e
+  flow: xtls-rprx-vision
+  udp: true
+  tls: true
+  servername: granite-orchard.cdn.cachefleet.com
+  sni: granite-orchard.cdn.cachefleet.com
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: ql7l6Vw5DFt5ZJeGE6ZxsM1kcIvZabxQVr8zkoPJoUE
+    short-id: "8691df964f0bebcb"
 - type: vless
   name: "\u2753\u672A\u77E5\u4E28yoyapai.com (41)"
   server: 201.4.73.21
@@ -1775,66 +1851,6 @@ proxies:
     public-key: ql7l6Vw5DFt5ZJeGE6ZxsM1kcIvZabxQVr8zkoPJoUE
     short-id: "8691df964f0bebcb"
 - type: vless
-  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (42)"
-  server: 201.4.73.21
-  port: 443
-  uuid: 664f65f4-33b3-43a3-b9e5-68192d1d428e
-  flow: xtls-rprx-vision
-  udp: true
-  tls: true
-  servername: granite-orchard.cdn.cachefleet.com
-  sni: granite-orchard.cdn.cachefleet.com
-  skip-cert-verify: false
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: ql7l6Vw5DFt5ZJeGE6ZxsM1kcIvZabxQVr8zkoPJoUE
-    short-id: "8691df964f0bebcb"
-- type: vless
-  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (43)"
-  server: 201.4.73.21
-  port: 443
-  uuid: 664f65f4-33b3-43a3-b9e5-68192d1d428e
-  flow: xtls-rprx-vision
-  udp: true
-  tls: true
-  servername: granite-orchard.cdn.cachefleet.com
-  sni: granite-orchard.cdn.cachefleet.com
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: ql7l6Vw5DFt5ZJeGE6ZxsM1kcIvZabxQVr8zkoPJoUE
-    short-id: "8691df964f0bebcb"
-- type: vless
-  name: "\U0001F1EC\U0001F1E7GB\u82F1\u56FD\u4E28yoyapai.com (3)"
-  server: 2.26.251.236
-  port: 443
-  uuid: c16e8cdb-65dd-4049-bc65-14c051b8a6c6
-  flow: xtls-rprx-vision
-  udp: true
-  tls: true
-  servername: mental-deprivation.ru
-  sni: mental-deprivation.ru
-  skip-cert-verify: false
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: 1iVMMhJZgXHRY7tRlR-1kypF0YeaBcB7EjcfHRsYZX4
-    short-id: "4ff31b18d1bd8227"
-- type: vless
-  name: "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (7)"
-  server: 2.26.251.236
-  port: 443
-  uuid: c16e8cdb-65dd-4049-bc65-14c051b8a6c6
-  flow: xtls-rprx-vision
-  udp: true
-  tls: true
-  servername: mental-deprivation.ru
-  sni: mental-deprivation.ru
-  skip-cert-verify: false
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: 1iVMMhJZgXHRY7tRlR-1kypF0YeaBcB7EjcfHRsYZX4
-    short-id: "4ff31b18d1bd8227"
-- type: vless
   name: "\U0001F1EA\U0001F1EAEE\u7231\u6C99\u5C3C\u4E9A\u4E28yoyapai.com (2)"
   server: fr5.wizard.select
   port: 443
@@ -1850,7 +1866,7 @@ proxies:
     public-key: uqLRHVERHP974FJk39ltiV8pkcGAWYKJfOJ1nMALahU
     short-id: "984f"
 - type: vless
-  name: "\U0001F1F7\U0001F1FARU\u4FC4\u7F57\u65AF\u4E28yoyapai.com"
+  name: "\U0001F1F7\U0001F1FARU\u4FC4\u7F57\u65AF\u4E28yoyapai.com (2)"
   server: 93.188.184.150
   port: 443
   uuid: c6e3c24c-ce20-4ad5-8c8c-68cb05890ea8
@@ -1899,7 +1915,7 @@ proxies:
     host: dey.lnmarketplace.net
     mode: stream-one
 - type: vless
-  name: "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (8)"
+  name: "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (9)"
   server: dey.lnmarketplace.net
   port: 443
   uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
@@ -2055,7 +2071,7 @@ proxies:
     headers:
       Host: notls.lukongtou.eu.org
 - type: vless
-  name: "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (4)"
+  name: "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (5)"
   server: 91.193.58.243
   port: 80
   uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
@@ -2068,7 +2084,7 @@ proxies:
     headers:
       Host: twilight-poetry-2bfe.218-699.workers.dev
 - type: vless
-  name: "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (5)"
+  name: "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (6)"
   server: 91.193.58.246
   port: 80
   uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
@@ -2262,7 +2278,7 @@ proxies:
     path: /api/v1/events
     mode: auto
 - type: trojan
-  name: "\U0001F1E8\U0001F1E6CA\u52A0\u62FF\u5927\u4E28yoyapai.com (2)"
+  name: "\U0001F1E8\U0001F1E6CA\u52A0\u62FF\u5927\u4E28yoyapai.com"
   server: 104.18.152.208
   port: 443
   password: humanity
@@ -2321,7 +2337,7 @@ proxies:
     public-key: TgaE-83sqLrJ6auwPP2Nq7vDO_xuFqa6uMnG4Au18jg
     short-id: "82"
 - type: trojan
-  name: "\U0001F1E8\U0001F1E6CA\u52A0\u62FF\u5927\u4E28yoyapai.com (3)"
+  name: "\U0001F1E8\U0001F1E6CA\u52A0\u62FF\u5927\u4E28yoyapai.com (2)"
   server: 104.18.152.133
   port: 443
   password: humanity
@@ -2404,7 +2420,7 @@ proxies:
     headers:
       Host: spring-sound-8d8e.36-9ff.workers.dev
 - type: vless
-  name: "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (6)"
+  name: "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (7)"
   server: 27.44.143.169
   port: 14343
   uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158
@@ -2482,7 +2498,7 @@ proxies:
     headers:
       Host: server15.9966338.xyz
 - type: vless
-  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (44)"
+  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (42)"
   server: edge-d6d4b0609348.eu-cdn391.com
   port: 443
   uuid: e75ad2eb-6c1f-45ce-8023-f5f10875df66
@@ -2521,7 +2537,22 @@ proxies:
   tls: false
   skip-cert-verify: false
 - type: vless
-  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (45)"
+  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (43)"
+  server: api.ferrin.uk
+  port: 443
+  uuid: 7d1a74fd-8a38-4a29-863f-5da53a9e557e
+  udp: true
+  tls: true
+  servername: 7d1a74fd.ferrin.uk
+  sni: 7d1a74fd.ferrin.uk
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: xhttp
+  xhttp-opts:
+    path: /es
+    mode: stream-one
+- type: vless
+  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (44)"
   server: 80.96.108.29
   port: 8443
   uuid: 11512726-b692-406f-ab49-7b28f44a8294
@@ -2538,21 +2569,6 @@ proxies:
     path: /ae1b809ceb77
     mode: auto
 - type: vless
-  name: "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (9)"
-  server: 2.26.251.236
-  port: 443
-  uuid: c16e8cdb-65dd-4049-bc65-14c051b8a6c6
-  flow: xtls-rprx-vision
-  udp: true
-  tls: true
-  servername: mental-deprivation.ru
-  sni: mental-deprivation.ru
-  skip-cert-verify: false
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: 1iVMMhJZgXHRY7tRlR-1kypF0YeaBcB7EjcfHRsYZX4
-    short-id: "4ff31b18d1bd8227"
-- type: vless
   name: "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (10)"
   server: base.hosamobenl.co.uk
   port: 443
@@ -2566,7 +2582,7 @@ proxies:
   - http/1.1
   client-fingerprint: chrome
 - type: vless
-  name: "\U0001F1FA\U0001F1F8US\u7F8E\u56FD\u4E28yoyapai.com (2)"
+  name: "\U0001F1FA\U0001F1F8US\u7F8E\u56FD\u4E28yoyapai.com (3)"
   server: 196.245.52.188
   port: 443
   uuid: 747db87a-0cf6-4ea7-ae6b-3293afe2cef6
@@ -2580,7 +2596,7 @@ proxies:
     public-key: UTK3fM9wiII4uIcBYUYJwppN1HezxBPhxPfIxDHZqj4
     short-id: "ce43937e79bc30f0"
 - type: vless
-  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (46)"
+  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (45)"
   server: 201.58.134.155
   port: 443
   uuid: 1ab3c7c3-e1cf-4a20-bd19-ea9041e5518b
@@ -2595,7 +2611,7 @@ proxies:
     public-key: A97fxYOlZFXzk9At5tXIU9PuCdvF42o0JQdovTq0wi8
     short-id: "2958ac91fd7d96"
 - type: vless
-  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (47)"
+  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (46)"
   server: 185.86.145.78
   port: 443
   uuid: 88e79aa6-f431-4453-8dcc-652a0c747198
@@ -2611,7 +2627,7 @@ proxies:
   network: grpc
   grpc-opts: {}
 - type: vless
-  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (48)"
+  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (47)"
   server: 199.232.78.120
   port: 443
   uuid: 8d2cbffd-43d0-458d-906b-7c54b7b51f38
@@ -2626,7 +2642,7 @@ proxies:
     headers:
       Host: ushetzijji.global.ssl.fastly.net.
 - type: vless
-  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (49)"
+  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (48)"
   server: 85.14.243.91
   port: 8443
   uuid: e75ad2eb-6c1f-45ce-8023-f5f10875df66
@@ -2658,7 +2674,7 @@ proxies:
     public-key: VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA
     short-id: "8d0d0679f42ffd98"
 - type: vless
-  name: "\U0001F1E8\U0001F1E6CA\u52A0\u62FF\u5927\u4E28yoyapai.com (4)"
+  name: "\U0001F1E8\U0001F1E6CA\u52A0\u62FF\u5927\u4E28yoyapai.com (3)"
   server: 104.21.70.21
   port: 8080
   uuid: a8b1d666-d3ba-4b17-90c4-ba7514c74f78
@@ -2691,7 +2707,7 @@ proxies:
   grpc-opts:
     grpc-service-name: Aparat-stream
 - type: vless
-  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (50)"
+  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (49)"
   server: 185.14.29.29
   port: 443
   uuid: 6b1607f1-3a08-4681-8abd-83663a8155e7
@@ -2710,7 +2726,7 @@ proxies:
     host: static.gcore.pro
     mode: auto
 - type: vless
-  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (51)"
+  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (50)"
   server: 45.192.12.92
   port: 443
   uuid: 352a250d-080b-47b5-b7db-f9f8fa31c551
@@ -2739,6 +2755,20 @@ proxies:
     headers:
       Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com
 - type: vless
+  name: "\u2753\u672A\u77E5\u4E28yoyapai.com (51)"
+  server: 104.17.136.102
+  port: 2087
+  uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: rezanoori4295.pages.dev
+- type: vless
   name: "\u2753\u672A\u77E5\u4E28yoyapai.com (52)"
   server: 178.17.53.154
   port: 48982
@@ -2756,7 +2786,7 @@ proxies:
     path: /
     mode: auto
 - type: trojan
-  name: "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (7)"
+  name: "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (8)"
   server: sclass-00.catcat321.com
   port: 20103
   password: d9064589-74af-432a-9390-5d8a9da281bf
@@ -2766,7 +2796,7 @@ proxies:
   sni: hk.catxstar.com
   skip-cert-verify: false
 - type: anytls
-  name: "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (8)"
+  name: "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (9)"
   server: 5641sdds.df6h451rh.xin
   port: 443
   password: "0324fbc29561"
@@ -2777,16 +2807,6 @@ proxies:
   skip-cert-verify: false
   client-fingerprint: chrome
 - type: anytls
-  name: "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (9)"
-  server: ibsdsf.df6h451rh.xin
-  port: 443
-  password: "2902c46c8493"
-  udp: true
-  tls: true
-  servername: docs.microsoft.com
-  sni: docs.microsoft.com
-  skip-cert-verify: false
-- type: anytls
   name: "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (10)"
   server: ibsdsf.df6h451rh.xin
   port: 443
@@ -2796,7 +2816,35 @@ proxies:
   servername: docs.microsoft.com
   sni: docs.microsoft.com
   skip-cert-verify: false
+- type: anytls
+  name: "\U0001F1F9\U0001F1FCTW\u53F0\u6E7E\u4E28yoyapai.com (2)"
+  server: a54ge.df6h451rh.xin
+  port: 443
+  password: "0324fbc29561"
+  udp: true
+  tls: true
+  servername: docs.microsoft.com
+  sni: docs.microsoft.com
+  skip-cert-verify: false
   client-fingerprint: chrome
+- type: vless
+  name: "\U0001F1E8\U0001F1E6CA\u52A0\u62FF\u5927\u4E28yoyapai.com (4)"
+  server: 104.17.147.208
+  port: 443
+  uuid: 258ca28a-d982-4a40-b620-7c1c81108060
+  udp: true
+  tls: true
+  servername: b.rack.sxsc.dpdns.org
+  sni: b.rack.sxsc.dpdns.org
+  skip-cert-verify: false
+  alpn:
+  - h3
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: b.rack.sxsc.dpdns.org
 - name: "\u8BF4\u660E-\u6765\u6E90: yoyapai.com"
   type: trojan
   server: 127.0.0.1
@@ -2805,14 +2853,14 @@ proxies:
   udp: true
   skip-cert-verify: true
 - name: "\u8BF4\u660E-\u6E05\u6D17\u7ED3\u679C: \u6E05\u7406 0 \u4E2A\u8282\u70B9\u3001\
-    \u4FEE\u590D 0 \u5904\u5F15\u7528\u3001\u8F6C\u8BD1 8969 \u4E2A\u5B57\u7B26"
+    \u4FEE\u590D 0 \u5904\u5F15\u7528\u3001\u8F6C\u8BD1 9097 \u4E2A\u5B57\u7B26"
   type: trojan
   server: 127.0.0.1
   port: 443
   password: dummy
   udp: true
   skip-cert-verify: true
-- name: "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-11-26 21:36 (CST)"
+- name: "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-11-27 08:20 (CST)"
   type: trojan
   server: 127.0.0.1
   port: 443
@@ -2839,8 +2887,8 @@ proxy-groups:
   proxies:
   - "\u8BF4\u660E-\u6765\u6E90: yoyapai.com"
   - "\u8BF4\u660E-\u6E05\u6D17\u7ED3\u679C: \u6E05\u7406 0 \u4E2A\u8282\u70B9\u3001\
-    \u4FEE\u590D 0 \u5904\u5F15\u7528\u3001\u8F6C\u8BD1 8969 \u4E2A\u5B57\u7B26"
-  - "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-11-26 21:36 (CST)"
+    \u4FEE\u590D 0 \u5904\u5F15\u7528\u3001\u8F6C\u8BD1 9097 \u4E2A\u5B57\u7B26"
+  - "\u8BF4\u660E-\u66F4\u65B0\u65F6\u95F4: 2026-11-27 08:20 (CST)"
   - "\u8BF4\u660E-\u4F5C\u8005: wzmwayne"
   - "\u8BF4\u660E-\u4ED3\u5E93: https://github.com/wzmwayne/proxy-node"
 - name: "\U0001F680 \u8282\u70B9\u9009\u62E9"
@@ -2849,87 +2897,89 @@ proxy-groups:
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - DIRECT
   - "\U0001F1F9\U0001F1FCTW\u53F0\u6E7E\u4E28yoyapai.com"
-  - "\U0001F1F9\U0001F1FCTW\u53F0\u6E7E\u4E28yoyapai.com (2)"
-  - "\U0001F1E8\U0001F1E6CA\u52A0\u62FF\u5927\u4E28yoyapai.com"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com"
   - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com"
+  - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com"
+  - "\U0001F1EC\U0001F1E7GB\u82F1\u56FD\u4E28yoyapai.com"
+  - "\U0001F1EC\U0001F1E7GB\u82F1\u56FD\u4E28yoyapai.com (2)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (2)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (3)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (4)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (5)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (6)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (2)"
   - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (2)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (7)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (3)"
+  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (3)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (4)"
+  - "\U0001F1F3\U0001F1F1NL\u8377\u5170\u4E28yoyapai.com"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (2)"
   - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (3)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (4)"
+  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (4)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (5)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (5)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (6)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (7)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (6)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (7)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (8)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (9)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (8)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (10)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (4)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (5)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (9)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (11)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (6)"
+  - "\U0001F1F3\U0001F1FFNZ\u65B0\u897F\u5170\u4E28yoyapai.com"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (12)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (13)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (14)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (7)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (15)"
-  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (3)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (8)"
-  - "\U0001F1F3\U0001F1FFNZ\u65B0\u897F\u5170\u4E28yoyapai.com"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (10)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (16)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (11)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (17)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (18)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (9)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (12)"
+  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (5)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (19)"
-  - "\U0001F1F3\U0001F1F1NL\u8377\u5170\u4E28yoyapai.com"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (20)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (21)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (22)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (10)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (11)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (23)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (12)"
-  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (4)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (24)"
   - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (13)"
   - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (14)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (15)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (22)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (23)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (16)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (17)"
+  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (6)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (18)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (24)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (25)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (26)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (27)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (15)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (28)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (29)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (16)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (17)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (30)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (18)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (31)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (32)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (33)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (34)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (35)"
-  - "\U0001F1F3\U0001F1F1NL\u8377\u5170\u4E28yoyapai.com (2)"
   - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (19)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (29)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (30)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (31)"
   - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (20)"
   - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (21)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (32)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (33)"
+  - "\U0001F1F3\U0001F1F1NL\u8377\u5170\u4E28yoyapai.com (2)"
+  - "\U0001F1EC\U0001F1E7GB\u82F1\u56FD\u4E28yoyapai.com (3)"
   - "FR\u6CD5\u570B\u4E28yoyapai.com"
   - "FR\u6CD5\u570B\u4E28yoyapai.com (2)"
   - "FR\u6CD5\u570B\u4E28yoyapai.com (3)"
   - "\U0001F1EB\U0001F1F7FR\u6CD5\u56FD\u4E28yoyapai.com"
   - "\U0001F1EB\U0001F1F7FR\u6CD5\u570B\u4E28yoyapai.com"
   - "\U0001F1EB\U0001F1F7FR\u6CD5\u570B\u4E28yoyapai.com (2)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (36)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (34)"
   - "\U0001F1FA\U0001F1F8US\u7F8E\u570B\u4E28yoyapai.com"
   - "\U0001F1FA\U0001F1F8US\u7F8E\u56FD\u4E28yoyapai.com"
-  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (5)"
-  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (6)"
+  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (7)"
+  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (8)"
   - "\U0001F1F3\U0001F1F1NL\u8377\u5170\u4E28yoyapai.com (3)"
   - "\U0001F1F3\U0001F1F1NL\u8377\u5170\u4E28yoyapai.com (4)"
   - "\U0001F1EA\U0001F1EAEE\u7231\u6C99\u5C3C\u4E9A\u4E28yoyapai.com"
   - "\U0001F1EB\U0001F1EEFI\u82AC\u5170\u4E28yoyapai.com"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (37)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (35)"
   - "\U0001F1F3\U0001F1F1NL\u8377\u5170\u4E28yoyapai.com (5)"
   - "\U0001F1F3\U0001F1F1NL\u8377\u5170\u4E28yoyapai.com (6)"
   - "\U0001F1FA\U0001F1F8US\u7F8E\u570B\u4E28yoyapai.com (2)"
@@ -2944,9 +2994,9 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8US\u7F8E\u570B\u4E28yoyapai.com (8)"
   - "FR\u6CD5\u570B\u4E28yoyapai.com (4)"
   - "\U0001F1FA\U0001F1F8US\u7F8E\u570B\u4E28yoyapai.com (9)"
-  - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com"
   - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (2)"
   - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (3)"
+  - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (4)"
   - "\U0001F1EF\U0001F1F5JP\u65E5\u672C\u7BC0\u9EDE\u4E28yoyapai.com"
   - "\U0001F1EF\U0001F1F5JP\u65E5\u672C\u7BC0\u9EDE\u4E28yoyapai.com (2)"
   - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u7BC0\u9EDE\u4E28yoyapai.com"
@@ -2977,30 +3027,29 @@ proxy-groups:
   - "\U0001F1F9\U0001F1EDTH\u6CF0\u570B\u4E28yoyapai.com"
   - "\U0001F1F9\U0001F1ED Thailand\u6CF0\u56FD\u4E28yoyapai.com"
   - "\u2753\u514D\u8CBB\u7BC0\u9EDE\u4E28yoyapai.com"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (38)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (36)"
   - "\U0001F5FD\U0001F1FA\U0001F1F8\u7F8E\u570BCloudFlare\u8282\u70B9\u4E28yoyapai.com"
+  - "\U0001F1EE\U0001F1F7IR\u4F0A\u6717\u4E28yoyapai.com"
+  - "\U0001F1F7\U0001F1FARU\u4FC4\u7F57\u65AF\u4E28yoyapai.com"
+  - "\U0001F1FA\U0001F1F8US\u7F8E\u56FD\u4E28yoyapai.com (2)"
   - "\U0001F1F9\U0001F1EDTH\u6CF0\u56FD\u4E28yoyapai.com"
   - "\U0001F1E9\U0001F1EADE\u5FB7\u570B\u4E28yoyapai.com"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (39)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (37)"
   - "\U0001F1FA\U0001F1F8US\u7F8E\u570B\u4E28yoyapai.com (10)"
   - "\U0001F1FA\U0001F1F8US\u7F8E\u570B\u4E28yoyapai.com (11)"
   - "\U0001F1EB\U0001F1EEFI\u82AC\u5170\u4E28yoyapai.com (2)"
   - "\U0001F1EB\U0001F1EEFI\u82AC\u5170\u4E28yoyapai.com (3)"
   - "\U0001F1F1\U0001F1F0LK\u65AF\u91CC\u5170\u5361\u4E28yoyapai.com"
   - "\U0001F1F9\U0001F1EDTH\u6CF0\u56FD"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (38)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (39)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (40)"
-  - "\U0001F1EC\U0001F1E7GB\u82F1\u56FD\u4E28yoyapai.com"
-  - "\U0001F1EC\U0001F1E7GB\u82F1\u56FD\u4E28yoyapai.com (2)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (41)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (42)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (43)"
-  - "\U0001F1EC\U0001F1E7GB\u82F1\u56FD\u4E28yoyapai.com (3)"
-  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (7)"
   - "\U0001F1EA\U0001F1EAEE\u7231\u6C99\u5C3C\u4E9A\u4E28yoyapai.com (2)"
-  - "\U0001F1F7\U0001F1FARU\u4FC4\u7F57\u65AF\u4E28yoyapai.com"
+  - "\U0001F1F7\U0001F1FARU\u4FC4\u7F57\u65AF\u4E28yoyapai.com (2)"
   - "\U0001F1E8\U0001F1ED\u745E\u58EB\u4E28yoyapai.com"
   - "\U0001F1FA\U0001F1F8\u7F8E\u56FD\u4E28yoyapai.com"
-  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (8)"
+  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (9)"
   - "\U0001F1F2\U0001F1E9MD\u6469\u5C14\u591A\u74E6\u4E28yoyapai.com"
   - "\U0001F1E8\U0001F1FFCZ\u6377\u514B\u4E28yoyapai.com"
   - "\U0001F1F0\U0001F1FFKZ\u54C8\u8428\u514B\u65AF\u5766\u4E28yoyapai.com"
@@ -3011,8 +3060,8 @@ proxy-groups:
   - "\U0001F1F8\U0001F1EC SG\u65B0\u52A0\u5761"
   - "\U0001F1EF\U0001F1F5JP\u65E5\u672C\u4E28yoyapai.com (2)"
   - "\U0001F1EF\U0001F1F5JP\u65E5\u672C\u4E28yoyapai.com (3)"
-  - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (4)"
   - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (5)"
+  - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (6)"
   - "\u7F8E\u570B\u4E28yoyapai.com (2)"
   - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u7BC0\u9EDE\u4E28yoyapai.com (6)"
   - "\U0001F1FA\U0001F1E6\u70CF\u514B\u862D\u4E28yoyapai.com"
@@ -3026,128 +3075,132 @@ proxy-groups:
   - "JP\u65E5\u672C\u4E28yoyapai.com"
   - "\U0001F1E6\U0001F1EA_\u963F\u62C9\u4F2F\u8054\u5408\u914B\u957F\u56FD\u4E28yoyapai.com"
   - "\U0001F1F8\U0001F1EE\u65AF\u6D1B\u6587\u5C3C\u4E9A\u4E28yoyapai.com"
-  - "\U0001F1E8\U0001F1E6CA\u52A0\u62FF\u5927\u4E28yoyapai.com (2)"
+  - "\U0001F1E8\U0001F1E6CA\u52A0\u62FF\u5927\u4E28yoyapai.com"
   - "\U0001F1F9\U0001F1EDTH\u6CF0\u56FD\u4E28yoyapai.com (2)"
   - "\U0001F1F0\U0001F1F7KR\u97E9\u56FD\u4E28yoyapai.com"
   - "\U0001F1F1\U0001F1FBLV\u62C9\u8131\u7EF4\u4E9A\u4E28yoyapai.com"
-  - "\U0001F1E8\U0001F1E6CA\u52A0\u62FF\u5927\u4E28yoyapai.com (3)"
+  - "\U0001F1E8\U0001F1E6CA\u52A0\u62FF\u5927\u4E28yoyapai.com (2)"
   - "\U0001F1F9\U0001F1F7TR\u571F\u8033\u5176\u4E28yoyapai.com"
   - "\U0001F1EE\U0001F1F3IN\u5370\u5EA6\u4E28yoyapai.com"
   - "\U0001F1F3\U0001F1F4NO\u632A\u5A01\u4E28yoyapai.com"
   - "\U0001F1F9\U0001F1FCTW\u81FA\u7063\u4E28yoyapai.com"
   - "\U0001F1F0\U0001F1F7KR\u97E9\u570B\u4E28yoyapai.com"
-  - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (6)"
+  - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (7)"
   - "\U0001F1F8\U0001F1ECSG\u65B0\u52A0\u5761\u4E28yoyapai.com"
   - "\U0001F1FB\U0001F1F3VN\u8D8A\u5357\u4E28yoyapai.com"
   - "\U0001F1F8\U0001F1ECSG\u65B0\u52A0\u5761\u4E28yoyapai.com (2)"
   - "\U0001F1E8\U0001F1E6CA\u52A0\u62FF\u5927"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (44)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (42)"
   - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD"
   - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD (2)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (45)"
-  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (9)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (43)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (44)"
   - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (10)"
-  - "\U0001F1FA\U0001F1F8US\u7F8E\u56FD\u4E28yoyapai.com (2)"
+  - "\U0001F1FA\U0001F1F8US\u7F8E\u56FD\u4E28yoyapai.com (3)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (45)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (46)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (47)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (48)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (49)"
   - "\U0001F1EE\U0001F1F1IL\u4EE5\u8272\u5217\u4E28yoyapai.com"
-  - "\U0001F1E8\U0001F1E6CA\u52A0\u62FF\u5927\u4E28yoyapai.com (4)"
+  - "\U0001F1E8\U0001F1E6CA\u52A0\u62FF\u5927\u4E28yoyapai.com (3)"
   - "\U0001F1E6\U0001F1EAAE\u963F\u8054\u914B\u4E28yoyapai.com"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (49)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (50)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (51)"
   - "\U0001F1F0\U0001F1F7KR\u97E9\u56FD"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (51)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (52)"
-  - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (7)"
   - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (8)"
   - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (9)"
   - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (10)"
+  - "\U0001F1F9\U0001F1FCTW\u53F0\u6E7E\u4E28yoyapai.com (2)"
+  - "\U0001F1E8\U0001F1E6CA\u52A0\u62FF\u5927\u4E28yoyapai.com (4)"
 - name: "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   type: url-test
   proxies:
   - "\U0001F1F9\U0001F1FCTW\u53F0\u6E7E\u4E28yoyapai.com"
-  - "\U0001F1F9\U0001F1FCTW\u53F0\u6E7E\u4E28yoyapai.com (2)"
-  - "\U0001F1E8\U0001F1E6CA\u52A0\u62FF\u5927\u4E28yoyapai.com"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com"
   - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com"
+  - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com"
+  - "\U0001F1EC\U0001F1E7GB\u82F1\u56FD\u4E28yoyapai.com"
+  - "\U0001F1EC\U0001F1E7GB\u82F1\u56FD\u4E28yoyapai.com (2)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (2)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (3)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (4)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (5)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (6)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (2)"
   - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (2)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (7)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (3)"
+  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (3)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (4)"
+  - "\U0001F1F3\U0001F1F1NL\u8377\u5170\u4E28yoyapai.com"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (2)"
   - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (3)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (4)"
+  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (4)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (5)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (5)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (6)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (7)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (6)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (7)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (8)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (9)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (8)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (10)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (4)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (5)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (9)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (11)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (6)"
+  - "\U0001F1F3\U0001F1FFNZ\u65B0\u897F\u5170\u4E28yoyapai.com"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (12)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (13)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (14)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (7)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (15)"
-  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (3)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (8)"
-  - "\U0001F1F3\U0001F1FFNZ\u65B0\u897F\u5170\u4E28yoyapai.com"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (10)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (16)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (11)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (17)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (18)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (9)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (12)"
+  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (5)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (19)"
-  - "\U0001F1F3\U0001F1F1NL\u8377\u5170\u4E28yoyapai.com"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (20)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (21)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (22)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (10)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (11)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (23)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (12)"
-  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (4)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (24)"
   - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (13)"
   - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (14)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (15)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (22)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (23)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (16)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (17)"
+  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (6)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (18)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (24)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (25)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (26)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (27)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (15)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (28)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (29)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (16)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (17)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (30)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (18)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (31)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (32)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (33)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (34)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (35)"
-  - "\U0001F1F3\U0001F1F1NL\u8377\u5170\u4E28yoyapai.com (2)"
   - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (19)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (29)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (30)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (31)"
   - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (20)"
   - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (21)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (32)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (33)"
+  - "\U0001F1F3\U0001F1F1NL\u8377\u5170\u4E28yoyapai.com (2)"
+  - "\U0001F1EC\U0001F1E7GB\u82F1\u56FD\u4E28yoyapai.com (3)"
   - "FR\u6CD5\u570B\u4E28yoyapai.com"
   - "FR\u6CD5\u570B\u4E28yoyapai.com (2)"
   - "FR\u6CD5\u570B\u4E28yoyapai.com (3)"
   - "\U0001F1EB\U0001F1F7FR\u6CD5\u56FD\u4E28yoyapai.com"
   - "\U0001F1EB\U0001F1F7FR\u6CD5\u570B\u4E28yoyapai.com"
   - "\U0001F1EB\U0001F1F7FR\u6CD5\u570B\u4E28yoyapai.com (2)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (36)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (34)"
   - "\U0001F1FA\U0001F1F8US\u7F8E\u570B\u4E28yoyapai.com"
   - "\U0001F1FA\U0001F1F8US\u7F8E\u56FD\u4E28yoyapai.com"
-  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (5)"
-  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (6)"
+  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (7)"
+  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (8)"
   - "\U0001F1F3\U0001F1F1NL\u8377\u5170\u4E28yoyapai.com (3)"
   - "\U0001F1F3\U0001F1F1NL\u8377\u5170\u4E28yoyapai.com (4)"
   - "\U0001F1EA\U0001F1EAEE\u7231\u6C99\u5C3C\u4E9A\u4E28yoyapai.com"
   - "\U0001F1EB\U0001F1EEFI\u82AC\u5170\u4E28yoyapai.com"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (37)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (35)"
   - "\U0001F1F3\U0001F1F1NL\u8377\u5170\u4E28yoyapai.com (5)"
   - "\U0001F1F3\U0001F1F1NL\u8377\u5170\u4E28yoyapai.com (6)"
   - "\U0001F1FA\U0001F1F8US\u7F8E\u570B\u4E28yoyapai.com (2)"
@@ -3162,9 +3215,9 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8US\u7F8E\u570B\u4E28yoyapai.com (8)"
   - "FR\u6CD5\u570B\u4E28yoyapai.com (4)"
   - "\U0001F1FA\U0001F1F8US\u7F8E\u570B\u4E28yoyapai.com (9)"
-  - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com"
   - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (2)"
   - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (3)"
+  - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (4)"
   - "\U0001F1EF\U0001F1F5JP\u65E5\u672C\u7BC0\u9EDE\u4E28yoyapai.com"
   - "\U0001F1EF\U0001F1F5JP\u65E5\u672C\u7BC0\u9EDE\u4E28yoyapai.com (2)"
   - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u7BC0\u9EDE\u4E28yoyapai.com"
@@ -3195,30 +3248,29 @@ proxy-groups:
   - "\U0001F1F9\U0001F1EDTH\u6CF0\u570B\u4E28yoyapai.com"
   - "\U0001F1F9\U0001F1ED Thailand\u6CF0\u56FD\u4E28yoyapai.com"
   - "\u2753\u514D\u8CBB\u7BC0\u9EDE\u4E28yoyapai.com"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (38)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (36)"
   - "\U0001F5FD\U0001F1FA\U0001F1F8\u7F8E\u570BCloudFlare\u8282\u70B9\u4E28yoyapai.com"
+  - "\U0001F1EE\U0001F1F7IR\u4F0A\u6717\u4E28yoyapai.com"
+  - "\U0001F1F7\U0001F1FARU\u4FC4\u7F57\u65AF\u4E28yoyapai.com"
+  - "\U0001F1FA\U0001F1F8US\u7F8E\u56FD\u4E28yoyapai.com (2)"
   - "\U0001F1F9\U0001F1EDTH\u6CF0\u56FD\u4E28yoyapai.com"
   - "\U0001F1E9\U0001F1EADE\u5FB7\u570B\u4E28yoyapai.com"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (39)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (37)"
   - "\U0001F1FA\U0001F1F8US\u7F8E\u570B\u4E28yoyapai.com (10)"
   - "\U0001F1FA\U0001F1F8US\u7F8E\u570B\u4E28yoyapai.com (11)"
   - "\U0001F1EB\U0001F1EEFI\u82AC\u5170\u4E28yoyapai.com (2)"
   - "\U0001F1EB\U0001F1EEFI\u82AC\u5170\u4E28yoyapai.com (3)"
   - "\U0001F1F1\U0001F1F0LK\u65AF\u91CC\u5170\u5361\u4E28yoyapai.com"
   - "\U0001F1F9\U0001F1EDTH\u6CF0\u56FD"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (38)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (39)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (40)"
-  - "\U0001F1EC\U0001F1E7GB\u82F1\u56FD\u4E28yoyapai.com"
-  - "\U0001F1EC\U0001F1E7GB\u82F1\u56FD\u4E28yoyapai.com (2)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (41)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (42)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (43)"
-  - "\U0001F1EC\U0001F1E7GB\u82F1\u56FD\u4E28yoyapai.com (3)"
-  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (7)"
   - "\U0001F1EA\U0001F1EAEE\u7231\u6C99\u5C3C\u4E9A\u4E28yoyapai.com (2)"
-  - "\U0001F1F7\U0001F1FARU\u4FC4\u7F57\u65AF\u4E28yoyapai.com"
+  - "\U0001F1F7\U0001F1FARU\u4FC4\u7F57\u65AF\u4E28yoyapai.com (2)"
   - "\U0001F1E8\U0001F1ED\u745E\u58EB\u4E28yoyapai.com"
   - "\U0001F1FA\U0001F1F8\u7F8E\u56FD\u4E28yoyapai.com"
-  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (8)"
+  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (9)"
   - "\U0001F1F2\U0001F1E9MD\u6469\u5C14\u591A\u74E6\u4E28yoyapai.com"
   - "\U0001F1E8\U0001F1FFCZ\u6377\u514B\u4E28yoyapai.com"
   - "\U0001F1F0\U0001F1FFKZ\u54C8\u8428\u514B\u65AF\u5766\u4E28yoyapai.com"
@@ -3229,8 +3281,8 @@ proxy-groups:
   - "\U0001F1F8\U0001F1EC SG\u65B0\u52A0\u5761"
   - "\U0001F1EF\U0001F1F5JP\u65E5\u672C\u4E28yoyapai.com (2)"
   - "\U0001F1EF\U0001F1F5JP\u65E5\u672C\u4E28yoyapai.com (3)"
-  - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (4)"
   - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (5)"
+  - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (6)"
   - "\u7F8E\u570B\u4E28yoyapai.com (2)"
   - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u7BC0\u9EDE\u4E28yoyapai.com (6)"
   - "\U0001F1FA\U0001F1E6\u70CF\u514B\u862D\u4E28yoyapai.com"
@@ -3244,43 +3296,45 @@ proxy-groups:
   - "JP\u65E5\u672C\u4E28yoyapai.com"
   - "\U0001F1E6\U0001F1EA_\u963F\u62C9\u4F2F\u8054\u5408\u914B\u957F\u56FD\u4E28yoyapai.com"
   - "\U0001F1F8\U0001F1EE\u65AF\u6D1B\u6587\u5C3C\u4E9A\u4E28yoyapai.com"
-  - "\U0001F1E8\U0001F1E6CA\u52A0\u62FF\u5927\u4E28yoyapai.com (2)"
+  - "\U0001F1E8\U0001F1E6CA\u52A0\u62FF\u5927\u4E28yoyapai.com"
   - "\U0001F1F9\U0001F1EDTH\u6CF0\u56FD\u4E28yoyapai.com (2)"
   - "\U0001F1F0\U0001F1F7KR\u97E9\u56FD\u4E28yoyapai.com"
   - "\U0001F1F1\U0001F1FBLV\u62C9\u8131\u7EF4\u4E9A\u4E28yoyapai.com"
-  - "\U0001F1E8\U0001F1E6CA\u52A0\u62FF\u5927\u4E28yoyapai.com (3)"
+  - "\U0001F1E8\U0001F1E6CA\u52A0\u62FF\u5927\u4E28yoyapai.com (2)"
   - "\U0001F1F9\U0001F1F7TR\u571F\u8033\u5176\u4E28yoyapai.com"
   - "\U0001F1EE\U0001F1F3IN\u5370\u5EA6\u4E28yoyapai.com"
   - "\U0001F1F3\U0001F1F4NO\u632A\u5A01\u4E28yoyapai.com"
   - "\U0001F1F9\U0001F1FCTW\u81FA\u7063\u4E28yoyapai.com"
   - "\U0001F1F0\U0001F1F7KR\u97E9\u570B\u4E28yoyapai.com"
-  - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (6)"
+  - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (7)"
   - "\U0001F1F8\U0001F1ECSG\u65B0\u52A0\u5761\u4E28yoyapai.com"
   - "\U0001F1FB\U0001F1F3VN\u8D8A\u5357\u4E28yoyapai.com"
   - "\U0001F1F8\U0001F1ECSG\u65B0\u52A0\u5761\u4E28yoyapai.com (2)"
   - "\U0001F1E8\U0001F1E6CA\u52A0\u62FF\u5927"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (44)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (42)"
   - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD"
   - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD (2)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (45)"
-  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (9)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (43)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (44)"
   - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (10)"
-  - "\U0001F1FA\U0001F1F8US\u7F8E\u56FD\u4E28yoyapai.com (2)"
+  - "\U0001F1FA\U0001F1F8US\u7F8E\u56FD\u4E28yoyapai.com (3)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (45)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (46)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (47)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (48)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (49)"
   - "\U0001F1EE\U0001F1F1IL\u4EE5\u8272\u5217\u4E28yoyapai.com"
-  - "\U0001F1E8\U0001F1E6CA\u52A0\u62FF\u5927\u4E28yoyapai.com (4)"
+  - "\U0001F1E8\U0001F1E6CA\u52A0\u62FF\u5927\u4E28yoyapai.com (3)"
   - "\U0001F1E6\U0001F1EAAE\u963F\u8054\u914B\u4E28yoyapai.com"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (49)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (50)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (51)"
   - "\U0001F1F0\U0001F1F7KR\u97E9\u56FD"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (51)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (52)"
-  - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (7)"
   - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (8)"
   - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (9)"
   - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (10)"
+  - "\U0001F1F9\U0001F1FCTW\u53F0\u6E7E\u4E28yoyapai.com (2)"
+  - "\U0001F1E8\U0001F1E6CA\u52A0\u62FF\u5927\u4E28yoyapai.com (4)"
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
@@ -3291,87 +3345,89 @@ proxy-groups:
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\U0001F1F9\U0001F1FCTW\u53F0\u6E7E\u4E28yoyapai.com"
-  - "\U0001F1F9\U0001F1FCTW\u53F0\u6E7E\u4E28yoyapai.com (2)"
-  - "\U0001F1E8\U0001F1E6CA\u52A0\u62FF\u5927\u4E28yoyapai.com"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com"
   - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com"
+  - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com"
+  - "\U0001F1EC\U0001F1E7GB\u82F1\u56FD\u4E28yoyapai.com"
+  - "\U0001F1EC\U0001F1E7GB\u82F1\u56FD\u4E28yoyapai.com (2)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (2)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (3)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (4)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (5)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (6)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (2)"
   - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (2)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (7)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (3)"
+  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (3)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (4)"
+  - "\U0001F1F3\U0001F1F1NL\u8377\u5170\u4E28yoyapai.com"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (2)"
   - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (3)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (4)"
+  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (4)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (5)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (5)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (6)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (7)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (6)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (7)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (8)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (9)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (8)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (10)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (4)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (5)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (9)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (11)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (6)"
+  - "\U0001F1F3\U0001F1FFNZ\u65B0\u897F\u5170\u4E28yoyapai.com"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (12)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (13)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (14)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (7)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (15)"
-  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (3)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (8)"
-  - "\U0001F1F3\U0001F1FFNZ\u65B0\u897F\u5170\u4E28yoyapai.com"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (10)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (16)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (11)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (17)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (18)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (9)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (12)"
+  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (5)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (19)"
-  - "\U0001F1F3\U0001F1F1NL\u8377\u5170\u4E28yoyapai.com"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (20)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (21)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (22)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (10)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (11)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (23)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (12)"
-  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (4)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (24)"
   - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (13)"
   - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (14)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (15)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (22)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (23)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (16)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (17)"
+  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (6)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (18)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (24)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (25)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (26)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (27)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (15)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (28)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (29)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (16)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (17)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (30)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (18)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (31)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (32)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (33)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (34)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (35)"
-  - "\U0001F1F3\U0001F1F1NL\u8377\u5170\u4E28yoyapai.com (2)"
   - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (19)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (29)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (30)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (31)"
   - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (20)"
   - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (21)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (32)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (33)"
+  - "\U0001F1F3\U0001F1F1NL\u8377\u5170\u4E28yoyapai.com (2)"
+  - "\U0001F1EC\U0001F1E7GB\u82F1\u56FD\u4E28yoyapai.com (3)"
   - "FR\u6CD5\u570B\u4E28yoyapai.com"
   - "FR\u6CD5\u570B\u4E28yoyapai.com (2)"
   - "FR\u6CD5\u570B\u4E28yoyapai.com (3)"
   - "\U0001F1EB\U0001F1F7FR\u6CD5\u56FD\u4E28yoyapai.com"
   - "\U0001F1EB\U0001F1F7FR\u6CD5\u570B\u4E28yoyapai.com"
   - "\U0001F1EB\U0001F1F7FR\u6CD5\u570B\u4E28yoyapai.com (2)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (36)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (34)"
   - "\U0001F1FA\U0001F1F8US\u7F8E\u570B\u4E28yoyapai.com"
   - "\U0001F1FA\U0001F1F8US\u7F8E\u56FD\u4E28yoyapai.com"
-  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (5)"
-  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (6)"
+  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (7)"
+  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (8)"
   - "\U0001F1F3\U0001F1F1NL\u8377\u5170\u4E28yoyapai.com (3)"
   - "\U0001F1F3\U0001F1F1NL\u8377\u5170\u4E28yoyapai.com (4)"
   - "\U0001F1EA\U0001F1EAEE\u7231\u6C99\u5C3C\u4E9A\u4E28yoyapai.com"
   - "\U0001F1EB\U0001F1EEFI\u82AC\u5170\u4E28yoyapai.com"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (37)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (35)"
   - "\U0001F1F3\U0001F1F1NL\u8377\u5170\u4E28yoyapai.com (5)"
   - "\U0001F1F3\U0001F1F1NL\u8377\u5170\u4E28yoyapai.com (6)"
   - "\U0001F1FA\U0001F1F8US\u7F8E\u570B\u4E28yoyapai.com (2)"
@@ -3386,9 +3442,9 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8US\u7F8E\u570B\u4E28yoyapai.com (8)"
   - "FR\u6CD5\u570B\u4E28yoyapai.com (4)"
   - "\U0001F1FA\U0001F1F8US\u7F8E\u570B\u4E28yoyapai.com (9)"
-  - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com"
   - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (2)"
   - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (3)"
+  - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (4)"
   - "\U0001F1EF\U0001F1F5JP\u65E5\u672C\u7BC0\u9EDE\u4E28yoyapai.com"
   - "\U0001F1EF\U0001F1F5JP\u65E5\u672C\u7BC0\u9EDE\u4E28yoyapai.com (2)"
   - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u7BC0\u9EDE\u4E28yoyapai.com"
@@ -3419,30 +3475,29 @@ proxy-groups:
   - "\U0001F1F9\U0001F1EDTH\u6CF0\u570B\u4E28yoyapai.com"
   - "\U0001F1F9\U0001F1ED Thailand\u6CF0\u56FD\u4E28yoyapai.com"
   - "\u2753\u514D\u8CBB\u7BC0\u9EDE\u4E28yoyapai.com"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (38)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (36)"
   - "\U0001F5FD\U0001F1FA\U0001F1F8\u7F8E\u570BCloudFlare\u8282\u70B9\u4E28yoyapai.com"
+  - "\U0001F1EE\U0001F1F7IR\u4F0A\u6717\u4E28yoyapai.com"
+  - "\U0001F1F7\U0001F1FARU\u4FC4\u7F57\u65AF\u4E28yoyapai.com"
+  - "\U0001F1FA\U0001F1F8US\u7F8E\u56FD\u4E28yoyapai.com (2)"
   - "\U0001F1F9\U0001F1EDTH\u6CF0\u56FD\u4E28yoyapai.com"
   - "\U0001F1E9\U0001F1EADE\u5FB7\u570B\u4E28yoyapai.com"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (39)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (37)"
   - "\U0001F1FA\U0001F1F8US\u7F8E\u570B\u4E28yoyapai.com (10)"
   - "\U0001F1FA\U0001F1F8US\u7F8E\u570B\u4E28yoyapai.com (11)"
   - "\U0001F1EB\U0001F1EEFI\u82AC\u5170\u4E28yoyapai.com (2)"
   - "\U0001F1EB\U0001F1EEFI\u82AC\u5170\u4E28yoyapai.com (3)"
   - "\U0001F1F1\U0001F1F0LK\u65AF\u91CC\u5170\u5361\u4E28yoyapai.com"
   - "\U0001F1F9\U0001F1EDTH\u6CF0\u56FD"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (38)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (39)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (40)"
-  - "\U0001F1EC\U0001F1E7GB\u82F1\u56FD\u4E28yoyapai.com"
-  - "\U0001F1EC\U0001F1E7GB\u82F1\u56FD\u4E28yoyapai.com (2)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (41)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (42)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (43)"
-  - "\U0001F1EC\U0001F1E7GB\u82F1\u56FD\u4E28yoyapai.com (3)"
-  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (7)"
   - "\U0001F1EA\U0001F1EAEE\u7231\u6C99\u5C3C\u4E9A\u4E28yoyapai.com (2)"
-  - "\U0001F1F7\U0001F1FARU\u4FC4\u7F57\u65AF\u4E28yoyapai.com"
+  - "\U0001F1F7\U0001F1FARU\u4FC4\u7F57\u65AF\u4E28yoyapai.com (2)"
   - "\U0001F1E8\U0001F1ED\u745E\u58EB\u4E28yoyapai.com"
   - "\U0001F1FA\U0001F1F8\u7F8E\u56FD\u4E28yoyapai.com"
-  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (8)"
+  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (9)"
   - "\U0001F1F2\U0001F1E9MD\u6469\u5C14\u591A\u74E6\u4E28yoyapai.com"
   - "\U0001F1E8\U0001F1FFCZ\u6377\u514B\u4E28yoyapai.com"
   - "\U0001F1F0\U0001F1FFKZ\u54C8\u8428\u514B\u65AF\u5766\u4E28yoyapai.com"
@@ -3453,8 +3508,8 @@ proxy-groups:
   - "\U0001F1F8\U0001F1EC SG\u65B0\u52A0\u5761"
   - "\U0001F1EF\U0001F1F5JP\u65E5\u672C\u4E28yoyapai.com (2)"
   - "\U0001F1EF\U0001F1F5JP\u65E5\u672C\u4E28yoyapai.com (3)"
-  - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (4)"
   - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (5)"
+  - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (6)"
   - "\u7F8E\u570B\u4E28yoyapai.com (2)"
   - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u7BC0\u9EDE\u4E28yoyapai.com (6)"
   - "\U0001F1FA\U0001F1E6\u70CF\u514B\u862D\u4E28yoyapai.com"
@@ -3468,130 +3523,134 @@ proxy-groups:
   - "JP\u65E5\u672C\u4E28yoyapai.com"
   - "\U0001F1E6\U0001F1EA_\u963F\u62C9\u4F2F\u8054\u5408\u914B\u957F\u56FD\u4E28yoyapai.com"
   - "\U0001F1F8\U0001F1EE\u65AF\u6D1B\u6587\u5C3C\u4E9A\u4E28yoyapai.com"
-  - "\U0001F1E8\U0001F1E6CA\u52A0\u62FF\u5927\u4E28yoyapai.com (2)"
+  - "\U0001F1E8\U0001F1E6CA\u52A0\u62FF\u5927\u4E28yoyapai.com"
   - "\U0001F1F9\U0001F1EDTH\u6CF0\u56FD\u4E28yoyapai.com (2)"
   - "\U0001F1F0\U0001F1F7KR\u97E9\u56FD\u4E28yoyapai.com"
   - "\U0001F1F1\U0001F1FBLV\u62C9\u8131\u7EF4\u4E9A\u4E28yoyapai.com"
-  - "\U0001F1E8\U0001F1E6CA\u52A0\u62FF\u5927\u4E28yoyapai.com (3)"
+  - "\U0001F1E8\U0001F1E6CA\u52A0\u62FF\u5927\u4E28yoyapai.com (2)"
   - "\U0001F1F9\U0001F1F7TR\u571F\u8033\u5176\u4E28yoyapai.com"
   - "\U0001F1EE\U0001F1F3IN\u5370\u5EA6\u4E28yoyapai.com"
   - "\U0001F1F3\U0001F1F4NO\u632A\u5A01\u4E28yoyapai.com"
   - "\U0001F1F9\U0001F1FCTW\u81FA\u7063\u4E28yoyapai.com"
   - "\U0001F1F0\U0001F1F7KR\u97E9\u570B\u4E28yoyapai.com"
-  - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (6)"
+  - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (7)"
   - "\U0001F1F8\U0001F1ECSG\u65B0\u52A0\u5761\u4E28yoyapai.com"
   - "\U0001F1FB\U0001F1F3VN\u8D8A\u5357\u4E28yoyapai.com"
   - "\U0001F1F8\U0001F1ECSG\u65B0\u52A0\u5761\u4E28yoyapai.com (2)"
   - "\U0001F1E8\U0001F1E6CA\u52A0\u62FF\u5927"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (44)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (42)"
   - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD"
   - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD (2)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (45)"
-  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (9)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (43)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (44)"
   - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (10)"
-  - "\U0001F1FA\U0001F1F8US\u7F8E\u56FD\u4E28yoyapai.com (2)"
+  - "\U0001F1FA\U0001F1F8US\u7F8E\u56FD\u4E28yoyapai.com (3)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (45)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (46)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (47)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (48)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (49)"
   - "\U0001F1EE\U0001F1F1IL\u4EE5\u8272\u5217\u4E28yoyapai.com"
-  - "\U0001F1E8\U0001F1E6CA\u52A0\u62FF\u5927\u4E28yoyapai.com (4)"
+  - "\U0001F1E8\U0001F1E6CA\u52A0\u62FF\u5927\u4E28yoyapai.com (3)"
   - "\U0001F1E6\U0001F1EAAE\u963F\u8054\u914B\u4E28yoyapai.com"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (49)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (50)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (51)"
   - "\U0001F1F0\U0001F1F7KR\u97E9\u56FD"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (51)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (52)"
-  - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (7)"
   - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (8)"
   - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (9)"
   - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (10)"
+  - "\U0001F1F9\U0001F1FCTW\u53F0\u6E7E\u4E28yoyapai.com (2)"
+  - "\U0001F1E8\U0001F1E6CA\u52A0\u62FF\u5927\u4E28yoyapai.com (4)"
 - name: "\U0001F4F2 \u7535\u62A5\u4FE1\u606F"
   type: select
   proxies:
   - "\U0001F680 \u8282\u70B9\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\U0001F1F9\U0001F1FCTW\u53F0\u6E7E\u4E28yoyapai.com"
-  - "\U0001F1F9\U0001F1FCTW\u53F0\u6E7E\u4E28yoyapai.com (2)"
-  - "\U0001F1E8\U0001F1E6CA\u52A0\u62FF\u5927\u4E28yoyapai.com"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com"
   - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com"
+  - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com"
+  - "\U0001F1EC\U0001F1E7GB\u82F1\u56FD\u4E28yoyapai.com"
+  - "\U0001F1EC\U0001F1E7GB\u82F1\u56FD\u4E28yoyapai.com (2)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (2)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (3)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (4)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (5)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (6)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (2)"
   - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (2)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (7)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (3)"
+  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (3)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (4)"
+  - "\U0001F1F3\U0001F1F1NL\u8377\u5170\u4E28yoyapai.com"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (2)"
   - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (3)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (4)"
+  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (4)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (5)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (5)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (6)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (7)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (6)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (7)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (8)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (9)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (8)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (10)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (4)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (5)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (9)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (11)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (6)"
+  - "\U0001F1F3\U0001F1FFNZ\u65B0\u897F\u5170\u4E28yoyapai.com"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (12)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (13)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (14)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (7)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (15)"
-  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (3)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (8)"
-  - "\U0001F1F3\U0001F1FFNZ\u65B0\u897F\u5170\u4E28yoyapai.com"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (10)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (16)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (11)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (17)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (18)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (9)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (12)"
+  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (5)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (19)"
-  - "\U0001F1F3\U0001F1F1NL\u8377\u5170\u4E28yoyapai.com"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (20)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (21)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (22)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (10)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (11)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (23)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (12)"
-  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (4)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (24)"
   - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (13)"
   - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (14)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (15)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (22)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (23)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (16)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (17)"
+  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (6)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (18)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (24)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (25)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (26)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (27)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (15)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (28)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (29)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (16)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (17)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (30)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (18)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (31)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (32)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (33)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (34)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (35)"
-  - "\U0001F1F3\U0001F1F1NL\u8377\u5170\u4E28yoyapai.com (2)"
   - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (19)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (29)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (30)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (31)"
   - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (20)"
   - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (21)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (32)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (33)"
+  - "\U0001F1F3\U0001F1F1NL\u8377\u5170\u4E28yoyapai.com (2)"
+  - "\U0001F1EC\U0001F1E7GB\u82F1\u56FD\u4E28yoyapai.com (3)"
   - "FR\u6CD5\u570B\u4E28yoyapai.com"
   - "FR\u6CD5\u570B\u4E28yoyapai.com (2)"
   - "FR\u6CD5\u570B\u4E28yoyapai.com (3)"
   - "\U0001F1EB\U0001F1F7FR\u6CD5\u56FD\u4E28yoyapai.com"
   - "\U0001F1EB\U0001F1F7FR\u6CD5\u570B\u4E28yoyapai.com"
   - "\U0001F1EB\U0001F1F7FR\u6CD5\u570B\u4E28yoyapai.com (2)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (36)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (34)"
   - "\U0001F1FA\U0001F1F8US\u7F8E\u570B\u4E28yoyapai.com"
   - "\U0001F1FA\U0001F1F8US\u7F8E\u56FD\u4E28yoyapai.com"
-  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (5)"
-  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (6)"
+  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (7)"
+  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (8)"
   - "\U0001F1F3\U0001F1F1NL\u8377\u5170\u4E28yoyapai.com (3)"
   - "\U0001F1F3\U0001F1F1NL\u8377\u5170\u4E28yoyapai.com (4)"
   - "\U0001F1EA\U0001F1EAEE\u7231\u6C99\u5C3C\u4E9A\u4E28yoyapai.com"
   - "\U0001F1EB\U0001F1EEFI\u82AC\u5170\u4E28yoyapai.com"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (37)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (35)"
   - "\U0001F1F3\U0001F1F1NL\u8377\u5170\u4E28yoyapai.com (5)"
   - "\U0001F1F3\U0001F1F1NL\u8377\u5170\u4E28yoyapai.com (6)"
   - "\U0001F1FA\U0001F1F8US\u7F8E\u570B\u4E28yoyapai.com (2)"
@@ -3606,9 +3665,9 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8US\u7F8E\u570B\u4E28yoyapai.com (8)"
   - "FR\u6CD5\u570B\u4E28yoyapai.com (4)"
   - "\U0001F1FA\U0001F1F8US\u7F8E\u570B\u4E28yoyapai.com (9)"
-  - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com"
   - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (2)"
   - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (3)"
+  - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (4)"
   - "\U0001F1EF\U0001F1F5JP\u65E5\u672C\u7BC0\u9EDE\u4E28yoyapai.com"
   - "\U0001F1EF\U0001F1F5JP\u65E5\u672C\u7BC0\u9EDE\u4E28yoyapai.com (2)"
   - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u7BC0\u9EDE\u4E28yoyapai.com"
@@ -3639,30 +3698,29 @@ proxy-groups:
   - "\U0001F1F9\U0001F1EDTH\u6CF0\u570B\u4E28yoyapai.com"
   - "\U0001F1F9\U0001F1ED Thailand\u6CF0\u56FD\u4E28yoyapai.com"
   - "\u2753\u514D\u8CBB\u7BC0\u9EDE\u4E28yoyapai.com"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (38)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (36)"
   - "\U0001F5FD\U0001F1FA\U0001F1F8\u7F8E\u570BCloudFlare\u8282\u70B9\u4E28yoyapai.com"
+  - "\U0001F1EE\U0001F1F7IR\u4F0A\u6717\u4E28yoyapai.com"
+  - "\U0001F1F7\U0001F1FARU\u4FC4\u7F57\u65AF\u4E28yoyapai.com"
+  - "\U0001F1FA\U0001F1F8US\u7F8E\u56FD\u4E28yoyapai.com (2)"
   - "\U0001F1F9\U0001F1EDTH\u6CF0\u56FD\u4E28yoyapai.com"
   - "\U0001F1E9\U0001F1EADE\u5FB7\u570B\u4E28yoyapai.com"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (39)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (37)"
   - "\U0001F1FA\U0001F1F8US\u7F8E\u570B\u4E28yoyapai.com (10)"
   - "\U0001F1FA\U0001F1F8US\u7F8E\u570B\u4E28yoyapai.com (11)"
   - "\U0001F1EB\U0001F1EEFI\u82AC\u5170\u4E28yoyapai.com (2)"
   - "\U0001F1EB\U0001F1EEFI\u82AC\u5170\u4E28yoyapai.com (3)"
   - "\U0001F1F1\U0001F1F0LK\u65AF\u91CC\u5170\u5361\u4E28yoyapai.com"
   - "\U0001F1F9\U0001F1EDTH\u6CF0\u56FD"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (38)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (39)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (40)"
-  - "\U0001F1EC\U0001F1E7GB\u82F1\u56FD\u4E28yoyapai.com"
-  - "\U0001F1EC\U0001F1E7GB\u82F1\u56FD\u4E28yoyapai.com (2)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (41)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (42)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (43)"
-  - "\U0001F1EC\U0001F1E7GB\u82F1\u56FD\u4E28yoyapai.com (3)"
-  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (7)"
   - "\U0001F1EA\U0001F1EAEE\u7231\u6C99\u5C3C\u4E9A\u4E28yoyapai.com (2)"
-  - "\U0001F1F7\U0001F1FARU\u4FC4\u7F57\u65AF\u4E28yoyapai.com"
+  - "\U0001F1F7\U0001F1FARU\u4FC4\u7F57\u65AF\u4E28yoyapai.com (2)"
   - "\U0001F1E8\U0001F1ED\u745E\u58EB\u4E28yoyapai.com"
   - "\U0001F1FA\U0001F1F8\u7F8E\u56FD\u4E28yoyapai.com"
-  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (8)"
+  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (9)"
   - "\U0001F1F2\U0001F1E9MD\u6469\u5C14\u591A\u74E6\u4E28yoyapai.com"
   - "\U0001F1E8\U0001F1FFCZ\u6377\u514B\u4E28yoyapai.com"
   - "\U0001F1F0\U0001F1FFKZ\u54C8\u8428\u514B\u65AF\u5766\u4E28yoyapai.com"
@@ -3673,8 +3731,8 @@ proxy-groups:
   - "\U0001F1F8\U0001F1EC SG\u65B0\u52A0\u5761"
   - "\U0001F1EF\U0001F1F5JP\u65E5\u672C\u4E28yoyapai.com (2)"
   - "\U0001F1EF\U0001F1F5JP\u65E5\u672C\u4E28yoyapai.com (3)"
-  - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (4)"
   - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (5)"
+  - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (6)"
   - "\u7F8E\u570B\u4E28yoyapai.com (2)"
   - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u7BC0\u9EDE\u4E28yoyapai.com (6)"
   - "\U0001F1FA\U0001F1E6\u70CF\u514B\u862D\u4E28yoyapai.com"
@@ -3688,130 +3746,134 @@ proxy-groups:
   - "JP\u65E5\u672C\u4E28yoyapai.com"
   - "\U0001F1E6\U0001F1EA_\u963F\u62C9\u4F2F\u8054\u5408\u914B\u957F\u56FD\u4E28yoyapai.com"
   - "\U0001F1F8\U0001F1EE\u65AF\u6D1B\u6587\u5C3C\u4E9A\u4E28yoyapai.com"
-  - "\U0001F1E8\U0001F1E6CA\u52A0\u62FF\u5927\u4E28yoyapai.com (2)"
+  - "\U0001F1E8\U0001F1E6CA\u52A0\u62FF\u5927\u4E28yoyapai.com"
   - "\U0001F1F9\U0001F1EDTH\u6CF0\u56FD\u4E28yoyapai.com (2)"
   - "\U0001F1F0\U0001F1F7KR\u97E9\u56FD\u4E28yoyapai.com"
   - "\U0001F1F1\U0001F1FBLV\u62C9\u8131\u7EF4\u4E9A\u4E28yoyapai.com"
-  - "\U0001F1E8\U0001F1E6CA\u52A0\u62FF\u5927\u4E28yoyapai.com (3)"
+  - "\U0001F1E8\U0001F1E6CA\u52A0\u62FF\u5927\u4E28yoyapai.com (2)"
   - "\U0001F1F9\U0001F1F7TR\u571F\u8033\u5176\u4E28yoyapai.com"
   - "\U0001F1EE\U0001F1F3IN\u5370\u5EA6\u4E28yoyapai.com"
   - "\U0001F1F3\U0001F1F4NO\u632A\u5A01\u4E28yoyapai.com"
   - "\U0001F1F9\U0001F1FCTW\u81FA\u7063\u4E28yoyapai.com"
   - "\U0001F1F0\U0001F1F7KR\u97E9\u570B\u4E28yoyapai.com"
-  - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (6)"
+  - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (7)"
   - "\U0001F1F8\U0001F1ECSG\u65B0\u52A0\u5761\u4E28yoyapai.com"
   - "\U0001F1FB\U0001F1F3VN\u8D8A\u5357\u4E28yoyapai.com"
   - "\U0001F1F8\U0001F1ECSG\u65B0\u52A0\u5761\u4E28yoyapai.com (2)"
   - "\U0001F1E8\U0001F1E6CA\u52A0\u62FF\u5927"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (44)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (42)"
   - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD"
   - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD (2)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (45)"
-  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (9)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (43)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (44)"
   - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (10)"
-  - "\U0001F1FA\U0001F1F8US\u7F8E\u56FD\u4E28yoyapai.com (2)"
+  - "\U0001F1FA\U0001F1F8US\u7F8E\u56FD\u4E28yoyapai.com (3)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (45)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (46)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (47)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (48)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (49)"
   - "\U0001F1EE\U0001F1F1IL\u4EE5\u8272\u5217\u4E28yoyapai.com"
-  - "\U0001F1E8\U0001F1E6CA\u52A0\u62FF\u5927\u4E28yoyapai.com (4)"
+  - "\U0001F1E8\U0001F1E6CA\u52A0\u62FF\u5927\u4E28yoyapai.com (3)"
   - "\U0001F1E6\U0001F1EAAE\u963F\u8054\u914B\u4E28yoyapai.com"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (49)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (50)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (51)"
   - "\U0001F1F0\U0001F1F7KR\u97E9\u56FD"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (51)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (52)"
-  - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (7)"
   - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (8)"
   - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (9)"
   - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (10)"
+  - "\U0001F1F9\U0001F1FCTW\u53F0\u6E7E\u4E28yoyapai.com (2)"
+  - "\U0001F1E8\U0001F1E6CA\u52A0\u62FF\u5927\u4E28yoyapai.com (4)"
 - name: "\u24C2\uFE0F \u5FAE\u8F6F\u670D\u52A1"
   type: select
   proxies:
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\U0001F680 \u8282\u70B9\u9009\u62E9"
   - "\U0001F1F9\U0001F1FCTW\u53F0\u6E7E\u4E28yoyapai.com"
-  - "\U0001F1F9\U0001F1FCTW\u53F0\u6E7E\u4E28yoyapai.com (2)"
-  - "\U0001F1E8\U0001F1E6CA\u52A0\u62FF\u5927\u4E28yoyapai.com"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com"
   - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com"
+  - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com"
+  - "\U0001F1EC\U0001F1E7GB\u82F1\u56FD\u4E28yoyapai.com"
+  - "\U0001F1EC\U0001F1E7GB\u82F1\u56FD\u4E28yoyapai.com (2)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (2)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (3)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (4)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (5)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (6)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (2)"
   - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (2)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (7)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (3)"
+  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (3)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (4)"
+  - "\U0001F1F3\U0001F1F1NL\u8377\u5170\u4E28yoyapai.com"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (2)"
   - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (3)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (4)"
+  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (4)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (5)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (5)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (6)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (7)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (6)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (7)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (8)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (9)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (8)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (10)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (4)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (5)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (9)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (11)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (6)"
+  - "\U0001F1F3\U0001F1FFNZ\u65B0\u897F\u5170\u4E28yoyapai.com"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (12)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (13)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (14)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (7)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (15)"
-  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (3)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (8)"
-  - "\U0001F1F3\U0001F1FFNZ\u65B0\u897F\u5170\u4E28yoyapai.com"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (10)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (16)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (11)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (17)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (18)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (9)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (12)"
+  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (5)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (19)"
-  - "\U0001F1F3\U0001F1F1NL\u8377\u5170\u4E28yoyapai.com"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (20)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (21)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (22)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (10)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (11)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (23)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (12)"
-  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (4)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (24)"
   - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (13)"
   - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (14)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (15)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (22)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (23)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (16)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (17)"
+  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (6)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (18)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (24)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (25)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (26)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (27)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (15)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (28)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (29)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (16)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (17)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (30)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (18)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (31)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (32)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (33)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (34)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (35)"
-  - "\U0001F1F3\U0001F1F1NL\u8377\u5170\u4E28yoyapai.com (2)"
   - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (19)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (29)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (30)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (31)"
   - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (20)"
   - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (21)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (32)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (33)"
+  - "\U0001F1F3\U0001F1F1NL\u8377\u5170\u4E28yoyapai.com (2)"
+  - "\U0001F1EC\U0001F1E7GB\u82F1\u56FD\u4E28yoyapai.com (3)"
   - "FR\u6CD5\u570B\u4E28yoyapai.com"
   - "FR\u6CD5\u570B\u4E28yoyapai.com (2)"
   - "FR\u6CD5\u570B\u4E28yoyapai.com (3)"
   - "\U0001F1EB\U0001F1F7FR\u6CD5\u56FD\u4E28yoyapai.com"
   - "\U0001F1EB\U0001F1F7FR\u6CD5\u570B\u4E28yoyapai.com"
   - "\U0001F1EB\U0001F1F7FR\u6CD5\u570B\u4E28yoyapai.com (2)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (36)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (34)"
   - "\U0001F1FA\U0001F1F8US\u7F8E\u570B\u4E28yoyapai.com"
   - "\U0001F1FA\U0001F1F8US\u7F8E\u56FD\u4E28yoyapai.com"
-  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (5)"
-  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (6)"
+  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (7)"
+  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (8)"
   - "\U0001F1F3\U0001F1F1NL\u8377\u5170\u4E28yoyapai.com (3)"
   - "\U0001F1F3\U0001F1F1NL\u8377\u5170\u4E28yoyapai.com (4)"
   - "\U0001F1EA\U0001F1EAEE\u7231\u6C99\u5C3C\u4E9A\u4E28yoyapai.com"
   - "\U0001F1EB\U0001F1EEFI\u82AC\u5170\u4E28yoyapai.com"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (37)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (35)"
   - "\U0001F1F3\U0001F1F1NL\u8377\u5170\u4E28yoyapai.com (5)"
   - "\U0001F1F3\U0001F1F1NL\u8377\u5170\u4E28yoyapai.com (6)"
   - "\U0001F1FA\U0001F1F8US\u7F8E\u570B\u4E28yoyapai.com (2)"
@@ -3826,9 +3888,9 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8US\u7F8E\u570B\u4E28yoyapai.com (8)"
   - "FR\u6CD5\u570B\u4E28yoyapai.com (4)"
   - "\U0001F1FA\U0001F1F8US\u7F8E\u570B\u4E28yoyapai.com (9)"
-  - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com"
   - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (2)"
   - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (3)"
+  - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (4)"
   - "\U0001F1EF\U0001F1F5JP\u65E5\u672C\u7BC0\u9EDE\u4E28yoyapai.com"
   - "\U0001F1EF\U0001F1F5JP\u65E5\u672C\u7BC0\u9EDE\u4E28yoyapai.com (2)"
   - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u7BC0\u9EDE\u4E28yoyapai.com"
@@ -3859,30 +3921,29 @@ proxy-groups:
   - "\U0001F1F9\U0001F1EDTH\u6CF0\u570B\u4E28yoyapai.com"
   - "\U0001F1F9\U0001F1ED Thailand\u6CF0\u56FD\u4E28yoyapai.com"
   - "\u2753\u514D\u8CBB\u7BC0\u9EDE\u4E28yoyapai.com"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (38)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (36)"
   - "\U0001F5FD\U0001F1FA\U0001F1F8\u7F8E\u570BCloudFlare\u8282\u70B9\u4E28yoyapai.com"
+  - "\U0001F1EE\U0001F1F7IR\u4F0A\u6717\u4E28yoyapai.com"
+  - "\U0001F1F7\U0001F1FARU\u4FC4\u7F57\u65AF\u4E28yoyapai.com"
+  - "\U0001F1FA\U0001F1F8US\u7F8E\u56FD\u4E28yoyapai.com (2)"
   - "\U0001F1F9\U0001F1EDTH\u6CF0\u56FD\u4E28yoyapai.com"
   - "\U0001F1E9\U0001F1EADE\u5FB7\u570B\u4E28yoyapai.com"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (39)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (37)"
   - "\U0001F1FA\U0001F1F8US\u7F8E\u570B\u4E28yoyapai.com (10)"
   - "\U0001F1FA\U0001F1F8US\u7F8E\u570B\u4E28yoyapai.com (11)"
   - "\U0001F1EB\U0001F1EEFI\u82AC\u5170\u4E28yoyapai.com (2)"
   - "\U0001F1EB\U0001F1EEFI\u82AC\u5170\u4E28yoyapai.com (3)"
   - "\U0001F1F1\U0001F1F0LK\u65AF\u91CC\u5170\u5361\u4E28yoyapai.com"
   - "\U0001F1F9\U0001F1EDTH\u6CF0\u56FD"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (38)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (39)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (40)"
-  - "\U0001F1EC\U0001F1E7GB\u82F1\u56FD\u4E28yoyapai.com"
-  - "\U0001F1EC\U0001F1E7GB\u82F1\u56FD\u4E28yoyapai.com (2)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (41)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (42)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (43)"
-  - "\U0001F1EC\U0001F1E7GB\u82F1\u56FD\u4E28yoyapai.com (3)"
-  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (7)"
   - "\U0001F1EA\U0001F1EAEE\u7231\u6C99\u5C3C\u4E9A\u4E28yoyapai.com (2)"
-  - "\U0001F1F7\U0001F1FARU\u4FC4\u7F57\u65AF\u4E28yoyapai.com"
+  - "\U0001F1F7\U0001F1FARU\u4FC4\u7F57\u65AF\u4E28yoyapai.com (2)"
   - "\U0001F1E8\U0001F1ED\u745E\u58EB\u4E28yoyapai.com"
   - "\U0001F1FA\U0001F1F8\u7F8E\u56FD\u4E28yoyapai.com"
-  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (8)"
+  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (9)"
   - "\U0001F1F2\U0001F1E9MD\u6469\u5C14\u591A\u74E6\u4E28yoyapai.com"
   - "\U0001F1E8\U0001F1FFCZ\u6377\u514B\u4E28yoyapai.com"
   - "\U0001F1F0\U0001F1FFKZ\u54C8\u8428\u514B\u65AF\u5766\u4E28yoyapai.com"
@@ -3893,8 +3954,8 @@ proxy-groups:
   - "\U0001F1F8\U0001F1EC SG\u65B0\u52A0\u5761"
   - "\U0001F1EF\U0001F1F5JP\u65E5\u672C\u4E28yoyapai.com (2)"
   - "\U0001F1EF\U0001F1F5JP\u65E5\u672C\u4E28yoyapai.com (3)"
-  - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (4)"
   - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (5)"
+  - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (6)"
   - "\u7F8E\u570B\u4E28yoyapai.com (2)"
   - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u7BC0\u9EDE\u4E28yoyapai.com (6)"
   - "\U0001F1FA\U0001F1E6\u70CF\u514B\u862D\u4E28yoyapai.com"
@@ -3908,130 +3969,134 @@ proxy-groups:
   - "JP\u65E5\u672C\u4E28yoyapai.com"
   - "\U0001F1E6\U0001F1EA_\u963F\u62C9\u4F2F\u8054\u5408\u914B\u957F\u56FD\u4E28yoyapai.com"
   - "\U0001F1F8\U0001F1EE\u65AF\u6D1B\u6587\u5C3C\u4E9A\u4E28yoyapai.com"
-  - "\U0001F1E8\U0001F1E6CA\u52A0\u62FF\u5927\u4E28yoyapai.com (2)"
+  - "\U0001F1E8\U0001F1E6CA\u52A0\u62FF\u5927\u4E28yoyapai.com"
   - "\U0001F1F9\U0001F1EDTH\u6CF0\u56FD\u4E28yoyapai.com (2)"
   - "\U0001F1F0\U0001F1F7KR\u97E9\u56FD\u4E28yoyapai.com"
   - "\U0001F1F1\U0001F1FBLV\u62C9\u8131\u7EF4\u4E9A\u4E28yoyapai.com"
-  - "\U0001F1E8\U0001F1E6CA\u52A0\u62FF\u5927\u4E28yoyapai.com (3)"
+  - "\U0001F1E8\U0001F1E6CA\u52A0\u62FF\u5927\u4E28yoyapai.com (2)"
   - "\U0001F1F9\U0001F1F7TR\u571F\u8033\u5176\u4E28yoyapai.com"
   - "\U0001F1EE\U0001F1F3IN\u5370\u5EA6\u4E28yoyapai.com"
   - "\U0001F1F3\U0001F1F4NO\u632A\u5A01\u4E28yoyapai.com"
   - "\U0001F1F9\U0001F1FCTW\u81FA\u7063\u4E28yoyapai.com"
   - "\U0001F1F0\U0001F1F7KR\u97E9\u570B\u4E28yoyapai.com"
-  - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (6)"
+  - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (7)"
   - "\U0001F1F8\U0001F1ECSG\u65B0\u52A0\u5761\u4E28yoyapai.com"
   - "\U0001F1FB\U0001F1F3VN\u8D8A\u5357\u4E28yoyapai.com"
   - "\U0001F1F8\U0001F1ECSG\u65B0\u52A0\u5761\u4E28yoyapai.com (2)"
   - "\U0001F1E8\U0001F1E6CA\u52A0\u62FF\u5927"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (44)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (42)"
   - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD"
   - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD (2)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (45)"
-  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (9)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (43)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (44)"
   - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (10)"
-  - "\U0001F1FA\U0001F1F8US\u7F8E\u56FD\u4E28yoyapai.com (2)"
+  - "\U0001F1FA\U0001F1F8US\u7F8E\u56FD\u4E28yoyapai.com (3)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (45)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (46)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (47)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (48)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (49)"
   - "\U0001F1EE\U0001F1F1IL\u4EE5\u8272\u5217\u4E28yoyapai.com"
-  - "\U0001F1E8\U0001F1E6CA\u52A0\u62FF\u5927\u4E28yoyapai.com (4)"
+  - "\U0001F1E8\U0001F1E6CA\u52A0\u62FF\u5927\u4E28yoyapai.com (3)"
   - "\U0001F1E6\U0001F1EAAE\u963F\u8054\u914B\u4E28yoyapai.com"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (49)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (50)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (51)"
   - "\U0001F1F0\U0001F1F7KR\u97E9\u56FD"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (51)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (52)"
-  - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (7)"
   - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (8)"
   - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (9)"
   - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (10)"
+  - "\U0001F1F9\U0001F1FCTW\u53F0\u6E7E\u4E28yoyapai.com (2)"
+  - "\U0001F1E8\U0001F1E6CA\u52A0\u62FF\u5927\u4E28yoyapai.com (4)"
 - name: "\U0001F34E \u82F9\u679C\u670D\u52A1"
   type: select
   proxies:
   - "\U0001F680 \u8282\u70B9\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\U0001F1F9\U0001F1FCTW\u53F0\u6E7E\u4E28yoyapai.com"
-  - "\U0001F1F9\U0001F1FCTW\u53F0\u6E7E\u4E28yoyapai.com (2)"
-  - "\U0001F1E8\U0001F1E6CA\u52A0\u62FF\u5927\u4E28yoyapai.com"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com"
   - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com"
+  - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com"
+  - "\U0001F1EC\U0001F1E7GB\u82F1\u56FD\u4E28yoyapai.com"
+  - "\U0001F1EC\U0001F1E7GB\u82F1\u56FD\u4E28yoyapai.com (2)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (2)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (3)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (4)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (5)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (6)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (2)"
   - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (2)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (7)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (3)"
+  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (3)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (4)"
+  - "\U0001F1F3\U0001F1F1NL\u8377\u5170\u4E28yoyapai.com"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (2)"
   - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (3)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (4)"
+  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (4)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (5)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (5)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (6)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (7)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (6)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (7)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (8)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (9)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (8)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (10)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (4)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (5)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (9)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (11)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (6)"
+  - "\U0001F1F3\U0001F1FFNZ\u65B0\u897F\u5170\u4E28yoyapai.com"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (12)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (13)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (14)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (7)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (15)"
-  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (3)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (8)"
-  - "\U0001F1F3\U0001F1FFNZ\u65B0\u897F\u5170\u4E28yoyapai.com"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (10)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (16)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (11)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (17)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (18)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (9)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (12)"
+  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (5)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (19)"
-  - "\U0001F1F3\U0001F1F1NL\u8377\u5170\u4E28yoyapai.com"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (20)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (21)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (22)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (10)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (11)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (23)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (12)"
-  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (4)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (24)"
   - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (13)"
   - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (14)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (15)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (22)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (23)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (16)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (17)"
+  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (6)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (18)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (24)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (25)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (26)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (27)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (15)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (28)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (29)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (16)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (17)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (30)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (18)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (31)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (32)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (33)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (34)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (35)"
-  - "\U0001F1F3\U0001F1F1NL\u8377\u5170\u4E28yoyapai.com (2)"
   - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (19)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (29)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (30)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (31)"
   - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (20)"
   - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (21)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (32)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (33)"
+  - "\U0001F1F3\U0001F1F1NL\u8377\u5170\u4E28yoyapai.com (2)"
+  - "\U0001F1EC\U0001F1E7GB\u82F1\u56FD\u4E28yoyapai.com (3)"
   - "FR\u6CD5\u570B\u4E28yoyapai.com"
   - "FR\u6CD5\u570B\u4E28yoyapai.com (2)"
   - "FR\u6CD5\u570B\u4E28yoyapai.com (3)"
   - "\U0001F1EB\U0001F1F7FR\u6CD5\u56FD\u4E28yoyapai.com"
   - "\U0001F1EB\U0001F1F7FR\u6CD5\u570B\u4E28yoyapai.com"
   - "\U0001F1EB\U0001F1F7FR\u6CD5\u570B\u4E28yoyapai.com (2)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (36)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (34)"
   - "\U0001F1FA\U0001F1F8US\u7F8E\u570B\u4E28yoyapai.com"
   - "\U0001F1FA\U0001F1F8US\u7F8E\u56FD\u4E28yoyapai.com"
-  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (5)"
-  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (6)"
+  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (7)"
+  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (8)"
   - "\U0001F1F3\U0001F1F1NL\u8377\u5170\u4E28yoyapai.com (3)"
   - "\U0001F1F3\U0001F1F1NL\u8377\u5170\u4E28yoyapai.com (4)"
   - "\U0001F1EA\U0001F1EAEE\u7231\u6C99\u5C3C\u4E9A\u4E28yoyapai.com"
   - "\U0001F1EB\U0001F1EEFI\u82AC\u5170\u4E28yoyapai.com"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (37)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (35)"
   - "\U0001F1F3\U0001F1F1NL\u8377\u5170\u4E28yoyapai.com (5)"
   - "\U0001F1F3\U0001F1F1NL\u8377\u5170\u4E28yoyapai.com (6)"
   - "\U0001F1FA\U0001F1F8US\u7F8E\u570B\u4E28yoyapai.com (2)"
@@ -4046,9 +4111,9 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8US\u7F8E\u570B\u4E28yoyapai.com (8)"
   - "FR\u6CD5\u570B\u4E28yoyapai.com (4)"
   - "\U0001F1FA\U0001F1F8US\u7F8E\u570B\u4E28yoyapai.com (9)"
-  - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com"
   - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (2)"
   - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (3)"
+  - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (4)"
   - "\U0001F1EF\U0001F1F5JP\u65E5\u672C\u7BC0\u9EDE\u4E28yoyapai.com"
   - "\U0001F1EF\U0001F1F5JP\u65E5\u672C\u7BC0\u9EDE\u4E28yoyapai.com (2)"
   - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u7BC0\u9EDE\u4E28yoyapai.com"
@@ -4079,30 +4144,29 @@ proxy-groups:
   - "\U0001F1F9\U0001F1EDTH\u6CF0\u570B\u4E28yoyapai.com"
   - "\U0001F1F9\U0001F1ED Thailand\u6CF0\u56FD\u4E28yoyapai.com"
   - "\u2753\u514D\u8CBB\u7BC0\u9EDE\u4E28yoyapai.com"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (38)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (36)"
   - "\U0001F5FD\U0001F1FA\U0001F1F8\u7F8E\u570BCloudFlare\u8282\u70B9\u4E28yoyapai.com"
+  - "\U0001F1EE\U0001F1F7IR\u4F0A\u6717\u4E28yoyapai.com"
+  - "\U0001F1F7\U0001F1FARU\u4FC4\u7F57\u65AF\u4E28yoyapai.com"
+  - "\U0001F1FA\U0001F1F8US\u7F8E\u56FD\u4E28yoyapai.com (2)"
   - "\U0001F1F9\U0001F1EDTH\u6CF0\u56FD\u4E28yoyapai.com"
   - "\U0001F1E9\U0001F1EADE\u5FB7\u570B\u4E28yoyapai.com"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (39)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (37)"
   - "\U0001F1FA\U0001F1F8US\u7F8E\u570B\u4E28yoyapai.com (10)"
   - "\U0001F1FA\U0001F1F8US\u7F8E\u570B\u4E28yoyapai.com (11)"
   - "\U0001F1EB\U0001F1EEFI\u82AC\u5170\u4E28yoyapai.com (2)"
   - "\U0001F1EB\U0001F1EEFI\u82AC\u5170\u4E28yoyapai.com (3)"
   - "\U0001F1F1\U0001F1F0LK\u65AF\u91CC\u5170\u5361\u4E28yoyapai.com"
   - "\U0001F1F9\U0001F1EDTH\u6CF0\u56FD"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (38)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (39)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (40)"
-  - "\U0001F1EC\U0001F1E7GB\u82F1\u56FD\u4E28yoyapai.com"
-  - "\U0001F1EC\U0001F1E7GB\u82F1\u56FD\u4E28yoyapai.com (2)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (41)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (42)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (43)"
-  - "\U0001F1EC\U0001F1E7GB\u82F1\u56FD\u4E28yoyapai.com (3)"
-  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (7)"
   - "\U0001F1EA\U0001F1EAEE\u7231\u6C99\u5C3C\u4E9A\u4E28yoyapai.com (2)"
-  - "\U0001F1F7\U0001F1FARU\u4FC4\u7F57\u65AF\u4E28yoyapai.com"
+  - "\U0001F1F7\U0001F1FARU\u4FC4\u7F57\u65AF\u4E28yoyapai.com (2)"
   - "\U0001F1E8\U0001F1ED\u745E\u58EB\u4E28yoyapai.com"
   - "\U0001F1FA\U0001F1F8\u7F8E\u56FD\u4E28yoyapai.com"
-  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (8)"
+  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (9)"
   - "\U0001F1F2\U0001F1E9MD\u6469\u5C14\u591A\u74E6\u4E28yoyapai.com"
   - "\U0001F1E8\U0001F1FFCZ\u6377\u514B\u4E28yoyapai.com"
   - "\U0001F1F0\U0001F1FFKZ\u54C8\u8428\u514B\u65AF\u5766\u4E28yoyapai.com"
@@ -4113,8 +4177,8 @@ proxy-groups:
   - "\U0001F1F8\U0001F1EC SG\u65B0\u52A0\u5761"
   - "\U0001F1EF\U0001F1F5JP\u65E5\u672C\u4E28yoyapai.com (2)"
   - "\U0001F1EF\U0001F1F5JP\u65E5\u672C\u4E28yoyapai.com (3)"
-  - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (4)"
   - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (5)"
+  - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (6)"
   - "\u7F8E\u570B\u4E28yoyapai.com (2)"
   - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u7BC0\u9EDE\u4E28yoyapai.com (6)"
   - "\U0001F1FA\U0001F1E6\u70CF\u514B\u862D\u4E28yoyapai.com"
@@ -4128,43 +4192,45 @@ proxy-groups:
   - "JP\u65E5\u672C\u4E28yoyapai.com"
   - "\U0001F1E6\U0001F1EA_\u963F\u62C9\u4F2F\u8054\u5408\u914B\u957F\u56FD\u4E28yoyapai.com"
   - "\U0001F1F8\U0001F1EE\u65AF\u6D1B\u6587\u5C3C\u4E9A\u4E28yoyapai.com"
-  - "\U0001F1E8\U0001F1E6CA\u52A0\u62FF\u5927\u4E28yoyapai.com (2)"
+  - "\U0001F1E8\U0001F1E6CA\u52A0\u62FF\u5927\u4E28yoyapai.com"
   - "\U0001F1F9\U0001F1EDTH\u6CF0\u56FD\u4E28yoyapai.com (2)"
   - "\U0001F1F0\U0001F1F7KR\u97E9\u56FD\u4E28yoyapai.com"
   - "\U0001F1F1\U0001F1FBLV\u62C9\u8131\u7EF4\u4E9A\u4E28yoyapai.com"
-  - "\U0001F1E8\U0001F1E6CA\u52A0\u62FF\u5927\u4E28yoyapai.com (3)"
+  - "\U0001F1E8\U0001F1E6CA\u52A0\u62FF\u5927\u4E28yoyapai.com (2)"
   - "\U0001F1F9\U0001F1F7TR\u571F\u8033\u5176\u4E28yoyapai.com"
   - "\U0001F1EE\U0001F1F3IN\u5370\u5EA6\u4E28yoyapai.com"
   - "\U0001F1F3\U0001F1F4NO\u632A\u5A01\u4E28yoyapai.com"
   - "\U0001F1F9\U0001F1FCTW\u81FA\u7063\u4E28yoyapai.com"
   - "\U0001F1F0\U0001F1F7KR\u97E9\u570B\u4E28yoyapai.com"
-  - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (6)"
+  - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (7)"
   - "\U0001F1F8\U0001F1ECSG\u65B0\u52A0\u5761\u4E28yoyapai.com"
   - "\U0001F1FB\U0001F1F3VN\u8D8A\u5357\u4E28yoyapai.com"
   - "\U0001F1F8\U0001F1ECSG\u65B0\u52A0\u5761\u4E28yoyapai.com (2)"
   - "\U0001F1E8\U0001F1E6CA\u52A0\u62FF\u5927"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (44)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (42)"
   - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD"
   - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD (2)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (45)"
-  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (9)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (43)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (44)"
   - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (10)"
-  - "\U0001F1FA\U0001F1F8US\u7F8E\u56FD\u4E28yoyapai.com (2)"
+  - "\U0001F1FA\U0001F1F8US\u7F8E\u56FD\u4E28yoyapai.com (3)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (45)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (46)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (47)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (48)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (49)"
   - "\U0001F1EE\U0001F1F1IL\u4EE5\u8272\u5217\u4E28yoyapai.com"
-  - "\U0001F1E8\U0001F1E6CA\u52A0\u62FF\u5927\u4E28yoyapai.com (4)"
+  - "\U0001F1E8\U0001F1E6CA\u52A0\u62FF\u5927\u4E28yoyapai.com (3)"
   - "\U0001F1E6\U0001F1EAAE\u963F\u8054\u914B\u4E28yoyapai.com"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (49)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (50)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (51)"
   - "\U0001F1F0\U0001F1F7KR\u97E9\u56FD"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (51)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (52)"
-  - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (7)"
   - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (8)"
   - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (9)"
   - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (10)"
+  - "\U0001F1F9\U0001F1FCTW\u53F0\u6E7E\u4E28yoyapai.com (2)"
+  - "\U0001F1E8\U0001F1E6CA\u52A0\u62FF\u5927\u4E28yoyapai.com (4)"
 - name: "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   type: select
   proxies:
@@ -4188,87 +4254,89 @@ proxy-groups:
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F1F9\U0001F1FCTW\u53F0\u6E7E\u4E28yoyapai.com"
-  - "\U0001F1F9\U0001F1FCTW\u53F0\u6E7E\u4E28yoyapai.com (2)"
-  - "\U0001F1E8\U0001F1E6CA\u52A0\u62FF\u5927\u4E28yoyapai.com"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com"
   - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com"
+  - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com"
+  - "\U0001F1EC\U0001F1E7GB\u82F1\u56FD\u4E28yoyapai.com"
+  - "\U0001F1EC\U0001F1E7GB\u82F1\u56FD\u4E28yoyapai.com (2)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (2)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (3)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (4)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (5)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (6)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (2)"
   - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (2)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (7)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (3)"
+  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (3)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (4)"
+  - "\U0001F1F3\U0001F1F1NL\u8377\u5170\u4E28yoyapai.com"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (2)"
   - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (3)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (4)"
+  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (4)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (5)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (5)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (6)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (7)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (6)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (7)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (8)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (9)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (8)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (10)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (4)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (5)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (9)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (11)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (6)"
+  - "\U0001F1F3\U0001F1FFNZ\u65B0\u897F\u5170\u4E28yoyapai.com"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (12)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (13)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (14)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (7)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (15)"
-  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (3)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (8)"
-  - "\U0001F1F3\U0001F1FFNZ\u65B0\u897F\u5170\u4E28yoyapai.com"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (10)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (16)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (11)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (17)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (18)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (9)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (12)"
+  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (5)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (19)"
-  - "\U0001F1F3\U0001F1F1NL\u8377\u5170\u4E28yoyapai.com"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (20)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (21)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (22)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (10)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (11)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (23)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (12)"
-  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (4)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (24)"
   - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (13)"
   - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (14)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (15)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (22)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (23)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (16)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (17)"
+  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (6)"
+  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (18)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (24)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (25)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (26)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (27)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (15)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (28)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (29)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (16)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (17)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (30)"
-  - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (18)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (31)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (32)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (33)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (34)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (35)"
-  - "\U0001F1F3\U0001F1F1NL\u8377\u5170\u4E28yoyapai.com (2)"
   - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (19)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (29)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (30)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (31)"
   - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (20)"
   - "\U0001F1EE\U0001F1F9IT\u610F\u5927\u5229\u4E28yoyapai.com (21)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (32)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (33)"
+  - "\U0001F1F3\U0001F1F1NL\u8377\u5170\u4E28yoyapai.com (2)"
+  - "\U0001F1EC\U0001F1E7GB\u82F1\u56FD\u4E28yoyapai.com (3)"
   - "FR\u6CD5\u570B\u4E28yoyapai.com"
   - "FR\u6CD5\u570B\u4E28yoyapai.com (2)"
   - "FR\u6CD5\u570B\u4E28yoyapai.com (3)"
   - "\U0001F1EB\U0001F1F7FR\u6CD5\u56FD\u4E28yoyapai.com"
   - "\U0001F1EB\U0001F1F7FR\u6CD5\u570B\u4E28yoyapai.com"
   - "\U0001F1EB\U0001F1F7FR\u6CD5\u570B\u4E28yoyapai.com (2)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (36)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (34)"
   - "\U0001F1FA\U0001F1F8US\u7F8E\u570B\u4E28yoyapai.com"
   - "\U0001F1FA\U0001F1F8US\u7F8E\u56FD\u4E28yoyapai.com"
-  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (5)"
-  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (6)"
+  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (7)"
+  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (8)"
   - "\U0001F1F3\U0001F1F1NL\u8377\u5170\u4E28yoyapai.com (3)"
   - "\U0001F1F3\U0001F1F1NL\u8377\u5170\u4E28yoyapai.com (4)"
   - "\U0001F1EA\U0001F1EAEE\u7231\u6C99\u5C3C\u4E9A\u4E28yoyapai.com"
   - "\U0001F1EB\U0001F1EEFI\u82AC\u5170\u4E28yoyapai.com"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (37)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (35)"
   - "\U0001F1F3\U0001F1F1NL\u8377\u5170\u4E28yoyapai.com (5)"
   - "\U0001F1F3\U0001F1F1NL\u8377\u5170\u4E28yoyapai.com (6)"
   - "\U0001F1FA\U0001F1F8US\u7F8E\u570B\u4E28yoyapai.com (2)"
@@ -4283,9 +4351,9 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8US\u7F8E\u570B\u4E28yoyapai.com (8)"
   - "FR\u6CD5\u570B\u4E28yoyapai.com (4)"
   - "\U0001F1FA\U0001F1F8US\u7F8E\u570B\u4E28yoyapai.com (9)"
-  - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com"
   - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (2)"
   - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (3)"
+  - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (4)"
   - "\U0001F1EF\U0001F1F5JP\u65E5\u672C\u7BC0\u9EDE\u4E28yoyapai.com"
   - "\U0001F1EF\U0001F1F5JP\u65E5\u672C\u7BC0\u9EDE\u4E28yoyapai.com (2)"
   - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u7BC0\u9EDE\u4E28yoyapai.com"
@@ -4316,30 +4384,29 @@ proxy-groups:
   - "\U0001F1F9\U0001F1EDTH\u6CF0\u570B\u4E28yoyapai.com"
   - "\U0001F1F9\U0001F1ED Thailand\u6CF0\u56FD\u4E28yoyapai.com"
   - "\u2753\u514D\u8CBB\u7BC0\u9EDE\u4E28yoyapai.com"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (38)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (36)"
   - "\U0001F5FD\U0001F1FA\U0001F1F8\u7F8E\u570BCloudFlare\u8282\u70B9\u4E28yoyapai.com"
+  - "\U0001F1EE\U0001F1F7IR\u4F0A\u6717\u4E28yoyapai.com"
+  - "\U0001F1F7\U0001F1FARU\u4FC4\u7F57\u65AF\u4E28yoyapai.com"
+  - "\U0001F1FA\U0001F1F8US\u7F8E\u56FD\u4E28yoyapai.com (2)"
   - "\U0001F1F9\U0001F1EDTH\u6CF0\u56FD\u4E28yoyapai.com"
   - "\U0001F1E9\U0001F1EADE\u5FB7\u570B\u4E28yoyapai.com"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (39)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (37)"
   - "\U0001F1FA\U0001F1F8US\u7F8E\u570B\u4E28yoyapai.com (10)"
   - "\U0001F1FA\U0001F1F8US\u7F8E\u570B\u4E28yoyapai.com (11)"
   - "\U0001F1EB\U0001F1EEFI\u82AC\u5170\u4E28yoyapai.com (2)"
   - "\U0001F1EB\U0001F1EEFI\u82AC\u5170\u4E28yoyapai.com (3)"
   - "\U0001F1F1\U0001F1F0LK\u65AF\u91CC\u5170\u5361\u4E28yoyapai.com"
   - "\U0001F1F9\U0001F1EDTH\u6CF0\u56FD"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (38)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (39)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (40)"
-  - "\U0001F1EC\U0001F1E7GB\u82F1\u56FD\u4E28yoyapai.com"
-  - "\U0001F1EC\U0001F1E7GB\u82F1\u56FD\u4E28yoyapai.com (2)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (41)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (42)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (43)"
-  - "\U0001F1EC\U0001F1E7GB\u82F1\u56FD\u4E28yoyapai.com (3)"
-  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (7)"
   - "\U0001F1EA\U0001F1EAEE\u7231\u6C99\u5C3C\u4E9A\u4E28yoyapai.com (2)"
-  - "\U0001F1F7\U0001F1FARU\u4FC4\u7F57\u65AF\u4E28yoyapai.com"
+  - "\U0001F1F7\U0001F1FARU\u4FC4\u7F57\u65AF\u4E28yoyapai.com (2)"
   - "\U0001F1E8\U0001F1ED\u745E\u58EB\u4E28yoyapai.com"
   - "\U0001F1FA\U0001F1F8\u7F8E\u56FD\u4E28yoyapai.com"
-  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (8)"
+  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (9)"
   - "\U0001F1F2\U0001F1E9MD\u6469\u5C14\u591A\u74E6\u4E28yoyapai.com"
   - "\U0001F1E8\U0001F1FFCZ\u6377\u514B\u4E28yoyapai.com"
   - "\U0001F1F0\U0001F1FFKZ\u54C8\u8428\u514B\u65AF\u5766\u4E28yoyapai.com"
@@ -4350,8 +4417,8 @@ proxy-groups:
   - "\U0001F1F8\U0001F1EC SG\u65B0\u52A0\u5761"
   - "\U0001F1EF\U0001F1F5JP\u65E5\u672C\u4E28yoyapai.com (2)"
   - "\U0001F1EF\U0001F1F5JP\u65E5\u672C\u4E28yoyapai.com (3)"
-  - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (4)"
   - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (5)"
+  - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (6)"
   - "\u7F8E\u570B\u4E28yoyapai.com (2)"
   - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u7BC0\u9EDE\u4E28yoyapai.com (6)"
   - "\U0001F1FA\U0001F1E6\u70CF\u514B\u862D\u4E28yoyapai.com"
@@ -4365,43 +4432,45 @@ proxy-groups:
   - "JP\u65E5\u672C\u4E28yoyapai.com"
   - "\U0001F1E6\U0001F1EA_\u963F\u62C9\u4F2F\u8054\u5408\u914B\u957F\u56FD\u4E28yoyapai.com"
   - "\U0001F1F8\U0001F1EE\u65AF\u6D1B\u6587\u5C3C\u4E9A\u4E28yoyapai.com"
-  - "\U0001F1E8\U0001F1E6CA\u52A0\u62FF\u5927\u4E28yoyapai.com (2)"
+  - "\U0001F1E8\U0001F1E6CA\u52A0\u62FF\u5927\u4E28yoyapai.com"
   - "\U0001F1F9\U0001F1EDTH\u6CF0\u56FD\u4E28yoyapai.com (2)"
   - "\U0001F1F0\U0001F1F7KR\u97E9\u56FD\u4E28yoyapai.com"
   - "\U0001F1F1\U0001F1FBLV\u62C9\u8131\u7EF4\u4E9A\u4E28yoyapai.com"
-  - "\U0001F1E8\U0001F1E6CA\u52A0\u62FF\u5927\u4E28yoyapai.com (3)"
+  - "\U0001F1E8\U0001F1E6CA\u52A0\u62FF\u5927\u4E28yoyapai.com (2)"
   - "\U0001F1F9\U0001F1F7TR\u571F\u8033\u5176\u4E28yoyapai.com"
   - "\U0001F1EE\U0001F1F3IN\u5370\u5EA6\u4E28yoyapai.com"
   - "\U0001F1F3\U0001F1F4NO\u632A\u5A01\u4E28yoyapai.com"
   - "\U0001F1F9\U0001F1FCTW\u81FA\u7063\u4E28yoyapai.com"
   - "\U0001F1F0\U0001F1F7KR\u97E9\u570B\u4E28yoyapai.com"
-  - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (6)"
+  - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (7)"
   - "\U0001F1F8\U0001F1ECSG\u65B0\u52A0\u5761\u4E28yoyapai.com"
   - "\U0001F1FB\U0001F1F3VN\u8D8A\u5357\u4E28yoyapai.com"
   - "\U0001F1F8\U0001F1ECSG\u65B0\u52A0\u5761\u4E28yoyapai.com (2)"
   - "\U0001F1E8\U0001F1E6CA\u52A0\u62FF\u5927"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (44)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (42)"
   - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD"
   - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD (2)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (45)"
-  - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (9)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (43)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (44)"
   - "\U0001F1E9\U0001F1EADE\u5FB7\u56FD\u4E28yoyapai.com (10)"
-  - "\U0001F1FA\U0001F1F8US\u7F8E\u56FD\u4E28yoyapai.com (2)"
+  - "\U0001F1FA\U0001F1F8US\u7F8E\u56FD\u4E28yoyapai.com (3)"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (45)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (46)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (47)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (48)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (49)"
   - "\U0001F1EE\U0001F1F1IL\u4EE5\u8272\u5217\u4E28yoyapai.com"
-  - "\U0001F1E8\U0001F1E6CA\u52A0\u62FF\u5927\u4E28yoyapai.com (4)"
+  - "\U0001F1E8\U0001F1E6CA\u52A0\u62FF\u5927\u4E28yoyapai.com (3)"
   - "\U0001F1E6\U0001F1EAAE\u963F\u8054\u914B\u4E28yoyapai.com"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (49)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (50)"
-  - "\u2753\u672A\u77E5\u4E28yoyapai.com (51)"
   - "\U0001F1F0\U0001F1F7KR\u97E9\u56FD"
+  - "\u2753\u672A\u77E5\u4E28yoyapai.com (51)"
   - "\u2753\u672A\u77E5\u4E28yoyapai.com (52)"
-  - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (7)"
   - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (8)"
   - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (9)"
   - "\U0001F1ED\U0001F1F0HK\u9999\u6E2F\u4E28yoyapai.com (10)"
+  - "\U0001F1F9\U0001F1FCTW\u53F0\u6E7E\u4E28yoyapai.com (2)"
+  - "\U0001F1E8\U0001F1E6CA\u52A0\u62FF\u5927\u4E28yoyapai.com (4)"
 rule-providers:
   LocalAreaNetwork:
     type: http
